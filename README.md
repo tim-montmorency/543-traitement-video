@@ -1,5 +1,4 @@
-[![Build Status](https://travis-ci.com/tim-montmorency/543-traitement-video.svg?branch=master)](https://travis-ci.com/tim-montmorency/543-traitement-video)
-
+![renderbook](https://github.com/tim-montmorency/543-traitement-video/workflows/renderbook/badge.svg)
 
 Livre en R markdown; 
 
