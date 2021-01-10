@@ -1,0 +1,16 @@
+# mac stuff
+DS_Store
+.DS_Store
+# don't push local rendered files in master branch
+_book/
+_bookdown_files/
+libs/
+**/*.html 
+# ignore all html files except:
+.travis.yml DESCRIPTION Dockerfile _build.sh _deploy.sh now.json .gitignore*/mathjax_header.html
+# rstuff
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+

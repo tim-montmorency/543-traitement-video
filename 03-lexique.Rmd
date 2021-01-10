@@ -1,0 +1,16 @@
+# Lexique technique et technologique{#lexique}
+
+## Formats de fichiers 
+## Encodage des vidéos  
+## Captation vidéo en temps réel 
+## Logiciels de traitement vidéo en temps réel et d’interactivité 
+## Logiciels de programmation nodale 
+
+## Notions de traitement vidéo 
+### Pixels
+### Couleurs 
+### Texture 
+### Matrice 
+### Mémoire tampon 
+### Alpha channel 
+### Rendu OpenGL

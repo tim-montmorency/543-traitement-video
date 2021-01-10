@@ -1,0 +1,7 @@
+# Traiter l'image en mouvement {#traiter}
+## Usage de capture vidéo en temps réel  
+## Effets visuels et filtres applicables en temps réel sur des matériaux visuels  
+## Traitement visuel en temps réel à l’aide d’effets et de logiciels de programmation multimédia et nodale 
+## Flot de données entre les objets du logiciel 
+## Exploitation des fonctions des logiciels de traitement vidéo en temps réel 
+## Utilisation de nuanciers (shaders) 

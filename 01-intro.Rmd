@@ -1,0 +1,154 @@
+# Traitement vidéo (582-543-MO)
+
+## Description du cours
+
+* Techniques D’INTÉGRATION MULTIMÉDIA
+* Département des techniques d’intégration multimédia
+* 582.A1
+* Pondération : 1-2-2
+* Unités: 1,66
+* Heures-contact : 45
+* Session : 4
+
+Ce cours permet à l’étudiante ou l’étudiant d’enregistrer, de modifier et de traiter des images en temps réel. 
+L’étudiant sera appelé à appliquer des effets visuels aux images vidéo et à adapter les images en fonction de l’intégration.
+
+
+## Objectifs 
+### Objectif intégrateur et ministériel
+* 015J Traiter les images en mouvement
+
+### Objectifs d’apprentissage
+* Adapter des images en mouvement  (Importance relative : 40% )
+* Programmer des effets spéciaux et l’interactivité (Importance relative : 40% )
+* Intégrer des images en mouvement à une production interactive (Importance relative : 20% )
+
+
+### Attitudes professionnelles
+*  Créativité 
+*  Sens esthétique 
+*  Adaptation
+
+
+### Habiletés transdisciplinaires
+Profil TIC : les étudiantes et étudiants auront à exploiter les TIC de manière efficace et responsable. Ils auront à rechercher, à traiter et à présenter de l’information.
+
+
+## Préalables
+### Préalable absolu au présent cours :
+* 582 413 MO Montage vidéo 
+
+### Préalable absolu aux cours suivants :
+* 582 513 MO Conception de projet multimédia
+* 582 66B MO Expérience multimédia interactive
+* 582 66G MO Production Web en entreprise
+
+## Contexte particulier d’apprentissage 
+* En laboratoire et studio.
+
+
+### Fiche technique
+* Ordinateurs, projecteurs à haute luminosité ou télévision, haut-parleurs professionnels, casque audio, et tout le matériel disponible pour TIM
+* Logiciels de montage vidéo et traitemet vidéo en temps réel 
+	* Open broadcast studio
+	* Unity
+	* Pure Data
+	* Resolve
+	* Reaper 
+	* ffmpeg
+	* Open stage control
+* Languages et protocoles 
+	* Programmation nodale 
+	* Javascript
+	* Open sound control (OSC)
+	* Réseautique (addressage ip)
+	* Midi 
+	* NDI
+	* Websocket
+
+
+  
+Technicienne ou technicien en travaux pratiques
+
+
+## Contenus essentiels 
+
+### Survol historique
+* Évolution historique du traitement vidéo dans les différentes formes d’art 
+	* Performance 
+	* Installation
+	* Évolution des technologies associées 
+* Langages et moyens expressifs de l’image en mouvement 
+
+
+### Fondements technique 
+* Formats de fichiers 
+* Encodage des vidéos  
+* Captation vidéo en temps réel 
+* Logiciels de traitement vidéo en temps réel et d’interactivité 
+* Logiciels de programmation nodale 
+* Notions de traitement vidéo 
+	* pixels, 
+	* couleurs, 
+	* texture, 
+	* matrice, 
+	* mémoire tampon 
+	* alpha channel 
+	* rendu OpenGL
+
+
+### Traitement de l'images en mouvement
+* Usage de capture vidéo en temps réel  
+* Effets visuels et filtres applicables en temps réel sur des matériaux visuels  
+* Traitement visuel en temps réel à l’aide d’effets et de logiciels de programmation multimédia et nodale 
+* Flot de données entre les objets du logiciel 
+* Exploitation des fonctions des logiciels de traitement vidéo en temps réel 
+* Utilisation de nuanceurs (shaders) 
+
+### Programmation d'effets visuels 
+* Programmation de compositions visuelles génératives 
+* Réalisation d’un échantillonneur/mixeur visuel 
+* Programmation pour contrôler la lecture vidéo, 
+	* montage temps réel 
+	* niveau des couleurs 
+	* alpha channel  
+* Programmation nodale pour créer des effets en temps réel 
+	* position
+	* rotation
+	* dimensions
+	* mixage d’images 
+	* incrustation 
+	* distorsion 
+	* délais
+	* rétroaction (feedback)
+	* modification de couleurs 
+	* chromakey 
+	* lumière 
+	* fumée
+	* texture
+* Nuanceurs (shaders) : vertex, pixel et géométrie 
+
+
+### Image en mouvement et interactivité 
+* Intégration des composantes dans une production interactive 
+* Configuration logicielle et matérielle d’une production interactive  
+* Conceptualisation et scénarisation d’un projet visuel interactif  
+* Captation de mouvement et de présence
+* Programmation de la captation de mouvement et de présence 
+* Utilisation d’interfaces de contrôle interactives 
+* Utilisation d’OSC, MIDI, DMX ou ArtNet pour interagir avec d'autre logiciels et interfaces de contrôle
+* Ajustement des effets visuels en fonction des tests 
+
+### Gestion de projets
+* Schématisation 
+* Prototypage 
+* Gestion de banques d’images 
+* Optimisation des performances de l’application 
+* Test de contrôle de qualité 
+* Préréglages 
+* Optimisation de la programmation et commentaires 
+* Console de débogage 
+* Exportation de projets 
+* Formats de sauvegarde  
+* Application autonome 
+* Sauvegarde et archivage des médias 
