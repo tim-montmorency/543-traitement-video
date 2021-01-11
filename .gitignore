@@ -5,7 +5,6 @@ DS_Store
 _book/
 _bookdown_files/
 libs/
-**/*.html 
 # ignore all html files except:
 .travis.yml DESCRIPTION Dockerfile _build.sh _deploy.sh now.json .gitignore*/mathjax_header.html
 # rstuff

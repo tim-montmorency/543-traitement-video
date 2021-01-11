@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>4.6 Notions de traitement vidéo | Traitement vidéo</title>
+  <meta name="description" content="bookdown::gitbook sur le traitement vidéo" />
+  <meta name="generator" content="bookdown 0.21.6 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="4.6 Notions de traitement vidéo | Traitement vidéo" />
+  <meta property="og:type" content="book" />
+  
+  <meta property="og:image" content="/images/cover.png" />
+  <meta property="og:description" content="bookdown::gitbook sur le traitement vidéo" />
+  <meta name="github-repo" content="tim-montmorency/543-traitement-video" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="4.6 Notions de traitement vidéo | Traitement vidéo" />
+  
+  <meta name="twitter:description" content="bookdown::gitbook sur le traitement vidéo" />
+  <meta name="twitter:image" content="/images/cover.png" />
+
+<meta name="author" content="Guillaume Arseneault" />
+
+
+<meta name="date" content="2021-01-11" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+<link rel="prev" href="logiciels-de-programmation-nodale.html"/>
+<link rel="next" href="traiter.html"/>
+<script src="assets/header-attrs-2.6.4/header-attrs.js"></script>
+<script src="assets/jquery-2.2.3/jquery.min.js"></script>
+<link href="assets/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="assets/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="assets/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="assets/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="assets/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="assets/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="assets/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<link href="assets/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="assets/anchor-sections-1.0.1/anchor-sections.js"></script>
+
+
+
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Traitement vidéo</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Préface</a></li>
+<li class="chapter" data-level="2" data-path="traitement-vidéo-582-543-mo.html"><a href="traitement-vidéo-582-543-mo.html"><i class="fa fa-check"></i><b>2</b> Traitement vidéo (582-543-MO)</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="description-du-cours.html"><a href="description-du-cours.html"><i class="fa fa-check"></i><b>2.1</b> Description du cours</a></li>
+<li class="chapter" data-level="2.2" data-path="objectifs.html"><a href="objectifs.html"><i class="fa fa-check"></i><b>2.2</b> Objectifs</a>
+<ul>
+<li class="chapter" data-level="2.2.1" data-path="objectifs.html"><a href="objectifs.html#objectif-intégrateur-et-ministériel"><i class="fa fa-check"></i><b>2.2.1</b> Objectif intégrateur et ministériel</a></li>
+<li class="chapter" data-level="2.2.2" data-path="objectifs.html"><a href="objectifs.html#objectifs-dapprentissage"><i class="fa fa-check"></i><b>2.2.2</b> Objectifs d’apprentissage</a></li>
+<li class="chapter" data-level="2.2.3" data-path="objectifs.html"><a href="objectifs.html#attitudes-professionnelles"><i class="fa fa-check"></i><b>2.2.3</b> Attitudes professionnelles</a></li>
+<li class="chapter" data-level="2.2.4" data-path="objectifs.html"><a href="objectifs.html#habiletés-transdisciplinaires"><i class="fa fa-check"></i><b>2.2.4</b> Habiletés transdisciplinaires</a></li>
+</ul></li>
+<li class="chapter" data-level="2.3" data-path="préalables.html"><a href="préalables.html"><i class="fa fa-check"></i><b>2.3</b> Préalables</a>
+<ul>
+<li class="chapter" data-level="2.3.1" data-path="préalables.html"><a href="préalables.html#préalable-absolu-au-présent-cours"><i class="fa fa-check"></i><b>2.3.1</b> Préalable absolu au présent cours :</a></li>
+<li class="chapter" data-level="2.3.2" data-path="préalables.html"><a href="préalables.html#préalable-absolu-aux-cours-suivants"><i class="fa fa-check"></i><b>2.3.2</b> Préalable absolu aux cours suivants :</a></li>
+</ul></li>
+<li class="chapter" data-level="2.4" data-path="contexte-particulier-dapprentissage.html"><a href="contexte-particulier-dapprentissage.html"><i class="fa fa-check"></i><b>2.4</b> Contexte particulier d’apprentissage</a>
+<ul>
+<li class="chapter" data-level="2.4.1" data-path="contexte-particulier-dapprentissage.html"><a href="contexte-particulier-dapprentissage.html#fiche-technique"><i class="fa fa-check"></i><b>2.4.1</b> Fiche technique</a></li>
+</ul></li>
+<li class="chapter" data-level="2.5" data-path="contenus-essentiels.html"><a href="contenus-essentiels.html"><i class="fa fa-check"></i><b>2.5</b> Contenus essentiels</a>
+<ul>
+<li class="chapter" data-level="2.5.1" data-path="contenus-essentiels.html"><a href="contenus-essentiels.html#survol-historique"><i class="fa fa-check"></i><b>2.5.1</b> Survol historique</a></li>
+<li class="chapter" data-level="2.5.2" data-path="contenus-essentiels.html"><a href="contenus-essentiels.html#fondements-technique"><i class="fa fa-check"></i><b>2.5.2</b> Fondements technique</a></li>
+<li class="chapter" data-level="2.5.3" data-path="contenus-essentiels.html"><a href="contenus-essentiels.html#traitement-de-limages-en-mouvement"><i class="fa fa-check"></i><b>2.5.3</b> Traitement de l’images en mouvement</a></li>
+<li class="chapter" data-level="2.5.4" data-path="contenus-essentiels.html"><a href="contenus-essentiels.html#programmation-deffets-visuels"><i class="fa fa-check"></i><b>2.5.4</b> Programmation d’effets visuels</a></li>
+<li class="chapter" data-level="2.5.5" data-path="contenus-essentiels.html"><a href="contenus-essentiels.html#image-en-mouvement-et-interactivité"><i class="fa fa-check"></i><b>2.5.5</b> Image en mouvement et interactivité</a></li>
+<li class="chapter" data-level="2.5.6" data-path="contenus-essentiels.html"><a href="contenus-essentiels.html#gestion-de-projets"><i class="fa fa-check"></i><b>2.5.6</b> Gestion de projets</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="historique.html"><a href="historique.html"><i class="fa fa-check"></i><b>3</b> Historique du traitement vidéo</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="évolution-historique-du-traitement-vidéo-dans-les-différentes-formes-dart.html"><a href="évolution-historique-du-traitement-vidéo-dans-les-différentes-formes-dart.html"><i class="fa fa-check"></i><b>3.1</b> Évolution historique du traitement vidéo dans les différentes formes d’art</a>
+<ul>
+<li class="chapter" data-level="3.1.1" data-path="évolution-historique-du-traitement-vidéo-dans-les-différentes-formes-dart.html"><a href="évolution-historique-du-traitement-vidéo-dans-les-différentes-formes-dart.html#performance"><i class="fa fa-check"></i><b>3.1.1</b> Performance</a></li>
+<li class="chapter" data-level="3.1.2" data-path="évolution-historique-du-traitement-vidéo-dans-les-différentes-formes-dart.html"><a href="évolution-historique-du-traitement-vidéo-dans-les-différentes-formes-dart.html#installation"><i class="fa fa-check"></i><b>3.1.2</b> Installation</a></li>
+<li class="chapter" data-level="3.1.3" data-path="évolution-historique-du-traitement-vidéo-dans-les-différentes-formes-dart.html"><a href="évolution-historique-du-traitement-vidéo-dans-les-différentes-formes-dart.html#évolution-des-technologies-associées"><i class="fa fa-check"></i><b>3.1.3</b> Évolution des technologies associées</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2" data-path="langages-et-moyens-expressifs-de-limage-en-mouvement.html"><a href="langages-et-moyens-expressifs-de-limage-en-mouvement.html"><i class="fa fa-check"></i><b>3.2</b> Langages et moyens expressifs de l’image en mouvement</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="lexique.html"><a href="lexique.html"><i class="fa fa-check"></i><b>4</b> Lexique technique et technologique</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="formats-de-fichiers.html"><a href="formats-de-fichiers.html"><i class="fa fa-check"></i><b>4.1</b> Formats de fichiers</a></li>
+<li class="chapter" data-level="4.2" data-path="encodage-des-vidéos.html"><a href="encodage-des-vidéos.html"><i class="fa fa-check"></i><b>4.2</b> Encodage des vidéos</a></li>
+<li class="chapter" data-level="4.3" data-path="captation-vidéo-en-temps-réel.html"><a href="captation-vidéo-en-temps-réel.html"><i class="fa fa-check"></i><b>4.3</b> Captation vidéo en temps réel</a></li>
+<li class="chapter" data-level="4.4" data-path="logiciels-de-traitement-vidéo-en-temps-réel-et-dinteractivité.html"><a href="logiciels-de-traitement-vidéo-en-temps-réel-et-dinteractivité.html"><i class="fa fa-check"></i><b>4.4</b> Logiciels de traitement vidéo en temps réel et d’interactivité</a></li>
+<li class="chapter" data-level="4.5" data-path="logiciels-de-programmation-nodale.html"><a href="logiciels-de-programmation-nodale.html"><i class="fa fa-check"></i><b>4.5</b> Logiciels de programmation nodale</a></li>
+<li class="chapter" data-level="4.6" data-path="notions-de-traitement-vidéo.html"><a href="notions-de-traitement-vidéo.html"><i class="fa fa-check"></i><b>4.6</b> Notions de traitement vidéo</a>
+<ul>
+<li class="chapter" data-level="4.6.1" data-path="notions-de-traitement-vidéo.html"><a href="notions-de-traitement-vidéo.html#pixels"><i class="fa fa-check"></i><b>4.6.1</b> Pixels</a></li>
+<li class="chapter" data-level="4.6.2" data-path="notions-de-traitement-vidéo.html"><a href="notions-de-traitement-vidéo.html#couleurs"><i class="fa fa-check"></i><b>4.6.2</b> Couleurs</a></li>
+<li class="chapter" data-level="4.6.3" data-path="notions-de-traitement-vidéo.html"><a href="notions-de-traitement-vidéo.html#texture"><i class="fa fa-check"></i><b>4.6.3</b> Texture</a></li>
+<li class="chapter" data-level="4.6.4" data-path="notions-de-traitement-vidéo.html"><a href="notions-de-traitement-vidéo.html#matrice"><i class="fa fa-check"></i><b>4.6.4</b> Matrice</a></li>
+<li class="chapter" data-level="4.6.5" data-path="notions-de-traitement-vidéo.html"><a href="notions-de-traitement-vidéo.html#mémoire-tampon"><i class="fa fa-check"></i><b>4.6.5</b> Mémoire tampon</a></li>
+<li class="chapter" data-level="4.6.6" data-path="notions-de-traitement-vidéo.html"><a href="notions-de-traitement-vidéo.html#alpha-channel"><i class="fa fa-check"></i><b>4.6.6</b> Alpha channel</a></li>
+<li class="chapter" data-level="4.6.7" data-path="notions-de-traitement-vidéo.html"><a href="notions-de-traitement-vidéo.html#rendu-opengl"><i class="fa fa-check"></i><b>4.6.7</b> Rendu OpenGL</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="traiter.html"><a href="traiter.html"><i class="fa fa-check"></i><b>5</b> Traiter l’image en mouvement</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="usage-de-capture-vidéo-en-temps-réel.html"><a href="usage-de-capture-vidéo-en-temps-réel.html"><i class="fa fa-check"></i><b>5.1</b> Usage de capture vidéo en temps réel</a></li>
+<li class="chapter" data-level="5.2" data-path="effets-visuels-et-filtres-applicables-en-temps-réel-sur-des-matériaux-visuels.html"><a href="effets-visuels-et-filtres-applicables-en-temps-réel-sur-des-matériaux-visuels.html"><i class="fa fa-check"></i><b>5.2</b> Effets visuels et filtres applicables en temps réel sur des matériaux visuels</a></li>
+<li class="chapter" data-level="5.3" data-path="traitement-visuel-en-temps-réel-à-laide-deffets-et-de-logiciels-de-programmation-multimédia-et-nodale.html"><a href="traitement-visuel-en-temps-réel-à-laide-deffets-et-de-logiciels-de-programmation-multimédia-et-nodale.html"><i class="fa fa-check"></i><b>5.3</b> Traitement visuel en temps réel à l’aide d’effets et de logiciels de programmation multimédia et nodale</a></li>
+<li class="chapter" data-level="5.4" data-path="flot-de-données-entre-les-objets-du-logiciel.html"><a href="flot-de-données-entre-les-objets-du-logiciel.html"><i class="fa fa-check"></i><b>5.4</b> Flot de données entre les objets du logiciel</a></li>
+<li class="chapter" data-level="5.5" data-path="exploitation-des-fonctions-des-logiciels-de-traitement-vidéo-en-temps-réel.html"><a href="exploitation-des-fonctions-des-logiciels-de-traitement-vidéo-en-temps-réel.html"><i class="fa fa-check"></i><b>5.5</b> Exploitation des fonctions des logiciels de traitement vidéo en temps réel</a></li>
+<li class="chapter" data-level="5.6" data-path="utilisation-de-nuanciers-shaders.html"><a href="utilisation-de-nuanciers-shaders.html"><i class="fa fa-check"></i><b>5.6</b> Utilisation de nuanciers (shaders)</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="programmer.html"><a href="programmer.html"><i class="fa fa-check"></i><b>6</b> Programmer des effets visuels</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="programmation-de-compositions-visuelles-génératives.html"><a href="programmation-de-compositions-visuelles-génératives.html"><i class="fa fa-check"></i><b>6.1</b> Programmation de compositions visuelles génératives</a></li>
+<li class="chapter" data-level="6.2" data-path="réalisation-dun-échantillonneurmélangeur-visuel.html"><a href="réalisation-dun-échantillonneurmélangeur-visuel.html"><i class="fa fa-check"></i><b>6.2</b> Réalisation d’un échantillonneur/mélangeur visuel</a></li>
+<li class="chapter" data-level="6.3" data-path="programmation-pour-contrôler-la-lecture-vidéo.html"><a href="programmation-pour-contrôler-la-lecture-vidéo.html"><i class="fa fa-check"></i><b>6.3</b> Programmation pour contrôler la lecture vidéo,</a>
+<ul>
+<li class="chapter" data-level="6.3.1" data-path="programmation-pour-contrôler-la-lecture-vidéo.html"><a href="programmation-pour-contrôler-la-lecture-vidéo.html#montage-temps-réel"><i class="fa fa-check"></i><b>6.3.1</b> montage temps réel</a></li>
+<li class="chapter" data-level="6.3.2" data-path="programmation-pour-contrôler-la-lecture-vidéo.html"><a href="programmation-pour-contrôler-la-lecture-vidéo.html#niveau-des-couleurs"><i class="fa fa-check"></i><b>6.3.2</b> niveau des couleurs</a></li>
+<li class="chapter" data-level="6.3.3" data-path="programmation-pour-contrôler-la-lecture-vidéo.html"><a href="programmation-pour-contrôler-la-lecture-vidéo.html#alpha-channel-1"><i class="fa fa-check"></i><b>6.3.3</b> alpha channel</a></li>
+</ul></li>
+<li class="chapter" data-level="6.4" data-path="programmation-nodale-pour-créer-des-effets-en-temps-réel.html"><a href="programmation-nodale-pour-créer-des-effets-en-temps-réel.html"><i class="fa fa-check"></i><b>6.4</b> Programmation nodale pour créer des effets en temps réel</a>
+<ul>
+<li class="chapter" data-level="6.4.1" data-path="programmation-nodale-pour-créer-des-effets-en-temps-réel.html"><a href="programmation-nodale-pour-créer-des-effets-en-temps-réel.html#position"><i class="fa fa-check"></i><b>6.4.1</b> position</a></li>
+<li class="chapter" data-level="6.4.2" data-path="programmation-nodale-pour-créer-des-effets-en-temps-réel.html"><a href="programmation-nodale-pour-créer-des-effets-en-temps-réel.html#rotation"><i class="fa fa-check"></i><b>6.4.2</b> rotation</a></li>
+<li class="chapter" data-level="6.4.3" data-path="programmation-nodale-pour-créer-des-effets-en-temps-réel.html"><a href="programmation-nodale-pour-créer-des-effets-en-temps-réel.html#dimensions"><i class="fa fa-check"></i><b>6.4.3</b> dimensions</a></li>
+<li class="chapter" data-level="6.4.4" data-path="programmation-nodale-pour-créer-des-effets-en-temps-réel.html"><a href="programmation-nodale-pour-créer-des-effets-en-temps-réel.html#mixage-dimages"><i class="fa fa-check"></i><b>6.4.4</b> mixage d’images</a></li>
+<li class="chapter" data-level="6.4.5" data-path="programmation-nodale-pour-créer-des-effets-en-temps-réel.html"><a href="programmation-nodale-pour-créer-des-effets-en-temps-réel.html#incrustation"><i class="fa fa-check"></i><b>6.4.5</b> incrustation</a></li>
+<li class="chapter" data-level="6.4.6" data-path="programmation-nodale-pour-créer-des-effets-en-temps-réel.html"><a href="programmation-nodale-pour-créer-des-effets-en-temps-réel.html#distorsion"><i class="fa fa-check"></i><b>6.4.6</b> distorsion</a></li>
+<li class="chapter" data-level="6.4.7" data-path="programmation-nodale-pour-créer-des-effets-en-temps-réel.html"><a href="programmation-nodale-pour-créer-des-effets-en-temps-réel.html#délais"><i class="fa fa-check"></i><b>6.4.7</b> délais</a></li>
+<li class="chapter" data-level="6.4.8" data-path="programmation-nodale-pour-créer-des-effets-en-temps-réel.html"><a href="programmation-nodale-pour-créer-des-effets-en-temps-réel.html#rétroaction-feedback"><i class="fa fa-check"></i><b>6.4.8</b> rétroaction (feedback)</a></li>
+<li class="chapter" data-level="6.4.9" data-path="programmation-nodale-pour-créer-des-effets-en-temps-réel.html"><a href="programmation-nodale-pour-créer-des-effets-en-temps-réel.html#modification-de-couleurs"><i class="fa fa-check"></i><b>6.4.9</b> modification de couleurs</a></li>
+<li class="chapter" data-level="6.4.10" data-path="programmation-nodale-pour-créer-des-effets-en-temps-réel.html"><a href="programmation-nodale-pour-créer-des-effets-en-temps-réel.html#chromakey"><i class="fa fa-check"></i><b>6.4.10</b> chromakey</a></li>
+<li class="chapter" data-level="6.4.11" data-path="programmation-nodale-pour-créer-des-effets-en-temps-réel.html"><a href="programmation-nodale-pour-créer-des-effets-en-temps-réel.html#lumière"><i class="fa fa-check"></i><b>6.4.11</b> lumière</a></li>
+<li class="chapter" data-level="6.4.12" data-path="programmation-nodale-pour-créer-des-effets-en-temps-réel.html"><a href="programmation-nodale-pour-créer-des-effets-en-temps-réel.html#fumée"><i class="fa fa-check"></i><b>6.4.12</b> fumée</a></li>
+<li class="chapter" data-level="6.4.13" data-path="programmation-nodale-pour-créer-des-effets-en-temps-réel.html"><a href="programmation-nodale-pour-créer-des-effets-en-temps-réel.html#texture-1"><i class="fa fa-check"></i><b>6.4.13</b> texture</a></li>
+</ul></li>
+<li class="chapter" data-level="6.5" data-path="nuanceurs-shaders-vertex-pixel-et-géométrie.html"><a href="nuanceurs-shaders-vertex-pixel-et-géométrie.html"><i class="fa fa-check"></i><b>6.5</b> Nuanceurs (shaders) : vertex, pixel et géométrie</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="interagir.html"><a href="interagir.html"><i class="fa fa-check"></i><b>7</b> Interactivité et images en mouvement</a>
+<ul>
+<li class="chapter" data-level="7.0.1" data-path="interagir.html"><a href="interagir.html#intégration-des-composantes-dans-une-production-interactive"><i class="fa fa-check"></i><b>7.0.1</b> Intégration des composantes dans une production interactive</a></li>
+<li class="chapter" data-level="7.0.2" data-path="interagir.html"><a href="interagir.html#configuration-logicielle-et-matérielle-dune-production-interactive"><i class="fa fa-check"></i><b>7.0.2</b> Configuration logicielle et matérielle d’une production interactive</a></li>
+<li class="chapter" data-level="7.0.3" data-path="interagir.html"><a href="interagir.html#conceptualisation-et-scénarisation-dun-projet-visuel-interactif"><i class="fa fa-check"></i><b>7.0.3</b> Conceptualisation et scénarisation d’un projet visuel interactif</a></li>
+<li class="chapter" data-level="7.0.4" data-path="interagir.html"><a href="interagir.html#captation-de-mouvement-et-de-présence"><i class="fa fa-check"></i><b>7.0.4</b> Captation de mouvement et de présence</a></li>
+<li class="chapter" data-level="7.0.5" data-path="interagir.html"><a href="interagir.html#programmation-de-la-captation-de-mouvement-et-de-présence"><i class="fa fa-check"></i><b>7.0.5</b> Programmation de la captation de mouvement et de présence</a></li>
+<li class="chapter" data-level="7.0.6" data-path="interagir.html"><a href="interagir.html#utilisation-dinterfaces-de-contrôle-interactives"><i class="fa fa-check"></i><b>7.0.6</b> Utilisation d’interfaces de contrôle interactives</a></li>
+<li class="chapter" data-level="7.0.7" data-path="interagir.html"><a href="interagir.html#utilisation-dosc-midi-dmx-ou-artnet-pour-interagir-avec-dautres-logiciels-et-interfaces-de-contrôle"><i class="fa fa-check"></i><b>7.0.7</b> Utilisation d’OSC, MIDI, DMX ou ArtNet pour interagir avec d’autres logiciels et interfaces de contrôle</a></li>
+<li class="chapter" data-level="7.0.8" data-path="interagir.html"><a href="interagir.html#ajustement-des-effets-visuels-en-fonction-des-tests"><i class="fa fa-check"></i><b>7.0.8</b> Ajustement des effets visuels en fonction des tests</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="déploiement-de-projet-vidéo-interactif.html"><a href="déploiement-de-projet-vidéo-interactif.html"><i class="fa fa-check"></i><b>8</b> Déploiement de projet vidéo interactif</a>
+<ul>
+<li class="chapter" data-level="8.1" data-path="schématisation.html"><a href="schématisation.html"><i class="fa fa-check"></i><b>8.1</b> Schématisation</a></li>
+<li class="chapter" data-level="8.2" data-path="prototypage.html"><a href="prototypage.html"><i class="fa fa-check"></i><b>8.2</b> Prototypage</a></li>
+<li class="chapter" data-level="8.3" data-path="gestion-de-banques-dimages.html"><a href="gestion-de-banques-dimages.html"><i class="fa fa-check"></i><b>8.3</b> Gestion de banques d’images</a></li>
+<li class="chapter" data-level="8.4" data-path="optimisation-des-performances-de-lapplication.html"><a href="optimisation-des-performances-de-lapplication.html"><i class="fa fa-check"></i><b>8.4</b> Optimisation des performances de l’application</a></li>
+<li class="chapter" data-level="8.5" data-path="test-de-contrôle-de-qualité.html"><a href="test-de-contrôle-de-qualité.html"><i class="fa fa-check"></i><b>8.5</b> Test de contrôle de qualité</a></li>
+<li class="chapter" data-level="8.6" data-path="préréglages.html"><a href="préréglages.html"><i class="fa fa-check"></i><b>8.6</b> Préréglages</a></li>
+<li class="chapter" data-level="8.7" data-path="optimisation-de-la-programmation-et-commentaires.html"><a href="optimisation-de-la-programmation-et-commentaires.html"><i class="fa fa-check"></i><b>8.7</b> Optimisation de la programmation et commentaires</a></li>
+<li class="chapter" data-level="8.8" data-path="console-de-débogage.html"><a href="console-de-débogage.html"><i class="fa fa-check"></i><b>8.8</b> Console de débogage</a></li>
+<li class="chapter" data-level="8.9" data-path="exportation-de-projets.html"><a href="exportation-de-projets.html"><i class="fa fa-check"></i><b>8.9</b> Exportation de projets</a></li>
+<li class="chapter" data-level="8.10" data-path="formats-de-sauvegarde.html"><a href="formats-de-sauvegarde.html"><i class="fa fa-check"></i><b>8.10</b> Formats de sauvegarde</a></li>
+<li class="chapter" data-level="8.11" data-path="application-autonome.html"><a href="application-autonome.html"><i class="fa fa-check"></i><b>8.11</b> Application autonome</a></li>
+<li class="chapter" data-level="8.12" data-path="sauvegarde-et-archivage-des-médias.html"><a href="sauvegarde-et-archivage-des-médias.html"><i class="fa fa-check"></i><b>8.12</b> Sauvegarde et archivage des médias</a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="exercices.html"><a href="exercices.html"><i class="fa fa-check"></i><b>9</b> Exercices</a>
+<ul>
+<li class="chapter" data-level="9.1" data-path="premier.html"><a href="premier.html"><i class="fa fa-check"></i><b>9.1</b> Premier</a></li>
+<li class="chapter" data-level="9.2" data-path="deuxième.html"><a href="deuxième.html"><i class="fa fa-check"></i><b>9.2</b> Deuxième</a></li>
+<li class="chapter" data-level="9.3" data-path="troisième.html"><a href="troisième.html"><i class="fa fa-check"></i><b>9.3</b> Troisième</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<li><a href="https://gllm.ca" target="blank">G</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Traitement vidéo</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="notions-de-traitement-vidéo" class="section level2" number="4.6">
+<h2><span class="header-section-number">4.6</span> Notions de traitement vidéo</h2>
+<div id="pixels" class="section level3" number="4.6.1">
+<h3><span class="header-section-number">4.6.1</span> Pixels</h3>
+</div>
+<div id="couleurs" class="section level3" number="4.6.2">
+<h3><span class="header-section-number">4.6.2</span> Couleurs</h3>
+</div>
+<div id="texture" class="section level3" number="4.6.3">
+<h3><span class="header-section-number">4.6.3</span> Texture</h3>
+</div>
+<div id="matrice" class="section level3" number="4.6.4">
+<h3><span class="header-section-number">4.6.4</span> Matrice</h3>
+</div>
+<div id="mémoire-tampon" class="section level3" number="4.6.5">
+<h3><span class="header-section-number">4.6.5</span> Mémoire tampon</h3>
+</div>
+<div id="alpha-channel" class="section level3" number="4.6.6">
+<h3><span class="header-section-number">4.6.6</span> Alpha channel</h3>
+</div>
+<div id="rendu-opengl" class="section level3" number="4.6.7">
+<h3><span class="header-section-number">4.6.7</span> Rendu OpenGL</h3>
+
+</div>
+</div>
+<!-- </div> -->
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="logiciels-de-programmation-nodale.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="traiter.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="assets/gitbook-2.6.7/js/app.min.js"></script>
+<script src="assets/gitbook-2.6.7/js/lunr.js"></script>
+<script src="assets/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="assets/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="assets/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="assets/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="assets/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="assets/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="assets/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/tim-montmorency/543-traitement-video/edit/master/03-lexique.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["traitement-video.pdf"],
+"toc": {
+"collapse": "subsection"
+},
+"toolbar": {
+"position": "static"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
