@@ -5,9 +5,10 @@ bookdown::gitbook:
       before: |
         <li><a href="./">Traitement vidéo</a></li>
       after: |
-        <li><a href="https://gllm.ca" target="blank">G</a></li>
+        <li><a href="https://gllm.ca" target="blank">Gllmar</a></li>
     edit: https://github.com/tim-montmorency/543-traitement-video/edit/master/%s
     download: ["pdf"]
+    sharing: null
 bookdown::pdf_book:
   includes:
     in_header: preamble.tex
