@@ -7,7 +7,7 @@ bookdown::gitbook:
       after: |
         <li><a href="https://gllm.ca" target="blank">Gllmar</a></li>
     edit: https://github.com/tim-montmorency/543-traitement-video/edit/master/%s
-    download: ["pdf"]
+    download: ["pdf","epub"]
     sharing: null
 bookdown::pdf_book:
   includes:
