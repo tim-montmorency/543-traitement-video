@@ -15,7 +15,7 @@ output:
   bookdown::html_book:
     css: toc.css
 documentclass: book
-bibliography: [book.bib, packages.bib]
+bibliography: [book.bib, packages.bib, gllmair-video.bib]
 biblio-style: apalike
 link-citations: yes
 graphics: yes

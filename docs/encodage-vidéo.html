@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Traitement vidéo</title>
+  <title>4.3 Encodage vidéo | Traitement vidéo</title>
   <meta name="description" content="bookdown::gitbook sur le traitement vidéo" />
   <meta name="generator" content="bookdown 0.21.6 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Traitement vidéo" />
+  <meta property="og:title" content="4.3 Encodage vidéo | Traitement vidéo" />
   <meta property="og:type" content="book" />
   
   <meta property="og:image" content="/images/cover.png" />
@@ -16,7 +16,7 @@
   <meta name="github-repo" content="tim-montmorency/543-traitement-video" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Traitement vidéo" />
+  <meta name="twitter:title" content="4.3 Encodage vidéo | Traitement vidéo" />
   
   <meta name="twitter:description" content="bookdown::gitbook sur le traitement vidéo" />
   <meta name="twitter:image" content="/images/cover.png" />
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
-
-<link rel="next" href="traitement-vidéo-582-543-mo.html"/>
+<link rel="prev" href="formats-de-fichiers.html"/>
+<link rel="next" href="captation-vidéo-en-temps-réel.html"/>
 <script src="assets/header-attrs-2.6.4/header-attrs.js"></script>
 <script src="assets/jquery-2.2.3/jquery.min.js"></script>
 <link href="assets/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -262,23 +262,93 @@ div.csl-indent {
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="header">
-<h1 class="title">Traitement vidéo</h1>
-<p class="author"><em>Guillaume Arseneault</em></p>
-<p class="date"><em>2021-01-11</em></p>
+<div id="encodage-vidéo" class="section level2" number="4.3">
+<h2><span class="header-section-number">4.3</span> Encodage vidéo</h2>
+<div id="compression" class="section level3" number="4.3.1">
+<h3><span class="header-section-number">4.3.1</span> compression</h3>
+<div id="losslesslossy" class="section level4" number="4.3.1.1">
+<h4><span class="header-section-number">4.3.1.1</span> lossless/lossy</h4>
+<div id="encodage-vidéo-sans-perte---lossless" class="section level5" number="4.3.1.1.1">
+<h5><span class="header-section-number">4.3.1.1.1</span> <a href="https://en.wikipedia.org/wiki/List_of_codecs#Lossless_video_compression">Encodage vidéo sans perte - lossless</a></h5>
+<ul>
+<li>Apple Animation (QuickTime RLE)</li>
+<li>CinemaDNG Raw (Adobe, Blackmagic)</li>
+<li>séquence d’images (tiff, openexr)</li>
+</ul>
 </div>
-<div id="préface" class="section level1" number="1">
-<h1><span class="header-section-number">Chapitre 1</span> Préface</h1>
-<p>Ce livre se produit via <strong>bookdown</strong> <span class="citation">(<a href="#ref-rmarkdown2018" role="doc-biblioref">Xie, Allaire, and Grolemund 2018</a>)</span>, R Markdown et <strong>knitr</strong> <span class="citation">(<a href="#ref-xie2015" role="doc-biblioref">Xie 2015</a>)</span></p>
-
+<div id="encodage-vidéo-avec-perte--lossy" class="section level5" number="4.3.1.1.2">
+<h5><span class="header-section-number">4.3.1.1.2</span> <a href="https://en.wikipedia.org/wiki/List_of_codecs#Lossy_compression_2">Encodage vidéo avec perte -lossy</a></h5>
+<ul>
+<li>H.264&amp;VP8</li>
+<li>HEVC&amp;VP9</li>
+<li>proRes, dnxHD, cineform<br />
+</li>
+<li>HAP &amp; HAPQ</li>
+</ul>
+</div>
+</div>
+<div id="intrainter-frame" class="section level4" number="4.3.1.2">
+<h4><span class="header-section-number">4.3.1.2</span> intra/inter frame</h4>
+<div id="intraframe" class="section level5" number="4.3.1.2.1">
+<h5><span class="header-section-number">4.3.1.2.1</span> intraframe</h5>
+<ul>
+<li>Toute l’image individuellement compressée dans chaque image.
+<ul>
+<li>prores, dnxHD, photoJpeg, Apple intermediate codec (aic), cineform</li>
+</ul></li>
+</ul>
+</div>
+<div id="interframe" class="section level5" number="4.3.1.2.2">
+<h5><span class="header-section-number">4.3.1.2.2</span> <a href="https://en.wikipedia.org/wiki/Inter_frame">interframe</a></h5>
+<ul>
+<li>image temporellement compressée, <a href="http://dvd-hq.info/data_compression_3.php">ce qui change</a>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Video_compression_picture_types">images: I (clef), P (&lt;-) et B(&lt;-&gt;)</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Inter_frame#/media/File:IPB_images_sequence.png">GOP : group of picture</a></li>
+</ul></li>
+<li>usage créatif <a href="https://www.youtube.com/watch?v=rMSsw4CZvKg">1</a>, <a href="https://www.youtube.com/watch?v=rSmEOk5AiN0">2</a>, <a href="https://www.youtube.com/watch?v=dNa0-xrKi3Q">3</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="utilisation-de-ffmpeg" class="section level3" number="4.3.2">
+<h3><span class="header-section-number">4.3.2</span> utilisation de FFmpeg</h3>
+<div id="ex-transcoder-un-fichier-video-vers-un-fichier-prores-compatible-avec-quicktime" class="section level4" number="4.3.2.1">
+<h4><span class="header-section-number">4.3.2.1</span> ex: Transcoder un fichier video vers un fichier prores compatible avec quicktime</h4>
+<pre><code>ffmpeg -i INPUT.mkv -c:v prores_ks -profile:v 3 -c:a pcm_s16le -pix_fmt yuv420p OUTPUT.mov</code></pre>
+<p>Où <code>-profile</code> est un chiffre entire de -1 to 5 correspondant au profile prores suivant :</p>
+<ul>
+<li>-1: auto (default)</li>
+<li>0: proxy ≈ 45Mbps YUV 4:2:2</li>
+<li>1: lt ≈ 102Mbps YUV 4:2:2</li>
+<li>2: standard ≈ 147Mbps YUV 4:2:2</li>
+<li>3: hq ≈ 220Mbps YUV 4:2:2</li>
+<li>4: 4444≈ 330Mbps YUVA 4:4:4:4</li>
+<li>5: 4444xq ≈ 500Mbps YUVA 4:4:4:4</li>
+</ul>
+<p>Où <code>-pix_fmt yuv420p</code> permet de créer un fichier compatible avec Quicktime</p>
+<p>pour des usages réguliers voir :</p>
+<ul>
+<li>FFmpeg Cookbook for Archivists <span class="citation">(<a href="#ref-kromer_FFmpegCookbookArchivists_2020" role="doc-biblioref">Kromer 2020–08–12</a>)</span></li>
+<li>FFmpeg Cookbook par Greg Wessels <span class="citation">(<a href="#ref-wessels_FFmpegCookbook_2017" role="doc-biblioref">Wessels 2017</a>)</span></li>
+</ul>
+<p>pour des usages artistiques :</p>
+<ul>
+<li>FFmpeg artschool <span class="citation">(<a href="#ref-associationofmovingimagearchivists_FFmpegArtschool_2020" role="doc-biblioref">Association of Moving Image Archivists 2020</a>)</span></li>
+</ul>
+</div>
+</div>
 </div>
 <h3>References</h3>
 <div id="refs" class="references csl-bib-body hanging-indent">
-<div id="ref-xie2015" class="csl-entry">
-Xie, Yihui. 2015. <em>Dynamic Documents with <span>R</span> and Knitr</em>. 2nd ed. Boca Raton, Florida: Chapman; Hall/CRC. <a href="http://yihui.name/knitr/">http://yihui.name/knitr/</a>.
+<div id="ref-associationofmovingimagearchivists_FFmpegArtschool_2020" class="csl-entry">
+Association of Moving Image Archivists. 2020. <span>“<span>FFmpeg Artschool</span>:”</span> <span>ffmpeg-artschool</span>. 2020. <a href="https://amiaopensource.github.io/ffmpeg-artschool/">https://amiaopensource.github.io/ffmpeg-artschool/</a>.
 </div>
-<div id="ref-rmarkdown2018" class="csl-entry">
-Xie, Yihui, J. J. Allaire, and Garrett Grolemund. 2018. <em>R Markdown: The Definitive Guide</em>. Boca Raton, Florida: Chapman; Hall/CRC. <a href="https://bookdown.org/yihui/rmarkdown">https://bookdown.org/yihui/rmarkdown</a>.
+<div id="ref-kromer_FFmpegCookbookArchivists_2020" class="csl-entry">
+Kromer, Reto. 2020–08–12. <span>“<span>FFmpeg Cookbook</span> for <span>Archivists</span>.”</span> <span>FFmpeg Cookbook for Archivists</span>. 2020–08–12. <a href="https://avpres.net/FFmpeg/">https://avpres.net/FFmpeg/</a>.
+</div>
+<div id="ref-wessels_FFmpegCookbook_2017" class="csl-entry">
+Wessels, Greg. 2017. <span>“<span>FFmpeg Cookbook</span>.”</span> April 25, 2017. <a href="http://www.gregwessels.com/dev/2017/04/25/ffmpeg-cookbook.html">http://www.gregwessels.com/dev/2017/04/25/ffmpeg-cookbook.html</a>.
 </div>
 </div>
             </section>
@@ -286,8 +356,8 @@ Xie, Yihui, J. J. Allaire, and Garrett Grolemund. 2018. <em>R Markdown: The Defi
           </div>
         </div>
       </div>
-
-<a href="traitement-vidéo-582-543-mo.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="formats-de-fichiers.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="captation-vidéo-en-temps-réel.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="assets/gitbook-2.6.7/js/app.min.js"></script>
@@ -309,7 +379,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/tim-montmorency/543-traitement-video/edit/master/index.Rmd",
+"link": "https://github.com/tim-montmorency/543-traitement-video/edit/master/03-lexique.Rmd",
 "text": "Edit"
 },
 "history": {
