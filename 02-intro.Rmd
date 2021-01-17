@@ -71,14 +71,14 @@ Profil TIC : les étudiantes et étudiants auront à exploiter les TIC de mani�
 Technicienne ou technicien en travaux pratiques
 
 
-## Contenus essentiels 
+## Contenus essentiels {#contenus_essentiels}
 
 ### Survol historique
-* Évolution historique du traitement vidéo dans les différentes formes d’art 
-	* Performance 
-	* Installation
-	* Évolution des technologies associées 
-* Langages et moyens expressifs de l’image en mouvement 
+* [Évolution historique du traitement vidéo dans les différentes formes d’art](#evolution_historique)
+	* [Performance](#evolution_historique_performance) 
+	* [Installation](#evolution_historique_installation)
+	* [Évolution des technologies associées](#evolution_historique_technologies)
+* [Langages et moyens expressifs de l’image en mouvement](#evolution_historique_language) 
 
 
 ### Fondements technique 
@@ -88,10 +88,10 @@ Technicienne ou technicien en travaux pratiques
 * Logiciels de traitement vidéo en temps réel et d’interactivité 
 * Logiciels de programmation nodale 
 * Notions de traitement vidéo 
-	* pixels, 
-	* couleurs, 
-	* texture, 
-	* matrice, 
+	* pixels
+	* couleurs 
+	* texture
+	* matrice 
 	* mémoire tampon 
 	* alpha channel 
 	* rendu OpenGL

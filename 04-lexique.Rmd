@@ -1,6 +1,6 @@
 # Lexique technique et technologique{#lexique}
 
-## Composantes du signal vidéo
+## Composantes du signal vidéo{#lexique_composantes}
 ### Signaux de transmission
 * [Signaux analogues/digitaux](https://en.wikipedia.org/wiki/Video#Analog_video)
 	* [transmission télévisuelle analogue](https://en.wikipedia.org/wiki/Analog_television)
@@ -33,7 +33,7 @@
 * [calcul de grosseur de fichier](https://toolstud.io/video/filesize.php?imagewidth=1920&imageheight=1080&framerate=29.97&timeduration=60&timeunit=seconds)
 * [calcul de bitrate](https://toolstud.io/video/bitrate.php?imagewidth=1&imageheight=1&colordepth=24&framerate=29.97)
 
-## Formats de fichiers 
+## Formats de fichiers {#lexique_fichiers}
 
 ### Containers
 
@@ -117,7 +117,6 @@ pour des usages artistiques :
 
 ## Captation vidéo en temps réel 
 
-## Logiciels de traitement vidéo en temps réel et d’interactivité 
 
 ## Logiciels de programmation nodale 
 

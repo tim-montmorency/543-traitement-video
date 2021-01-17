@@ -1,0 +1,41 @@
+# Évaluations sommatives
+
+## Corpus vidéo {#evaluation_1}
+### 15% individuel
+### Présentation orale individuelle ~5 minutes
+* Traiter une oeuvre et/ou une technique en lien avec le traitement vidéo  
+* Partager un extrait court et des capture écran si approprié
+* Présenter son contexte historique et technologique 
+* Sugérer une technique actuelle pour reproduire le résultat visuel
+* Tenter de lier des [contenus essentiels](#contenus_essentiels) à la présentation  
+
+## Question quiz {#evaluation_2}
+### 10% individuel
+### Rédaction d'une question pertinant et originale pour le quiz
+* Rédiger Une question théorique originale portant sur la matière du cours 
+* Se référer aux [contenus essentiels](#contenus_essentiels)
+* 4 choix de réponses éloquents comprenant une réponse
+
+
+## Quiz théorique {#evaluation_3}
+### 15% individuel
+* formulaire en ligne à répondre individuellement à livre ouvert 
+* Contient les questions quiz des deux groupes ainsi ceux de l'enseignement
+
+##  Moodboard vidéo {#evaluation_4}
+### 15% individuel
+### Partage d'écran individuelle ~5 minutes
+* Création sources 
+* Conceptualisation 
+
+## Déclenchement vidéo temps réel {#evaluation_5}
+### 25% individuel 
+### Flux(Stream) video où le traitement vidéo est effectué en temps réel 
+* Présentation de type partage d'écran et stream simultané
+* Changement de scène
+* Changement de paramètres
+* Pourrait prendre la forme d'un VJ set via scènes dans OBS
+
+##  Installation interactive et/ou performance audiovisuel {#evaluation_6}
+### 30% individuel ou équipe
+### Présentation, démonstration et documentation des apprentissages  
