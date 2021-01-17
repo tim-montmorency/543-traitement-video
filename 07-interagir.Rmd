@@ -1,9 +1,14 @@
 # Interactivité et images en mouvement {#interagir} 
-## Intégration des composantes dans une production interactive 
-## Configuration logicielle et matérielle d’une production interactive  
-## Conceptualisation et scénarisation d’un projet visuel interactif  
-## Captation de mouvement et de présence
-## Programmation de la captation de mouvement et de présence 
+
+
 ## Utilisation d’interfaces de contrôle interactives 
-## Utilisation d’OSC, MIDI, DMX ou ArtNet pour interagir avec d'autres logiciels et interfaces de contrôle
-## Ajustement des effets visuels en fonction des tests 
+
+## Communication via protocoles paramétriques temps réel 
+* Open sound control (OSC)
+* Websocket 
+* ArtNet 
+* MIDI 
+* DMX
+* ARTNET     
+
+## Programmation de la captation de mouvement et de présence 

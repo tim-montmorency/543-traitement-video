@@ -1,4 +1,4 @@
-# Traiter l'image en mouvement {#traiter}
+# Traiter l'image en mouvement{#traiter}
 
 ## Logiciels de traitement vidéo en temps réel et d’interactivité {#logiciels_de_traitement_video_temps_reel}
 * Open Broadcast Studio

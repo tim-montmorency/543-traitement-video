@@ -1,30 +1,38 @@
-# Programmer des effets visuels {#programmer}
-
-## Programmation de compositions visuelles génératives 
+# Programmer des effets visuels{#programmer}
 
 ## Réalisation d’un échantillonneur/mélangeur visuel 
 
-## Programmation pour contrôler la lecture vidéo, 
+## Montage temps réel 
+### Contrôler de la tête de lecture vidéo
+#### Position
+#### Boucle
+#### Vitesse 
 
-### montage temps réel 
+## Programmation d'effets temps réel 
 
-### niveau des couleurs 
+### Position
+### Rotation
+### Dimensions
 
-### alpha channel  
+### Niveau des couleurs 
+### Alpha channel  
+### Modification de couleurs 
 
-## Programmation nodale pour créer des effets en temps réel 
-### position
-### rotation
-### dimensions
-### mixage d’images 
-### incrustation 
-### distorsion 
-### délais
-### rétroaction (feedback)
-### modification de couleurs 
+### Mixage d’images 
+### Incrustation 
 ### chromakey 
-### lumière 
-### fumée
-### texture
 
-## Nuanceurs (shaders) : vertex, pixel et géométrie 
+### Distorsion 
+### Délais
+### Rétroaction (feedback)
+
+
+## Nuanceurs (shaders) : 
+### vertex, pixel et géométrie 
+
+### Usages
+#### lumière 
+#### fumée
+#### texture
+
+## Programmation de compositions visuelles génératives 

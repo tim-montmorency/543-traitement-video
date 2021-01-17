@@ -1,26 +1,34 @@
 # Déploiement de projet vidéo interactif
 
+## Conceptualisation et scénarisation d’un projet visuel interactif 
+
 ## Schématisation 
 
 ## Prototypage
 
-## Optimisation des performances de l’application 
+## Intégration des composantes dans une production interactive 
 
-## Gestion de banques d’images 
+## Configuration logicielle et matérielle d’une production interactive 
 
 ## Formats de sauvegarde  
 
-## Exportation de projets 
+## Préréglages 
 
 ## Sauvegarde et archivage des médias 
 
-## Préréglages 
+## Gestion de banques d’images 
+
+## Exportation de projets 
+
+## Tests et contrôle de la qualité 
+
+## Ajustement des effets visuels en fonction des tests 
+
+## Protocole de débogage via console
 
 ## Optimisation de la programmation et commentaires 
 
+## Optimisation des performances de l’application 
+
 ## Application autonome 
-
-## Console de débogage 
-## Test de contrôle de qualité 
-
 

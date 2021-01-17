@@ -87,23 +87,7 @@
 	* [GOP : group of picture](https://en.wikipedia.org/wiki/Inter_frame#/media/File:IPB_images_sequence.png)
 * usage créatif [1](https://www.youtube.com/watch?v=rMSsw4CZvKg), [2](https://www.youtube.com/watch?v=rSmEOk5AiN0), [3](https://www.youtube.com/watch?v=dNa0-xrKi3Q)
 
-### utilisation de FFmpeg
-#### ex: Transcoder un fichier video vers un fichier prores compatible avec quicktime
-```
-ffmpeg -i INPUT.mkv -c:v prores_ks -profile:v 3 -c:a pcm_s16le -pix_fmt yuv420p OUTPUT.mov
-```
 
-Où `-profile` est un chiffre entire de -1 to 5 correspondant au profile prores suivant :
-
-* -1: auto (default)
-* 0: proxy ≈ 45Mbps YUV 4:2:2
-* 1: lt ≈ 102Mbps YUV 4:2:2
-* 2: standard ≈ 147Mbps YUV 4:2:2
-* 3: hq ≈ 220Mbps YUV 4:2:2
-* 4: 4444≈ 330Mbps YUVA 4:4:4:4
-* 5: 4444xq ≈ 500Mbps YUVA 4:4:4:4
-
-Où `-pix_fmt yuv420p` permet de créer un fichier compatible avec Quicktime
 
 pour des usages réguliers voir : 
 
