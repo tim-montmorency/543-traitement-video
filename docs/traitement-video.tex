@@ -85,7 +85,7 @@
 
 \title{Traitement vidéo}
 \author{Guillaume Arseneault}
-\date{2021-01-11}
+\date{2021-01-16}
 
 \begin{document}
 \maketitle
@@ -98,6 +98,8 @@
 \listoffigures
 \hypertarget{pruxe9face}{%
 \chapter{Préface}\label{pruxe9face}}
+
+\includegraphics{images/cover.png}
 
 Ce livre se produit via \textbf{bookdown} \citep{rmarkdown2018}, R Markdown et \textbf{knitr} \citep{xie2015}
 
@@ -256,8 +258,8 @@ Profil TIC~: les étudiantes et étudiants auront à exploiter les TIC de maniè
 
 Technicienne ou technicien en travaux pratiques
 
-\hypertarget{contenus-essentiels}{%
-\section{Contenus essentiels}\label{contenus-essentiels}}
+\hypertarget{contenus_essentiels}{%
+\section{Contenus essentiels}\label{contenus_essentiels}}
 
 \hypertarget{survol-historique}{%
 \subsection{Survol historique}\label{survol-historique}}
@@ -265,19 +267,19 @@ Technicienne ou technicien en travaux pratiques
 \begin{itemize}
 \tightlist
 \item
-  Évolution historique du traitement vidéo dans les différentes formes d'art
+  \protect\hyperlink{evolution_historique}{Évolution historique du traitement vidéo dans les différentes formes d'art}
 
   \begin{itemize}
   \tightlist
   \item
-    Performance
+    \protect\hyperlink{evolution_historique_performance}{Performance}
   \item
-    Installation
+    \protect\hyperlink{evolution_historique_installation}{Installation}
   \item
-    Évolution des technologies associées
+    \protect\hyperlink{evolution_historique_technologies}{Évolution des technologies associées}
   \end{itemize}
 \item
-  Langages et moyens expressifs de l'image en mouvement
+  \protect\hyperlink{evolution_historique_language}{Langages et moyens expressifs de l'image en mouvement}
 \end{itemize}
 
 \hypertarget{fondements-technique}{%
@@ -301,13 +303,13 @@ Technicienne ou technicien en travaux pratiques
   \begin{itemize}
   \tightlist
   \item
-    pixels,
+    pixels
   \item
-    couleurs,
+    couleurs
   \item
-    texture,
+    texture
   \item
-    matrice,
+    matrice
   \item
     mémoire tampon
   \item
@@ -450,29 +452,286 @@ Technicienne ou technicien en travaux pratiques
 \hypertarget{historique}{%
 \chapter{Historique du traitement vidéo}\label{historique}}
 
-\hypertarget{uxe9volution-historique-du-traitement-viduxe9o-dans-les-diffuxe9rentes-formes-dart}{%
-\section{Évolution historique du traitement vidéo dans les différentes formes d'art}\label{uxe9volution-historique-du-traitement-viduxe9o-dans-les-diffuxe9rentes-formes-dart}}
+\hypertarget{evolution_historique}{%
+\section{Évolution historique du traitement vidéo dans les différentes formes d'art}\label{evolution_historique}}
 
-\hypertarget{performance}{%
-\subsection{Performance}\label{performance}}
+\hypertarget{evolution_historique_performance}{%
+\subsection{Performance}\label{evolution_historique_performance}}
 
-\hypertarget{installation}{%
-\subsection{Installation}\label{installation}}
+\hypertarget{evolution_historique_installation}{%
+\subsection{Installation}\label{evolution_historique_installation}}
 
-\hypertarget{uxe9volution-des-technologies-associuxe9es}{%
-\subsection{Évolution des technologies associées}\label{uxe9volution-des-technologies-associuxe9es}}
+\hypertarget{evolution_historique_technologies}{%
+\subsection{Évolution des technologies associées}\label{evolution_historique_technologies}}
 
-\hypertarget{langages-et-moyens-expressifs-de-limage-en-mouvement}{%
-\section{Langages et moyens expressifs de l'image en mouvement}\label{langages-et-moyens-expressifs-de-limage-en-mouvement}}
+\hypertarget{evolution_historique_language}{%
+\section{Langages et moyens expressifs de l'image en mouvement}\label{evolution_historique_language}}
 
 \hypertarget{lexique}{%
 \chapter{Lexique technique et technologique}\label{lexique}}
 
+\hypertarget{composantes-du-signal-viduxe9o}{%
+\section{Composantes du signal vidéo}\label{composantes-du-signal-viduxe9o}}
+
+\hypertarget{signaux-de-transmission}{%
+\subsection{Signaux de transmission}\label{signaux-de-transmission}}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://en.wikipedia.org/wiki/Video\#Analog_video}{Signaux analogues/digitaux}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \href{https://en.wikipedia.org/wiki/Analog_television}{transmission télévisuelle analogue}
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{ruxe9solutions}{%
+\subsection{résolutions}\label{ruxe9solutions}}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://en.wikipedia.org/wiki/Computer_display_standard\#/media/File:Vector_Video_Standards2.svg}{résolutions}
+\end{itemize}
+
+\hypertarget{ratio}{%
+\subsection{Ratio}\label{ratio}}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://en.wikipedia.org/wiki/Display_aspect_ratio}{ratios image}
+\item
+  \href{https://en.wikipedia.org/wiki/Pixel_aspect_ratio}{ratios-pixels}
+\end{itemize}
+
+\hypertarget{duxe9bit}{%
+\subsection{Débit}\label{duxe9bit}}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://en.wikipedia.org/wiki/Bit_rate\#Video}{Débit (bitrate)}
+\end{itemize}
+
+\hypertarget{uxe9chantillonnage}{%
+\subsection{Échantillonnage}\label{uxe9chantillonnage}}
+
+\begin{itemize}
+\tightlist
+\item
+  Profondeur de l'échantillonnage couleur
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \href{https://en.wikipedia.org/wiki/Color_depth}{bit/canal}\\
+  \end{itemize}
+\item
+  \href{https://en.wikipedia.org/wiki/Chroma_subsampling\#Sampling_systems_and_ratios}{chroma subsampling}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \href{https://upload.wikimedia.org/wikipedia/commons/0/06/Colorcomp.jpg}{4:4:4 vs 4:2:2 vs 4:2:0}
+  \item
+    \href{https://en.wikipedia.org/wiki/Alpha_compositing}{4:4:4 vs 4:4:4:4}
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{cadence}{%
+\subsection{Cadence}\label{cadence}}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://frames-per-second.appspot.com}{Cadence}
+\end{itemize}
+
+\hypertarget{trame}{%
+\subsection{Trame}\label{trame}}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://web.archive.org/web/20140222010640/http://neuron2.net/LVG/interlacing.html}{Trame (progressif/entrelacé)}
+\end{itemize}
+
+\hypertarget{poid}{%
+\subsection{Poid}\label{poid}}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://toolstud.io/video/filesize.php?imagewidth=1920\&imageheight=1080\&framerate=29.97\&timeduration=60\&timeunit=seconds}{calcul de grosseur de fichier}
+\item
+  \href{https://toolstud.io/video/bitrate.php?imagewidth=1\&imageheight=1\&colordepth=24\&framerate=29.97}{calcul de bitrate}
+\end{itemize}
+
 \hypertarget{formats-de-fichiers}{%
 \section{Formats de fichiers}\label{formats-de-fichiers}}
 
-\hypertarget{encodage-des-viduxe9os}{%
-\section{Encodage des vidéos}\label{encodage-des-viduxe9os}}
+\hypertarget{containers}{%
+\subsection{Containers}\label{containers}}
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule
+nom & extension\tabularnewline
+\midrule
+\endhead
+QuickTime & .mov\tabularnewline
+Matroska & .mkv\tabularnewline
+Mpeg4 & .mp4\tabularnewline
+Windows Media Video & .wmv\tabularnewline
+Audio Video Interleaved & .avi\tabularnewline
+Theora & .ogv\tabularnewline
+\bottomrule
+\end{longtable}
+
+\href{https://en.wikipedia.org/wiki/Comparison_of_video_container_formats}{wiki:Comparison\_of\_video\_container\_formats}
+
+\hypertarget{codecs}{%
+\subsection{Codecs}\label{codecs}}
+
+\begin{longtable}[]{@{}lll@{}}
+\toprule
+Codec & compression & usage\tabularnewline
+\midrule
+\endhead
+H.264\&VP8 & intra \& inter & lecture\textless1080p\tabularnewline
+HEVC\&VP9 & intra \& inter & lecture\textless4k\tabularnewline
+proRes & intra & montage\tabularnewline
+dnxHD & intra & montage\tabularnewline
+HAP & intra & GPU\&SSD\tabularnewline
+\bottomrule
+\end{longtable}
+
+\hypertarget{encodage-viduxe9o}{%
+\section{Encodage vidéo}\label{encodage-viduxe9o}}
+
+\hypertarget{compression}{%
+\subsection{compression}\label{compression}}
+
+\hypertarget{losslesslossy}{%
+\subsubsection{lossless/lossy}\label{losslesslossy}}
+
+\hypertarget{encodage-viduxe9o-sans-perte---lossless}{%
+\paragraph{\texorpdfstring{\href{https://en.wikipedia.org/wiki/List_of_codecs\#Lossless_video_compression}{Encodage vidéo sans perte - lossless}}{Encodage vidéo sans perte - lossless}}\label{encodage-viduxe9o-sans-perte---lossless}}
+
+\begin{itemize}
+\tightlist
+\item
+  Apple Animation (QuickTime RLE)
+\item
+  CinemaDNG Raw (Adobe, Blackmagic)
+\item
+  séquence d'images (tiff, openexr)
+\end{itemize}
+
+\hypertarget{encodage-viduxe9o-avec-perte--lossy}{%
+\paragraph{\texorpdfstring{\href{https://en.wikipedia.org/wiki/List_of_codecs\#Lossy_compression_2}{Encodage vidéo avec perte -lossy}}{Encodage vidéo avec perte -lossy}}\label{encodage-viduxe9o-avec-perte--lossy}}
+
+\begin{itemize}
+\tightlist
+\item
+  H.264\&VP8
+\item
+  HEVC\&VP9
+\item
+  proRes, dnxHD, cineform\\
+\item
+  HAP \& HAPQ
+\end{itemize}
+
+\hypertarget{intrainter-frame}{%
+\subsubsection{intra/inter frame}\label{intrainter-frame}}
+
+\hypertarget{intraframe}{%
+\paragraph{intraframe}\label{intraframe}}
+
+\begin{itemize}
+\tightlist
+\item
+  Toute l'image individuellement compressée dans chaque image.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    prores, dnxHD, photoJpeg, Apple intermediate codec (aic), cineform
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{interframe}{%
+\paragraph{\texorpdfstring{\href{https://en.wikipedia.org/wiki/Inter_frame}{interframe}}{interframe}}\label{interframe}}
+
+\begin{itemize}
+\tightlist
+\item
+  image temporellement compressée, \href{http://dvd-hq.info/data_compression_3.php}{ce qui change}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \href{https://en.wikipedia.org/wiki/Video_compression_picture_types}{images: I (clef), P (\textless-) et B(\textless-\textgreater)}
+  \item
+    \href{https://en.wikipedia.org/wiki/Inter_frame\#/media/File:IPB_images_sequence.png}{GOP : group of picture}
+  \end{itemize}
+\item
+  usage créatif \href{https://www.youtube.com/watch?v=rMSsw4CZvKg}{1}, \href{https://www.youtube.com/watch?v=rSmEOk5AiN0}{2}, \href{https://www.youtube.com/watch?v=dNa0-xrKi3Q}{3}
+\end{itemize}
+
+\hypertarget{utilisation-de-ffmpeg}{%
+\subsection{utilisation de FFmpeg}\label{utilisation-de-ffmpeg}}
+
+\hypertarget{ex-transcoder-un-fichier-video-vers-un-fichier-prores-compatible-avec-quicktime}{%
+\subsubsection{ex: Transcoder un fichier video vers un fichier prores compatible avec quicktime}\label{ex-transcoder-un-fichier-video-vers-un-fichier-prores-compatible-avec-quicktime}}
+
+\begin{verbatim}
+ffmpeg -i INPUT.mkv -c:v prores_ks -profile:v 3 -c:a pcm_s16le -pix_fmt yuv420p OUTPUT.mov
+\end{verbatim}
+
+Où \texttt{-profile} est un chiffre entire de -1 to 5 correspondant au profile prores suivant :
+
+\begin{itemize}
+\tightlist
+\item
+  -1: auto (default)
+\item
+  0: proxy ≈ 45Mbps YUV 4:2:2
+\item
+  1: lt ≈ 102Mbps YUV 4:2:2
+\item
+  2: standard ≈ 147Mbps YUV 4:2:2
+\item
+  3: hq ≈ 220Mbps YUV 4:2:2
+\item
+  4: 4444≈ 330Mbps YUVA 4:4:4:4
+\item
+  5: 4444xq ≈ 500Mbps YUVA 4:4:4:4
+\end{itemize}
+
+Où \texttt{-pix\_fmt\ yuv420p} permet de créer un fichier compatible avec Quicktime
+
+pour des usages réguliers voir :
+
+\begin{itemize}
+\tightlist
+\item
+  FFmpeg Cookbook for Archivists \citep{kromer_FFmpegCookbookArchivists_2020}
+\item
+  FFmpeg Cookbook par Greg Wessels \citep{wessels_FFmpegCookbook_2017}
+\end{itemize}
+
+pour des usages artistiques :
+
+\begin{itemize}
+\tightlist
+\item
+  FFmpeg artschool \citep{associationofmovingimagearchivists_FFmpegArtschool_2020}
+\end{itemize}
 
 \hypertarget{captation-viduxe9o-en-temps-ruxe9el}{%
 \section{Captation vidéo en temps réel}\label{captation-viduxe9o-en-temps-ruxe9el}}
@@ -660,18 +919,148 @@ Technicienne ou technicien en travaux pratiques
 \hypertarget{sauvegarde-et-archivage-des-muxe9dias}{%
 \section{Sauvegarde et archivage des médias}\label{sauvegarde-et-archivage-des-muxe9dias}}
 
-\hypertarget{exercices}{%
-\chapter{Exercices}\label{exercices}}
+\hypertarget{uxe9valuations-sommatives}{%
+\chapter{Évaluations sommatives}\label{uxe9valuations-sommatives}}
 
-\hypertarget{premier}{%
-\section{Premier}\label{premier}}
+\hypertarget{evaluation_1}{%
+\section{Corpus vidéo}\label{evaluation_1}}
 
-\hypertarget{deuxiuxe8me}{%
-\section{Deuxième}\label{deuxiuxe8me}}
+\hypertarget{individuel}{%
+\subsection{10\% individuel}\label{individuel}}
 
-\hypertarget{troisiuxe8me}{%
-\section{Troisième}\label{troisiuxe8me}}
+\hypertarget{pruxe9sentation-orale-individuelle-5-minutes}{%
+\subsection{Présentation orale individuelle \textasciitilde5 minutes}\label{pruxe9sentation-orale-individuelle-5-minutes}}
 
-  \bibliography{book.bib,packages.bib}
+\begin{itemize}
+\tightlist
+\item
+  Traiter une oeuvre et/ou une technique en lien avec le traitement vidéo\\
+\item
+  Partager un extrait court et des capture écran si approprié
+\item
+  Présenter son contexte historique et technologique
+\item
+  Tenter de lier des \protect\hyperlink{contenus_essentiels}{contenus essentiels} à la présentation
+\end{itemize}
+
+\hypertarget{evaluation_2}{%
+\section{Question quiz}\label{evaluation_2}}
+
+\hypertarget{individuel-1}{%
+\subsection{10\% individuel}\label{individuel-1}}
+
+\hypertarget{ruxe9daction-dune-question-originale-pour-le-quiz}{%
+\subsection{Rédaction d'une question originale pour le quiz}\label{ruxe9daction-dune-question-originale-pour-le-quiz}}
+
+\begin{itemize}
+\tightlist
+\item
+  Rédiger Une question théorique originale portant sur la matière du cours
+\item
+  se référer aux \protect\hyperlink{contenus_essentiels}{contenus essentiels}
+\item
+  4 choix de réponses éloquents comprenant une réponse
+\end{itemize}
+
+\hypertarget{evaluation_3}{%
+\section{Quiz théorique}\label{evaluation_3}}
+
+\hypertarget{individuel-2}{%
+\subsection{15\% individuel}\label{individuel-2}}
+
+\begin{itemize}
+\tightlist
+\item
+  formulaire en ligne à répondre individuellement à livre ouvert
+\item
+  Contient les questions quiz des deux groupes ainsi ceux de l'enseignement
+\end{itemize}
+
+\hypertarget{evaluation_4}{%
+\section{Moodboard vidéo}\label{evaluation_4}}
+
+\hypertarget{individuel-3}{%
+\subsection{15\% individuel}\label{individuel-3}}
+
+\hypertarget{partage-duxe9cran-individuelle-5-minutes}{%
+\subsection{Partage d'écran individuelle \textasciitilde5 minutes}\label{partage-duxe9cran-individuelle-5-minutes}}
+
+\begin{itemize}
+\tightlist
+\item
+  Création sources
+\item
+  Conceptualisation
+\end{itemize}
+
+\hypertarget{evaluation_5}{%
+\section{Déclenchement vidéo temps réel}\label{evaluation_5}}
+
+\hypertarget{individuel-4}{%
+\subsection{25\% individuel}\label{individuel-4}}
+
+\hypertarget{fluxstream-video-ouxf9-le-traitement-viduxe9o-est-effectuuxe9-en-temps-ruxe9el}{%
+\subsection{Flux(Stream) video où le traitement vidéo est effectué en temps réel}\label{fluxstream-video-ouxf9-le-traitement-viduxe9o-est-effectuuxe9-en-temps-ruxe9el}}
+
+\begin{itemize}
+\tightlist
+\item
+  Présentation de type partage d'écran et stream simultané
+\item
+  Changement de scène
+\item
+  Changement de paramètres
+\item
+  Pourrait prendre la forme d'un VJ set via scènes dans OBS
+\end{itemize}
+
+\hypertarget{evaluation_6}{%
+\section{Installation interactive et/ou performance audiovisuel}\label{evaluation_6}}
+
+\hypertarget{individuel-ou-uxe9quipe}{%
+\subsection{30\% individuel ou équipe}\label{individuel-ou-uxe9quipe}}
+
+\hypertarget{pruxe9sentation-duxe9monstration-et-documentation-des-apprentissages}{%
+\subsection{Présentation, démonstration et documentation des apprentissages}\label{pruxe9sentation-duxe9monstration-et-documentation-des-apprentissages}}
+
+\hypertarget{calendrier}{%
+\chapter{Calendrier}\label{calendrier}}
+
+\begin{table}
+
+\caption{\label{tab:calendrier}Calendrier}
+\centering
+\begin{tabular}[t]{lll}
+\toprule
+SÉANCE & CONTENU ABORDÉ EN CLASSE ET OBJECTIF & ACTIVITÉS AUTONOME\\
+\midrule
+1; 3 février & * Survol du plan de cours <br /> * autre choses & 1 aa\\
+2; 10 février & 2e obj & 2 aa\\
+3; 17 février & 3 & Préparation [evaluation 1](\#evaluation\_1)\\
+4; 24 février & Remise [évaluation\_1](\#evaluation\_1) & Préparation [evaluation 2](\#evaluation\_2)\\
+X ; 3 mars & Journées de rattrapage (Pas de cours) & 5 aa\\
+\addlinespace
+5; 10 mars & Remise [évaluation\_2](\#evaluation\_2) & \\
+6; 17 mars &  & Compléter [évaluation\_3](\#evaluation\_3)\\
+7; 24 mars & 8e & 8 aa\\
+8; 31 mars & Remise [évaluation\_4](\#evaluation\_4) & 9 aa\\
+X; 7 avril & Congé (Pas de cours) & 10 aa\\
+\addlinespace
+9; 14 avril & 11e & Préparation [évaluation\_5](\#evaluation\_5)\\
+10; 21 avril & Remise [évaluation\_5](\#evaluation\_5) & 12 aa\\
+11; 28 avril & 13e & 13 aa\\
+12; 5 mai & 14e & 14 aa\\
+13; 12 mai & Préparation [évaluation\_6](\#evaluation\_6) & Préparation [évaluation\_6](\#evaluation\_6)\\
+\addlinespace
+X; 19 mai & épreuve uniforme de français (Pas de cours) & \\
+14; 25 mai & Remise [évaluation\_6](\#evaluation\_6) & \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\hypertarget{examples-html}{%
+\chapter{Examples HTML}\label{examples-html}}
+
+  \bibliography{book.bib,packages.bib,582543-traitement-video.bib}
 
 \end{document}

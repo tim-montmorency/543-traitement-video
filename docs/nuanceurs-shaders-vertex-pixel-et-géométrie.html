@@ -5,26 +5,26 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>6.5 Nuanceurs (shaders) : vertex, pixel et géométrie | Traitement vidéo</title>
-  <meta name="description" content="bookdown::gitbook sur le traitement vidéo" />
-  <meta name="generator" content="bookdown 0.21.6 and GitBook 2.6.7" />
+  <meta name="description" content="Le traitement vidéo; documentation expérimentale" />
+  <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
 
   <meta property="og:title" content="6.5 Nuanceurs (shaders) : vertex, pixel et géométrie | Traitement vidéo" />
   <meta property="og:type" content="book" />
   
-  <meta property="og:image" content="/images/cover.png" />
-  <meta property="og:description" content="bookdown::gitbook sur le traitement vidéo" />
+  <meta property="og:image" content="images/cover.png" />
+  <meta property="og:description" content="Le traitement vidéo; documentation expérimentale" />
   <meta name="github-repo" content="tim-montmorency/543-traitement-video" />
 
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="6.5 Nuanceurs (shaders) : vertex, pixel et géométrie | Traitement vidéo" />
   
-  <meta name="twitter:description" content="bookdown::gitbook sur le traitement vidéo" />
-  <meta name="twitter:image" content="/images/cover.png" />
+  <meta name="twitter:description" content="Le traitement vidéo; documentation expérimentale" />
+  <meta name="twitter:image" content="images/cover.png" />
 
 <meta name="author" content="Guillaume Arseneault" />
 
 
-<meta name="date" content="2021-01-11" />
+<meta name="date" content="2021-01-16" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -51,33 +51,8 @@
 
 
 
-<link href="assets/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
-<script src="assets/anchor-sections-1.0.1/anchor-sections.js"></script>
 
 
-
-<style type="text/css">
-/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-}
-.hanging div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}
-</style>
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
@@ -127,13 +102,13 @@ div.csl-indent {
 </ul></li>
 <li class="chapter" data-level="3" data-path="historique.html"><a href="historique.html"><i class="fa fa-check"></i><b>3</b> Historique du traitement vidéo</a>
 <ul>
-<li class="chapter" data-level="3.1" data-path="évolution-historique-du-traitement-vidéo-dans-les-différentes-formes-dart.html"><a href="évolution-historique-du-traitement-vidéo-dans-les-différentes-formes-dart.html"><i class="fa fa-check"></i><b>3.1</b> Évolution historique du traitement vidéo dans les différentes formes d’art</a>
+<li class="chapter" data-level="3.1" data-path="evolution-historique.html"><a href="evolution-historique.html"><i class="fa fa-check"></i><b>3.1</b> Évolution historique du traitement vidéo dans les différentes formes d’art</a>
 <ul>
-<li class="chapter" data-level="3.1.1" data-path="évolution-historique-du-traitement-vidéo-dans-les-différentes-formes-dart.html"><a href="évolution-historique-du-traitement-vidéo-dans-les-différentes-formes-dart.html#performance"><i class="fa fa-check"></i><b>3.1.1</b> Performance</a></li>
-<li class="chapter" data-level="3.1.2" data-path="évolution-historique-du-traitement-vidéo-dans-les-différentes-formes-dart.html"><a href="évolution-historique-du-traitement-vidéo-dans-les-différentes-formes-dart.html#installation"><i class="fa fa-check"></i><b>3.1.2</b> Installation</a></li>
-<li class="chapter" data-level="3.1.3" data-path="évolution-historique-du-traitement-vidéo-dans-les-différentes-formes-dart.html"><a href="évolution-historique-du-traitement-vidéo-dans-les-différentes-formes-dart.html#évolution-des-technologies-associées"><i class="fa fa-check"></i><b>3.1.3</b> Évolution des technologies associées</a></li>
+<li class="chapter" data-level="3.1.1" data-path="evolution-historique.html"><a href="evolution-historique.html#evolution_historique_performance"><i class="fa fa-check"></i><b>3.1.1</b> Performance</a></li>
+<li class="chapter" data-level="3.1.2" data-path="evolution-historique.html"><a href="evolution-historique.html#evolution_historique_installation"><i class="fa fa-check"></i><b>3.1.2</b> Installation</a></li>
+<li class="chapter" data-level="3.1.3" data-path="evolution-historique.html"><a href="evolution-historique.html#evolution_historique_technologies"><i class="fa fa-check"></i><b>3.1.3</b> Évolution des technologies associées</a></li>
 </ul></li>
-<li class="chapter" data-level="3.2" data-path="langages-et-moyens-expressifs-de-limage-en-mouvement.html"><a href="langages-et-moyens-expressifs-de-limage-en-mouvement.html"><i class="fa fa-check"></i><b>3.2</b> Langages et moyens expressifs de l’image en mouvement</a></li>
+<li class="chapter" data-level="3.2" data-path="evolution-historique-language.html"><a href="evolution-historique-language.html"><i class="fa fa-check"></i><b>3.2</b> Langages et moyens expressifs de l’image en mouvement</a></li>
 </ul></li>
 <li class="chapter" data-level="4" data-path="lexique.html"><a href="lexique.html"><i class="fa fa-check"></i><b>4</b> Lexique technique et technologique</a>
 <ul>
@@ -235,12 +210,40 @@ div.csl-indent {
 <li class="chapter" data-level="8.11" data-path="application-autonome.html"><a href="application-autonome.html"><i class="fa fa-check"></i><b>8.11</b> Application autonome</a></li>
 <li class="chapter" data-level="8.12" data-path="sauvegarde-et-archivage-des-médias.html"><a href="sauvegarde-et-archivage-des-médias.html"><i class="fa fa-check"></i><b>8.12</b> Sauvegarde et archivage des médias</a></li>
 </ul></li>
-<li class="chapter" data-level="9" data-path="exercices.html"><a href="exercices.html"><i class="fa fa-check"></i><b>9</b> Exercices</a>
+<li class="chapter" data-level="9" data-path="évaluations-sommatives.html"><a href="évaluations-sommatives.html"><i class="fa fa-check"></i><b>9</b> Évaluations sommatives</a>
 <ul>
-<li class="chapter" data-level="9.1" data-path="premier.html"><a href="premier.html"><i class="fa fa-check"></i><b>9.1</b> Premier</a></li>
-<li class="chapter" data-level="9.2" data-path="deuxième.html"><a href="deuxième.html"><i class="fa fa-check"></i><b>9.2</b> Deuxième</a></li>
-<li class="chapter" data-level="9.3" data-path="troisième.html"><a href="troisième.html"><i class="fa fa-check"></i><b>9.3</b> Troisième</a></li>
+<li class="chapter" data-level="9.1" data-path="evaluation-1.html"><a href="evaluation-1.html"><i class="fa fa-check"></i><b>9.1</b> Corpus vidéo</a>
+<ul>
+<li class="chapter" data-level="9.1.1" data-path="evaluation-1.html"><a href="evaluation-1.html#individuel"><i class="fa fa-check"></i><b>9.1.1</b> 10% individuel</a></li>
+<li class="chapter" data-level="9.1.2" data-path="evaluation-1.html"><a href="evaluation-1.html#présentation-orale-individuelle-5-minutes"><i class="fa fa-check"></i><b>9.1.2</b> Présentation orale individuelle ~5 minutes</a></li>
 </ul></li>
+<li class="chapter" data-level="9.2" data-path="evaluation-2.html"><a href="evaluation-2.html"><i class="fa fa-check"></i><b>9.2</b> Question quiz</a>
+<ul>
+<li class="chapter" data-level="9.2.1" data-path="evaluation-2.html"><a href="evaluation-2.html#individuel-1"><i class="fa fa-check"></i><b>9.2.1</b> 10% individuel</a></li>
+<li class="chapter" data-level="9.2.2" data-path="evaluation-2.html"><a href="evaluation-2.html#rédaction-dune-question-originale-pour-le-quiz"><i class="fa fa-check"></i><b>9.2.2</b> Rédaction d’une question originale pour le quiz</a></li>
+</ul></li>
+<li class="chapter" data-level="9.3" data-path="evaluation-3.html"><a href="evaluation-3.html"><i class="fa fa-check"></i><b>9.3</b> Quiz théorique</a>
+<ul>
+<li class="chapter" data-level="9.3.1" data-path="evaluation-3.html"><a href="evaluation-3.html#individuel-2"><i class="fa fa-check"></i><b>9.3.1</b> 15% individuel</a></li>
+</ul></li>
+<li class="chapter" data-level="9.4" data-path="evaluation-4.html"><a href="evaluation-4.html"><i class="fa fa-check"></i><b>9.4</b> Moodboard vidéo</a>
+<ul>
+<li class="chapter" data-level="9.4.1" data-path="evaluation-4.html"><a href="evaluation-4.html#individuel-3"><i class="fa fa-check"></i><b>9.4.1</b> 15% individuel</a></li>
+<li class="chapter" data-level="9.4.2" data-path="evaluation-4.html"><a href="evaluation-4.html#partage-décran-individuelle-5-minutes"><i class="fa fa-check"></i><b>9.4.2</b> Partage d’écran individuelle ~5 minutes</a></li>
+</ul></li>
+<li class="chapter" data-level="9.5" data-path="evaluation-5.html"><a href="evaluation-5.html"><i class="fa fa-check"></i><b>9.5</b> Déclenchement vidéo temps réel</a>
+<ul>
+<li class="chapter" data-level="9.5.1" data-path="evaluation-5.html"><a href="evaluation-5.html#individuel-4"><i class="fa fa-check"></i><b>9.5.1</b> 25% individuel</a></li>
+<li class="chapter" data-level="9.5.2" data-path="evaluation-5.html"><a href="evaluation-5.html#fluxstream-video-où-le-traitement-vidéo-est-effectué-en-temps-réel"><i class="fa fa-check"></i><b>9.5.2</b> Flux(Stream) video où le traitement vidéo est effectué en temps réel</a></li>
+</ul></li>
+<li class="chapter" data-level="9.6" data-path="evaluation-6.html"><a href="evaluation-6.html"><i class="fa fa-check"></i><b>9.6</b> Installation interactive et/ou performance audiovisuel</a>
+<ul>
+<li class="chapter" data-level="9.6.1" data-path="evaluation-6.html"><a href="evaluation-6.html#individuel-ou-équipe"><i class="fa fa-check"></i><b>9.6.1</b> 30% individuel ou équipe</a></li>
+<li class="chapter" data-level="9.6.2" data-path="evaluation-6.html"><a href="evaluation-6.html#présentation-démonstration-et-documentation-des-apprentissages"><i class="fa fa-check"></i><b>9.6.2</b> Présentation, démonstration et documentation des apprentissages</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="10" data-path="calendrier.html"><a href="calendrier.html"><i class="fa fa-check"></i><b>10</b> Calendrier</a></li>
+<li class="chapter" data-level="11" data-path="examples-html.html"><a href="examples-html.html"><i class="fa fa-check"></i><b>11</b> Examples HTML</a></li>
 <li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
 <li class="divider"></li>
 <li><a href="http://gllm.ca" target="blank">Gllmar</a></li>
@@ -295,7 +298,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/tim-montmorency/543-traitement-video/edit/master/05-programmer.Rmd",
+"link": "https://github.com/tim-montmorency/543-traitement-video/edit/master/06-programmer.Rmd",
 "text": "Edit"
 },
 "history": {
