@@ -15,17 +15,21 @@ output:
   bookdown::html_book:
     css: toc.css
 documentclass: book
-bibliography: [book.bib, packages.bib, gllmair-video.bib]
+bibliography: [book.bib, packages.bib, 582543-traitement-video.bib]
 biblio-style: apalike
 link-citations: yes
 graphics: yes
 lot: yes
 lof: yes
 github-repo: tim-montmorency/543-traitement-video
-description: "bookdown::gitbook sur le traitement vidéo"
+description: "Le traitement vidéo; documentation expérimentale"
 cover-image: images/cover.png
 favicon: images/favicon.ico
 ---
 # Préface
+
+```{r echo=FALSE}
+knitr::include_graphics("images/cover.png")
+```
 
 Ce livre se produit via **bookdown** [@rmarkdown2018], R Markdown et **knitr** [@xie2015]
