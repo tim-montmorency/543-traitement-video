@@ -30,7 +30,7 @@ favicon: images/favicon.ico
 knitr::include_graphics("images/vectorscope.jpg")
 ```
 
-## Sources
+## Code sources
 
 * Ce document est Libre [@stallman_GnuOrg_1983] 
 * Son code source est indexé via GIT [@torvalds_Git_2006] et hébergé sur github à l'URL suivant:

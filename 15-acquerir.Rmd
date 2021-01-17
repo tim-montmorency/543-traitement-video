@@ -1,0 +1,8 @@
+# Aquérir l'image en mouvement {#aquerir}
+
+
+## Usage de capture vidéo temps réel  
+
+## Exploitation des fonctions des logiciels de traitement vidéo en temps réel 
+
+## Captation de mouvement et de présence

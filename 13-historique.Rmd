@@ -7,6 +7,4 @@
 ### Installation {#evolution_historique_installation}
 ### Évolution des technologies associées {#evolution_historique_technologies}
 
-## Captation de mouvement et de présence
-
 ## Langages et moyens expressifs de l’image en mouvement {#evolution_historique_language}

@@ -1,6 +1,8 @@
-# Déploiement de projet vidéo interactif
+# Déploiement de projet visuel interactif
 
-## Conceptualisation et scénarisation d’un projet visuel interactif 
+## Conceptualisation 
+
+## Scénarisation 
 
 ## Schématisation 
 
