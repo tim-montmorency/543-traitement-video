@@ -96,12 +96,51 @@
 }
 \listoftables
 \listoffigures
-\hypertarget{pruxe9face}{%
-\chapter{Préface}\label{pruxe9face}}
+\hypertarget{traitement-viduxe9o}{%
+\chapter{Traitement vidéo}\label{traitement-viduxe9o}}
 
 \includegraphics{images/cover.png}
 
-Ce livre se produit via \textbf{bookdown} \citep{rmarkdown2018}, R Markdown et \textbf{knitr} \citep{xie2015}
+\hypertarget{sources}{%
+\section{Sources}\label{sources}}
+
+\begin{itemize}
+\tightlist
+\item
+  Ce document est Libre \citep{stallman_GnuOrg_1983}
+\item
+  Son code source est indexé via GIT \citep{torvalds_Git_2006} et hébergé sur github à l'URL suivant:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \href{https://github.com/tim-montmorency/543-traitement-video}{github.com/tim-montmorency/543-traitement-video}
+  \end{itemize}
+\item
+  La compilation de ce document utilise
+
+  \begin{itemize}
+  \tightlist
+  \item
+    R Markdown\\
+  \item
+    Bookdown \citep{rmarkdown2018}
+  \item
+    knitr \citep{xie2015}
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{document-compiluxe9-et-huxe9berguxe9}{%
+\section{Document compilé et hébergé}\label{document-compiluxe9-et-huxe9berguxe9}}
+
+\hypertarget{html}{%
+\subsection{\texorpdfstring{\href{https://tim-montmorency.com/543-traitement-video/}{HTML}}{HTML}}\label{html}}
+
+\hypertarget{pdf}{%
+\subsection{\texorpdfstring{\href{https://tim-montmorency.com/543-traitement-video/traitement-video.pdf}{PDF}}{PDF}}\label{pdf}}
+
+\hypertarget{epub}{%
+\subsection{\texorpdfstring{\href{https://tim-montmorency.com/543-traitement-video/traitement-video.epub}{EPUB}}{EPUB}}\label{epub}}
 
 \hypertarget{traitement-viduxe9o-582-543-mo}{%
 \chapter{Traitement vidéo (582-543-MO)}\label{traitement-viduxe9o-582-543-mo}}
@@ -133,8 +172,8 @@ L'étudiant sera appelé à appliquer des effets visuels aux images vidéo et à
 \hypertarget{objectifs}{%
 \section{Objectifs}\label{objectifs}}
 
-\hypertarget{objectif-intuxe9grateur-et-ministuxe9riel}{%
-\subsection{Objectif intégrateur et ministériel}\label{objectif-intuxe9grateur-et-ministuxe9riel}}
+\hypertarget{intuxe9grateur-et-ministuxe9riel}{%
+\subsection{Intégrateur et ministériel}\label{intuxe9grateur-et-ministuxe9riel}}
 
 \begin{itemize}
 \tightlist
@@ -142,18 +181,21 @@ L'étudiant sera appelé à appliquer des effets visuels aux images vidéo et à
   015J Traiter les images en mouvement
 \end{itemize}
 
-\hypertarget{objectifs-dapprentissage}{%
-\subsection{Objectifs d'apprentissage}\label{objectifs-dapprentissage}}
+\hypertarget{apprentissages}{%
+\subsection{Apprentissages}\label{apprentissages}}
 
 \begin{itemize}
 \tightlist
 \item
-  Adapter des images en mouvement (Importance relative\,: 40\% )
+  Adapter l'images en mouvement (Importance relative\,: 40\% )
 \item
-  Programmer des effets spéciaux et l'interactivité (Importance relative\,: 40\% )
+  Programmer des effets visuels interactifs (Importance relative\,: 40\% )
 \item
-  Intégrer des images en mouvement à une production interactive (Importance relative\,: 20\% )
+  Intégrer l'image en mouvement interactive à une production médiatique (Importance relative\,: 20\% )
 \end{itemize}
+
+\hypertarget{duxe9veloppement}{%
+\section{Développement}\label{duxe9veloppement}}
 
 \hypertarget{attitudes-professionnelles}{%
 \subsection{Attitudes professionnelles}\label{attitudes-professionnelles}}
@@ -161,17 +203,29 @@ L'étudiant sera appelé à appliquer des effets visuels aux images vidéo et à
 \begin{itemize}
 \tightlist
 \item
+  Curiosité
+\item
+  Capacité de partage
+\item
   Créativité
 \item
   Sens esthétique
 \item
-  Adaptation
+  Esprit critique
 \end{itemize}
 
 \hypertarget{habiletuxe9s-transdisciplinaires}{%
 \subsection{Habiletés transdisciplinaires}\label{habiletuxe9s-transdisciplinaires}}
 
-Profil TIC~: les étudiantes et étudiants auront à exploiter les TIC de manière efficace et responsable. Ils auront à rechercher, à traiter et à présenter de l'information.
+\begin{itemize}
+\tightlist
+\item
+  Profil \textbf{technologies de l'information et de la communication (TIC)}
+\item
+  Les étudiantes et étudiants auront à exploiter les TIC de manière efficace et responsable.
+\item
+  Recherche, traitement et présentation de l'information.
+\end{itemize}
 
 \hypertarget{pruxe9alables}{%
 \section{Préalables}\label{pruxe9alables}}
@@ -216,44 +270,8 @@ Profil TIC~: les étudiantes et étudiants auront à exploiter les TIC de maniè
   Ordinateurs, projecteurs à haute luminosité ou télévision, haut-parleurs professionnels, casque audio, et tout le matériel disponible pour TIM
 \item
   Logiciels de montage vidéo et traitemet vidéo en temps réel
-
-  \begin{itemize}
-  \tightlist
-  \item
-    Open broadcast studio
-  \item
-    Unity
-  \item
-    Pure Data
-  \item
-    Resolve
-  \item
-    Reaper
-  \item
-    ffmpeg
-  \item
-    Open stage control
-  \end{itemize}
 \item
   Languages et protocoles
-
-  \begin{itemize}
-  \tightlist
-  \item
-    Programmation nodale
-  \item
-    Javascript
-  \item
-    Open sound control (OSC)
-  \item
-    Réseautique (addressage ip)
-  \item
-    Midi
-  \item
-    NDI
-  \item
-    Websocket
-  \end{itemize}
 \end{itemize}
 
 Technicienne ou technicien en travaux pratiques
@@ -466,6 +484,16 @@ Technicienne ou technicien en travaux pratiques
 
 \hypertarget{evolution_historique_language}{%
 \section{Langages et moyens expressifs de l'image en mouvement}\label{evolution_historique_language}}
+
+\begin{verbatim}
+* Programmation nodale 
+* Javascript
+* Open sound control (OSC)
+* Réseautique (addressage ip)
+* Midi 
+* NDI
+* Websocket
+\end{verbatim}
 
 \hypertarget{lexique}{%
 \chapter{Lexique technique et technologique}\label{lexique}}
@@ -770,25 +798,43 @@ pour des usages artistiques :
 \section{Logiciels de traitement vidéo en temps réel et d'interactivité}\label{logiciels_de_traitement_video_temps_reel}}
 
 \begin{itemize}
-\item ~
-  \hypertarget{usage-de-capture-viduxe9o-en-temps-ruxe9el}{%
-  \section{Usage de capture vidéo en temps réel}\label{usage-de-capture-viduxe9o-en-temps-ruxe9el}}
-
-  \hypertarget{effets-visuels-et-filtres-applicables-en-temps-ruxe9el-sur-des-matuxe9riaux-visuels}{%
-  \section{Effets visuels et filtres applicables en temps réel sur des matériaux visuels}\label{effets-visuels-et-filtres-applicables-en-temps-ruxe9el-sur-des-matuxe9riaux-visuels}}
-
-  \hypertarget{traitement-visuel-en-temps-ruxe9el-uxe0-laide-deffets-et-de-logiciels-de-programmation-multimuxe9dia-et-nodale}{%
-  \section{Traitement visuel en temps réel à l'aide d'effets et de logiciels de programmation multimédia et nodale}\label{traitement-visuel-en-temps-ruxe9el-uxe0-laide-deffets-et-de-logiciels-de-programmation-multimuxe9dia-et-nodale}}
-
-  \hypertarget{flot-de-donnuxe9es-entre-les-objets-du-logiciel}{%
-  \section{Flot de données entre les objets du logiciel}\label{flot-de-donnuxe9es-entre-les-objets-du-logiciel}}
-
-  \hypertarget{exploitation-des-fonctions-des-logiciels-de-traitement-viduxe9o-en-temps-ruxe9el}{%
-  \section{Exploitation des fonctions des logiciels de traitement vidéo en temps réel}\label{exploitation-des-fonctions-des-logiciels-de-traitement-viduxe9o-en-temps-ruxe9el}}
-
-  \hypertarget{utilisation-de-nuanciers-shaders}{%
-  \section{Utilisation de nuanciers (shaders)}\label{utilisation-de-nuanciers-shaders}}
+\tightlist
+\item
+  Open Broadcast Studio
+\item
+  Unity
+\item
+  Pure Data
+\item
+  Resolve
+\item
+  Reaper
+\item
+  ffmpeg
+\item
+  Open stage control
 \end{itemize}
+
+\hypertarget{aquuxe9rir-limage-en-mouvement}{%
+\section{Aquérir l'image en mouvement}\label{aquuxe9rir-limage-en-mouvement}}
+
+\hypertarget{usage-de-capture-viduxe9o-en-temps-ruxe9el}{%
+\section{Usage de capture vidéo en temps réel}\label{usage-de-capture-viduxe9o-en-temps-ruxe9el}}
+
+\hypertarget{effets-visuels-et-filtres-applicables-en-temps-ruxe9el-sur-des-matuxe9riaux-visuels}{%
+\section{Effets visuels et filtres applicables en temps réel sur des matériaux visuels}\label{effets-visuels-et-filtres-applicables-en-temps-ruxe9el-sur-des-matuxe9riaux-visuels}}
+
+\hypertarget{traitement-visuel-en-temps-ruxe9el-uxe0-laide-deffets-et-de-logiciels-de-programmation-multimuxe9dia-et-nodale}{%
+\section{Traitement visuel en temps réel à l'aide d'effets et de logiciels de programmation multimédia et nodale}\label{traitement-visuel-en-temps-ruxe9el-uxe0-laide-deffets-et-de-logiciels-de-programmation-multimuxe9dia-et-nodale}}
+
+\hypertarget{flot-de-donnuxe9es-entre-les-objets-du-logiciel}{%
+\section{Flot de données entre les objets du logiciel}\label{flot-de-donnuxe9es-entre-les-objets-du-logiciel}}
+
+\hypertarget{exploitation-des-fonctions-des-logiciels-de-traitement-viduxe9o-en-temps-ruxe9el}{%
+\section{Exploitation des fonctions des logiciels de traitement vidéo en temps réel}\label{exploitation-des-fonctions-des-logiciels-de-traitement-viduxe9o-en-temps-ruxe9el}}
+
+\hypertarget{utilisation-de-nuanciers-shaders}{%
+\section{Utilisation de nuanciers (shaders)}\label{utilisation-de-nuanciers-shaders}}
 
 \hypertarget{programmer}{%
 \chapter{Programmer des effets visuels}\label{programmer}}
@@ -892,14 +938,20 @@ pour des usages artistiques :
 \hypertarget{prototypage}{%
 \section{Prototypage}\label{prototypage}}
 
-\hypertarget{gestion-de-banques-dimages}{%
-\section{Gestion de banques d'images}\label{gestion-de-banques-dimages}}
-
 \hypertarget{optimisation-des-performances-de-lapplication}{%
 \section{Optimisation des performances de l'application}\label{optimisation-des-performances-de-lapplication}}
 
-\hypertarget{test-de-contruxf4le-de-qualituxe9}{%
-\section{Test de contrôle de qualité}\label{test-de-contruxf4le-de-qualituxe9}}
+\hypertarget{gestion-de-banques-dimages}{%
+\section{Gestion de banques d'images}\label{gestion-de-banques-dimages}}
+
+\hypertarget{formats-de-sauvegarde}{%
+\section{Formats de sauvegarde}\label{formats-de-sauvegarde}}
+
+\hypertarget{exportation-de-projets}{%
+\section{Exportation de projets}\label{exportation-de-projets}}
+
+\hypertarget{sauvegarde-et-archivage-des-muxe9dias}{%
+\section{Sauvegarde et archivage des médias}\label{sauvegarde-et-archivage-des-muxe9dias}}
 
 \hypertarget{pruxe9ruxe9glages}{%
 \section{Préréglages}\label{pruxe9ruxe9glages}}
@@ -907,20 +959,14 @@ pour des usages artistiques :
 \hypertarget{optimisation-de-la-programmation-et-commentaires}{%
 \section{Optimisation de la programmation et commentaires}\label{optimisation-de-la-programmation-et-commentaires}}
 
-\hypertarget{console-de-duxe9bogage}{%
-\section{Console de débogage}\label{console-de-duxe9bogage}}
-
-\hypertarget{exportation-de-projets}{%
-\section{Exportation de projets}\label{exportation-de-projets}}
-
-\hypertarget{formats-de-sauvegarde}{%
-\section{Formats de sauvegarde}\label{formats-de-sauvegarde}}
-
 \hypertarget{application-autonome}{%
 \section{Application autonome}\label{application-autonome}}
 
-\hypertarget{sauvegarde-et-archivage-des-muxe9dias}{%
-\section{Sauvegarde et archivage des médias}\label{sauvegarde-et-archivage-des-muxe9dias}}
+\hypertarget{console-de-duxe9bogage}{%
+\section{Console de débogage}\label{console-de-duxe9bogage}}
+
+\hypertarget{test-de-contruxf4le-de-qualituxe9}{%
+\section{Test de contrôle de qualité}\label{test-de-contruxf4le-de-qualituxe9}}
 
 \hypertarget{uxe9valuations-sommatives}{%
 \chapter{Évaluations sommatives}\label{uxe9valuations-sommatives}}
@@ -1031,7 +1077,7 @@ pour des usages artistiques :
 \hypertarget{calendrier}{%
 \chapter{Calendrier}\label{calendrier}}
 
-\href{https://www.cmontmorency.qc.ca/wp-content/uploads/images/college/administration/CALENDRIER-SCOLAIRE-2020-2021.pdf}{Calendrier}
+\href{https://www.cmontmorency.qc.ca/wp-content/uploads/images/college/administration/CALENDRIER-SCOLAIRE-2020-2021.pdf}{Calendrier Collège Montmorency 2020-2021}
 
 \begin{table}
 

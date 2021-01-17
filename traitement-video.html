@@ -1,0 +1,1213 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Traitement vidéo</title>
+  <meta name="description" content="Le traitement vidéo; documentation expérimentale" />
+  <meta name="generator" content="bookdown #bookdown:version# and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Traitement vidéo" />
+  <meta property="og:type" content="book" />
+  
+  <meta property="og:image" content="images/cover.png" />
+  <meta property="og:description" content="Le traitement vidéo; documentation expérimentale" />
+  <meta name="github-repo" content="tim-montmorency/543-traitement-video" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Traitement vidéo" />
+  
+  <meta name="twitter:description" content="Le traitement vidéo; documentation expérimentale" />
+  <meta name="twitter:image" content="images/cover.png" />
+
+<meta name="author" content="Guillaume Arseneault" />
+
+
+<meta name="date" content="2021-01-16" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+<!--bookdown:link_prev-->
+<!--bookdown:link_next-->
+<script src="assets/header-attrs-2.6.4/header-attrs.js"></script>
+<script src="assets/jquery-2.2.3/jquery.min.js"></script>
+<link href="assets/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="assets/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="assets/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="assets/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="assets/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="assets/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="assets/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+<script src="assets/gitbook-2.6.7/js/app.min.js"></script>
+<script src="assets/gitbook-2.6.7/js/lunr.js"></script>
+<script src="assets/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="assets/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="assets/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="assets/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="assets/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="assets/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="assets/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+<!--bookdown:title:start-->
+<div id="header">
+<h1 class="title">Traitement vidéo</h1>
+<p class="author"><em>Guillaume Arseneault</em></p>
+<p class="date"><em>2021-01-16</em></p>
+</div>
+<!--bookdown:title:end-->
+
+<!--bookdown:toc:start-->
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+<!--bookdown:toc2:start-->
+<ul>
+<li><a href="#traitement-vidéo"><span class="toc-section-number">1</span> Traitement vidéo</a>
+<ul>
+<li><a href="#sources"><span class="toc-section-number">1.1</span> Sources</a></li>
+<li><a href="#document-compilé-et-hébergé"><span class="toc-section-number">1.2</span> Document compilé et hébergé</a>
+<ul>
+<li><a href="#html"><span class="toc-section-number">1.2.1</span> <span>HTML</span></a></li>
+<li><a href="#pdf"><span class="toc-section-number">1.2.2</span> <span>PDF</span></a></li>
+<li><a href="#epub"><span class="toc-section-number">1.2.3</span> <span>EPUB</span></a></li>
+</ul></li>
+</ul></li>
+<li><a href="#traitement-vidéo-582-543-mo"><span class="toc-section-number">2</span> Traitement vidéo (582-543-MO)</a>
+<ul>
+<li><a href="#description-du-cours"><span class="toc-section-number">2.1</span> Description du cours</a></li>
+<li><a href="#objectifs"><span class="toc-section-number">2.2</span> Objectifs</a>
+<ul>
+<li><a href="#intégrateur-et-ministériel"><span class="toc-section-number">2.2.1</span> Intégrateur et ministériel</a></li>
+<li><a href="#apprentissages"><span class="toc-section-number">2.2.2</span> Apprentissages</a></li>
+</ul></li>
+<li><a href="#développement"><span class="toc-section-number">2.3</span> Développement</a>
+<ul>
+<li><a href="#attitudes-professionnelles"><span class="toc-section-number">2.3.1</span> Attitudes professionnelles</a></li>
+<li><a href="#habiletés-transdisciplinaires"><span class="toc-section-number">2.3.2</span> Habiletés transdisciplinaires</a></li>
+</ul></li>
+<li><a href="#préalables"><span class="toc-section-number">2.4</span> Préalables</a>
+<ul>
+<li><a href="#préalable-absolu-au-présent-cours"><span class="toc-section-number">2.4.1</span> Préalable absolu au présent cours :</a></li>
+<li><a href="#préalable-absolu-aux-cours-suivants"><span class="toc-section-number">2.4.2</span> Préalable absolu aux cours suivants :</a></li>
+</ul></li>
+<li><a href="#contexte-particulier-dapprentissage"><span class="toc-section-number">2.5</span> Contexte particulier d’apprentissage</a>
+<ul>
+<li><a href="#fiche-technique"><span class="toc-section-number">2.5.1</span> Fiche technique</a></li>
+</ul></li>
+<li><a href="#contenus_essentiels"><span class="toc-section-number">2.6</span> Contenus essentiels</a>
+<ul>
+<li><a href="#survol-historique"><span class="toc-section-number">2.6.1</span> Survol historique</a></li>
+<li><a href="#fondements-technique"><span class="toc-section-number">2.6.2</span> Fondements technique</a></li>
+<li><a href="#traitement-de-limages-en-mouvement"><span class="toc-section-number">2.6.3</span> Traitement de l’images en mouvement</a></li>
+<li><a href="#programmation-deffets-visuels"><span class="toc-section-number">2.6.4</span> Programmation d’effets visuels</a></li>
+<li><a href="#image-en-mouvement-et-interactivité"><span class="toc-section-number">2.6.5</span> Image en mouvement et interactivité</a></li>
+<li><a href="#gestion-de-projets"><span class="toc-section-number">2.6.6</span> Gestion de projets</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#historique"><span class="toc-section-number">3</span> Historique du traitement vidéo</a>
+<ul>
+<li><a href="#evolution_historique"><span class="toc-section-number">3.1</span> Évolution historique du traitement vidéo dans les différentes formes d’art</a>
+<ul>
+<li><a href="#evolution_historique_performance"><span class="toc-section-number">3.1.1</span> Performance</a></li>
+<li><a href="#evolution_historique_installation"><span class="toc-section-number">3.1.2</span> Installation</a></li>
+<li><a href="#evolution_historique_technologies"><span class="toc-section-number">3.1.3</span> Évolution des technologies associées</a></li>
+</ul></li>
+<li><a href="#evolution_historique_language"><span class="toc-section-number">3.2</span> Langages et moyens expressifs de l’image en mouvement</a></li>
+</ul></li>
+<li><a href="#lexique"><span class="toc-section-number">4</span> Lexique technique et technologique</a>
+<ul>
+<li><a href="#lexique_composantes"><span class="toc-section-number">4.1</span> Composantes du signal vidéo</a>
+<ul>
+<li><a href="#signaux-de-transmission"><span class="toc-section-number">4.1.1</span> Signaux de transmission</a></li>
+<li><a href="#résolutions"><span class="toc-section-number">4.1.2</span> résolutions</a></li>
+<li><a href="#ratio"><span class="toc-section-number">4.1.3</span> Ratio</a></li>
+<li><a href="#débit"><span class="toc-section-number">4.1.4</span> Débit</a></li>
+<li><a href="#échantillonnage"><span class="toc-section-number">4.1.5</span> Échantillonnage</a></li>
+<li><a href="#cadence"><span class="toc-section-number">4.1.6</span> Cadence</a></li>
+<li><a href="#trame"><span class="toc-section-number">4.1.7</span> Trame</a></li>
+<li><a href="#poid"><span class="toc-section-number">4.1.8</span> Poid</a></li>
+</ul></li>
+<li><a href="#lexique_fichiers"><span class="toc-section-number">4.2</span> Formats de fichiers</a>
+<ul>
+<li><a href="#containers"><span class="toc-section-number">4.2.1</span> Containers</a></li>
+<li><a href="#codecs"><span class="toc-section-number">4.2.2</span> Codecs</a></li>
+</ul></li>
+<li><a href="#encodage-vidéo"><span class="toc-section-number">4.3</span> Encodage vidéo</a>
+<ul>
+<li><a href="#compression"><span class="toc-section-number">4.3.1</span> compression</a></li>
+<li><a href="#utilisation-de-ffmpeg"><span class="toc-section-number">4.3.2</span> utilisation de FFmpeg</a></li>
+</ul></li>
+<li><a href="#captation-vidéo-en-temps-réel"><span class="toc-section-number">4.4</span> Captation vidéo en temps réel</a></li>
+<li><a href="#logiciels-de-programmation-nodale"><span class="toc-section-number">4.5</span> Logiciels de programmation nodale</a></li>
+<li><a href="#notions-de-traitement-vidéo"><span class="toc-section-number">4.6</span> Notions de traitement vidéo</a>
+<ul>
+<li><a href="#pixels"><span class="toc-section-number">4.6.1</span> Pixels</a></li>
+<li><a href="#couleurs"><span class="toc-section-number">4.6.2</span> Couleurs</a></li>
+<li><a href="#texture"><span class="toc-section-number">4.6.3</span> Texture</a></li>
+<li><a href="#matrice"><span class="toc-section-number">4.6.4</span> Matrice</a></li>
+<li><a href="#mémoire-tampon"><span class="toc-section-number">4.6.5</span> Mémoire tampon</a></li>
+<li><a href="#alpha-channel"><span class="toc-section-number">4.6.6</span> Alpha channel</a></li>
+<li><a href="#rendu-opengl"><span class="toc-section-number">4.6.7</span> Rendu OpenGL</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#traiter"><span class="toc-section-number">5</span> Traiter l’image en mouvement</a>
+<ul>
+<li><a href="#logiciels_de_traitement_video_temps_reel"><span class="toc-section-number">5.1</span> Logiciels de traitement vidéo en temps réel et d’interactivité</a></li>
+<li><a href="#aquérir-limage-en-mouvement"><span class="toc-section-number">5.2</span> Aquérir l’image en mouvement</a></li>
+<li><a href="#usage-de-capture-vidéo-en-temps-réel"><span class="toc-section-number">5.3</span> Usage de capture vidéo en temps réel</a></li>
+<li><a href="#effets-visuels-et-filtres-applicables-en-temps-réel-sur-des-matériaux-visuels"><span class="toc-section-number">5.4</span> Effets visuels et filtres applicables en temps réel sur des matériaux visuels</a></li>
+<li><a href="#traitement-visuel-en-temps-réel-à-laide-deffets-et-de-logiciels-de-programmation-multimédia-et-nodale"><span class="toc-section-number">5.5</span> Traitement visuel en temps réel à l’aide d’effets et de logiciels de programmation multimédia et nodale</a></li>
+<li><a href="#flot-de-données-entre-les-objets-du-logiciel"><span class="toc-section-number">5.6</span> Flot de données entre les objets du logiciel</a></li>
+<li><a href="#exploitation-des-fonctions-des-logiciels-de-traitement-vidéo-en-temps-réel"><span class="toc-section-number">5.7</span> Exploitation des fonctions des logiciels de traitement vidéo en temps réel</a></li>
+<li><a href="#utilisation-de-nuanciers-shaders"><span class="toc-section-number">5.8</span> Utilisation de nuanciers (shaders)</a></li>
+</ul></li>
+<li><a href="#programmer"><span class="toc-section-number">6</span> Programmer des effets visuels</a>
+<ul>
+<li><a href="#programmation-de-compositions-visuelles-génératives"><span class="toc-section-number">6.1</span> Programmation de compositions visuelles génératives</a></li>
+<li><a href="#réalisation-dun-échantillonneurmélangeur-visuel"><span class="toc-section-number">6.2</span> Réalisation d’un échantillonneur/mélangeur visuel</a></li>
+<li><a href="#programmation-pour-contrôler-la-lecture-vidéo"><span class="toc-section-number">6.3</span> Programmation pour contrôler la lecture vidéo,</a>
+<ul>
+<li><a href="#montage-temps-réel"><span class="toc-section-number">6.3.1</span> montage temps réel</a></li>
+<li><a href="#niveau-des-couleurs"><span class="toc-section-number">6.3.2</span> niveau des couleurs</a></li>
+<li><a href="#alpha-channel-1"><span class="toc-section-number">6.3.3</span> alpha channel</a></li>
+</ul></li>
+<li><a href="#programmation-nodale-pour-créer-des-effets-en-temps-réel"><span class="toc-section-number">6.4</span> Programmation nodale pour créer des effets en temps réel</a>
+<ul>
+<li><a href="#position"><span class="toc-section-number">6.4.1</span> position</a></li>
+<li><a href="#rotation"><span class="toc-section-number">6.4.2</span> rotation</a></li>
+<li><a href="#dimensions"><span class="toc-section-number">6.4.3</span> dimensions</a></li>
+<li><a href="#mixage-dimages"><span class="toc-section-number">6.4.4</span> mixage d’images</a></li>
+<li><a href="#incrustation"><span class="toc-section-number">6.4.5</span> incrustation</a></li>
+<li><a href="#distorsion"><span class="toc-section-number">6.4.6</span> distorsion</a></li>
+<li><a href="#délais"><span class="toc-section-number">6.4.7</span> délais</a></li>
+<li><a href="#rétroaction-feedback"><span class="toc-section-number">6.4.8</span> rétroaction (feedback)</a></li>
+<li><a href="#modification-de-couleurs"><span class="toc-section-number">6.4.9</span> modification de couleurs</a></li>
+<li><a href="#chromakey"><span class="toc-section-number">6.4.10</span> chromakey</a></li>
+<li><a href="#lumière"><span class="toc-section-number">6.4.11</span> lumière</a></li>
+<li><a href="#fumée"><span class="toc-section-number">6.4.12</span> fumée</a></li>
+<li><a href="#texture-1"><span class="toc-section-number">6.4.13</span> texture</a></li>
+</ul></li>
+<li><a href="#nuanceurs-shaders-vertex-pixel-et-géométrie"><span class="toc-section-number">6.5</span> Nuanceurs (shaders) : vertex, pixel et géométrie</a></li>
+</ul></li>
+<li><a href="#interagir"><span class="toc-section-number">7</span> Interactivité et images en mouvement</a>
+<ul>
+<li><a href="#intégration-des-composantes-dans-une-production-interactive"><span class="toc-section-number">7.1</span> Intégration des composantes dans une production interactive</a></li>
+<li><a href="#configuration-logicielle-et-matérielle-dune-production-interactive"><span class="toc-section-number">7.2</span> Configuration logicielle et matérielle d’une production interactive</a></li>
+<li><a href="#conceptualisation-et-scénarisation-dun-projet-visuel-interactif"><span class="toc-section-number">7.3</span> Conceptualisation et scénarisation d’un projet visuel interactif</a></li>
+<li><a href="#captation-de-mouvement-et-de-présence"><span class="toc-section-number">7.4</span> Captation de mouvement et de présence</a></li>
+<li><a href="#programmation-de-la-captation-de-mouvement-et-de-présence"><span class="toc-section-number">7.5</span> Programmation de la captation de mouvement et de présence</a></li>
+<li><a href="#utilisation-dinterfaces-de-contrôle-interactives"><span class="toc-section-number">7.6</span> Utilisation d’interfaces de contrôle interactives</a></li>
+<li><a href="#utilisation-dosc-midi-dmx-ou-artnet-pour-interagir-avec-dautres-logiciels-et-interfaces-de-contrôle"><span class="toc-section-number">7.7</span> Utilisation d’OSC, MIDI, DMX ou ArtNet pour interagir avec d’autres logiciels et interfaces de contrôle</a></li>
+<li><a href="#ajustement-des-effets-visuels-en-fonction-des-tests"><span class="toc-section-number">7.8</span> Ajustement des effets visuels en fonction des tests</a></li>
+</ul></li>
+<li><a href="#déploiement-de-projet-vidéo-interactif"><span class="toc-section-number">8</span> Déploiement de projet vidéo interactif</a>
+<ul>
+<li><a href="#schématisation"><span class="toc-section-number">8.1</span> Schématisation</a></li>
+<li><a href="#prototypage"><span class="toc-section-number">8.2</span> Prototypage</a></li>
+<li><a href="#optimisation-des-performances-de-lapplication"><span class="toc-section-number">8.3</span> Optimisation des performances de l’application</a></li>
+<li><a href="#gestion-de-banques-dimages"><span class="toc-section-number">8.4</span> Gestion de banques d’images</a></li>
+<li><a href="#formats-de-sauvegarde"><span class="toc-section-number">8.5</span> Formats de sauvegarde</a></li>
+<li><a href="#exportation-de-projets"><span class="toc-section-number">8.6</span> Exportation de projets</a></li>
+<li><a href="#sauvegarde-et-archivage-des-médias"><span class="toc-section-number">8.7</span> Sauvegarde et archivage des médias</a></li>
+<li><a href="#préréglages"><span class="toc-section-number">8.8</span> Préréglages</a></li>
+<li><a href="#optimisation-de-la-programmation-et-commentaires"><span class="toc-section-number">8.9</span> Optimisation de la programmation et commentaires</a></li>
+<li><a href="#application-autonome"><span class="toc-section-number">8.10</span> Application autonome</a></li>
+<li><a href="#console-de-débogage"><span class="toc-section-number">8.11</span> Console de débogage</a></li>
+<li><a href="#test-de-contrôle-de-qualité"><span class="toc-section-number">8.12</span> Test de contrôle de qualité</a></li>
+</ul></li>
+<li><a href="#évaluations-sommatives"><span class="toc-section-number">9</span> Évaluations sommatives</a>
+<ul>
+<li><a href="#evaluation_1"><span class="toc-section-number">9.1</span> Corpus vidéo</a>
+<ul>
+<li><a href="#individuel"><span class="toc-section-number">9.1.1</span> 15% individuel</a></li>
+<li><a href="#présentation-orale-individuelle-5-minutes"><span class="toc-section-number">9.1.2</span> Présentation orale individuelle ~5 minutes</a></li>
+</ul></li>
+<li><a href="#evaluation_2"><span class="toc-section-number">9.2</span> Question quiz</a>
+<ul>
+<li><a href="#individuel-1"><span class="toc-section-number">9.2.1</span> 10% individuel</a></li>
+<li><a href="#rédaction-dune-question-pertinant-et-originale-pour-le-quiz"><span class="toc-section-number">9.2.2</span> Rédaction d’une question pertinant et originale pour le quiz</a></li>
+</ul></li>
+<li><a href="#evaluation_3"><span class="toc-section-number">9.3</span> Quiz théorique</a>
+<ul>
+<li><a href="#individuel-2"><span class="toc-section-number">9.3.1</span> 15% individuel</a></li>
+</ul></li>
+<li><a href="#evaluation_4"><span class="toc-section-number">9.4</span> Moodboard vidéo</a>
+<ul>
+<li><a href="#individuel-3"><span class="toc-section-number">9.4.1</span> 15% individuel</a></li>
+<li><a href="#partage-décran-individuelle-5-minutes"><span class="toc-section-number">9.4.2</span> Partage d’écran individuelle ~5 minutes</a></li>
+</ul></li>
+<li><a href="#evaluation_5"><span class="toc-section-number">9.5</span> Déclenchement vidéo temps réel</a>
+<ul>
+<li><a href="#individuel-4"><span class="toc-section-number">9.5.1</span> 25% individuel</a></li>
+<li><a href="#fluxstream-video-où-le-traitement-vidéo-est-effectué-en-temps-réel"><span class="toc-section-number">9.5.2</span> Flux(Stream) video où le traitement vidéo est effectué en temps réel</a></li>
+</ul></li>
+<li><a href="#evaluation_6"><span class="toc-section-number">9.6</span> Installation interactive et/ou performance audiovisuel</a>
+<ul>
+<li><a href="#individuel-ou-équipe"><span class="toc-section-number">9.6.1</span> 30% individuel ou équipe</a></li>
+<li><a href="#présentation-démonstration-et-documentation-des-apprentissages"><span class="toc-section-number">9.6.2</span> Présentation, démonstration et documentation des apprentissages</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#calendrier"><span class="toc-section-number">10</span> Calendrier</a></li>
+<li><a href="#examples-html"><span class="toc-section-number">11</span> Examples HTML</a></li>
+<li><a href="#references">References</a></li>
+</ul>
+<!--bookdown:toc2:end-->
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Traitement vidéo</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<!--bookdown:toc:end-->
+<!--bookdown:body:start-->
+<!--chapter:end:index.Rmd-->
+<div id="traitement-vidéo" class="section level1" number="1">
+<h1 number="1"><span class="header-section-number">1</span> Traitement vidéo</h1>
+<p><img src="images/cover.png" /><!-- --></p>
+<div id="sources" class="section level2" number="1.1">
+<h2 number="1.1"><span class="header-section-number">1.1</span> Sources</h2>
+<ul>
+<li>Ce document est Libre <span class="citation">(<a href="#ref-stallman_GnuOrg_1983" role="doc-biblioref">Stallman 1983</a>)</span></li>
+<li>Son code source est indexé via GIT <span class="citation">(<a href="#ref-torvalds_Git_2006" role="doc-biblioref">Torvalds 2006</a>)</span> et hébergé sur github à l’URL suivant:
+<ul>
+<li><a href="https://github.com/tim-montmorency/543-traitement-video" target="_blank">github.com/tim-montmorency/543-traitement-video</a></li>
+</ul></li>
+<li>La compilation de ce document utilise
+<ul>
+<li>R Markdown<br />
+</li>
+<li>Bookdown <span class="citation">(<a href="#ref-rmarkdown2018" role="doc-biblioref">Xie, Allaire, and Grolemund 2018</a>)</span></li>
+<li>knitr <span class="citation">(<a href="#ref-xie2015" role="doc-biblioref">Xie 2015</a>)</span></li>
+</ul></li>
+</ul>
+</div>
+<div id="document-compilé-et-hébergé" class="section level2" number="1.2">
+<h2 number="1.2"><span class="header-section-number">1.2</span> Document compilé et hébergé</h2>
+<div id="html" class="section level3" number="1.2.1">
+<h3 number="1.2.1"><span class="header-section-number">1.2.1</span> <a href="https://tim-montmorency.com/543-traitement-video/" target="_blank">HTML</a></h3>
+</div>
+<div id="pdf" class="section level3" number="1.2.2">
+<h3 number="1.2.2"><span class="header-section-number">1.2.2</span> <a href="https://tim-montmorency.com/543-traitement-video/traitement-video.pdf" target="_blank">PDF</a></h3>
+</div>
+<div id="epub" class="section level3" number="1.2.3">
+<h3 number="1.2.3"><span class="header-section-number">1.2.3</span> <a href="https://tim-montmorency.com/543-traitement-video/traitement-video.epub" target="_blank">EPUB</a></h3>
+<!--chapter:end:01-preface.Rmd-->
+</div>
+</div>
+</div>
+<div id="traitement-vidéo-582-543-mo" class="section level1" number="2">
+<h1 number="2"><span class="header-section-number">2</span> Traitement vidéo (582-543-MO)</h1>
+<div id="description-du-cours" class="section level2" number="2.1">
+<h2 number="2.1"><span class="header-section-number">2.1</span> Description du cours</h2>
+<ul>
+<li>Techniques D’INTÉGRATION MULTIMÉDIA</li>
+<li>Département des techniques d’intégration multimédia</li>
+<li>582.A1</li>
+<li>Pondération : 1-2-2</li>
+<li>Unités: 1,66</li>
+<li>Heures-contact : 45</li>
+<li>Session : 4</li>
+</ul>
+<p>Ce cours permet à l’étudiante ou l’étudiant d’enregistrer, de modifier et de traiter des images en temps réel.
+L’étudiant sera appelé à appliquer des effets visuels aux images vidéo et à adapter les images en fonction de l’intégration.</p>
+</div>
+<div id="objectifs" class="section level2" number="2.2">
+<h2 number="2.2"><span class="header-section-number">2.2</span> Objectifs</h2>
+<div id="intégrateur-et-ministériel" class="section level3" number="2.2.1">
+<h3 number="2.2.1"><span class="header-section-number">2.2.1</span> Intégrateur et ministériel</h3>
+<ul>
+<li>015J Traiter les images en mouvement</li>
+</ul>
+</div>
+<div id="apprentissages" class="section level3" number="2.2.2">
+<h3 number="2.2.2"><span class="header-section-number">2.2.2</span> Apprentissages</h3>
+<ul>
+<li>Adapter l’images en mouvement (Importance relative : 40% )</li>
+<li>Programmer des effets visuels interactifs (Importance relative : 40% )</li>
+<li>Intégrer l’image en mouvement interactive à une production médiatique (Importance relative : 20% )</li>
+</ul>
+</div>
+</div>
+<div id="développement" class="section level2" number="2.3">
+<h2 number="2.3"><span class="header-section-number">2.3</span> Développement</h2>
+<div id="attitudes-professionnelles" class="section level3" number="2.3.1">
+<h3 number="2.3.1"><span class="header-section-number">2.3.1</span> Attitudes professionnelles</h3>
+<ul>
+<li>Curiosité</li>
+<li>Capacité de partage</li>
+<li>Créativité</li>
+<li>Sens esthétique</li>
+<li>Esprit critique</li>
+</ul>
+</div>
+<div id="habiletés-transdisciplinaires" class="section level3" number="2.3.2">
+<h3 number="2.3.2"><span class="header-section-number">2.3.2</span> Habiletés transdisciplinaires</h3>
+<ul>
+<li>Profil <strong>technologies de l’information et de la communication (TIC)</strong></li>
+<li>Les étudiantes et étudiants auront à exploiter les TIC de manière efficace et responsable.</li>
+<li>Recherche, traitement et présentation de l’information.</li>
+</ul>
+</div>
+</div>
+<div id="préalables" class="section level2" number="2.4">
+<h2 number="2.4"><span class="header-section-number">2.4</span> Préalables</h2>
+<div id="préalable-absolu-au-présent-cours" class="section level3" number="2.4.1">
+<h3 number="2.4.1"><span class="header-section-number">2.4.1</span> Préalable absolu au présent cours :</h3>
+<ul>
+<li>582 413 MO Montage vidéo</li>
+</ul>
+</div>
+<div id="préalable-absolu-aux-cours-suivants" class="section level3" number="2.4.2">
+<h3 number="2.4.2"><span class="header-section-number">2.4.2</span> Préalable absolu aux cours suivants :</h3>
+<ul>
+<li>582 513 MO Conception de projet multimédia</li>
+<li>582 66B MO Expérience multimédia interactive</li>
+<li>582 66G MO Production Web en entreprise</li>
+</ul>
+</div>
+</div>
+<div id="contexte-particulier-dapprentissage" class="section level2" number="2.5">
+<h2 number="2.5"><span class="header-section-number">2.5</span> Contexte particulier d’apprentissage</h2>
+<ul>
+<li>En laboratoire et studio.</li>
+</ul>
+<div id="fiche-technique" class="section level3" number="2.5.1">
+<h3 number="2.5.1"><span class="header-section-number">2.5.1</span> Fiche technique</h3>
+<ul>
+<li>Ordinateurs, projecteurs à haute luminosité ou télévision, haut-parleurs professionnels, casque audio, et tout le matériel disponible pour TIM</li>
+<li>Logiciels de montage vidéo et traitemet vidéo en temps réel</li>
+<li>Languages et protocoles</li>
+</ul>
+<p>Technicienne ou technicien en travaux pratiques</p>
+</div>
+</div>
+<div id="contenus_essentiels" class="section level2" number="2.6">
+<h2 number="2.6"><span class="header-section-number">2.6</span> Contenus essentiels</h2>
+<div id="survol-historique" class="section level3" number="2.6.1">
+<h3 number="2.6.1"><span class="header-section-number">2.6.1</span> Survol historique</h3>
+<ul>
+<li><a href="#evolution_historique">Évolution historique du traitement vidéo dans les différentes formes d’art</a>
+<ul>
+<li><a href="#evolution_historique_performance">Performance</a></li>
+<li><a href="#evolution_historique_installation">Installation</a></li>
+<li><a href="#evolution_historique_technologies">Évolution des technologies associées</a></li>
+</ul></li>
+<li><a href="#evolution_historique_language">Langages et moyens expressifs de l’image en mouvement</a></li>
+</ul>
+</div>
+<div id="fondements-technique" class="section level3" number="2.6.2">
+<h3 number="2.6.2"><span class="header-section-number">2.6.2</span> Fondements technique</h3>
+<ul>
+<li>Formats de fichiers</li>
+<li>Encodage des vidéos<br />
+</li>
+<li>Captation vidéo en temps réel</li>
+<li>Logiciels de traitement vidéo en temps réel et d’interactivité</li>
+<li>Logiciels de programmation nodale</li>
+<li>Notions de traitement vidéo
+<ul>
+<li>pixels</li>
+<li>couleurs</li>
+<li>texture</li>
+<li>matrice</li>
+<li>mémoire tampon</li>
+<li>alpha channel</li>
+<li>rendu OpenGL</li>
+</ul></li>
+</ul>
+</div>
+<div id="traitement-de-limages-en-mouvement" class="section level3" number="2.6.3">
+<h3 number="2.6.3"><span class="header-section-number">2.6.3</span> Traitement de l’images en mouvement</h3>
+<ul>
+<li>Usage de capture vidéo en temps réel<br />
+</li>
+<li>Effets visuels et filtres applicables en temps réel sur des matériaux visuels<br />
+</li>
+<li>Traitement visuel en temps réel à l’aide d’effets et de logiciels de programmation multimédia et nodale</li>
+<li>Flot de données entre les objets du logiciel</li>
+<li>Exploitation des fonctions des logiciels de traitement vidéo en temps réel</li>
+<li>Utilisation de nuanceurs (shaders)</li>
+</ul>
+</div>
+<div id="programmation-deffets-visuels" class="section level3" number="2.6.4">
+<h3 number="2.6.4"><span class="header-section-number">2.6.4</span> Programmation d’effets visuels</h3>
+<ul>
+<li>Programmation de compositions visuelles génératives</li>
+<li>Réalisation d’un échantillonneur/mixeur visuel</li>
+<li>Programmation pour contrôler la lecture vidéo,
+<ul>
+<li>montage temps réel</li>
+<li>niveau des couleurs</li>
+<li>alpha channel<br />
+</li>
+</ul></li>
+<li>Programmation nodale pour créer des effets en temps réel
+<ul>
+<li>position</li>
+<li>rotation</li>
+<li>dimensions</li>
+<li>mixage d’images</li>
+<li>incrustation</li>
+<li>distorsion</li>
+<li>délais</li>
+<li>rétroaction (feedback)</li>
+<li>modification de couleurs</li>
+<li>chromakey</li>
+<li>lumière</li>
+<li>fumée</li>
+<li>texture</li>
+</ul></li>
+<li>Nuanceurs (shaders) : vertex, pixel et géométrie</li>
+</ul>
+</div>
+<div id="image-en-mouvement-et-interactivité" class="section level3" number="2.6.5">
+<h3 number="2.6.5"><span class="header-section-number">2.6.5</span> Image en mouvement et interactivité</h3>
+<ul>
+<li>Intégration des composantes dans une production interactive</li>
+<li>Configuration logicielle et matérielle d’une production interactive<br />
+</li>
+<li>Conceptualisation et scénarisation d’un projet visuel interactif<br />
+</li>
+<li>Captation de mouvement et de présence</li>
+<li>Programmation de la captation de mouvement et de présence</li>
+<li>Utilisation d’interfaces de contrôle interactives</li>
+<li>Utilisation d’OSC, MIDI, DMX ou ArtNet pour interagir avec d’autre logiciels et interfaces de contrôle</li>
+<li>Ajustement des effets visuels en fonction des tests</li>
+</ul>
+</div>
+<div id="gestion-de-projets" class="section level3" number="2.6.6">
+<h3 number="2.6.6"><span class="header-section-number">2.6.6</span> Gestion de projets</h3>
+<ul>
+<li>Schématisation</li>
+<li>Prototypage</li>
+<li>Gestion de banques d’images</li>
+<li>Optimisation des performances de l’application</li>
+<li>Test de contrôle de qualité</li>
+<li>Préréglages</li>
+<li>Optimisation de la programmation et commentaires</li>
+<li>Console de débogage</li>
+<li>Exportation de projets</li>
+<li>Formats de sauvegarde<br />
+</li>
+<li>Application autonome</li>
+<li>Sauvegarde et archivage des médias</li>
+</ul>
+<!--chapter:end:02-intro.Rmd-->
+</div>
+</div>
+</div>
+<div id="historique" class="section level1" number="3">
+<h1 number="3"><span class="header-section-number">3</span> Historique du traitement vidéo</h1>
+<div id="evolution_historique" class="section level2" number="3.1">
+<h2 number="3.1"><span class="header-section-number">3.1</span> Évolution historique du traitement vidéo dans les différentes formes d’art</h2>
+<div id="evolution_historique_performance" class="section level3" number="3.1.1">
+<h3 number="3.1.1"><span class="header-section-number">3.1.1</span> Performance</h3>
+</div>
+<div id="evolution_historique_installation" class="section level3" number="3.1.2">
+<h3 number="3.1.2"><span class="header-section-number">3.1.2</span> Installation</h3>
+</div>
+<div id="evolution_historique_technologies" class="section level3" number="3.1.3">
+<h3 number="3.1.3"><span class="header-section-number">3.1.3</span> Évolution des technologies associées</h3>
+</div>
+</div>
+<div id="evolution_historique_language" class="section level2" number="3.2">
+<h2 number="3.2"><span class="header-section-number">3.2</span> Langages et moyens expressifs de l’image en mouvement</h2>
+<pre><code>* Programmation nodale 
+* Javascript
+* Open sound control (OSC)
+* Réseautique (addressage ip)
+* Midi 
+* NDI
+* Websocket</code></pre>
+<!--chapter:end:03-historique.Rmd-->
+</div>
+</div>
+<div id="lexique" class="section level1" number="4">
+<h1 number="4"><span class="header-section-number">4</span> Lexique technique et technologique</h1>
+<div id="lexique_composantes" class="section level2" number="4.1">
+<h2 number="4.1"><span class="header-section-number">4.1</span> Composantes du signal vidéo</h2>
+<div id="signaux-de-transmission" class="section level3" number="4.1.1">
+<h3 number="4.1.1"><span class="header-section-number">4.1.1</span> Signaux de transmission</h3>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Video#Analog_video">Signaux analogues/digitaux</a>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Analog_television">transmission télévisuelle analogue</a></li>
+</ul></li>
+</ul>
+</div>
+<div id="résolutions" class="section level3" number="4.1.2">
+<h3 number="4.1.2"><span class="header-section-number">4.1.2</span> résolutions</h3>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Computer_display_standard#/media/File:Vector_Video_Standards2.svg">résolutions</a></li>
+</ul>
+</div>
+<div id="ratio" class="section level3" number="4.1.3">
+<h3 number="4.1.3"><span class="header-section-number">4.1.3</span> Ratio</h3>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Display_aspect_ratio">ratios image</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Pixel_aspect_ratio">ratios-pixels</a></li>
+</ul>
+</div>
+<div id="débit" class="section level3" number="4.1.4">
+<h3 number="4.1.4"><span class="header-section-number">4.1.4</span> Débit</h3>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Bit_rate#Video">Débit (bitrate)</a></li>
+</ul>
+</div>
+<div id="échantillonnage" class="section level3" number="4.1.5">
+<h3 number="4.1.5"><span class="header-section-number">4.1.5</span> Échantillonnage</h3>
+<ul>
+<li>Profondeur de l’échantillonnage couleur
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Color_depth">bit/canal</a><br />
+</li>
+</ul></li>
+<li><a href="https://en.wikipedia.org/wiki/Chroma_subsampling#Sampling_systems_and_ratios">chroma subsampling</a>
+<ul>
+<li><a href="https://upload.wikimedia.org/wikipedia/commons/0/06/Colorcomp.jpg">4:4:4 vs 4:2:2 vs 4:2:0</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Alpha_compositing">4:4:4 vs 4:4:4:4</a></li>
+</ul></li>
+</ul>
+</div>
+<div id="cadence" class="section level3" number="4.1.6">
+<h3 number="4.1.6"><span class="header-section-number">4.1.6</span> Cadence</h3>
+<ul>
+<li><a href="https://frames-per-second.appspot.com">Cadence</a></li>
+</ul>
+</div>
+<div id="trame" class="section level3" number="4.1.7">
+<h3 number="4.1.7"><span class="header-section-number">4.1.7</span> Trame</h3>
+<ul>
+<li><a href="https://web.archive.org/web/20140222010640/http://neuron2.net/LVG/interlacing.html">Trame (progressif/entrelacé)</a></li>
+</ul>
+</div>
+<div id="poid" class="section level3" number="4.1.8">
+<h3 number="4.1.8"><span class="header-section-number">4.1.8</span> Poid</h3>
+<ul>
+<li><a href="https://toolstud.io/video/filesize.php?imagewidth=1920&amp;imageheight=1080&amp;framerate=29.97&amp;timeduration=60&amp;timeunit=seconds">calcul de grosseur de fichier</a></li>
+<li><a href="https://toolstud.io/video/bitrate.php?imagewidth=1&amp;imageheight=1&amp;colordepth=24&amp;framerate=29.97">calcul de bitrate</a></li>
+</ul>
+</div>
+</div>
+<div id="lexique_fichiers" class="section level2" number="4.2">
+<h2 number="4.2"><span class="header-section-number">4.2</span> Formats de fichiers</h2>
+<div id="containers" class="section level3" number="4.2.1">
+<h3 number="4.2.1"><span class="header-section-number">4.2.1</span> Containers</h3>
+<table>
+<thead>
+<tr class="header">
+<th>nom</th>
+<th>extension</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>QuickTime</td>
+<td>.mov</td>
+</tr>
+<tr class="even">
+<td>Matroska</td>
+<td>.mkv</td>
+</tr>
+<tr class="odd">
+<td>Mpeg4</td>
+<td>.mp4</td>
+</tr>
+<tr class="even">
+<td>Windows Media Video</td>
+<td>.wmv</td>
+</tr>
+<tr class="odd">
+<td>Audio Video Interleaved</td>
+<td>.avi</td>
+</tr>
+<tr class="even">
+<td>Theora</td>
+<td>.ogv</td>
+</tr>
+</tbody>
+</table>
+<p><a href="https://en.wikipedia.org/wiki/Comparison_of_video_container_formats">wiki:Comparison_of_video_container_formats</a></p>
+</div>
+<div id="codecs" class="section level3" number="4.2.2">
+<h3 number="4.2.2"><span class="header-section-number">4.2.2</span> Codecs</h3>
+<table>
+<thead>
+<tr class="header">
+<th>Codec</th>
+<th>compression</th>
+<th>usage</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>H.264&amp;VP8</td>
+<td>intra &amp; inter</td>
+<td>lecture&lt;1080p</td>
+</tr>
+<tr class="even">
+<td>HEVC&amp;VP9</td>
+<td>intra &amp; inter</td>
+<td>lecture&lt;4k</td>
+</tr>
+<tr class="odd">
+<td>proRes</td>
+<td>intra</td>
+<td>montage</td>
+</tr>
+<tr class="even">
+<td>dnxHD</td>
+<td>intra</td>
+<td>montage</td>
+</tr>
+<tr class="odd">
+<td>HAP</td>
+<td>intra</td>
+<td>GPU&amp;SSD</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="encodage-vidéo" class="section level2" number="4.3">
+<h2 number="4.3"><span class="header-section-number">4.3</span> Encodage vidéo</h2>
+<div id="compression" class="section level3" number="4.3.1">
+<h3 number="4.3.1"><span class="header-section-number">4.3.1</span> compression</h3>
+<div id="losslesslossy" class="section level4" number="4.3.1.1">
+<h4 number="4.3.1.1"><span class="header-section-number">4.3.1.1</span> lossless/lossy</h4>
+<div id="encodage-vidéo-sans-perte---lossless" class="section level5" number="4.3.1.1.1">
+<h5 number="4.3.1.1.1"><span class="header-section-number">4.3.1.1.1</span> <a href="https://en.wikipedia.org/wiki/List_of_codecs#Lossless_video_compression">Encodage vidéo sans perte - lossless</a></h5>
+<ul>
+<li>Apple Animation (QuickTime RLE)</li>
+<li>CinemaDNG Raw (Adobe, Blackmagic)</li>
+<li>séquence d’images (tiff, openexr)</li>
+</ul>
+</div>
+<div id="encodage-vidéo-avec-perte--lossy" class="section level5" number="4.3.1.1.2">
+<h5 number="4.3.1.1.2"><span class="header-section-number">4.3.1.1.2</span> <a href="https://en.wikipedia.org/wiki/List_of_codecs#Lossy_compression_2">Encodage vidéo avec perte -lossy</a></h5>
+<ul>
+<li>H.264&amp;VP8</li>
+<li>HEVC&amp;VP9</li>
+<li>proRes, dnxHD, cineform<br />
+</li>
+<li>HAP &amp; HAPQ</li>
+</ul>
+</div>
+</div>
+<div id="intrainter-frame" class="section level4" number="4.3.1.2">
+<h4 number="4.3.1.2"><span class="header-section-number">4.3.1.2</span> intra/inter frame</h4>
+<div id="intraframe" class="section level5" number="4.3.1.2.1">
+<h5 number="4.3.1.2.1"><span class="header-section-number">4.3.1.2.1</span> intraframe</h5>
+<ul>
+<li>Toute l’image individuellement compressée dans chaque image.
+<ul>
+<li>prores, dnxHD, photoJpeg, Apple intermediate codec (aic), cineform</li>
+</ul></li>
+</ul>
+</div>
+<div id="interframe" class="section level5" number="4.3.1.2.2">
+<h5 number="4.3.1.2.2"><span class="header-section-number">4.3.1.2.2</span> <a href="https://en.wikipedia.org/wiki/Inter_frame">interframe</a></h5>
+<ul>
+<li>image temporellement compressée, <a href="http://dvd-hq.info/data_compression_3.php">ce qui change</a>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Video_compression_picture_types">images: I (clef), P (&lt;-) et B(&lt;-&gt;)</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Inter_frame#/media/File:IPB_images_sequence.png">GOP : group of picture</a></li>
+</ul></li>
+<li>usage créatif <a href="https://www.youtube.com/watch?v=rMSsw4CZvKg">1</a>, <a href="https://www.youtube.com/watch?v=rSmEOk5AiN0">2</a>, <a href="https://www.youtube.com/watch?v=dNa0-xrKi3Q">3</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="utilisation-de-ffmpeg" class="section level3" number="4.3.2">
+<h3 number="4.3.2"><span class="header-section-number">4.3.2</span> utilisation de FFmpeg</h3>
+<div id="ex-transcoder-un-fichier-video-vers-un-fichier-prores-compatible-avec-quicktime" class="section level4" number="4.3.2.1">
+<h4 number="4.3.2.1"><span class="header-section-number">4.3.2.1</span> ex: Transcoder un fichier video vers un fichier prores compatible avec quicktime</h4>
+<pre><code>ffmpeg -i INPUT.mkv -c:v prores_ks -profile:v 3 -c:a pcm_s16le -pix_fmt yuv420p OUTPUT.mov</code></pre>
+<p>Où <code>-profile</code> est un chiffre entire de -1 to 5 correspondant au profile prores suivant :</p>
+<ul>
+<li>-1: auto (default)</li>
+<li>0: proxy ≈ 45Mbps YUV 4:2:2</li>
+<li>1: lt ≈ 102Mbps YUV 4:2:2</li>
+<li>2: standard ≈ 147Mbps YUV 4:2:2</li>
+<li>3: hq ≈ 220Mbps YUV 4:2:2</li>
+<li>4: 4444≈ 330Mbps YUVA 4:4:4:4</li>
+<li>5: 4444xq ≈ 500Mbps YUVA 4:4:4:4</li>
+</ul>
+<p>Où <code>-pix_fmt yuv420p</code> permet de créer un fichier compatible avec Quicktime</p>
+<p>pour des usages réguliers voir :</p>
+<ul>
+<li>FFmpeg Cookbook for Archivists <span class="citation">(<a href="#ref-kromer_FFmpegCookbookArchivists_2020" role="doc-biblioref">Kromer 2020</a>)</span></li>
+<li>FFmpeg Cookbook par Greg Wessels <span class="citation">(<a href="#ref-wessels_FFmpegCookbook_2017" role="doc-biblioref">Wessels 2017</a>)</span></li>
+</ul>
+<p>pour des usages artistiques :</p>
+<ul>
+<li>FFmpeg artschool <span class="citation">(<a href="#ref-associationofmovingimagearchivists_FFmpegArtschool_2020" role="doc-biblioref">Association of Moving Image Archivists 2020</a>)</span></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="captation-vidéo-en-temps-réel" class="section level2" number="4.4">
+<h2 number="4.4"><span class="header-section-number">4.4</span> Captation vidéo en temps réel</h2>
+</div>
+<div id="logiciels-de-programmation-nodale" class="section level2" number="4.5">
+<h2 number="4.5"><span class="header-section-number">4.5</span> Logiciels de programmation nodale</h2>
+</div>
+<div id="notions-de-traitement-vidéo" class="section level2" number="4.6">
+<h2 number="4.6"><span class="header-section-number">4.6</span> Notions de traitement vidéo</h2>
+<div id="pixels" class="section level3" number="4.6.1">
+<h3 number="4.6.1"><span class="header-section-number">4.6.1</span> Pixels</h3>
+</div>
+<div id="couleurs" class="section level3" number="4.6.2">
+<h3 number="4.6.2"><span class="header-section-number">4.6.2</span> Couleurs</h3>
+</div>
+<div id="texture" class="section level3" number="4.6.3">
+<h3 number="4.6.3"><span class="header-section-number">4.6.3</span> Texture</h3>
+</div>
+<div id="matrice" class="section level3" number="4.6.4">
+<h3 number="4.6.4"><span class="header-section-number">4.6.4</span> Matrice</h3>
+</div>
+<div id="mémoire-tampon" class="section level3" number="4.6.5">
+<h3 number="4.6.5"><span class="header-section-number">4.6.5</span> Mémoire tampon</h3>
+</div>
+<div id="alpha-channel" class="section level3" number="4.6.6">
+<h3 number="4.6.6"><span class="header-section-number">4.6.6</span> Alpha channel</h3>
+</div>
+<div id="rendu-opengl" class="section level3" number="4.6.7">
+<h3 number="4.6.7"><span class="header-section-number">4.6.7</span> Rendu OpenGL</h3>
+<!--chapter:end:04-lexique.Rmd-->
+</div>
+</div>
+</div>
+<div id="traiter" class="section level1" number="5">
+<h1 number="5"><span class="header-section-number">5</span> Traiter l’image en mouvement</h1>
+<div id="logiciels_de_traitement_video_temps_reel" class="section level2" number="5.1">
+<h2 number="5.1"><span class="header-section-number">5.1</span> Logiciels de traitement vidéo en temps réel et d’interactivité</h2>
+<ul>
+<li>Open Broadcast Studio</li>
+<li>Unity</li>
+<li>Pure Data</li>
+<li>Resolve</li>
+<li>Reaper</li>
+<li>ffmpeg</li>
+<li>Open stage control</li>
+</ul>
+</div>
+<div id="aquérir-limage-en-mouvement" class="section level2" number="5.2">
+<h2 number="5.2"><span class="header-section-number">5.2</span> Aquérir l’image en mouvement</h2>
+</div>
+<div id="usage-de-capture-vidéo-en-temps-réel" class="section level2" number="5.3">
+<h2 number="5.3"><span class="header-section-number">5.3</span> Usage de capture vidéo en temps réel</h2>
+</div>
+<div id="effets-visuels-et-filtres-applicables-en-temps-réel-sur-des-matériaux-visuels" class="section level2" number="5.4">
+<h2 number="5.4"><span class="header-section-number">5.4</span> Effets visuels et filtres applicables en temps réel sur des matériaux visuels</h2>
+</div>
+<div id="traitement-visuel-en-temps-réel-à-laide-deffets-et-de-logiciels-de-programmation-multimédia-et-nodale" class="section level2" number="5.5">
+<h2 number="5.5"><span class="header-section-number">5.5</span> Traitement visuel en temps réel à l’aide d’effets et de logiciels de programmation multimédia et nodale</h2>
+</div>
+<div id="flot-de-données-entre-les-objets-du-logiciel" class="section level2" number="5.6">
+<h2 number="5.6"><span class="header-section-number">5.6</span> Flot de données entre les objets du logiciel</h2>
+</div>
+<div id="exploitation-des-fonctions-des-logiciels-de-traitement-vidéo-en-temps-réel" class="section level2" number="5.7">
+<h2 number="5.7"><span class="header-section-number">5.7</span> Exploitation des fonctions des logiciels de traitement vidéo en temps réel</h2>
+</div>
+<div id="utilisation-de-nuanciers-shaders" class="section level2" number="5.8">
+<h2 number="5.8"><span class="header-section-number">5.8</span> Utilisation de nuanciers (shaders)</h2>
+<!--chapter:end:05-traiter.Rmd-->
+</div>
+</div>
+<div id="programmer" class="section level1" number="6">
+<h1 number="6"><span class="header-section-number">6</span> Programmer des effets visuels</h1>
+<div id="programmation-de-compositions-visuelles-génératives" class="section level2" number="6.1">
+<h2 number="6.1"><span class="header-section-number">6.1</span> Programmation de compositions visuelles génératives</h2>
+</div>
+<div id="réalisation-dun-échantillonneurmélangeur-visuel" class="section level2" number="6.2">
+<h2 number="6.2"><span class="header-section-number">6.2</span> Réalisation d’un échantillonneur/mélangeur visuel</h2>
+</div>
+<div id="programmation-pour-contrôler-la-lecture-vidéo" class="section level2" number="6.3">
+<h2 number="6.3"><span class="header-section-number">6.3</span> Programmation pour contrôler la lecture vidéo,</h2>
+<div id="montage-temps-réel" class="section level3" number="6.3.1">
+<h3 number="6.3.1"><span class="header-section-number">6.3.1</span> montage temps réel</h3>
+</div>
+<div id="niveau-des-couleurs" class="section level3" number="6.3.2">
+<h3 number="6.3.2"><span class="header-section-number">6.3.2</span> niveau des couleurs</h3>
+</div>
+<div id="alpha-channel-1" class="section level3" number="6.3.3">
+<h3 number="6.3.3"><span class="header-section-number">6.3.3</span> alpha channel</h3>
+</div>
+</div>
+<div id="programmation-nodale-pour-créer-des-effets-en-temps-réel" class="section level2" number="6.4">
+<h2 number="6.4"><span class="header-section-number">6.4</span> Programmation nodale pour créer des effets en temps réel</h2>
+<div id="position" class="section level3" number="6.4.1">
+<h3 number="6.4.1"><span class="header-section-number">6.4.1</span> position</h3>
+</div>
+<div id="rotation" class="section level3" number="6.4.2">
+<h3 number="6.4.2"><span class="header-section-number">6.4.2</span> rotation</h3>
+</div>
+<div id="dimensions" class="section level3" number="6.4.3">
+<h3 number="6.4.3"><span class="header-section-number">6.4.3</span> dimensions</h3>
+</div>
+<div id="mixage-dimages" class="section level3" number="6.4.4">
+<h3 number="6.4.4"><span class="header-section-number">6.4.4</span> mixage d’images</h3>
+</div>
+<div id="incrustation" class="section level3" number="6.4.5">
+<h3 number="6.4.5"><span class="header-section-number">6.4.5</span> incrustation</h3>
+</div>
+<div id="distorsion" class="section level3" number="6.4.6">
+<h3 number="6.4.6"><span class="header-section-number">6.4.6</span> distorsion</h3>
+</div>
+<div id="délais" class="section level3" number="6.4.7">
+<h3 number="6.4.7"><span class="header-section-number">6.4.7</span> délais</h3>
+</div>
+<div id="rétroaction-feedback" class="section level3" number="6.4.8">
+<h3 number="6.4.8"><span class="header-section-number">6.4.8</span> rétroaction (feedback)</h3>
+</div>
+<div id="modification-de-couleurs" class="section level3" number="6.4.9">
+<h3 number="6.4.9"><span class="header-section-number">6.4.9</span> modification de couleurs</h3>
+</div>
+<div id="chromakey" class="section level3" number="6.4.10">
+<h3 number="6.4.10"><span class="header-section-number">6.4.10</span> chromakey</h3>
+</div>
+<div id="lumière" class="section level3" number="6.4.11">
+<h3 number="6.4.11"><span class="header-section-number">6.4.11</span> lumière</h3>
+</div>
+<div id="fumée" class="section level3" number="6.4.12">
+<h3 number="6.4.12"><span class="header-section-number">6.4.12</span> fumée</h3>
+</div>
+<div id="texture-1" class="section level3" number="6.4.13">
+<h3 number="6.4.13"><span class="header-section-number">6.4.13</span> texture</h3>
+</div>
+</div>
+<div id="nuanceurs-shaders-vertex-pixel-et-géométrie" class="section level2" number="6.5">
+<h2 number="6.5"><span class="header-section-number">6.5</span> Nuanceurs (shaders) : vertex, pixel et géométrie</h2>
+<!--chapter:end:06-programmer.Rmd-->
+</div>
+</div>
+<div id="interagir" class="section level1" number="7">
+<h1 number="7"><span class="header-section-number">7</span> Interactivité et images en mouvement</h1>
+<div id="intégration-des-composantes-dans-une-production-interactive" class="section level2" number="7.1">
+<h2 number="7.1"><span class="header-section-number">7.1</span> Intégration des composantes dans une production interactive</h2>
+</div>
+<div id="configuration-logicielle-et-matérielle-dune-production-interactive" class="section level2" number="7.2">
+<h2 number="7.2"><span class="header-section-number">7.2</span> Configuration logicielle et matérielle d’une production interactive</h2>
+</div>
+<div id="conceptualisation-et-scénarisation-dun-projet-visuel-interactif" class="section level2" number="7.3">
+<h2 number="7.3"><span class="header-section-number">7.3</span> Conceptualisation et scénarisation d’un projet visuel interactif</h2>
+</div>
+<div id="captation-de-mouvement-et-de-présence" class="section level2" number="7.4">
+<h2 number="7.4"><span class="header-section-number">7.4</span> Captation de mouvement et de présence</h2>
+</div>
+<div id="programmation-de-la-captation-de-mouvement-et-de-présence" class="section level2" number="7.5">
+<h2 number="7.5"><span class="header-section-number">7.5</span> Programmation de la captation de mouvement et de présence</h2>
+</div>
+<div id="utilisation-dinterfaces-de-contrôle-interactives" class="section level2" number="7.6">
+<h2 number="7.6"><span class="header-section-number">7.6</span> Utilisation d’interfaces de contrôle interactives</h2>
+</div>
+<div id="utilisation-dosc-midi-dmx-ou-artnet-pour-interagir-avec-dautres-logiciels-et-interfaces-de-contrôle" class="section level2" number="7.7">
+<h2 number="7.7"><span class="header-section-number">7.7</span> Utilisation d’OSC, MIDI, DMX ou ArtNet pour interagir avec d’autres logiciels et interfaces de contrôle</h2>
+</div>
+<div id="ajustement-des-effets-visuels-en-fonction-des-tests" class="section level2" number="7.8">
+<h2 number="7.8"><span class="header-section-number">7.8</span> Ajustement des effets visuels en fonction des tests</h2>
+<!--chapter:end:07-interagir.Rmd-->
+</div>
+</div>
+<div id="déploiement-de-projet-vidéo-interactif" class="section level1" number="8">
+<h1 number="8"><span class="header-section-number">8</span> Déploiement de projet vidéo interactif</h1>
+<div id="schématisation" class="section level2" number="8.1">
+<h2 number="8.1"><span class="header-section-number">8.1</span> Schématisation</h2>
+</div>
+<div id="prototypage" class="section level2" number="8.2">
+<h2 number="8.2"><span class="header-section-number">8.2</span> Prototypage</h2>
+</div>
+<div id="optimisation-des-performances-de-lapplication" class="section level2" number="8.3">
+<h2 number="8.3"><span class="header-section-number">8.3</span> Optimisation des performances de l’application</h2>
+</div>
+<div id="gestion-de-banques-dimages" class="section level2" number="8.4">
+<h2 number="8.4"><span class="header-section-number">8.4</span> Gestion de banques d’images</h2>
+</div>
+<div id="formats-de-sauvegarde" class="section level2" number="8.5">
+<h2 number="8.5"><span class="header-section-number">8.5</span> Formats de sauvegarde</h2>
+</div>
+<div id="exportation-de-projets" class="section level2" number="8.6">
+<h2 number="8.6"><span class="header-section-number">8.6</span> Exportation de projets</h2>
+</div>
+<div id="sauvegarde-et-archivage-des-médias" class="section level2" number="8.7">
+<h2 number="8.7"><span class="header-section-number">8.7</span> Sauvegarde et archivage des médias</h2>
+</div>
+<div id="préréglages" class="section level2" number="8.8">
+<h2 number="8.8"><span class="header-section-number">8.8</span> Préréglages</h2>
+</div>
+<div id="optimisation-de-la-programmation-et-commentaires" class="section level2" number="8.9">
+<h2 number="8.9"><span class="header-section-number">8.9</span> Optimisation de la programmation et commentaires</h2>
+</div>
+<div id="application-autonome" class="section level2" number="8.10">
+<h2 number="8.10"><span class="header-section-number">8.10</span> Application autonome</h2>
+</div>
+<div id="console-de-débogage" class="section level2" number="8.11">
+<h2 number="8.11"><span class="header-section-number">8.11</span> Console de débogage</h2>
+</div>
+<div id="test-de-contrôle-de-qualité" class="section level2" number="8.12">
+<h2 number="8.12"><span class="header-section-number">8.12</span> Test de contrôle de qualité</h2>
+<!--chapter:end:08-deployer.Rmd-->
+</div>
+</div>
+<div id="évaluations-sommatives" class="section level1" number="9">
+<h1 number="9"><span class="header-section-number">9</span> Évaluations sommatives</h1>
+<div id="evaluation_1" class="section level2" number="9.1">
+<h2 number="9.1"><span class="header-section-number">9.1</span> Corpus vidéo</h2>
+<div id="individuel" class="section level3" number="9.1.1">
+<h3 number="9.1.1"><span class="header-section-number">9.1.1</span> 15% individuel</h3>
+</div>
+<div id="présentation-orale-individuelle-5-minutes" class="section level3" number="9.1.2">
+<h3 number="9.1.2"><span class="header-section-number">9.1.2</span> Présentation orale individuelle ~5 minutes</h3>
+<ul>
+<li>Traiter une oeuvre et/ou une technique en lien avec le traitement vidéo<br />
+</li>
+<li>Partager un extrait court et des capture écran si approprié</li>
+<li>Présenter son contexte historique et technologique</li>
+<li>Sugérer une technique actuelle pour reproduire le résultat visuel</li>
+<li>Tenter de lier des <a href="#contenus_essentiels">contenus essentiels</a> à la présentation</li>
+</ul>
+</div>
+</div>
+<div id="evaluation_2" class="section level2" number="9.2">
+<h2 number="9.2"><span class="header-section-number">9.2</span> Question quiz</h2>
+<div id="individuel-1" class="section level3" number="9.2.1">
+<h3 number="9.2.1"><span class="header-section-number">9.2.1</span> 10% individuel</h3>
+</div>
+<div id="rédaction-dune-question-pertinant-et-originale-pour-le-quiz" class="section level3" number="9.2.2">
+<h3 number="9.2.2"><span class="header-section-number">9.2.2</span> Rédaction d’une question pertinant et originale pour le quiz</h3>
+<ul>
+<li>Rédiger Une question théorique originale portant sur la matière du cours</li>
+<li>Se référer aux <a href="#contenus_essentiels">contenus essentiels</a></li>
+<li>4 choix de réponses éloquents comprenant une réponse</li>
+</ul>
+</div>
+</div>
+<div id="evaluation_3" class="section level2" number="9.3">
+<h2 number="9.3"><span class="header-section-number">9.3</span> Quiz théorique</h2>
+<div id="individuel-2" class="section level3" number="9.3.1">
+<h3 number="9.3.1"><span class="header-section-number">9.3.1</span> 15% individuel</h3>
+<ul>
+<li>formulaire en ligne à répondre individuellement à livre ouvert</li>
+<li>Contient les questions quiz des deux groupes ainsi ceux de l’enseignement</li>
+</ul>
+</div>
+</div>
+<div id="evaluation_4" class="section level2" number="9.4">
+<h2 number="9.4"><span class="header-section-number">9.4</span> Moodboard vidéo</h2>
+<div id="individuel-3" class="section level3" number="9.4.1">
+<h3 number="9.4.1"><span class="header-section-number">9.4.1</span> 15% individuel</h3>
+</div>
+<div id="partage-décran-individuelle-5-minutes" class="section level3" number="9.4.2">
+<h3 number="9.4.2"><span class="header-section-number">9.4.2</span> Partage d’écran individuelle ~5 minutes</h3>
+<ul>
+<li>Création sources</li>
+<li>Conceptualisation</li>
+</ul>
+</div>
+</div>
+<div id="evaluation_5" class="section level2" number="9.5">
+<h2 number="9.5"><span class="header-section-number">9.5</span> Déclenchement vidéo temps réel</h2>
+<div id="individuel-4" class="section level3" number="9.5.1">
+<h3 number="9.5.1"><span class="header-section-number">9.5.1</span> 25% individuel</h3>
+</div>
+<div id="fluxstream-video-où-le-traitement-vidéo-est-effectué-en-temps-réel" class="section level3" number="9.5.2">
+<h3 number="9.5.2"><span class="header-section-number">9.5.2</span> Flux(Stream) video où le traitement vidéo est effectué en temps réel</h3>
+<ul>
+<li>Présentation de type partage d’écran et stream simultané</li>
+<li>Changement de scène</li>
+<li>Changement de paramètres</li>
+<li>Pourrait prendre la forme d’un VJ set via scènes dans OBS</li>
+</ul>
+</div>
+</div>
+<div id="evaluation_6" class="section level2" number="9.6">
+<h2 number="9.6"><span class="header-section-number">9.6</span> Installation interactive et/ou performance audiovisuel</h2>
+<div id="individuel-ou-équipe" class="section level3" number="9.6.1">
+<h3 number="9.6.1"><span class="header-section-number">9.6.1</span> 30% individuel ou équipe</h3>
+</div>
+<div id="présentation-démonstration-et-documentation-des-apprentissages" class="section level3" number="9.6.2">
+<h3 number="9.6.2"><span class="header-section-number">9.6.2</span> Présentation, démonstration et documentation des apprentissages</h3>
+<!--chapter:end:09-evaluations.Rmd-->
+</div>
+</div>
+</div>
+<div id="calendrier" class="section level1" number="10">
+<h1 number="10"><span class="header-section-number">10</span> Calendrier</h1>
+<p><a href="https://www.cmontmorency.qc.ca/wp-content/uploads/images/college/administration/CALENDRIER-SCOLAIRE-2020-2021.pdf" target="_blank">Calendrier Collège Montmorency 2020-2021</a></p>
+<table>
+<caption>(#tab:calendrier)Calendrier</caption>
+<colgroup>
+<col width="7%" />
+<col width="68%" />
+<col width="23%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">SÉANCE</th>
+<th align="left">CONTENU ABORDÉ EN CLASSE ET OBJECTIF</th>
+<th align="left">ACTIVITÉS AUTONOME</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">1; 3 février</td>
+<td align="left">Survol du plan de cours <br /> <a href="#evolution_historique">evolution du traitement vidéo</a></td>
+<td align="left">1 aa</td>
+</tr>
+<tr class="even">
+<td align="left">2; 10 février</td>
+<td align="left">Suite : <a href="#evolution_historique">evolution du traitement vidéo</a> <br /> <a href="#lexique_composantes">composantes du signal vidéo</a></td>
+<td align="left">Préparation <a href="#evaluation_1">evaluation 1</a></td>
+</tr>
+<tr class="odd">
+<td align="left">3; 17 février</td>
+<td align="left">Formatif:Approbation des sujet <a href="#evaluation_1">evaluation 1</a></td>
+<td align="left">Préparation <a href="#evaluation_1">evaluation 1</a></td>
+</tr>
+<tr class="even">
+<td align="left">4; 24 février</td>
+<td align="left">Remise <a href="#evaluation_1">évaluation_1</a></td>
+<td align="left">Préparation <a href="#evaluation_2">evaluation 2</a></td>
+</tr>
+<tr class="odd">
+<td align="left">X ; 3 mars</td>
+<td align="left">Journées de rattrapage (Pas de cours)</td>
+<td align="left">Préparation <a href="#evaluation_2">evaluation 2</a></td>
+</tr>
+<tr class="even">
+<td align="left">5; 10 mars</td>
+<td align="left">Remise <a href="#evaluation_2">évaluation_2</a></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left">6; 17 mars</td>
+<td align="left"></td>
+<td align="left">Compléter <a href="#evaluation_3">évaluation_3</a></td>
+</tr>
+<tr class="even">
+<td align="left">7; 24 mars</td>
+<td align="left">8e</td>
+<td align="left">8 aa</td>
+</tr>
+<tr class="odd">
+<td align="left">8; 31 mars</td>
+<td align="left">Remise <a href="#evaluation_4">évaluation_4</a></td>
+<td align="left">9 aa</td>
+</tr>
+<tr class="even">
+<td align="left">X; 7 avril</td>
+<td align="left">Congé (Pas de cours)</td>
+<td align="left">10 aa</td>
+</tr>
+<tr class="odd">
+<td align="left">9; 14 avril</td>
+<td align="left">11e</td>
+<td align="left">Préparation <a href="#evaluation_5">évaluation_5</a></td>
+</tr>
+<tr class="even">
+<td align="left">10; 21 avril</td>
+<td align="left">Remise <a href="#evaluation_5">évaluation_5</a></td>
+<td align="left">12 aa</td>
+</tr>
+<tr class="odd">
+<td align="left">11; 28 avril</td>
+<td align="left">13e</td>
+<td align="left">13 aa</td>
+</tr>
+<tr class="even">
+<td align="left">12; 5 mai</td>
+<td align="left">14e</td>
+<td align="left">14 aa</td>
+</tr>
+<tr class="odd">
+<td align="left">13; 12 mai</td>
+<td align="left">Préparation <a href="#evaluation_6">évaluation_6</a></td>
+<td align="left">Préparation <a href="#evaluation_6">évaluation_6</a></td>
+</tr>
+<tr class="even">
+<td align="left">X; 19 mai</td>
+<td align="left">épreuve uniforme de français (Pas de cours)</td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left">14; 25 mai</td>
+<td align="left">Remise <a href="#evaluation_6">évaluation_6</a></td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<!--chapter:end:10-calendrier.Rmd-->
+</div>
+<div id="examples-html" class="section level1" number="11">
+<h1 number="11"><span class="header-section-number">11</span> Examples HTML</h1>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9AI3BkKQhn0" frameborder="0" allow="accelerometer; autoplay; encrypted-media;
+  gyroscope; picture-in-picture; allowfullscreen">
+</iframe>
+<!--chapter:end:11-html_example.Rmd-->
+</div>
+<div id="references" class="section level1 unnumbered">
+<h1 class="unnumbered">References</h1>
+<!--chapter:end:99-references.Rmd-->
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-associationofmovingimagearchivists_FFmpegArtschool_2020" class="csl-entry">
+Association of Moving Image Archivists. 2020. <span>“<span>FFmpeg Artschool</span>:”</span> <em>Ffmpeg-Artschool</em>. https://amiaopensource.github.io/ffmpeg-artschool/.
+</div>
+<div id="ref-kromer_FFmpegCookbookArchivists_2020" class="csl-entry">
+Kromer, Reto. 2020. <span>“<span>FFmpeg Cookbook</span> for <span>Archivists</span>.”</span> <em>FFmpeg Cookbook for Archivists</em>. https://avpres.net/FFmpeg/.
+</div>
+<div id="ref-stallman_GnuOrg_1983" class="csl-entry">
+Stallman, Richard. 1983. <span>“Gnu.org.”</span> https://www.gnu.org/gnu/manifesto.en.html.
+</div>
+<div id="ref-torvalds_Git_2006" class="csl-entry">
+Torvalds, Linus. 2006. <span>“Git.”</span> https://git-scm.com/.
+</div>
+<div id="ref-wessels_FFmpegCookbook_2017" class="csl-entry">
+Wessels, Greg. 2017. <span>“<span>FFmpeg Cookbook</span>.”</span> http://www.gregwessels.com/dev/2017/04/25/ffmpeg-cookbook.html.
+</div>
+<div id="ref-xie2015" class="csl-entry">
+Xie, Yihui. 2015. <em>Dynamic Documents with <span>R</span> and Knitr</em>. 2nd ed. Boca Raton, Florida: Chapman; Hall/CRC. <a href="http://yihui.name/knitr/">http://yihui.name/knitr/</a>.
+</div>
+<div id="ref-rmarkdown2018" class="csl-entry">
+Xie, Yihui, J. J. Allaire, and Garrett Grolemund. 2018. <em>R Markdown: The Definitive Guide</em>. Boca Raton, Florida: Chapman; Hall/CRC. <a href="https://bookdown.org/yihui/rmarkdown">https://bookdown.org/yihui/rmarkdown</a>.
+</div>
+</div>
+</div>
+<!--bookdown:body:end-->
+            </section>
+
+          </div>
+        </div>
+      </div>
+<!--bookdown:link_prev-->
+<!--bookdown:link_next-->
+    </div>
+  </div>
+<!--bookdown:config-->
+
+</body>
+
+</html>
