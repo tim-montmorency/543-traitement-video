@@ -2,7 +2,7 @@
 SCRIPTPATH="$( cd "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
 echo $SCRIPTPATH
 OUTPUT_DIR="_book"
-RESOURCES_DIR="resources" 
+RESOURCES_DIR="medias" 
 
 cd "$SCRIPTPATH"
 echo "copy $RESOURCES_DIR to "$OUTPUT_DIR"/"$RESOURCES_DIR""

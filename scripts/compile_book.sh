@@ -1,7 +1,7 @@
 #!/bin/bash
 SCRIPTPATH="$( cd "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
 echo $SCRIPTPATH
-RESOURCES_DIR="resources" 
+RESOURCES_DIR="medias" 
 OUTPUT_DIR="docs"
 
 cd "$SCRIPTPATH"

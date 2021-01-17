@@ -26,7 +26,7 @@ evolution_historique_installation
 evolution_historique_technologies
 evolution_historique_language
 lexique
-composantes-du-signal-vidéo
+lexique_composantes
 signaux-de-transmission
 résolutions
 ratio
@@ -35,7 +35,7 @@ débit
 cadence
 trame
 poid
-formats-de-fichiers
+lexique_fichiers
 containers
 codecs
 encodage-vidéo
@@ -49,7 +49,6 @@ interframe
 utilisation-de-ffmpeg
 ex-transcoder-un-fichier-video-vers-un-fichier-prores-compatible-avec-quicktime
 captation-vidéo-en-temps-réel
-logiciels-de-traitement-vidéo-en-temps-réel-et-dinteractivité
 logiciels-de-programmation-nodale
 notions-de-traitement-vidéo
 pixels
@@ -60,12 +59,7 @@ mémoire-tampon
 alpha-channel
 rendu-opengl
 traiter
-usage-de-capture-vidéo-en-temps-réel
-effets-visuels-et-filtres-applicables-en-temps-réel-sur-des-matériaux-visuels
-traitement-visuel-en-temps-réel-à-laide-deffets-et-de-logiciels-de-programmation-multimédia-et-nodale
-flot-de-données-entre-les-objets-du-logiciel
-exploitation-des-fonctions-des-logiciels-de-traitement-vidéo-en-temps-réel
-utilisation-de-nuanciers-shaders
+logiciels_de_traitement_video_temps_reel
 programmer
 programmation-de-compositions-visuelles-génératives
 réalisation-dun-échantillonneurmélangeur-visuel
@@ -116,7 +110,7 @@ individuel
 présentation-orale-individuelle-5-minutes
 evaluation_2
 individuel-1
-rédaction-dune-question-originale-pour-le-quiz
+rédaction-dune-question-pertinant-et-originale-pour-le-quiz
 evaluation_3
 individuel-2
 evaluation_4
