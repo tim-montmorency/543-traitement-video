@@ -1,7 +1,7 @@
 fig:unnamed-chunk-1
 tab:calendrier
 traitement-vidéo
-sources
+code-sources
 document-compilé-et-hébergé
 html
 pdf
@@ -31,7 +31,6 @@ evolution_historique
 evolution_historique_performance
 evolution_historique_installation
 evolution_historique_technologies
-captation-de-mouvement-et-de-présence
 evolution_historique_language
 lexique
 lexique_composantes
@@ -64,14 +63,15 @@ matrice
 mémoire-tampon
 alpha-channel
 rendu-opengl
+aquerir
+usage-de-capture-vidéo-temps-réel
+exploitation-des-fonctions-des-logiciels-de-traitement-vidéo-en-temps-réel
+captation-de-mouvement-et-de-présence
 traiter
 logiciels_de_traitement_video_temps_reel
-aquérir-limage-en-mouvement
-usage-de-capture-vidéo-en-temps-réel
 effets-visuels-et-filtres-applicables-en-temps-réel-sur-des-matériaux-visuels
 traitement-visuel-en-temps-réel-à-laide-deffets-et-de-logiciels-de-programmation-multimédia-et-nodale
 flot-de-données-entre-les-objets-du-logiciel
-exploitation-des-fonctions-des-logiciels-de-traitement-vidéo-en-temps-réel
 utilisation-de-nuanciers-shaders
 programmer
 réalisation-dun-échantillonneurmélangeur-visuel
@@ -104,8 +104,9 @@ interagir
 utilisation-dinterfaces-de-contrôle-interactives
 communication-via-protocoles-paramétriques-temps-réel
 programmation-de-la-captation-de-mouvement-et-de-présence
-déploiement-de-projet-vidéo-interactif
-conceptualisation-et-scénarisation-dun-projet-visuel-interactif
+déploiement-de-projet-visuel-interactif
+conceptualisation
+scénarisation
 schématisation
 prototypage
 intégration-des-composantes-dans-une-production-interactive
