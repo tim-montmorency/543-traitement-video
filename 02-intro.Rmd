@@ -15,23 +15,30 @@ L’étudiant sera appelé à appliquer des effets visuels aux images vidéo et 
 
 
 ## Objectifs 
-### Objectif intégrateur et ministériel
+
+### Intégrateur et ministériel
 * 015J Traiter les images en mouvement
 
-### Objectifs d’apprentissage
-* Adapter des images en mouvement  (Importance relative : 40% )
-* Programmer des effets spéciaux et l’interactivité (Importance relative : 40% )
-* Intégrer des images en mouvement à une production interactive (Importance relative : 20% )
+### Apprentissages
+* Adapter l'images en mouvement  (Importance relative : 40% )
+* Programmer des effets visuels interactifs  (Importance relative : 40% )
+* Intégrer l'image en mouvement interactive à une production médiatique (Importance relative : 20% )
 
+
+## Développement
 
 ### Attitudes professionnelles
-*  Créativité 
-*  Sens esthétique 
-*  Adaptation
+* Curiosité
+* Capacité de partage 
+* Créativité
+* Sens esthétique 
+* Esprit critique
 
 
 ### Habiletés transdisciplinaires
-Profil TIC : les étudiantes et étudiants auront à exploiter les TIC de manière efficace et responsable. Ils auront à rechercher, à traiter et à présenter de l’information.
+* Profil **technologies de l'information et de la communication (TIC)**
+* Les étudiantes et étudiants auront à exploiter les TIC de manière efficace et responsable. 
+* Recherche, traitement et présentation de l’information.
 
 
 ## Préalables
@@ -46,25 +53,11 @@ Profil TIC : les étudiantes et étudiants auront à exploiter les TIC de mani�
 ## Contexte particulier d’apprentissage 
 * En laboratoire et studio.
 
-
 ### Fiche technique
 * Ordinateurs, projecteurs à haute luminosité ou télévision, haut-parleurs professionnels, casque audio, et tout le matériel disponible pour TIM
 * Logiciels de montage vidéo et traitemet vidéo en temps réel 
-	* Open broadcast studio
-	* Unity
-	* Pure Data
-	* Resolve
-	* Reaper 
-	* ffmpeg
-	* Open stage control
 * Languages et protocoles 
-	* Programmation nodale 
-	* Javascript
-	* Open sound control (OSC)
-	* Réseautique (addressage ip)
-	* Midi 
-	* NDI
-	* Websocket
+
 
 
   

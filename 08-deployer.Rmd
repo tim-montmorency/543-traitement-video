@@ -1,14 +1,26 @@
 # Déploiement de projet vidéo interactif
 
 ## Schématisation 
-## Prototypage 
-## Gestion de banques d’images 
+
+## Prototypage
+
 ## Optimisation des performances de l’application 
-## Test de contrôle de qualité 
-## Préréglages 
-## Optimisation de la programmation et commentaires 
-## Console de débogage 
-## Exportation de projets 
+
+## Gestion de banques d’images 
+
 ## Formats de sauvegarde  
-## Application autonome 
+
+## Exportation de projets 
+
 ## Sauvegarde et archivage des médias 
+
+## Préréglages 
+
+## Optimisation de la programmation et commentaires 
+
+## Application autonome 
+
+## Console de débogage 
+## Test de contrôle de qualité 
+
+

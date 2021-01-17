@@ -26,10 +26,4 @@ description: "Le traitement vidéo; documentation expérimentale"
 cover-image: images/cover.png
 favicon: images/favicon.ico
 ---
-# Préface
 
-```{r echo=FALSE}
-knitr::include_graphics("images/cover.png")
-```
-
-Ce livre se produit via **bookdown** [@rmarkdown2018], R Markdown et **knitr** [@xie2015]
