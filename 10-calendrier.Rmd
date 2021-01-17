@@ -1,6 +1,6 @@
 # Calendrier
 
-[Calendrier](https://www.cmontmorency.qc.ca/wp-content/uploads/images/college/administration/CALENDRIER-SCOLAIRE-2020-2021.pdf){target="_blank"}
+[Calendrier Collège Montmorency 2020-2021 ](https://www.cmontmorency.qc.ca/wp-content/uploads/images/college/administration/CALENDRIER-SCOLAIRE-2020-2021.pdf){target="_blank"}
 
 ```{r calendrier, fig.cap="Calendrier 2021", echo=FALSE}
 CALENDRIER <- read.csv(file = 'medias/calendrier/2021.csv', header = TRUE)
