@@ -1,4 +1,4 @@
-# Traitement vidéo (582-543-MO)
+# 582-543-MO Traitement vidéo 
 
 ## Description du cours
 
@@ -31,8 +31,8 @@ L’étudiant sera appelé à appliquer des effets visuels aux images vidéo et 
 * Curiosité
 * Capacité de partage 
 * Créativité
-* Sens esthétique 
 * Esprit critique
+* Sens esthétique 
 
 
 ### Habiletés transdisciplinaires
@@ -51,17 +51,14 @@ L’étudiant sera appelé à appliquer des effets visuels aux images vidéo et 
 * 582 66G MO Production Web en entreprise
 
 ## Contexte particulier d’apprentissage 
-* En laboratoire et studio.
+* À distance; synchrone. 
+* Possibilité d'utiliser le laboratoire informatique et le studio.
 
 ### Fiche technique
 * Ordinateurs, projecteurs à haute luminosité ou télévision, haut-parleurs professionnels, casque audio, et tout le matériel disponible pour TIM
 * Logiciels de montage vidéo et traitemet vidéo en temps réel 
-* Languages et protocoles 
-
-
-
-  
-Technicienne ou technicien en travaux pratiques
+* Languages et protocoles de paramétrage  
+* Technicienne ou technicien en travaux pratiques
 
 
 ## Contenus essentiels {#contenus_essentiels}
@@ -75,11 +72,11 @@ Technicienne ou technicien en travaux pratiques
 
 
 ### Fondements technique 
-* Formats de fichiers 
-* Encodage des vidéos  
-* Captation vidéo en temps réel 
-* Logiciels de traitement vidéo en temps réel et d’interactivité 
-* Logiciels de programmation nodale 
+* [Formats de fichiers](#lexique_fichiers) 
+* [Encodage des vidéos](#lexique_encodage)  
+* [Captation vidéo en temps réel](#aquerir_captation) 
+* [Logiciels de traitement vidéo en temps réel et d’interactivité](#traiter_logiciels) 
+* [Logiciels de programmation nodale](#programmer_logiciels) 
 * Notions de traitement vidéo 
 	* pixels
 	* couleurs 
@@ -88,7 +85,6 @@ Technicienne ou technicien en travaux pratiques
 	* mémoire tampon 
 	* alpha channel 
 	* rendu OpenGL
-
 
 ### Traitement de l'images en mouvement
 * Usage de capture vidéo en temps réel  
@@ -130,7 +126,7 @@ Technicienne ou technicien en travaux pratiques
 * Programmation de la captation de mouvement et de présence 
 * Utilisation d’interfaces de contrôle interactives 
 * Utilisation d’OSC, MIDI, DMX ou ArtNet pour interagir avec d'autre logiciels et interfaces de contrôle
-* Ajustement des effets visuels en fonction des tests 
+
 
 ### Gestion de projets
 * Schématisation 
@@ -145,3 +141,4 @@ Technicienne ou technicien en travaux pratiques
 * Formats de sauvegarde  
 * Application autonome 
 * Sauvegarde et archivage des médias 
+* Ajustement des effets visuels en fonction des tests 

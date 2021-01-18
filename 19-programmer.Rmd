@@ -1,5 +1,11 @@
 # Programmer des effets visuels{#programmer}
 
+## Logiciels de programmation nodale{programmer_logiciels}
+
+* Pure Data
+* Pure Data et Open Broadcast Studio
+* Pure Data et Ofelia
+
 ## Réalisation d’un échantillonneur/mélangeur visuel 
 
 ## Montage temps réel 

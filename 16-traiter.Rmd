@@ -1,15 +1,21 @@
 # Traiter l'image en mouvement{#traiter}
 
-## Logiciels de traitement vidéo en temps réel et d’interactivité {#logiciels_de_traitement_video_temps_reel}
+## Logiciels de traitement vidéo en temps réel et d’interactivité {#traiter_logiciels}
 * Open Broadcast Studio
-* Unity
-* Pure Data
-* Resolve
-* Reaper 
 * ffmpeg
-* Open stage control
- 
-## Effets visuels et filtres applicables en temps réel sur des matériaux visuels  
+
+## Notions de traitement vidéo 
+### Pixels
+### Couleurs 
+### Texture 
+### Matrice 
+### Mémoire tampon 
+### Alpha channel 
+### Rendu OpenGL
+
 ## Traitement visuel en temps réel à l’aide d’effets et de logiciels de programmation multimédia et nodale 
+## Exploitation des fonctions des logiciels de traitement vidéo en temps réel 
+
+## Effets visuels et filtres applicables en temps réel sur des matériaux visuels  
 ## Flot de données entre les objets du logiciel 
 ## Utilisation de nuanciers (shaders) 

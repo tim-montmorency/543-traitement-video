@@ -2,36 +2,36 @@
 
 ## Composantes du signal vidéo{#lexique_composantes}
 ### Signaux de transmission
-* [Signaux analogues/digitaux](https://en.wikipedia.org/wiki/Video#Analog_video)
-	* [transmission télévisuelle analogue](https://en.wikipedia.org/wiki/Analog_television)
+* [Signaux analogues/digitaux](https://en.wikipedia.org/wiki/Video#Analog_video){target="_blank"}
+	* [transmission télévisuelle analogue](https://en.wikipedia.org/wiki/Analog_television){target="_blank"}
 
 ### résolutions
 
-* [résolutions](https://en.wikipedia.org/wiki/Computer_display_standard#/media/File:Vector_Video_Standards2.svg)
+* [résolutions](https://en.wikipedia.org/wiki/Computer_display_standard#/media/File:Vector_Video_Standards2.svg){target="_blank"}
 
 ### Ratio
-* [ratios image](https://en.wikipedia.org/wiki/Display_aspect_ratio)
-* [ratios-pixels](https://en.wikipedia.org/wiki/Pixel_aspect_ratio)
+* [ratios image](https://en.wikipedia.org/wiki/Display_aspect_ratio){target="_blank"}
+* [ratios-pixels](https://en.wikipedia.org/wiki/Pixel_aspect_ratio){target="_blank"}
 
 ### Débit
-* [Débit (bitrate)](https://en.wikipedia.org/wiki/Bit_rate#Video) 
+* [Débit (bitrate)](https://en.wikipedia.org/wiki/Bit_rate#Video){target="_blank"} 
 
 ### Échantillonnage
 * Profondeur de l'échantillonnage couleur 
-	* [bit/canal](https://en.wikipedia.org/wiki/Color_depth)  
-* [chroma subsampling](https://en.wikipedia.org/wiki/Chroma_subsampling#Sampling_systems_and_ratios) 
-	* [4:4:4 vs 4:2:2 vs 4:2:0](https://upload.wikimedia.org/wikipedia/commons/0/06/Colorcomp.jpg)
-	* [4:4:4 vs 4:4:4:4](https://en.wikipedia.org/wiki/Alpha_compositing)
+	* [bit/canal](https://en.wikipedia.org/wiki/Color_depth){target="_blank"}  
+* [chroma subsampling](https://en.wikipedia.org/wiki/Chroma_subsampling#Sampling_systems_and_ratios){target="_blank"} 
+	* [4:4:4 vs 4:2:2 vs 4:2:0](https://upload.wikimedia.org/wikipedia/commons/0/06/Colorcomp.jpg){target="_blank"}
+	* [4:4:4 vs 4:4:4:4](https://en.wikipedia.org/wiki/Alpha_compositing){target="_blank"}
 
 ### Cadence
-* [Cadence](https://frames-per-second.appspot.com) 
+* [Cadence](https://frames-per-second.appspot.com){target="_blank"} 
 
 ### Trame
-* [Trame (progressif/entrelacé)](https://web.archive.org/web/20140222010640/http://neuron2.net/LVG/interlacing.html)
+* [Trame (progressif/entrelacé)](https://web.archive.org/web/20140222010640/http://neuron2.net/LVG/interlacing.html){target="_blank"}
 
 ### Poid
-* [calcul de grosseur de fichier](https://toolstud.io/video/filesize.php?imagewidth=1920&imageheight=1080&framerate=29.97&timeduration=60&timeunit=seconds)
-* [calcul de bitrate](https://toolstud.io/video/bitrate.php?imagewidth=1&imageheight=1&colordepth=24&framerate=29.97)
+* [calcul de grosseur de fichier](https://toolstud.io/video/filesize.php?imagewidth=1920&imageheight=1080&framerate=29.97&timeduration=60&timeunit=seconds){target="_blank"}
+* [calcul de bitrate](https://toolstud.io/video/bitrate.php?imagewidth=1&imageheight=1&colordepth=24&framerate=29.97){target="_blank"}
 
 ## Formats de fichiers {#lexique_fichiers}
 
@@ -46,7 +46,7 @@
 | Audio Video Interleaved | .avi |
 | Theora 	| .ogv |
 
-[wiki:Comparison_of_video_container_formats](https://en.wikipedia.org/wiki/Comparison_of_video_container_formats)
+[wiki:Comparison_of_video_container_formats](https://en.wikipedia.org/wiki/Comparison_of_video_container_formats){target="_blank"}
 
 ### Codecs
 
@@ -58,17 +58,17 @@
 | dnxHD				|	intra 			| montage 		|
 | HAP				|	intra 		 	| GPU&SSD   	 |
 
-## Encodage vidéo
+## Encodage vidéo{#lexique_encodage}
 ###  compression 
 
 #### lossless/lossy
 
-##### [Encodage vidéo sans perte - lossless](https://en.wikipedia.org/wiki/List_of_codecs#Lossless_video_compression)
+##### [Encodage vidéo sans perte - lossless](https://en.wikipedia.org/wiki/List_of_codecs#Lossless_video_compression){target="_blank"}
 * Apple Animation (QuickTime RLE)
 * CinemaDNG Raw (Adobe, Blackmagic)
 * séquence d'images (tiff, openexr)
 
-##### [Encodage vidéo avec perte -lossy](https://en.wikipedia.org/wiki/List_of_codecs#Lossy_compression_2)
+##### [Encodage vidéo avec perte -lossy](https://en.wikipedia.org/wiki/List_of_codecs#Lossy_compression_2){target="_blank"}
 * H.264&VP8
 * HEVC&VP9
 * proRes, dnxHD, cineform		
@@ -81,11 +81,11 @@
 * Toute l'image individuellement compressée dans chaque image.
 	* prores, dnxHD, photoJpeg, Apple intermediate codec (aic), cineform 	
 
-##### [interframe](https://en.wikipedia.org/wiki/Inter_frame)
-* image temporellement compressée, [ce qui change](http://dvd-hq.info/data_compression_3.php)
-	* [images: I (clef), P (<-) et B(<->)](https://en.wikipedia.org/wiki/Video_compression_picture_types)
-	* [GOP : group of picture](https://en.wikipedia.org/wiki/Inter_frame#/media/File:IPB_images_sequence.png)
-* usage créatif [1](https://www.youtube.com/watch?v=rMSsw4CZvKg), [2](https://www.youtube.com/watch?v=rSmEOk5AiN0), [3](https://www.youtube.com/watch?v=dNa0-xrKi3Q)
+##### [interframe](https://en.wikipedia.org/wiki/Inter_frame){target="_blank"}
+* image temporellement compressée, [ce qui change](http://dvd-hq.info/data_compression_3.php){target="_blank"}
+	* [images: I (clef), P (<-) et B(<->)](https://en.wikipedia.org/wiki/Video_compression_picture_types){target="_blank"}
+	* [GOP : group of picture](https://en.wikipedia.org/wiki/Inter_frame#/media/File:IPB_images_sequence.png){target="_blank"}
+* usage créatif [1](https://www.youtube.com/watch?v=rMSsw4CZvKg){target="_blank"}, [2](https://www.youtube.com/watch?v=rSmEOk5AiN0){target="_blank"}, [3](https://www.youtube.com/watch?v=dNa0-xrKi3Q){target="_blank"}
 
 
 
@@ -94,21 +94,8 @@ pour des usages réguliers voir :
 * FFmpeg Cookbook for Archivists [@kromer_FFmpegCookbookArchivists_2020]
 * FFmpeg Cookbook par Greg Wessels [@wessels_FFmpegCookbook_2017]
 
-
-pour des usages artistiques : 
+pour usages artistiques : 
 
 * FFmpeg artschool [@associationofmovingimagearchivists_FFmpegArtschool_2020]
 
-## Captation vidéo en temps réel 
 
-
-## Logiciels de programmation nodale 
-
-## Notions de traitement vidéo 
-### Pixels
-### Couleurs 
-### Texture 
-### Matrice 
-### Mémoire tampon 
-### Alpha channel 
-### Rendu OpenGL
