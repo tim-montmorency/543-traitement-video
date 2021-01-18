@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>8.7 Utilisation de nuanciers (shaders) | Traitement vidéo</title>
+  <title>6.3 Encodage vidéo | Traitement vidéo</title>
   <meta name="description" content="Le traitement vidéo temps réel; une documentation expérimentale" />
   <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="8.7 Utilisation de nuanciers (shaders) | Traitement vidéo" />
+  <meta property="og:title" content="6.3 Encodage vidéo | Traitement vidéo" />
   <meta property="og:type" content="book" />
   
   <meta property="og:image" content="images/cover.png" />
@@ -16,7 +16,7 @@
   <meta name="github-repo" content="tim-montmorency/543-traitement-video" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="8.7 Utilisation de nuanciers (shaders) | Traitement vidéo" />
+  <meta name="twitter:title" content="6.3 Encodage vidéo | Traitement vidéo" />
   
   <meta name="twitter:description" content="Le traitement vidéo temps réel; une documentation expérimentale" />
   <meta name="twitter:image" content="images/cover.png" />
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
-<link rel="prev" href="flot-de-données-entre-les-objets-du-logiciel.html"/>
-<link rel="next" href="programmer.html"/>
+<link rel="prev" href="lexique-fichiers.html"/>
+<link rel="next" href="aquerir.html"/>
 <script src="assets/header-attrs-2.6.4/header-attrs.js"></script>
 <script src="assets/jquery-2.2.3/jquery.min.js"></script>
 <link href="assets/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -303,9 +303,65 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="utilisation-de-nuanciers-shaders" class="section level2" number="8.7">
-<h2><span class="header-section-number">8.7</span> Utilisation de nuanciers (shaders)</h2>
+<div id="lexique_encodage" class="section level2" number="6.3">
+<h2><span class="header-section-number">6.3</span> Encodage vidéo</h2>
+<div id="compression" class="section level3" number="6.3.1">
+<h3><span class="header-section-number">6.3.1</span> compression</h3>
+<div id="losslesslossy" class="section level4" number="6.3.1.1">
+<h4><span class="header-section-number">6.3.1.1</span> lossless/lossy</h4>
+<div id="encodage-vidéo-sans-perte---lossless" class="section level5" number="6.3.1.1.1">
+<h5><span class="header-section-number">6.3.1.1.1</span> <a href="https://en.wikipedia.org/wiki/List_of_codecs#Lossless_video_compression" target="_blank">Encodage vidéo sans perte - lossless</a></h5>
+<ul>
+<li>Apple Animation (QuickTime RLE)</li>
+<li>CinemaDNG Raw (Adobe, Blackmagic)</li>
+<li>séquence d’images (tiff, openexr)</li>
+</ul>
+</div>
+<div id="encodage-vidéo-avec-perte--lossy" class="section level5" number="6.3.1.1.2">
+<h5><span class="header-section-number">6.3.1.1.2</span> <a href="https://en.wikipedia.org/wiki/List_of_codecs#Lossy_compression_2" target="_blank">Encodage vidéo avec perte -lossy</a></h5>
+<ul>
+<li>H.264&amp;VP8</li>
+<li>HEVC&amp;VP9</li>
+<li>proRes, dnxHD, cineform<br />
+</li>
+<li>HAP &amp; HAPQ</li>
+</ul>
+</div>
+</div>
+<div id="intrainter-frame" class="section level4" number="6.3.1.2">
+<h4><span class="header-section-number">6.3.1.2</span> intra/inter frame</h4>
+<div id="intraframe" class="section level5" number="6.3.1.2.1">
+<h5><span class="header-section-number">6.3.1.2.1</span> intraframe</h5>
+<ul>
+<li>Toute l’image individuellement compressée dans chaque image.
+<ul>
+<li>prores, dnxHD, photoJpeg, Apple intermediate codec (aic), cineform</li>
+</ul></li>
+</ul>
+</div>
+<div id="interframe" class="section level5" number="6.3.1.2.2">
+<h5><span class="header-section-number">6.3.1.2.2</span> <a href="https://en.wikipedia.org/wiki/Inter_frame" target="_blank">interframe</a></h5>
+<ul>
+<li>image temporellement compressée, <a href="http://dvd-hq.info/data_compression_3.php" target="_blank">ce qui change</a>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Video_compression_picture_types" target="_blank">images: I (clef), P (&lt;-) et B(&lt;-&gt;)</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Inter_frame#/media/File:IPB_images_sequence.png" target="_blank">GOP : group of picture</a></li>
+</ul></li>
+<li>usage créatif <a href="https://www.youtube.com/watch?v=rMSsw4CZvKg" target="_blank">1</a>, <a href="https://www.youtube.com/watch?v=rSmEOk5AiN0" target="_blank">2</a>, <a href="https://www.youtube.com/watch?v=dNa0-xrKi3Q" target="_blank">3</a></li>
+</ul>
+<p>pour des usages réguliers voir :</p>
+<ul>
+<li>FFmpeg Cookbook for Archivists <span class="citation">(<a href="references.html#ref-kromer_FFmpegCookbookArchivists_2020" role="doc-biblioref">Kromer 2020</a>)</span></li>
+<li>FFmpeg Cookbook par Greg Wessels <span class="citation">(<a href="references.html#ref-wessels_FFmpegCookbook_2017" role="doc-biblioref">Wessels 2017</a>)</span></li>
+</ul>
+<p>pour usages artistiques :</p>
+<ul>
+<li>FFmpeg artschool <span class="citation">(<a href="references.html#ref-associationofmovingimagearchivists_FFmpegArtschool_2020" role="doc-biblioref">Association of Moving Image Archivists 2020</a>)</span></li>
+</ul>
 
+</div>
+</div>
+</div>
 </div>
 <!-- </div> -->
             </section>
@@ -313,8 +369,8 @@
           </div>
         </div>
       </div>
-<a href="flot-de-données-entre-les-objets-du-logiciel.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="programmer.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="lexique-fichiers.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="aquerir.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="assets/gitbook-2.6.7/js/app.min.js"></script>
@@ -336,7 +392,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/tim-montmorency/543-traitement-video/edit/master/16-traiter.Rmd",
+"link": "https://github.com/tim-montmorency/543-traitement-video/edit/master/14-lexique.Rmd",
 "text": "Edit"
 },
 "history": {
