@@ -39,8 +39,6 @@ knitr::include_graphics("images/vectorscope.jpg")
   * [HTML](https://tim-montmorency.com/543-traitement-video/){target="_blank"}
   *	[PDF](https://tim-montmorency.com/543-traitement-video/traitement-video.pdf){target="_blank"}
   * [EPUB](https://tim-montmorency.com/543-traitement-video/traitement-video.epub){target="_blank"}
-  
-* Référence via Zotero 
-  * [Bibliographie bibtex]() 
+* [Bibliographie Bibtex](https://github.com/tim-montmorency/543-traitement-video/blob/master/582543-traitement-video.bib) 
 
 
