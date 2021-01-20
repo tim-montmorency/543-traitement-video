@@ -1,8 +1,22 @@
-# Aquérir l'image en mouvement {#aquerir}
+# Acquerir l'image en mouvement {#acquerir}
 
-## Captation vidéo en temps réel {#aquerir_captation}
+## Acquisition vidéo en temps réel {#acquerir_captation}
 
-## Captation de mouvement et de présence
+### Caméra USB 
+* Webcam
+* Carte de capture HDMI
+### Capture d'écran
+### Capture de fenêtre 
+### Capture de contexte GL (Game capture)
+### Partage de texture vidéo  (Spout, Syphon)
+
 
 ## Usages de capture vidéo temps réel  
 
+
+
+### Caméra virtuelle () 
+
+
+
+## Captation de mouvement et de présence

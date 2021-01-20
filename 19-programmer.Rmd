@@ -1,6 +1,6 @@
 # Programmer des effets visuels{#programmer}
 
-## Logiciels de programmation nodale{programmer_logiciels}
+## Logiciels de programmation {programmer_logiciels}
 
 * Pure Data
 * Pure Data et Open Broadcast Studio
@@ -8,37 +8,22 @@
 
 ## Réalisation d’un échantillonneur/mélangeur visuel 
 
-## Montage temps réel 
-### Contrôler de la tête de lecture vidéo
+## Programmation d'effets temps réel
+
+### Nuanceurs (shaders) : 
+#### vertex, pixel et géométrie 
+
+#### Usages
+##### lumière 
+##### fumée
+##### texture
+
+### Échantillonneur
+
+#### Montage temps réel 
+#### Contrôler de la tête de lecture vidéo
 #### Position
 #### Boucle
 #### Vitesse 
-
-## Programmation d'effets temps réel 
-
-### Position
-### Rotation
-### Dimensions
-
-### Niveau des couleurs 
-### Alpha channel  
-### Modification de couleurs 
-
-### Mixage d’images 
-### Incrustation 
-### chromakey 
-
-### Distorsion 
-### Délais
-### Rétroaction (feedback)
-
-
-## Nuanceurs (shaders) : 
-### vertex, pixel et géométrie 
-
-### Usages
-#### lumière 
-#### fumée
-#### texture
 
 ## Programmation de compositions visuelles génératives 

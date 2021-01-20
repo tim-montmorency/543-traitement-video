@@ -1,16 +1,19 @@
 # Exercices 
 
-## Approbation du sujet pour le corpus vidéo {#formatif_1}
-### Formatif
+
+## Partage d'influence 
+### Formatif 1{#formatif_1}
+* Trouver 3 extraits vidéo 
+* Trouver 3 boucle d'animation 
+
 
 ## Corpus vidéo {#sommatif_1}
 ### Sommatif 15% individuel
 ### Présentation orale individuelle de type partage d'écran de ~5 minutes
-* Traiter une oeuvre et/ou une technique en lien avec le traitement vidéo  
+* Présenter un extrait d'oeuvre issue d'un procédé de traitement vidéo temps réel
+* Traiter de son contexte artistique et historique 
+* Nommer une techniques/technologies employées en lien avec le traitement vidéo  
 * Partager un extrait court et des capture écran si approprié
-* Présenter son contexte artistique et historique ainsi que les techniques et technologies employées 
-* Sugérer une technique actuelle pour reproduire le résultat visuel
-* Tenter de lier des [contenus essentiels](#contenus_essentiels) à la présentation  
 
 ## Présentation d'une question {#formatif_2}
 ### Formatif
@@ -30,8 +33,8 @@
 
 ##  Scènes vidéo  {#sommatif_4}
 ### 15% individuel
-### Partage d'écran individuelle ~5 minutes
-* Palette de 8 scène 
+### Présentation de type partage d'écran individuelle ~5 minutes
+* Palette de 8 scènes contenants  
     * échantillons vidéo
     * caméra vidéo
     * source html

@@ -4,6 +4,25 @@
 * Open Broadcast Studio
 * ffmpeg
 
+
+ 
+
+### Position
+### Rotation
+### Dimensions
+
+### Niveau des couleurs 
+### Alpha channel  
+### Modification de couleurs 
+
+### Mixage d’images 
+### Incrustation 
+### chromakey 
+
+### Distorsion 
+### Délais
+### Rétroaction (feedback)
+
 ## Notions de traitement vidéo 
 ### Pixels
 ### Couleurs 
