@@ -1,0 +1,100 @@
+# Exercices 
+
+## Corpus vidéo {#sommatif_1}
+* Présentation de type partage d'écran de ~5 minutes
+* Sommatif (15%) 
+* Individuel
+
+### Consignes 
+* Choisir et présenter un court extrait médiatique comprenant un procédé de traitement vidéo original
+* Traiter syntétiquement son contexte artistique et historique 
+    * Auteur
+        * Nom, année de naissance (si disponible), nationalité (ville, pays (si disponible)), 
+            * ex: Marina Abramovic, 1946 à Belgrade, Yougoslavie (aujourd'hui Serbie-Monténégro)
+    * Contexte de diffusion de l'oeuvre
+        * Titre 
+            * ex. Twenty four hour Psycho
+        * médium, durée, date de parution 
+            * ex.  Installation vidéo à 6 canaux, couleur, son, 12 minutes, 1997
+* Décrire une techniques de traitement vidéo employée 
+    * Ex. La chronophotographie (décrire la technique) fut employé pour (décrire une motivation artistique)
+* Présenter une hypothèse à la question suivante :
+    * Est-ce que ce procédé de traitement vidéo étudié pourrait être produit en temps réel?
+        * si oui, comment?
+        * si non, pourquoi?
+
+#### Artistes potentiellement inspirant 
+
+Se référer à la section [corpus](#corpus) 
+
+
+## Rédaction d'une question portant sur le traitement vidéo {#sommatif_2}
+* Rédaction dans un tableur excel en ligne d'une question, une bonne réponse et 3 réponses erronnées  
+* Sommatif (10%) 
+* Individuel
+
+### Consignes
+
+* Rédiger une question pertinante et originale sur le traitement vidéo
+* Inscrire une réponse adéquate 
+* Inventer trois réponses erronnées (formatif)
+* Se référer aux [contenus essentiels]()
+
+## Quiz théorique {#sommatif_3}
+
+* Formulaire en ligne à répondre avant la date prévue
+* Sommatif (15%) 
+* Individuel
+
+### Consignes
+* Répondre aux questions dans le formulaire avant l'échéance 
+
+
+##  Palette de scènes vidéo interactives  {#sommatif_4}
+* Présentation de type partage d'écran  ~5 minutes
+* Sommatif 25% 
+* individuel
+
+### Consignes
+
+* Assembler une palette de 8 scènes vidéo comprenant
+    * échantillons vidéo
+    * caméra vidéo
+    * source html
+    * source nuancier
+    * etc.
+* Démontrer :
+    * créativité 
+    * recherche
+    * maitrise technique
+    * 
+
+
+## Performance audiovisuelle temps réel et document accompagnateur {#sommatif_5}
+* 35% individuel, produit en équipe 
+* Présentation courte au sein d'une diffusion audiovisuelle continue (Stream) 
+* Présenté lors de la ruche u
+* Signal issu d'un processus de mélange de signaux en temps réel 
+* Variation en temps réel de paramètres vidéo programmés 
+
+### Consignes ( Performance audiovisuelle temps réel)
+* Activité concertée avec le cours de Conception sonore interactive
+* le traitement vidéo doit être effectué en temps réel 
+* Présentation de type streaming lors de la ruche (Mardi) 
+* Tous les groupes doivent diffuser ce jours là
+
+### Consignes (document accompagnateur)
+* Remise avant le 26 mai d'un texte individuel expliquant dans un langage approprié et précis les éléments suivant:
+    * L’implication au sein du projet 
+    * Les intentions artistiques
+    * Les défis techniques
+    * La démarche
+    * L’inspiration 
+    * Le fonctionnement technique du travail
+    * Ce qui aurait pu améliorer le résultat
+
+* N.B. : un document par étudiant, soummis à la fois au cours de Traitement vidéo ainsi qu'au cours de Conception sonore interactive. Seuls les éléments décrits dans ce texte compteront à l’évaluation. Ne pas oublier de détailler autant l'aspect visuel que le sonore.
+
+
+
+

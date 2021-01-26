@@ -5,6 +5,7 @@
 ### Caméra USB 
 * Webcam
 * Carte de capture HDMI
+
 ### Capture d'écran
 ### Capture de fenêtre 
 ### Capture de contexte GL (Game capture)
@@ -20,3 +21,6 @@
 
 
 ## Captation de mouvement et de présence
+
+
+http://szeliski.org/Book/

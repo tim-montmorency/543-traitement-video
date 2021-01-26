@@ -77,6 +77,20 @@
   \thm@postskip=\thm@preskip
 }
 \makeatother
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{colortbl}
+\usepackage{pdflscape}
+\usepackage{tabu}
+\usepackage{threeparttable}
+\usepackage{threeparttablex}
+\usepackage[normalem]{ulem}
+\usepackage{makecell}
+\usepackage{xcolor}
 \ifluatex
   \usepackage{selnolig}  % disable illegal ligatures
 \fi
@@ -85,7 +99,7 @@
 
 \title{Traitement vidéo}
 \author{Guillaume Arseneault}
-\date{2021-01-18}
+\date{2021-01-25}
 
 \begin{document}
 \maketitle
@@ -175,11 +189,34 @@ L'étudiant sera appelé à appliquer des effets visuels aux images vidéo et à
 \begin{itemize}
 \tightlist
 \item
-  Adapter l'images en mouvement (Importance relative\,: 40\% )
+  Adapter l'image en mouvement (Importance relative\,: 40\% )
 \item
   Programmer des effets visuels interactifs (Importance relative\,: 40\% )
 \item
   Intégrer l'image en mouvement interactive à une production médiatique (Importance relative\,: 20\% )
+\end{itemize}
+
+\hypertarget{muxe9thodologie}{%
+\section{Méthodologie~}\label{muxe9thodologie}}
+
+L'approche pédagogique de ce cours emprunte à celle employée dans les séminaires de recherche-création en média numérique. Une attention particulière est attribuée au partage de l'expérimentation en lien avec le sujet du cours. Différentes activités pédagogiques seront à l'honneur, notamment :
+
+\begin{itemize}
+\tightlist
+\item
+  Exposés magistraux
+\item
+  Démonstrations
+\item
+  Séances de questions
+\item
+  Présentations étudiantes
+\item
+  Valorisation des apprentissages autonomes
+\item
+  Utilisation créative de logiciels
+\item
+  Travaux pratiques itératifs
 \end{itemize}
 
 \hypertarget{duxe9veloppement}{%
@@ -248,7 +285,7 @@ L'étudiant sera appelé à appliquer des effets visuels aux images vidéo et à
 \item
   À distance; synchrone.
 \item
-  Possibilité d'utiliser le laboratoire informatique et le studio.
+  Possibilité d'utiliser le laboratoire informatique et le studio si nécessaire.
 \end{itemize}
 
 \hypertarget{fiche-technique}{%
@@ -257,7 +294,7 @@ L'étudiant sera appelé à appliquer des effets visuels aux images vidéo et à
 \begin{itemize}
 \tightlist
 \item
-  Ordinateurs, projecteurs à haute luminosité ou télévision, haut-parleurs professionnels, casque audio, et tout le matériel disponible pour TIM
+  Ordinateurs, projecteurs à haute luminosité ou télévision, haut-parleurs professionnels, casque audio, matériel disponible pour TIM
 \item
   Logiciels de montage vidéo et traitemet vidéo en temps réel
 \item
@@ -290,8 +327,8 @@ L'étudiant sera appelé à appliquer des effets visuels aux images vidéo et à
   \protect\hyperlink{evolution_historique_language}{Langages et moyens expressifs de l'image en mouvement}
 \end{itemize}
 
-\hypertarget{fondements-technique}{%
-\subsection{Fondements technique}\label{fondements-technique}}
+\hypertarget{fondements-techniques}{%
+\subsection{Fondements techniques}\label{fondements-techniques}}
 
 \begin{itemize}
 \tightlist
@@ -327,8 +364,8 @@ L'étudiant sera appelé à appliquer des effets visuels aux images vidéo et à
   \end{itemize}
 \end{itemize}
 
-\hypertarget{traitement-de-limages-en-mouvement}{%
-\subsection{Traitement de l'images en mouvement}\label{traitement-de-limages-en-mouvement}}
+\hypertarget{traitement-de-limage-en-mouvement}{%
+\subsection{Traitement de l'image en mouvement}\label{traitement-de-limage-en-mouvement}}
 
 \begin{itemize}
 \tightlist
@@ -354,7 +391,7 @@ L'étudiant sera appelé à appliquer des effets visuels aux images vidéo et à
 \item
   Programmation de compositions visuelles génératives
 \item
-  Réalisation d'un échantillonneur/mixeur visuel
+  Réalisation d'un échantillonneur/mélangeur visuel
 \item
   Programmation pour contrôler la lecture vidéo,
 
@@ -421,7 +458,7 @@ L'étudiant sera appelé à appliquer des effets visuels aux images vidéo et à
 \item
   Utilisation d'interfaces de contrôle interactives
 \item
-  Utilisation d'OSC, MIDI, DMX ou ArtNet pour interagir avec d'autre logiciels et interfaces de contrôle
+  Utilisation d'OSC, MIDI, DMX ou ArtNet pour interagir avec d'autres logiciels et interfaces de contrôle
 \end{itemize}
 
 \hypertarget{gestion-de-projets}{%
@@ -466,30 +503,31 @@ L'étudiant sera appelé à appliquer des effets visuels aux images vidéo et à
 
 \caption{\label{tab:calendrier}Calendrier}
 \centering
-\begin{tabular}[t]{lll}
+\begin{tabular}[t]{>{\raggedright\arraybackslash}p{1em}>{\raggedright\arraybackslash}p{10em}>{\raggedright\arraybackslash}p{10em}}
 \toprule
-SÉANCE & CONTENU ABORDÉ EN CLASSE ET OBJECTIF & ACTIVITÉS AUTONOME\\
+SÉANCE & OBJECTIFS ABORDÉS EN CLASSE & ACTIVITÉS AUTONOMES\\
 \midrule
-1; 3 février & plan de cour, [historique du traitement vidéo](\#evolution\_historique) & 1 aa\\
-2; 10 février & [composantes du signal vidéo](\#lexique\_composantes) & Préparation [evaluation 1](\#evaluation\_1)\\
-3; 17 février & Formatif:Approbation des sujet [evaluation 1](\#evaluation\_1) & Préparation [evaluation 1](\#evaluation\_1)\\
-4; 24 février & Remise [évaluation\_1](\#evaluation\_1) & Préparation [evaluation 2](\#evaluation\_2)\\
-X ; 3 mars & Journées de rattrapage (Pas de cours) & Préparation [evaluation 2](\#evaluation\_2)\\
+1;      3 février & Plan de cour;  Consignes [Présentation 1 : Corpus vidéo](\#sommatif\_1); Survol [corpus artistique](\#corpus) & Préparation [Présentation 1: Corpus vidéo](\#sommatif\_1)\\
+2;     10 février & [Historique du traitement vidéo](\#evolution\_historique);  Formatif : Préapprobation [Présentation 1: Corpus Vidéo](\#sommatif\_1) & Préparation [Présentation 1: Corpus vidéo](\#sommatif\_1)\\
+3;     17 février & Sommatif: [Présentation 1: Corpus Vidéo](\#sommatif\_1) & \\
+4;     24 février & [composantes du signal vidéo](\#lexique); [Acquérir l'image en mouvement](\#acquerir); [Échantillonner l'image en mouvement](\#echantillonner) & Préparation [Question traitement vidéo](\#sommatif\_2)\\
+X;     3 mars & Journées de rattrapage (Pas de cours) & \\
 \addlinespace
-5; 10 mars & Remise [évaluation\_2](\#evaluation\_2) & \\
-6; 17 mars &  & Compléter [évaluation\_3](\#evaluation\_3)\\
-7; 24 mars & 8e & 8 aa\\
-8; 31 mars & Remise [évaluation\_4](\#evaluation\_4) & 9 aa\\
-X; 7 avril & Congé (Pas de cours) & 10 aa\\
+5;     10 mars & [Traiter l'image en mouvement](\#traiter); Formatif : Préapprobation[Question traitement vidéo](\#sommatif\_2) & Avoir soumis [Question traitement vidéo](\#sommatif\_2)\\
+6;     17 mars & Consignes [Palette vidéo](\#sommatif\_4);  Sommatif: [Quiz traitement vidéo](\#sommatif\_3) & Préparation [Palette vidéo interactive](\#sommatif\_4)\\
+7;     24 mars & [Programmer des sources visuelles](\#programmer) & Préparation [Palette vidéo interactive](\#sommatif\_4)\\
+8;     31 mars & [Interagir avec des sources vidéo](\#interagir) & Préparation [Palette vidéo interactive](\#sommatif\_4)\\
+X;     7 avril & Congé (Pas de cours) & \\
 \addlinespace
-9; 14 avril & 11e & Préparation [évaluation\_5](\#evaluation\_5)\\
-10; 21 avril & Remise [évaluation\_5](\#evaluation\_5) & 12 aa\\
-11; 28 avril & 13e & 13 aa\\
-12; 5 mai & 14e & 14 aa\\
-13; 12 mai & Préparation [évaluation\_6](\#evaluation\_6) & Préparation [évaluation\_6](\#evaluation\_6)\\
+9;     14 avril & suite : [Programmer des sources visuelles](\#programmer) et  [Interagir avec des sources vidéo](\#interagir) & Préparation [Palette vidéo interactive](\#sommatif\_4)\\
+10;    21 avril & Sommatif : [Présentation 4 ](\#sommatif\_4) & \\
+11;    28 avril & [Déployer un projet vidéo temps réel](\#deployer); Consignes  : [stream](\#sommatif\_5) & Préparation [performance audiovisuelle temps réel](\#sommatif\_5)\\
+12;    5 mai & suite : [Déployer un projet vidéo temps réel](\#deployer) & Préparation [performance audiovisuelle temps réel](\#sommatif\_5)\\
+13;    12 mai & Préparation [performance audiovisuelle temps réel](\#sommatif\_5) & Préparation [performance audiovisuelle temps réel](\#sommatif\_5)\\
 \addlinespace
-X; 19 mai & épreuve uniforme de français (Pas de cours) & \\
-14; 25 mai & Remise [évaluation\_6](\#evaluation\_6) & \\
+14;    18 mai & Exceptionnellement un mardi : [performance audiovisuelle temps réel](\#sommatif\_5); & Rédaction document [performance audiovisuelle temps réel ](\#sommatif\_5)\\
+X;     19 mai & épreuve uniforme de français (Pas de cours) & Rédaction document [performance audiovisuelle temps réel ](\#sommatif\_5)\\
+15;    25 mai & Remise du document accompagnateur [performance audiovisuelle temps réel ](\#sommatif\_5) & \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -497,87 +535,169 @@ X; 19 mai & épreuve uniforme de français (Pas de cours) & \\
 \hypertarget{exercices}{%
 \chapter{Exercices}\label{exercices}}
 
-\hypertarget{formatif_1}{%
-\section{Approbation du sujet pour le corpus vidéo}\label{formatif_1}}
-
-\hypertarget{formatif}{%
-\subsection{Formatif}\label{formatif}}
-
 \hypertarget{sommatif_1}{%
 \section{Corpus vidéo}\label{sommatif_1}}
 
-\hypertarget{sommatif-15-individuel}{%
-\subsection{Sommatif 15\% individuel}\label{sommatif-15-individuel}}
-
-\hypertarget{pruxe9sentation-orale-individuelle-de-type-partage-duxe9cran-de-5-minutes}{%
-\subsection{Présentation orale individuelle de type partage d'écran de \textasciitilde5 minutes}\label{pruxe9sentation-orale-individuelle-de-type-partage-duxe9cran-de-5-minutes}}
-
 \begin{itemize}
 \tightlist
 \item
-  Traiter une oeuvre et/ou une technique en lien avec le traitement vidéo\\
+  Présentation de type partage d'écran de \textasciitilde5 minutes
 \item
-  Partager un extrait court et des capture écran si approprié
+  Sommatif (15\%)
 \item
-  Présenter son contexte artistique et historique ainsi que les techniques et technologies employées
-\item
-  Sugérer une technique actuelle pour reproduire le résultat visuel
-\item
-  Tenter de lier des \protect\hyperlink{contenus_essentiels}{contenus essentiels} à la présentation
+  Individuel
 \end{itemize}
 
-\hypertarget{formatif_2}{%
-\section{Présentation d'une question}\label{formatif_2}}
-
-\hypertarget{formatif-1}{%
-\subsection{Formatif}\label{formatif-1}}
-
-\hypertarget{sommatif_2}{%
-\section{Question quiz}\label{sommatif_2}}
-
-\hypertarget{individuel}{%
-\subsection{10\% individuel}\label{individuel}}
-
-\hypertarget{ruxe9daction-dune-question-pertinant-et-originale-pour-le-quiz}{%
-\subsection{Rédaction d'une question pertinant et originale pour le quiz}\label{ruxe9daction-dune-question-pertinant-et-originale-pour-le-quiz}}
+\hypertarget{consignes}{%
+\subsection{Consignes}\label{consignes}}
 
 \begin{itemize}
 \tightlist
 \item
-  Rédaction d'une question théorique originale portant sur la matière du cours
+  Choisir et présenter un court extrait médiatique comprenant un procédé de traitement vidéo original
 \item
-  Se référer aux \protect\hyperlink{contenus_essentiels}{contenus essentiels}
+  Traiter syntétiquement son contexte artistique et historique
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Auteur
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Nom, année de naissance (si disponible), nationalité (ville, pays (si disponible)),
+
+      \begin{itemize}
+      \tightlist
+      \item
+        ex: Marina Abramovic, 1946 à Belgrade, Yougoslavie (aujourd'hui Serbie-Monténégro)
+      \end{itemize}
+    \end{itemize}
+  \item
+    Contexte de diffusion de l'oeuvre
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Titre
+
+      \begin{itemize}
+      \tightlist
+      \item
+        ex. Twenty four hour Psycho
+      \end{itemize}
+    \item
+      médium, durée, date de parution
+
+      \begin{itemize}
+      \tightlist
+      \item
+        ex. Installation vidéo à 6 canaux, couleur, son, 12 minutes, 1997
+      \end{itemize}
+    \end{itemize}
+  \end{itemize}
 \item
-  4 choix de réponses éloquents comprenant la réponse
+  Décrire une techniques de traitement vidéo employée
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Ex. La chronophotographie (décrire la technique) fut employé pour (décrire une motivation artistique)
+  \end{itemize}
+\item
+  Présenter une hypothèse à la question suivante :
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Est-ce que ce procédé de traitement vidéo étudié pourrait être produit en temps réel?
+
+    \begin{itemize}
+    \tightlist
+    \item
+      si oui, comment?
+    \item
+      si non, pourquoi?
+    \end{itemize}
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{artistes-potentiellement-inspirant}{%
+\subsubsection{Artistes potentiellement inspirant}\label{artistes-potentiellement-inspirant}}
+
+Se référer à la section \protect\hyperlink{corpus}{corpus}
+
+\hypertarget{sommatif_2}{%
+\section{Rédaction d'une question portant sur le traitement vidéo}\label{sommatif_2}}
+
+\begin{itemize}
+\tightlist
+\item
+  Rédaction dans un tableur excel en ligne d'une question, une bonne réponse et 3 réponses erronnées\\
+\item
+  Sommatif (10\%)
+\item
+  Individuel
+\end{itemize}
+
+\hypertarget{consignes-1}{%
+\subsection{Consignes}\label{consignes-1}}
+
+\begin{itemize}
+\tightlist
+\item
+  Rédiger une question pertinante et originale sur le traitement vidéo
+\item
+  Inscrire une réponse adéquate
+\item
+  Inventer trois réponses erronnées (formatif)
+\item
+  Se référer aux \href{}{contenus essentiels}
 \end{itemize}
 
 \hypertarget{sommatif_3}{%
 \section{Quiz théorique}\label{sommatif_3}}
 
-\hypertarget{individuel-1}{%
-\subsection{15\% individuel}\label{individuel-1}}
+\begin{itemize}
+\tightlist
+\item
+  Formulaire en ligne à répondre avant la date prévue
+\item
+  Sommatif (15\%)
+\item
+  Individuel
+\end{itemize}
+
+\hypertarget{consignes-2}{%
+\subsection{Consignes}\label{consignes-2}}
 
 \begin{itemize}
 \tightlist
 \item
-  formulaire en ligne à répondre individuellement
-\item
-  Contient les questions quiz des deux groupes ainsi ceux de l'enseignement
+  Répondre aux questions dans le formulaire avant l'échéance
 \end{itemize}
 
 \hypertarget{sommatif_4}{%
-\section{Scènes vidéo}\label{sommatif_4}}
-
-\hypertarget{individuel-2}{%
-\subsection{15\% individuel}\label{individuel-2}}
-
-\hypertarget{partage-duxe9cran-individuelle-5-minutes}{%
-\subsection{Partage d'écran individuelle \textasciitilde5 minutes}\label{partage-duxe9cran-individuelle-5-minutes}}
+\section{Palette de scènes vidéo interactives}\label{sommatif_4}}
 
 \begin{itemize}
 \tightlist
 \item
-  Palette de 8 scène
+  Présentation de type partage d'écran \textasciitilde5 minutes
+\item
+  Sommatif 25\%
+\item
+  individuel
+\end{itemize}
+
+\hypertarget{consignes-3}{%
+\subsection{Consignes}\label{consignes-3}}
+
+\begin{itemize}
+\tightlist
+\item
+  Assembler une palette de 8 scènes vidéo comprenant
 
   \begin{itemize}
   \tightlist
@@ -592,43 +712,305 @@ X; 19 mai & épreuve uniforme de français (Pas de cours) & \\
   \item
     etc.
   \end{itemize}
+\item
+  Démontrer :
+
+  \begin{itemize}
+  \tightlist
+  \item
+    créativité
+  \item
+    recherche
+  \item
+    maitrise technique
+  \item
+  \end{itemize}
 \end{itemize}
 
 \hypertarget{sommatif_5}{%
-\section{Mélangeur vidéo interactif}\label{sommatif_5}}
-
-\hypertarget{individuel-3}{%
-\subsection{15\% individuel}\label{individuel-3}}
-
-\hypertarget{partage-duxe9cran-individuelle-5-minutes-1}{%
-\subsection{Partage d'écran individuelle \textasciitilde5 minutes}\label{partage-duxe9cran-individuelle-5-minutes-1}}
+\section{Performance audiovisuelle temps réel et document accompagnateur}\label{sommatif_5}}
 
 \begin{itemize}
 \tightlist
 \item
-  Variation temps réel des paramètres vidéo programmées
+  35\% individuel, produit en équipe
+\item
+  Présentation courte au sein d'une diffusion audiovisuelle continue (Stream)
+\item
+  Présenté lors de la ruche u
+\item
+  Signal issu d'un processus de mélange de signaux en temps réel
+\item
+  Variation en temps réel de paramètres vidéo programmés
 \end{itemize}
 
-\hypertarget{sommatif_6}{%
-\section{Installation interactive et/ou performance audiovisuel}\label{sommatif_6}}
+\hypertarget{consignes-performance-audiovisuelle-temps-ruxe9el}{%
+\subsection{Consignes ( Performance audiovisuelle temps réel)}\label{consignes-performance-audiovisuelle-temps-ruxe9el}}
 
-\hypertarget{individuel-uxe9quipe-et-classe.}{%
-\subsection{25\% individuel, équipe et classe.}\label{individuel-uxe9quipe-et-classe.}}
+\begin{itemize}
+\tightlist
+\item
+  Activité concertée avec le cours de Conception sonore interactive
+\item
+  le traitement vidéo doit être effectué en temps réel
+\item
+  Présentation de type streaming lors de la ruche (Mardi)
+\item
+  Tous les groupes doivent diffuser ce jours là
+\end{itemize}
 
-\hypertarget{pruxe9sentation-de-type-fluxstream-video-de-lensemble-des-projets}{%
-\subsection{Présentation de type Flux(Stream) video de l'ensemble des projets}\label{pruxe9sentation-de-type-fluxstream-video-de-lensemble-des-projets}}
+\hypertarget{consignes-document-accompagnateur}{%
+\subsection{Consignes (document accompagnateur)}\label{consignes-document-accompagnateur}}
 
-où le traitement vidéo est effectué en temps réel
-* Présentation de type partage d'écran et stream simultané
-* Changement de scène
-* Changement de paramètres asservie
-* Pourrait prendre la forme d'un VJ set via scènes dans OBS
+\begin{itemize}
+\tightlist
+\item
+  Remise avant le 26 mai d'un texte individuel expliquant dans un langage approprié et précis les éléments suivant:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    L'implication au sein du projet
+  \item
+    Les intentions artistiques
+  \item
+    Les défis techniques
+  \item
+    La démarche
+  \item
+    L'inspiration
+  \item
+    Le fonctionnement technique du travail
+  \item
+    Ce qui aurait pu améliorer le résultat
+  \end{itemize}
+\item
+  N.B. : un document par étudiant, soummis à la fois au cours de Traitement vidéo ainsi qu'au cours de Conception sonore interactive. Seuls les éléments décrits dans ce texte compteront à l'évaluation. Ne pas oublier de détailler autant l'aspect visuel que le sonore.
+\end{itemize}
+
+\hypertarget{corpus}{%
+\chapter{Corpus chronologique d'artistes}\label{corpus}}
+
+(non exaustif bien sur)
+
+\hypertarget{les-origines-de-lart-viduxe9o}{%
+\section{Les origines de l'art vidéo}\label{les-origines-de-lart-viduxe9o}}
+
+\hypertarget{edward-muybridge}{%
+\subsection{Edward Muybridge}\label{edward-muybridge}}
+
+\begin{itemize}
+\tightlist
+\item
+  \url{http://www.artwiki.fr/?EdwardMuybridge}
+\end{itemize}
+
+\hypertarget{georges-muxe9lies}{%
+\subsection{Georges Mélies}\label{georges-muxe9lies}}
+
+\begin{itemize}
+\tightlist
+\item
+  \url{http://www.artwiki.fr/?GeorgesMelies}
+\end{itemize}
+
+\hypertarget{etienne-jules-marey}{%
+\subsection{Etienne-Jules Marey}\label{etienne-jules-marey}}
+
+\begin{itemize}
+\tightlist
+\item
+  \url{http://www.artwiki.fr/?EtiennejulesMarey}
+\end{itemize}
+
+\hypertarget{dziga-vertov}{%
+\subsection{Dziga Vertov}\label{dziga-vertov}}
+
+\begin{itemize}
+\tightlist
+\item
+  \url{http://www.artwiki.fr/?DzigaVertov}
+\end{itemize}
+
+\hypertarget{futurisme-et-lart-viduxe9o}{%
+\subsection{Futurisme et l'art vidéo}\label{futurisme-et-lart-viduxe9o}}
+
+\begin{itemize}
+\tightlist
+\item
+  \url{http://www.artwiki.fr/?FuturismeArtvideo}
+\end{itemize}
+
+\hypertarget{marcel-duchamp}{%
+\subsection{Marcel Duchamp}\label{marcel-duchamp}}
+
+\begin{itemize}
+\tightlist
+\item
+  \url{http://www.artwiki.fr/?MarcelduchampEcologie}
+\end{itemize}
+
+\hypertarget{les-balbutiements}{%
+\section{Les balbutiements}\label{les-balbutiements}}
+
+\hypertarget{stan-brakhage}{%
+\subsection{Stan Brakhage}\label{stan-brakhage}}
+
+\begin{itemize}
+\tightlist
+\item
+  \url{http://www.artwiki.fr/?StanBrakhage}
+\end{itemize}
+
+\hypertarget{john-milton-cage}{%
+\subsection{John Milton Cage}\label{john-milton-cage}}
+
+\begin{itemize}
+\tightlist
+\item
+  \url{http://www.artwiki.fr/?JohnCage}
+\end{itemize}
+
+\hypertarget{fluxus}{%
+\subsection{Fluxus}\label{fluxus}}
+
+\begin{itemize}
+\tightlist
+\item
+  \url{http://www.artwiki.fr/?LartvideoFluxus}
+\end{itemize}
+
+\hypertarget{norman-mclaren}{%
+\subsection{Norman McLaren}\label{norman-mclaren}}
+
+\begin{itemize}
+\tightlist
+\item
+  \url{http://www.artwiki.fr/?NormanMcLaren}
+\end{itemize}
+
+\hypertarget{section}{%
+\section{1960}\label{section}}
+
+\hypertarget{nam-june-paik}{%
+\subsection{Nam June Paik}\label{nam-june-paik}}
+
+\begin{itemize}
+\tightlist
+\item
+  \url{http://www.artwiki.fr/?NamjunePaik}
+\item
+  \url{https://fr.wikipedia.org/wiki/Nam_June_Paik}
+\end{itemize}
+
+\hypertarget{wolf-vostell}{%
+\subsection{Wolf Vostell}\label{wolf-vostell}}
+
+\begin{itemize}
+\tightlist
+\item
+  \url{http://www.artwiki.fr/?WolfVostell}
+\end{itemize}
+
+\hypertarget{les-levine}{%
+\subsection{Les Levine}\label{les-levine}}
+
+\begin{itemize}
+\tightlist
+\item
+  \url{http://www.artwiki.fr/?LesLevine}
+\end{itemize}
+
+\hypertarget{section-1}{%
+\section{1970}\label{section-1}}
+
+\hypertarget{valie-export}{%
+\subsection{Valie Export}\label{valie-export}}
+
+\begin{itemize}
+\tightlist
+\item
+  \url{http://www.artwiki.fr/?ValieExport}
+\end{itemize}
+
+\hypertarget{frank-gillette}{%
+\subsection{Frank Gillette}\label{frank-gillette}}
+
+\begin{itemize}
+\tightlist
+\item
+  \url{http://www.artwiki.fr/?FrankGillette}
+\end{itemize}
+
+\hypertarget{michael-snow}{%
+\subsection{Michael Snow}\label{michael-snow}}
+
+\begin{itemize}
+\tightlist
+\item
+  \url{http://www.artwiki.fr/?MichaelSnow}
+\end{itemize}
+
+\hypertarget{jud-yalkut}{%
+\subsection{Jud Yalkut}\label{jud-yalkut}}
+
+\begin{itemize}
+\tightlist
+\item
+  \url{http://www.artwiki.fr/?JudYalkut}
+\end{itemize}
+
+\hypertarget{shigeko-kubota}{%
+\subsection{Shigeko Kubota}\label{shigeko-kubota}}
+
+\begin{itemize}
+\tightlist
+\item
+  \url{http://www.artwiki.fr/?ShigekoKubota}
+\end{itemize}
+
+\hypertarget{marina-abramovic-ulay}{%
+\subsection{Marina Abramovic \& Ulay}\label{marina-abramovic-ulay}}
+
+\begin{itemize}
+\tightlist
+\item
+  \url{http://www.artwiki.fr/?AbramoviculayVideo70}
+\end{itemize}
+
+\hypertarget{contemporains}{%
+\section{Contemporains}\label{contemporains}}
+
+\hypertarget{section-2}{%
+\subsection{}\label{section-2}}
+
+\hypertarget{cinuxe9ma-expuxe9rimental}{%
+\section{Cinéma Expérimental}\label{cinuxe9ma-expuxe9rimental}}
+
+\begin{itemize}
+\tightlist
+\item
+  \url{http://www.artwiki.fr/?CinemaExperimental}
+\end{itemize}
 
 \hypertarget{historique}{%
 \chapter{Historique du traitement vidéo}\label{historique}}
 
 \hypertarget{evolution_historique}{%
 \section{Évolution historique du traitement vidéo dans les différentes formes d'art}\label{evolution_historique}}
+
+\hypertarget{contextualisation-guxe9nuxe9rale}{%
+\subsection{Contextualisation générale}\label{contextualisation-guxe9nuxe9rale}}
+
+\begin{itemize}
+\tightlist
+\item
+  \url{https://www.lerecit.fr/wp-content/uploads/2017/08/introduction-\%C3\%A0-lArt-Vid\%C3\%A9o.pdf}
+\item
+  \url{https://esse.ca/fr/la-question-de-lart-video}
+\item
+  \url{https://fr.wikipedia.org/wiki/Art_vid\%C3\%A9o}
+\end{itemize}
 
 \hypertarget{evolution_historique_performance}{%
 \subsection{Performance}\label{evolution_historique_performance}}
@@ -876,107 +1258,105 @@ pour usages artistiques :
   FFmpeg artschool \citep{associationofmovingimagearchivists_FFmpegArtschool_2020}
 \end{itemize}
 
-\hypertarget{aquerir}{%
-\chapter{Aquérir l'image en mouvement}\label{aquerir}}
+\hypertarget{acquerir}{%
+\chapter{Acquerir l'image en mouvement}\label{acquerir}}
 
-\hypertarget{aquerir_captation}{%
-\section{Captation vidéo en temps réel}\label{aquerir_captation}}
+\hypertarget{acquerir_captation}{%
+\section{Acquisition vidéo en temps réel}\label{acquerir_captation}}
+
+\hypertarget{camuxe9ra-usb}{%
+\subsection{Caméra USB}\label{camuxe9ra-usb}}
+
+\begin{itemize}
+\tightlist
+\item
+  Webcam
+\item
+  Carte de capture HDMI
+\end{itemize}
+
+\hypertarget{capture-duxe9cran}{%
+\subsection{Capture d'écran}\label{capture-duxe9cran}}
+
+\hypertarget{capture-de-fenuxeatre}{%
+\subsection{Capture de fenêtre}\label{capture-de-fenuxeatre}}
+
+\hypertarget{capture-de-contexte-gl-game-capture}{%
+\subsection{Capture de contexte GL (Game capture)}\label{capture-de-contexte-gl-game-capture}}
+
+\hypertarget{partage-de-texture-viduxe9o-spout-syphon}{%
+\subsection{Partage de texture vidéo (Spout, Syphon)}\label{partage-de-texture-viduxe9o-spout-syphon}}
+
+\hypertarget{usages-de-capture-viduxe9o-temps-ruxe9el}{%
+\section{Usages de capture vidéo temps réel}\label{usages-de-capture-viduxe9o-temps-ruxe9el}}
+
+\hypertarget{camuxe9ra-virtuelle}{%
+\subsection{Caméra virtuelle ()}\label{camuxe9ra-virtuelle}}
 
 \hypertarget{captation-de-mouvement-et-de-pruxe9sence}{%
 \section{Captation de mouvement et de présence}\label{captation-de-mouvement-et-de-pruxe9sence}}
 
-\hypertarget{usages-de-capture-viduxe9o-temps-ruxe9el}{%
-\section{Usages de capture vidéo temps réel}\label{usages-de-capture-viduxe9o-temps-ruxe9el}}
+\url{http://szeliski.org/Book/}
+
+\hypertarget{echantillonner}{%
+\chapter{Échantillonner l'image en mouvement}\label{echantillonner}}
+
+\hypertarget{enregistrer}{%
+\section{Enregistrer}\label{enregistrer}}
+
+\hypertarget{formats-de-sauvegarde}{%
+\subsection{Formats de sauvegarde}\label{formats-de-sauvegarde}}
+
+\hypertarget{sauvegarde-et-archivage-des-muxe9dias}{%
+\subsection{Sauvegarde et archivage des médias}\label{sauvegarde-et-archivage-des-muxe9dias}}
+
+\hypertarget{gestion-de-banques-dimages}{%
+\subsection{Gestion de banques d'images}\label{gestion-de-banques-dimages}}
+
+\hypertarget{lecture}{%
+\section{Lecture}\label{lecture}}
+
+\hypertarget{position}{%
+\subsection{Position}\label{position}}
+
+\hypertarget{boucle}{%
+\subsection{Boucle}\label{boucle}}
+
+\hypertarget{vitesse}{%
+\subsection{Vitesse}\label{vitesse}}
+
+\hypertarget{contruxf4ler-de-la-tuxeate-de-lecture-viduxe9o}{%
+\subsection{Contrôler de la tête de lecture vidéo}\label{contruxf4ler-de-la-tuxeate-de-lecture-viduxe9o}}
+
+\hypertarget{montage-temps-ruxe9el}{%
+\subsection{Montage temps réel}\label{montage-temps-ruxe9el}}
 
 \hypertarget{traiter}{%
 \chapter{Traiter l'image en mouvement}\label{traiter}}
 
 \hypertarget{traiter_logiciels}{%
-\section{Logiciels de traitement vidéo en temps réel et d'interactivité}\label{traiter_logiciels}}
+\section{Logiciels de traitement vidéo interactif en temps réel}\label{traiter_logiciels}}
+
+\hypertarget{libres-et-gratuits}{%
+\subsection{Libres et gratuits}\label{libres-et-gratuits}}
 
 \begin{itemize}
 \tightlist
 \item
   Open Broadcast Studio
-\item
-  ffmpeg
+
+  \begin{itemize}
+  \tightlist
+  \item
+    obs-ninja
+  \item
+    obs-websocket
+  \item
+  \end{itemize}
 \end{itemize}
 
 \hypertarget{notions-de-traitement-viduxe9o}{%
 \section{Notions de traitement vidéo}\label{notions-de-traitement-viduxe9o}}
-
-\hypertarget{pixels}{%
-\subsection{Pixels}\label{pixels}}
-
-\hypertarget{couleurs}{%
-\subsection{Couleurs}\label{couleurs}}
-
-\hypertarget{texture}{%
-\subsection{Texture}\label{texture}}
-
-\hypertarget{matrice}{%
-\subsection{Matrice}\label{matrice}}
-
-\hypertarget{muxe9moire-tampon}{%
-\subsection{Mémoire tampon}\label{muxe9moire-tampon}}
-
-\hypertarget{alpha-channel}{%
-\subsection{Alpha channel}\label{alpha-channel}}
-
-\hypertarget{rendu-opengl}{%
-\subsection{Rendu OpenGL}\label{rendu-opengl}}
-
-\hypertarget{traitement-visuel-en-temps-ruxe9el-uxe0-laide-deffets-et-de-logiciels-de-programmation-multimuxe9dia-et-nodale}{%
-\section{Traitement visuel en temps réel à l'aide d'effets et de logiciels de programmation multimédia et nodale}\label{traitement-visuel-en-temps-ruxe9el-uxe0-laide-deffets-et-de-logiciels-de-programmation-multimuxe9dia-et-nodale}}
-
-\hypertarget{exploitation-des-fonctions-des-logiciels-de-traitement-viduxe9o-en-temps-ruxe9el}{%
-\section{Exploitation des fonctions des logiciels de traitement vidéo en temps réel}\label{exploitation-des-fonctions-des-logiciels-de-traitement-viduxe9o-en-temps-ruxe9el}}
-
-\hypertarget{effets-visuels-et-filtres-applicables-en-temps-ruxe9el-sur-des-matuxe9riaux-visuels}{%
-\section{Effets visuels et filtres applicables en temps réel sur des matériaux visuels}\label{effets-visuels-et-filtres-applicables-en-temps-ruxe9el-sur-des-matuxe9riaux-visuels}}
-
-\hypertarget{flot-de-donnuxe9es-entre-les-objets-du-logiciel}{%
-\section{Flot de données entre les objets du logiciel}\label{flot-de-donnuxe9es-entre-les-objets-du-logiciel}}
-
-\hypertarget{utilisation-de-nuanciers-shaders}{%
-\section{Utilisation de nuanciers (shaders)}\label{utilisation-de-nuanciers-shaders}}
-
-\hypertarget{programmer}{%
-\chapter{Programmer des effets visuels}\label{programmer}}
-
-\hypertarget{logiciels-de-programmation-nodaleprogrammer_logiciels}{%
-\section{Logiciels de programmation nodale\{programmer\_logiciels\}}\label{logiciels-de-programmation-nodaleprogrammer_logiciels}}
-
-\begin{itemize}
-\tightlist
-\item
-  Pure Data
-\item
-  Pure Data et Open Broadcast Studio
-\item
-  Pure Data et Ofelia
-\end{itemize}
-
-\hypertarget{ruxe9alisation-dun-uxe9chantillonneurmuxe9langeur-visuel}{%
-\section{Réalisation d'un échantillonneur/mélangeur visuel}\label{ruxe9alisation-dun-uxe9chantillonneurmuxe9langeur-visuel}}
-
-\hypertarget{montage-temps-ruxe9el}{%
-\section{Montage temps réel}\label{montage-temps-ruxe9el}}
-
-\hypertarget{contruxf4ler-de-la-tuxeate-de-lecture-viduxe9o}{%
-\subsection{Contrôler de la tête de lecture vidéo}\label{contruxf4ler-de-la-tuxeate-de-lecture-viduxe9o}}
-
-\hypertarget{position}{%
-\subsubsection{Position}\label{position}}
-
-\hypertarget{boucle}{%
-\subsubsection{Boucle}\label{boucle}}
-
-\hypertarget{vitesse}{%
-\subsubsection{Vitesse}\label{vitesse}}
-
-\hypertarget{programmation-deffets-temps-ruxe9el}{%
-\section{Programmation d'effets temps réel}\label{programmation-deffets-temps-ruxe9el}}
 
 \hypertarget{position-1}{%
 \subsection{Position}\label{position-1}}
@@ -987,14 +1367,23 @@ pour usages artistiques :
 \hypertarget{dimensions}{%
 \subsection{Dimensions}\label{dimensions}}
 
-\hypertarget{niveau-des-couleurs}{%
-\subsection{Niveau des couleurs}\label{niveau-des-couleurs}}
+\hypertarget{distorsion}{%
+\subsection{Distorsion}\label{distorsion}}
 
-\hypertarget{alpha-channel-1}{%
-\subsection{Alpha channel}\label{alpha-channel-1}}
+\hypertarget{rogner}{%
+\subsubsection{Rogner}\label{rogner}}
+
+\hypertarget{uxe9chelle}{%
+\subsubsection{Échelle}\label{uxe9chelle}}
+
+\hypertarget{canal-alpha-alpha-channel}{%
+\subsection{Canal Alpha Alpha channel}\label{canal-alpha-alpha-channel}}
 
 \hypertarget{modification-de-couleurs}{%
 \subsection{Modification de couleurs}\label{modification-de-couleurs}}
+
+\hypertarget{niveau-des-couleurs}{%
+\subsection{Niveau des couleurs}\label{niveau-des-couleurs}}
 
 \hypertarget{mixage-dimages}{%
 \subsection{Mixage d'images}\label{mixage-dimages}}
@@ -1005,38 +1394,107 @@ pour usages artistiques :
 \hypertarget{chromakey}{%
 \subsection{chromakey}\label{chromakey}}
 
-\hypertarget{distorsion}{%
-\subsection{Distorsion}\label{distorsion}}
-
 \hypertarget{duxe9lais}{%
 \subsection{Délais}\label{duxe9lais}}
 
 \hypertarget{ruxe9troaction-feedback}{%
 \subsection{Rétroaction (feedback)}\label{ruxe9troaction-feedback}}
 
+\hypertarget{pixels}{%
+\subsection{Pixels}\label{pixels}}
+
+\hypertarget{couleurs}{%
+\subsection{Couleurs}\label{couleurs}}
+
+\url{https://thebookofshaders.com/06/?lan=fr}
+
+\hypertarget{texture}{%
+\subsection{Texture}\label{texture}}
+
+\url{https://thebookofshaders.com/09/?lan=fr}
+
+\hypertarget{matrices}{%
+\subsection{Matrices}\label{matrices}}
+
+\url{https://thebookofshaders.com/08//?lan=fr}
+
+\hypertarget{muxe9moire-tampon}{%
+\subsection{Mémoire tampon}\label{muxe9moire-tampon}}
+
+\hypertarget{alpha-channel}{%
+\subsection{Alpha channel}\label{alpha-channel}}
+
+\hypertarget{rendu-opengl}{%
+\subsection{Rendu OpenGL}\label{rendu-opengl}}
+
+\url{https://openframeworks.cc/ofBook/chapters/openGL.html}
+
+\hypertarget{traitement-visuel-en-temps-ruxe9el-uxe0-laide-deffets-et-de-logiciels-de-programmation-multimuxe9dia-et-nodale}{%
+\section{Traitement visuel en temps réel à l'aide d'effets et de logiciels de programmation multimédia et nodale}\label{traitement-visuel-en-temps-ruxe9el-uxe0-laide-deffets-et-de-logiciels-de-programmation-multimuxe9dia-et-nodale}}
+
+\hypertarget{exploitation-des-fonctions-des-logiciels-de-traitement-viduxe9o-en-temps-ruxe9el}{%
+\section{Exploitation des fonctions des logiciels de traitement vidéo en temps réel}\label{exploitation-des-fonctions-des-logiciels-de-traitement-viduxe9o-en-temps-ruxe9el}}
+
+\hypertarget{utilisation-de-nuanciers-shaders}{%
+\section{Utilisation de nuanciers (shaders)}\label{utilisation-de-nuanciers-shaders}}
+
+\hypertarget{programmer}{%
+\chapter{Programmer des effets visuels}\label{programmer}}
+
+\hypertarget{logiciels-de-programmation-programmer_logiciels}{%
+\section{Logiciels de programmation \{programmer\_logiciels\}}\label{logiciels-de-programmation-programmer_logiciels}}
+
+\begin{itemize}
+\tightlist
+\item
+  glsl
+\end{itemize}
+
+\hypertarget{programmation-deffets-temps-ruxe9el}{%
+\section{Programmation d'effets temps réel}\label{programmation-deffets-temps-ruxe9el}}
+
 \hypertarget{nuanceurs-shaders}{%
-\section{Nuanceurs (shaders)\,:}\label{nuanceurs-shaders}}
+\subsection{Nuanceurs (shaders)\,:}\label{nuanceurs-shaders}}
+
+\url{https://thebookofshaders.com/01/?lan=fr}
 
 \hypertarget{vertex-pixel-et-guxe9omuxe9trie}{%
-\subsection{vertex, pixel et géométrie}\label{vertex-pixel-et-guxe9omuxe9trie}}
+\subsubsection{vertex, pixel et géométrie}\label{vertex-pixel-et-guxe9omuxe9trie}}
 
 \hypertarget{usages}{%
-\subsection{Usages}\label{usages}}
+\subsubsection{Usages}\label{usages}}
+
+\url{https://thebookofshaders.com/00/?lan=fr}
 
 \hypertarget{lumiuxe8re}{%
-\subsubsection{lumière}\label{lumiuxe8re}}
-
-\hypertarget{fumuxe9e}{%
-\subsubsection{fumée}\label{fumuxe9e}}
+\paragraph{lumière}\label{lumiuxe8re}}
 
 \hypertarget{texture-1}{%
-\subsubsection{texture}\label{texture-1}}
+\paragraph{texture}\label{texture-1}}
+
+Noise : \url{https://thebookofshaders.com/11/}
+
+\url{https://thebookofshaders.com/12/}
+
+\hypertarget{fumuxe9e}{%
+\paragraph{fumée}\label{fumuxe9e}}
+
+\url{https://thebookofshaders.com/13/}
 
 \hypertarget{programmation-de-compositions-visuelles-guxe9nuxe9ratives}{%
 \section{Programmation de compositions visuelles génératives}\label{programmation-de-compositions-visuelles-guxe9nuxe9ratives}}
 
+\url{https://thebookofshaders.com/05/?lan=fr}
+\url{https://thebookofshaders.com/10/?lan=fr}
+
 \hypertarget{interagir}{%
 \chapter{Interactivité et images en mouvement}\label{interagir}}
+
+\hypertarget{effets-visuels-et-filtres-applicables-en-temps-ruxe9el-sur-des-matuxe9riaux-visuels}{%
+\section{Effets visuels et filtres applicables en temps réel sur des matériaux visuels}\label{effets-visuels-et-filtres-applicables-en-temps-ruxe9el-sur-des-matuxe9riaux-visuels}}
+
+\hypertarget{flot-de-donnuxe9es-entre-les-objets-du-logiciel}{%
+\section{Flot de données entre les objets du logiciel}\label{flot-de-donnuxe9es-entre-les-objets-du-logiciel}}
 
 \hypertarget{interagir_interfaces}{%
 \section{Utilisation d'interfaces de contrôle interactives}\label{interagir_interfaces}}
@@ -1062,65 +1520,69 @@ pour usages artistiques :
 \hypertarget{interagir_video}{%
 \section{Programmation de la captation}\label{interagir_video}}
 
+\url{https://openframeworks.cc/ofBook/chapters/image_processing_computer_vision.html}
+
 \hypertarget{interagir_mouvement}{%
 \subsection{Mouvement}\label{interagir_mouvement}}
 
 \hypertarget{interagir_presence}{%
 \subsection{Présence}\label{interagir_presence}}
 
-\hypertarget{duxe9ploiement-de-projet-visuel-interactif}{%
-\chapter{Déploiement de projet visuel interactif}\label{duxe9ploiement-de-projet-visuel-interactif}}
-
-\hypertarget{conceptualisation}{%
-\section{Conceptualisation}\label{conceptualisation}}
-
-\hypertarget{scuxe9narisation}{%
-\section{Scénarisation}\label{scuxe9narisation}}
-
-\hypertarget{schuxe9matisation}{%
-\section{Schématisation}\label{schuxe9matisation}}
-
-\hypertarget{prototypage}{%
-\section{Prototypage}\label{prototypage}}
+\hypertarget{deployer}{%
+\chapter{Déploiement de projet visuel interactif}\label{deployer}}
 
 \hypertarget{intuxe9gration-des-composantes-dans-une-production-interactive}{%
 \section{Intégration des composantes dans une production interactive}\label{intuxe9gration-des-composantes-dans-une-production-interactive}}
 
+étude de cas :
+
+\begin{itemize}
+\item
+  \url{https://openframeworks.cc/ofBook/chapters/project_eva.html}
+\item
+  \url{https://openframeworks.cc/ofBook/chapters/project_joel.html}
+\end{itemize}
+
+\hypertarget{conceptualisation}{%
+\subsection{Conceptualisation}\label{conceptualisation}}
+
+\hypertarget{scuxe9narisation}{%
+\subsection{Scénarisation}\label{scuxe9narisation}}
+
+\hypertarget{schuxe9matisation}{%
+\subsection{Schématisation}\label{schuxe9matisation}}
+
+\hypertarget{prototypage}{%
+\subsection{Prototypage}\label{prototypage}}
+
 \hypertarget{configuration-logicielle-et-matuxe9rielle-dune-production-interactive}{%
 \section{Configuration logicielle et matérielle d'une production interactive}\label{configuration-logicielle-et-matuxe9rielle-dune-production-interactive}}
 
-\hypertarget{formats-de-sauvegarde}{%
-\section{Formats de sauvegarde}\label{formats-de-sauvegarde}}
-
 \hypertarget{pruxe9ruxe9glages}{%
-\section{Préréglages}\label{pruxe9ruxe9glages}}
+\subsection{Préréglages}\label{pruxe9ruxe9glages}}
 
-\hypertarget{sauvegarde-et-archivage-des-muxe9dias}{%
-\section{Sauvegarde et archivage des médias}\label{sauvegarde-et-archivage-des-muxe9dias}}
+\hypertarget{optimisation-de-la-programmation-et-commentaires}{%
+\subsection{Optimisation de la programmation et commentaires}\label{optimisation-de-la-programmation-et-commentaires}}
 
-\hypertarget{gestion-de-banques-dimages}{%
-\section{Gestion de banques d'images}\label{gestion-de-banques-dimages}}
+\url{https://openframeworks.cc/ofBook/chapters/version_control_with_git.html}
 
 \hypertarget{exportation-de-projets}{%
-\section{Exportation de projets}\label{exportation-de-projets}}
+\subsection{Exportation de projets}\label{exportation-de-projets}}
 
 \hypertarget{tests-et-contruxf4le-de-la-qualituxe9}{%
 \section{Tests et contrôle de la qualité}\label{tests-et-contruxf4le-de-la-qualituxe9}}
 
 \hypertarget{ajustement-des-effets-visuels-en-fonction-des-tests}{%
-\section{Ajustement des effets visuels en fonction des tests}\label{ajustement-des-effets-visuels-en-fonction-des-tests}}
+\subsection{Ajustement des effets visuels en fonction des tests}\label{ajustement-des-effets-visuels-en-fonction-des-tests}}
 
 \hypertarget{protocole-de-duxe9bogage-via-console}{%
-\section{Protocole de débogage via console}\label{protocole-de-duxe9bogage-via-console}}
-
-\hypertarget{optimisation-de-la-programmation-et-commentaires}{%
-\section{Optimisation de la programmation et commentaires}\label{optimisation-de-la-programmation-et-commentaires}}
+\subsection{Protocole de débogage via console}\label{protocole-de-duxe9bogage-via-console}}
 
 \hypertarget{optimisation-des-performances-de-lapplication}{%
-\section{Optimisation des performances de l'application}\label{optimisation-des-performances-de-lapplication}}
+\subsection{Optimisation des performances de l'application}\label{optimisation-des-performances-de-lapplication}}
 
 \hypertarget{application-autonome}{%
-\section{Application autonome}\label{application-autonome}}
+\subsection{Application autonome}\label{application-autonome}}
 
 \hypertarget{examples-html}{%
 \chapter{Examples HTML}\label{examples-html}}
@@ -1160,11 +1622,113 @@ Où \texttt{-profile} est un chiffre entire de -1 to 5 correspondant au profile 
 
 Où \texttt{-pix\_fmt\ yuv420p} permet de créer un fichier compatible avec Quicktime
 
+\hypertarget{ffplay}{%
+\section{FFplay}\label{ffplay}}
+
+\url{https://trac.ffmpeg.org/wiki/FancyFilteringExamples}
+
+\begin{verbatim}
+ffplay -f lavfi -i mandelbrot -vf "format=gbrp,split=4[a][b][c][d],[d]histogram=display_mode=0:level_height=244[dd],[a]waveform=m=1:d=0:r=0:c=7[aa],[b]waveform=m=0:d=0:r=0:c=7[bb],[c][aa]vstack[V],[bb][dd]vstack[V2],[V][V2]hstack"
+\end{verbatim}
+
 \hypertarget{obs}{%
 \chapter{Open Broadcast Studio}\label{obs}}
 
+\hypertarget{camuxe9ra-virtuelle-1}{%
+\section{Caméra virtuelle}\label{camuxe9ra-virtuelle-1}}
+
+\hypertarget{section-3}{%
+\section{}\label{section-3}}
+
+\begin{verbatim}
+// Corner Pin shader by rmanky
+// --- --- ---
+// Adapted from https://www.iquilezles.org/www/articles/ibilinear/ibilinear.htm
+// and this Shadertoy example https://www.shadertoy.com/view/lsBSDm
+
+uniform float _DRx;
+uniform float _DRy;
+uniform float _DLx;
+uniform float _DLy;
+uniform float _TLx;
+uniform float _TLy;
+uniform float _TRx;
+uniform float _TRy;
+
+float cross2d(float2 a, float2 b)
+{
+    return (a.x * b.y) - (a.y * b.x);
+}
+
+float2 invBilinear(float2 p)
+{
+    float2 a = float2(_TLx / 1000.0, _TLy / 1000.0);
+    float2 b = float2(1.0 - (_TRx / 1000.0), _TRy / 1000.0);
+    float2 c = float2(1.0 - (_DRx / 1000.0), 1.0 - (_DRy / 1000.0));
+    float2 d = float2(_DLx / 1000.0, 1.0 - (_DLy / 1000.0));
+
+    float2 e = b-a;
+    float2 f = d-a;
+    float2 g = a-b+c-d;
+    float2 h = p-a;
+
+    float k2 = cross2d( g, f );
+    float k1 = cross2d( e, f ) + cross2d( h, g );
+    float k0 = cross2d( h, e );
+
+    float k2u = cross2d( e, g );
+    float k1u = cross2d( e, f ) + cross2d( g, h );
+    float k0u = cross2d( h, f);    
+
+    float v1, u1, v2, u2;
+
+    if (abs(k2) < 0.0001) 
+    {
+        v1 = -k0 / k1;
+        u1 = (h.x - f.x*v1)/(e.x + g.x*v1);
+    } 
+    else if (abs(k2u) < 0.0001) 
+    {
+        u1 = k0u / k1u;
+        v1 = (h.y - e.y*u1)/(f.y + g.y*u1);
+    } 
+    else 
+    {
+        float w = k1*k1 - 4.0*k0*k2;
+
+        if( w<0.0 ) return float2(-1.0, -1.0);
+
+        w = sqrt( w );
+
+        v1 = (-k1 - w)/(2.0*k2);
+        v2 = (-k1 + w)/(2.0*k2);
+        u1 = (-k1u - w)/(2.0*k2u);
+        u2 = (-k1u + w)/(2.0*k2u);
+    }
+    bool  b1 = v1>0.0 && v1<1.0 && u1>0.0 && u1<1.0;
+    bool  b2 = v2>0.0 && v2<1.0 && u2>0.0 && u2<1.0;
+
+    float2 res = float2(-1.0, -1.0);
+
+    if( b2 ) return float2( u2, v2 );
+    if( b1 ) return float2( u1, v1 );
+
+    return float2(-1.0, -1.0);
+}
+
+float4 mainImage(VertData v_in) : TARGET
+{
+    return image.Sample(textureSampler, invBilinear(v_in.uv));
+}
+\end{verbatim}
+
 \hypertarget{pure-data}{%
 \chapter{Pure Data}\label{pure-data}}
+
+\hypertarget{shaders}{%
+\chapter{Shaders}\label{shaders}}
+
+\url{https://thebookofshaders.com/01/?lan=fr}
 
   \bibliography{book.bib,packages.bib,582543-traitement-video.bib}
 

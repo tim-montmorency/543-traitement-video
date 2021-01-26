@@ -20,10 +20,22 @@ L’étudiant sera appelé à appliquer des effets visuels aux images vidéo et 
 * 015J Traiter les images en mouvement
 
 ### Apprentissages
-* Adapter l'images en mouvement  (Importance relative : 40% )
+* Adapter l'image en mouvement  (Importance relative : 40% )
 * Programmer des effets visuels interactifs  (Importance relative : 40% )
 * Intégrer l'image en mouvement interactive à une production médiatique (Importance relative : 20% )
 
+
+## Méthodologie 
+
+L’approche pédagogique de ce cours emprunte à celle employée dans les séminaires de recherche-création en média numérique. Une attention particulière est attribuée au partage de l'expérimentation en lien avec le sujet du cours. Différentes activités pédagogiques seront à l'honneur, notamment :  
+
+* Exposés magistraux
+* Démonstrations 
+* Séances de questions 
+* Présentations étudiantes
+* Valorisation des apprentissages autonomes
+* Utilisation créative de logiciels
+* Travaux pratiques itératifs  
 
 ## Développement
 
@@ -52,10 +64,10 @@ L’étudiant sera appelé à appliquer des effets visuels aux images vidéo et 
 
 ## Contexte particulier d’apprentissage 
 * À distance; synchrone. 
-* Possibilité d'utiliser le laboratoire informatique et le studio.
+* Possibilité d'utiliser le laboratoire informatique et le studio si nécessaire.
 
 ### Fiche technique
-* Ordinateurs, projecteurs à haute luminosité ou télévision, haut-parleurs professionnels, casque audio, et tout le matériel disponible pour TIM
+* Ordinateurs, projecteurs à haute luminosité ou télévision, haut-parleurs professionnels, casque audio,  matériel disponible pour TIM
 * Logiciels de montage vidéo et traitemet vidéo en temps réel 
 * Languages et protocoles de paramétrage  
 * Technicienne ou technicien en travaux pratiques
@@ -71,7 +83,7 @@ L’étudiant sera appelé à appliquer des effets visuels aux images vidéo et 
 * [Langages et moyens expressifs de l’image en mouvement](#evolution_historique_language) 
 
 
-### Fondements technique 
+### Fondements techniques 
 * [Formats de fichiers](#lexique_fichiers) 
 * [Encodage des vidéos](#lexique_encodage)  
 * [Captation vidéo en temps réel](#aquerir_captation) 
@@ -86,7 +98,7 @@ L’étudiant sera appelé à appliquer des effets visuels aux images vidéo et 
 	* alpha channel 
 	* rendu OpenGL
 
-### Traitement de l'images en mouvement
+### Traitement de l'image en mouvement
 * Usage de capture vidéo en temps réel  
 * Effets visuels et filtres applicables en temps réel sur des matériaux visuels  
 * Traitement visuel en temps réel à l’aide d’effets et de logiciels de programmation multimédia et nodale 
@@ -96,7 +108,7 @@ L’étudiant sera appelé à appliquer des effets visuels aux images vidéo et 
 
 ### Programmation d'effets visuels 
 * Programmation de compositions visuelles génératives 
-* Réalisation d’un échantillonneur/mixeur visuel 
+* Réalisation d’un échantillonneur/mélangeur visuel 
 * Programmation pour contrôler la lecture vidéo, 
 	* montage temps réel 
 	* niveau des couleurs 
@@ -125,7 +137,7 @@ L’étudiant sera appelé à appliquer des effets visuels aux images vidéo et 
 * Captation de mouvement et de présence
 * Programmation de la captation de mouvement et de présence 
 * Utilisation d’interfaces de contrôle interactives 
-* Utilisation d’OSC, MIDI, DMX ou ArtNet pour interagir avec d'autre logiciels et interfaces de contrôle
+* Utilisation d’OSC, MIDI, DMX ou ArtNet pour interagir avec d'autres logiciels et interfaces de contrôle
 
 
 ### Gestion de projets

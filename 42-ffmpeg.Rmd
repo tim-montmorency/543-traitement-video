@@ -19,3 +19,10 @@ Où `-profile` est un chiffre entire de -1 to 5 correspondant au profile prores 
 Où `-pix_fmt yuv420p` permet de créer un fichier compatible avec Quicktime
 
 
+## FFplay
+
+https://trac.ffmpeg.org/wiki/FancyFilteringExamples
+
+```
+ffplay -f lavfi -i mandelbrot -vf "format=gbrp,split=4[a][b][c][d],[d]histogram=display_mode=0:level_height=244[dd],[a]waveform=m=1:d=0:r=0:c=7[aa],[b]waveform=m=0:d=0:r=0:c=7[bb],[c][aa]vstack[V],[bb][dd]vstack[V2],[V][V2]hstack"
+```

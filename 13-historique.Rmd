@@ -3,6 +3,12 @@
 
 ## Évolution historique du traitement vidéo dans les différentes formes d’art {#evolution_historique}
 
+### Contextualisation générale
+* https://www.lerecit.fr/wp-content/uploads/2017/08/introduction-%C3%A0-lArt-Vid%C3%A9o.pdf
+* https://esse.ca/fr/la-question-de-lart-video
+* https://fr.wikipedia.org/wiki/Art_vid%C3%A9o
+
+
 ### Performance {#evolution_historique_performance}
 ### Installation {#evolution_historique_installation}
 ### Évolution des technologies associées {#evolution_historique_technologies}

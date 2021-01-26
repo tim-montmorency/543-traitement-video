@@ -1,7 +1,0 @@
-#N canvas 689 286 450 300 12;
-#X msg 31 54 pd~ start ofelia_1.pd;
-#X obj 32 79 pd~ -ninsig 0 -noutsig 0 -fifo 20;
-#X msg 34 128 pd~ start ofelia_1.pd;
-#X obj 35 155 pd~ -ninsig 0 -noutsig 0 -fifo 20;
-#X connect 0 0 1 0;
-#X connect 2 0 3 0;

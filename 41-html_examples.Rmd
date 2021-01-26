@@ -1,6 +1,5 @@
 # Examples HTML
 
-
 ```{r, eval=knitr::is_html_output(excludes = "epub"), results = 'asis', echo = F}
 cat(
 '<iframe width="560" height="315" 

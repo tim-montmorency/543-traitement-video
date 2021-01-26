@@ -1,0 +1,14 @@
+# Échantillonner l'image en mouvement {#echantillonner}
+
+## Enregistrer 
+
+### Formats de sauvegarde  
+### Sauvegarde et archivage des médias 
+### Gestion de banques d’images 
+
+## Lecture 
+### Position
+### Boucle
+### Vitesse 
+### Contrôler de la tête de lecture vidéo
+### Montage temps réel 

@@ -1,6 +1,13 @@
-# Déploiement de projet visuel interactif
+# Déploiement de projet visuel interactif {#deployer}
 
 ## Intégration des composantes dans une production interactive 
+
+étude de cas : 
+
+* https://openframeworks.cc/ofBook/chapters/project_eva.html
+
+* https://openframeworks.cc/ofBook/chapters/project_joel.html
+
 
 ### Conceptualisation 
 
@@ -10,15 +17,15 @@
 
 ### Prototypage
 
+
+
 ## Configuration logicielle et matérielle d’une production interactive 
 ### Préréglages 
 ### Optimisation de la programmation et commentaires 
+https://openframeworks.cc/ofBook/chapters/version_control_with_git.html
 
-### Formats de sauvegarde  
+
 ### Exportation de projets 
-### Sauvegarde et archivage des médias 
-### Gestion de banques d’images 
-
 
 ## Tests et contrôle de la qualité 
 ### Ajustement des effets visuels en fonction des tests 

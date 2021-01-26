@@ -1,0 +1,40 @@
+# Programmer des effets visuels{#programmer}
+
+## Logiciels de programmation {programmer_logiciels}
+
+* glsl
+
+
+## Programmation d'effets temps réel
+
+### Nuanceurs (shaders) : 
+https://thebookofshaders.com/01/?lan=fr
+
+#### vertex, pixel et géométrie 
+
+#### Usages
+https://thebookofshaders.com/00/?lan=fr
+
+
+##### lumière 
+
+
+##### texture
+
+
+Noise : https://thebookofshaders.com/11/
+
+https://thebookofshaders.com/12/
+
+
+##### fumée
+
+https://thebookofshaders.com/13/
+
+
+
+
+## Programmation de compositions visuelles génératives 
+
+https://thebookofshaders.com/05/?lan=fr
+https://thebookofshaders.com/10/?lan=fr
