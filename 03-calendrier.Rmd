@@ -7,7 +7,251 @@ library(knitr)
 library(kableExtra)
 CALENDRIER <- read.csv(file = 'medias/calendrier/2021.csv', header = TRUE)
 knitr::kable(CALENDRIER, caption = 'Calendrier', booktabs = TRUE, col.names = gsub("[.]", " ", names(CALENDRIER))) %>%
-    column_spec(column=1, width= "1em") %>%
+    column_spec(column=1, width= ".5em") %>%
     column_spec(column=2, width= "10em") %>%
     column_spec(column=3, width= "10em")
+
 ```
+
+
+
+
+
+`r var_index=1`
+
+##  Séance `r CALENDRIER[var_index,1]` {#semaine_1}
+
+### OBJECTIFS ABORDÉS EN CLASSE
+
+`r stringr::str_replace_all(CALENDRIER[var_index,2], ";", "<br>")`
+
+### ACTIVITÉS AUTONOMES 
+
+`r stringr::str_replace_all(CALENDRIER[var_index,3], ";", "<br>")`
+
+
+
+`r var_index=2`
+
+##  Séance `r CALENDRIER[var_index,1]` {#semaine_2}
+
+### OBJECTIFS ABORDÉS EN CLASSE
+
+`r stringr::str_replace_all(CALENDRIER[var_index,2], ";", "<br>")`
+
+### ACTIVITÉS AUTONOMES 
+
+`r stringr::str_replace_all(CALENDRIER[var_index,3], ";", "<br>")`
+
+
+
+
+`r var_index=3`
+
+##  Séance `r CALENDRIER[var_index,1]` {#semaine_3}
+
+### OBJECTIFS ABORDÉS EN CLASSE
+
+`r stringr::str_replace_all(CALENDRIER[var_index,2], ";", "<br>")`
+
+### ACTIVITÉS AUTONOMES 
+
+`r stringr::str_replace_all(CALENDRIER[var_index,3], ";", "<br>")`
+
+
+`r var_index=4`
+
+##  Séance `r CALENDRIER[var_index,1]` {#semaine_4}
+
+### OBJECTIFS ABORDÉS EN CLASSE
+
+`r stringr::str_replace_all(CALENDRIER[var_index,2], ";", "<br>")`
+
+### ACTIVITÉS AUTONOMES 
+
+`r stringr::str_replace_all(CALENDRIER[var_index,3], ";", "<br>")`
+
+
+`r var_index=5`
+
+##  Séance `r CALENDRIER[var_index,1]` {#semaine_5}
+
+### OBJECTIFS ABORDÉS EN CLASSE
+
+`r stringr::str_replace_all(CALENDRIER[var_index,2], ";", "<br>")`
+
+### ACTIVITÉS AUTONOMES 
+
+`r stringr::str_replace_all(CALENDRIER[var_index,3], ";", "<br>")`
+
+
+`r var_index=6`
+
+##  Séance `r CALENDRIER[var_index,1]` {#semaine_6}
+
+### OBJECTIFS ABORDÉS EN CLASSE
+
+`r stringr::str_replace_all(CALENDRIER[var_index,2], ";", "<br>")`
+
+### ACTIVITÉS AUTONOMES 
+
+`r stringr::str_replace_all(CALENDRIER[var_index,3], ";", "<br>")`
+
+
+`r var_index=7`
+
+##  Séance `r CALENDRIER[var_index,1]` {#semaine_7}
+
+### OBJECTIFS ABORDÉS EN CLASSE
+
+`r stringr::str_replace_all(CALENDRIER[var_index,2], ";", "<br>")`
+
+### ACTIVITÉS AUTONOMES 
+
+`r stringr::str_replace_all(CALENDRIER[var_index,3], ";", "<br>")`
+
+
+
+`r var_index=8`
+
+##  Séance `r CALENDRIER[var_index,1]` {#semaine_8}
+
+### OBJECTIFS ABORDÉS EN CLASSE
+
+`r stringr::str_replace_all(CALENDRIER[var_index,2], ";", "<br>")`
+
+### ACTIVITÉS AUTONOMES 
+
+`r stringr::str_replace_all(CALENDRIER[var_index,3], ";", "<br>")`
+
+
+`r var_index=9`
+
+##  Séance `r CALENDRIER[var_index,1]` {#semaine_9}
+
+### OBJECTIFS ABORDÉS EN CLASSE
+
+`r stringr::str_replace_all(CALENDRIER[var_index,2], ";", "<br>")`
+
+### ACTIVITÉS AUTONOMES 
+
+`r stringr::str_replace_all(CALENDRIER[var_index,3], ";", "<br>")`
+
+
+`r var_index=10`
+
+##  Séance `r CALENDRIER[var_index,1]` {#semaine_10}
+
+### OBJECTIFS ABORDÉS EN CLASSE
+
+`r stringr::str_replace_all(CALENDRIER[var_index,2], ";", "<br>")`
+
+### ACTIVITÉS AUTONOMES 
+
+`r stringr::str_replace_all(CALENDRIER[var_index,3], ";", "<br>")`
+
+
+`r var_index=11`
+
+##  Séance `r CALENDRIER[var_index,1]` {#semaine_11}
+
+### OBJECTIFS ABORDÉS EN CLASSE
+
+`r stringr::str_replace_all(CALENDRIER[var_index,2], ";", "<br>")`
+
+### ACTIVITÉS AUTONOMES 
+
+`r stringr::str_replace_all(CALENDRIER[var_index,3], ";", "<br>")`
+
+
+`r var_index=12`
+
+##  Séance `r CALENDRIER[var_index,1]` {#semaine_12}
+
+### OBJECTIFS ABORDÉS EN CLASSE
+
+`r stringr::str_replace_all(CALENDRIER[var_index,2], ";", "<br>")`
+
+### ACTIVITÉS AUTONOMES 
+
+`r stringr::str_replace_all(CALENDRIER[var_index,3], ";", "<br>")`
+
+
+`r var_index=13`
+
+##  Séance `r CALENDRIER[var_index,1]` {#semaine_13}
+
+### OBJECTIFS ABORDÉS EN CLASSE
+
+`r stringr::str_replace_all(CALENDRIER[var_index,2], ";", "<br>")`
+
+### ACTIVITÉS AUTONOMES 
+
+`r stringr::str_replace_all(CALENDRIER[var_index,3], ";", "<br>")`
+
+
+`r var_index=14`
+
+##  Séance `r CALENDRIER[var_index,1]` {#semaine_14}
+
+### OBJECTIFS ABORDÉS EN CLASSE
+
+`r stringr::str_replace_all(CALENDRIER[var_index,2], ";", "<br>")`
+
+### ACTIVITÉS AUTONOMES 
+
+`r stringr::str_replace_all(CALENDRIER[var_index,3], ";", "<br>")`
+
+
+
+`r var_index=15`
+
+##  Séance `r CALENDRIER[var_index,1]` {#semaine_15}
+
+### OBJECTIFS ABORDÉS EN CLASSE
+
+`r stringr::str_replace_all(CALENDRIER[var_index,2], ";", "<br>")`
+
+### ACTIVITÉS AUTONOMES 
+
+`r stringr::str_replace_all(CALENDRIER[var_index,3], ";", "<br>")`
+
+
+`r var_index=16`
+
+##  Séance `r CALENDRIER[var_index,1]` {#semaine_16}
+
+### OBJECTIFS ABORDÉS EN CLASSE
+
+`r stringr::str_replace_all(CALENDRIER[var_index,2], ";", "<br>")`
+
+### ACTIVITÉS AUTONOMES 
+
+`r stringr::str_replace_all(CALENDRIER[var_index,3], ";", "<br>")`
+
+
+`r var_index=17`
+
+##  Séance `r CALENDRIER[var_index,1]` {#semaine_17}
+
+### OBJECTIFS ABORDÉS EN CLASSE
+
+`r stringr::str_replace_all(CALENDRIER[var_index,2], ";", "<br>")`
+
+### ACTIVITÉS AUTONOMES 
+
+`r stringr::str_replace_all(CALENDRIER[var_index,3], ";", "<br>")`
+
+
+`r var_index=18`
+
+##  Séance `r CALENDRIER[var_index,1]` {#semaine_18}
+
+### OBJECTIFS ABORDÉS EN CLASSE
+
+`r stringr::str_replace_all(CALENDRIER[var_index,2], ";", "<br>")`
+
+### ACTIVITÉS AUTONOMES 
+
+`r stringr::str_replace_all(CALENDRIER[var_index,3], ";", "<br>")`
+

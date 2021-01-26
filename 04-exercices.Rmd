@@ -1,12 +1,13 @@
 # Exercices 
 
-## Corpus vidéo {#sommatif_1}
+## Présentation corpus vidéo {#sommatif_1}
 * Présentation de type partage d'écran de ~5 minutes
 * Sommatif (15%) 
 * Individuel
 
 ### Consignes 
 * Choisir et présenter un court extrait médiatique comprenant un procédé de traitement vidéo original
+    * Se référer à la section [corpus](#corpus) pour une liste d'artistes potentiellement inspirant 
 * Traiter syntétiquement son contexte artistique et historique 
     * Auteur
         * Nom, année de naissance (si disponible), nationalité (ville, pays (si disponible)), 
@@ -23,9 +24,8 @@
         * si oui, comment?
         * si non, pourquoi?
 
-#### Artistes potentiellement inspirant 
 
-Se référer à la section [corpus](#corpus) 
+
 
 
 ## Rédaction d'une question portant sur le traitement vidéo {#sommatif_2}
@@ -59,15 +59,15 @@ Se référer à la section [corpus](#corpus)
 
 * Assembler une palette de 8 scènes vidéo comprenant
     * échantillons vidéo
-    * caméra vidéo
-    * source html
+    * caméra vidéo 
+    * source HTML
     * source nuancier
     * etc.
-* Démontrer :
-    * créativité 
-    * recherche
-    * maitrise technique
-    * 
+* Démontrer 
+    * Capacité d'adapter l'image en mouvement 
+    * Capacité d'intéragir avec des effets visuels interactifs 
+    * Maitrise technique
+    * Créativité
 
 
 ## Performance audiovisuelle temps réel et document accompagnateur {#sommatif_5}
