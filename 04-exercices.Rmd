@@ -7,8 +7,8 @@
 
 ### Consignes 
 * Choisir et présenter un court extrait médiatique comprenant un procédé de traitement vidéo original
-    * Se référer à la section [corpus](#corpus) pour une liste d'artistes potentiellement inspirant 
-* Traiter syntétiquement son contexte artistique et historique 
+    * Se référer à la section [corpus](#corpus) pour une liste d'artistes potentiellement inspirants 
+* Traiter synthétiquement son contexte artistique et historique 
     * Auteur
         * Nom, année de naissance (si disponible), nationalité (ville, pays (si disponible)), 
             * ex: Marina Abramovic, 1946 à Belgrade, Yougoslavie (aujourd'hui Serbie-Monténégro)
@@ -17,30 +17,30 @@
             * ex. Twenty four hour Psycho
         * médium, durée, date de parution 
             * ex.  Installation vidéo à 6 canaux, couleur, son, 12 minutes, 1997
-* Décrire une techniques de traitement vidéo employée 
+* Décrire une technique de traitement vidéo employée 
     * Ex. La chronophotographie (décrire la technique) fut employé pour (décrire une motivation artistique)
 * Présenter une hypothèse à la question suivante :
     * Est-ce que ce procédé de traitement vidéo étudié pourrait être produit en temps réel?
         * si oui, comment?
-        * si non, pourquoi?
+        * sinon, pourquoi?
 
 
 
 
 
 ## Rédaction d'une question portant sur le traitement vidéo {#sommatif_2}
-* Rédaction dans un tableur excel en ligne d'une question, une bonne réponse et 3 réponses erronnées  
+* Rédaction dans un tableur Excel en ligne d'une question, une bonne réponse et 3 réponses erronées  
 * Sommatif (10%) 
 * Individuel
 
 ### Consignes
 
-* Rédiger une question pertinante et originale sur le traitement vidéo
+* Rédiger une question pertinente et originale sur le traitement vidéo
 * Inscrire une réponse adéquate 
-* Inventer trois réponses erronnées (formatif)
+* Inventer trois réponses erronées (formatif)
 * Se référer aux [contenus essentiels]()
 
-## Quiz théorique {#sommatif_3}
+## Jeu-questionnaire théorique {#sommatif_3}
 
 * Formulaire en ligne à répondre avant la date prévue
 * Sommatif (15%) 
@@ -65,7 +65,7 @@
     * etc.
 * Démontrer 
     * Capacité d'adapter l'image en mouvement 
-    * Capacité d'intéragir avec des effets visuels interactifs 
+    * Capacité d'interagir avec des effets visuels interactifs 
     * Maitrise technique
     * Créativité
 
@@ -77,13 +77,15 @@
 * Signal issu d'un processus de mélange de signaux en temps réel 
 * Variation en temps réel de paramètres vidéo programmés 
 
-### Consignes ( Performance audiovisuelle temps réel)
+### Consignes 
+
+#### Performance audiovisuelle temps réel
 * Activité concertée avec le cours de Conception sonore interactive
 * le traitement vidéo doit être effectué en temps réel 
-* Présentation de type streaming lors de la ruche (Mardi) 
-* Tous les groupes doivent diffuser ce jours là
+* Présentation de type streaming lors de la ruche (mardi) 
+* Tous les groupes doivent diffuser ce jour-là
 
-### Consignes (document accompagnateur)
+#### Consignes (document accompagnateur
 * Remise avant le 26 mai d'un texte individuel expliquant dans un langage approprié et précis les éléments suivant:
     * L’implication au sein du projet 
     * Les intentions artistiques
@@ -93,7 +95,7 @@
     * Le fonctionnement technique du travail
     * Ce qui aurait pu améliorer le résultat
 
-* N.B. : un document par étudiant, soummis à la fois au cours de Traitement vidéo ainsi qu'au cours de Conception sonore interactive. Seuls les éléments décrits dans ce texte compteront à l’évaluation. Ne pas oublier de détailler autant l'aspect visuel que le sonore.
+* N.B. : un document par étudiant, soumis à la fois au cours de Traitement vidéo ainsi qu'au cours de Conception sonore interactive. Seuls les éléments décrits dans ce texte compteront à l’évaluation. Ne pas oublier de détailler autant l'aspect visuel que le sonore.
 
 
 
