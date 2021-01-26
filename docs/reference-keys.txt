@@ -7,13 +7,13 @@ description-du-cours
 objectifs
 intégrateur-et-ministériel
 apprentissages
+préalables
+préalable-absolu-au-présent-cours
+préalable-absolu-aux-cours-suivants
 méthodologie
 développement
 attitudes-professionnelles
 habiletés-transdisciplinaires
-préalables
-préalable-absolu-au-présent-cours
-préalable-absolu-aux-cours-suivants
 contexte-particulier-dapprentissage
 fiche-technique
 contenus_essentiels

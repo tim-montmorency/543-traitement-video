@@ -25,6 +25,15 @@ L’étudiant sera appelé à appliquer des effets visuels aux images vidéo et 
 * Intégrer l'image en mouvement interactive à une production médiatique (Importance relative : 20% )
 
 
+## Préalables
+### Préalable absolu au présent cours :
+* 582 413 MO Montage vidéo 
+
+### Préalable absolu aux cours suivants :
+* 582 513 MO Conception de projet multimédia
+* 582 66B MO Expérience multimédia interactive
+* 582 66G MO Production Web en entreprise
+
 ## Méthodologie 
 
 L’approche pédagogique de ce cours emprunte à celle employée dans les séminaires de recherche-création en média numérique. Une attention particulière est attribuée au partage de l'expérimentation en lien avec le sujet du cours. Différentes activités pédagogiques seront à l'honneur, notamment :  
@@ -53,14 +62,6 @@ L’approche pédagogique de ce cours emprunte à celle employée dans les sémi
 * Recherche, traitement et présentation de l’information.
 
 
-## Préalables
-### Préalable absolu au présent cours :
-* 582 413 MO Montage vidéo 
-
-### Préalable absolu aux cours suivants :
-* 582 513 MO Conception de projet multimédia
-* 582 66B MO Expérience multimédia interactive
-* 582 66G MO Production Web en entreprise
 
 ## Contexte particulier d’apprentissage 
 * À distance; synchrone. 
