@@ -117,6 +117,8 @@ marina-abramovic-ulay
 contemporains
 section-2
 cinéma-expérimental
+section-3
+dérapages
 historique
 evolution_historique
 contextualisation-générale
@@ -239,6 +241,6 @@ ex-transcoder-un-fichier-video-vers-un-fichier-prores-compatible-avec-quicktime
 ffplay
 obs
 caméra-virtuelle-1
-section-3
+section-4
 pure-data
 shaders

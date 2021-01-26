@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>5.6 Cinéma Expérimental | Traitement vidéo</title>
+  <title>16.2  | Traitement vidéo</title>
   <meta name="description" content="Le traitement vidéo temps réel; une documentation expérimentale" />
   <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="5.6 Cinéma Expérimental | Traitement vidéo" />
+  <meta property="og:title" content="16.2  | Traitement vidéo" />
   <meta property="og:type" content="book" />
   
   <meta property="og:image" content="images/cover.png" />
@@ -16,7 +16,7 @@
   <meta name="github-repo" content="tim-montmorency/543-traitement-video" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="5.6 Cinéma Expérimental | Traitement vidéo" />
+  <meta name="twitter:title" content="16.2  | Traitement vidéo" />
   
   <meta name="twitter:description" content="Le traitement vidéo temps réel; une documentation expérimentale" />
   <meta name="twitter:image" content="images/cover.png" />
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
-<link rel="prev" href="contemporains.html"/>
-<link rel="next" href="section-3.html"/>
+<link rel="prev" href="caméra-virtuelle-1.html"/>
+<link rel="next" href="pure-data.html"/>
 <script src="assets/header-attrs-2.6.4/header-attrs.js"></script>
 <script src="assets/jquery-2.2.3/jquery.min.js"></script>
 <link href="assets/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -456,19 +456,97 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="cinéma-expérimental" class="section level2" number="5.6">
-<h2><span class="header-section-number">5.6</span> Cinéma Expérimental</h2>
-<ul>
-<li><a href="http://www.artwiki.fr/?CinemaExperimental" class="uri">http://www.artwiki.fr/?CinemaExperimental</a></li>
-</ul>
+<div id="section-4" class="section level2" number="16.2">
+<h2><span class="header-section-number">16.2</span> </h2>
+<pre><code>// Corner Pin shader by rmanky
+// --- --- ---
+// Adapted from https://www.iquilezles.org/www/articles/ibilinear/ibilinear.htm
+// and this Shadertoy example https://www.shadertoy.com/view/lsBSDm
+
+uniform float _DRx;
+uniform float _DRy;
+uniform float _DLx;
+uniform float _DLy;
+uniform float _TLx;
+uniform float _TLy;
+uniform float _TRx;
+uniform float _TRy;
+
+float cross2d(float2 a, float2 b)
+{
+    return (a.x * b.y) - (a.y * b.x);
+}
+
+float2 invBilinear(float2 p)
+{
+    float2 a = float2(_TLx / 1000.0, _TLy / 1000.0);
+    float2 b = float2(1.0 - (_TRx / 1000.0), _TRy / 1000.0);
+    float2 c = float2(1.0 - (_DRx / 1000.0), 1.0 - (_DRy / 1000.0));
+    float2 d = float2(_DLx / 1000.0, 1.0 - (_DLy / 1000.0));
+
+    float2 e = b-a;
+    float2 f = d-a;
+    float2 g = a-b+c-d;
+    float2 h = p-a;
+
+    float k2 = cross2d( g, f );
+    float k1 = cross2d( e, f ) + cross2d( h, g );
+    float k0 = cross2d( h, e );
+
+    float k2u = cross2d( e, g );
+    float k1u = cross2d( e, f ) + cross2d( g, h );
+    float k0u = cross2d( h, f);    
+
+    float v1, u1, v2, u2;
+
+    if (abs(k2) &lt; 0.0001) 
+    {
+        v1 = -k0 / k1;
+        u1 = (h.x - f.x*v1)/(e.x + g.x*v1);
+    } 
+    else if (abs(k2u) &lt; 0.0001) 
+    {
+        u1 = k0u / k1u;
+        v1 = (h.y - e.y*u1)/(f.y + g.y*u1);
+    } 
+    else 
+    {
+        float w = k1*k1 - 4.0*k0*k2;
+
+        if( w&lt;0.0 ) return float2(-1.0, -1.0);
+
+        w = sqrt( w );
+
+        v1 = (-k1 - w)/(2.0*k2);
+        v2 = (-k1 + w)/(2.0*k2);
+        u1 = (-k1u - w)/(2.0*k2u);
+        u2 = (-k1u + w)/(2.0*k2u);
+    }
+    bool  b1 = v1&gt;0.0 &amp;&amp; v1&lt;1.0 &amp;&amp; u1&gt;0.0 &amp;&amp; u1&lt;1.0;
+    bool  b2 = v2&gt;0.0 &amp;&amp; v2&lt;1.0 &amp;&amp; u2&gt;0.0 &amp;&amp; u2&lt;1.0;
+
+    float2 res = float2(-1.0, -1.0);
+
+    if( b2 ) return float2( u2, v2 );
+    if( b1 ) return float2( u1, v1 );
+
+    return float2(-1.0, -1.0);
+}
+
+float4 mainImage(VertData v_in) : TARGET
+{
+    return image.Sample(textureSampler, invBilinear(v_in.uv));
+}</code></pre>
+
 </div>
+<!-- </div> -->
             </section>
 
           </div>
         </div>
       </div>
-<a href="contemporains.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="section-3.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="caméra-virtuelle-1.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="pure-data.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="assets/gitbook-2.6.7/js/app.min.js"></script>
@@ -490,7 +568,7 @@ gitbook.start({
 "size": 1
 },
 "edit": {
-"link": "https://github.com/tim-montmorency/543-traitement-video/edit/master/12-corpus.Rmd",
+"link": "https://github.com/tim-montmorency/543-traitement-video/edit/master/43-obs.Rmd",
 "text": "Edit"
 },
 "history": {
