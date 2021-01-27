@@ -1,10 +1,17 @@
-# Corpus chronologique d'artistes {#corpus}
+# Corpus d'art vidéo {#corpus}
 
 (non exaustif bien sur)
 
-## Les origines de l'art vidéo
+## Les origines 
 
 ### Edward Muybridge
+
+```{r ,Edward_Muybridge, echo=FALSE,  fig.cap='Edward Muybridge, 1830-1904'}
+knitr::include_graphics('https://upload.wikimedia.org/wikipedia/commons/0/07/Muybridge-2.jpg')
+```
+
+![](https://upload.wikimedia.org/wikipedia/commons/6/63/Zoopraxiscope_16485d.gif)
+
 * http://www.artwiki.fr/?EdwardMuybridge
 
 ### Georges Mélies 
