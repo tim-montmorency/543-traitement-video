@@ -77,20 +77,6 @@
   \thm@postskip=\thm@preskip
 }
 \makeatother
-\usepackage{booktabs}
-\usepackage{longtable}
-\usepackage{array}
-\usepackage{multirow}
-\usepackage{wrapfig}
-\usepackage{float}
-\usepackage{colortbl}
-\usepackage{pdflscape}
-\usepackage{tabu}
-\usepackage{threeparttable}
-\usepackage{threeparttablex}
-\usepackage[normalem]{ulem}
-\usepackage{makecell}
-\usepackage{xcolor}
 \ifluatex
   \usepackage{selnolig}  % disable illegal ligatures
 \fi
@@ -99,7 +85,7 @@
 
 \title{Traitement vidéo}
 \author{Guillaume Arseneault}
-\date{2021-01-25}
+\date{2021-01-27}
 
 \begin{document}
 \maketitle
@@ -109,7 +95,8 @@
 \tableofcontents
 }
 \hypertarget{lisez-moi}{%
-\chapter{Lisez-moi}\label{lisez-moi}}
+\chapter*{Lisez-moi}\label{lisez-moi}}
+\addcontentsline{toc}{chapter}{Lisez-moi}
 
 \begin{figure}
 \centering
@@ -118,7 +105,10 @@
 \end{figure}
 
 \hypertarget{sources}{%
-\section{Sources}\label{sources}}
+\section*{Sources}\label{sources}}
+\addcontentsline{toc}{section}{Sources}
+
+Compilation via Bookdown \citep{xie_BookdownAuthoringBooks_2020}
 
 \begin{itemize}
 \tightlist
@@ -127,9 +117,7 @@
 \item
   \emph{Libre}\citep{stallman_GnuOrg_1983}
 \item
-  Écrit en \emph{RMarkdown}\citep{allaire_RmarkdownDynamicDocuments_2020}\\
-\item
-  Compilation via Bookdown\citep{xie_BookdownAuthoringBooks_2020}
+  Écrit en \emph{RMarkdown}\citep{allaire_RmarkdownDynamicDocuments_2020}
 
   \begin{itemize}
   \tightlist
@@ -196,6 +184,31 @@ L'étudiant sera appelé à appliquer des effets visuels aux images vidéo et à
   Intégrer l'image en mouvement interactive à une production médiatique (Importance relative\,: 20\% )
 \end{itemize}
 
+\hypertarget{pruxe9alables}{%
+\section{Préalables}\label{pruxe9alables}}
+
+\hypertarget{pruxe9alable-absolu-au-pruxe9sent-cours}{%
+\subsection{Préalable absolu au présent cours~:}\label{pruxe9alable-absolu-au-pruxe9sent-cours}}
+
+\begin{itemize}
+\tightlist
+\item
+  582 413 MO Montage vidéo
+\end{itemize}
+
+\hypertarget{pruxe9alable-absolu-aux-cours-suivants}{%
+\subsection{Préalable absolu aux cours suivants~:}\label{pruxe9alable-absolu-aux-cours-suivants}}
+
+\begin{itemize}
+\tightlist
+\item
+  582~513 MO Conception de projet multimédia
+\item
+  582 66B MO Expérience multimédia interactive
+\item
+  582 66G MO Production Web en entreprise
+\end{itemize}
+
 \hypertarget{muxe9thodologie}{%
 \section{Méthodologie~}\label{muxe9thodologie}}
 
@@ -250,31 +263,6 @@ L'approche pédagogique de ce cours emprunte à celle employée dans les sémina
   Les étudiantes et étudiants auront à exploiter les TIC de manière efficace et responsable.
 \item
   Recherche, traitement et présentation de l'information.
-\end{itemize}
-
-\hypertarget{pruxe9alables}{%
-\section{Préalables}\label{pruxe9alables}}
-
-\hypertarget{pruxe9alable-absolu-au-pruxe9sent-cours}{%
-\subsection{Préalable absolu au présent cours~:}\label{pruxe9alable-absolu-au-pruxe9sent-cours}}
-
-\begin{itemize}
-\tightlist
-\item
-  582 413 MO Montage vidéo
-\end{itemize}
-
-\hypertarget{pruxe9alable-absolu-aux-cours-suivants}{%
-\subsection{Préalable absolu aux cours suivants~:}\label{pruxe9alable-absolu-aux-cours-suivants}}
-
-\begin{itemize}
-\tightlist
-\item
-  582~513 MO Conception de projet multimédia
-\item
-  582 66B MO Expérience multimédia interactive
-\item
-  582 66G MO Production Web en entreprise
 \end{itemize}
 
 \hypertarget{contexte-particulier-dapprentissage}{%
@@ -499,44 +487,463 @@ L'approche pédagogique de ce cours emprunte à celle employée dans les sémina
 
 \href{https://www.cmontmorency.qc.ca/wp-content/uploads/images/college/administration/CALENDRIER-SCOLAIRE-2020-2021.pdf}{Calendrier Collège Montmorency 2020-2021}
 
-\begin{table}
-
-\caption{\label{tab:calendrier}Calendrier}
-\centering
-\begin{tabular}[t]{>{\raggedright\arraybackslash}p{1em}>{\raggedright\arraybackslash}p{10em}>{\raggedright\arraybackslash}p{10em}}
+\begin{longtable}[]{@{}lll@{}}
 \toprule
-SÉANCE & OBJECTIFS ABORDÉS EN CLASSE & ACTIVITÉS AUTONOMES\\
+\begin{minipage}[b]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
+Séance\strut
+\end{minipage} & \begin{minipage}[b]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+OBJECTIFS ABORDÉS EN CLASSE\strut
+\end{minipage} & \begin{minipage}[b]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+ACTIVITÉS AUTONOMES\strut
+\end{minipage}\tabularnewline
 \midrule
-1;      3 février & Plan de cour;  Consignes [Présentation 1 : Corpus vidéo](\#sommatif\_1); Survol [corpus artistique](\#corpus) & Préparation [Présentation 1: Corpus vidéo](\#sommatif\_1)\\
-2;     10 février & [Historique du traitement vidéo](\#evolution\_historique);  Formatif : Préapprobation [Présentation 1: Corpus Vidéo](\#sommatif\_1) & Préparation [Présentation 1: Corpus vidéo](\#sommatif\_1)\\
-3;     17 février & Sommatif: [Présentation 1: Corpus Vidéo](\#sommatif\_1) & \\
-4;     24 février & [composantes du signal vidéo](\#lexique); [Acquérir l'image en mouvement](\#acquerir); [Échantillonner l'image en mouvement](\#echantillonner) & Préparation [Question traitement vidéo](\#sommatif\_2)\\
-X;     3 mars & Journées de rattrapage (Pas de cours) & \\
-\addlinespace
-5;     10 mars & [Traiter l'image en mouvement](\#traiter); Formatif : Préapprobation[Question traitement vidéo](\#sommatif\_2) & Avoir soumis [Question traitement vidéo](\#sommatif\_2)\\
-6;     17 mars & Consignes [Palette vidéo](\#sommatif\_4);  Sommatif: [Quiz traitement vidéo](\#sommatif\_3) & Préparation [Palette vidéo interactive](\#sommatif\_4)\\
-7;     24 mars & [Programmer des sources visuelles](\#programmer) & Préparation [Palette vidéo interactive](\#sommatif\_4)\\
-8;     31 mars & [Interagir avec des sources vidéo](\#interagir) & Préparation [Palette vidéo interactive](\#sommatif\_4)\\
-X;     7 avril & Congé (Pas de cours) & \\
-\addlinespace
-9;     14 avril & suite : [Programmer des sources visuelles](\#programmer) et  [Interagir avec des sources vidéo](\#interagir) & Préparation [Palette vidéo interactive](\#sommatif\_4)\\
-10;    21 avril & Sommatif : [Présentation 4 ](\#sommatif\_4) & \\
-11;    28 avril & [Déployer un projet vidéo temps réel](\#deployer); Consignes  : [stream](\#sommatif\_5) & Préparation [performance audiovisuelle temps réel](\#sommatif\_5)\\
-12;    5 mai & suite : [Déployer un projet vidéo temps réel](\#deployer) & Préparation [performance audiovisuelle temps réel](\#sommatif\_5)\\
-13;    12 mai & Préparation [performance audiovisuelle temps réel](\#sommatif\_5) & Préparation [performance audiovisuelle temps réel](\#sommatif\_5)\\
-\addlinespace
-14;    18 mai & Exceptionnellement un mardi : [performance audiovisuelle temps réel](\#sommatif\_5); & Rédaction document [performance audiovisuelle temps réel ](\#sommatif\_5)\\
-X;     19 mai & épreuve uniforme de français (Pas de cours) & Rédaction document [performance audiovisuelle temps réel ](\#sommatif\_5)\\
-15;    25 mai & Remise du document accompagnateur [performance audiovisuelle temps réel ](\#sommatif\_5) & \\
+\endhead
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
+\protect\hyperlink{semaine_1}{1;
+3
+février}\strut
+\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+Plan de cour;
+Survol \protect\hyperlink{corpus}{corpus artistique};
+Consignes \protect\hyperlink{sommatif_1}{Présentation corpus
+vidéo};\strut
+\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+Recherche d'un sujet \protect\hyperlink{sommatif_1}{Présentation corpus
+vidéo}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
+\protect\hyperlink{semaine_2}{2;
+10
+février}\strut
+\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+\protect\hyperlink{evolution_historique}{Historique du traitement
+vidéo};
+Formatif Préapprobation \protect\hyperlink{sommatif_1}{Présentation corpus
+Vidéo}\strut
+\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+Préparation \protect\hyperlink{sommatif_1}{Présentation corpus
+vidéo}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
+\protect\hyperlink{semaine_3}{3;
+17
+février}\strut
+\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+Sommatif \protect\hyperlink{sommatif_1}{Présentation corpus
+Vidéo}\strut
+\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
+\protect\hyperlink{semaine_4}{4;
+24
+février}\strut
+\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+\protect\hyperlink{lexique}{Composantes du signal vidéo};
+\protect\hyperlink{acquerir}{Acquérir l'image en mouvement};
+\protect\hyperlink{echantillonner}{Échantillonner l'image en
+mouvement};
+Consignes \protect\hyperlink{sommatif_2}{Question traitement
+vidéo}\strut
+\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+Préparation \protect\hyperlink{sommatif_2}{Question traitement
+vidéo}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
+\protect\hyperlink{semaine_5}{X;
+3
+mars}\strut
+\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+Journées de rattrapage (Pas de cours)\strut
+\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
+\protect\hyperlink{semaine_6}{5;
+10
+mars}\strut
+\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+\protect\hyperlink{traiter}{Traiter l'image en mouvement};
+Formatif Préapprobation \protect\hyperlink{sommatif_2}{Question traitement
+vidéo}\strut
+\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+Soumettre \protect\hyperlink{sommatif_2}{Question traitement
+vidéo}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
+\protect\hyperlink{semaine_7}{6;
+17
+mars}\strut
+\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+Consignes \protect\hyperlink{sommatif_4}{Palette vidéo
+interactive};
+Sommatif \protect\hyperlink{sommatif_3}{Quiz traitement vidéo}\strut
+\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+Préparation \protect\hyperlink{sommatif_4}{Palette vidéo
+interactive}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
+\protect\hyperlink{semaine_8}{7;
+24
+mars}\strut
+\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+\protect\hyperlink{programmer}{Programmer des sources visuelles}\strut
+\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+Préparation \protect\hyperlink{sommatif_4}{Palette vidéo
+interactive}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
+\protect\hyperlink{semaine_9}{8;
+31
+mars}\strut
+\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+\protect\hyperlink{interagir}{Interagir avec des sources vidéo}\strut
+\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+Préparation \protect\hyperlink{sommatif_4}{Palette vidéo
+interactive}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
+\protect\hyperlink{semaine_10}{X;
+7
+avril}\strut
+\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+Congé (Pas de cours)\strut
+\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
+\protect\hyperlink{semaine_11}{9;
+14
+avril}\strut
+\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+Suite \protect\hyperlink{programmer}{Programmer des sources
+visuelles};
+et \protect\hyperlink{interagir}{Interagir avec des sources
+vidéo}\strut
+\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+Préparation \protect\hyperlink{sommatif_4}{Palette vidéo
+interactive}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
+\protect\hyperlink{semaine_12}{10;
+21
+avril}\strut
+\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+Sommatif \protect\hyperlink{sommatif_4}{Palette vidéo
+interactive}\strut
+\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
+\protect\hyperlink{semaine_13}{11;
+28
+avril}\strut
+\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+\protect\hyperlink{deployer}{Déployer un projet vidéo temps
+réel};
+Consignes \protect\hyperlink{sommatif_5}{performance audiovisuelle temps
+réel}\strut
+\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+Préparation \protect\hyperlink{sommatif_5}{performance audiovisuelle temps
+réel}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
+\protect\hyperlink{semaine_14}{12;
+5
+mai}\strut
+\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+Suite \protect\hyperlink{deployer}{Déployer un projet vidéo temps
+réel}\strut
+\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+Préparation \protect\hyperlink{sommatif_5}{performance audiovisuelle temps
+réel}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
+\protect\hyperlink{semaine_15}{13;
+12
+mai}\strut
+\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+Préparation \protect\hyperlink{sommatif_5}{performance audiovisuelle temps
+réel}\strut
+\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+Préparation \protect\hyperlink{sommatif_5}{performance audiovisuelle temps
+réel}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
+\protect\hyperlink{semaine_16}{14;
+18
+mai}\strut
+\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+Exceptionnellement un mardi,
+\protect\hyperlink{sommatif_5}{performance audiovisuelle temps
+réel};\strut
+\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+Rédaction du document accompagnateur
+\protect\hyperlink{sommatif_5}{performance audiovisuelle temps réel}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
+\protect\hyperlink{semaine_17}{X;
+19
+mai}\strut
+\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+Épreuve uniforme de français (Pas de cours)\strut
+\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+Rédaction document \protect\hyperlink{sommatif_5}{performance audiovisuelle
+temps réel}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
+\protect\hyperlink{semaine_18}{15;
+25
+mai}\strut
+\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+Remise du document accompagnateur \protect\hyperlink{sommatif_5}{performance
+audiovisuelle temps réel}\strut
+\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+\strut
+\end{minipage}\tabularnewline
 \bottomrule
-\end{tabular}
-\end{table}
+\end{longtable}
+
+\hypertarget{semaine_1}{%
+\section{\texorpdfstring{Séance \protect\hyperlink{semaine_1}{1; 3 février}}{Séance 1; 3 février}}\label{semaine_1}}
+
+\hypertarget{objectifs-aborduxe9s-en-classe}{%
+\subsection{OBJECTIFS ABORDÉS EN CLASSE}\label{objectifs-aborduxe9s-en-classe}}
+
+Plan de cour
+Survol \protect\hyperlink{corpus}{corpus artistique}
+Consignes \protect\hyperlink{sommatif_1}{Présentation corpus vidéo}
+
+\hypertarget{activituxe9s-autonomes}{%
+\subsection{ACTIVITÉS AUTONOMES}\label{activituxe9s-autonomes}}
+
+Recherche d'un sujet \protect\hyperlink{sommatif_1}{Présentation corpus vidéo}
+
+\hypertarget{semaine_2}{%
+\section{\texorpdfstring{Séance \protect\hyperlink{semaine_2}{2; 10 février}}{Séance 2; 10 février}}\label{semaine_2}}
+
+\hypertarget{objectifs-aborduxe9s-en-classe-1}{%
+\subsection{OBJECTIFS ABORDÉS EN CLASSE}\label{objectifs-aborduxe9s-en-classe-1}}
+
+\protect\hyperlink{evolution_historique}{Historique du traitement vidéo}
+Formatif Préapprobation \protect\hyperlink{sommatif_1}{Présentation corpus Vidéo}
+
+\hypertarget{activituxe9s-autonomes-1}{%
+\subsection{ACTIVITÉS AUTONOMES}\label{activituxe9s-autonomes-1}}
+
+Préparation \protect\hyperlink{sommatif_1}{Présentation corpus vidéo}
+
+\hypertarget{semaine_3}{%
+\section{\texorpdfstring{Séance \protect\hyperlink{semaine_3}{3; 17 février}}{Séance 3; 17 février}}\label{semaine_3}}
+
+\hypertarget{objectifs-aborduxe9s-en-classe-2}{%
+\subsection{OBJECTIFS ABORDÉS EN CLASSE}\label{objectifs-aborduxe9s-en-classe-2}}
+
+Sommatif \protect\hyperlink{sommatif_1}{Présentation corpus Vidéo}
+
+\hypertarget{activituxe9s-autonomes-2}{%
+\subsection{ACTIVITÉS AUTONOMES}\label{activituxe9s-autonomes-2}}
+
+\hypertarget{semaine_4}{%
+\section{\texorpdfstring{Séance \protect\hyperlink{semaine_4}{4; 24 février}}{Séance 4; 24 février}}\label{semaine_4}}
+
+\hypertarget{objectifs-aborduxe9s-en-classe-3}{%
+\subsection{OBJECTIFS ABORDÉS EN CLASSE}\label{objectifs-aborduxe9s-en-classe-3}}
+
+\protect\hyperlink{lexique}{Composantes du signal vidéo}
+\protect\hyperlink{acquerir}{Acquérir l'image en mouvement}
+\protect\hyperlink{echantillonner}{Échantillonner l'image en mouvement}
+Consignes \protect\hyperlink{sommatif_2}{Question traitement vidéo}
+
+\hypertarget{activituxe9s-autonomes-3}{%
+\subsection{ACTIVITÉS AUTONOMES}\label{activituxe9s-autonomes-3}}
+
+Préparation \protect\hyperlink{sommatif_2}{Question traitement vidéo}
+
+\hypertarget{semaine_5}{%
+\section{\texorpdfstring{Séance \protect\hyperlink{semaine_5}{X; 3 mars}}{Séance X; 3 mars}}\label{semaine_5}}
+
+\hypertarget{objectifs-aborduxe9s-en-classe-4}{%
+\subsection{OBJECTIFS ABORDÉS EN CLASSE}\label{objectifs-aborduxe9s-en-classe-4}}
+
+Journées de rattrapage (Pas de cours)
+
+\hypertarget{activituxe9s-autonomes-4}{%
+\subsection{ACTIVITÉS AUTONOMES}\label{activituxe9s-autonomes-4}}
+
+\hypertarget{semaine_6}{%
+\section{\texorpdfstring{Séance \protect\hyperlink{semaine_6}{5; 10 mars}}{Séance 5; 10 mars}}\label{semaine_6}}
+
+\hypertarget{objectifs-aborduxe9s-en-classe-5}{%
+\subsection{OBJECTIFS ABORDÉS EN CLASSE}\label{objectifs-aborduxe9s-en-classe-5}}
+
+\protect\hyperlink{traiter}{Traiter l'image en mouvement}
+Formatif Préapprobation \protect\hyperlink{sommatif_2}{Question traitement vidéo}
+
+\hypertarget{activituxe9s-autonomes-5}{%
+\subsection{ACTIVITÉS AUTONOMES}\label{activituxe9s-autonomes-5}}
+
+Soumettre \protect\hyperlink{sommatif_2}{Question traitement vidéo}
+
+\hypertarget{semaine_7}{%
+\section{\texorpdfstring{Séance \protect\hyperlink{semaine_7}{6; 17 mars}}{Séance 6; 17 mars}}\label{semaine_7}}
+
+\hypertarget{objectifs-aborduxe9s-en-classe-6}{%
+\subsection{OBJECTIFS ABORDÉS EN CLASSE}\label{objectifs-aborduxe9s-en-classe-6}}
+
+Consignes \protect\hyperlink{sommatif_4}{Palette vidéo interactive}
+Sommatif \protect\hyperlink{sommatif_3}{Quiz traitement vidéo}
+
+\hypertarget{activituxe9s-autonomes-6}{%
+\subsection{ACTIVITÉS AUTONOMES}\label{activituxe9s-autonomes-6}}
+
+Préparation \protect\hyperlink{sommatif_4}{Palette vidéo interactive}
+
+\hypertarget{semaine_8}{%
+\section{\texorpdfstring{Séance \protect\hyperlink{semaine_8}{7; 24 mars}}{Séance 7; 24 mars}}\label{semaine_8}}
+
+\hypertarget{objectifs-aborduxe9s-en-classe-7}{%
+\subsection{OBJECTIFS ABORDÉS EN CLASSE}\label{objectifs-aborduxe9s-en-classe-7}}
+
+\protect\hyperlink{programmer}{Programmer des sources visuelles}
+
+\hypertarget{activituxe9s-autonomes-7}{%
+\subsection{ACTIVITÉS AUTONOMES}\label{activituxe9s-autonomes-7}}
+
+Préparation \protect\hyperlink{sommatif_4}{Palette vidéo interactive}
+
+\hypertarget{semaine_9}{%
+\section{\texorpdfstring{Séance \protect\hyperlink{semaine_9}{8; 31 mars}}{Séance 8; 31 mars}}\label{semaine_9}}
+
+\hypertarget{objectifs-aborduxe9s-en-classe-8}{%
+\subsection{OBJECTIFS ABORDÉS EN CLASSE}\label{objectifs-aborduxe9s-en-classe-8}}
+
+\protect\hyperlink{interagir}{Interagir avec des sources vidéo}
+
+\hypertarget{activituxe9s-autonomes-8}{%
+\subsection{ACTIVITÉS AUTONOMES}\label{activituxe9s-autonomes-8}}
+
+Préparation \protect\hyperlink{sommatif_4}{Palette vidéo interactive}
+
+\hypertarget{semaine_10}{%
+\section{\texorpdfstring{Séance \protect\hyperlink{semaine_10}{X; 7 avril}}{Séance X; 7 avril}}\label{semaine_10}}
+
+\hypertarget{objectifs-aborduxe9s-en-classe-9}{%
+\subsection{OBJECTIFS ABORDÉS EN CLASSE}\label{objectifs-aborduxe9s-en-classe-9}}
+
+Congé (Pas de cours)
+
+\hypertarget{activituxe9s-autonomes-9}{%
+\subsection{ACTIVITÉS AUTONOMES}\label{activituxe9s-autonomes-9}}
+
+\hypertarget{semaine_11}{%
+\section{\texorpdfstring{Séance \protect\hyperlink{semaine_11}{9; 14 avril}}{Séance 9; 14 avril}}\label{semaine_11}}
+
+\hypertarget{objectifs-aborduxe9s-en-classe-10}{%
+\subsection{OBJECTIFS ABORDÉS EN CLASSE}\label{objectifs-aborduxe9s-en-classe-10}}
+
+Suite \protect\hyperlink{programmer}{Programmer des sources visuelles}
+et \protect\hyperlink{interagir}{Interagir avec des sources vidéo}
+
+\hypertarget{activituxe9s-autonomes-10}{%
+\subsection{ACTIVITÉS AUTONOMES}\label{activituxe9s-autonomes-10}}
+
+Préparation \protect\hyperlink{sommatif_4}{Palette vidéo interactive}
+
+\hypertarget{semaine_12}{%
+\section{\texorpdfstring{Séance \protect\hyperlink{semaine_12}{10; 21 avril}}{Séance 10; 21 avril}}\label{semaine_12}}
+
+\hypertarget{objectifs-aborduxe9s-en-classe-11}{%
+\subsection{OBJECTIFS ABORDÉS EN CLASSE}\label{objectifs-aborduxe9s-en-classe-11}}
+
+Sommatif \protect\hyperlink{sommatif_4}{Palette vidéo interactive}
+
+\hypertarget{activituxe9s-autonomes-11}{%
+\subsection{ACTIVITÉS AUTONOMES}\label{activituxe9s-autonomes-11}}
+
+\hypertarget{semaine_13}{%
+\section{\texorpdfstring{Séance \protect\hyperlink{semaine_13}{11; 28 avril}}{Séance 11; 28 avril}}\label{semaine_13}}
+
+\hypertarget{objectifs-aborduxe9s-en-classe-12}{%
+\subsection{OBJECTIFS ABORDÉS EN CLASSE}\label{objectifs-aborduxe9s-en-classe-12}}
+
+\protect\hyperlink{deployer}{Déployer un projet vidéo temps réel}
+Consignes \protect\hyperlink{sommatif_5}{performance audiovisuelle temps réel}
+
+\hypertarget{activituxe9s-autonomes-12}{%
+\subsection{ACTIVITÉS AUTONOMES}\label{activituxe9s-autonomes-12}}
+
+Préparation \protect\hyperlink{sommatif_5}{performance audiovisuelle temps réel}
+
+\hypertarget{semaine_14}{%
+\section{\texorpdfstring{Séance \protect\hyperlink{semaine_14}{12; 5 mai}}{Séance 12; 5 mai}}\label{semaine_14}}
+
+\hypertarget{objectifs-aborduxe9s-en-classe-13}{%
+\subsection{OBJECTIFS ABORDÉS EN CLASSE}\label{objectifs-aborduxe9s-en-classe-13}}
+
+Suite \protect\hyperlink{deployer}{Déployer un projet vidéo temps réel}
+
+\hypertarget{activituxe9s-autonomes-13}{%
+\subsection{ACTIVITÉS AUTONOMES}\label{activituxe9s-autonomes-13}}
+
+Préparation \protect\hyperlink{sommatif_5}{performance audiovisuelle temps réel}
+
+\hypertarget{semaine_15}{%
+\section{\texorpdfstring{Séance \protect\hyperlink{semaine_15}{13; 12 mai}}{Séance 13; 12 mai}}\label{semaine_15}}
+
+\hypertarget{objectifs-aborduxe9s-en-classe-14}{%
+\subsection{OBJECTIFS ABORDÉS EN CLASSE}\label{objectifs-aborduxe9s-en-classe-14}}
+
+Préparation \protect\hyperlink{sommatif_5}{performance audiovisuelle temps réel}
+
+\hypertarget{activituxe9s-autonomes-14}{%
+\subsection{ACTIVITÉS AUTONOMES}\label{activituxe9s-autonomes-14}}
+
+Préparation \protect\hyperlink{sommatif_5}{performance audiovisuelle temps réel}
+
+\hypertarget{semaine_16}{%
+\section{\texorpdfstring{Séance \protect\hyperlink{semaine_16}{14; 18 mai}}{Séance 14; 18 mai}}\label{semaine_16}}
+
+\hypertarget{objectifs-aborduxe9s-en-classe-15}{%
+\subsection{OBJECTIFS ABORDÉS EN CLASSE}\label{objectifs-aborduxe9s-en-classe-15}}
+
+Exceptionnellement un mardi,
+\protect\hyperlink{sommatif_5}{performance audiovisuelle temps réel}
+
+\hypertarget{activituxe9s-autonomes-15}{%
+\subsection{ACTIVITÉS AUTONOMES}\label{activituxe9s-autonomes-15}}
+
+Rédaction du document accompagnateur \protect\hyperlink{sommatif_5}{performance audiovisuelle temps réel}
+
+\hypertarget{semaine_17}{%
+\section{\texorpdfstring{Séance \protect\hyperlink{semaine_17}{X; 19 mai}}{Séance X; 19 mai}}\label{semaine_17}}
+
+\hypertarget{objectifs-aborduxe9s-en-classe-16}{%
+\subsection{OBJECTIFS ABORDÉS EN CLASSE}\label{objectifs-aborduxe9s-en-classe-16}}
+
+Épreuve uniforme de français (Pas de cours)
+
+\hypertarget{activituxe9s-autonomes-16}{%
+\subsection{ACTIVITÉS AUTONOMES}\label{activituxe9s-autonomes-16}}
+
+Rédaction document \protect\hyperlink{sommatif_5}{performance audiovisuelle temps réel}
+
+\hypertarget{semaine_18}{%
+\section{\texorpdfstring{Séance \protect\hyperlink{semaine_18}{15; 25 mai}}{Séance 15; 25 mai}}\label{semaine_18}}
+
+\hypertarget{objectifs-aborduxe9s-en-classe-17}{%
+\subsection{OBJECTIFS ABORDÉS EN CLASSE}\label{objectifs-aborduxe9s-en-classe-17}}
+
+Remise du document accompagnateur \protect\hyperlink{sommatif_5}{performance audiovisuelle temps réel}
+
+\hypertarget{activituxe9s-autonomes-17}{%
+\subsection{ACTIVITÉS AUTONOMES}\label{activituxe9s-autonomes-17}}
 
 \hypertarget{exercices}{%
 \chapter{Exercices}\label{exercices}}
 
 \hypertarget{sommatif_1}{%
-\section{Corpus vidéo}\label{sommatif_1}}
+\section{Présentation corpus vidéo}\label{sommatif_1}}
 
 \begin{itemize}
 \tightlist
@@ -555,8 +962,14 @@ X;     19 mai & épreuve uniforme de français (Pas de cours) & Rédaction docum
 \tightlist
 \item
   Choisir et présenter un court extrait médiatique comprenant un procédé de traitement vidéo original
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Se référer à la section \protect\hyperlink{corpus}{corpus} pour une liste d'artistes potentiellement inspirants
+  \end{itemize}
 \item
-  Traiter syntétiquement son contexte artistique et historique
+  Traiter synthétiquement son contexte artistique et historique
 
   \begin{itemize}
   \tightlist
@@ -598,7 +1011,7 @@ X;     19 mai & épreuve uniforme de français (Pas de cours) & Rédaction docum
     \end{itemize}
   \end{itemize}
 \item
-  Décrire une techniques de traitement vidéo employée
+  Décrire une technique de traitement vidéo employée
 
   \begin{itemize}
   \tightlist
@@ -618,15 +1031,10 @@ X;     19 mai & épreuve uniforme de français (Pas de cours) & Rédaction docum
     \item
       si oui, comment?
     \item
-      si non, pourquoi?
+      sinon, pourquoi?
     \end{itemize}
   \end{itemize}
 \end{itemize}
-
-\hypertarget{artistes-potentiellement-inspirant}{%
-\subsubsection{Artistes potentiellement inspirant}\label{artistes-potentiellement-inspirant}}
-
-Se référer à la section \protect\hyperlink{corpus}{corpus}
 
 \hypertarget{sommatif_2}{%
 \section{Rédaction d'une question portant sur le traitement vidéo}\label{sommatif_2}}
@@ -634,7 +1042,7 @@ Se référer à la section \protect\hyperlink{corpus}{corpus}
 \begin{itemize}
 \tightlist
 \item
-  Rédaction dans un tableur excel en ligne d'une question, une bonne réponse et 3 réponses erronnées\\
+  Rédaction dans un tableur Excel en ligne d'une question, une bonne réponse et 3 réponses erronées\\
 \item
   Sommatif (10\%)
 \item
@@ -647,17 +1055,17 @@ Se référer à la section \protect\hyperlink{corpus}{corpus}
 \begin{itemize}
 \tightlist
 \item
-  Rédiger une question pertinante et originale sur le traitement vidéo
+  Rédiger une question pertinente et originale sur le traitement vidéo
 \item
   Inscrire une réponse adéquate
 \item
-  Inventer trois réponses erronnées (formatif)
+  Inventer trois réponses erronées (formatif)
 \item
   Se référer aux \href{}{contenus essentiels}
 \end{itemize}
 
 \hypertarget{sommatif_3}{%
-\section{Quiz théorique}\label{sommatif_3}}
+\section{Jeu-questionnaire théorique}\label{sommatif_3}}
 
 \begin{itemize}
 \tightlist
@@ -706,24 +1114,25 @@ Se référer à la section \protect\hyperlink{corpus}{corpus}
   \item
     caméra vidéo
   \item
-    source html
+    source HTML
   \item
     source nuancier
   \item
     etc.
   \end{itemize}
 \item
-  Démontrer :
+  Démontrer
 
   \begin{itemize}
   \tightlist
   \item
-    créativité
+    Capacité d'adapter l'image en mouvement
   \item
-    recherche
+    Capacité d'interagir avec des effets visuels interactifs
   \item
-    maitrise technique
+    Maitrise technique
   \item
+    Créativité
   \end{itemize}
 \end{itemize}
 
@@ -744,8 +1153,11 @@ Se référer à la section \protect\hyperlink{corpus}{corpus}
   Variation en temps réel de paramètres vidéo programmés
 \end{itemize}
 
-\hypertarget{consignes-performance-audiovisuelle-temps-ruxe9el}{%
-\subsection{Consignes ( Performance audiovisuelle temps réel)}\label{consignes-performance-audiovisuelle-temps-ruxe9el}}
+\hypertarget{consignes-4}{%
+\subsection{Consignes}\label{consignes-4}}
+
+\hypertarget{performance-audiovisuelle-temps-ruxe9el}{%
+\subsubsection{Performance audiovisuelle temps réel}\label{performance-audiovisuelle-temps-ruxe9el}}
 
 \begin{itemize}
 \tightlist
@@ -754,13 +1166,13 @@ Se référer à la section \protect\hyperlink{corpus}{corpus}
 \item
   le traitement vidéo doit être effectué en temps réel
 \item
-  Présentation de type streaming lors de la ruche (Mardi)
+  Présentation de type streaming lors de la ruche (mardi)
 \item
-  Tous les groupes doivent diffuser ce jours là
+  Tous les groupes doivent diffuser ce jour-là
 \end{itemize}
 
 \hypertarget{consignes-document-accompagnateur}{%
-\subsection{Consignes (document accompagnateur)}\label{consignes-document-accompagnateur}}
+\subsubsection{Consignes (document accompagnateur}\label{consignes-document-accompagnateur}}
 
 \begin{itemize}
 \tightlist
@@ -785,7 +1197,7 @@ Se référer à la section \protect\hyperlink{corpus}{corpus}
     Ce qui aurait pu améliorer le résultat
   \end{itemize}
 \item
-  N.B. : un document par étudiant, soummis à la fois au cours de Traitement vidéo ainsi qu'au cours de Conception sonore interactive. Seuls les éléments décrits dans ce texte compteront à l'évaluation. Ne pas oublier de détailler autant l'aspect visuel que le sonore.
+  N.B. : un document par étudiant, soumis à la fois au cours de Traitement vidéo ainsi qu'au cours de Conception sonore interactive. Seuls les éléments décrits dans ce texte compteront à l'évaluation. Ne pas oublier de détailler autant l'aspect visuel que le sonore.
 \end{itemize}
 
 \hypertarget{corpus}{%
@@ -993,11 +1405,37 @@ Se référer à la section \protect\hyperlink{corpus}{corpus}
   \url{http://www.artwiki.fr/?CinemaExperimental}
 \end{itemize}
 
+\hypertarget{section-3}{%
+\section{2010}\label{section-3}}
+
+\hypertarget{duxe9rapages}{%
+\subsection{Dérapages}\label{duxe9rapages}}
+
+\url{https://www.youtube.com/results?search_query=derapage+festival}
+
+\url{https://www.youtube.com/watch?v=lvUH7b8x1DM}
+
+\url{https://www.youtube.com/watch?v=w3tx2bgip4o}
+
+\url{https://www.youtube.com/watch?v=sGUgCo1PkzE}
+
+\url{https://www.youtube.com/watch?v=DJgUtwhClj4}
+
+\url{https://www.youtube.com/watch?v=PPZP2A972LM}
+
+\url{https://www.youtube.com/watch?v=JUqmzbIsaAs}
+
 \hypertarget{historique}{%
 \chapter{Historique du traitement vidéo}\label{historique}}
 
 \hypertarget{evolution_historique}{%
 \section{Évolution historique du traitement vidéo dans les différentes formes d'art}\label{evolution_historique}}
+
+\begin{itemize}
+\tightlist
+\item
+  \url{http://iasl.uni-muenchen.de/links/GCA-IV.1e.html\#Video}
+\end{itemize}
 
 \hypertarget{contextualisation-guxe9nuxe9rale}{%
 \subsection{Contextualisation générale}\label{contextualisation-guxe9nuxe9rale}}
@@ -1637,8 +2075,8 @@ ffplay -f lavfi -i mandelbrot -vf "format=gbrp,split=4[a][b][c][d],[d]histogram=
 \hypertarget{camuxe9ra-virtuelle-1}{%
 \section{Caméra virtuelle}\label{camuxe9ra-virtuelle-1}}
 
-\hypertarget{section-3}{%
-\section{}\label{section-3}}
+\hypertarget{section-4}{%
+\section{}\label{section-4}}
 
 \begin{verbatim}
 // Corner Pin shader by rmanky
@@ -1727,6 +2165,8 @@ float4 mainImage(VertData v_in) : TARGET
 
 \hypertarget{shaders}{%
 \chapter{Shaders}\label{shaders}}
+
+Compilation via Bookdown \citep{xie2015}
 
 \url{https://thebookofshaders.com/01/?lan=fr}
 

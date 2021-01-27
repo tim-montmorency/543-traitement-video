@@ -1,7 +1,4 @@
 fig:unnamed-chunk-1
-tab:calendrier
-lisez-moi
-sources
 mo-traitement-vidéo
 description-du-cours
 objectifs

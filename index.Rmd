@@ -13,7 +13,7 @@ output:
       fontsettings:
         theme: night
         family: sans
-        size: 1
+        size: 2
   bookdown::pdf_book:
     keep_tex: yes
   bookdown::html_book:
@@ -24,22 +24,23 @@ biblio-style: apalike
 link-citations: yes
 graphics: yes
 github-repo: tim-montmorency/543-traitement-video
-description: "Le traitement vidéo temps réel; une documentation expérimentale"
+description: "Le traitement vidéo temps réel, une documentation expérimentale"
 cover-image: images/cover.png
 favicon: images/favicon.ico
 ---
-# Lisez-moi
+# Lisez-moi {-}
 
 ```{r echo=FALSE, fig.cap = 'Barres de calibration couleur sur vectorscope [@marsh_ColorBarsVectorscope_2016]'}
 knitr::include_graphics("images/vectorscope.jpg")
 ```
 
-## Sources
+## Sources {-}
+
+Compilation via Bookdown [@xie_BookdownAuthoringBooks_2020] 
 
 * *GIT*[@torvalds_Git_2006] hébergé [github.com/tim-montmorency/543-traitement-video](https://github.com/tim-montmorency/543-traitement-video){target="_blank"}
 * *Libre*[@stallman_GnuOrg_1983] 
 * Écrit en *RMarkdown*[@allaire_RmarkdownDynamicDocuments_2020]  
-* Compilation via Bookdown[@xie_BookdownAuthoringBooks_2020] 
   * [HTML](https://tim-montmorency.com/543-traitement-video/){target="_blank"}
   *	[PDF](https://tim-montmorency.com/543-traitement-video/traitement-video.pdf){target="_blank"}
   * [EPUB](https://tim-montmorency.com/543-traitement-video/traitement-video.epub){target="_blank"}
