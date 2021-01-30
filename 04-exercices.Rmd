@@ -1,4 +1,4 @@
-# Exercices 
+# Exercices  
 
 ## Présentation corpus vidéo {#sommatif_1}
 * Présentation de type partage d'écran de ~5 minutes
@@ -8,10 +8,21 @@
 ### Consignes 
 * Choisir et présenter un court extrait médiatique comprenant un procédé de traitement vidéo original
     * Se référer à la section [corpus](#corpus) pour une liste d'artistes potentiellement inspirants 
-* Traiter synthétiquement son contexte artistique et historique 
-    * Auteur
-        * Nom, année de naissance (si disponible), nationalité (ville, pays (si disponible)), 
-            * ex: Marina Abramovic, 1946 à Belgrade, Yougoslavie (aujourd'hui Serbie-Monténégro)
+* Présentez visuellement les informations suivantes  
+    * Contextualisation historique écrite de l'auteur comprenant 
+        * Nom, 
+        * année de naissance (si disponible) et décès (si disponible) 
+        * nationalité (ville, pays (si disponible)), 
+        * ex; personne vivante:
+        ```markdown 
+        Marina Abramovic, 1946 à Belgrade, Yougoslavie (aujourd'hui Serbie-Monténégro)
+        ```
+        * ex; personne décédée: 
+        ```markdown
+        Marcel Duchamp, 1887 à Blainville-Crevon (France), et mort le 2 octobre 1968 à Neuilly-sur-Seine (France).
+        ```
+
+    * Présenter un ou des extraits visuels 
     * Contexte de diffusion de l'oeuvre
         * Titre 
             * ex. Twenty four hour Psycho
@@ -29,9 +40,13 @@
 
 
 ## Rédaction d'une question portant sur le traitement vidéo {#sommatif_2}
-* Rédaction dans un tableur Excel en ligne d'une question, une bonne réponse et 3 réponses erronées  
+* Rédaction dans un tableur en ligne 
+    * Une question portant sur le traitement vidéo 
+    * Une bonne réponse 
+    * Trois réponses erronées   
 * Sommatif (10%) 
 * Individuel
+
 
 ### Consignes
 

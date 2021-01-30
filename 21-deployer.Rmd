@@ -1,4 +1,4 @@
-# Déploiement de projet visuel interactif {#deployer}
+# Déployer {#deployer}
 
 ## Intégration des composantes dans une production interactive 
 
@@ -21,9 +21,9 @@
 
 ## Configuration logicielle et matérielle d’une production interactive 
 ### Préréglages 
+
 ### Optimisation de la programmation et commentaires 
 https://openframeworks.cc/ofBook/chapters/version_control_with_git.html
-
 
 ### Exportation de projets 
 

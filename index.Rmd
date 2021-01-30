@@ -47,3 +47,6 @@ Compilation via Bookdown [@xie_BookdownAuthoringBooks_2020]
 * [Bibliographie Bibtex](https://github.com/tim-montmorency/543-traitement-video/blob/master/582543-traitement-video.bib) 
 
 
+```{r, include=FALSE}
+options(tinytex.engine_args = '-shell-escape')
+```

@@ -1,4 +1,4 @@
-# Acquerir l'image en mouvement {#acquerir}
+# Acquerir {#acquerir}
 
 ## Acquisition vidéo en temps réel {#acquerir_captation}
 

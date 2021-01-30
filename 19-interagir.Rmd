@@ -1,4 +1,4 @@
-# Interactivité et images en mouvement {#interagir} 
+# Interagir {#interagir} 
 
 ## Effets visuels et filtres applicables en temps réel sur des matériaux visuels  
 ## Flot de données entre les objets du logiciel 

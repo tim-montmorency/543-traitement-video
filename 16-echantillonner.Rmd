@@ -1,4 +1,4 @@
-# Échantillonner l'image en mouvement {#echantillonner}
+# Échantillonner {#echantillonner}
 
 ## Enregistrer 
 

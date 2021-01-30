@@ -1,4 +1,4 @@
-# Traiter l'image en mouvement{#traiter}
+# Traiter {#traiter}
 
 ## Logiciels de traitement vidéo interactif en temps réel {#traiter_logiciels}
 ### Libres et gratuits 

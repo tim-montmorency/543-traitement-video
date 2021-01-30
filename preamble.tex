@@ -5,4 +5,9 @@
   \thm@preskip=8pt plus 2pt minus 4pt
   \thm@postskip=\thm@preskip
 }
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\epstopdfDeclareGraphicsRule{.gif}{png}{.png}{convert gif:\SourceFile.\SourceExt png:\OutputFile}
+\AppendGraphicsExtensions{.gif}
+
 \makeatother

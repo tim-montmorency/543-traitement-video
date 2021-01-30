@@ -4,93 +4,277 @@
 
 ## Les origines 
 
-### Edward Muybridge
+## Eadward Muybridge
 
-```{r ,Edward_Muybridge, echo=FALSE,  fig.cap='Edward Muybridge, 1830-1904'}
-knitr::include_graphics('https://upload.wikimedia.org/wikipedia/commons/0/07/Muybridge-2.jpg')
-```
+<center>
+![Eadward Muybridge (1830-1904)](medias/corpus/muybridge/Optic_Projection_fig_411.jpg){width=50%} 
 
-![](https://upload.wikimedia.org/wikipedia/commons/6/63/Zoopraxiscope_16485d.gif)
+![Zoopraxiscope, 1893](medias/corpus/muybridge/Zoopraxiscope_16485d.gif){width=50%} 
 
+![Phénakistiscope, 1893](medias/corpus/muybridge/Phenakistoscope.gif){width=50%} 
+
+![Chronophotographie  "Eadweard Muybridge" by floorvan is licensed with CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/ ](medias/corpus/muybridge/3695958436_43ae8a57db_b.jpg)
+
+</center>
+
+* https://fr.wikipedia.org/wiki/Ph%C3%A9nakistiscope
+* https://fr.wikipedia.org/wiki/Eadweard_Muybridge
 * http://www.artwiki.fr/?EdwardMuybridge
 
-### Georges Mélies 
+
+## Georges Mélies 
+<center>
+![Georges Mélies, 1861-1938](medias/corpus/melies/George_Melies.jpg){width=50%} 
+
+![Le Voyage dans la Lune, 1902](medias/corpus/melies/voyage_dans_la_lune.gif){width=50%} 
+
+![La Sirène, 1904](medias/corpus/melies/sirene_1904.gif){width=50%} 
+
+![coloration manuel](medias/corpus/melies/b25.gif){width=50%} 
+
+</center>
+
 * http://www.artwiki.fr/?GeorgesMelies
+* https://fr.wikipedia.org/wiki/Georges_M%C3%A9li%C3%A8s
 
-### Etienne-Jules Marey
-* http://www.artwiki.fr/?EtiennejulesMarey
 
-### Dziga Vertov
+
+## Dziga Vertov
+<center>
+
+![Dziga Vertov, 1896-1954](medias/corpus/vertov/Dziga-Vertov.jpg)
+
+![The Man with the Movie Camera. 1929](medias/corpus/vertov/ManWAMovieCamera_1929_DzigaVertov.jpg)
+
+![http://www.medienkunstnetz.de/works/der-mann-mit-derkamera/](medias/corpus/vertov/bild.jpg)
+
+</center>
+
+* https://www.moma.org/explore/inside_out/2010/04/20/dziga-vertov/
 * http://www.artwiki.fr/?DzigaVertov
 
-### Futurisme et l'art vidéo
+
+## Futurisme et l'art vidéo
+
+## Umberto Boccioni
+<center>
+![Par Umberto Boccioni — Peggy Guggenheim Collection, Domaine public, https://commons.wikimedia.org/w/index.php?curid=38418936](medias/corpus/boccioni/Umberto_Boccioni,_1913,_Dynamism_of_a_Cyclist_(Dinamismo_di_un_ciclista),_oil_on_canvas,_70_x_95_cm,_Gianni_Mattioli_Collection,_on_long-term_loan_to_the_Peggy_Guggenheim_Collection,_Venice.jpg)
+
+## Anton Giulio Bragaglia
+<center>
+
+![Anton Giulio Bragaglia, 1890-1960](medias/corpus/bragaglia/Bragaglia_a_giulio.jpg){width=50%}
+
+!["Man playing the double bass", 1911](medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-02.jpg){width=75%}
+
+!["The slap", 1910](medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-04.jpg){width=75%}
+
+!["Bow", 1911](medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-05.jpg){width=75%}
+
+!["Self portrait", 1913](medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-06.jpg){width=75%}
+
+!["Smoker", 1913](medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-07.jpg){width=75%}
+
+!["Waving", 1911](medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-08.jpg){width=75%}
+
+!["Poly-physiognomic portrait of U. Boccioni", 1913](medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-09.jpg){width=75%}
+
+!["Photodynamic portrait of a woman", 1924](medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-11.jpg){width=75%}
+
+!["Typist", 1911](medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-12.jpg){width=75%}
+
+!["L'éventail", 1928 ](medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-13.jpg){width=75%}
+
+
+<iframe width="640" height="480" src="https://www.youtube.com/embed/TxaIk26Pc-g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</center>
+
+* https://www.italianways.com/past-and-futurism-in-bragaglias-photodynamics/
 * http://www.artwiki.fr/?FuturismeArtvideo
 
-### Marcel Duchamp
+## Marcel Duchamp
+<center>
+![Marcel Duchamp, 1887-1968](medias/corpus/duchamp/MarcelduchampEcologie_portrait_duchamp_20140916163736_20140916163758.jpg){width=75%}
+
+
+![Rotoreliefs, 1926](medias/corpus/duchamp/MarcelduchampEcologie_duchamp_rotoreliefs_1935_20140917095658_20140917095757.jpg)
+
+
+![Plaque rotative sur verre, ~1920-1923](medias/corpus/duchamp/MarcelduchampEcologie_ducha_rotative_plaque_verre_20140917224650_20140917225046.jpg)
+
+
+<iframe width="100%" height="480px"  src="https://www.youtube.com/embed/dXINTf8kXCc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+> Rotoreliefs, 1926
+
+
+
+</center>
+
+> La participation du spectateur, l'oeuvre ouverte:
+>
+> «Ce sont les regardeurs qui font les tableaux»
+>
+> «Somme toute, l'artiste n'est pas seul à accomplir l'acte de création car le spectateur établit le contact de l'oeuvre avec le monde extérieur en déchiffrant et en interprétant ses qualifications profondes et par là, ajoute sa propre contribution au processus créatif.»  
+> -- <cite>Marcel Duchamp</cite>
+
+
+> Il invente par ses Rotoreliefs l'Art cinétique
+
+
 * http://www.artwiki.fr/?MarcelduchampEcologie
+* https://fr.wikipedia.org/wiki/Marcel_Duchamp
 
-## Les balbutiements 
 
-### Stan Brakhage
+
+## Stan Brakhage
+
+<center>
+![Stan Brakhage, 1933-2003](medias/corpus/brakhage/Stan_Brakhage_(circa_1976).jpg){width=50%}
+
+
+<iframe width="100%" height="480px" src="https://www.youtube.com/embed/S5P5vkegmvU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ > Mothlight - Stan Brakhage [1963]
+ >
+ > On retrouve cette technique d'intervention sur la pellicule de manière encore plus marquée pour Mothlight, en 1963. Pour ce court-métrage, Brakhage ne s'est pas servi de caméra : il a inséré entre deux pellicules des feuilles et des insectes, ce qui donne de nouveau un rythme de défilement extrêmement rapide.
+ > <cite> art wiki </cite>
+
+
+<iframe width="100%" height="480px" src="https://www.youtube.com/embed/ESLn1OUxMGI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+> The Dante Quartet - Stan Brakhage [1987]
+
+</center>
+
 * http://www.artwiki.fr/?StanBrakhage
+* https://en.wikipedia.org/wiki/Stan_Brakhage
 
-### John Milton Cage
+
+## John Milton Cage
 * http://www.artwiki.fr/?JohnCage
 
-### Fluxus
+## Fluxus
 * http://www.artwiki.fr/?LartvideoFluxus
 
-### Norman McLaren
+## Norman McLaren
+
+![Norman McLaren, 1914-1987](medias/corpus/mclaren/Norman_McLaren_drawing_on_film_-_1944.jpg)
+
+<iframe width="100%" height="480px" src="https://www.youtube.com/embed/Q0vgZv_JWfM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+> Pen Point Percussion (1958)
+
+<iframe width="100%" height="480px" src="https://www.youtube.com/embed/0yJRWUAKgnY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+> Mosaic (1965)
+
+<iframe width="100%" height="480px" src="https://www.youtube.com/embed/UmSzc8mBJCM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+> Synchromy (1971)
+
+<iframe width="100%" height="480" src="https://www.youtube.com/embed/86Wp96uG-N8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+> A Phantasy in Colors (1949)
+
+* https://www.onf.ca/cineastes/norman-mclaren/
+* https://fr.wikipedia.org/wiki/Norman_McLaren
 * http://www.artwiki.fr/?NormanMcLaren
 
-## 1960
+## 1960 et le début de la vidéo
 
-### Nam June Paik
+```{r, echo=FALSE,out.width="49%",fig.cap="Enregistrer et reproduire depuis un support magnétique",fig.show='hold',fig.align='center'}
+knitr::include_graphics(c("medias/corpus/1960/Charles_Bensinger_video_guide_2.jpg","medias/corpus/1960/Charles_Bensinger_video_guide_3.jpg"))
+``` 
+
+* https://cool.culturalheritage.org/videopreservation/vid_guide/
+* https://en.wikipedia.org/wiki/Portapak
+
+
+## Nam June Paik
+<center>
+![Nam June Paik, 1932-2006](medias/corpus/paik/NamJunepaik_paik_lickstamps_vignette_780_544_20150414145255_20150414150424.jpg)
+
+```{r, echo=FALSE,out.width="32%",fig.cap="Enregistrer et reproduire depuis un support magnétique",fig.show='hold',fig.align='center'}
+knitr::include_graphics(c("medias/corpus/paik/____NamJunepaik_0220452w_namjunepaikzenfortv1961975_vignette_300_209_20150414152312_20150414153250.jpg","medias/corpus/paik/__NamJunepaik_22222_vignette_300_209_20150414121039_20150414121316.jpg","medias/corpus/paik/_NamJunepaik_paik_magnet_tv_20150506194428_20150506194457.jpg"))
+``` 
+
+</center>
 * http://www.artwiki.fr/?NamjunePaik
 * https://fr.wikipedia.org/wiki/Nam_June_Paik
 
-### Wolf Vostell
+## Wolf Vostell
 * http://www.artwiki.fr/?WolfVostell
 
-### Les Levine
+## Les Levine
 * http://www.artwiki.fr/?LesLevine
 
 ## 1970
 
-### Valie Export
+## Valie Export
 * http://www.artwiki.fr/?ValieExport
 
-### Frank Gillette
+## Frank Gillette
 * http://www.artwiki.fr/?FrankGillette
 
-### Michael Snow
+## Michael Snow
 * http://www.artwiki.fr/?MichaelSnow
 
-### Jud Yalkut
+## Jud Yalkut
 * http://www.artwiki.fr/?JudYalkut
 
-### Shigeko Kubota
+## Shigeko Kubota
 * http://www.artwiki.fr/?ShigekoKubota
 
-### Marina Abramovic & Ulay
+## Marina Abramovic & Ulay
 * http://www.artwiki.fr/?AbramoviculayVideo70
 
 
 
 ## Contemporains
 
-### 
 
 ## Cinéma Expérimental
 
 * http://www.artwiki.fr/?CinemaExperimental
 
+## Jean-Pierre Boyer 
+
+![Jean-Pierre Boyer, 1950 - ](medias/corpus/boyer/Portrait-e2288.jpg){width=50%}
+
+![Chant magnetique](medias/corpus/boyer/Chant-magnetique.jpg)
+
+![Eau](medias/corpus/boyer/Eau.jpg)
+
+![Amertube](medias/corpus/boyer/L-Amertube-2f5ae.jpg)
+
+![Phonoptic](medias/corpus/boyer/Phonoptic-33bd2.jpg)
+
+![video cortex](medias/corpus/boyer/Video-Cortex-b8d37.jpg)
+
+* https://www.horschamp.qc.ca/spip.php?article535
+* https://vitheque.com/en/directors/jean-pierre-boyer
+* https://www.fondation-langlois.org/html/e/page.php?NumPage=1839
+* https://www.fondation-langlois.org/html/e/research.php?zoom=3&Filtres=5&Numero=i00005710&MotsCles=Jean-Pierre+Boyer
 
 
+## David Rokeby
 
-## 2010
+<center>
 
-### Dérapages 
+![David Rokeby, 1960-](medias/corpus/rokeby/d00004229-wide.jpg){width=75%}
+
+Very Nervous System (1986-90)
+
+<iframe src="https://player.vimeo.com/video/17231343" width="640" height="480" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/17231343">Very Nervous System (1987 version)</a> from <a href="https://vimeo.com/davidrokeby">David Rokeby</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+
+<iframe src="https://player.vimeo.com/video/8120954" width="640" height="424" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/8120954">Very Nervous System (1982-1991) by David Rokeby</a> from <a href="https://vimeo.com/davidrokeby">David Rokeby</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+
+</center>
+
+* https://www.fondation-langlois.org/html/e/page.php?NumPage=1951
+* http://www.davidrokeby.com/vns.html
+
+
+## Dérapages 
 
 https://www.youtube.com/results?search_query=derapage+festival
 

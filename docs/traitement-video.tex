@@ -42,6 +42,46 @@
   hidelinks,
   pdfcreator={LaTeX via pandoc}}
 \urlstyle{same} % disable monospaced font for URLs
+\usepackage{color}
+\usepackage{fancyvrb}
+\newcommand{\VerbBar}{|}
+\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\usepackage{framed}
+\definecolor{shadecolor}{RGB}{248,248,248}
+\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.94,0.16,0.16}{#1}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.77,0.63,0.00}{#1}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\BuiltInTok}[1]{#1}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.64,0.00,0.00}{\textbf{#1}}}
+\newcommand{\ExtensionTok}[1]{#1}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\ImportTok}[1]{#1}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\NormalTok}[1]{#1}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\RegionMarkerTok}[1]{#1}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
 \usepackage{longtable,booktabs}
 \usepackage{calc} % for calculating minipage widths
 % Correct order of tables after \paragraph or \subparagraph
@@ -76,6 +116,11 @@
   \thm@preskip=8pt plus 2pt minus 4pt
   \thm@postskip=\thm@preskip
 }
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\epstopdfDeclareGraphicsRule{.gif}{png}{.png}{convert gif:\SourceFile.\SourceExt png:\OutputFile}
+\AppendGraphicsExtensions{.gif}
+
 \makeatother
 \ifluatex
   \usepackage{selnolig}  % disable illegal ligatures
@@ -85,7 +130,7 @@
 
 \title{Traitement vidéo}
 \author{Guillaume Arseneault}
-\date{2021-01-27}
+\date{2021-01-30}
 
 \begin{document}
 \maketitle
@@ -969,24 +1014,44 @@ Remise du document accompagnateur \protect\hyperlink{sommatif_5}{performance aud
     Se référer à la section \protect\hyperlink{corpus}{corpus} pour une liste d'artistes potentiellement inspirants
   \end{itemize}
 \item
-  Traiter synthétiquement son contexte artistique et historique
+  Présentez visuellement les informations suivantes
 
   \begin{itemize}
   \tightlist
   \item
-    Auteur
+    Contextualisation historique écrite de l'auteur comprenant
 
     \begin{itemize}
     \tightlist
     \item
-      Nom, année de naissance (si disponible), nationalité (ville, pays (si disponible)),
-
-      \begin{itemize}
-      \tightlist
-      \item
-        ex: Marina Abramovic, 1946 à Belgrade, Yougoslavie (aujourd'hui Serbie-Monténégro)
-      \end{itemize}
+      Nom,
+    \item
+      année de naissance (si disponible) et décès (si disponible)
+    \item
+      nationalité (ville, pays (si disponible)),
+    \item
+      ex; personne vivante:
     \end{itemize}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{Marina Abramovic, 1946 à Belgrade, Yougoslavie (aujourd\textquotesingle{}hui Serbie{-}Monténégro)}
+\end{Highlighting}
+\end{Shaded}
+
+    \begin{itemize}
+    \tightlist
+    \item
+      ex; personne décédée:
+    \end{itemize}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{Marcel Duchamp, 1887 à Blainville{-}Crevon (France), et mort le 2 octobre 1968 à Neuilly{-}sur{-}Seine (France).}
+\end{Highlighting}
+\end{Shaded}
+  \item
+    Présenter un ou des extraits visuels
   \item
     Contexte de diffusion de l'oeuvre
 
@@ -1042,7 +1107,17 @@ Remise du document accompagnateur \protect\hyperlink{sommatif_5}{performance aud
 \begin{itemize}
 \tightlist
 \item
-  Rédaction dans un tableur Excel en ligne d'une question, une bonne réponse et 3 réponses erronées\\
+  Rédaction dans un tableur en ligne
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Une question portant sur le traitement vidéo
+  \item
+    Une bonne réponse
+  \item
+    Trois réponses erronées\\
+  \end{itemize}
 \item
   Sommatif (10\%)
 \item
@@ -1201,81 +1276,279 @@ Remise du document accompagnateur \protect\hyperlink{sommatif_5}{performance aud
 \end{itemize}
 
 \hypertarget{corpus}{%
-\chapter{Corpus chronologique d'artistes}\label{corpus}}
+\chapter{Corpus d'art vidéo}\label{corpus}}
 
 (non exaustif bien sur)
 
-\hypertarget{les-origines-de-lart-viduxe9o}{%
-\section{Les origines de l'art vidéo}\label{les-origines-de-lart-viduxe9o}}
+\hypertarget{les-origines}{%
+\section{Les origines}\label{les-origines}}
 
-\hypertarget{edward-muybridge}{%
-\subsection{Edward Muybridge}\label{edward-muybridge}}
+\hypertarget{eadward-muybridge}{%
+\section{Eadward Muybridge}\label{eadward-muybridge}}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.5\textwidth,height=\textheight]{medias/corpus/muybridge/Optic_Projection_fig_411.jpg}
+\caption{Eadward Muybridge (1830-1904)}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.5\textwidth,height=\textheight]{medias/corpus/muybridge/Zoopraxiscope_16485d.gif}
+\caption{Zoopraxiscope, 1893}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.5\textwidth,height=\textheight]{medias/corpus/muybridge/Phenakistoscope.gif}
+\caption{Phénakistiscope, 1893}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics{medias/corpus/muybridge/3695958436_43ae8a57db_b.jpg}
+\caption{Chronophotographie ``Eadweard Muybridge'' by floorvan is licensed with CC BY-SA 2.0. To view a copy of this license, visit \url{https://creativecommons.org/licenses/by-sa/2.0/}}
+\end{figure}
 
 \begin{itemize}
 \tightlist
+\item
+  \url{https://fr.wikipedia.org/wiki/Ph\%C3\%A9nakistiscope}
+\item
+  \url{https://fr.wikipedia.org/wiki/Eadweard_Muybridge}
 \item
   \url{http://www.artwiki.fr/?EdwardMuybridge}
 \end{itemize}
 
 \hypertarget{georges-muxe9lies}{%
-\subsection{Georges Mélies}\label{georges-muxe9lies}}
+\section{Georges Mélies}\label{georges-muxe9lies}}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.5\textwidth,height=\textheight]{medias/corpus/melies/George_Melies.jpg}
+\caption{Georges Mélies, 1861-1938}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.5\textwidth,height=\textheight]{medias/corpus/melies/voyage_dans_la_lune.gif}
+\caption{Le Voyage dans la Lune, 1902}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.5\textwidth,height=\textheight]{medias/corpus/melies/sirene_1904.gif}
+\caption{La Sirène, 1904}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.5\textwidth,height=\textheight]{medias/corpus/melies/b25.gif}
+\caption{coloration manuel}
+\end{figure}
 
 \begin{itemize}
 \tightlist
 \item
   \url{http://www.artwiki.fr/?GeorgesMelies}
+\item
+  \url{https://fr.wikipedia.org/wiki/Georges_M\%C3\%A9li\%C3\%A8s}
 \end{itemize}
 
-\hypertarget{etienne-jules-marey}{%
-\subsection{Etienne-Jules Marey}\label{etienne-jules-marey}}
+\hypertarget{dziga-vertov}{%
+\section{Dziga Vertov}\label{dziga-vertov}}
+
+\begin{figure}
+\centering
+\includegraphics{medias/corpus/vertov/Dziga-Vertov.jpg}
+\caption{Dziga Vertov, 1896-1954}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics{medias/corpus/vertov/ManWAMovieCamera_1929_DzigaVertov.jpg}
+\caption{The Man with the Movie Camera. 1929}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics{medias/corpus/vertov/bild.jpg}
+\caption{\url{http://www.medienkunstnetz.de/works/der-mann-mit-derkamera/}}
+\end{figure}
 
 \begin{itemize}
 \tightlist
 \item
-  \url{http://www.artwiki.fr/?EtiennejulesMarey}
-\end{itemize}
-
-\hypertarget{dziga-vertov}{%
-\subsection{Dziga Vertov}\label{dziga-vertov}}
-
-\begin{itemize}
-\tightlist
+  \url{https://www.moma.org/explore/inside_out/2010/04/20/dziga-vertov/}
 \item
   \url{http://www.artwiki.fr/?DzigaVertov}
 \end{itemize}
 
 \hypertarget{futurisme-et-lart-viduxe9o}{%
-\subsection{Futurisme et l'art vidéo}\label{futurisme-et-lart-viduxe9o}}
+\section{Futurisme et l'art vidéo}\label{futurisme-et-lart-viduxe9o}}
+
+\hypertarget{umberto-boccioni}{%
+\section{Umberto Boccioni}\label{umberto-boccioni}}
+
+\begin{figure}
+\centering
+\includegraphics{medias/corpus/boccioni/Umberto_Boccioni,_1913,_Dynamism_of_a_Cyclist_(Dinamismo_di_un_ciclista),_oil_on_canvas,_70_x_95_cm,_Gianni_Mattioli_Collection,_on_long-term_loan_to_the_Peggy_Guggenheim_Collection,_Venice.jpg}
+\caption{Par Umberto Boccioni --- Peggy Guggenheim Collection, Domaine public, \url{https://commons.wikimedia.org/w/index.php?curid=38418936}}
+\end{figure}
+
+\hypertarget{anton-giulio-bragaglia}{%
+\section{Anton Giulio Bragaglia}\label{anton-giulio-bragaglia}}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.5\textwidth,height=\textheight]{medias/corpus/bragaglia/Bragaglia_a_giulio.jpg}
+\caption{Anton Giulio Bragaglia, 1890-1960}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.75\textwidth,height=\textheight]{medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-02.jpg}
+\caption{``Man playing the double bass'', 1911}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.75\textwidth,height=\textheight]{medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-04.jpg}
+\caption{``The slap'', 1910}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.75\textwidth,height=\textheight]{medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-05.jpg}
+\caption{``Bow'', 1911}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.75\textwidth,height=\textheight]{medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-06.jpg}
+\caption{``Self portrait'', 1913}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.75\textwidth,height=\textheight]{medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-07.jpg}
+\caption{``Smoker'', 1913}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.75\textwidth,height=\textheight]{medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-08.jpg}
+\caption{``Waving'', 1911}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.75\textwidth,height=\textheight]{medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-09.jpg}
+\caption{``Poly-physiognomic portrait of U. Boccioni'', 1913}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.75\textwidth,height=\textheight]{medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-11.jpg}
+\caption{``Photodynamic portrait of a woman'', 1924}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.75\textwidth,height=\textheight]{medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-12.jpg}
+\caption{``Typist'', 1911}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.75\textwidth,height=\textheight]{medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-13.jpg}
+\caption{``L'éventail'', 1928}
+\end{figure}
 
 \begin{itemize}
 \tightlist
+\item
+  \url{https://www.italianways.com/past-and-futurism-in-bragaglias-photodynamics/}
 \item
   \url{http://www.artwiki.fr/?FuturismeArtvideo}
 \end{itemize}
 
 \hypertarget{marcel-duchamp}{%
-\subsection{Marcel Duchamp}\label{marcel-duchamp}}
+\section{Marcel Duchamp}\label{marcel-duchamp}}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.75\textwidth,height=\textheight]{medias/corpus/duchamp/MarcelduchampEcologie_portrait_duchamp_20140916163736_20140916163758.jpg}
+\caption{Marcel Duchamp, 1887-1968}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics{medias/corpus/duchamp/MarcelduchampEcologie_duchamp_rotoreliefs_1935_20140917095658_20140917095757.jpg}
+\caption{Rotoreliefs, 1926}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics{medias/corpus/duchamp/MarcelduchampEcologie_ducha_rotative_plaque_verre_20140917224650_20140917225046.jpg}
+\caption{Plaque rotative sur verre, \textasciitilde1920-1923}
+\end{figure}
+
+\begin{quote}
+Rotoreliefs, 1926
+\end{quote}
+
+\begin{quote}
+La participation du spectateur, l'oeuvre ouverte:
+
+«Ce sont les regardeurs qui font les tableaux»
+
+«Somme toute, l'artiste n'est pas seul à accomplir l'acte de création car le spectateur établit le contact de l'oeuvre avec le monde extérieur en déchiffrant et en interprétant ses qualifications profondes et par là, ajoute sa propre contribution au processus créatif.»\\
+-- Marcel Duchamp
+\end{quote}
+
+\begin{quote}
+Il invente par ses Rotoreliefs l'Art cinétique
+\end{quote}
 
 \begin{itemize}
 \tightlist
 \item
   \url{http://www.artwiki.fr/?MarcelduchampEcologie}
+\item
+  \url{https://fr.wikipedia.org/wiki/Marcel_Duchamp}
 \end{itemize}
 
-\hypertarget{les-balbutiements}{%
-\section{Les balbutiements}\label{les-balbutiements}}
-
 \hypertarget{stan-brakhage}{%
-\subsection{Stan Brakhage}\label{stan-brakhage}}
+\section{Stan Brakhage}\label{stan-brakhage}}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.5\textwidth,height=\textheight]{medias/corpus/brakhage/Stan_Brakhage_(circa_1976).jpg}
+\caption{Stan Brakhage, 1933-2003}
+\end{figure}
+
+\begin{quote}
+Mothlight - Stan Brakhage {[}1963{]}
+
+On retrouve cette technique d'intervention sur la pellicule de manière encore plus marquée pour Mothlight, en 1963. Pour ce court-métrage, Brakhage ne s'est pas servi de caméra : il a inséré entre deux pellicules des feuilles et des insectes, ce qui donne de nouveau un rythme de défilement extrêmement rapide.
+art wiki
+\end{quote}
+
+\begin{quote}
+The Dante Quartet - Stan Brakhage {[}1987{]}
+\end{quote}
 
 \begin{itemize}
 \tightlist
 \item
   \url{http://www.artwiki.fr/?StanBrakhage}
+\item
+  \url{https://en.wikipedia.org/wiki/Stan_Brakhage}
 \end{itemize}
 
 \hypertarget{john-milton-cage}{%
-\subsection{John Milton Cage}\label{john-milton-cage}}
+\section{John Milton Cage}\label{john-milton-cage}}
 
 \begin{itemize}
 \tightlist
@@ -1284,7 +1557,7 @@ Remise du document accompagnateur \protect\hyperlink{sommatif_5}{performance aud
 \end{itemize}
 
 \hypertarget{fluxus}{%
-\subsection{Fluxus}\label{fluxus}}
+\section{Fluxus}\label{fluxus}}
 
 \begin{itemize}
 \tightlist
@@ -1293,19 +1566,77 @@ Remise du document accompagnateur \protect\hyperlink{sommatif_5}{performance aud
 \end{itemize}
 
 \hypertarget{norman-mclaren}{%
-\subsection{Norman McLaren}\label{norman-mclaren}}
+\section{Norman McLaren}\label{norman-mclaren}}
+
+\begin{figure}
+\centering
+\includegraphics{medias/corpus/mclaren/Norman_McLaren_drawing_on_film_-_1944.jpg}
+\caption{Norman McLaren, 1914-1987}
+\end{figure}
+
+\begin{quote}
+Pen Point Percussion (1958)
+\end{quote}
+
+\begin{quote}
+Mosaic (1965)
+\end{quote}
+
+\begin{quote}
+Synchromy (1971)
+\end{quote}
+
+\begin{quote}
+A Phantasy in Colors (1949)
+\end{quote}
 
 \begin{itemize}
 \tightlist
 \item
+  \url{https://www.onf.ca/cineastes/norman-mclaren/}
+\item
+  \url{https://fr.wikipedia.org/wiki/Norman_McLaren}
+\item
   \url{http://www.artwiki.fr/?NormanMcLaren}
 \end{itemize}
 
-\hypertarget{section}{%
-\section{1960}\label{section}}
+\hypertarget{et-le-duxe9but-de-la-viduxe9o}{%
+\section{1960 et le début de la vidéo}\label{et-le-duxe9but-de-la-viduxe9o}}
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.49\linewidth]{medias/corpus/1960/Charles_Bensinger_video_guide_2} \includegraphics[width=0.49\linewidth]{medias/corpus/1960/Charles_Bensinger_video_guide_3} 
+
+}
+
+\caption{Enregistrer et reproduire depuis un support magnétique}\label{fig:unnamed-chunk-3}
+\end{figure}
+
+\begin{itemize}
+\tightlist
+\item
+  \url{https://cool.culturalheritage.org/videopreservation/vid_guide/}
+\item
+  \url{https://en.wikipedia.org/wiki/Portapak}
+\end{itemize}
 
 \hypertarget{nam-june-paik}{%
-\subsection{Nam June Paik}\label{nam-june-paik}}
+\section{Nam June Paik}\label{nam-june-paik}}
+
+\begin{figure}
+\centering
+\includegraphics{medias/corpus/paik/NamJunepaik_paik_lickstamps_vignette_780_544_20150414145255_20150414150424.jpg}
+\caption{Nam June Paik, 1932-2006}
+\end{figure}
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.32\linewidth]{medias/corpus/paik/____NamJunepaik_0220452w_namjunepaikzenfortv1961975_vignette_300_209_20150414152312_20150414153250} \includegraphics[width=0.32\linewidth]{medias/corpus/paik/__NamJunepaik_22222_vignette_300_209_20150414121039_20150414121316} \includegraphics[width=0.32\linewidth]{medias/corpus/paik/_NamJunepaik_paik_magnet_tv_20150506194428_20150506194457} 
+
+}
+
+\caption{Enregistrer et reproduire depuis un support magnétique}\label{fig:unnamed-chunk-4}
+\end{figure}
 
 \begin{itemize}
 \tightlist
@@ -1316,7 +1647,7 @@ Remise du document accompagnateur \protect\hyperlink{sommatif_5}{performance aud
 \end{itemize}
 
 \hypertarget{wolf-vostell}{%
-\subsection{Wolf Vostell}\label{wolf-vostell}}
+\section{Wolf Vostell}\label{wolf-vostell}}
 
 \begin{itemize}
 \tightlist
@@ -1325,7 +1656,7 @@ Remise du document accompagnateur \protect\hyperlink{sommatif_5}{performance aud
 \end{itemize}
 
 \hypertarget{les-levine}{%
-\subsection{Les Levine}\label{les-levine}}
+\section{Les Levine}\label{les-levine}}
 
 \begin{itemize}
 \tightlist
@@ -1333,11 +1664,11 @@ Remise du document accompagnateur \protect\hyperlink{sommatif_5}{performance aud
   \url{http://www.artwiki.fr/?LesLevine}
 \end{itemize}
 
-\hypertarget{section-1}{%
-\section{1970}\label{section-1}}
+\hypertarget{section}{%
+\section{1970}\label{section}}
 
 \hypertarget{valie-export}{%
-\subsection{Valie Export}\label{valie-export}}
+\section{Valie Export}\label{valie-export}}
 
 \begin{itemize}
 \tightlist
@@ -1346,7 +1677,7 @@ Remise du document accompagnateur \protect\hyperlink{sommatif_5}{performance aud
 \end{itemize}
 
 \hypertarget{frank-gillette}{%
-\subsection{Frank Gillette}\label{frank-gillette}}
+\section{Frank Gillette}\label{frank-gillette}}
 
 \begin{itemize}
 \tightlist
@@ -1355,7 +1686,7 @@ Remise du document accompagnateur \protect\hyperlink{sommatif_5}{performance aud
 \end{itemize}
 
 \hypertarget{michael-snow}{%
-\subsection{Michael Snow}\label{michael-snow}}
+\section{Michael Snow}\label{michael-snow}}
 
 \begin{itemize}
 \tightlist
@@ -1364,7 +1695,7 @@ Remise du document accompagnateur \protect\hyperlink{sommatif_5}{performance aud
 \end{itemize}
 
 \hypertarget{jud-yalkut}{%
-\subsection{Jud Yalkut}\label{jud-yalkut}}
+\section{Jud Yalkut}\label{jud-yalkut}}
 
 \begin{itemize}
 \tightlist
@@ -1373,7 +1704,7 @@ Remise du document accompagnateur \protect\hyperlink{sommatif_5}{performance aud
 \end{itemize}
 
 \hypertarget{shigeko-kubota}{%
-\subsection{Shigeko Kubota}\label{shigeko-kubota}}
+\section{Shigeko Kubota}\label{shigeko-kubota}}
 
 \begin{itemize}
 \tightlist
@@ -1382,7 +1713,7 @@ Remise du document accompagnateur \protect\hyperlink{sommatif_5}{performance aud
 \end{itemize}
 
 \hypertarget{marina-abramovic-ulay}{%
-\subsection{Marina Abramovic \& Ulay}\label{marina-abramovic-ulay}}
+\section{Marina Abramovic \& Ulay}\label{marina-abramovic-ulay}}
 
 \begin{itemize}
 \tightlist
@@ -1393,9 +1724,6 @@ Remise du document accompagnateur \protect\hyperlink{sommatif_5}{performance aud
 \hypertarget{contemporains}{%
 \section{Contemporains}\label{contemporains}}
 
-\hypertarget{section-2}{%
-\subsection{}\label{section-2}}
-
 \hypertarget{cinuxe9ma-expuxe9rimental}{%
 \section{Cinéma Expérimental}\label{cinuxe9ma-expuxe9rimental}}
 
@@ -1405,11 +1733,82 @@ Remise du document accompagnateur \protect\hyperlink{sommatif_5}{performance aud
   \url{http://www.artwiki.fr/?CinemaExperimental}
 \end{itemize}
 
-\hypertarget{section-3}{%
-\section{2010}\label{section-3}}
+\hypertarget{jean-pierre-boyer}{%
+\section{Jean-Pierre Boyer}\label{jean-pierre-boyer}}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.5\textwidth,height=\textheight]{medias/corpus/boyer/Portrait-e2288.jpg}
+\caption{Jean-Pierre Boyer, 1950 -}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics{medias/corpus/boyer/Chant-magnetique.jpg}
+\caption{Chant magnetique}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics{medias/corpus/boyer/Eau.jpg}
+\caption{Eau}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics{medias/corpus/boyer/L-Amertube-2f5ae.jpg}
+\caption{Amertube}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics{medias/corpus/boyer/Phonoptic-33bd2.jpg}
+\caption{Phonoptic}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics{medias/corpus/boyer/Video-Cortex-b8d37.jpg}
+\caption{video cortex}
+\end{figure}
+
+\begin{itemize}
+\tightlist
+\item
+  \url{https://www.horschamp.qc.ca/spip.php?article535}
+\item
+  \url{https://vitheque.com/en/directors/jean-pierre-boyer}
+\item
+  \url{https://www.fondation-langlois.org/html/e/page.php?NumPage=1839}
+\item
+  \url{https://www.fondation-langlois.org/html/e/research.php?zoom=3\&Filtres=5\&Numero=i00005710\&MotsCles=Jean-Pierre+Boyer}
+\end{itemize}
+
+\hypertarget{david-rokeby}{%
+\section{David Rokeby}\label{david-rokeby}}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.75\textwidth,height=\textheight]{medias/corpus/rokeby/d00004229-wide.jpg}
+\caption{David Rokeby, 1960-}
+\end{figure}
+
+Very Nervous System (1986-90)
+
+Very Nervous System (1987 version) from David Rokeby on Vimeo.
+
+Very Nervous System (1982-1991) by David Rokeby from David Rokeby on Vimeo.
+
+\begin{itemize}
+\tightlist
+\item
+  \url{https://www.fondation-langlois.org/html/e/page.php?NumPage=1951}
+\item
+  \url{http://www.davidrokeby.com/vns.html}
+\end{itemize}
 
 \hypertarget{duxe9rapages}{%
-\subsection{Dérapages}\label{duxe9rapages}}
+\section{Dérapages}\label{duxe9rapages}}
 
 \url{https://www.youtube.com/results?search_query=derapage+festival}
 
@@ -1697,7 +2096,7 @@ pour usages artistiques :
 \end{itemize}
 
 \hypertarget{acquerir}{%
-\chapter{Acquerir l'image en mouvement}\label{acquerir}}
+\chapter{Acquerir}\label{acquerir}}
 
 \hypertarget{acquerir_captation}{%
 \section{Acquisition vidéo en temps réel}\label{acquerir_captation}}
@@ -1737,7 +2136,7 @@ pour usages artistiques :
 \url{http://szeliski.org/Book/}
 
 \hypertarget{echantillonner}{%
-\chapter{Échantillonner l'image en mouvement}\label{echantillonner}}
+\chapter{Échantillonner}\label{echantillonner}}
 
 \hypertarget{enregistrer}{%
 \section{Enregistrer}\label{enregistrer}}
@@ -1770,7 +2169,7 @@ pour usages artistiques :
 \subsection{Montage temps réel}\label{montage-temps-ruxe9el}}
 
 \hypertarget{traiter}{%
-\chapter{Traiter l'image en mouvement}\label{traiter}}
+\chapter{Traiter}\label{traiter}}
 
 \hypertarget{traiter_logiciels}{%
 \section{Logiciels de traitement vidéo interactif en temps réel}\label{traiter_logiciels}}
@@ -1877,7 +2276,7 @@ pour usages artistiques :
 \section{Utilisation de nuanciers (shaders)}\label{utilisation-de-nuanciers-shaders}}
 
 \hypertarget{programmer}{%
-\chapter{Programmer des effets visuels}\label{programmer}}
+\chapter{Programmer}\label{programmer}}
 
 \hypertarget{logiciels-de-programmation-programmer_logiciels}{%
 \section{Logiciels de programmation \{programmer\_logiciels\}}\label{logiciels-de-programmation-programmer_logiciels}}
@@ -1926,7 +2325,7 @@ Noise : \url{https://thebookofshaders.com/11/}
 \url{https://thebookofshaders.com/10/?lan=fr}
 
 \hypertarget{interagir}{%
-\chapter{Interactivité et images en mouvement}\label{interagir}}
+\chapter{Interagir}\label{interagir}}
 
 \hypertarget{effets-visuels-et-filtres-applicables-en-temps-ruxe9el-sur-des-matuxe9riaux-visuels}{%
 \section{Effets visuels et filtres applicables en temps réel sur des matériaux visuels}\label{effets-visuels-et-filtres-applicables-en-temps-ruxe9el-sur-des-matuxe9riaux-visuels}}
@@ -1967,7 +2366,7 @@ Noise : \url{https://thebookofshaders.com/11/}
 \subsection{Présence}\label{interagir_presence}}
 
 \hypertarget{deployer}{%
-\chapter{Déploiement de projet visuel interactif}\label{deployer}}
+\chapter{Déployer}\label{deployer}}
 
 \hypertarget{intuxe9gration-des-composantes-dans-une-production-interactive}{%
 \section{Intégration des composantes dans une production interactive}\label{intuxe9gration-des-composantes-dans-une-production-interactive}}
@@ -2045,17 +2444,17 @@ Où \texttt{-profile} est un chiffre entire de -1 to 5 correspondant au profile 
 \item
   -1: auto (default)
 \item
-  0: proxy ≈ 45Mbps YUV 4:2:2
+  0: proxy 45Mbps YUV 4:2:2
 \item
-  1: lt ≈ 102Mbps YUV 4:2:2
+  1: lt 102Mbps YUV 4:2:2
 \item
-  2: standard ≈ 147Mbps YUV 4:2:2
+  2: standard 147Mbps YUV 4:2:2
 \item
-  3: hq ≈ 220Mbps YUV 4:2:2
+  3: hq 220Mbps YUV 4:2:2
 \item
-  4: 4444≈ 330Mbps YUVA 4:4:4:4
+  4: 4444 330Mbps YUVA 4:4:4:4
 \item
-  5: 4444xq ≈ 500Mbps YUVA 4:4:4:4
+  5: 4444xq 500Mbps YUVA 4:4:4:4
 \end{itemize}
 
 Où \texttt{-pix\_fmt\ yuv420p} permet de créer un fichier compatible avec Quicktime
@@ -2075,8 +2474,8 @@ ffplay -f lavfi -i mandelbrot -vf "format=gbrp,split=4[a][b][c][d],[d]histogram=
 \hypertarget{camuxe9ra-virtuelle-1}{%
 \section{Caméra virtuelle}\label{camuxe9ra-virtuelle-1}}
 
-\hypertarget{section-4}{%
-\section{}\label{section-4}}
+\hypertarget{section-1}{%
+\section{}\label{section-1}}
 
 \begin{verbatim}
 // Corner Pin shader by rmanky
