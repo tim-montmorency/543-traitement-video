@@ -157,6 +157,8 @@
 
 ## Norman McLaren
 
+<center>
+
 ![Norman McLaren, 1914-1987](medias/corpus/mclaren/Norman_McLaren_drawing_on_film_-_1944.jpg)
 
 <iframe width="100%" height="480px" src="https://www.youtube.com/embed/Q0vgZv_JWfM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -171,15 +173,20 @@
 <iframe width="100%" height="480" src="https://www.youtube.com/embed/86Wp96uG-N8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 > A Phantasy in Colors (1949)
 
+</center>
+
 * https://www.onf.ca/cineastes/norman-mclaren/
 * https://fr.wikipedia.org/wiki/Norman_McLaren
 * http://www.artwiki.fr/?NormanMcLaren
 
 ## 1960 et le début de la vidéo
+<center>
 
 ```{r, echo=FALSE,out.width="49%",fig.cap="Enregistrer et reproduire depuis un support magnétique",fig.show='hold',fig.align='center'}
 knitr::include_graphics(c("medias/corpus/1960/Charles_Bensinger_video_guide_2.jpg","medias/corpus/1960/Charles_Bensinger_video_guide_3.jpg"))
 ``` 
+
+</center>
 
 * https://cool.culturalheritage.org/videopreservation/vid_guide/
 * https://en.wikipedia.org/wiki/Portapak
@@ -187,7 +194,7 @@ knitr::include_graphics(c("medias/corpus/1960/Charles_Bensinger_video_guide_2.jp
 
 ## Nam June Paik
 <center>
-![Nam June Paik, 1932-2006](medias/corpus/paik/NamJunepaik_paik_lickstamps_vignette_780_544_20150414145255_20150414150424.jpg)
+![Nam June Paik, 1932-2006](medias/corpus/paik/paik_10.jpg)
 
 ```{r, echo=FALSE,out.width="32%",fig.cap="Enregistrer et reproduire depuis un support magnétique",fig.show='hold',fig.align='center'}
 knitr::include_graphics(c("medias/corpus/paik/____NamJunepaik_0220452w_namjunepaikzenfortv1961975_vignette_300_209_20150414152312_20150414153250.jpg","medias/corpus/paik/__NamJunepaik_22222_vignette_300_209_20150414121039_20150414121316.jpg","medias/corpus/paik/_NamJunepaik_paik_magnet_tv_20150506194428_20150506194457.jpg"))
@@ -197,42 +204,66 @@ knitr::include_graphics(c("medias/corpus/paik/____NamJunepaik_0220452w_namjunepa
 * http://www.artwiki.fr/?NamjunePaik
 * https://fr.wikipedia.org/wiki/Nam_June_Paik
 
+## Steina and Woody Vasulka
+
+<center>
+
+</center>
+
+* https://www.fondation-langlois.org/html/f/page.php?NumPage=435
+* http://www.sonore-visuel.fr/fr/evenement/au-commencement-etait-le-bruit-la-poesie-electronique-de-steina-et-woody-vasulka
+* http://www.vasulka.org/
+* https://www.fondation-langlois.org/html/f/page.php?NumPage=495
+* https://www.eai.org/artists/steina-and-woody-vasulka/biography
+
+
 ## Wolf Vostell
+
+<center>
+
+</center>
+
 * http://www.artwiki.fr/?WolfVostell
 
 ## Les Levine
+
+<center>
+</center>
+
 * http://www.artwiki.fr/?LesLevine
 
 ## 1970
 
 ## Valie Export
+
 * http://www.artwiki.fr/?ValieExport
 
 ## Frank Gillette
+
 * http://www.artwiki.fr/?FrankGillette
 
 ## Michael Snow
+
 * http://www.artwiki.fr/?MichaelSnow
 
 ## Jud Yalkut
+
 * http://www.artwiki.fr/?JudYalkut
 
 ## Shigeko Kubota
+
 * http://www.artwiki.fr/?ShigekoKubota
 
 ## Marina Abramovic & Ulay
+
 * http://www.artwiki.fr/?AbramoviculayVideo70
 
 
 
-## Contemporains
-
-
-## Cinéma Expérimental
-
-* http://www.artwiki.fr/?CinemaExperimental
 
 ## Jean-Pierre Boyer 
+
+<center>
 
 ![Jean-Pierre Boyer, 1950 - ](medias/corpus/boyer/Portrait-e2288.jpg){width=50%}
 
@@ -245,6 +276,8 @@ knitr::include_graphics(c("medias/corpus/paik/____NamJunepaik_0220452w_namjunepa
 ![Phonoptic](medias/corpus/boyer/Phonoptic-33bd2.jpg)
 
 ![video cortex](medias/corpus/boyer/Video-Cortex-b8d37.jpg)
+
+</center>
 
 * https://www.horschamp.qc.ca/spip.php?article535
 * https://vitheque.com/en/directors/jean-pierre-boyer
@@ -272,20 +305,103 @@ Very Nervous System (1986-90)
 
 * https://www.fondation-langlois.org/html/e/page.php?NumPage=1951
 * http://www.davidrokeby.com/vns.html
+* https://www.arshake.com/en/interview-david-rokeby/
 
 
-## Dérapages 
+## Ryoji Ikeda
+
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/91499224" width="100%" height="360" frameborder="0" allowfullscreen></iframe>
+
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/49873167" width="100%" height="360" frameborder="0" allowfullscreen></iframe>
+
+
+https://www.ryojiikeda.com/
+
+http://www.artwiki.fr/?RyojiIkeda
+
+## Contemporains 
+
+## Alexandre Burton + Julien Roy
+<center>
+<iframe src="https://player.vimeo.com/video/239921625?title=0&byline=0&portrait=0" width="100%" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/239921625">trois pi&egrave;ces avec des titres - MUTEK Montr&eacute;al 2017</a> from <a href="https://vimeo.com/artificiel">artificiel</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+</center>
+* https://www.artificiel.org/projet/3pieces
+
+
+## Sabrina Ratté
+
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/495505591" width="100%" height="360" frameborder="0" allowfullscreen></iframe>
+
+
+* http://sabrinaratte.com/FLORALIA-2021
+* https://infrarouge.org/productions#/introduction-la-violence/
+* http://sabrinaratte.com/filter/VIDEOS
+* https://ellephant.org/artists/sabrina-ratte/
+
+## Allison Moore 
+
+* http://www.allisonmoore.net/about
+
+
+## Guillaume Vallée
+
+* https://www.gvallee.com/
+
+
+## TIND :: thisisnotdesign
+
+* http://tind.org/
+
+
+
+## Dérapages
+
+### DEADLINE 17 avril 2021 : date limite pour soumettre un film.
+
+https://derapage.ca/?fbclid=IwAR1VeYPaM7V9x1IoA0_eM9vtRQpD9VERCpwDl4oRTxOXK_n41Vol67EQH5E
+
+###  Dérapages  
 
 https://www.youtube.com/results?search_query=derapage+festival
 
-https://www.youtube.com/watch?v=lvUH7b8x1DM
+<iframe width="100%" height="480" src="https://www.youtube.com/embed/lvUH7b8x1DM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-https://www.youtube.com/watch?v=w3tx2bgip4o
+<iframe width="100%" height="480" src="https://www.youtube.com/embed/w3tx2bgip4o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-https://www.youtube.com/watch?v=sGUgCo1PkzE
+<iframe width="100%" height="480" src="https://www.youtube.com/embed/sGUgCo1PkzE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-https://www.youtube.com/watch?v=DJgUtwhClj4
+<iframe width="100%" height="480" src="https://www.youtube.com/embed/DJgUtwhClj4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-https://www.youtube.com/watch?v=PPZP2A972LM
+<iframe width="100%" height="480" src="https://www.youtube.com/embed/PPZP2A972LM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-https://www.youtube.com/watch?v=JUqmzbIsaAs
+<iframe width="100%" height="480" src="https://www.youtube.com/embed/JUqmzbIsaAs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+
+
+
+## Festivals 
+
+
+###  *FILE* Electronic Language International Festival
+
+* https://file.org.br/videoarte_2018/
+* https://file.org.br/file_sp_2019/
+* https://file.org.br/videoarte_2019/
+
+### Mutek 
+
+* https://mutek.org/en/artists/
+
+
+### *ISEA* Inter-Society for the Electronic Arts 
+
+* https://art2020.isea-international.org/art-portfolio/
+* https://isea2020.isea-international.org/wp-content/uploads/2020/10/ISEA-Programme-book-271020.pdf
+
+
+### HTMlles (Ada X)
+
+* https://www.ada-x.org/productions/festival/

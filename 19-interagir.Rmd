@@ -8,12 +8,12 @@
 
 
 ## Communication via protocoles paramétriques temps réel {#interagir_protocoles} 
-### Open sound control (OSC) {protocole_osc}
-### Websocket {protocole_websocket}
-### MIDI {protocole_midi}
+### Open sound control (OSC) {#protocole_osc}
+### Websocket {#protocole_websocket}
+### MIDI {#protocole_midi}
 
-### DMX {protocole_dmx}
-### ArtNet {protocole_artnet}
+### DMX {#protocole_dmx}
+### ArtNet {#protocole_artnet}
      
 
 ## Programmation de la captation  {#interagir_video}

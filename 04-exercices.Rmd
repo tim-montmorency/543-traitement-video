@@ -83,6 +83,9 @@
     * Capacité d'interagir avec des effets visuels interactifs 
     * Maitrise technique
     * Créativité
+* Peut définitivement s'inspirer de la formule dérapage : 
+    * https://derapage.ca/?fbclid=IwAR1VeYPaM7V9x1IoA0_eM9vtRQpD9VERCpwDl4oRTxOXK_n41Vol67EQH5E
+    
 
 
 ## Performance audiovisuelle temps réel et document accompagnateur {#sommatif_5}
