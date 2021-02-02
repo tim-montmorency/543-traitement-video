@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>4.33 TIND :: thisisnotdesign | Traitement vidéo</title>
+  <meta name="description" content="Le traitement vidéo temps réel, une documentation expérimentale" />
+  <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="4.33 TIND :: thisisnotdesign | Traitement vidéo" />
+  <meta property="og:type" content="book" />
+  
+  <meta property="og:image" content="images/cover.png" />
+  <meta property="og:description" content="Le traitement vidéo temps réel, une documentation expérimentale" />
+  <meta name="github-repo" content="tim-montmorency/543-traitement-video" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="4.33 TIND :: thisisnotdesign | Traitement vidéo" />
+  
+  <meta name="twitter:description" content="Le traitement vidéo temps réel, une documentation expérimentale" />
+  <meta name="twitter:image" content="images/cover.png" />
+
+<meta name="author" content="Guillaume Arseneault" />
+
+
+<meta name="date" content="2021-02-02" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+<link rel="prev" href="guillaume-vallée.html"/>
+<link rel="next" href="dérapages.html"/>
+<script src="assets/header-attrs-2.6.4/header-attrs.js"></script>
+<script src="assets/jquery-2.2.3/jquery.min.js"></script>
+<link href="assets/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="assets/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="assets/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="assets/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="assets/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="assets/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="assets/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Traitement vidéo</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Lisez-moi</a>
+<ul>
+<li class="chapter" data-level="" data-path="sources.html"><a href="sources.html"><i class="fa fa-check"></i>Sources</a></li>
+</ul></li>
+<li class="chapter" data-level="1" data-path="mo-traitement-vidéo.html"><a href="mo-traitement-vidéo.html"><i class="fa fa-check"></i><b>1</b> 582-543-MO Traitement vidéo</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="description-du-cours.html"><a href="description-du-cours.html"><i class="fa fa-check"></i><b>1.1</b> Description du cours</a></li>
+<li class="chapter" data-level="1.2" data-path="objectifs.html"><a href="objectifs.html"><i class="fa fa-check"></i><b>1.2</b> Objectifs</a>
+<ul>
+<li class="chapter" data-level="1.2.1" data-path="objectifs.html"><a href="objectifs.html#intégrateur-et-ministériel"><i class="fa fa-check"></i><b>1.2.1</b> Intégrateur et ministériel</a></li>
+<li class="chapter" data-level="1.2.2" data-path="objectifs.html"><a href="objectifs.html#apprentissages"><i class="fa fa-check"></i><b>1.2.2</b> Apprentissages</a></li>
+</ul></li>
+<li class="chapter" data-level="1.3" data-path="préalables.html"><a href="préalables.html"><i class="fa fa-check"></i><b>1.3</b> Préalables</a>
+<ul>
+<li class="chapter" data-level="1.3.1" data-path="préalables.html"><a href="préalables.html#préalable-absolu-au-présent-cours"><i class="fa fa-check"></i><b>1.3.1</b> Préalable absolu au présent cours :</a></li>
+<li class="chapter" data-level="1.3.2" data-path="préalables.html"><a href="préalables.html#préalable-absolu-aux-cours-suivants"><i class="fa fa-check"></i><b>1.3.2</b> Préalable absolu aux cours suivants :</a></li>
+</ul></li>
+<li class="chapter" data-level="1.4" data-path="méthodologie.html"><a href="méthodologie.html"><i class="fa fa-check"></i><b>1.4</b> Méthodologie </a></li>
+<li class="chapter" data-level="1.5" data-path="développement.html"><a href="développement.html"><i class="fa fa-check"></i><b>1.5</b> Développement</a>
+<ul>
+<li class="chapter" data-level="1.5.1" data-path="développement.html"><a href="développement.html#attitudes-professionnelles"><i class="fa fa-check"></i><b>1.5.1</b> Attitudes professionnelles</a></li>
+<li class="chapter" data-level="1.5.2" data-path="développement.html"><a href="développement.html#habiletés-transdisciplinaires"><i class="fa fa-check"></i><b>1.5.2</b> Habiletés transdisciplinaires</a></li>
+</ul></li>
+<li class="chapter" data-level="1.6" data-path="contexte-particulier-dapprentissage.html"><a href="contexte-particulier-dapprentissage.html"><i class="fa fa-check"></i><b>1.6</b> Contexte particulier d’apprentissage</a>
+<ul>
+<li class="chapter" data-level="1.6.1" data-path="contexte-particulier-dapprentissage.html"><a href="contexte-particulier-dapprentissage.html#fiche-technique"><i class="fa fa-check"></i><b>1.6.1</b> Fiche technique</a></li>
+</ul></li>
+<li class="chapter" data-level="1.7" data-path="contenus-essentiels.html"><a href="contenus-essentiels.html"><i class="fa fa-check"></i><b>1.7</b> Contenus essentiels</a>
+<ul>
+<li class="chapter" data-level="1.7.1" data-path="contenus-essentiels.html"><a href="contenus-essentiels.html#survol-historique"><i class="fa fa-check"></i><b>1.7.1</b> Survol historique</a></li>
+<li class="chapter" data-level="1.7.2" data-path="contenus-essentiels.html"><a href="contenus-essentiels.html#fondements-techniques"><i class="fa fa-check"></i><b>1.7.2</b> Fondements techniques</a></li>
+<li class="chapter" data-level="1.7.3" data-path="contenus-essentiels.html"><a href="contenus-essentiels.html#traitement-de-limage-en-mouvement"><i class="fa fa-check"></i><b>1.7.3</b> Traitement de l’image en mouvement</a></li>
+<li class="chapter" data-level="1.7.4" data-path="contenus-essentiels.html"><a href="contenus-essentiels.html#programmation-deffets-visuels"><i class="fa fa-check"></i><b>1.7.4</b> Programmation d’effets visuels</a></li>
+<li class="chapter" data-level="1.7.5" data-path="contenus-essentiels.html"><a href="contenus-essentiels.html#image-en-mouvement-et-interactivité"><i class="fa fa-check"></i><b>1.7.5</b> Image en mouvement et interactivité</a></li>
+<li class="chapter" data-level="1.7.6" data-path="contenus-essentiels.html"><a href="contenus-essentiels.html#gestion-de-projets"><i class="fa fa-check"></i><b>1.7.6</b> Gestion de projets</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="calendrier.html"><a href="calendrier.html"><i class="fa fa-check"></i><b>2</b> Calendrier</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="semaine-1.html"><a href="semaine-1.html"><i class="fa fa-check"></i><b>2.1</b> Séance <span>1; 3 février</span></a>
+<ul>
+<li class="chapter" data-level="2.1.1" data-path="semaine-1.html"><a href="semaine-1.html#objectifs-abordés-en-classe"><i class="fa fa-check"></i><b>2.1.1</b> OBJECTIFS ABORDÉS EN CLASSE</a></li>
+<li class="chapter" data-level="2.1.2" data-path="semaine-1.html"><a href="semaine-1.html#activités-autonomes"><i class="fa fa-check"></i><b>2.1.2</b> ACTIVITÉS AUTONOMES</a></li>
+</ul></li>
+<li class="chapter" data-level="2.2" data-path="semaine-2.html"><a href="semaine-2.html"><i class="fa fa-check"></i><b>2.2</b> Séance <span>2; 10 février</span></a>
+<ul>
+<li class="chapter" data-level="2.2.1" data-path="semaine-2.html"><a href="semaine-2.html#objectifs-abordés-en-classe-1"><i class="fa fa-check"></i><b>2.2.1</b> OBJECTIFS ABORDÉS EN CLASSE</a></li>
+<li class="chapter" data-level="2.2.2" data-path="semaine-2.html"><a href="semaine-2.html#activités-autonomes-1"><i class="fa fa-check"></i><b>2.2.2</b> ACTIVITÉS AUTONOMES</a></li>
+</ul></li>
+<li class="chapter" data-level="2.3" data-path="semaine-3.html"><a href="semaine-3.html"><i class="fa fa-check"></i><b>2.3</b> Séance <span>3; 17 février</span></a>
+<ul>
+<li class="chapter" data-level="2.3.1" data-path="semaine-3.html"><a href="semaine-3.html#objectifs-abordés-en-classe-2"><i class="fa fa-check"></i><b>2.3.1</b> OBJECTIFS ABORDÉS EN CLASSE</a></li>
+<li class="chapter" data-level="2.3.2" data-path="semaine-3.html"><a href="semaine-3.html#activités-autonomes-2"><i class="fa fa-check"></i><b>2.3.2</b> ACTIVITÉS AUTONOMES</a></li>
+</ul></li>
+<li class="chapter" data-level="2.4" data-path="semaine-4.html"><a href="semaine-4.html"><i class="fa fa-check"></i><b>2.4</b> Séance <span>4; 24 février</span></a>
+<ul>
+<li class="chapter" data-level="2.4.1" data-path="semaine-4.html"><a href="semaine-4.html#objectifs-abordés-en-classe-3"><i class="fa fa-check"></i><b>2.4.1</b> OBJECTIFS ABORDÉS EN CLASSE</a></li>
+<li class="chapter" data-level="2.4.2" data-path="semaine-4.html"><a href="semaine-4.html#activités-autonomes-3"><i class="fa fa-check"></i><b>2.4.2</b> ACTIVITÉS AUTONOMES</a></li>
+</ul></li>
+<li class="chapter" data-level="2.5" data-path="semaine-5.html"><a href="semaine-5.html"><i class="fa fa-check"></i><b>2.5</b> Séance <span>X; 3 mars</span></a>
+<ul>
+<li class="chapter" data-level="2.5.1" data-path="semaine-5.html"><a href="semaine-5.html#objectifs-abordés-en-classe-4"><i class="fa fa-check"></i><b>2.5.1</b> OBJECTIFS ABORDÉS EN CLASSE</a></li>
+<li class="chapter" data-level="2.5.2" data-path="semaine-5.html"><a href="semaine-5.html#activités-autonomes-4"><i class="fa fa-check"></i><b>2.5.2</b> ACTIVITÉS AUTONOMES</a></li>
+</ul></li>
+<li class="chapter" data-level="2.6" data-path="semaine-6.html"><a href="semaine-6.html"><i class="fa fa-check"></i><b>2.6</b> Séance <span>5; 10 mars</span></a>
+<ul>
+<li class="chapter" data-level="2.6.1" data-path="semaine-6.html"><a href="semaine-6.html#objectifs-abordés-en-classe-5"><i class="fa fa-check"></i><b>2.6.1</b> OBJECTIFS ABORDÉS EN CLASSE</a></li>
+<li class="chapter" data-level="2.6.2" data-path="semaine-6.html"><a href="semaine-6.html#activités-autonomes-5"><i class="fa fa-check"></i><b>2.6.2</b> ACTIVITÉS AUTONOMES</a></li>
+</ul></li>
+<li class="chapter" data-level="2.7" data-path="semaine-7.html"><a href="semaine-7.html"><i class="fa fa-check"></i><b>2.7</b> Séance <span>6; 17 mars</span></a>
+<ul>
+<li class="chapter" data-level="2.7.1" data-path="semaine-7.html"><a href="semaine-7.html#objectifs-abordés-en-classe-6"><i class="fa fa-check"></i><b>2.7.1</b> OBJECTIFS ABORDÉS EN CLASSE</a></li>
+<li class="chapter" data-level="2.7.2" data-path="semaine-7.html"><a href="semaine-7.html#activités-autonomes-6"><i class="fa fa-check"></i><b>2.7.2</b> ACTIVITÉS AUTONOMES</a></li>
+</ul></li>
+<li class="chapter" data-level="2.8" data-path="semaine-8.html"><a href="semaine-8.html"><i class="fa fa-check"></i><b>2.8</b> Séance <span>7; 24 mars</span></a>
+<ul>
+<li class="chapter" data-level="2.8.1" data-path="semaine-8.html"><a href="semaine-8.html#objectifs-abordés-en-classe-7"><i class="fa fa-check"></i><b>2.8.1</b> OBJECTIFS ABORDÉS EN CLASSE</a></li>
+<li class="chapter" data-level="2.8.2" data-path="semaine-8.html"><a href="semaine-8.html#activités-autonomes-7"><i class="fa fa-check"></i><b>2.8.2</b> ACTIVITÉS AUTONOMES</a></li>
+</ul></li>
+<li class="chapter" data-level="2.9" data-path="semaine-9.html"><a href="semaine-9.html"><i class="fa fa-check"></i><b>2.9</b> Séance <span>8; 31 mars</span></a>
+<ul>
+<li class="chapter" data-level="2.9.1" data-path="semaine-9.html"><a href="semaine-9.html#objectifs-abordés-en-classe-8"><i class="fa fa-check"></i><b>2.9.1</b> OBJECTIFS ABORDÉS EN CLASSE</a></li>
+<li class="chapter" data-level="2.9.2" data-path="semaine-9.html"><a href="semaine-9.html#activités-autonomes-8"><i class="fa fa-check"></i><b>2.9.2</b> ACTIVITÉS AUTONOMES</a></li>
+</ul></li>
+<li class="chapter" data-level="2.10" data-path="semaine-10.html"><a href="semaine-10.html"><i class="fa fa-check"></i><b>2.10</b> Séance <span>X; 7 avril</span></a>
+<ul>
+<li class="chapter" data-level="2.10.1" data-path="semaine-10.html"><a href="semaine-10.html#objectifs-abordés-en-classe-9"><i class="fa fa-check"></i><b>2.10.1</b> OBJECTIFS ABORDÉS EN CLASSE</a></li>
+<li class="chapter" data-level="2.10.2" data-path="semaine-10.html"><a href="semaine-10.html#activités-autonomes-9"><i class="fa fa-check"></i><b>2.10.2</b> ACTIVITÉS AUTONOMES</a></li>
+</ul></li>
+<li class="chapter" data-level="2.11" data-path="semaine-11.html"><a href="semaine-11.html"><i class="fa fa-check"></i><b>2.11</b> Séance <span>9; 14 avril</span></a>
+<ul>
+<li class="chapter" data-level="2.11.1" data-path="semaine-11.html"><a href="semaine-11.html#objectifs-abordés-en-classe-10"><i class="fa fa-check"></i><b>2.11.1</b> OBJECTIFS ABORDÉS EN CLASSE</a></li>
+<li class="chapter" data-level="2.11.2" data-path="semaine-11.html"><a href="semaine-11.html#activités-autonomes-10"><i class="fa fa-check"></i><b>2.11.2</b> ACTIVITÉS AUTONOMES</a></li>
+</ul></li>
+<li class="chapter" data-level="2.12" data-path="semaine-12.html"><a href="semaine-12.html"><i class="fa fa-check"></i><b>2.12</b> Séance <span>10; 21 avril</span></a>
+<ul>
+<li class="chapter" data-level="2.12.1" data-path="semaine-12.html"><a href="semaine-12.html#objectifs-abordés-en-classe-11"><i class="fa fa-check"></i><b>2.12.1</b> OBJECTIFS ABORDÉS EN CLASSE</a></li>
+<li class="chapter" data-level="2.12.2" data-path="semaine-12.html"><a href="semaine-12.html#activités-autonomes-11"><i class="fa fa-check"></i><b>2.12.2</b> ACTIVITÉS AUTONOMES</a></li>
+</ul></li>
+<li class="chapter" data-level="2.13" data-path="semaine-13.html"><a href="semaine-13.html"><i class="fa fa-check"></i><b>2.13</b> Séance <span>11; 28 avril</span></a>
+<ul>
+<li class="chapter" data-level="2.13.1" data-path="semaine-13.html"><a href="semaine-13.html#objectifs-abordés-en-classe-12"><i class="fa fa-check"></i><b>2.13.1</b> OBJECTIFS ABORDÉS EN CLASSE</a></li>
+<li class="chapter" data-level="2.13.2" data-path="semaine-13.html"><a href="semaine-13.html#activités-autonomes-12"><i class="fa fa-check"></i><b>2.13.2</b> ACTIVITÉS AUTONOMES</a></li>
+</ul></li>
+<li class="chapter" data-level="2.14" data-path="semaine-14.html"><a href="semaine-14.html"><i class="fa fa-check"></i><b>2.14</b> Séance <span>12; 5 mai</span></a>
+<ul>
+<li class="chapter" data-level="2.14.1" data-path="semaine-14.html"><a href="semaine-14.html#objectifs-abordés-en-classe-13"><i class="fa fa-check"></i><b>2.14.1</b> OBJECTIFS ABORDÉS EN CLASSE</a></li>
+<li class="chapter" data-level="2.14.2" data-path="semaine-14.html"><a href="semaine-14.html#activités-autonomes-13"><i class="fa fa-check"></i><b>2.14.2</b> ACTIVITÉS AUTONOMES</a></li>
+</ul></li>
+<li class="chapter" data-level="2.15" data-path="semaine-15.html"><a href="semaine-15.html"><i class="fa fa-check"></i><b>2.15</b> Séance <span>13; 12 mai</span></a>
+<ul>
+<li class="chapter" data-level="2.15.1" data-path="semaine-15.html"><a href="semaine-15.html#objectifs-abordés-en-classe-14"><i class="fa fa-check"></i><b>2.15.1</b> OBJECTIFS ABORDÉS EN CLASSE</a></li>
+<li class="chapter" data-level="2.15.2" data-path="semaine-15.html"><a href="semaine-15.html#activités-autonomes-14"><i class="fa fa-check"></i><b>2.15.2</b> ACTIVITÉS AUTONOMES</a></li>
+</ul></li>
+<li class="chapter" data-level="2.16" data-path="semaine-16.html"><a href="semaine-16.html"><i class="fa fa-check"></i><b>2.16</b> Séance <span>14; 18 mai</span></a>
+<ul>
+<li class="chapter" data-level="2.16.1" data-path="semaine-16.html"><a href="semaine-16.html#objectifs-abordés-en-classe-15"><i class="fa fa-check"></i><b>2.16.1</b> OBJECTIFS ABORDÉS EN CLASSE</a></li>
+<li class="chapter" data-level="2.16.2" data-path="semaine-16.html"><a href="semaine-16.html#activités-autonomes-15"><i class="fa fa-check"></i><b>2.16.2</b> ACTIVITÉS AUTONOMES</a></li>
+</ul></li>
+<li class="chapter" data-level="2.17" data-path="semaine-17.html"><a href="semaine-17.html"><i class="fa fa-check"></i><b>2.17</b> Séance <span>X; 19 mai</span></a>
+<ul>
+<li class="chapter" data-level="2.17.1" data-path="semaine-17.html"><a href="semaine-17.html#objectifs-abordés-en-classe-16"><i class="fa fa-check"></i><b>2.17.1</b> OBJECTIFS ABORDÉS EN CLASSE</a></li>
+<li class="chapter" data-level="2.17.2" data-path="semaine-17.html"><a href="semaine-17.html#activités-autonomes-16"><i class="fa fa-check"></i><b>2.17.2</b> ACTIVITÉS AUTONOMES</a></li>
+</ul></li>
+<li class="chapter" data-level="2.18" data-path="semaine-18.html"><a href="semaine-18.html"><i class="fa fa-check"></i><b>2.18</b> Séance <span>15; 25 mai</span></a>
+<ul>
+<li class="chapter" data-level="2.18.1" data-path="semaine-18.html"><a href="semaine-18.html#objectifs-abordés-en-classe-17"><i class="fa fa-check"></i><b>2.18.1</b> OBJECTIFS ABORDÉS EN CLASSE</a></li>
+<li class="chapter" data-level="2.18.2" data-path="semaine-18.html"><a href="semaine-18.html#activités-autonomes-17"><i class="fa fa-check"></i><b>2.18.2</b> ACTIVITÉS AUTONOMES</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="exercices.html"><a href="exercices.html"><i class="fa fa-check"></i><b>3</b> Exercices</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="sommatif-1.html"><a href="sommatif-1.html"><i class="fa fa-check"></i><b>3.1</b> Présentation corpus vidéo</a>
+<ul>
+<li class="chapter" data-level="3.1.1" data-path="sommatif-1.html"><a href="sommatif-1.html#consignes"><i class="fa fa-check"></i><b>3.1.1</b> Consignes</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2" data-path="sommatif-2.html"><a href="sommatif-2.html"><i class="fa fa-check"></i><b>3.2</b> Rédaction d’une question portant sur le traitement vidéo</a>
+<ul>
+<li class="chapter" data-level="3.2.1" data-path="sommatif-2.html"><a href="sommatif-2.html#consignes-1"><i class="fa fa-check"></i><b>3.2.1</b> Consignes</a></li>
+</ul></li>
+<li class="chapter" data-level="3.3" data-path="sommatif-3.html"><a href="sommatif-3.html"><i class="fa fa-check"></i><b>3.3</b> Jeu-questionnaire théorique</a>
+<ul>
+<li class="chapter" data-level="3.3.1" data-path="sommatif-3.html"><a href="sommatif-3.html#consignes-2"><i class="fa fa-check"></i><b>3.3.1</b> Consignes</a></li>
+</ul></li>
+<li class="chapter" data-level="3.4" data-path="sommatif-4.html"><a href="sommatif-4.html"><i class="fa fa-check"></i><b>3.4</b> Palette de scènes vidéo interactives</a>
+<ul>
+<li class="chapter" data-level="3.4.1" data-path="sommatif-4.html"><a href="sommatif-4.html#consignes-3"><i class="fa fa-check"></i><b>3.4.1</b> Consignes</a></li>
+</ul></li>
+<li class="chapter" data-level="3.5" data-path="sommatif-5.html"><a href="sommatif-5.html"><i class="fa fa-check"></i><b>3.5</b> Performance audiovisuelle temps réel et document accompagnateur</a>
+<ul>
+<li class="chapter" data-level="3.5.1" data-path="sommatif-5.html"><a href="sommatif-5.html#consignes-4"><i class="fa fa-check"></i><b>3.5.1</b> Consignes</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="corpus.html"><a href="corpus.html"><i class="fa fa-check"></i><b>4</b> Corpus d’art vidéo</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="les-origines.html"><a href="les-origines.html"><i class="fa fa-check"></i><b>4.1</b> Les origines</a></li>
+<li class="chapter" data-level="4.2" data-path="eadward-muybridge.html"><a href="eadward-muybridge.html"><i class="fa fa-check"></i><b>4.2</b> Eadward Muybridge</a></li>
+<li class="chapter" data-level="4.3" data-path="georges-mélies.html"><a href="georges-mélies.html"><i class="fa fa-check"></i><b>4.3</b> Georges Mélies</a></li>
+<li class="chapter" data-level="4.4" data-path="dziga-vertov.html"><a href="dziga-vertov.html"><i class="fa fa-check"></i><b>4.4</b> Dziga Vertov</a></li>
+<li class="chapter" data-level="4.5" data-path="futurisme-et-lart-vidéo.html"><a href="futurisme-et-lart-vidéo.html"><i class="fa fa-check"></i><b>4.5</b> Futurisme et l’art vidéo</a></li>
+<li class="chapter" data-level="4.6" data-path="umberto-boccioni.html"><a href="umberto-boccioni.html"><i class="fa fa-check"></i><b>4.6</b> Umberto Boccioni</a></li>
+<li class="chapter" data-level="4.7" data-path="anton-giulio-bragaglia.html"><a href="anton-giulio-bragaglia.html"><i class="fa fa-check"></i><b>4.7</b> Anton Giulio Bragaglia</a></li>
+<li class="chapter" data-level="4.8" data-path="marcel-duchamp.html"><a href="marcel-duchamp.html"><i class="fa fa-check"></i><b>4.8</b> Marcel Duchamp</a></li>
+<li class="chapter" data-level="4.9" data-path="stan-brakhage.html"><a href="stan-brakhage.html"><i class="fa fa-check"></i><b>4.9</b> Stan Brakhage</a></li>
+<li class="chapter" data-level="4.10" data-path="john-milton-cage.html"><a href="john-milton-cage.html"><i class="fa fa-check"></i><b>4.10</b> John Milton Cage</a></li>
+<li class="chapter" data-level="4.11" data-path="fluxus.html"><a href="fluxus.html"><i class="fa fa-check"></i><b>4.11</b> Fluxus</a></li>
+<li class="chapter" data-level="4.12" data-path="norman-mclaren.html"><a href="norman-mclaren.html"><i class="fa fa-check"></i><b>4.12</b> Norman McLaren</a></li>
+<li class="chapter" data-level="4.13" data-path="et-le-début-de-la-vidéo.html"><a href="et-le-début-de-la-vidéo.html"><i class="fa fa-check"></i><b>4.13</b> 1960 et le début de la vidéo</a></li>
+<li class="chapter" data-level="4.14" data-path="nam-june-paik.html"><a href="nam-june-paik.html"><i class="fa fa-check"></i><b>4.14</b> Nam June Paik</a></li>
+<li class="chapter" data-level="4.15" data-path="steina-and-woody-vasulka.html"><a href="steina-and-woody-vasulka.html"><i class="fa fa-check"></i><b>4.15</b> Steina and Woody Vasulka</a></li>
+<li class="chapter" data-level="4.16" data-path="wolf-vostell.html"><a href="wolf-vostell.html"><i class="fa fa-check"></i><b>4.16</b> Wolf Vostell</a></li>
+<li class="chapter" data-level="4.17" data-path="les-levine.html"><a href="les-levine.html"><i class="fa fa-check"></i><b>4.17</b> Les Levine</a></li>
+<li class="chapter" data-level="4.18" data-path="section.html"><a href="section.html"><i class="fa fa-check"></i><b>4.18</b> 1970</a></li>
+<li class="chapter" data-level="4.19" data-path="valie-export.html"><a href="valie-export.html"><i class="fa fa-check"></i><b>4.19</b> Valie Export</a></li>
+<li class="chapter" data-level="4.20" data-path="frank-gillette.html"><a href="frank-gillette.html"><i class="fa fa-check"></i><b>4.20</b> Frank Gillette</a></li>
+<li class="chapter" data-level="4.21" data-path="michael-snow.html"><a href="michael-snow.html"><i class="fa fa-check"></i><b>4.21</b> Michael Snow</a></li>
+<li class="chapter" data-level="4.22" data-path="jud-yalkut.html"><a href="jud-yalkut.html"><i class="fa fa-check"></i><b>4.22</b> Jud Yalkut</a></li>
+<li class="chapter" data-level="4.23" data-path="shigeko-kubota.html"><a href="shigeko-kubota.html"><i class="fa fa-check"></i><b>4.23</b> Shigeko Kubota</a></li>
+<li class="chapter" data-level="4.24" data-path="marina-abramovic-ulay.html"><a href="marina-abramovic-ulay.html"><i class="fa fa-check"></i><b>4.24</b> Marina Abramovic &amp; Ulay</a></li>
+<li class="chapter" data-level="4.25" data-path="jean-pierre-boyer.html"><a href="jean-pierre-boyer.html"><i class="fa fa-check"></i><b>4.25</b> Jean-Pierre Boyer</a></li>
+<li class="chapter" data-level="4.26" data-path="david-rokeby.html"><a href="david-rokeby.html"><i class="fa fa-check"></i><b>4.26</b> David Rokeby</a></li>
+<li class="chapter" data-level="4.27" data-path="ryoji-ikeda.html"><a href="ryoji-ikeda.html"><i class="fa fa-check"></i><b>4.27</b> Ryoji Ikeda</a></li>
+<li class="chapter" data-level="4.28" data-path="contemporains.html"><a href="contemporains.html"><i class="fa fa-check"></i><b>4.28</b> Contemporains</a></li>
+<li class="chapter" data-level="4.29" data-path="alexandre-burton-julien-roy.html"><a href="alexandre-burton-julien-roy.html"><i class="fa fa-check"></i><b>4.29</b> Alexandre Burton + Julien Roy</a></li>
+<li class="chapter" data-level="4.30" data-path="sabrina-ratté.html"><a href="sabrina-ratté.html"><i class="fa fa-check"></i><b>4.30</b> Sabrina Ratté</a></li>
+<li class="chapter" data-level="4.31" data-path="allison-moore.html"><a href="allison-moore.html"><i class="fa fa-check"></i><b>4.31</b> Allison Moore</a></li>
+<li class="chapter" data-level="4.32" data-path="guillaume-vallée.html"><a href="guillaume-vallée.html"><i class="fa fa-check"></i><b>4.32</b> Guillaume Vallée</a></li>
+<li class="chapter" data-level="4.33" data-path="tind-thisisnotdesign.html"><a href="tind-thisisnotdesign.html"><i class="fa fa-check"></i><b>4.33</b> TIND :: thisisnotdesign</a></li>
+<li class="chapter" data-level="4.34" data-path="dérapages.html"><a href="dérapages.html"><i class="fa fa-check"></i><b>4.34</b> Dérapages</a>
+<ul>
+<li class="chapter" data-level="4.34.1" data-path="dérapages.html"><a href="dérapages.html#deadline-17-avril-2021-date-limite-pour-soumettre-un-film."><i class="fa fa-check"></i><b>4.34.1</b> DEADLINE 17 avril 2021 : date limite pour soumettre un film.</a></li>
+<li class="chapter" data-level="4.34.2" data-path="dérapages.html"><a href="dérapages.html#dérapages-1"><i class="fa fa-check"></i><b>4.34.2</b> Dérapages</a></li>
+</ul></li>
+<li class="chapter" data-level="4.35" data-path="festivals.html"><a href="festivals.html"><i class="fa fa-check"></i><b>4.35</b> Festivals</a>
+<ul>
+<li class="chapter" data-level="4.35.1" data-path="festivals.html"><a href="festivals.html#file-electronic-language-international-festival"><i class="fa fa-check"></i><b>4.35.1</b> <em>FILE</em> Electronic Language International Festival</a></li>
+<li class="chapter" data-level="4.35.2" data-path="festivals.html"><a href="festivals.html#mutek"><i class="fa fa-check"></i><b>4.35.2</b> Mutek</a></li>
+<li class="chapter" data-level="4.35.3" data-path="festivals.html"><a href="festivals.html#isea-inter-society-for-the-electronic-arts"><i class="fa fa-check"></i><b>4.35.3</b> <em>ISEA</em> Inter-Society for the Electronic Arts</a></li>
+<li class="chapter" data-level="4.35.4" data-path="festivals.html"><a href="festivals.html#htmlles-ada-x"><i class="fa fa-check"></i><b>4.35.4</b> HTMlles (Ada X)</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="historique.html"><a href="historique.html"><i class="fa fa-check"></i><b>5</b> Historique du traitement vidéo</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="evolution-historique.html"><a href="evolution-historique.html"><i class="fa fa-check"></i><b>5.1</b> Évolution historique du traitement vidéo dans les différentes formes d’art</a>
+<ul>
+<li class="chapter" data-level="5.1.1" data-path="evolution-historique.html"><a href="evolution-historique.html#contextualisation-générale-de-lart-vidéo"><i class="fa fa-check"></i><b>5.1.1</b> Contextualisation générale de l’art vidéo</a></li>
+<li class="chapter" data-level="5.1.2" data-path="evolution-historique.html"><a href="evolution-historique.html#evolution_historique_performance"><i class="fa fa-check"></i><b>5.1.2</b> Performance</a></li>
+<li class="chapter" data-level="5.1.3" data-path="evolution-historique.html"><a href="evolution-historique.html#evolution_historique_installation"><i class="fa fa-check"></i><b>5.1.3</b> Installation</a></li>
+<li class="chapter" data-level="5.1.4" data-path="evolution-historique.html"><a href="evolution-historique.html#cinéma-expérimental"><i class="fa fa-check"></i><b>5.1.4</b> Cinéma Expérimental</a></li>
+<li class="chapter" data-level="5.1.5" data-path="evolution-historique.html"><a href="evolution-historique.html#evolution_historique_technologies"><i class="fa fa-check"></i><b>5.1.5</b> Évolution des technologies associées</a></li>
+</ul></li>
+<li class="chapter" data-level="5.2" data-path="evolution-historique-language.html"><a href="evolution-historique-language.html"><i class="fa fa-check"></i><b>5.2</b> Langages et moyens expressifs de l’image en mouvement</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="lexique.html"><a href="lexique.html"><i class="fa fa-check"></i><b>6</b> Lexique technique et technologique</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="lexique-composantes.html"><a href="lexique-composantes.html"><i class="fa fa-check"></i><b>6.1</b> Composantes du signal vidéo</a>
+<ul>
+<li class="chapter" data-level="6.1.1" data-path="lexique-composantes.html"><a href="lexique-composantes.html#signaux-de-transmission"><i class="fa fa-check"></i><b>6.1.1</b> Signaux de transmission</a></li>
+<li class="chapter" data-level="6.1.2" data-path="lexique-composantes.html"><a href="lexique-composantes.html#résolutions"><i class="fa fa-check"></i><b>6.1.2</b> résolutions</a></li>
+<li class="chapter" data-level="6.1.3" data-path="lexique-composantes.html"><a href="lexique-composantes.html#ratio"><i class="fa fa-check"></i><b>6.1.3</b> Ratio</a></li>
+<li class="chapter" data-level="6.1.4" data-path="lexique-composantes.html"><a href="lexique-composantes.html#débit"><i class="fa fa-check"></i><b>6.1.4</b> Débit</a></li>
+<li class="chapter" data-level="6.1.5" data-path="lexique-composantes.html"><a href="lexique-composantes.html#échantillonnage"><i class="fa fa-check"></i><b>6.1.5</b> Échantillonnage</a></li>
+<li class="chapter" data-level="6.1.6" data-path="lexique-composantes.html"><a href="lexique-composantes.html#cadence"><i class="fa fa-check"></i><b>6.1.6</b> Cadence</a></li>
+<li class="chapter" data-level="6.1.7" data-path="lexique-composantes.html"><a href="lexique-composantes.html#trame"><i class="fa fa-check"></i><b>6.1.7</b> Trame</a></li>
+<li class="chapter" data-level="6.1.8" data-path="lexique-composantes.html"><a href="lexique-composantes.html#poid"><i class="fa fa-check"></i><b>6.1.8</b> Poid</a></li>
+</ul></li>
+<li class="chapter" data-level="6.2" data-path="lexique-fichiers.html"><a href="lexique-fichiers.html"><i class="fa fa-check"></i><b>6.2</b> Formats de fichiers</a>
+<ul>
+<li class="chapter" data-level="6.2.1" data-path="lexique-fichiers.html"><a href="lexique-fichiers.html#containers"><i class="fa fa-check"></i><b>6.2.1</b> Containers</a></li>
+<li class="chapter" data-level="6.2.2" data-path="lexique-fichiers.html"><a href="lexique-fichiers.html#codecs"><i class="fa fa-check"></i><b>6.2.2</b> Codecs</a></li>
+</ul></li>
+<li class="chapter" data-level="6.3" data-path="lexique-encodage.html"><a href="lexique-encodage.html"><i class="fa fa-check"></i><b>6.3</b> Encodage vidéo</a>
+<ul>
+<li class="chapter" data-level="6.3.1" data-path="lexique-encodage.html"><a href="lexique-encodage.html#compression"><i class="fa fa-check"></i><b>6.3.1</b> compression</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="acquerir.html"><a href="acquerir.html"><i class="fa fa-check"></i><b>7</b> Acquerir</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="acquerir-captation.html"><a href="acquerir-captation.html"><i class="fa fa-check"></i><b>7.1</b> Acquisition vidéo en temps réel</a>
+<ul>
+<li class="chapter" data-level="7.1.1" data-path="acquerir-captation.html"><a href="acquerir-captation.html#caméra-usb"><i class="fa fa-check"></i><b>7.1.1</b> Caméra USB</a></li>
+<li class="chapter" data-level="7.1.2" data-path="acquerir-captation.html"><a href="acquerir-captation.html#capture-décran"><i class="fa fa-check"></i><b>7.1.2</b> Capture d’écran</a></li>
+<li class="chapter" data-level="7.1.3" data-path="acquerir-captation.html"><a href="acquerir-captation.html#capture-de-fenêtre"><i class="fa fa-check"></i><b>7.1.3</b> Capture de fenêtre</a></li>
+<li class="chapter" data-level="7.1.4" data-path="acquerir-captation.html"><a href="acquerir-captation.html#capture-de-contexte-gl-game-capture"><i class="fa fa-check"></i><b>7.1.4</b> Capture de contexte GL (Game capture)</a></li>
+<li class="chapter" data-level="7.1.5" data-path="acquerir-captation.html"><a href="acquerir-captation.html#partage-de-texture-vidéo-spout-syphon"><i class="fa fa-check"></i><b>7.1.5</b> Partage de texture vidéo (Spout, Syphon)</a></li>
+</ul></li>
+<li class="chapter" data-level="7.2" data-path="usages-de-capture-vidéo-temps-réel.html"><a href="usages-de-capture-vidéo-temps-réel.html"><i class="fa fa-check"></i><b>7.2</b> Usages de capture vidéo temps réel</a>
+<ul>
+<li class="chapter" data-level="7.2.1" data-path="usages-de-capture-vidéo-temps-réel.html"><a href="usages-de-capture-vidéo-temps-réel.html#caméra-virtuelle"><i class="fa fa-check"></i><b>7.2.1</b> Caméra virtuelle ()</a></li>
+</ul></li>
+<li class="chapter" data-level="7.3" data-path="captation-de-mouvement-et-de-présence.html"><a href="captation-de-mouvement-et-de-présence.html"><i class="fa fa-check"></i><b>7.3</b> Captation de mouvement et de présence</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="echantillonner.html"><a href="echantillonner.html"><i class="fa fa-check"></i><b>8</b> Échantillonner</a>
+<ul>
+<li class="chapter" data-level="8.1" data-path="enregistrer.html"><a href="enregistrer.html"><i class="fa fa-check"></i><b>8.1</b> Enregistrer</a>
+<ul>
+<li class="chapter" data-level="8.1.1" data-path="enregistrer.html"><a href="enregistrer.html#formats-de-sauvegarde"><i class="fa fa-check"></i><b>8.1.1</b> Formats de sauvegarde</a></li>
+<li class="chapter" data-level="8.1.2" data-path="enregistrer.html"><a href="enregistrer.html#sauvegarde-et-archivage-des-médias"><i class="fa fa-check"></i><b>8.1.2</b> Sauvegarde et archivage des médias</a></li>
+<li class="chapter" data-level="8.1.3" data-path="enregistrer.html"><a href="enregistrer.html#gestion-de-banques-dimages"><i class="fa fa-check"></i><b>8.1.3</b> Gestion de banques d’images</a></li>
+</ul></li>
+<li class="chapter" data-level="8.2" data-path="lecture.html"><a href="lecture.html"><i class="fa fa-check"></i><b>8.2</b> Lecture</a>
+<ul>
+<li class="chapter" data-level="8.2.1" data-path="lecture.html"><a href="lecture.html#position"><i class="fa fa-check"></i><b>8.2.1</b> Position</a></li>
+<li class="chapter" data-level="8.2.2" data-path="lecture.html"><a href="lecture.html#boucle"><i class="fa fa-check"></i><b>8.2.2</b> Boucle</a></li>
+<li class="chapter" data-level="8.2.3" data-path="lecture.html"><a href="lecture.html#vitesse"><i class="fa fa-check"></i><b>8.2.3</b> Vitesse</a></li>
+<li class="chapter" data-level="8.2.4" data-path="lecture.html"><a href="lecture.html#contrôler-de-la-tête-de-lecture-vidéo"><i class="fa fa-check"></i><b>8.2.4</b> Contrôler de la tête de lecture vidéo</a></li>
+<li class="chapter" data-level="8.2.5" data-path="lecture.html"><a href="lecture.html#montage-temps-réel"><i class="fa fa-check"></i><b>8.2.5</b> Montage temps réel</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="traiter.html"><a href="traiter.html"><i class="fa fa-check"></i><b>9</b> Traiter</a>
+<ul>
+<li class="chapter" data-level="9.1" data-path="traiter-logiciels.html"><a href="traiter-logiciels.html"><i class="fa fa-check"></i><b>9.1</b> Logiciels de traitement vidéo interactif en temps réel</a>
+<ul>
+<li class="chapter" data-level="9.1.1" data-path="traiter-logiciels.html"><a href="traiter-logiciels.html#libres-et-gratuits"><i class="fa fa-check"></i><b>9.1.1</b> Libres et gratuits</a></li>
+</ul></li>
+<li class="chapter" data-level="9.2" data-path="notions-de-traitement-vidéo.html"><a href="notions-de-traitement-vidéo.html"><i class="fa fa-check"></i><b>9.2</b> Notions de traitement vidéo</a>
+<ul>
+<li class="chapter" data-level="9.2.1" data-path="notions-de-traitement-vidéo.html"><a href="notions-de-traitement-vidéo.html#position-1"><i class="fa fa-check"></i><b>9.2.1</b> Position</a></li>
+<li class="chapter" data-level="9.2.2" data-path="notions-de-traitement-vidéo.html"><a href="notions-de-traitement-vidéo.html#rotation"><i class="fa fa-check"></i><b>9.2.2</b> Rotation</a></li>
+<li class="chapter" data-level="9.2.3" data-path="notions-de-traitement-vidéo.html"><a href="notions-de-traitement-vidéo.html#dimensions"><i class="fa fa-check"></i><b>9.2.3</b> Dimensions</a></li>
+<li class="chapter" data-level="9.2.4" data-path="notions-de-traitement-vidéo.html"><a href="notions-de-traitement-vidéo.html#distorsion"><i class="fa fa-check"></i><b>9.2.4</b> Distorsion</a></li>
+<li class="chapter" data-level="9.2.5" data-path="notions-de-traitement-vidéo.html"><a href="notions-de-traitement-vidéo.html#canal-alpha-alpha-channel"><i class="fa fa-check"></i><b>9.2.5</b> Canal Alpha Alpha channel</a></li>
+<li class="chapter" data-level="9.2.6" data-path="notions-de-traitement-vidéo.html"><a href="notions-de-traitement-vidéo.html#modification-de-couleurs"><i class="fa fa-check"></i><b>9.2.6</b> Modification de couleurs</a></li>
+<li class="chapter" data-level="9.2.7" data-path="notions-de-traitement-vidéo.html"><a href="notions-de-traitement-vidéo.html#niveau-des-couleurs"><i class="fa fa-check"></i><b>9.2.7</b> Niveau des couleurs</a></li>
+<li class="chapter" data-level="9.2.8" data-path="notions-de-traitement-vidéo.html"><a href="notions-de-traitement-vidéo.html#mixage-dimages"><i class="fa fa-check"></i><b>9.2.8</b> Mixage d’images</a></li>
+<li class="chapter" data-level="9.2.9" data-path="notions-de-traitement-vidéo.html"><a href="notions-de-traitement-vidéo.html#incrustation"><i class="fa fa-check"></i><b>9.2.9</b> Incrustation</a></li>
+<li class="chapter" data-level="9.2.10" data-path="notions-de-traitement-vidéo.html"><a href="notions-de-traitement-vidéo.html#chromakey"><i class="fa fa-check"></i><b>9.2.10</b> chromakey</a></li>
+<li class="chapter" data-level="9.2.11" data-path="notions-de-traitement-vidéo.html"><a href="notions-de-traitement-vidéo.html#délais"><i class="fa fa-check"></i><b>9.2.11</b> Délais</a></li>
+<li class="chapter" data-level="9.2.12" data-path="notions-de-traitement-vidéo.html"><a href="notions-de-traitement-vidéo.html#rétroaction-feedback"><i class="fa fa-check"></i><b>9.2.12</b> Rétroaction (feedback)</a></li>
+<li class="chapter" data-level="9.2.13" data-path="notions-de-traitement-vidéo.html"><a href="notions-de-traitement-vidéo.html#pixels"><i class="fa fa-check"></i><b>9.2.13</b> Pixels</a></li>
+<li class="chapter" data-level="9.2.14" data-path="notions-de-traitement-vidéo.html"><a href="notions-de-traitement-vidéo.html#couleurs"><i class="fa fa-check"></i><b>9.2.14</b> Couleurs</a></li>
+<li class="chapter" data-level="9.2.15" data-path="notions-de-traitement-vidéo.html"><a href="notions-de-traitement-vidéo.html#texture"><i class="fa fa-check"></i><b>9.2.15</b> Texture</a></li>
+<li class="chapter" data-level="9.2.16" data-path="notions-de-traitement-vidéo.html"><a href="notions-de-traitement-vidéo.html#matrices"><i class="fa fa-check"></i><b>9.2.16</b> Matrices</a></li>
+<li class="chapter" data-level="9.2.17" data-path="notions-de-traitement-vidéo.html"><a href="notions-de-traitement-vidéo.html#mémoire-tampon"><i class="fa fa-check"></i><b>9.2.17</b> Mémoire tampon</a></li>
+<li class="chapter" data-level="9.2.18" data-path="notions-de-traitement-vidéo.html"><a href="notions-de-traitement-vidéo.html#alpha-channel"><i class="fa fa-check"></i><b>9.2.18</b> Alpha channel</a></li>
+<li class="chapter" data-level="9.2.19" data-path="notions-de-traitement-vidéo.html"><a href="notions-de-traitement-vidéo.html#rendu-opengl"><i class="fa fa-check"></i><b>9.2.19</b> Rendu OpenGL</a></li>
+</ul></li>
+<li class="chapter" data-level="9.3" data-path="traitement-visuel-en-temps-réel-à-laide-deffets-et-de-logiciels-de-programmation-multimédia-et-nodale.html"><a href="traitement-visuel-en-temps-réel-à-laide-deffets-et-de-logiciels-de-programmation-multimédia-et-nodale.html"><i class="fa fa-check"></i><b>9.3</b> Traitement visuel en temps réel à l’aide d’effets et de logiciels de programmation multimédia et nodale</a></li>
+<li class="chapter" data-level="9.4" data-path="exploitation-des-fonctions-des-logiciels-de-traitement-vidéo-en-temps-réel.html"><a href="exploitation-des-fonctions-des-logiciels-de-traitement-vidéo-en-temps-réel.html"><i class="fa fa-check"></i><b>9.4</b> Exploitation des fonctions des logiciels de traitement vidéo en temps réel</a></li>
+<li class="chapter" data-level="9.5" data-path="utilisation-de-nuanciers-shaders.html"><a href="utilisation-de-nuanciers-shaders.html"><i class="fa fa-check"></i><b>9.5</b> Utilisation de nuanciers (shaders)</a></li>
+</ul></li>
+<li class="chapter" data-level="10" data-path="programmer.html"><a href="programmer.html"><i class="fa fa-check"></i><b>10</b> Programmer</a>
+<ul>
+<li class="chapter" data-level="10.1" data-path="programmer-logiciels.html"><a href="programmer-logiciels.html"><i class="fa fa-check"></i><b>10.1</b> Logiciels de programmation</a></li>
+<li class="chapter" data-level="10.2" data-path="programmation-deffets-temps-réel.html"><a href="programmation-deffets-temps-réel.html"><i class="fa fa-check"></i><b>10.2</b> Programmation d’effets temps réel</a>
+<ul>
+<li class="chapter" data-level="10.2.1" data-path="programmation-deffets-temps-réel.html"><a href="programmation-deffets-temps-réel.html#nuanceurs-shaders"><i class="fa fa-check"></i><b>10.2.1</b> Nuanceurs (shaders) :</a></li>
+</ul></li>
+<li class="chapter" data-level="10.3" data-path="programmation-de-compositions-visuelles-génératives.html"><a href="programmation-de-compositions-visuelles-génératives.html"><i class="fa fa-check"></i><b>10.3</b> Programmation de compositions visuelles génératives</a></li>
+</ul></li>
+<li class="chapter" data-level="11" data-path="interagir.html"><a href="interagir.html"><i class="fa fa-check"></i><b>11</b> Interagir</a>
+<ul>
+<li class="chapter" data-level="11.1" data-path="effets-visuels-et-filtres-applicables-en-temps-réel-sur-des-matériaux-visuels.html"><a href="effets-visuels-et-filtres-applicables-en-temps-réel-sur-des-matériaux-visuels.html"><i class="fa fa-check"></i><b>11.1</b> Effets visuels et filtres applicables en temps réel sur des matériaux visuels</a></li>
+<li class="chapter" data-level="11.2" data-path="flot-de-données-entre-les-objets-du-logiciel.html"><a href="flot-de-données-entre-les-objets-du-logiciel.html"><i class="fa fa-check"></i><b>11.2</b> Flot de données entre les objets du logiciel</a></li>
+<li class="chapter" data-level="11.3" data-path="interagir-interfaces.html"><a href="interagir-interfaces.html"><i class="fa fa-check"></i><b>11.3</b> Utilisation d’interfaces de contrôle interactives</a></li>
+<li class="chapter" data-level="11.4" data-path="interagir-protocoles.html"><a href="interagir-protocoles.html"><i class="fa fa-check"></i><b>11.4</b> Communication via protocoles paramétriques temps réel</a>
+<ul>
+<li class="chapter" data-level="11.4.1" data-path="interagir-protocoles.html"><a href="interagir-protocoles.html#protocole_osc"><i class="fa fa-check"></i><b>11.4.1</b> Open sound control (OSC)</a></li>
+<li class="chapter" data-level="11.4.2" data-path="interagir-protocoles.html"><a href="interagir-protocoles.html#protocole_websocket"><i class="fa fa-check"></i><b>11.4.2</b> Websocket</a></li>
+<li class="chapter" data-level="11.4.3" data-path="interagir-protocoles.html"><a href="interagir-protocoles.html#protocole_midi"><i class="fa fa-check"></i><b>11.4.3</b> MIDI</a></li>
+<li class="chapter" data-level="11.4.4" data-path="interagir-protocoles.html"><a href="interagir-protocoles.html#protocole_dmx"><i class="fa fa-check"></i><b>11.4.4</b> DMX</a></li>
+<li class="chapter" data-level="11.4.5" data-path="interagir-protocoles.html"><a href="interagir-protocoles.html#protocole_artnet"><i class="fa fa-check"></i><b>11.4.5</b> ArtNet</a></li>
+</ul></li>
+<li class="chapter" data-level="11.5" data-path="interagir-video.html"><a href="interagir-video.html"><i class="fa fa-check"></i><b>11.5</b> Programmation de la captation</a>
+<ul>
+<li class="chapter" data-level="11.5.1" data-path="interagir-video.html"><a href="interagir-video.html#interagir_mouvement"><i class="fa fa-check"></i><b>11.5.1</b> Mouvement</a></li>
+<li class="chapter" data-level="11.5.2" data-path="interagir-video.html"><a href="interagir-video.html#interagir_presence"><i class="fa fa-check"></i><b>11.5.2</b> Présence</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="12" data-path="deployer.html"><a href="deployer.html"><i class="fa fa-check"></i><b>12</b> Déployer</a>
+<ul>
+<li class="chapter" data-level="12.1" data-path="intégration-des-composantes-dans-une-production-interactive.html"><a href="intégration-des-composantes-dans-une-production-interactive.html"><i class="fa fa-check"></i><b>12.1</b> Intégration des composantes dans une production interactive</a>
+<ul>
+<li class="chapter" data-level="12.1.1" data-path="intégration-des-composantes-dans-une-production-interactive.html"><a href="intégration-des-composantes-dans-une-production-interactive.html#conceptualisation"><i class="fa fa-check"></i><b>12.1.1</b> Conceptualisation</a></li>
+<li class="chapter" data-level="12.1.2" data-path="intégration-des-composantes-dans-une-production-interactive.html"><a href="intégration-des-composantes-dans-une-production-interactive.html#scénarisation"><i class="fa fa-check"></i><b>12.1.2</b> Scénarisation</a></li>
+<li class="chapter" data-level="12.1.3" data-path="intégration-des-composantes-dans-une-production-interactive.html"><a href="intégration-des-composantes-dans-une-production-interactive.html#schématisation"><i class="fa fa-check"></i><b>12.1.3</b> Schématisation</a></li>
+<li class="chapter" data-level="12.1.4" data-path="intégration-des-composantes-dans-une-production-interactive.html"><a href="intégration-des-composantes-dans-une-production-interactive.html#prototypage"><i class="fa fa-check"></i><b>12.1.4</b> Prototypage</a></li>
+</ul></li>
+<li class="chapter" data-level="12.2" data-path="configuration-logicielle-et-matérielle-dune-production-interactive.html"><a href="configuration-logicielle-et-matérielle-dune-production-interactive.html"><i class="fa fa-check"></i><b>12.2</b> Configuration logicielle et matérielle d’une production interactive</a>
+<ul>
+<li class="chapter" data-level="12.2.1" data-path="configuration-logicielle-et-matérielle-dune-production-interactive.html"><a href="configuration-logicielle-et-matérielle-dune-production-interactive.html#préréglages"><i class="fa fa-check"></i><b>12.2.1</b> Préréglages</a></li>
+<li class="chapter" data-level="12.2.2" data-path="configuration-logicielle-et-matérielle-dune-production-interactive.html"><a href="configuration-logicielle-et-matérielle-dune-production-interactive.html#optimisation-de-la-programmation-et-commentaires"><i class="fa fa-check"></i><b>12.2.2</b> Optimisation de la programmation et commentaires</a></li>
+<li class="chapter" data-level="12.2.3" data-path="configuration-logicielle-et-matérielle-dune-production-interactive.html"><a href="configuration-logicielle-et-matérielle-dune-production-interactive.html#exportation-de-projets"><i class="fa fa-check"></i><b>12.2.3</b> Exportation de projets</a></li>
+</ul></li>
+<li class="chapter" data-level="12.3" data-path="tests-et-contrôle-de-la-qualité.html"><a href="tests-et-contrôle-de-la-qualité.html"><i class="fa fa-check"></i><b>12.3</b> Tests et contrôle de la qualité</a>
+<ul>
+<li class="chapter" data-level="12.3.1" data-path="tests-et-contrôle-de-la-qualité.html"><a href="tests-et-contrôle-de-la-qualité.html#ajustement-des-effets-visuels-en-fonction-des-tests"><i class="fa fa-check"></i><b>12.3.1</b> Ajustement des effets visuels en fonction des tests</a></li>
+<li class="chapter" data-level="12.3.2" data-path="tests-et-contrôle-de-la-qualité.html"><a href="tests-et-contrôle-de-la-qualité.html#protocole-de-débogage-via-console"><i class="fa fa-check"></i><b>12.3.2</b> Protocole de débogage via console</a></li>
+<li class="chapter" data-level="12.3.3" data-path="tests-et-contrôle-de-la-qualité.html"><a href="tests-et-contrôle-de-la-qualité.html#optimisation-des-performances-de-lapplication"><i class="fa fa-check"></i><b>12.3.3</b> Optimisation des performances de l’application</a></li>
+<li class="chapter" data-level="12.3.4" data-path="tests-et-contrôle-de-la-qualité.html"><a href="tests-et-contrôle-de-la-qualité.html#application-autonome"><i class="fa fa-check"></i><b>12.3.4</b> Application autonome</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="13" data-path="examples-html.html"><a href="examples-html.html"><i class="fa fa-check"></i><b>13</b> Examples HTML</a></li>
+<li class="chapter" data-level="14" data-path="ffmpeg.html"><a href="ffmpeg.html"><i class="fa fa-check"></i><b>14</b> ffmpeg</a>
+<ul>
+<li class="chapter" data-level="14.1" data-path="utilisation-de-ffmpeg.html"><a href="utilisation-de-ffmpeg.html"><i class="fa fa-check"></i><b>14.1</b> utilisation de FFmpeg</a>
+<ul>
+<li class="chapter" data-level="14.1.1" data-path="utilisation-de-ffmpeg.html"><a href="utilisation-de-ffmpeg.html#ex-transcoder-un-fichier-video-vers-un-fichier-prores-compatible-avec-quicktime"><i class="fa fa-check"></i><b>14.1.1</b> ex: Transcoder un fichier video vers un fichier prores compatible avec quicktime</a></li>
+</ul></li>
+<li class="chapter" data-level="14.2" data-path="ffplay.html"><a href="ffplay.html"><i class="fa fa-check"></i><b>14.2</b> FFplay</a></li>
+</ul></li>
+<li class="chapter" data-level="15" data-path="obs.html"><a href="obs.html"><i class="fa fa-check"></i><b>15</b> Open Broadcast Studio</a>
+<ul>
+<li class="chapter" data-level="15.1" data-path="caméra-virtuelle-1.html"><a href="caméra-virtuelle-1.html"><i class="fa fa-check"></i><b>15.1</b> Caméra virtuelle</a>
+<ul>
+<li class="chapter" data-level="15.1.1" data-path="caméra-virtuelle-1.html"><a href="caméra-virtuelle-1.html#exemple-de-shader-pour-faire-du-mapping-dans-obs"><i class="fa fa-check"></i><b>15.1.1</b> exemple de Shader pour faire du mapping dans OBS</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="16" data-path="pure-data.html"><a href="pure-data.html"><i class="fa fa-check"></i><b>16</b> Pure Data</a></li>
+<li class="chapter" data-level="17" data-path="shaders.html"><a href="shaders.html"><i class="fa fa-check"></i><b>17</b> Shaders</a></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<li><a href="http://gllm.ca" target="blank">Gllmar</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Traitement vidéo</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="tind-thisisnotdesign" class="section level2" number="4.33">
+<h2><span class="header-section-number">4.33</span> TIND :: thisisnotdesign</h2>
+<ul>
+<li><a href="http://tind.org/" class="uri">http://tind.org/</a></li>
+</ul>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="guillaume-vallée.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="dérapages.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="assets/gitbook-2.6.7/js/app.min.js"></script>
+<script src="assets/gitbook-2.6.7/js/lunr.js"></script>
+<script src="assets/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="assets/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="assets/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="assets/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="assets/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="assets/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="assets/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": null,
+"fontsettings": {
+"theme": "night",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/tim-montmorency/543-traitement-video/edit/master/12-corpus.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["traitement-video.pdf", "traitement-video.epub"],
+"toc": {
+"collapse": "section"
+},
+"toolbar": {
+"position": "static"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
