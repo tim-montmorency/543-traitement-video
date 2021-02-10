@@ -1,7 +1,7 @@
 # Historique du traitement vidéo {#historique}
 
 
-### Évolution des technologies associées {#evolution_historique_technologies}
+## Évolution des technologies associées {#evolution_historique_technologies}
 
 De l'argentique au magnétique, du magnétique au numérique (1960 à aujourd'hui)
 
