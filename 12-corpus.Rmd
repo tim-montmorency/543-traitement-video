@@ -152,8 +152,6 @@
 ## John Milton Cage
 * http://www.artwiki.fr/?JohnCage
 
-## Fluxus
-* http://www.artwiki.fr/?LartvideoFluxus
 
 ## Norman McLaren
 
@@ -181,6 +179,7 @@
 
 ## 1960 et le début de la vidéo
 <center>
+
 
 ```{r, echo=FALSE,out.width="49%",fig.cap="Enregistrer et reproduire depuis un support magnétique",fig.show='hold',fig.align='center'}
 knitr::include_graphics(c("medias/corpus/1960/Charles_Bensinger_video_guide_2.jpg","medias/corpus/1960/Charles_Bensinger_video_guide_3.jpg"))

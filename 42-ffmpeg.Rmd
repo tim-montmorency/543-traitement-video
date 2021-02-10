@@ -23,6 +23,33 @@ Où `-pix_fmt yuv420p` permet de créer un fichier compatible avec Quicktime
 
 https://trac.ffmpeg.org/wiki/FancyFilteringExamples
 
+### mandelbrot et analyse visuelle 
+```bash
+ffplay -f lavfi -i mandelbrot \
+-vf "format=gbrp,split=4[a][b][c][d],\
+[d]histogram=display_mode=0:level_height=244[dd],\
+[a]waveform=m=1:d=0:r=0:c=7[aa],\
+[b]waveform=m=0:d=0:r=0:c=7[bb],\
+[c][aa]vstack[V],\
+[bb][dd]vstack[V2],\
+[V][V2]hstack"
 ```
-ffplay -f lavfi -i mandelbrot -vf "format=gbrp,split=4[a][b][c][d],[d]histogram=display_mode=0:level_height=244[dd],[a]waveform=m=1:d=0:r=0:c=7[aa],[b]waveform=m=0:d=0:r=0:c=7[bb],[c][aa]vstack[V],[bb][dd]vstack[V2],[V][V2]hstack"
+
+### mandelbrot et historique de position de couleurs?
+
+```bash
+ffplay -f lavfi -i mandelbrot -vf \
+"format=yuv444p,split=4[a][b][c][d],\
+[a]waveform[aa],[b][aa]vstack[V],\
+[c]waveform=m=0[cc],\
+[d]vectorscope=color4[dd],\
+[cc][dd]vstack[V2],[V][V2]hstack"
+```
+
+## ffmpeg grab gl
+https://stackoverflow.com/questions/40689505/capturing-and-streaming-with-ffmpeg-while-displaying-locally
+```
+  ffmpeg -f x11grab [grab parameters] -i :0.0 \
+    [transcode parameters] -f [transcode output] \
+    -f opengl "Window title"
 ```
