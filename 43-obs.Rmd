@@ -1,6 +1,25 @@
 # Open Broadcast Studio {#obs} 
 
+## Sources 
+
 ## Caméra virtuelle
+
+## source html shader toy?
+
+https://www.shadertoy.com/embed/WtfyDj?gui=true&t=10&paused=false
+
+
+https://www.shadertoy.com/view/ttBcWm
+
+
+https://www.shadertoy.com/view/Wt2BR1
+
+
+## source youtube fullscreen
+
+```
+
+```
 
 ### exemple de Shader pour faire du mapping dans OBS 
 

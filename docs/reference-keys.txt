@@ -133,12 +133,11 @@ mutek
 isea-inter-society-for-the-electronic-arts
 htmlles-ada-x
 historique
+evolution_historique_technologies
 evolution_historique
-contextualisation-générale-de-lart-vidéo
 evolution_historique_performance
 evolution_historique_installation
 cinéma-expérimental
-evolution_historique_technologies
 evolution_historique_language
 lexique
 lexique_composantes
@@ -254,7 +253,10 @@ utilisation-de-ffmpeg
 ex-transcoder-un-fichier-video-vers-un-fichier-prores-compatible-avec-quicktime
 ffplay
 obs
+sources-1
 caméra-virtuelle-1
+source-html-shader-toy
+source-youtube-fullscreen
 exemple-de-shader-pour-faire-du-mapping-dans-obs
 pure-data
 shaders

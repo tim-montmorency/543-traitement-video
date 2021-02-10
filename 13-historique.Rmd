@@ -1,18 +1,35 @@
 # Historique du traitement vidéo {#historique}
 
 
+### Évolution des technologies associées {#evolution_historique_technologies}
+
+De l'argentique au magnétique, du magnétique au numérique (1960 à aujourd'hui)
+
+*  Présentation Synthèse de l'histoire de la vidéo artistique
+    * http://iasl.uni-muenchen.de/links/GCA%20IV%20Video%20Tools.pdf
+    
+
+* ligne de temps exaustive de l'art vidéo et de ses acteurs
+    * http://iasl.uni-muenchen.de/links/GCA-IV.1e.html#Video
+    * Contient des informations pertinente sur la génèse de la synthèse vidéo
+
+* L'évolution du graphisme assité par ordinateur 
+    * http://iasl.uni-muenchen.de/links/GCA-III.2e.html
+
+* Exemple de d'utilisation de moteur de jeu et de technique de post-production lors de la production lors du tournage de la série Mandalorian
+    * https://arstechnica.com/gaming/2020/02/the-mandalorian-was-shot-on-a-holodeck-esque-set-with-unreal-engine-video-shows/
+
+
 
 ## Évolution historique du traitement vidéo dans les différentes formes d’art {#evolution_historique}
 
-* http://iasl.uni-muenchen.de/links/GCA-IV.1e.html#Video
-    * ligne de temps exaustive de l'art vidéo et de ses acteurs
-    * Contient des informations sur la génèse de la Synthèse vidéo
+* [Introduction à l'art vidéo.pdf](https://www.lerecit.fr/wp-content/uploads/2017/08/introduction-%C3%A0-lArt-Vid%C3%A9o.pdf)
+    * Contient des définitions et exemples pour :
+        * Art vidéo
+        * performance 
+        * installation
+        * installation interactive
 
-### Contextualisation générale de l'art vidéo
-
-* https://www.lerecit.fr/wp-content/uploads/2017/08/introduction-%C3%A0-lArt-Vid%C3%A9o.pdf
-    * Contient des définitions et exemples pour Art vidéo, performance, installation, installation interactive.
-* https://fr.wikipedia.org/wiki/Art_vid%C3%A9o
 
 
 ### Performance {#evolution_historique_performance}
@@ -31,16 +48,7 @@
 
 * http://www.artwiki.fr/?CinemaExperimental
 
-### Évolution des technologies associées {#evolution_historique_technologies}
 
-De l'argentique au magnétique, du magnétique au numérique (1960 à aujourd'hui)
-
-* http://homes.chass.utoronto.ca/~wulfric/lexperimenta/puzniak/
-
-* https://arstechnica.com/gaming/2020/02/the-mandalorian-was-shot-on-a-holodeck-esque-set-with-unreal-engine-video-shows/
-    * Exemple de d'utilisation de moteur de jeu et de technique de post-production lors de la production lors du tournage de la série Mandalorian
-
-* https://demainlequotidien.up.coop/democratisation-de-la-culture/la-frontiere-entre-theatre-et-cinema-va-t-elle-disparaitre
 
 
 ## Langages et moyens expressifs de l’image en mouvement {#evolution_historique_language}
@@ -48,3 +56,9 @@ De l'argentique au magnétique, du magnétique au numérique (1960 à aujourd'hu
     * Ce qui reste des images du futur : Ancrage sociohistorique de l'art vidéo interactif  
 * https://esse.ca/fr/la-question-de-lart-video
     * Trace la quête existentielle de la vidéo à travers le temps depuis sa génèse. 
+
+
+Autre liens 
+
+* https://demainlequotidien.up.coop/democratisation-de-la-culture/la-frontiere-entre-theatre-et-cinema-va-t-elle-disparaitre
+
