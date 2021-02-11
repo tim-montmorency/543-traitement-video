@@ -1,6 +1,6 @@
 # ffmpeg{#ffmpeg} 
 
-## utilisation de FFmpeg
+## FFmpeg
 ### ex: Transcoder un fichier video vers un fichier prores compatible avec quicktime
 ```
 ffmpeg -i INPUT.mkv -c:v prores_ks -profile:v 3 -c:a pcm_s16le -pix_fmt yuv420p OUTPUT.mov
@@ -17,6 +17,39 @@ Où `-profile` est un chiffre entire de -1 to 5 correspondant au profile prores 
 * 5: 4444xq  500Mbps YUVA 4:4:4:4
 
 Où `-pix_fmt yuv420p` permet de créer un fichier compatible avec Quicktime
+
+
+### Compresseur sur la piste audio (compand) sans recompresser la vidéo 
+
+Exemple pour un fichier 
+
+```bash
+ ffmpeg -i fichier_video_entrant.mp4 \
+ -vcodec copy  -filter_complex \
+ "compand=attacks=0:points=-80/-900|-45/-15|-27/-9|0/-7|20/-7:gain=5" \
+ fichier_video_sortant.mp4
+```
+
+Exemple pour traiter tous les fichiers d'un dossiers.
+Le script prend un dossier comme argument et traite tous les fichiers présent. 
+Le fichier sortant sera précédé de `comp_`
+
+```bash
+for file in "$1".*
+do
+ ffmpeg -i "$file" \
+ -vcodec copy  -filter_complex \
+ "compand=attacks=0:points=-80/-900|-45/-15|-27/-9|0/-7|20/-7:gain=5" \
+ comp_"$file"
+done
+```
+
+* Documentation de compand
+  * https://ffmpeg.org/ffmpeg-filters.html#compand   
+
+* Bonne source d'information ici : 
+  * https://medium.com/@jud.dagnall/dynamic-range-compression-for-audio-with-ffmpeg-and-compand-621fe2b1a892
+
 
 
 ## FFplay
