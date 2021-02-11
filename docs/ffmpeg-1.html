@@ -486,12 +486,12 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="13" data-path="examples-html.html"><a href="examples-html.html"><i class="fa fa-check"></i><b>13</b> Examples HTML</a></li>
-<li class="chapter" data-level="14" data-path="ffmpeg.html"><a href="ffmpeg.html"><i class="fa fa-check"></i><b>14</b> ffmpeg</a>
+<li class="chapter" data-level="14" data-path="ffmpeg.html"><a href="ffmpeg.html"><i class="fa fa-check"></i><b>14</b> FFmpeg</a>
 <ul>
 <li class="chapter" data-level="14.1" data-path="ffmpeg-1.html"><a href="ffmpeg-1.html"><i class="fa fa-check"></i><b>14.1</b> FFmpeg</a>
 <ul>
 <li class="chapter" data-level="14.1.1" data-path="ffmpeg-1.html"><a href="ffmpeg-1.html#ex-transcoder-un-fichier-video-vers-un-fichier-prores-compatible-avec-quicktime"><i class="fa fa-check"></i><b>14.1.1</b> ex: Transcoder un fichier video vers un fichier prores compatible avec quicktime</a></li>
-<li class="chapter" data-level="14.1.2" data-path="ffmpeg-1.html"><a href="ffmpeg-1.html#compresseur-sur-la-piste-audio-compand-sans-recompresser-la-vidéo"><i class="fa fa-check"></i><b>14.1.2</b> Compresseur sur la piste audio (compand) sans recompresser la vidéo</a></li>
+<li class="chapter" data-level="14.1.2" data-path="ffmpeg-1.html"><a href="ffmpeg-1.html#compresseur-sur-la-piste-audio-compand-sans-recompresser-la-vidéo-ffmpeg-fastaudiocompand"><i class="fa fa-check"></i><b>14.1.2</b> Compresseur sur la piste audio (compand) sans recompresser la vidéo {ffmpeg-fastaudiocompand}</a></li>
 </ul></li>
 <li class="chapter" data-level="14.2" data-path="ffplay.html"><a href="ffplay.html"><i class="fa fa-check"></i><b>14.2</b> FFplay</a>
 <ul>
@@ -550,8 +550,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul>
 <p>Où <code>-pix_fmt yuv420p</code> permet de créer un fichier compatible avec Quicktime</p>
 </div>
-<div id="compresseur-sur-la-piste-audio-compand-sans-recompresser-la-vidéo" class="section level3" number="14.1.2">
-<h3><span class="header-section-number">14.1.2</span> Compresseur sur la piste audio (compand) sans recompresser la vidéo</h3>
+<div id="compresseur-sur-la-piste-audio-compand-sans-recompresser-la-vidéo-ffmpeg-fastaudiocompand" class="section level3" number="14.1.2">
+<h3><span class="header-section-number">14.1.2</span> Compresseur sur la piste audio (compand) sans recompresser la vidéo {ffmpeg-fastaudiocompand}</h3>
 <p>Exemple pour un fichier</p>
 <div class="sourceCode" id="cb4"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb4-1"><a href="ffmpeg-1.html#cb4-1" aria-hidden="true" tabindex="-1"></a> <span class="ex">ffmpeg</span> <span class="at">-i</span> fichier_video_entrant.mp4 <span class="dt">\</span></span>
 <span id="cb4-2"><a href="ffmpeg-1.html#cb4-2" aria-hidden="true" tabindex="-1"></a> <span class="at">-vcodec</span> copy  <span class="at">-filter_complex</span> <span class="dt">\</span></span>

@@ -251,7 +251,7 @@ examples-html
 ffmpeg
 ffmpeg-1
 ex-transcoder-un-fichier-video-vers-un-fichier-prores-compatible-avec-quicktime
-compresseur-sur-la-piste-audio-compand-sans-recompresser-la-vidéo
+compresseur-sur-la-piste-audio-compand-sans-recompresser-la-vidéo-ffmpeg-fastaudiocompand
 ffplay
 mandelbrot-et-analyse-visuelle
 mandelbrot-et-historique-de-position-de-couleurs

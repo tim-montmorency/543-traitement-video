@@ -1,4 +1,4 @@
-# ffmpeg{#ffmpeg} 
+# FFmpeg{#ffmpeg} 
 
 ## FFmpeg
 ### ex: Transcoder un fichier video vers un fichier prores compatible avec quicktime
@@ -19,7 +19,7 @@ Où `-profile` est un chiffre entire de -1 to 5 correspondant au profile prores 
 Où `-pix_fmt yuv420p` permet de créer un fichier compatible avec Quicktime
 
 
-### Compresseur sur la piste audio (compand) sans recompresser la vidéo 
+### Compresseur sur la piste audio (compand) sans recompresser la vidéo {ffmpeg-fastaudiocompand}
 
 Exemple pour un fichier 
 
