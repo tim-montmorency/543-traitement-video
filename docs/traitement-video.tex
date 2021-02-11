@@ -4,14 +4,13 @@
 %
 \documentclass[
 ]{book}
+\usepackage{amsmath,amssymb}
 \usepackage{lmodern}
-\usepackage{amsmath}
 \usepackage{ifxetex,ifluatex}
 \ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
   \usepackage{textcomp} % provide euro and other symbols
-  \usepackage{amssymb}
 \else % if luatex or xetex
   \usepackage{unicode-math}
   \defaultfontfeatures{Scale=MatchLowercase}
@@ -82,7 +81,7 @@
 \newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
 \newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
 \newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\usepackage{longtable,booktabs}
+\usepackage{longtable,booktabs,array}
 \usepackage{calc} % for calculating minipage widths
 % Correct order of tables after \paragraph or \subparagraph
 \usepackage{etoolbox}
@@ -130,7 +129,7 @@
 
 \title{Traitement vidéo}
 \author{Guillaume Arseneault}
-\date{2021-02-09}
+\date{2021-02-11}
 
 \begin{document}
 \maketitle
@@ -532,220 +531,109 @@ L'approche pédagogique de ce cours emprunte à celle employée dans les sémina
 
 \href{https://www.cmontmorency.qc.ca/wp-content/uploads/images/college/administration/CALENDRIER-SCOLAIRE-2020-2021.pdf}{Calendrier Collège Montmorency 2020-2021}
 
-\begin{longtable}[]{@{}lll@{}}
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.19}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.41}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.41}}@{}}
 \toprule
-\begin{minipage}[b]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
-Séance\strut
-\end{minipage} & \begin{minipage}[b]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-OBJECTIFS ABORDÉS EN CLASSE\strut
-\end{minipage} & \begin{minipage}[b]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-ACTIVITÉS AUTONOMES\strut
-\end{minipage}\tabularnewline
+Séance & OBJECTIFS ABORDÉS EN CLASSE & ACTIVITÉS AUTONOMES \\ \addlinespace
 \midrule
 \endhead
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
 \protect\hyperlink{semaine_1}{1;
 3
-février}\strut
-\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-Plan de cour;
+février} & Plan de cour;
 Survol \protect\hyperlink{corpus}{corpus artistique};
 Consignes \protect\hyperlink{sommatif_1}{Présentation corpus
-vidéo};\strut
-\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-Recherche d'un sujet \protect\hyperlink{sommatif_1}{Présentation corpus
-vidéo}\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
+vidéo}; & Recherche d'un sujet \protect\hyperlink{sommatif_1}{Présentation corpus
+vidéo} \\ \addlinespace
 \protect\hyperlink{semaine_2}{2;
 10
-février}\strut
-\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-\protect\hyperlink{evolution_historique}{Historique du traitement
+février} & \protect\hyperlink{evolution_historique}{Historique du traitement
 vidéo};
 Formatif Préapprobation \protect\hyperlink{sommatif_1}{Présentation corpus
-Vidéo}\strut
-\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-Préparation \protect\hyperlink{sommatif_1}{Présentation corpus
-vidéo}\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
+Vidéo} & Préparation \protect\hyperlink{sommatif_1}{Présentation corpus
+vidéo} \\ \addlinespace
 \protect\hyperlink{semaine_3}{3;
 17
-février}\strut
-\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-Sommatif \protect\hyperlink{sommatif_1}{Présentation corpus
-Vidéo}\strut
-\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
+février} & Sommatif \protect\hyperlink{sommatif_1}{Présentation corpus
+Vidéo} & \\ \addlinespace
 \protect\hyperlink{semaine_4}{4;
 24
-février}\strut
-\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-\protect\hyperlink{lexique}{Composantes du signal vidéo};
+février} & \protect\hyperlink{lexique}{Composantes du signal vidéo};
 \protect\hyperlink{acquerir}{Acquérir l'image en mouvement};
 \protect\hyperlink{echantillonner}{Échantillonner l'image en
 mouvement};
 Consignes \protect\hyperlink{sommatif_2}{Question traitement
-vidéo}\strut
-\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-Préparation \protect\hyperlink{sommatif_2}{Question traitement
-vidéo}\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
+vidéo} & Préparation \protect\hyperlink{sommatif_2}{Question traitement
+vidéo} \\ \addlinespace
 \protect\hyperlink{semaine_5}{X;
 3
-mars}\strut
-\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-Journées de rattrapage (Pas de cours)\strut
-\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
+mars} & Journées de rattrapage (Pas de cours) & \\ \addlinespace
 \protect\hyperlink{semaine_6}{5;
 10
-mars}\strut
-\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-\protect\hyperlink{traiter}{Traiter l'image en mouvement};
+mars} & \protect\hyperlink{traiter}{Traiter l'image en mouvement};
 Formatif Préapprobation \protect\hyperlink{sommatif_2}{Question traitement
-vidéo}\strut
-\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-Soumettre \protect\hyperlink{sommatif_2}{Question traitement
-vidéo}\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
+vidéo} & Soumettre \protect\hyperlink{sommatif_2}{Question traitement
+vidéo} \\ \addlinespace
 \protect\hyperlink{semaine_7}{6;
 17
-mars}\strut
-\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-Consignes \protect\hyperlink{sommatif_4}{Palette vidéo
+mars} & Consignes \protect\hyperlink{sommatif_4}{Palette vidéo
 interactive};
-Sommatif \protect\hyperlink{sommatif_3}{Quiz traitement vidéo}\strut
-\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-Préparation \protect\hyperlink{sommatif_4}{Palette vidéo
-interactive}\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
+Sommatif \protect\hyperlink{sommatif_3}{Quiz traitement vidéo} & Préparation \protect\hyperlink{sommatif_4}{Palette vidéo
+interactive} \\ \addlinespace
 \protect\hyperlink{semaine_8}{7;
 24
-mars}\strut
-\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-\protect\hyperlink{programmer}{Programmer des sources visuelles}\strut
-\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-Préparation \protect\hyperlink{sommatif_4}{Palette vidéo
-interactive}\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
+mars} & \protect\hyperlink{programmer}{Programmer des sources visuelles} & Préparation \protect\hyperlink{sommatif_4}{Palette vidéo
+interactive} \\ \addlinespace
 \protect\hyperlink{semaine_9}{8;
 31
-mars}\strut
-\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-\protect\hyperlink{interagir}{Interagir avec des sources vidéo}\strut
-\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-Préparation \protect\hyperlink{sommatif_4}{Palette vidéo
-interactive}\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
+mars} & \protect\hyperlink{interagir}{Interagir avec des sources vidéo} & Préparation \protect\hyperlink{sommatif_4}{Palette vidéo
+interactive} \\ \addlinespace
 \protect\hyperlink{semaine_10}{X;
 7
-avril}\strut
-\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-Congé (Pas de cours)\strut
-\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
+avril} & Congé (Pas de cours) & \\ \addlinespace
 \protect\hyperlink{semaine_11}{9;
 14
-avril}\strut
-\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-Suite \protect\hyperlink{programmer}{Programmer des sources
+avril} & Suite \protect\hyperlink{programmer}{Programmer des sources
 visuelles};
 et \protect\hyperlink{interagir}{Interagir avec des sources
-vidéo}\strut
-\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-Préparation \protect\hyperlink{sommatif_4}{Palette vidéo
-interactive}\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
+vidéo} & Préparation \protect\hyperlink{sommatif_4}{Palette vidéo
+interactive} \\ \addlinespace
 \protect\hyperlink{semaine_12}{10;
 21
-avril}\strut
-\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-Sommatif \protect\hyperlink{sommatif_4}{Palette vidéo
-interactive}\strut
-\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
+avril} & Sommatif \protect\hyperlink{sommatif_4}{Palette vidéo
+interactive} & \\ \addlinespace
 \protect\hyperlink{semaine_13}{11;
 28
-avril}\strut
-\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-\protect\hyperlink{deployer}{Déployer un projet vidéo temps
+avril} & \protect\hyperlink{deployer}{Déployer un projet vidéo temps
 réel};
 Consignes \protect\hyperlink{sommatif_5}{performance audiovisuelle temps
-réel}\strut
-\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-Préparation \protect\hyperlink{sommatif_5}{performance audiovisuelle temps
-réel}\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
+réel} & Préparation \protect\hyperlink{sommatif_5}{performance audiovisuelle temps
+réel} \\ \addlinespace
 \protect\hyperlink{semaine_14}{12;
 5
-mai}\strut
-\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-Suite \protect\hyperlink{deployer}{Déployer un projet vidéo temps
-réel}\strut
-\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-Préparation \protect\hyperlink{sommatif_5}{performance audiovisuelle temps
-réel}\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
+mai} & Suite \protect\hyperlink{deployer}{Déployer un projet vidéo temps
+réel} & Préparation \protect\hyperlink{sommatif_5}{performance audiovisuelle temps
+réel} \\ \addlinespace
 \protect\hyperlink{semaine_15}{13;
 12
-mai}\strut
-\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-Préparation \protect\hyperlink{sommatif_5}{performance audiovisuelle temps
-réel}\strut
-\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-Préparation \protect\hyperlink{sommatif_5}{performance audiovisuelle temps
-réel}\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
+mai} & Préparation \protect\hyperlink{sommatif_5}{performance audiovisuelle temps
+réel} & Préparation \protect\hyperlink{sommatif_5}{performance audiovisuelle temps
+réel} \\ \addlinespace
 \protect\hyperlink{semaine_16}{14;
 18
-mai}\strut
-\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-Exceptionnellement un mardi,
+mai} & Exceptionnellement un mardi,
 \protect\hyperlink{sommatif_5}{performance audiovisuelle temps
-réel};\strut
-\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-Rédaction du document accompagnateur
-\protect\hyperlink{sommatif_5}{performance audiovisuelle temps réel}\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
+réel}; & Rédaction du document accompagnateur
+\protect\hyperlink{sommatif_5}{performance audiovisuelle temps réel} \\ \addlinespace
 \protect\hyperlink{semaine_17}{X;
 19
-mai}\strut
-\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-Épreuve uniforme de français (Pas de cours)\strut
-\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-Rédaction document \protect\hyperlink{sommatif_5}{performance audiovisuelle
-temps réel}\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
+mai} & Épreuve uniforme de français (Pas de cours) & Rédaction document \protect\hyperlink{sommatif_5}{performance audiovisuelle
+temps réel} \\ \addlinespace
 \protect\hyperlink{semaine_18}{15;
 25
-mai}\strut
-\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-Remise du document accompagnateur \protect\hyperlink{sommatif_5}{performance
-audiovisuelle temps réel}\strut
-\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-\strut
-\end{minipage}\tabularnewline
+mai} & Remise du document accompagnateur \protect\hyperlink{sommatif_5}{performance
+audiovisuelle temps réel} & \\ \addlinespace
 \bottomrule
 \end{longtable}
 
@@ -1564,15 +1452,6 @@ The Dante Quartet - Stan Brakhage {[}1987{]}
   \url{http://www.artwiki.fr/?JohnCage}
 \end{itemize}
 
-\hypertarget{fluxus}{%
-\section{Fluxus}\label{fluxus}}
-
-\begin{itemize}
-\tightlist
-\item
-  \url{http://www.artwiki.fr/?LartvideoFluxus}
-\end{itemize}
-
 \hypertarget{norman-mclaren}{%
 \section{Norman McLaren}\label{norman-mclaren}}
 
@@ -1947,7 +1826,7 @@ trois pièces avec des titres - MUTEK Montréal 2017 from artificiel on Vimeo.
 \chapter{Historique du traitement vidéo}\label{historique}}
 
 \hypertarget{evolution_historique_technologies}{%
-\subsection{Évolution des technologies associées}\label{evolution_historique_technologies}}
+\section{Évolution des technologies associées}\label{evolution_historique_technologies}}
 
 De l'argentique au magnétique, du magnétique au numérique (1960 à aujourd'hui)
 
@@ -2047,6 +1926,27 @@ De l'argentique au magnétique, du magnétique au numérique (1960 à aujourd'hu
 \tightlist
 \item
   \url{http://www.artwiki.fr/?CinemaExperimental}
+\end{itemize}
+
+\hypertarget{le-vee-jaying-ou-simplement-vjing}{%
+\subsection{\texorpdfstring{Le \textbf{Vee-Jaying} ou simplement \textbf{VJing}*}{Le Vee-Jaying ou simplement VJing*}}\label{le-vee-jaying-ou-simplement-vjing}}
+
+\begin{itemize}
+\tightlist
+\item
+  \url{https://fr.wikipedia.org/wiki/Vid\%C3\%A9o-jockey}
+\item
+  \url{https://en.wikipedia.org/wiki/VJing}
+\item
+  \url{http://jhroy.ca/z/machina/syn-jimmy.htm}
+\item
+  \url{https://en.wikipedia.org/wiki/Music_visualization}
+\item
+  \url{https://vimeo.com/groups/vjstv}
+\item
+  \url{https://www.antivj.com/}
+\item
+  \url{https://cdm.link/tag/vj/}
 \end{itemize}
 
 \hypertarget{evolution_historique_language}{%
@@ -2192,15 +2092,15 @@ Autre liens
 
 \begin{longtable}[]{@{}ll@{}}
 \toprule
-nom & extension\tabularnewline
+nom & extension \\ \addlinespace
 \midrule
 \endhead
-QuickTime & .mov\tabularnewline
-Matroska & .mkv\tabularnewline
-Mpeg4 & .mp4\tabularnewline
-Windows Media Video & .wmv\tabularnewline
-Audio Video Interleaved & .avi\tabularnewline
-Theora & .ogv\tabularnewline
+QuickTime & .mov \\ \addlinespace
+Matroska & .mkv \\ \addlinespace
+Mpeg4 & .mp4 \\ \addlinespace
+Windows Media Video & .wmv \\ \addlinespace
+Audio Video Interleaved & .avi \\ \addlinespace
+Theora & .ogv \\ \addlinespace
 \bottomrule
 \end{longtable}
 
@@ -2211,14 +2111,14 @@ Theora & .ogv\tabularnewline
 
 \begin{longtable}[]{@{}lll@{}}
 \toprule
-Codec & compression & usage\tabularnewline
+Codec & compression & usage \\ \addlinespace
 \midrule
 \endhead
-H.264\&VP8 & intra \& inter & lecture\textless1080p\tabularnewline
-HEVC\&VP9 & intra \& inter & lecture\textless4k\tabularnewline
-proRes & intra & montage\tabularnewline
-dnxHD & intra & montage\tabularnewline
-HAP & intra & GPU\&SSD\tabularnewline
+H.264\&VP8 & intra \& inter & lecture\textless1080p \\ \addlinespace
+HEVC\&VP9 & intra \& inter & lecture\textless4k \\ \addlinespace
+proRes & intra & montage \\ \addlinespace
+dnxHD & intra & montage \\ \addlinespace
+HAP & intra & GPU\&SSD \\ \addlinespace
 \bottomrule
 \end{longtable}
 
@@ -2646,8 +2546,8 @@ Noise : \url{https://thebookofshaders.com/11/}
 \hypertarget{ffmpeg}{%
 \chapter{ffmpeg}\label{ffmpeg}}
 
-\hypertarget{utilisation-de-ffmpeg}{%
-\section{utilisation de FFmpeg}\label{utilisation-de-ffmpeg}}
+\hypertarget{ffmpeg-1}{%
+\section{FFmpeg}\label{ffmpeg-1}}
 
 \hypertarget{ex-transcoder-un-fichier-video-vers-un-fichier-prores-compatible-avec-quicktime}{%
 \subsection{ex: Transcoder un fichier video vers un fichier prores compatible avec quicktime}\label{ex-transcoder-un-fichier-video-vers-un-fichier-prores-compatible-avec-quicktime}}
@@ -2678,13 +2578,100 @@ Où \texttt{-profile} est un chiffre entire de -1 to 5 correspondant au profile 
 
 Où \texttt{-pix\_fmt\ yuv420p} permet de créer un fichier compatible avec Quicktime
 
+\hypertarget{compresseur-sur-la-piste-audio-compand-sans-recompresser-la-viduxe9o}{%
+\subsection{Compresseur sur la piste audio (compand) sans recompresser la vidéo}\label{compresseur-sur-la-piste-audio-compand-sans-recompresser-la-viduxe9o}}
+
+Exemple pour un fichier
+
+\begin{Shaded}
+\begin{Highlighting}[]
+ \ExtensionTok{ffmpeg} \AttributeTok{{-}i}\NormalTok{ fichier\_video\_entrant.mp4 }\DataTypeTok{\textbackslash{}}
+ \AttributeTok{{-}vcodec}\NormalTok{ copy  }\AttributeTok{{-}filter\_complex} \DataTypeTok{\textbackslash{}}
+ \StringTok{"compand=attacks=0:points={-}80/{-}900|{-}45/{-}15|{-}27/{-}9|0/{-}7|20/{-}7:gain=5"} \DataTypeTok{\textbackslash{}}
+\NormalTok{ fichier\_video\_sortant.mp4}
+\end{Highlighting}
+\end{Shaded}
+
+Exemple pour traiter tous les fichiers d'un dossiers.
+Le script prend un dossier comme argument et traite tous les fichiers présent.
+Le fichier sortant sera précédé de \texttt{comp\_}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\ControlFlowTok{for}\NormalTok{ file }\KeywordTok{in} \StringTok{"}\VariableTok{$1}\StringTok{"}\NormalTok{.}\PreprocessorTok{*}
+\ControlFlowTok{do}
+ \ExtensionTok{ffmpeg} \AttributeTok{{-}i} \StringTok{"}\VariableTok{$file}\StringTok{"} \DataTypeTok{\textbackslash{}}
+ \AttributeTok{{-}vcodec}\NormalTok{ copy  }\AttributeTok{{-}filter\_complex} \DataTypeTok{\textbackslash{}}
+ \StringTok{"compand=attacks=0:points={-}80/{-}900|{-}45/{-}15|{-}27/{-}9|0/{-}7|20/{-}7:gain=5"} \DataTypeTok{\textbackslash{}}
+\NormalTok{ comp\_}\StringTok{"}\VariableTok{$file}\StringTok{"}
+\ControlFlowTok{done}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{itemize}
+\tightlist
+\item
+  Documentation de compand
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \url{https://ffmpeg.org/ffmpeg-filters.html\#compand}
+  \end{itemize}
+\item
+  Bonne source d'information ici :
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \url{https://medium.com/@jud.dagnall/dynamic-range-compression-for-audio-with-ffmpeg-and-compand-621fe2b1a892}
+  \end{itemize}
+\end{itemize}
+
 \hypertarget{ffplay}{%
 \section{FFplay}\label{ffplay}}
 
 \url{https://trac.ffmpeg.org/wiki/FancyFilteringExamples}
 
+\hypertarget{mandelbrot-et-analyse-visuelle}{%
+\subsection{mandelbrot et analyse visuelle}\label{mandelbrot-et-analyse-visuelle}}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\ExtensionTok{ffplay} \AttributeTok{{-}f}\NormalTok{ lavfi }\AttributeTok{{-}i}\NormalTok{ mandelbrot }\DataTypeTok{\textbackslash{}}
+\NormalTok{{-}vf }\StringTok{"format=gbrp,split=4[a][b][c][d],}\DataTypeTok{\textbackslash{}}
+\StringTok{[d]histogram=display\_mode=0:level\_height=244[dd],}\DataTypeTok{\textbackslash{}}
+\StringTok{[a]waveform=m=1:d=0:r=0:c=7[aa],}\DataTypeTok{\textbackslash{}}
+\StringTok{[b]waveform=m=0:d=0:r=0:c=7[bb],}\DataTypeTok{\textbackslash{}}
+\StringTok{[c][aa]vstack[V],}\DataTypeTok{\textbackslash{}}
+\StringTok{[bb][dd]vstack[V2],}\DataTypeTok{\textbackslash{}}
+\StringTok{[V][V2]hstack"}
+\end{Highlighting}
+\end{Shaded}
+
+\hypertarget{mandelbrot-et-historique-de-position-de-couleurs}{%
+\subsection{mandelbrot et historique de position de couleurs?}\label{mandelbrot-et-historique-de-position-de-couleurs}}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\ExtensionTok{ffplay} \AttributeTok{{-}f}\NormalTok{ lavfi }\AttributeTok{{-}i}\NormalTok{ mandelbrot }\AttributeTok{{-}vf} \DataTypeTok{\textbackslash{}}
+\StringTok{"format=yuv444p,split=4[a][b][c][d],}\DataTypeTok{\textbackslash{}}
+\StringTok{[a]waveform[aa],[b][aa]vstack[V],}\DataTypeTok{\textbackslash{}}
+\StringTok{[c]waveform=m=0[cc],}\DataTypeTok{\textbackslash{}}
+\StringTok{[d]vectorscope=color4[dd],}\DataTypeTok{\textbackslash{}}
+\StringTok{[cc][dd]vstack[V2],[V][V2]hstack"}
+\end{Highlighting}
+\end{Shaded}
+
+\hypertarget{ffmpeg-grab-gl}{%
+\section{ffmpeg grab gl}\label{ffmpeg-grab-gl}}
+
+\url{https://stackoverflow.com/questions/40689505/capturing-and-streaming-with-ffmpeg-while-displaying-locally}
+
 \begin{verbatim}
-ffplay -f lavfi -i mandelbrot -vf "format=gbrp,split=4[a][b][c][d],[d]histogram=display_mode=0:level_height=244[dd],[a]waveform=m=1:d=0:r=0:c=7[aa],[b]waveform=m=0:d=0:r=0:c=7[bb],[c][aa]vstack[V],[bb][dd]vstack[V2],[V][V2]hstack"
+  ffmpeg -f x11grab [grab parameters] -i :0.0 \
+    [transcode parameters] -f [transcode output] \
+    -f opengl "Window title"
 \end{verbatim}
 
 \hypertarget{obs}{%

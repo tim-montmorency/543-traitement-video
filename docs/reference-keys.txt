@@ -101,7 +101,6 @@ anton-giulio-bragaglia
 marcel-duchamp
 stan-brakhage
 john-milton-cage
-fluxus
 norman-mclaren
 et-le-début-de-la-vidéo
 nam-june-paik
@@ -138,6 +137,7 @@ evolution_historique
 evolution_historique_performance
 evolution_historique_installation
 cinéma-expérimental
+le-vee-jaying-ou-simplement-vjing
 evolution_historique_language
 lexique
 lexique_composantes
@@ -249,9 +249,13 @@ optimisation-des-performances-de-lapplication
 application-autonome
 examples-html
 ffmpeg
-utilisation-de-ffmpeg
+ffmpeg-1
 ex-transcoder-un-fichier-video-vers-un-fichier-prores-compatible-avec-quicktime
+compresseur-sur-la-piste-audio-compand-sans-recompresser-la-vidéo
 ffplay
+mandelbrot-et-analyse-visuelle
+mandelbrot-et-historique-de-position-de-couleurs
+ffmpeg-grab-gl
 obs
 sources-1
 caméra-virtuelle-1
