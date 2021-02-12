@@ -2598,12 +2598,17 @@ Le fichier sortant sera précédé de \texttt{comp\_}
 
 \begin{Shaded}
 \begin{Highlighting}[]
-\ControlFlowTok{for}\NormalTok{ file }\KeywordTok{in} \StringTok{"}\VariableTok{$1}\StringTok{"}\NormalTok{.}\PreprocessorTok{*}
+\ControlFlowTok{for}\NormalTok{ file }\KeywordTok{in} \StringTok{"}\VariableTok{$1}\StringTok{"}\PreprocessorTok{*}
 \ControlFlowTok{do}
- \ExtensionTok{ffmpeg} \AttributeTok{{-}i} \StringTok{"}\VariableTok{$file}\StringTok{"} \DataTypeTok{\textbackslash{}}
- \AttributeTok{{-}vcodec}\NormalTok{ copy  }\AttributeTok{{-}filter\_complex} \DataTypeTok{\textbackslash{}}
- \StringTok{"compand=attacks=0:points={-}80/{-}900|{-}45/{-}15|{-}27/{-}9|0/{-}7|20/{-}7:gain=5"} \DataTypeTok{\textbackslash{}}
-\NormalTok{ comp\_}\StringTok{"}\VariableTok{$file}\StringTok{"}
+    \ControlFlowTok{if} \BuiltInTok{[} \OtherTok{{-}f} \StringTok{"}\VariableTok{$file}\StringTok{"} \BuiltInTok{]}\KeywordTok{;} \ControlFlowTok{then} 
+        \BuiltInTok{echo} \StringTok{"}\VariableTok{$file}\StringTok{"}
+        \VariableTok{DOSSIER=}\KeywordTok{\textasciigrave{}}\FunctionTok{dirname} \StringTok{"}\VariableTok{$file}\StringTok{"}\KeywordTok{\textasciigrave{}}
+        \VariableTok{FICHIER=}\KeywordTok{\textasciigrave{}}\FunctionTok{basename} \StringTok{"}\VariableTok{$file}\StringTok{"}\KeywordTok{\textasciigrave{}}
+            \ExtensionTok{ffmpeg} \AttributeTok{{-}i} \StringTok{"}\VariableTok{$file}\StringTok{"} \DataTypeTok{\textbackslash{}}
+            \AttributeTok{{-}vcodec}\NormalTok{ copy  }\AttributeTok{{-}filter\_complex} \DataTypeTok{\textbackslash{}}
+            \StringTok{"compand=attacks=0:points={-}80/{-}900|{-}45/{-}15|{-}27/{-}9|0/{-}7|20/{-}7:gain=5"} \DataTypeTok{\textbackslash{}}
+            \StringTok{"}\VariableTok{$DOSSIER}\StringTok{"}\NormalTok{/\_}\StringTok{"}\VariableTok{$FICHIER}\StringTok{"}
+    \ControlFlowTok{fi} 
 \ControlFlowTok{done}
 \end{Highlighting}
 \end{Shaded}

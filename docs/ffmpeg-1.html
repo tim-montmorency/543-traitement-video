@@ -560,13 +560,18 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>Exemple pour traiter tous les fichiers d’un dossiers.
 Le script prend un dossier comme argument et traite tous les fichiers présent.
 Le fichier sortant sera précédé de <code>comp_</code></p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb5-1"><a href="ffmpeg-1.html#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> file <span class="kw">in</span> <span class="st">&quot;</span><span class="va">$1</span><span class="st">&quot;</span>.<span class="pp">*</span></span>
+<div class="sourceCode" id="cb5"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb5-1"><a href="ffmpeg-1.html#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> file <span class="kw">in</span> <span class="st">&quot;</span><span class="va">$1</span><span class="st">&quot;</span><span class="pp">*</span></span>
 <span id="cb5-2"><a href="ffmpeg-1.html#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="cf">do</span></span>
-<span id="cb5-3"><a href="ffmpeg-1.html#cb5-3" aria-hidden="true" tabindex="-1"></a> <span class="ex">ffmpeg</span> <span class="at">-i</span> <span class="st">&quot;</span><span class="va">$file</span><span class="st">&quot;</span> <span class="dt">\</span></span>
-<span id="cb5-4"><a href="ffmpeg-1.html#cb5-4" aria-hidden="true" tabindex="-1"></a> <span class="at">-vcodec</span> copy  <span class="at">-filter_complex</span> <span class="dt">\</span></span>
-<span id="cb5-5"><a href="ffmpeg-1.html#cb5-5" aria-hidden="true" tabindex="-1"></a> <span class="st">&quot;compand=attacks=0:points=-80/-900|-45/-15|-27/-9|0/-7|20/-7:gain=5&quot;</span> <span class="dt">\</span></span>
-<span id="cb5-6"><a href="ffmpeg-1.html#cb5-6" aria-hidden="true" tabindex="-1"></a> comp_<span class="st">&quot;</span><span class="va">$file</span><span class="st">&quot;</span></span>
-<span id="cb5-7"><a href="ffmpeg-1.html#cb5-7" aria-hidden="true" tabindex="-1"></a><span class="cf">done</span></span></code></pre></div>
+<span id="cb5-3"><a href="ffmpeg-1.html#cb5-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="bu">[</span> <span class="ot">-f</span> <span class="st">&quot;</span><span class="va">$file</span><span class="st">&quot;</span> <span class="bu">]</span><span class="kw">;</span> <span class="cf">then</span> </span>
+<span id="cb5-4"><a href="ffmpeg-1.html#cb5-4" aria-hidden="true" tabindex="-1"></a>        <span class="bu">echo</span> <span class="st">&quot;</span><span class="va">$file</span><span class="st">&quot;</span></span>
+<span id="cb5-5"><a href="ffmpeg-1.html#cb5-5" aria-hidden="true" tabindex="-1"></a>        <span class="va">DOSSIER=</span><span class="kw">`</span><span class="fu">dirname</span> <span class="st">&quot;</span><span class="va">$file</span><span class="st">&quot;</span><span class="kw">`</span></span>
+<span id="cb5-6"><a href="ffmpeg-1.html#cb5-6" aria-hidden="true" tabindex="-1"></a>        <span class="va">FICHIER=</span><span class="kw">`</span><span class="fu">basename</span> <span class="st">&quot;</span><span class="va">$file</span><span class="st">&quot;</span><span class="kw">`</span></span>
+<span id="cb5-7"><a href="ffmpeg-1.html#cb5-7" aria-hidden="true" tabindex="-1"></a>            <span class="ex">ffmpeg</span> <span class="at">-i</span> <span class="st">&quot;</span><span class="va">$file</span><span class="st">&quot;</span> <span class="dt">\</span></span>
+<span id="cb5-8"><a href="ffmpeg-1.html#cb5-8" aria-hidden="true" tabindex="-1"></a>            <span class="at">-vcodec</span> copy  <span class="at">-filter_complex</span> <span class="dt">\</span></span>
+<span id="cb5-9"><a href="ffmpeg-1.html#cb5-9" aria-hidden="true" tabindex="-1"></a>            <span class="st">&quot;compand=attacks=0:points=-80/-900|-45/-15|-27/-9|0/-7|20/-7:gain=5&quot;</span> <span class="dt">\</span></span>
+<span id="cb5-10"><a href="ffmpeg-1.html#cb5-10" aria-hidden="true" tabindex="-1"></a>            <span class="st">&quot;</span><span class="va">$DOSSIER</span><span class="st">&quot;</span>/_<span class="st">&quot;</span><span class="va">$FICHIER</span><span class="st">&quot;</span></span>
+<span id="cb5-11"><a href="ffmpeg-1.html#cb5-11" aria-hidden="true" tabindex="-1"></a>    <span class="cf">fi</span> </span>
+<span id="cb5-12"><a href="ffmpeg-1.html#cb5-12" aria-hidden="true" tabindex="-1"></a><span class="cf">done</span></span></code></pre></div>
 <ul>
 <li>Documentation de compand
 <ul>
