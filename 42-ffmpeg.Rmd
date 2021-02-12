@@ -35,12 +35,17 @@ Le script prend un dossier comme argument et traite tous les fichiers présent.
 Le fichier sortant sera précédé de `comp_`
 
 ```bash
-for file in "$1".*
+for file in "$1"*
 do
- ffmpeg -i "$file" \
- -vcodec copy  -filter_complex \
- "compand=attacks=0:points=-80/-900|-45/-15|-27/-9|0/-7|20/-7:gain=5" \
- comp_"$file"
+    if [ -f "$file" ]; then 
+        echo "$file"
+        DOSSIER=`dirname "$file"`
+        FICHIER=`basename "$file"`
+            ffmpeg -i "$file" \
+            -vcodec copy  -filter_complex \
+            "compand=attacks=0:points=-80/-900|-45/-15|-27/-9|0/-7|20/-7:gain=5" \
+            "$DOSSIER"/_"$FICHIER"
+    fi 
 done
 ```
 
