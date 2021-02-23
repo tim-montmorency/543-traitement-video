@@ -19,7 +19,5 @@ Rscript -e 'install.packages("rglwidget", repos="http://R-Forge.R-project.org")'
 Rscript -e "webshot::install_phantomjs()"
 
 ## latex
-sudo tlmgr update --self
-sudo tlmgr install multirow  wrapfig tabu threeparttable threeparttablex environ makecell
-sudo tlmgr install epstopdf
- 
+
+

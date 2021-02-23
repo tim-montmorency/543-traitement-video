@@ -1,6 +1,12 @@
 # FFmpeg{#ffmpeg} 
 
 ## FFmpeg
+
+### Signaux de calibration
+
+https://www.bogotobogo.com/FFMpeg/ffmpeg_video_test_patterns_src.php
+
+
 ### ex: Transcoder un fichier video vers un fichier prores compatible avec quicktime
 ```
 ffmpeg -i INPUT.mkv -c:v prores_ks -profile:v 3 -c:a pcm_s16le -pix_fmt yuv420p OUTPUT.mov

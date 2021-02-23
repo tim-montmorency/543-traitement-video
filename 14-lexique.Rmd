@@ -1,41 +1,203 @@
 # Lexique technique et technologique{#lexique}
 
-## Composantes du signal vidéo{#lexique_composantes}
-### Signaux de transmission
-* [Signaux analogues/digitaux](https://en.wikipedia.org/wiki/Video#Analog_video){target="_blank"}
-	* [transmission télévisuelle analogue](https://en.wikipedia.org/wiki/Analog_television){target="_blank"}
+## Rapport de cadre (Ratio)
 
-### résolutions
+* S'écrit « largeur »:« hauteur » on voit aussi souvent « largeur »/« hauteur » 
+* Généralement exprimé avec ratio entiers
 
-* [résolutions](https://en.wikipedia.org/wiki/Computer_display_standard#/media/File:Vector_Video_Standards2.svg){target="_blank"}
+### 16:9
 
-### Ratio
+* ratio vidéo légérement panoramique standard.
+
+![Full HD 16:9 1920x1080 ](medias/lexique/fullHD_16_9_1920x1080.png)
+
+### 4:3
+
+* ratio vidéo utilisé au temps des tubes cathodiques 
+
+![NTSC 4:3](medias/lexique/NTSC 4 3 _640x480.png)
+
+
+* Attention; ce format provenant du monde analogue et est soumis parfois des varitions exotiques
+https://en.wikipedia.org/wiki/Pixel_aspect_ratio#Analog-to-digital_conversion
+
+
+
+### 3:2
+* Ratio provenant du film [35mm](https://en.wikipedia.org/wiki/35_mm_format) qui mesurait réelement 36×24 mm
+
+* Ratio généralement utilisé en photographie
+
+![NTSC 4:3](medias/lexique/Photo_3_2_2000x1333.png)
+
+
+
+
+### 1:1 
+
+* Ratio provenant de la photographie [moyen format](https://fr.wikipedia.org/wiki/Appareil_photographique_de_moyen_format) 
+
+![Carré 1:1](medias/lexique/carre_1_1_1000x1000.png)
+
+
+* Utilie pour 
+	* texture vidéo
+	* [Format dome immersif](https://vioso.com/softedge-patterngenerator/domegrids/CubeMap_4096x4096.png)
+
+
+### 2,39:1 
+
+* Cinemascope; https://fr.wikipedia.org/wiki/CinemaScope 
+	* Jadis, déformation optique au tournage ainsi qu'à la diffusion 
+
+![Carré 1:1](medias/lexique/Cinemascope_2_39_1_2390x1000.png)
+
+	
+* Épique 
+
+### Générateur d'image de calibration
+
+* https://vioso.com/testpattern-generator/
+
+
+
+### Références 
+
+* https://fr.wikipedia.org/wiki/Format_d%27image
 * [ratios image](https://en.wikipedia.org/wiki/Display_aspect_ratio){target="_blank"}
 * [ratios-pixels](https://en.wikipedia.org/wiki/Pixel_aspect_ratio){target="_blank"}
 
-### Débit
-* [Débit (bitrate)](https://en.wikipedia.org/wiki/Bit_rate#Video){target="_blank"} 
 
-### Échantillonnage
-* Profondeur de l'échantillonnage couleur 
-	* [bit/canal](https://en.wikipedia.org/wiki/Color_depth){target="_blank"}  
-* [chroma subsampling](https://en.wikipedia.org/wiki/Chroma_subsampling#Sampling_systems_and_ratios){target="_blank"} 
-	* [4:4:4 vs 4:2:2 vs 4:2:0](https://upload.wikimedia.org/wikipedia/commons/0/06/Colorcomp.jpg){target="_blank"}
-	* [4:4:4 vs 4:4:4:4](https://en.wikipedia.org/wiki/Alpha_compositing){target="_blank"}
+## Constituantes du signal vidéo{#lexique_composantes}
+
+### Analogue vs numérique
+
+Est-ce que le signal est une variation de fluctuation électrique flotante (analogue) ou binaire (numérique)
+
+* [Signaux analogues/digitaux](https://en.wikipedia.org/wiki/Video#Analog_video){target="_blank"}
+* [transmission télévisuelle analogue](https://en.wikipedia.org/wiki/Analog_television){target="_blank"}
+
 
 ### Cadence
+
+Associé à la vitesse, généralement exprimé en image / secondes
+
 * [Cadence](https://frames-per-second.appspot.com){target="_blank"} 
+
+### Débit
+
+Associé à la bande passante du signal, généralement exprimé en nombre de bits par secondes. 
+
+* Un bit (b) = 1 bit, un byte (B) = 8 bits
+
+* Mbit/s -> mégabit par secondes 
+* MBit/s -> mégabytes par secondes 
+
+* [Débit (bitrate)](https://en.wikipedia.org/wiki/Bit_rate#Video){target="_blank"} 
+
+
 
 ### Trame
 * [Trame (progressif/entrelacé)](https://web.archive.org/web/20140222010640/http://neuron2.net/LVG/interlacing.html){target="_blank"}
 
-### Poid
-* [calcul de grosseur de fichier](https://toolstud.io/video/filesize.php?imagewidth=1920&imageheight=1080&framerate=29.97&timeduration=60&timeunit=seconds){target="_blank"}
-* [calcul de bitrate](https://toolstud.io/video/bitrate.php?imagewidth=1&imageheight=1&colordepth=24&framerate=29.97){target="_blank"}
+
+## Signaux vidéo standardisés
+
+
+
+| résolution | protocoles de transport et connecteurs associé 
+
+
+
+
+
+## L'encodage vidéo numérique {#lexique_encodage}
+
+
+
+### Vidéo compressé vs non-compressé 
+
+#### Non-compressé
+
+* Texture vidéo en mémoire
+* le codec animation 
+
+```
+data rate = color depth[a] × vertical resolution × horizontal resolution × refresh frequency
+```
+
+```
+24-bit, 1080p @ 60 fps: 24 × 1920×1080 × 60 = 2.98 Gbit/s.
+```
+
+##### Usages
+
+##### E
+
+https://en.wikipedia.org/wiki/Uncompressed_video
+
+
+
+L'encodage permet la lecture de fichiers et de flux vidéo. 
+L'encodage est déterminé par la configuration d'un codec dans un conteneur.   
+
+### Sans perte / avec perte (lossless/lossy)
+
+#### [Encodage vidéo sans perte - lossless](https://en.wikipedia.org/wiki/List_of_codecs#Lossless_video_compression){target="_blank"}
+
+##### Caractéristiques:
+
+* Volumineux
+* Privilégié entre les opérations de rendu où l'intégrité de l'information est critique
+* Généralement plus facile à opérer en mémoire graphique (GPU) 
+
+##### Usages 
+
+* Entre les nodes d 
+* Quand la tête de lecture n'est pas linéaire du début vers la fin
+	* Montage vidéo
+	* Lecture à l'envers ou en palindrome  
+
+##### Type de médias lossless
+
+* Apple Animation (QuickTime RLE)
+* CinemaDNG Raw (Adobe, Blackmagic)
+* séquence d'images (tiff, openexr)
+
+##### Caractéristiques:
+
+* Volumineux
+* Privilégié quand la tête de lecture n'est pas linéaire du début vers la fin
+	* Montage vidéo
+	* Lecture à l'envers ou en palindrome  
+
+#### [Encodage vidéo avec perte -lossy](https://en.wikipedia.org/wiki/List_of_codecs#Lossy_compression_2){target="_blank"}
+* H.264&VP8
+* HEVC&VP9
+* proRes, dnxHD, cineform		
+* HAP & HAPQ	
+
+
+### Compressions applicables
+
+
+
+##### intraframe
+* Toute l'image individuellement compressée dans chaque image.
+	* prores, dnxHD, photoJpeg, Apple intermediate codec (aic), cineform 	
+
+##### [interframe](https://en.wikipedia.org/wiki/Inter_frame){target="_blank"}
+* image temporellement compressée, [ce qui change](http://dvd-hq.info/data_compression_3.php){target="_blank"}
+	* [images: I (clef), P (<-) et B(<->)](https://en.wikipedia.org/wiki/Video_compression_picture_types){target="_blank"}
+	* [GOP : group of picture](https://en.wikipedia.org/wiki/Inter_frame#/media/File:IPB_images_sequence.png){target="_blank"}
+* usage créatif [1](https://www.youtube.com/watch?v=rMSsw4CZvKg){target="_blank"}, [2](https://www.youtube.com/watch?v=rSmEOk5AiN0){target="_blank"}, [3](https://www.youtube.com/watch?v=dNa0-xrKi3Q){target="_blank"}
+
+
+
 
 ## Formats de fichiers {#lexique_fichiers}
 
-### Containers
+### Contenant (Containers)
 
 | nom | extension |
 | -	| -|
@@ -48,7 +210,7 @@
 
 [wiki:Comparison_of_video_container_formats](https://en.wikipedia.org/wiki/Comparison_of_video_container_formats){target="_blank"}
 
-### Codecs
+### Format d'encodage (Codecs)
 
 |Codec 				| compression		| usage 		|	 
 | - 				|	-				|	 - 			|	
@@ -58,34 +220,24 @@
 | dnxHD				|	intra 			| montage 		|
 | HAP				|	intra 		 	| GPU&SSD   	 |
 
-## Encodage vidéo{#lexique_encodage}
-###  compression 
-
-#### lossless/lossy
-
-##### [Encodage vidéo sans perte - lossless](https://en.wikipedia.org/wiki/List_of_codecs#Lossless_video_compression){target="_blank"}
-* Apple Animation (QuickTime RLE)
-* CinemaDNG Raw (Adobe, Blackmagic)
-* séquence d'images (tiff, openexr)
-
-##### [Encodage vidéo avec perte -lossy](https://en.wikipedia.org/wiki/List_of_codecs#Lossy_compression_2){target="_blank"}
-* H.264&VP8
-* HEVC&VP9
-* proRes, dnxHD, cineform		
-* HAP & HAPQ	
 
 
-#### intra/inter frame
 
-##### intraframe
-* Toute l'image individuellement compressée dans chaque image.
-	* prores, dnxHD, photoJpeg, Apple intermediate codec (aic), cineform 	
 
-##### [interframe](https://en.wikipedia.org/wiki/Inter_frame){target="_blank"}
-* image temporellement compressée, [ce qui change](http://dvd-hq.info/data_compression_3.php){target="_blank"}
-	* [images: I (clef), P (<-) et B(<->)](https://en.wikipedia.org/wiki/Video_compression_picture_types){target="_blank"}
-	* [GOP : group of picture](https://en.wikipedia.org/wiki/Inter_frame#/media/File:IPB_images_sequence.png){target="_blank"}
-* usage créatif [1](https://www.youtube.com/watch?v=rMSsw4CZvKg){target="_blank"}, [2](https://www.youtube.com/watch?v=rSmEOk5AiN0){target="_blank"}, [3](https://www.youtube.com/watch?v=dNa0-xrKi3Q){target="_blank"}
+
+### Poid (bitrate)
+* [calcul de grosseur de fichier](https://toolstud.io/video/filesize.php?imagewidth=1920&imageheight=1080&framerate=29.97&timeduration=60&timeunit=seconds){target="_blank"}
+* [calcul de bitrate](https://toolstud.io/video/bitrate.php?imagewidth=1&imageheight=1&colordepth=24&framerate=29.97){target="_blank"}
+
+
+### Profondeur d'échantillonnage
+* Profondeur de l'échantillonnage couleur 
+	* [bit/canal](https://en.wikipedia.org/wiki/Color_depth){target="_blank"}  
+* [chroma subsampling](https://en.wikipedia.org/wiki/Chroma_subsampling#Sampling_systems_and_ratios){target="_blank"} 
+	* [4:4:4 vs 4:2:2 vs 4:2:0](https://upload.wikimedia.org/wikipedia/commons/0/06/Colorcomp.jpg){target="_blank"}
+	* [4:4:4 vs 4:4:4:4](https://en.wikipedia.org/wiki/Alpha_compositing){target="_blank"}
+
+
 
 
 
