@@ -11,6 +11,8 @@
 
 ![Full HD 16:9 1920x1080 ](medias/lexique/fullHD_16_9_1920x1080.png)
 
+![barres de calibration](medias/lexique/barre_couleurs-1600x900.png)
+
 ### 4:3
 
 * ratio vidéo utilisé au temps des tubes cathodiques 
@@ -31,20 +33,6 @@ https://en.wikipedia.org/wiki/Pixel_aspect_ratio#Analog-to-digital_conversion
 ![NTSC 4:3](medias/lexique/Photo_3_2_2000x1333.png)
 
 
-
-
-### 1:1 
-
-* Ratio provenant de la photographie [moyen format](https://fr.wikipedia.org/wiki/Appareil_photographique_de_moyen_format) 
-
-![Carré 1:1](medias/lexique/carre_1_1_1000x1000.png)
-
-
-* Utilie pour 
-	* texture vidéo
-	* [Format dome immersif](https://vioso.com/softedge-patterngenerator/domegrids/CubeMap_4096x4096.png)
-
-
 ### 2,39:1 
 
 * Cinemascope; https://fr.wikipedia.org/wiki/CinemaScope 
@@ -55,10 +43,25 @@ https://en.wikipedia.org/wiki/Pixel_aspect_ratio#Analog-to-digital_conversion
 	
 * Épique 
 
-### Générateur d'image de calibration
 
-* https://vioso.com/testpattern-generator/
+### 1:1 
 
+* Ratio provenant de la photographie [moyen format](https://fr.wikipedia.org/wiki/Appareil_photographique_de_moyen_format) 
+
+![1:1 ratio](medias/lexique/carre_1_1_1000x1000.png)
+
+![1:1 Environnement spérique *Cube map*](medias/lexique/CubeMap_4096x4096.png)
+
+* Utilie pour 
+	* texture vidéo
+	* [Format dome immersif](https://vioso.com/softedge-patterngenerator/domegrids/CubeMap_4096x4096.png)
+
+
+
+### Générateur d'image de calibration 
+
+* interface web 
+	* https://vioso.com/testpattern-generator/
 
 
 ### Références 
@@ -69,6 +72,7 @@ https://en.wikipedia.org/wiki/Pixel_aspect_ratio#Analog-to-digital_conversion
 
 
 ## Constituantes du signal vidéo{#lexique_composantes}
+
 
 ### Analogue vs numérique
 
@@ -95,25 +99,23 @@ Associé à la bande passante du signal, généralement exprimé en nombre de bi
 
 * [Débit (bitrate)](https://en.wikipedia.org/wiki/Bit_rate#Video){target="_blank"} 
 
+### Poid (bitrate)
+* [calcul de grosseur de fichier](https://toolstud.io/video/filesize.php?imagewidth=1920&imageheight=1080&framerate=29.97&timeduration=60&timeunit=seconds){target="_blank"}
+* [calcul de bitrate](https://toolstud.io/video/bitrate.php?imagewidth=1&imageheight=1&colordepth=24&framerate=29.97){target="_blank"}
 
+
+### Profondeur d'échantillonnage
+* Profondeur de l'échantillonnage couleur 
+	* [bit/canal](https://en.wikipedia.org/wiki/Color_depth){target="_blank"}  
+* [chroma subsampling](https://en.wikipedia.org/wiki/Chroma_subsampling#Sampling_systems_and_ratios){target="_blank"} 
+	* [4:4:4 vs 4:2:2 vs 4:2:0](https://upload.wikimedia.org/wikipedia/commons/0/06/Colorcomp.jpg){target="_blank"}
+	* [4:4:4 vs 4:4:4:4](https://en.wikipedia.org/wiki/Alpha_compositing){target="_blank"}
 
 ### Trame
 * [Trame (progressif/entrelacé)](https://web.archive.org/web/20140222010640/http://neuron2.net/LVG/interlacing.html){target="_blank"}
 
 
-## Signaux vidéo standardisés
-
-
-
-| résolution | protocoles de transport et connecteurs associé 
-
-
-
-
-
 ## L'encodage vidéo numérique {#lexique_encodage}
-
-
 
 ### Vidéo compressé vs non-compressé 
 
@@ -122,41 +124,62 @@ Associé à la bande passante du signal, généralement exprimé en nombre de bi
 * Texture vidéo en mémoire
 * le codec animation 
 
-```
+$$
 data rate = color depth[a] × vertical resolution × horizontal resolution × refresh frequency
-```
+$$
 
-```
+$$
 24-bit, 1080p @ 60 fps: 24 × 1920×1080 × 60 = 2.98 Gbit/s.
-```
+$$
 
 ##### Usages
+* https://en.wikipedia.org/wiki/Uncompressed_video
 
-##### E
-
-https://en.wikipedia.org/wiki/Uncompressed_video
-
+#### Compressée
 
 
-L'encodage permet la lecture de fichiers et de flux vidéo. 
-L'encodage est déterminé par la configuration d'un codec dans un conteneur.   
 
-### Sans perte / avec perte (lossless/lossy)
+Quand il y a compression, des instructions sont exécutées par le lecteur pour restituer l'image à temps.
+
+La configuration de la compression vidéo sont déterminé par différents facteurs
+* l'usage 
+* la mémoire disponible
+* la bande passantes disponible
+* La présence de circuit dédié (encodage/décodage matériel)
+
+
+
+### Compression sans pertes vs destructive (lossless/lossy)
 
 #### [Encodage vidéo sans perte - lossless](https://en.wikipedia.org/wiki/List_of_codecs#Lossless_video_compression){target="_blank"}
+
+La compression vise à réduire le poids.
+
+Il est lourd d'écrire en détail chaque informations.
+
+```
+[0xFFFFFF]
+[0xFFFFFF]
+[0xFFFFFF]
+[0xFFFFFF]
+[0xAA66EE]
+```
+On peut compresser sans perte en opérationalisant la redondence d'informations adjacente.
+
+```
+4*[0xFFFFFF]
+1*[0xAA66EE]
+```
 
 ##### Caractéristiques:
 
 * Volumineux
 * Privilégié entre les opérations de rendu où l'intégrité de l'information est critique
-* Généralement plus facile à opérer en mémoire graphique (GPU) 
+* Généralement plus facile à mettre en mémoire graphique (GPU) 
 
 ##### Usages 
 
-* Entre les nodes d 
-* Quand la tête de lecture n'est pas linéaire du début vers la fin
-	* Montage vidéo
-	* Lecture à l'envers ou en palindrome  
+* Au sein d'un processus de production/post-production 
 
 ##### Type de médias lossless
 
@@ -164,51 +187,37 @@ L'encodage est déterminé par la configuration d'un codec dans un conteneur.
 * CinemaDNG Raw (Adobe, Blackmagic)
 * séquence d'images (tiff, openexr)
 
-##### Caractéristiques:
 
-* Volumineux
-* Privilégié quand la tête de lecture n'est pas linéaire du début vers la fin
-	* Montage vidéo
-	* Lecture à l'envers ou en palindrome  
 
 #### [Encodage vidéo avec perte -lossy](https://en.wikipedia.org/wiki/List_of_codecs#Lossy_compression_2){target="_blank"}
-* H.264&VP8
-* HEVC&VP9
-* proRes, dnxHD, cineform		
-* HAP & HAPQ	
 
 
-### Compressions applicables
+Méthode de compressions applicables;
 
-
-
-##### intraframe
+##### [intraframe](http://users.cs.cf.ac.uk/Dave.Marshall/Multimedia/node248.html){target="_blank"}
 * Toute l'image individuellement compressée dans chaque image.
 	* prores, dnxHD, photoJpeg, Apple intermediate codec (aic), cineform 	
 
-##### [interframe](https://en.wikipedia.org/wiki/Inter_frame){target="_blank"}
+##### [interframe](http://users.cs.cf.ac.uk/Dave.Marshall/Multimedia/node249.htmlhttps://en.wikipedia.org/wiki/Inter_frame){target="_blank"}
+
 * image temporellement compressée, [ce qui change](http://dvd-hq.info/data_compression_3.php){target="_blank"}
 	* [images: I (clef), P (<-) et B(<->)](https://en.wikipedia.org/wiki/Video_compression_picture_types){target="_blank"}
 	* [GOP : group of picture](https://en.wikipedia.org/wiki/Inter_frame#/media/File:IPB_images_sequence.png){target="_blank"}
 * usage créatif [1](https://www.youtube.com/watch?v=rMSsw4CZvKg){target="_blank"}, [2](https://www.youtube.com/watch?v=rSmEOk5AiN0){target="_blank"}, [3](https://www.youtube.com/watch?v=dNa0-xrKi3Q){target="_blank"}
 
+##### Type de médias lossless
+
+* proRes, dnxHD, cineform	
+* H.264&VP8
+* HEVC&VP9	
+* HAP & HAPQ	
 
 
 
-## Formats de fichiers {#lexique_fichiers}
+## Encodage/décodage de fichiers {#lexique_fichiers}
 
-### Contenant (Containers)
-
-| nom | extension |
-| -	| -|
-| QuickTime | .mov |
-| Matroska  | .mkv |
-| Mpeg4		| .mp4 |
-| Windows Media Video | .wmv |
-| Audio Video Interleaved | .avi |
-| Theora 	| .ogv |
-
-[wiki:Comparison_of_video_container_formats](https://en.wikipedia.org/wiki/Comparison_of_video_container_formats){target="_blank"}
+L'encodage permet la lecture de fichiers et de flux vidéo. 
+L'encodage est déterminé par la configuration d'un codec dans un conteneur.  
 
 ### Format d'encodage (Codecs)
 
@@ -223,31 +232,34 @@ L'encodage est déterminé par la configuration d'un codec dans un conteneur.
 
 
 
+### Contenant (Containers)
+
+| nom | extension |
+| -	| -|
+| QuickTime | .mov |
+| Matroska  | .mkv |
+| Mpeg4		| .mp4 |
+| Windows Media Video | .wmv |
+| Audio Video Interleaved | .avi |
+| Theora 	| .ogv |
+
+[wiki:Comparison_of_video_container_formats](https://en.wikipedia.org/wiki/Comparison_of_video_container_formats){target="_blank"}
 
 
-### Poid (bitrate)
-* [calcul de grosseur de fichier](https://toolstud.io/video/filesize.php?imagewidth=1920&imageheight=1080&framerate=29.97&timeduration=60&timeunit=seconds){target="_blank"}
-* [calcul de bitrate](https://toolstud.io/video/bitrate.php?imagewidth=1&imageheight=1&colordepth=24&framerate=29.97){target="_blank"}
+####  Présentations des codecs TIM 
+
+https://cmontmorency365.sharepoint.com/:p:/s/TIM-TTP/EZJO9E0y6idAql7kKqGyKFQB--xsTpIiWADt1-m3hnbBgg?e=UQXaWB
 
 
-### Profondeur d'échantillonnage
-* Profondeur de l'échantillonnage couleur 
-	* [bit/canal](https://en.wikipedia.org/wiki/Color_depth){target="_blank"}  
-* [chroma subsampling](https://en.wikipedia.org/wiki/Chroma_subsampling#Sampling_systems_and_ratios){target="_blank"} 
-	* [4:4:4 vs 4:2:2 vs 4:2:0](https://upload.wikimedia.org/wikipedia/commons/0/06/Colorcomp.jpg){target="_blank"}
-	* [4:4:4 vs 4:4:4:4](https://en.wikipedia.org/wiki/Alpha_compositing){target="_blank"}
+#### Pour aller plus loin 
 
+* pour des usages réguliers voir : 
 
+	* FFmpeg Cookbook for Archivists [@kromer_FFmpegCookbookArchivists_2020]
+	* FFmpeg Cookbook par Greg Wessels [@wessels_FFmpegCookbook_2017]
 
+* pour usages artistiques : 
 
-
-pour des usages réguliers voir : 
-
-* FFmpeg Cookbook for Archivists [@kromer_FFmpegCookbookArchivists_2020]
-* FFmpeg Cookbook par Greg Wessels [@wessels_FFmpegCookbook_2017]
-
-pour usages artistiques : 
-
-* FFmpeg artschool [@associationofmovingimagearchivists_FFmpegArtschool_2020]
-
+	* FFmpeg artschool [@associationofmovingimagearchivists_FFmpegArtschool_2020]
+	
 

@@ -4,13 +4,14 @@
 %
 \documentclass[
 ]{book}
-\usepackage{amsmath,amssymb}
 \usepackage{lmodern}
+\usepackage{amsmath}
 \usepackage{ifxetex,ifluatex}
 \ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
   \usepackage{textcomp} % provide euro and other symbols
+  \usepackage{amssymb}
 \else % if luatex or xetex
   \usepackage{unicode-math}
   \defaultfontfeatures{Scale=MatchLowercase}
@@ -81,7 +82,7 @@
 \newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
 \newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
 \newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\usepackage{longtable,booktabs,array}
+\usepackage{longtable,booktabs}
 \usepackage{calc} % for calculating minipage widths
 % Correct order of tables after \paragraph or \subparagraph
 \usepackage{etoolbox}
@@ -129,7 +130,7 @@
 
 \title{Traitement vidéo}
 \author{Guillaume Arseneault}
-\date{2021-02-22}
+\date{2021-02-23}
 
 \begin{document}
 \maketitle
@@ -531,109 +532,220 @@ L'approche pédagogique de ce cours emprunte à celle employée dans les sémina
 
 \href{https://www.cmontmorency.qc.ca/wp-content/uploads/images/college/administration/CALENDRIER-SCOLAIRE-2020-2021.pdf}{Calendrier Collège Montmorency 2020-2021}
 
-\begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.19}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.41}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.41}}@{}}
+\begin{longtable}[]{@{}lll@{}}
 \toprule
-Séance & OBJECTIFS ABORDÉS EN CLASSE & ACTIVITÉS AUTONOMES \\
+\begin{minipage}[b]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
+Séance\strut
+\end{minipage} & \begin{minipage}[b]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+OBJECTIFS ABORDÉS EN CLASSE\strut
+\end{minipage} & \begin{minipage}[b]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+ACTIVITÉS AUTONOMES\strut
+\end{minipage}\tabularnewline
 \midrule
 \endhead
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
 \protect\hyperlink{semaine_1}{1;
 3
-février} & Plan de cour;
+février}\strut
+\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+Plan de cour;
 Survol \protect\hyperlink{corpus}{corpus artistique};
 Consignes \protect\hyperlink{sommatif_1}{Présentation corpus
-vidéo}; & Recherche d'un sujet \protect\hyperlink{sommatif_1}{Présentation corpus
-vidéo} \\
+vidéo};\strut
+\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+Recherche d'un sujet \protect\hyperlink{sommatif_1}{Présentation corpus
+vidéo}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
 \protect\hyperlink{semaine_2}{2;
 10
-février} & \protect\hyperlink{evolution_historique}{Historique du traitement
+février}\strut
+\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+\protect\hyperlink{evolution_historique}{Historique du traitement
 vidéo};
 Formatif Préapprobation \protect\hyperlink{sommatif_1}{Présentation corpus
-Vidéo} & Préparation \protect\hyperlink{sommatif_1}{Présentation corpus
-vidéo} \\
+Vidéo}\strut
+\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+Préparation \protect\hyperlink{sommatif_1}{Présentation corpus
+vidéo}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
 \protect\hyperlink{semaine_3}{3;
 17
-février} & Sommatif \protect\hyperlink{sommatif_1}{Présentation corpus
-Vidéo} & \\
+février}\strut
+\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+Sommatif \protect\hyperlink{sommatif_1}{Présentation corpus
+Vidéo}\strut
+\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
 \protect\hyperlink{semaine_4}{4;
 24
-février} & \protect\hyperlink{lexique}{Composantes du signal vidéo};
+février}\strut
+\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+\protect\hyperlink{lexique}{Composantes du signal vidéo};
 \protect\hyperlink{acquerir}{Acquérir l'image en mouvement};
 \protect\hyperlink{echantillonner}{Échantillonner l'image en
 mouvement};
 Consignes \protect\hyperlink{sommatif_2}{Question traitement
-vidéo} & Préparation \protect\hyperlink{sommatif_2}{Question traitement
-vidéo} \\
+vidéo}\strut
+\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+Préparation \protect\hyperlink{sommatif_2}{Question traitement
+vidéo}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
 \protect\hyperlink{semaine_5}{X;
 3
-mars} & Journées de rattrapage (Pas de cours) & \\
+mars}\strut
+\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+Journées de rattrapage (Pas de cours)\strut
+\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
 \protect\hyperlink{semaine_6}{5;
 10
-mars} & \protect\hyperlink{traiter}{Traiter l'image en mouvement};
+mars}\strut
+\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+\protect\hyperlink{traiter}{Traiter l'image en mouvement};
 Formatif Préapprobation \protect\hyperlink{sommatif_2}{Question traitement
-vidéo} & Soumettre \protect\hyperlink{sommatif_2}{Question traitement
-vidéo} \\
+vidéo}\strut
+\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+Soumettre \protect\hyperlink{sommatif_2}{Question traitement
+vidéo}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
 \protect\hyperlink{semaine_7}{6;
 17
-mars} & Consignes \protect\hyperlink{sommatif_4}{Palette vidéo
+mars}\strut
+\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+Consignes \protect\hyperlink{sommatif_4}{Palette vidéo
 interactive};
-Sommatif \protect\hyperlink{sommatif_3}{Quiz traitement vidéo} & Préparation \protect\hyperlink{sommatif_4}{Palette vidéo
-interactive} \\
+Sommatif \protect\hyperlink{sommatif_3}{Quiz traitement vidéo}\strut
+\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+Préparation \protect\hyperlink{sommatif_4}{Palette vidéo
+interactive}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
 \protect\hyperlink{semaine_8}{7;
 24
-mars} & \protect\hyperlink{programmer}{Programmer des sources visuelles} & Préparation \protect\hyperlink{sommatif_4}{Palette vidéo
-interactive} \\
+mars}\strut
+\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+\protect\hyperlink{programmer}{Programmer des sources visuelles}\strut
+\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+Préparation \protect\hyperlink{sommatif_4}{Palette vidéo
+interactive}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
 \protect\hyperlink{semaine_9}{8;
 31
-mars} & \protect\hyperlink{interagir}{Interagir avec des sources vidéo} & Préparation \protect\hyperlink{sommatif_4}{Palette vidéo
-interactive} \\
+mars}\strut
+\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+\protect\hyperlink{interagir}{Interagir avec des sources vidéo}\strut
+\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+Préparation \protect\hyperlink{sommatif_4}{Palette vidéo
+interactive}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
 \protect\hyperlink{semaine_10}{X;
 7
-avril} & Congé (Pas de cours) & \\
+avril}\strut
+\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+Congé (Pas de cours)\strut
+\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
 \protect\hyperlink{semaine_11}{9;
 14
-avril} & Suite \protect\hyperlink{programmer}{Programmer des sources
+avril}\strut
+\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+Suite \protect\hyperlink{programmer}{Programmer des sources
 visuelles};
 et \protect\hyperlink{interagir}{Interagir avec des sources
-vidéo} & Préparation \protect\hyperlink{sommatif_4}{Palette vidéo
-interactive} \\
+vidéo}\strut
+\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+Préparation \protect\hyperlink{sommatif_4}{Palette vidéo
+interactive}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
 \protect\hyperlink{semaine_12}{10;
 21
-avril} & Sommatif \protect\hyperlink{sommatif_4}{Palette vidéo
-interactive} & \\
+avril}\strut
+\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+Sommatif \protect\hyperlink{sommatif_4}{Palette vidéo
+interactive}\strut
+\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
 \protect\hyperlink{semaine_13}{11;
 28
-avril} & \protect\hyperlink{deployer}{Déployer un projet vidéo temps
+avril}\strut
+\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+\protect\hyperlink{deployer}{Déployer un projet vidéo temps
 réel};
 Consignes \protect\hyperlink{sommatif_5}{performance audiovisuelle temps
-réel} & Préparation \protect\hyperlink{sommatif_5}{performance audiovisuelle temps
-réel} \\
+réel}\strut
+\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+Préparation \protect\hyperlink{sommatif_5}{performance audiovisuelle temps
+réel}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
 \protect\hyperlink{semaine_14}{12;
 5
-mai} & Suite \protect\hyperlink{deployer}{Déployer un projet vidéo temps
-réel} & Préparation \protect\hyperlink{sommatif_5}{performance audiovisuelle temps
-réel} \\
+mai}\strut
+\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+Suite \protect\hyperlink{deployer}{Déployer un projet vidéo temps
+réel}\strut
+\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+Préparation \protect\hyperlink{sommatif_5}{performance audiovisuelle temps
+réel}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
 \protect\hyperlink{semaine_15}{13;
 12
-mai} & Préparation \protect\hyperlink{sommatif_5}{performance audiovisuelle temps
-réel} & Préparation \protect\hyperlink{sommatif_5}{performance audiovisuelle temps
-réel} \\
+mai}\strut
+\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+Préparation \protect\hyperlink{sommatif_5}{performance audiovisuelle temps
+réel}\strut
+\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+Préparation \protect\hyperlink{sommatif_5}{performance audiovisuelle temps
+réel}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
 \protect\hyperlink{semaine_16}{14;
 18
-mai} & Exceptionnellement un mardi,
+mai}\strut
+\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+Exceptionnellement un mardi,
 \protect\hyperlink{sommatif_5}{performance audiovisuelle temps
-réel}; & Rédaction du document accompagnateur
-\protect\hyperlink{sommatif_5}{performance audiovisuelle temps réel} \\
+réel};\strut
+\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+Rédaction du document accompagnateur
+\protect\hyperlink{sommatif_5}{performance audiovisuelle temps réel}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
 \protect\hyperlink{semaine_17}{X;
 19
-mai} & Épreuve uniforme de français (Pas de cours) & Rédaction document \protect\hyperlink{sommatif_5}{performance audiovisuelle
-temps réel} \\
+mai}\strut
+\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+Épreuve uniforme de français (Pas de cours)\strut
+\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+Rédaction document \protect\hyperlink{sommatif_5}{performance audiovisuelle
+temps réel}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
 \protect\hyperlink{semaine_18}{15;
 25
-mai} & Remise du document accompagnateur \protect\hyperlink{sommatif_5}{performance
-audiovisuelle temps réel} & \\
+mai}\strut
+\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+Remise du document accompagnateur \protect\hyperlink{sommatif_5}{performance
+audiovisuelle temps réel}\strut
+\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
+\strut
+\end{minipage}\tabularnewline
 \bottomrule
 \end{longtable}
 
@@ -1983,20 +2095,186 @@ Autre liens
 \hypertarget{lexique}{%
 \chapter{Lexique technique et technologique}\label{lexique}}
 
-\hypertarget{lexique_composantes}{%
-\section{Signaux vidéo}\label{lexique_composantes}}
-
-\hypertarget{ruxe9solutions}{%
-\subsection{résolutions}\label{ruxe9solutions}}
+\hypertarget{rapport-de-cadre-ratio}{%
+\section{Rapport de cadre (Ratio)}\label{rapport-de-cadre-ratio}}
 
 \begin{itemize}
 \tightlist
 \item
-  \href{https://en.wikipedia.org/wiki/Computer_display_standard\#/media/File:Vector_Video_Standards2.svg}{résolutions}
+  S'écrit « largeur »:« hauteur » on voit aussi souvent « largeur »/« hauteur »
+\item
+  Généralement exprimé avec ratio entiers
+\end{itemize}
+
+\hypertarget{section-1}{%
+\subsection{16:9}\label{section-1}}
+
+\begin{itemize}
+\tightlist
+\item
+  ratio vidéo légérement panoramique standard.
+\end{itemize}
+
+\begin{figure}
+\centering
+\includegraphics{medias/lexique/fullHD_16_9_1920x1080.png}
+\caption{Full HD 16:9 1920x1080}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics{medias/lexique/barre_couleurs-1600x900.png}
+\caption{barres de calibration}
+\end{figure}
+
+\hypertarget{section-2}{%
+\subsection{4:3}\label{section-2}}
+
+\begin{itemize}
+\tightlist
+\item
+  ratio vidéo utilisé au temps des tubes cathodiques
+\end{itemize}
+
+\begin{figure}
+\centering
+\includegraphics{medias/lexique/NTSC 4 3 _640x480.png}
+\caption{NTSC 4:3}
+\end{figure}
+
+\begin{itemize}
+\tightlist
+\item
+  Attention; ce format provenant du monde analogue et est soumis parfois des varitions exotiques
+  \url{https://en.wikipedia.org/wiki/Pixel_aspect_ratio\#Analog-to-digital_conversion}
+\end{itemize}
+
+\hypertarget{section-3}{%
+\subsection{3:2}\label{section-3}}
+
+\begin{itemize}
+\item
+  Ratio provenant du film \href{https://en.wikipedia.org/wiki/35_mm_format}{35mm} qui mesurait réelement 36×24 mm
+\item
+  Ratio généralement utilisé en photographie
+\end{itemize}
+
+\begin{figure}
+\centering
+\includegraphics{medias/lexique/Photo_3_2_2000x1333.png}
+\caption{NTSC 4:3}
+\end{figure}
+
+\hypertarget{section-4}{%
+\subsection{2,39:1}\label{section-4}}
+
+\begin{itemize}
+\tightlist
+\item
+  Cinemascope; \url{https://fr.wikipedia.org/wiki/CinemaScope}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Jadis, déformation optique au tournage ainsi qu'à la diffusion
+  \end{itemize}
+\end{itemize}
+
+\begin{figure}
+\centering
+\includegraphics{medias/lexique/Cinemascope_2_39_1_2390x1000.png}
+\caption{Carré 1:1}
+\end{figure}
+
+\begin{itemize}
+\tightlist
+\item
+  Épique
+\end{itemize}
+
+\hypertarget{section-5}{%
+\subsection{1:1}\label{section-5}}
+
+\begin{itemize}
+\tightlist
+\item
+  Ratio provenant de la photographie \href{https://fr.wikipedia.org/wiki/Appareil_photographique_de_moyen_format}{moyen format}
+\end{itemize}
+
+\begin{figure}
+\centering
+\includegraphics{medias/lexique/carre_1_1_1000x1000.png}
+\caption{1:1 ratio}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics{medias/lexique/CubeMap_4096x4096.png}
+\caption{1:1 Environnement spérique \emph{Cube map}}
+\end{figure}
+
+\begin{itemize}
+\tightlist
+\item
+  Utilie pour
+
+  \begin{itemize}
+  \tightlist
+  \item
+    texture vidéo
+  \item
+    \href{https://vioso.com/softedge-patterngenerator/domegrids/CubeMap_4096x4096.png}{Format dome immersif}
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{guxe9nuxe9rateur-dimage-de-calibration}{%
+\subsection{Générateur d'image de calibration}\label{guxe9nuxe9rateur-dimage-de-calibration}}
+
+\begin{itemize}
+\tightlist
+\item
+  interface web
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \url{https://vioso.com/testpattern-generator/}
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{ruxe9fuxe9rences}{%
+\subsection{Références}\label{ruxe9fuxe9rences}}
+
+\begin{itemize}
+\tightlist
+\item
+  \url{https://fr.wikipedia.org/wiki/Format_d\%27image}
+\item
+  \href{https://en.wikipedia.org/wiki/Display_aspect_ratio}{ratios image}
+\item
+  \href{https://en.wikipedia.org/wiki/Pixel_aspect_ratio}{ratios-pixels}
+\end{itemize}
+
+\hypertarget{lexique_composantes}{%
+\section{Constituantes du signal vidéo}\label{lexique_composantes}}
+
+\hypertarget{analogue-vs-numuxe9rique}{%
+\subsection{Analogue vs numérique}\label{analogue-vs-numuxe9rique}}
+
+Est-ce que le signal est une variation de fluctuation électrique flotante (analogue) ou binaire (numérique)
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://en.wikipedia.org/wiki/Video\#Analog_video}{Signaux analogues/digitaux}
+\item
+  \href{https://en.wikipedia.org/wiki/Analog_television}{transmission télévisuelle analogue}
 \end{itemize}
 
 \hypertarget{cadence}{%
 \subsection{Cadence}\label{cadence}}
+
+Associé à la vitesse, généralement exprimé en image / secondes
 
 \begin{itemize}
 \tightlist
@@ -2004,169 +2282,20 @@ Autre liens
   \href{https://frames-per-second.appspot.com}{Cadence}
 \end{itemize}
 
-\hypertarget{ratio}{%
-\subsection{Ratio}\label{ratio}}
-
-\begin{itemize}
-\tightlist
-\item
-  \href{https://en.wikipedia.org/wiki/Display_aspect_ratio}{ratios image}
-\item
-  \href{https://en.wikipedia.org/wiki/Pixel_aspect_ratio}{ratios-pixels}
-\end{itemize}
-
 \hypertarget{duxe9bit}{%
 \subsection{Débit}\label{duxe9bit}}
 
+Associé à la bande passante du signal, généralement exprimé en nombre de bits par secondes.
+
 \begin{itemize}
-\tightlist
+\item
+  Un bit (b) = 1 bit, un byte (B) = 8 bits
+\item
+  Mbit/s -\textgreater{} mégabit par secondes
+\item
+  MBit/s -\textgreater{} mégabytes par secondes
 \item
   \href{https://en.wikipedia.org/wiki/Bit_rate\#Video}{Débit (bitrate)}
-\end{itemize}
-
-\hypertarget{analogue-vs-numuxe9rique}{%
-\subsection{Analogue vs numérique}\label{analogue-vs-numuxe9rique}}
-
-\begin{itemize}
-\tightlist
-\item
-  \href{https://en.wikipedia.org/wiki/Video\#Analog_video}{Signaux analogues/digitaux}
-
-  \begin{itemize}
-  \tightlist
-  \item
-    \href{https://en.wikipedia.org/wiki/Analog_television}{transmission télévisuelle analogue}
-  \end{itemize}
-\end{itemize}
-
-\hypertarget{trame}{%
-\subsection{Trame}\label{trame}}
-
-\begin{itemize}
-\tightlist
-\item
-  \href{https://web.archive.org/web/20140222010640/http://neuron2.net/LVG/interlacing.html}{Trame (progressif/entrelacé)}
-\end{itemize}
-
-\hypertarget{lexique_encodage}{%
-\section{L'Encodage vidéo}\label{lexique_encodage}}
-
-L'encodage permet la lecture de fichiers et de flux vidéo.
-L'encodage est déterminé par la configuration d'un codec dans un conteneur.
-
-\hypertarget{sans-perte-avec-perte-losslesslossy}{%
-\subsection{Sans perte / avec perte (lossless/lossy)}\label{sans-perte-avec-perte-losslesslossy}}
-
-\hypertarget{encodage-viduxe9o-sans-perte---lossless}{%
-\subsubsection{\texorpdfstring{\href{https://en.wikipedia.org/wiki/List_of_codecs\#Lossless_video_compression}{Encodage vidéo sans perte - lossless}}{Encodage vidéo sans perte - lossless}}\label{encodage-viduxe9o-sans-perte---lossless}}
-
-\begin{itemize}
-\tightlist
-\item
-  Apple Animation (QuickTime RLE)
-\item
-  CinemaDNG Raw (Adobe, Blackmagic)
-\item
-  séquence d'images (tiff, openexr)
-\end{itemize}
-
-\hypertarget{encodage-viduxe9o-avec-perte--lossy}{%
-\subsubsection{\texorpdfstring{\href{https://en.wikipedia.org/wiki/List_of_codecs\#Lossy_compression_2}{Encodage vidéo avec perte -lossy}}{Encodage vidéo avec perte -lossy}}\label{encodage-viduxe9o-avec-perte--lossy}}
-
-\begin{itemize}
-\tightlist
-\item
-  H.264\&VP8
-\item
-  HEVC\&VP9
-\item
-  proRes, dnxHD, cineform\\
-\item
-  HAP \& HAPQ
-\end{itemize}
-
-\hypertarget{compressions-applicables}{%
-\subsection{Compressions applicables}\label{compressions-applicables}}
-
-\hypertarget{intrapictograme-intraframe}{%
-\paragraph{Intrapictograme (intraframe)}\label{intrapictograme-intraframe}}
-
-\hypertarget{interpictograme-interframe}{%
-\paragraph{Interpictograme (interframe)}\label{interpictograme-interframe}}
-
-\hypertarget{lexique_fichiers}{%
-\section{Formats de fichiers}\label{lexique_fichiers}}
-
-\hypertarget{contenant-containers}{%
-\subsection{Contenant (Containers)}\label{contenant-containers}}
-
-\begin{longtable}[]{@{}ll@{}}
-\toprule
-nom & extension \\
-\midrule
-\endhead
-QuickTime & .mov \\
-Matroska & .mkv \\
-Mpeg4 & .mp4 \\
-Windows Media Video & .wmv \\
-Audio Video Interleaved & .avi \\
-Theora & .ogv \\
-\bottomrule
-\end{longtable}
-
-\href{https://en.wikipedia.org/wiki/Comparison_of_video_container_formats}{wiki:Comparison\_of\_video\_container\_formats}
-
-\hypertarget{format-dencodage-codecs}{%
-\subsection{Format d'encodage (Codecs)}\label{format-dencodage-codecs}}
-
-\begin{longtable}[]{@{}lll@{}}
-\toprule
-Codec & compression & usage \\
-\midrule
-\endhead
-H.264\&VP8 & intra \& inter & lecture\textless1080p \\
-HEVC\&VP9 & intra \& inter & lecture\textless4k \\
-proRes & intra & montage \\
-dnxHD & intra & montage \\
-HAP & intra & GPU\&SSD \\
-\bottomrule
-\end{longtable}
-
-\hypertarget{intrainter-frame}{%
-\subsubsection{intra/inter frame}\label{intrainter-frame}}
-
-\hypertarget{intraframe}{%
-\paragraph{intraframe}\label{intraframe}}
-
-\begin{itemize}
-\tightlist
-\item
-  Toute l'image individuellement compressée dans chaque image.
-
-  \begin{itemize}
-  \tightlist
-  \item
-    prores, dnxHD, photoJpeg, Apple intermediate codec (aic), cineform
-  \end{itemize}
-\end{itemize}
-
-\hypertarget{interframe}{%
-\paragraph{\texorpdfstring{\href{https://en.wikipedia.org/wiki/Inter_frame}{interframe}}{interframe}}\label{interframe}}
-
-\begin{itemize}
-\tightlist
-\item
-  image temporellement compressée, \href{http://dvd-hq.info/data_compression_3.php}{ce qui change}
-
-  \begin{itemize}
-  \tightlist
-  \item
-    \href{https://en.wikipedia.org/wiki/Video_compression_picture_types}{images: I (clef), P (\textless-) et B(\textless-\textgreater)}
-  \item
-    \href{https://en.wikipedia.org/wiki/Inter_frame\#/media/File:IPB_images_sequence.png}{GOP : group of picture}
-  \end{itemize}
-\item
-  usage créatif \href{https://www.youtube.com/watch?v=rMSsw4CZvKg}{1}, \href{https://www.youtube.com/watch?v=rSmEOk5AiN0}{2}, \href{https://www.youtube.com/watch?v=dNa0-xrKi3Q}{3}
 \end{itemize}
 
 \hypertarget{poid-bitrate}{%
@@ -2205,22 +2334,242 @@ HAP & intra & GPU\&SSD \\
   \end{itemize}
 \end{itemize}
 
-pour des usages réguliers voir :
+\hypertarget{trame}{%
+\subsection{Trame}\label{trame}}
 
 \begin{itemize}
 \tightlist
 \item
-  FFmpeg Cookbook for Archivists \citep{kromer_FFmpegCookbookArchivists_2020}
-\item
-  FFmpeg Cookbook par Greg Wessels \citep{wessels_FFmpegCookbook_2017}
+  \href{https://web.archive.org/web/20140222010640/http://neuron2.net/LVG/interlacing.html}{Trame (progressif/entrelacé)}
 \end{itemize}
 
-pour usages artistiques :
+\hypertarget{lexique_encodage}{%
+\section{L'encodage vidéo numérique}\label{lexique_encodage}}
+
+\hypertarget{viduxe9o-compressuxe9-vs-non-compressuxe9}{%
+\subsection{Vidéo compressé vs non-compressé}\label{viduxe9o-compressuxe9-vs-non-compressuxe9}}
+
+\hypertarget{non-compressuxe9}{%
+\subsubsection{Non-compressé}\label{non-compressuxe9}}
 
 \begin{itemize}
 \tightlist
 \item
-  FFmpeg artschool \citep{associationofmovingimagearchivists_FFmpegArtschool_2020}
+  Texture vidéo en mémoire
+\item
+  le codec animation
+\end{itemize}
+
+\[
+data rate = color depth[a] × vertical resolution × horizontal resolution × refresh frequency
+\]
+
+\[
+24-bit, 1080p @ 60 fps: 24 × 1920×1080 × 60 = 2.98 Gbit/s.
+\]
+
+\hypertarget{usages}{%
+\paragraph{Usages}\label{usages}}
+
+\begin{itemize}
+\tightlist
+\item
+  \url{https://en.wikipedia.org/wiki/Uncompressed_video}
+\end{itemize}
+
+\hypertarget{compressuxe9e}{%
+\subsubsection{Compressée}\label{compressuxe9e}}
+
+Quand il y a compression, des instructions sont exécutées par le lecteur pour restituer l'image à temps.
+
+La configuration de la compression vidéo sont déterminé par différents facteurs
+* l'usage
+* la mémoire disponible
+* la bande passantes disponible
+* La présence de circuit dédié (encodage/décodage matériel)
+
+\hypertarget{compression-sans-pertes-vs-destructive-losslesslossy}{%
+\subsection{Compression sans pertes vs destructive (lossless/lossy)}\label{compression-sans-pertes-vs-destructive-losslesslossy}}
+
+\hypertarget{encodage-viduxe9o-sans-perte---lossless}{%
+\subsubsection{\texorpdfstring{\href{https://en.wikipedia.org/wiki/List_of_codecs\#Lossless_video_compression}{Encodage vidéo sans perte - lossless}}{Encodage vidéo sans perte - lossless}}\label{encodage-viduxe9o-sans-perte---lossless}}
+
+La compression vise à réduire le poids.
+
+Il est lourd d'écrire en détail chaque informations.
+
+\begin{verbatim}
+[0xFFFFFF]
+[0xFFFFFF]
+[0xFFFFFF]
+[0xFFFFFF]
+[0xAA66EE]
+\end{verbatim}
+
+On peut compresser sans perte en opérationalisant la redondence d'informations adjacente.
+
+\begin{verbatim}
+4*[0xFFFFFF]
+1*[0xAA66EE]
+\end{verbatim}
+
+\hypertarget{caractuxe9ristiques}{%
+\paragraph{Caractéristiques:}\label{caractuxe9ristiques}}
+
+\begin{itemize}
+\tightlist
+\item
+  Volumineux
+\item
+  Privilégié entre les opérations de rendu où l'intégrité de l'information est critique
+\item
+  Généralement plus facile à mettre en mémoire graphique (GPU)
+\end{itemize}
+
+\hypertarget{usages-1}{%
+\paragraph{Usages}\label{usages-1}}
+
+\begin{itemize}
+\tightlist
+\item
+  Au sein d'un processus de production/post-production
+\end{itemize}
+
+\hypertarget{type-de-muxe9dias-lossless}{%
+\paragraph{Type de médias lossless}\label{type-de-muxe9dias-lossless}}
+
+\begin{itemize}
+\tightlist
+\item
+  Apple Animation (QuickTime RLE)
+\item
+  CinemaDNG Raw (Adobe, Blackmagic)
+\item
+  séquence d'images (tiff, openexr)
+\end{itemize}
+
+\hypertarget{encodage-viduxe9o-avec-perte--lossy}{%
+\subsubsection{\texorpdfstring{\href{https://en.wikipedia.org/wiki/List_of_codecs\#Lossy_compression_2}{Encodage vidéo avec perte -lossy}}{Encodage vidéo avec perte -lossy}}\label{encodage-viduxe9o-avec-perte--lossy}}
+
+Méthode de compressions applicables;
+
+\hypertarget{intraframe}{%
+\paragraph{\texorpdfstring{\href{http://users.cs.cf.ac.uk/Dave.Marshall/Multimedia/node248.html}{intraframe}}{intraframe}}\label{intraframe}}
+
+\begin{itemize}
+\tightlist
+\item
+  Toute l'image individuellement compressée dans chaque image.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    prores, dnxHD, photoJpeg, Apple intermediate codec (aic), cineform
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{interframe}{%
+\paragraph{\texorpdfstring{\href{http://users.cs.cf.ac.uk/Dave.Marshall/Multimedia/node249.htmlhttps://en.wikipedia.org/wiki/Inter_frame}{interframe}}{interframe}}\label{interframe}}
+
+\begin{itemize}
+\tightlist
+\item
+  image temporellement compressée, \href{http://dvd-hq.info/data_compression_3.php}{ce qui change}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \href{https://en.wikipedia.org/wiki/Video_compression_picture_types}{images: I (clef), P (\textless-) et B(\textless-\textgreater)}
+  \item
+    \href{https://en.wikipedia.org/wiki/Inter_frame\#/media/File:IPB_images_sequence.png}{GOP : group of picture}
+  \end{itemize}
+\item
+  usage créatif \href{https://www.youtube.com/watch?v=rMSsw4CZvKg}{1}, \href{https://www.youtube.com/watch?v=rSmEOk5AiN0}{2}, \href{https://www.youtube.com/watch?v=dNa0-xrKi3Q}{3}
+\end{itemize}
+
+\hypertarget{type-de-muxe9dias-lossless-1}{%
+\paragraph{Type de médias lossless}\label{type-de-muxe9dias-lossless-1}}
+
+\begin{itemize}
+\tightlist
+\item
+  proRes, dnxHD, cineform\\
+\item
+  H.264\&VP8
+\item
+  HEVC\&VP9\\
+\item
+  HAP \& HAPQ
+\end{itemize}
+
+\hypertarget{lexique_fichiers}{%
+\section{Encodage/décodage de fichiers}\label{lexique_fichiers}}
+
+L'encodage permet la lecture de fichiers et de flux vidéo.
+L'encodage est déterminé par la configuration d'un codec dans un conteneur.
+
+\hypertarget{format-dencodage-codecs}{%
+\subsection{Format d'encodage (Codecs)}\label{format-dencodage-codecs}}
+
+\begin{longtable}[]{@{}lll@{}}
+\toprule
+Codec & compression & usage\tabularnewline
+\midrule
+\endhead
+H.264\&VP8 & intra \& inter & lecture\textless1080p\tabularnewline
+HEVC\&VP9 & intra \& inter & lecture\textless4k\tabularnewline
+proRes & intra & montage\tabularnewline
+dnxHD & intra & montage\tabularnewline
+HAP & intra & GPU\&SSD\tabularnewline
+\bottomrule
+\end{longtable}
+
+\hypertarget{contenant-containers}{%
+\subsection{Contenant (Containers)}\label{contenant-containers}}
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule
+nom & extension\tabularnewline
+\midrule
+\endhead
+QuickTime & .mov\tabularnewline
+Matroska & .mkv\tabularnewline
+Mpeg4 & .mp4\tabularnewline
+Windows Media Video & .wmv\tabularnewline
+Audio Video Interleaved & .avi\tabularnewline
+Theora & .ogv\tabularnewline
+\bottomrule
+\end{longtable}
+
+\href{https://en.wikipedia.org/wiki/Comparison_of_video_container_formats}{wiki:Comparison\_of\_video\_container\_formats}
+
+\hypertarget{pruxe9sentations-des-codecs-tim}{%
+\subsubsection{Présentations des codecs TIM}\label{pruxe9sentations-des-codecs-tim}}
+
+\url{https://cmontmorency365.sharepoint.com/:p:/s/TIM-TTP/EZJO9E0y6idAql7kKqGyKFQB--xsTpIiWADt1-m3hnbBgg?e=UQXaWB}
+
+\hypertarget{pour-aller-plus-loin}{%
+\subsubsection{Pour aller plus loin}\label{pour-aller-plus-loin}}
+
+\begin{itemize}
+\item
+  pour des usages réguliers voir :
+
+  \begin{itemize}
+  \tightlist
+  \item
+    FFmpeg Cookbook for Archivists \citep{kromer_FFmpegCookbookArchivists_2020}
+  \item
+    FFmpeg Cookbook par Greg Wessels \citep{wessels_FFmpegCookbook_2017}
+  \end{itemize}
+\item
+  pour usages artistiques :
+
+  \begin{itemize}
+  \tightlist
+  \item
+    FFmpeg artschool \citep{associationofmovingimagearchivists_FFmpegArtschool_2020}
+  \end{itemize}
 \end{itemize}
 
 \hypertarget{acquerir}{%
@@ -2426,8 +2775,8 @@ pour usages artistiques :
 \hypertarget{vertex-pixel-et-guxe9omuxe9trie}{%
 \subsubsection{vertex, pixel et géométrie}\label{vertex-pixel-et-guxe9omuxe9trie}}
 
-\hypertarget{usages}{%
-\subsubsection{Usages}\label{usages}}
+\hypertarget{usages-2}{%
+\subsubsection{Usages}\label{usages-2}}
 
 \url{https://thebookofshaders.com/00/?lan=fr}
 
@@ -2557,6 +2906,11 @@ Noise : \url{https://thebookofshaders.com/11/}
 
 \hypertarget{ffmpeg-1}{%
 \section{FFmpeg}\label{ffmpeg-1}}
+
+\hypertarget{signaux-de-calibration}{%
+\subsection{Signaux de calibration}\label{signaux-de-calibration}}
+
+\url{https://www.bogotobogo.com/FFMpeg/ffmpeg_video_test_patterns_src.php}
 
 \hypertarget{ex-transcoder-un-fichier-video-vers-un-fichier-prores-compatible-avec-quicktime}{%
 \subsection{ex: Transcoder un fichier video vers un fichier prores compatible avec quicktime}\label{ex-transcoder-un-fichier-video-vers-un-fichier-prores-compatible-avec-quicktime}}
