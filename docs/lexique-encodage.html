@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>6.3 L’encodage vidéo numérique | Traitement vidéo</title>
+  <title>8.1 L’encodage vidéo numérique | Traitement vidéo</title>
   <meta name="description" content="Le traitement vidéo temps réel, une documentation expérimentale" />
   <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="6.3 L’encodage vidéo numérique | Traitement vidéo" />
+  <meta property="og:title" content="8.1 L’encodage vidéo numérique | Traitement vidéo" />
   <meta property="og:type" content="book" />
   
   <meta property="og:image" content="images/cover.png" />
@@ -16,7 +16,7 @@
   <meta name="github-repo" content="tim-montmorency/543-traitement-video" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="6.3 L’encodage vidéo numérique | Traitement vidéo" />
+  <meta name="twitter:title" content="8.1 L’encodage vidéo numérique | Traitement vidéo" />
   
   <meta name="twitter:description" content="Le traitement vidéo temps réel, une documentation expérimentale" />
   <meta name="twitter:image" content="images/cover.png" />
@@ -24,16 +24,16 @@
 <meta name="author" content="Guillaume Arseneault" />
 
 
-<meta name="date" content="2021-02-23" />
+<meta name="date" content="2021-02-24" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
-<link rel="prev" href="lexique-composantes.html"/>
+<link rel="prev" href="echantillonner.html"/>
 <link rel="next" href="lexique-fichiers.html"/>
-<script src="assets/header-attrs-2.6.4/header-attrs.js"></script>
+<script src="assets/header-attrs-2.7/header-attrs.js"></script>
 <script src="assets/jquery-2.2.3/jquery.min.js"></script>
 <link href="assets/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="assets/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -57,6 +57,7 @@
 pre > code.sourceCode { white-space: pre; position: relative; }
 pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
 pre.sourceCode { margin: 0; }
 @media screen {
@@ -347,67 +348,45 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul></li>
 <li class="chapter" data-level="6" data-path="lexique.html"><a href="lexique.html"><i class="fa fa-check"></i><b>6</b> Lexique technique et technologique</a>
 <ul>
-<li class="chapter" data-level="6.1" data-path="rapport-de-cadre-ratio.html"><a href="rapport-de-cadre-ratio.html"><i class="fa fa-check"></i><b>6.1</b> Rapport de cadre (Ratio)</a>
+<li class="chapter" data-level="6.1" data-path="lexique-composantes.html"><a href="lexique-composantes.html"><i class="fa fa-check"></i><b>6.1</b> Constituantes du signal vidéo</a>
 <ul>
-<li class="chapter" data-level="6.1.1" data-path="rapport-de-cadre-ratio.html"><a href="rapport-de-cadre-ratio.html#section-1"><i class="fa fa-check"></i><b>6.1.1</b> 16:9</a></li>
-<li class="chapter" data-level="6.1.2" data-path="rapport-de-cadre-ratio.html"><a href="rapport-de-cadre-ratio.html#section-2"><i class="fa fa-check"></i><b>6.1.2</b> 4:3</a></li>
-<li class="chapter" data-level="6.1.3" data-path="rapport-de-cadre-ratio.html"><a href="rapport-de-cadre-ratio.html#section-3"><i class="fa fa-check"></i><b>6.1.3</b> 3:2</a></li>
-<li class="chapter" data-level="6.1.4" data-path="rapport-de-cadre-ratio.html"><a href="rapport-de-cadre-ratio.html#section-4"><i class="fa fa-check"></i><b>6.1.4</b> 2,39:1</a></li>
-<li class="chapter" data-level="6.1.5" data-path="rapport-de-cadre-ratio.html"><a href="rapport-de-cadre-ratio.html#section-5"><i class="fa fa-check"></i><b>6.1.5</b> 1:1</a></li>
-<li class="chapter" data-level="6.1.6" data-path="rapport-de-cadre-ratio.html"><a href="rapport-de-cadre-ratio.html#générateur-dimage-de-calibration"><i class="fa fa-check"></i><b>6.1.6</b> Générateur d’image de calibration</a></li>
-<li class="chapter" data-level="6.1.7" data-path="rapport-de-cadre-ratio.html"><a href="rapport-de-cadre-ratio.html#références"><i class="fa fa-check"></i><b>6.1.7</b> Références</a></li>
-</ul></li>
-<li class="chapter" data-level="6.2" data-path="lexique-composantes.html"><a href="lexique-composantes.html"><i class="fa fa-check"></i><b>6.2</b> Constituantes du signal vidéo</a>
-<ul>
-<li class="chapter" data-level="6.2.1" data-path="lexique-composantes.html"><a href="lexique-composantes.html#analogue-vs-numérique"><i class="fa fa-check"></i><b>6.2.1</b> Analogue vs numérique</a></li>
-<li class="chapter" data-level="6.2.2" data-path="lexique-composantes.html"><a href="lexique-composantes.html#cadence"><i class="fa fa-check"></i><b>6.2.2</b> Cadence</a></li>
-<li class="chapter" data-level="6.2.3" data-path="lexique-composantes.html"><a href="lexique-composantes.html#débit"><i class="fa fa-check"></i><b>6.2.3</b> Débit</a></li>
-<li class="chapter" data-level="6.2.4" data-path="lexique-composantes.html"><a href="lexique-composantes.html#poid-bitrate"><i class="fa fa-check"></i><b>6.2.4</b> Poid (bitrate)</a></li>
-<li class="chapter" data-level="6.2.5" data-path="lexique-composantes.html"><a href="lexique-composantes.html#profondeur-déchantillonnage"><i class="fa fa-check"></i><b>6.2.5</b> Profondeur d’échantillonnage</a></li>
-<li class="chapter" data-level="6.2.6" data-path="lexique-composantes.html"><a href="lexique-composantes.html#trame"><i class="fa fa-check"></i><b>6.2.6</b> Trame</a></li>
-</ul></li>
-<li class="chapter" data-level="6.3" data-path="lexique-encodage.html"><a href="lexique-encodage.html"><i class="fa fa-check"></i><b>6.3</b> L’encodage vidéo numérique</a>
-<ul>
-<li class="chapter" data-level="6.3.1" data-path="lexique-encodage.html"><a href="lexique-encodage.html#vidéo-compressé-vs-non-compressé"><i class="fa fa-check"></i><b>6.3.1</b> Vidéo compressé vs non-compressé</a></li>
-<li class="chapter" data-level="6.3.2" data-path="lexique-encodage.html"><a href="lexique-encodage.html#compression-sans-pertes-vs-destructive-losslesslossy"><i class="fa fa-check"></i><b>6.3.2</b> Compression sans pertes vs destructive (lossless/lossy)</a></li>
-</ul></li>
-<li class="chapter" data-level="6.4" data-path="lexique-fichiers.html"><a href="lexique-fichiers.html"><i class="fa fa-check"></i><b>6.4</b> Encodage/décodage de fichiers</a>
-<ul>
-<li class="chapter" data-level="6.4.1" data-path="lexique-fichiers.html"><a href="lexique-fichiers.html#format-dencodage-codecs"><i class="fa fa-check"></i><b>6.4.1</b> Format d’encodage (Codecs)</a></li>
-<li class="chapter" data-level="6.4.2" data-path="lexique-fichiers.html"><a href="lexique-fichiers.html#contenant-containers"><i class="fa fa-check"></i><b>6.4.2</b> Contenant (Containers)</a></li>
+<li class="chapter" data-level="6.1.1" data-path="lexique-composantes.html"><a href="lexique-composantes.html#analogue-vs-numérique"><i class="fa fa-check"></i><b>6.1.1</b> Analogue vs numérique</a></li>
+<li class="chapter" data-level="6.1.2" data-path="lexique-composantes.html"><a href="lexique-composantes.html#résolution"><i class="fa fa-check"></i><b>6.1.2</b> Résolution</a></li>
+<li class="chapter" data-level="6.1.3" data-path="lexique-composantes.html"><a href="lexique-composantes.html#cadence"><i class="fa fa-check"></i><b>6.1.3</b> Cadence</a></li>
+<li class="chapter" data-level="6.1.4" data-path="lexique-composantes.html"><a href="lexique-composantes.html#trame"><i class="fa fa-check"></i><b>6.1.4</b> Trame</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="7" data-path="acquerir.html"><a href="acquerir.html"><i class="fa fa-check"></i><b>7</b> Acquerir</a>
 <ul>
-<li class="chapter" data-level="7.1" data-path="acquerir-captation.html"><a href="acquerir-captation.html"><i class="fa fa-check"></i><b>7.1</b> Acquisition vidéo en temps réel</a>
+<li class="chapter" data-level="7.1" data-path="rapport-de-cadre-ratio.html"><a href="rapport-de-cadre-ratio.html"><i class="fa fa-check"></i><b>7.1</b> Rapport de cadre (Ratio)</a>
 <ul>
-<li class="chapter" data-level="7.1.1" data-path="acquerir-captation.html"><a href="acquerir-captation.html#caméra-usb"><i class="fa fa-check"></i><b>7.1.1</b> Caméra USB</a></li>
-<li class="chapter" data-level="7.1.2" data-path="acquerir-captation.html"><a href="acquerir-captation.html#capture-décran"><i class="fa fa-check"></i><b>7.1.2</b> Capture d’écran</a></li>
-<li class="chapter" data-level="7.1.3" data-path="acquerir-captation.html"><a href="acquerir-captation.html#capture-de-fenêtre"><i class="fa fa-check"></i><b>7.1.3</b> Capture de fenêtre</a></li>
-<li class="chapter" data-level="7.1.4" data-path="acquerir-captation.html"><a href="acquerir-captation.html#capture-de-contexte-gl-game-capture"><i class="fa fa-check"></i><b>7.1.4</b> Capture de contexte GL (Game capture)</a></li>
-<li class="chapter" data-level="7.1.5" data-path="acquerir-captation.html"><a href="acquerir-captation.html#partage-de-texture-vidéo-spout-syphon"><i class="fa fa-check"></i><b>7.1.5</b> Partage de texture vidéo (Spout, Syphon)</a></li>
+<li class="chapter" data-level="7.1.1" data-path="rapport-de-cadre-ratio.html"><a href="rapport-de-cadre-ratio.html#section-1"><i class="fa fa-check"></i><b>7.1.1</b> 16:9</a></li>
+<li class="chapter" data-level="7.1.2" data-path="rapport-de-cadre-ratio.html"><a href="rapport-de-cadre-ratio.html#section-2"><i class="fa fa-check"></i><b>7.1.2</b> 4:3</a></li>
+<li class="chapter" data-level="7.1.3" data-path="rapport-de-cadre-ratio.html"><a href="rapport-de-cadre-ratio.html#section-3"><i class="fa fa-check"></i><b>7.1.3</b> 3:2</a></li>
+<li class="chapter" data-level="7.1.4" data-path="rapport-de-cadre-ratio.html"><a href="rapport-de-cadre-ratio.html#section-4"><i class="fa fa-check"></i><b>7.1.4</b> 2,39:1</a></li>
+<li class="chapter" data-level="7.1.5" data-path="rapport-de-cadre-ratio.html"><a href="rapport-de-cadre-ratio.html#section-5"><i class="fa fa-check"></i><b>7.1.5</b> 1:1</a></li>
+<li class="chapter" data-level="7.1.6" data-path="rapport-de-cadre-ratio.html"><a href="rapport-de-cadre-ratio.html#générateur-dimage-de-calibration"><i class="fa fa-check"></i><b>7.1.6</b> Générateur d’image de calibration</a></li>
+<li class="chapter" data-level="7.1.7" data-path="rapport-de-cadre-ratio.html"><a href="rapport-de-cadre-ratio.html#références"><i class="fa fa-check"></i><b>7.1.7</b> Références</a></li>
 </ul></li>
-<li class="chapter" data-level="7.2" data-path="usages-de-capture-vidéo-temps-réel.html"><a href="usages-de-capture-vidéo-temps-réel.html"><i class="fa fa-check"></i><b>7.2</b> Usages de capture vidéo temps réel</a>
+<li class="chapter" data-level="7.2" data-path="acquerir-captation.html"><a href="acquerir-captation.html"><i class="fa fa-check"></i><b>7.2</b> Acquisition vidéo en temps réel</a>
 <ul>
-<li class="chapter" data-level="7.2.1" data-path="usages-de-capture-vidéo-temps-réel.html"><a href="usages-de-capture-vidéo-temps-réel.html#caméra-virtuelle"><i class="fa fa-check"></i><b>7.2.1</b> Caméra virtuelle ()</a></li>
+<li class="chapter" data-level="7.2.1" data-path="acquerir-captation.html"><a href="acquerir-captation.html#sources-vidéo-obs"><i class="fa fa-check"></i><b>7.2.1</b> Sources vidéo OBS</a></li>
+<li class="chapter" data-level="7.2.2" data-path="acquerir-captation.html"><a href="acquerir-captation.html#tutoriels-obs-francophone-démystifiant-linterface"><i class="fa fa-check"></i><b>7.2.2</b> Tutoriels OBS francophone démystifiant l’interface</a></li>
 </ul></li>
-<li class="chapter" data-level="7.3" data-path="captation-de-mouvement-et-de-présence.html"><a href="captation-de-mouvement-et-de-présence.html"><i class="fa fa-check"></i><b>7.3</b> Captation de mouvement et de présence</a></li>
 </ul></li>
 <li class="chapter" data-level="8" data-path="echantillonner.html"><a href="echantillonner.html"><i class="fa fa-check"></i><b>8</b> Échantillonner</a>
 <ul>
-<li class="chapter" data-level="8.1" data-path="enregistrer.html"><a href="enregistrer.html"><i class="fa fa-check"></i><b>8.1</b> Enregistrer</a>
+<li class="chapter" data-level="8.1" data-path="lexique-encodage.html"><a href="lexique-encodage.html"><i class="fa fa-check"></i><b>8.1</b> L’encodage vidéo numérique</a>
 <ul>
-<li class="chapter" data-level="8.1.1" data-path="enregistrer.html"><a href="enregistrer.html#formats-de-sauvegarde"><i class="fa fa-check"></i><b>8.1.1</b> Formats de sauvegarde</a></li>
-<li class="chapter" data-level="8.1.2" data-path="enregistrer.html"><a href="enregistrer.html#sauvegarde-et-archivage-des-médias"><i class="fa fa-check"></i><b>8.1.2</b> Sauvegarde et archivage des médias</a></li>
-<li class="chapter" data-level="8.1.3" data-path="enregistrer.html"><a href="enregistrer.html#gestion-de-banques-dimages"><i class="fa fa-check"></i><b>8.1.3</b> Gestion de banques d’images</a></li>
+<li class="chapter" data-level="8.1.1" data-path="lexique-encodage.html"><a href="lexique-encodage.html#vocabulaire"><i class="fa fa-check"></i><b>8.1.1</b> Vocabulaire</a></li>
+<li class="chapter" data-level="8.1.2" data-path="lexique-encodage.html"><a href="lexique-encodage.html#signal-vidéo-compressé-vs-non-compressé"><i class="fa fa-check"></i><b>8.1.2</b> Signal vidéo compressé vs non-compressé</a></li>
+<li class="chapter" data-level="8.1.3" data-path="lexique-encodage.html"><a href="lexique-encodage.html#compression-sans-pertes-vs-destructive-losslesslossy"><i class="fa fa-check"></i><b>8.1.3</b> Compression sans pertes vs destructive (lossless/lossy)</a></li>
 </ul></li>
-<li class="chapter" data-level="8.2" data-path="lecture.html"><a href="lecture.html"><i class="fa fa-check"></i><b>8.2</b> Lecture</a>
+<li class="chapter" data-level="8.2" data-path="lexique-fichiers.html"><a href="lexique-fichiers.html"><i class="fa fa-check"></i><b>8.2</b> Encodage/décodage de fichiers</a>
 <ul>
-<li class="chapter" data-level="8.2.1" data-path="lecture.html"><a href="lecture.html#position"><i class="fa fa-check"></i><b>8.2.1</b> Position</a></li>
-<li class="chapter" data-level="8.2.2" data-path="lecture.html"><a href="lecture.html#boucle"><i class="fa fa-check"></i><b>8.2.2</b> Boucle</a></li>
-<li class="chapter" data-level="8.2.3" data-path="lecture.html"><a href="lecture.html#vitesse"><i class="fa fa-check"></i><b>8.2.3</b> Vitesse</a></li>
-<li class="chapter" data-level="8.2.4" data-path="lecture.html"><a href="lecture.html#contrôler-de-la-tête-de-lecture-vidéo"><i class="fa fa-check"></i><b>8.2.4</b> Contrôler de la tête de lecture vidéo</a></li>
-<li class="chapter" data-level="8.2.5" data-path="lecture.html"><a href="lecture.html#montage-temps-réel"><i class="fa fa-check"></i><b>8.2.5</b> Montage temps réel</a></li>
+<li class="chapter" data-level="8.2.1" data-path="lexique-fichiers.html"><a href="lexique-fichiers.html#format-dencodage-codecs"><i class="fa fa-check"></i><b>8.2.1</b> Format d’encodage (Codecs)</a></li>
+<li class="chapter" data-level="8.2.2" data-path="lexique-fichiers.html"><a href="lexique-fichiers.html#contenant-containers"><i class="fa fa-check"></i><b>8.2.2</b> Contenant (Containers)</a></li>
+<li class="chapter" data-level="8.2.3" data-path="lexique-fichiers.html"><a href="lexique-fichiers.html#formats-de-sauvegarde-et-archivage-des-médias"><i class="fa fa-check"></i><b>8.2.3</b> Formats de sauvegarde et archivage des médias</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="9" data-path="traiter.html"><a href="traiter.html"><i class="fa fa-check"></i><b>9</b> Traiter</a>
@@ -418,7 +397,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul></li>
 <li class="chapter" data-level="9.2" data-path="notions-de-traitement-vidéo.html"><a href="notions-de-traitement-vidéo.html"><i class="fa fa-check"></i><b>9.2</b> Notions de traitement vidéo</a>
 <ul>
-<li class="chapter" data-level="9.2.1" data-path="notions-de-traitement-vidéo.html"><a href="notions-de-traitement-vidéo.html#position-1"><i class="fa fa-check"></i><b>9.2.1</b> Position</a></li>
+<li class="chapter" data-level="9.2.1" data-path="notions-de-traitement-vidéo.html"><a href="notions-de-traitement-vidéo.html#position"><i class="fa fa-check"></i><b>9.2.1</b> Position</a></li>
 <li class="chapter" data-level="9.2.2" data-path="notions-de-traitement-vidéo.html"><a href="notions-de-traitement-vidéo.html#rotation"><i class="fa fa-check"></i><b>9.2.2</b> Rotation</a></li>
 <li class="chapter" data-level="9.2.3" data-path="notions-de-traitement-vidéo.html"><a href="notions-de-traitement-vidéo.html#dimensions"><i class="fa fa-check"></i><b>9.2.3</b> Dimensions</a></li>
 <li class="chapter" data-level="9.2.4" data-path="notions-de-traitement-vidéo.html"><a href="notions-de-traitement-vidéo.html#distorsion"><i class="fa fa-check"></i><b>9.2.4</b> Distorsion</a></li>
@@ -453,21 +432,30 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul></li>
 <li class="chapter" data-level="11" data-path="interagir.html"><a href="interagir.html"><i class="fa fa-check"></i><b>11</b> Interagir</a>
 <ul>
-<li class="chapter" data-level="11.1" data-path="effets-visuels-et-filtres-applicables-en-temps-réel-sur-des-matériaux-visuels.html"><a href="effets-visuels-et-filtres-applicables-en-temps-réel-sur-des-matériaux-visuels.html"><i class="fa fa-check"></i><b>11.1</b> Effets visuels et filtres applicables en temps réel sur des matériaux visuels</a></li>
-<li class="chapter" data-level="11.2" data-path="flot-de-données-entre-les-objets-du-logiciel.html"><a href="flot-de-données-entre-les-objets-du-logiciel.html"><i class="fa fa-check"></i><b>11.2</b> Flot de données entre les objets du logiciel</a></li>
-<li class="chapter" data-level="11.3" data-path="interagir-interfaces.html"><a href="interagir-interfaces.html"><i class="fa fa-check"></i><b>11.3</b> Utilisation d’interfaces de contrôle interactives</a></li>
-<li class="chapter" data-level="11.4" data-path="interagir-protocoles.html"><a href="interagir-protocoles.html"><i class="fa fa-check"></i><b>11.4</b> Communication via protocoles paramétriques temps réel</a>
+<li class="chapter" data-level="11.1" data-path="lecture.html"><a href="lecture.html"><i class="fa fa-check"></i><b>11.1</b> Lecture</a>
 <ul>
-<li class="chapter" data-level="11.4.1" data-path="interagir-protocoles.html"><a href="interagir-protocoles.html#protocole_osc"><i class="fa fa-check"></i><b>11.4.1</b> Open sound control (OSC)</a></li>
-<li class="chapter" data-level="11.4.2" data-path="interagir-protocoles.html"><a href="interagir-protocoles.html#protocole_websocket"><i class="fa fa-check"></i><b>11.4.2</b> Websocket</a></li>
-<li class="chapter" data-level="11.4.3" data-path="interagir-protocoles.html"><a href="interagir-protocoles.html#protocole_midi"><i class="fa fa-check"></i><b>11.4.3</b> MIDI</a></li>
-<li class="chapter" data-level="11.4.4" data-path="interagir-protocoles.html"><a href="interagir-protocoles.html#protocole_dmx"><i class="fa fa-check"></i><b>11.4.4</b> DMX</a></li>
-<li class="chapter" data-level="11.4.5" data-path="interagir-protocoles.html"><a href="interagir-protocoles.html#protocole_artnet"><i class="fa fa-check"></i><b>11.4.5</b> ArtNet</a></li>
+<li class="chapter" data-level="11.1.1" data-path="lecture.html"><a href="lecture.html#position-1"><i class="fa fa-check"></i><b>11.1.1</b> Position</a></li>
+<li class="chapter" data-level="11.1.2" data-path="lecture.html"><a href="lecture.html#boucle"><i class="fa fa-check"></i><b>11.1.2</b> Boucle</a></li>
+<li class="chapter" data-level="11.1.3" data-path="lecture.html"><a href="lecture.html#vitesse"><i class="fa fa-check"></i><b>11.1.3</b> Vitesse</a></li>
+<li class="chapter" data-level="11.1.4" data-path="lecture.html"><a href="lecture.html#contrôler-de-la-tête-de-lecture-vidéo"><i class="fa fa-check"></i><b>11.1.4</b> Contrôler de la tête de lecture vidéo</a></li>
+<li class="chapter" data-level="11.1.5" data-path="lecture.html"><a href="lecture.html#montage-temps-réel"><i class="fa fa-check"></i><b>11.1.5</b> Montage temps réel</a></li>
+<li class="chapter" data-level="11.1.6" data-path="lecture.html"><a href="lecture.html#gestion-de-banques-dimages"><i class="fa fa-check"></i><b>11.1.6</b> Gestion de banques d’images</a></li>
 </ul></li>
-<li class="chapter" data-level="11.5" data-path="interagir-video.html"><a href="interagir-video.html"><i class="fa fa-check"></i><b>11.5</b> Programmation de la captation</a>
+<li class="chapter" data-level="11.2" data-path="effets-visuels-et-filtres-applicables-en-temps-réel-sur-des-matériaux-visuels.html"><a href="effets-visuels-et-filtres-applicables-en-temps-réel-sur-des-matériaux-visuels.html"><i class="fa fa-check"></i><b>11.2</b> Effets visuels et filtres applicables en temps réel sur des matériaux visuels</a></li>
+<li class="chapter" data-level="11.3" data-path="flot-de-données-entre-les-objets-du-logiciel.html"><a href="flot-de-données-entre-les-objets-du-logiciel.html"><i class="fa fa-check"></i><b>11.3</b> Flot de données entre les objets du logiciel</a></li>
+<li class="chapter" data-level="11.4" data-path="interagir-interfaces.html"><a href="interagir-interfaces.html"><i class="fa fa-check"></i><b>11.4</b> Utilisation d’interfaces de contrôle interactives</a></li>
+<li class="chapter" data-level="11.5" data-path="interagir-protocoles.html"><a href="interagir-protocoles.html"><i class="fa fa-check"></i><b>11.5</b> Communication via protocoles paramétriques temps réel</a>
 <ul>
-<li class="chapter" data-level="11.5.1" data-path="interagir-video.html"><a href="interagir-video.html#interagir_mouvement"><i class="fa fa-check"></i><b>11.5.1</b> Mouvement</a></li>
-<li class="chapter" data-level="11.5.2" data-path="interagir-video.html"><a href="interagir-video.html#interagir_presence"><i class="fa fa-check"></i><b>11.5.2</b> Présence</a></li>
+<li class="chapter" data-level="11.5.1" data-path="interagir-protocoles.html"><a href="interagir-protocoles.html#protocole_osc"><i class="fa fa-check"></i><b>11.5.1</b> Open sound control (OSC)</a></li>
+<li class="chapter" data-level="11.5.2" data-path="interagir-protocoles.html"><a href="interagir-protocoles.html#protocole_websocket"><i class="fa fa-check"></i><b>11.5.2</b> Websocket</a></li>
+<li class="chapter" data-level="11.5.3" data-path="interagir-protocoles.html"><a href="interagir-protocoles.html#protocole_midi"><i class="fa fa-check"></i><b>11.5.3</b> MIDI</a></li>
+<li class="chapter" data-level="11.5.4" data-path="interagir-protocoles.html"><a href="interagir-protocoles.html#protocole_dmx"><i class="fa fa-check"></i><b>11.5.4</b> DMX</a></li>
+<li class="chapter" data-level="11.5.5" data-path="interagir-protocoles.html"><a href="interagir-protocoles.html#protocole_artnet"><i class="fa fa-check"></i><b>11.5.5</b> ArtNet</a></li>
+</ul></li>
+<li class="chapter" data-level="11.6" data-path="interagir-video.html"><a href="interagir-video.html"><i class="fa fa-check"></i><b>11.6</b> Programmation de la captation</a></li>
+<li class="chapter" data-level="11.7" data-path="usages-de-capture-vidéo-temps-réel.html"><a href="usages-de-capture-vidéo-temps-réel.html"><i class="fa fa-check"></i><b>11.7</b> Usages de capture vidéo temps réel</a>
+<ul>
+<li class="chapter" data-level="11.7.1" data-path="usages-de-capture-vidéo-temps-réel.html"><a href="usages-de-capture-vidéo-temps-réel.html#captation-de-mouvement-et-de-présence"><i class="fa fa-check"></i><b>11.7.1</b> Captation de mouvement et de présence</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="12" data-path="deployer.html"><a href="deployer.html"><i class="fa fa-check"></i><b>12</b> Déployer</a>
@@ -542,69 +530,110 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="lexique_encodage" class="section level2" number="6.3">
-<h2><span class="header-section-number">6.3</span> L’encodage vidéo numérique</h2>
-<div id="vidéo-compressé-vs-non-compressé" class="section level3" number="6.3.1">
-<h3><span class="header-section-number">6.3.1</span> Vidéo compressé vs non-compressé</h3>
-<div id="non-compressé" class="section level4" number="6.3.1.1">
-<h4><span class="header-section-number">6.3.1.1</span> Non-compressé</h4>
+<div id="lexique_encodage" class="section level2" number="8.1">
+<h2><span class="header-section-number">8.1</span> L’encodage vidéo numérique</h2>
+<div id="vocabulaire" class="section level3" number="8.1.1">
+<h3><span class="header-section-number">8.1.1</span> Vocabulaire</h3>
+<div id="débit" class="section level4" number="8.1.1.1">
+<h4><span class="header-section-number">8.1.1.1</span> Débit</h4>
+<p>Associé à la bande passante du signal, généralement exprimé en nombre de bits par seconde.</p>
+<ul>
+<li><p>1 bit[b] = 1xbit</p></li>
+<li><p>1 octet[byte][B] = 8xbits</p></li>
+<li><p>Mbit/s -&gt; mégabit par seconde</p></li>
+<li><p>MBit/s -&gt; mégaoctets (megabyte) par seconde</p></li>
+<li><p><a href="https://en.wikipedia.org/wiki/Bit_rate#Video" target="_blank">Débit (bitrate)</a></p></li>
+</ul>
+<div id="calculer-le-poids-bitrate" class="section level5" number="8.1.1.1.1">
+<h5><span class="header-section-number">8.1.1.1.1</span> Calculer le poids (bitrate)</h5>
+<ul>
+<li><a href="https://toolstud.io/video/filesize.php?imagewidth=1920&amp;imageheight=1080&amp;framerate=29.97&amp;timeduration=60&amp;timeunit=seconds" target="_blank">calcul de grosseur de fichier</a></li>
+<li><a href="https://toolstud.io/video/bitrate.php?imagewidth=1&amp;imageheight=1&amp;colordepth=24&amp;framerate=29.97" target="_blank">calcul de bitrate</a></li>
+</ul>
+</div>
+</div>
+<div id="profondeur-déchantillonnage" class="section level4" number="8.1.1.2">
+<h4><span class="header-section-number">8.1.1.2</span> Profondeur d’échantillonnage</h4>
+<ul>
+<li>Profondeur de l’échantillonnage couleur
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Color_depth" target="_blank">bit/canal</a><br />
+</li>
+</ul></li>
+<li><a href="https://en.wikipedia.org/wiki/Chroma_subsampling#Sampling_systems_and_ratios" target="_blank">chroma subsampling</a>
+<ul>
+<li><a href="https://upload.wikimedia.org/wikipedia/commons/0/06/Colorcomp.jpg" target="_blank">4:4:4 vs 4:2:2 vs 4:2:0</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Alpha_compositing" target="_blank">4:4:4 vs 4:4:4:4</a></li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="signal-vidéo-compressé-vs-non-compressé" class="section level3" number="8.1.2">
+<h3><span class="header-section-number">8.1.2</span> Signal vidéo compressé vs non-compressé</h3>
+<div id="non-compressé" class="section level4" number="8.1.2.1">
+<h4><span class="header-section-number">8.1.2.1</span> Non compressé</h4>
 <ul>
 <li>Texture vidéo en mémoire</li>
 <li>le codec animation</li>
 </ul>
 <p><span class="math display">\[
-data rate = color depth[a] × vertical resolution × horizontal resolution × refresh frequency
+data rate = color depth[a] * vertical resolution * horizontal resolution * refresh frequency
 \]</span></p>
+<p>ou</p>
+<p><span class="math display">\[
+poids/sec = échantillonnage * résolutionVerticale * résolutionHorizontale * cadence
+\]</span></p>
+<p>Corresponds à :</p>
 <p><span class="math display">\[
 24-bit, 1080p @ 60 fps: 24 × 1920×1080 × 60 = 2.98 Gbit/s.
 \]</span></p>
-<div id="usages" class="section level5" number="6.3.1.1.1">
-<h5><span class="header-section-number">6.3.1.1.1</span> Usages</h5>
+<div id="usages" class="section level5" number="8.1.2.1.1">
+<h5><span class="header-section-number">8.1.2.1.1</span> Usages</h5>
 <ul>
 <li><a href="https://en.wikipedia.org/wiki/Uncompressed_video" class="uri">https://en.wikipedia.org/wiki/Uncompressed_video</a></li>
 </ul>
 </div>
 </div>
-<div id="compressée" class="section level4" number="6.3.1.2">
-<h4><span class="header-section-number">6.3.1.2</span> Compressée</h4>
+<div id="compressé" class="section level4" number="8.1.2.2">
+<h4><span class="header-section-number">8.1.2.2</span> Compressé</h4>
 <p>Quand il y a compression, des instructions sont exécutées par le lecteur pour restituer l’image à temps.</p>
-<p>La configuration de la compression vidéo sont déterminé par différents facteurs
-* l’usage
-* la mémoire disponible
-* la bande passantes disponible
+<p>La configuration de la compression vidéo est déterminée par différents facteurs
+* L’usage
+* La mémoire disponible
+* La bande passante disponible
 * La présence de circuit dédié (encodage/décodage matériel)</p>
 </div>
 </div>
-<div id="compression-sans-pertes-vs-destructive-losslesslossy" class="section level3" number="6.3.2">
-<h3><span class="header-section-number">6.3.2</span> Compression sans pertes vs destructive (lossless/lossy)</h3>
-<div id="encodage-vidéo-sans-perte---lossless" class="section level4" number="6.3.2.1">
-<h4><span class="header-section-number">6.3.2.1</span> <a href="https://en.wikipedia.org/wiki/List_of_codecs#Lossless_video_compression" target="_blank">Encodage vidéo sans perte - lossless</a></h4>
+<div id="compression-sans-pertes-vs-destructive-losslesslossy" class="section level3" number="8.1.3">
+<h3><span class="header-section-number">8.1.3</span> Compression sans pertes vs destructive (lossless/lossy)</h3>
+<div id="encodage-vidéo-sans-perte---lossless" class="section level4" number="8.1.3.1">
+<h4><span class="header-section-number">8.1.3.1</span> <a href="https://en.wikipedia.org/wiki/List_of_codecs#Lossless_video_compression" target="_blank">Encodage vidéo sans perte - <strong>lossless</strong></a></h4>
 <p>La compression vise à réduire le poids.</p>
-<p>Il est lourd d’écrire en détail chaque informations.</p>
+<p>Il est lourd d’écrire en détail chaque information.</p>
 <pre><code>[0xFFFFFF]
 [0xFFFFFF]
 [0xFFFFFF]
 [0xFFFFFF]
 [0xAA66EE]</code></pre>
-<p>On peut compresser sans perte en opérationalisant la redondence d’informations adjacente.</p>
+<p>On peut compresser sans perte en opérationnalisant la redondance d’informations adjacente.</p>
 <pre><code>4*[0xFFFFFF]
 1*[0xAA66EE]</code></pre>
-<div id="caractéristiques" class="section level5" number="6.3.2.1.1">
-<h5><span class="header-section-number">6.3.2.1.1</span> Caractéristiques:</h5>
+<div id="caractéristiques" class="section level5" number="8.1.3.1.1">
+<h5><span class="header-section-number">8.1.3.1.1</span> Caractéristiques:</h5>
 <ul>
 <li>Volumineux</li>
 <li>Privilégié entre les opérations de rendu où l’intégrité de l’information est critique</li>
 <li>Généralement plus facile à mettre en mémoire graphique (GPU)</li>
 </ul>
 </div>
-<div id="usages-1" class="section level5" number="6.3.2.1.2">
-<h5><span class="header-section-number">6.3.2.1.2</span> Usages</h5>
+<div id="usages-1" class="section level5" number="8.1.3.1.2">
+<h5><span class="header-section-number">8.1.3.1.2</span> Usages</h5>
 <ul>
 <li>Au sein d’un processus de production/post-production</li>
 </ul>
 </div>
-<div id="type-de-médias-lossless" class="section level5" number="6.3.2.1.3">
-<h5><span class="header-section-number">6.3.2.1.3</span> Type de médias lossless</h5>
+<div id="type-de-médias-lossless" class="section level5" number="8.1.3.1.3">
+<h5><span class="header-section-number">8.1.3.1.3</span> Type de médias lossless</h5>
 <ul>
 <li>Apple Animation (QuickTime RLE)</li>
 <li>CinemaDNG Raw (Adobe, Blackmagic)</li>
@@ -612,34 +641,54 @@ data rate = color depth[a] × vertical resolution × horizontal resolution × re
 </ul>
 </div>
 </div>
-<div id="encodage-vidéo-avec-perte--lossy" class="section level4" number="6.3.2.2">
-<h4><span class="header-section-number">6.3.2.2</span> <a href="https://en.wikipedia.org/wiki/List_of_codecs#Lossy_compression_2" target="_blank">Encodage vidéo avec perte -lossy</a></h4>
+<div id="encodage-vidéo-destructif-lossy" class="section level4" number="8.1.3.2">
+<h4><span class="header-section-number">8.1.3.2</span> <a href="https://en.wikipedia.org/wiki/List_of_codecs#Lossy_compression_2" target="_blank">Encodage vidéo destructif <strong>lossy</strong></a></h4>
+<p>L’idée ici est de soustraire/compresser de la manière la plus transparente possible l’information la moins pertinente.
+Des méthodes soustractives oeuvrant sur notre incapacité de percevoir certains détails sont employées (psycho cognitive).</p>
+<ul>
+<li>Ex.: le MP3
+<ul>
+<li><a href="https://ledgernote.com/blog/q-and-a/how-does-mp3-compression-work/" class="uri">https://ledgernote.com/blog/q-and-a/how-does-mp3-compression-work/</a></li>
+</ul></li>
+</ul>
+<p>La compression peut s’opérer au sein d’une image (<strong>intraframe</strong>) ou au sein d’une séquence d’image (<strong>interframe</strong>).</p>
 <p>Méthode de compressions applicables;</p>
-<div id="intraframe" class="section level5" number="6.3.2.2.1">
-<h5><span class="header-section-number">6.3.2.2.1</span> <a href="http://users.cs.cf.ac.uk/Dave.Marshall/Multimedia/node248.html" target="_blank">intraframe</a></h5>
+<div id="intraframe" class="section level5" number="8.1.3.2.1">
+<h5><span class="header-section-number">8.1.3.2.1</span> <a href="http://users.cs.cf.ac.uk/Dave.Marshall/Multimedia/node248.html" target="_blank">intraframe</a></h5>
 <ul>
 <li>Toute l’image individuellement compressée dans chaque image.
 <ul>
-<li>prores, dnxHD, photoJpeg, Apple intermediate codec (aic), cineform</li>
+<li>prores, dnxHD, photoJpeg, Apple intermediate codec (aic), cineform, Hap<br />
+</li>
 </ul></li>
+<li>Utile quand la tête de lecture fait des accès aléatoires dans le temps
+<ul>
+<li>Ex. Montage vidéo</li>
+</ul></li>
+<li>Généralement volumineux (chaque image du fichier vidéo existe )</li>
 </ul>
 </div>
-<div id="interframe" class="section level5" number="6.3.2.2.2">
-<h5><span class="header-section-number">6.3.2.2.2</span> <a href="http://users.cs.cf.ac.uk/Dave.Marshall/Multimedia/node249.htmlhttps://en.wikipedia.org/wiki/Inter_frame" target="_blank">interframe</a></h5>
+<div id="interframe" class="section level5" number="8.1.3.2.2">
+<h5><span class="header-section-number">8.1.3.2.2</span> <a href="http://users.cs.cf.ac.uk/Dave.Marshall/Multimedia/node249.htmlhttps://en.wikipedia.org/wiki/Inter_frame" target="_blank">interframe</a></h5>
 <ul>
 <li>image temporellement compressée, <a href="http://dvd-hq.info/data_compression_3.php" target="_blank">ce qui change</a>
 <ul>
 <li><a href="https://en.wikipedia.org/wiki/Video_compression_picture_types" target="_blank">images: I (clef), P (&lt;-) et B(&lt;-&gt;)</a></li>
 <li><a href="https://en.wikipedia.org/wiki/Inter_frame#/media/File:IPB_images_sequence.png" target="_blank">GOP : group of picture</a></li>
 </ul></li>
-<li>usage créatif <a href="https://www.youtube.com/watch?v=rMSsw4CZvKg" target="_blank">1</a>, <a href="https://www.youtube.com/watch?v=rSmEOk5AiN0" target="_blank">2</a>, <a href="https://www.youtube.com/watch?v=dNa0-xrKi3Q" target="_blank">3</a></li>
+<li>Utile en lecture linéaire, du début vers la fin</li>
+<li>usage créatif de la compression
+<ul>
+<li><a href="https://www.youtube.com/watch?v=rMSsw4CZvKg" target="_blank">1</a></li>
+<li><a href="https://www.youtube.com/watch?v=rSmEOk5AiN0" target="_blank">2</a></li>
+<li><a href="https://www.youtube.com/watch?v=dNa0-xrKi3Q" target="_blank">3</a></li>
+</ul></li>
 </ul>
 </div>
-<div id="type-de-médias-lossless-1" class="section level5" number="6.3.2.2.3">
-<h5><span class="header-section-number">6.3.2.2.3</span> Type de médias lossless</h5>
+<div id="type-de-médias-compressés-destructivement" class="section level5" number="8.1.3.2.3">
+<h5><span class="header-section-number">8.1.3.2.3</span> Type de médias compressés destructivement</h5>
 <ul>
-<li>proRes, dnxHD, cineform<br />
-</li>
+<li>proRes, dnxHD, cineform<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a></li>
 <li>H.264&amp;VP8</li>
 <li>HEVC&amp;VP9<br />
 </li>
@@ -649,12 +698,19 @@ data rate = color depth[a] × vertical resolution × horizontal resolution × re
 </div>
 </div>
 </div>
+<div class="footnotes">
+<hr />
+<ol start="1">
+<li id="fn1"><p>Ces codecs sont généralement utilisés en postproduction et sont souvent confondus avec des <strong>codecs lossless </strong>.
+Ces codecs ont différentes moutures capables de combler différents besoins, du proxy (très compressé) vers le très peu compressé avec canal alpha (4:4:4:4).<a href="lexique-encodage.html#fnref1" class="footnote-back">↩︎</a></p></li>
+</ol>
+</div>
             </section>
 
           </div>
         </div>
       </div>
-<a href="lexique-composantes.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="echantillonner.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
 <a href="lexique-fichiers.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
@@ -677,7 +733,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/tim-montmorency/543-traitement-video/edit/master/14-lexique.Rmd",
+"link": "https://github.com/tim-montmorency/543-traitement-video/edit/master/16-echantillonner.Rmd",
 "text": "Edit"
 },
 "history": {
