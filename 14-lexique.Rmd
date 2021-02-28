@@ -251,7 +251,15 @@ L'encodage est déterminé par la configuration d'un codec dans un conteneur.
 https://cmontmorency365.sharepoint.com/:p:/s/TIM-TTP/EZJO9E0y6idAql7kKqGyKFQB--xsTpIiWADt1-m3hnbBgg?e=UQXaWB
 
 
+
+
 #### Pour aller plus loin 
+
+##### Encodage binaire avancé
+
+* https://github.com/sebpiq/cours-son-reseaux/blob/main/data-encodage.md
+
+
 
 * pour des usages réguliers voir : 
 

@@ -1,1 +1,15 @@
 # Pure Data
+
+## Intégration
+
+### Navigateur 
+
+#### via Purr-data
+
+https://github.com/cuinjune/PdWebParty
+
+#### via empd 
+
+https://mathr.co.uk/empd/
+
+
