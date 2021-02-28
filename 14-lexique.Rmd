@@ -1,256 +1,57 @@
 # Lexique technique et technologique{#lexique}
 
-## Rapport de cadre (Ratio)
-
-* S'écrit « largeur »:« hauteur » on voit aussi souvent « largeur »/« hauteur » 
-* Généralement exprimé avec ratio entiers
-
-### 16:9
-
-* ratio vidéo légérement panoramique standard.
-
-![Full HD 16:9 1920x1080 ](medias/lexique/fullHD_16_9_1920x1080.png)
-
-![barres de calibration](medias/lexique/barre_couleurs-1600x900.png)
-
-### 4:3
-
-* ratio vidéo utilisé au temps des tubes cathodiques 
-
-![NTSC 4:3](medias/lexique/NTSC 4 3 _640x480.png)
-
-
-* Attention; ce format provenant du monde analogue et est soumis parfois des varitions exotiques
-https://en.wikipedia.org/wiki/Pixel_aspect_ratio#Analog-to-digital_conversion
-
-
-
-### 3:2
-* Ratio provenant du film [35mm](https://en.wikipedia.org/wiki/35_mm_format) qui mesurait réelement 36×24 mm
-
-* Ratio généralement utilisé en photographie
-
-![NTSC 4:3](medias/lexique/Photo_3_2_2000x1333.png)
-
-
-### 2,39:1 
-
-* Cinemascope; https://fr.wikipedia.org/wiki/CinemaScope 
-	* Jadis, déformation optique au tournage ainsi qu'à la diffusion 
-
-![Carré 1:1](medias/lexique/Cinemascope_2_39_1_2390x1000.png)
-
-	
-* Épique 
-
-
-### 1:1 
-
-* Ratio provenant de la photographie [moyen format](https://fr.wikipedia.org/wiki/Appareil_photographique_de_moyen_format) 
-
-![1:1 ratio](medias/lexique/carre_1_1_1000x1000.png)
-
-![1:1 Environnement spérique *Cube map*](medias/lexique/CubeMap_4096x4096.png)
-
-* Utilie pour 
-	* texture vidéo
-	* [Format dome immersif](https://vioso.com/softedge-patterngenerator/domegrids/CubeMap_4096x4096.png)
-
-
-
-### Générateur d'image de calibration 
-
-* interface web 
-	* https://vioso.com/testpattern-generator/
-
-
-### Références 
-
-* https://fr.wikipedia.org/wiki/Format_d%27image
-* [ratios image](https://en.wikipedia.org/wiki/Display_aspect_ratio){target="_blank"}
-* [ratios-pixels](https://en.wikipedia.org/wiki/Pixel_aspect_ratio){target="_blank"}
-
-
 ## Constituantes du signal vidéo{#lexique_composantes}
 
 
 ### Analogue vs numérique
 
-Est-ce que le signal est une variation de fluctuation électrique flotante (analogue) ou binaire (numérique)
+Est-ce que le signal est une variation de fluctuation électrique flottante (analogue) ou binaire (numérique)
 
 * [Signaux analogues/digitaux](https://en.wikipedia.org/wiki/Video#Analog_video){target="_blank"}
 * [transmission télévisuelle analogue](https://en.wikipedia.org/wiki/Analog_television){target="_blank"}
 
+#### Protocole de transport
+
+https://en.wikipedia.org/wiki/Video
+
+##### Analogues
+
+| Composite					| S-Video 					| Component 					| VGA					 | TRRC					 |
+| -							| -							| - 							| -						| -						|
+| ![composite](medias/lexique/signaux/analogue/composite.jpg)  | ![S-Video](medias/lexique/signaux/analogue/svideo.jpg) | ![Component](medias/lexique/signaux/analogue/component.jpg)| ![VGA](medias/lexique/signaux/analogue/vga.jpg) | ![TRRC](medias/lexique/signaux/analogue/3_5mm.jpg) | 
+
+Table: Protocoles de transport pour signaux vidéos analogues (Amérique du Nord)
+
+* Conversions passives
+	* **S-Vidéo** peut être converti passivement vers **Composite** considérant une perte de qualité. (S-Vidéo > Composite) 
+	* Composite et TRRC peuvent s'interchanger considérant la perte des canaux audio présents sur le TRRC
+
+
+##### Numériques
+
+| DVI					| HDMI 					|  Display Port 					| SDI					 | 
+| -							| -							| - 							| -						| 
+| ![DVI](medias/lexique/signaux/numerique/dvi.jpg)  | ![HDMI](medias/lexique/signaux/numerique/hdmi.jpg) | ![Display Port](medias/lexique/signaux/numerique/displayport.jpg) | ![SDI](medias/lexique/signaux/numerique/sdi.jpg) |
+
+Table: Protocoles de transport pour signaux vidéos numériques
+
+* Conversions passives :
+	* **Display Port ** peut passer passivement vers HDMI ainsi que DVI. Le contraire n'est pas vrai. On ne peut pas passer de passivement de HDMI vers Display port.
+	* HDMI peut passer la vidéo vers DVI et vice versa, par contre le son est perdu dans cette conversion 
+
+
+### Résolution 
+
+Associé au nombre de pixels horizontaux et verticaux composant une image. 
+Généralement exprimé par le nombre de pixel horizontal X nombre de pixel vertical
+
+$$
+résolution  = PixelH * PixelV 
+$$
 
 ### Cadence
 
-Associé à la vitesse, généralement exprimé en image / secondes
-
-* [Cadence](https://frames-per-second.appspot.com){target="_blank"} 
-
-### Débit
-
-Associé à la bande passante du signal, généralement exprimé en nombre de bits par secondes. 
-
-* Un bit (b) = 1 bit, un byte (B) = 8 bits
-
-* Mbit/s -> mégabit par secondes 
-* MBit/s -> mégabytes par secondes 
-
-* [Débit (bitrate)](https://en.wikipedia.org/wiki/Bit_rate#Video){target="_blank"} 
-
-### Poid (bitrate)
-* [calcul de grosseur de fichier](https://toolstud.io/video/filesize.php?imagewidth=1920&imageheight=1080&framerate=29.97&timeduration=60&timeunit=seconds){target="_blank"}
-* [calcul de bitrate](https://toolstud.io/video/bitrate.php?imagewidth=1&imageheight=1&colordepth=24&framerate=29.97){target="_blank"}
-
-
-### Profondeur d'échantillonnage
-* Profondeur de l'échantillonnage couleur 
-	* [bit/canal](https://en.wikipedia.org/wiki/Color_depth){target="_blank"}  
-* [chroma subsampling](https://en.wikipedia.org/wiki/Chroma_subsampling#Sampling_systems_and_ratios){target="_blank"} 
-	* [4:4:4 vs 4:2:2 vs 4:2:0](https://upload.wikimedia.org/wikipedia/commons/0/06/Colorcomp.jpg){target="_blank"}
-	* [4:4:4 vs 4:4:4:4](https://en.wikipedia.org/wiki/Alpha_compositing){target="_blank"}
-
-### Trame
-* [Trame (progressif/entrelacé)](https://web.archive.org/web/20140222010640/http://neuron2.net/LVG/interlacing.html){target="_blank"}
-
-
-## L'encodage vidéo numérique {#lexique_encodage}
-
-### Vidéo compressé vs non-compressé 
-
-#### Non-compressé
-
-* Texture vidéo en mémoire
-* le codec animation 
-
-$$
-data rate = color depth[a] × vertical resolution × horizontal resolution × refresh frequency
-$$
-
-$$
-24-bit, 1080p @ 60 fps: 24 × 1920×1080 × 60 = 2.98 Gbit/s.
-$$
-
-##### Usages
-* https://en.wikipedia.org/wiki/Uncompressed_video
-
-#### Compressée
-
-
-
-Quand il y a compression, des instructions sont exécutées par le lecteur pour restituer l'image à temps.
-
-La configuration de la compression vidéo sont déterminé par différents facteurs
-* l'usage 
-* la mémoire disponible
-* la bande passantes disponible
-* La présence de circuit dédié (encodage/décodage matériel)
-
-
-
-### Compression sans pertes vs destructive (lossless/lossy)
-
-#### [Encodage vidéo sans perte - lossless](https://en.wikipedia.org/wiki/List_of_codecs#Lossless_video_compression){target="_blank"}
-
-La compression vise à réduire le poids.
-
-Il est lourd d'écrire en détail chaque informations.
-
-```
-[0xFFFFFF]
-[0xFFFFFF]
-[0xFFFFFF]
-[0xFFFFFF]
-[0xAA66EE]
-```
-On peut compresser sans perte en opérationalisant la redondence d'informations adjacente.
-
-```
-4*[0xFFFFFF]
-1*[0xAA66EE]
-```
-
-##### Caractéristiques:
-
-* Volumineux
-* Privilégié entre les opérations de rendu où l'intégrité de l'information est critique
-* Généralement plus facile à mettre en mémoire graphique (GPU) 
-
-##### Usages 
-
-* Au sein d'un processus de production/post-production 
-
-##### Type de médias lossless
-
-* Apple Animation (QuickTime RLE)
-* CinemaDNG Raw (Adobe, Blackmagic)
-* séquence d'images (tiff, openexr)
-
-
-
-#### [Encodage vidéo avec perte -lossy](https://en.wikipedia.org/wiki/List_of_codecs#Lossy_compression_2){target="_blank"}
-
-
-Méthode de compressions applicables;
-
-##### [intraframe](http://users.cs.cf.ac.uk/Dave.Marshall/Multimedia/node248.html){target="_blank"}
-* Toute l'image individuellement compressée dans chaque image.
-	* prores, dnxHD, photoJpeg, Apple intermediate codec (aic), cineform 	
-
-##### [interframe](http://users.cs.cf.ac.uk/Dave.Marshall/Multimedia/node249.htmlhttps://en.wikipedia.org/wiki/Inter_frame){target="_blank"}
-
-* image temporellement compressée, [ce qui change](http://dvd-hq.info/data_compression_3.php){target="_blank"}
-	* [images: I (clef), P (<-) et B(<->)](https://en.wikipedia.org/wiki/Video_compression_picture_types){target="_blank"}
-	* [GOP : group of picture](https://en.wikipedia.org/wiki/Inter_frame#/media/File:IPB_images_sequence.png){target="_blank"}
-* usage créatif [1](https://www.youtube.com/watch?v=rMSsw4CZvKg){target="_blank"}, [2](https://www.youtube.com/watch?v=rSmEOk5AiN0){target="_blank"}, [3](https://www.youtube.com/watch?v=dNa0-xrKi3Q){target="_blank"}
-
-##### Type de médias lossless
-
-* proRes, dnxHD, cineform	
-* H.264&VP8
-* HEVC&VP9	
-* HAP & HAPQ	
-
-
-
-## Encodage/décodage de fichiers {#lexique_fichiers}
-
-L'encodage permet la lecture de fichiers et de flux vidéo. 
-L'encodage est déterminé par la configuration d'un codec dans un conteneur.  
-
-### Format d'encodage (Codecs)
-
-|Codec 				| compression		| usage 		|	 
-| - 				|	-				|	 - 			|	
-| H.264&VP8			|	intra & inter	| lecture<1080p 	|
-| HEVC&VP9			|	intra & inter   | lecture<4k  	|
-| proRes 			|	intra			| montage 		|
-| dnxHD				|	intra 			| montage 		|
-| HAP				|	intra 		 	| GPU&SSD   	 |
-
-
-
-
-### Contenant (Containers)
-
-| nom | extension |
-| -	| -|
-| QuickTime | .mov |
-| Matroska  | .mkv |
-| Mpeg4		| .mp4 |
-| Windows Media Video | .wmv |
-| Audio Video Interleaved | .avi |
-| Theora 	| .ogv |
-
-[wiki:Comparison_of_video_container_formats](https://en.wikipedia.org/wiki/Comparison_of_video_container_formats){target="_blank"}
-
-
-####  Présentations des codecs TIM 
-
-https://cmontmorency365.sharepoint.com/:p:/s/TIM-TTP/EZJO9E0y6idAql7kKqGyKFQB--xsTpIiWADt1-m3hnbBgg?e=UQXaWB
-
-
+<<<<<<< HEAD
 
 
 #### Pour aller plus loin 
@@ -262,12 +63,17 @@ https://cmontmorency365.sharepoint.com/:p:/s/TIM-TTP/EZJO9E0y6idAql7kKqGyKFQB--x
 
 
 * pour des usages réguliers voir : 
+=======
+Associé à la vitesse, généralement exprimé en images / secondes
 
-	* FFmpeg Cookbook for Archivists [@kromer_FFmpegCookbookArchivists_2020]
-	* FFmpeg Cookbook par Greg Wessels [@wessels_FFmpegCookbook_2017]
+$$
+images / secondes
+$$
+>>>>>>> d2ec939891dc36f1d637ffb7c38c43c829fdadf8
 
-* pour usages artistiques : 
+* [Cadence](https://frames-per-second.appspot.com){target="_blank"} 
 
-	* FFmpeg artschool [@associationofmovingimagearchivists_FFmpegArtschool_2020]
-	
+
+### Trame
+* [Trame (progressif/entrelacé)](https://web.archive.org/web/20140222010640/http://neuron2.net/LVG/interlacing.html){target="_blank"}
 
