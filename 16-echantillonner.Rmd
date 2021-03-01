@@ -1,60 +1,51 @@
 # Échantillonner {#echantillonner}
 
-## L'encodage vidéo numérique {#lexique_encodage}
+##  Compression du signal
 
-### Vocabulaire 
-
-#### Débit
-
-Associé à la bande passante du signal, généralement exprimé en nombre de bits par seconde. 
-
-*  1 bit[b] = 1xbit
-
-* 1 octet[byte][B] = 8xbits
-
-
-* Mbit/s -> mégabit par seconde 
-* MBit/s -> mégaoctets (megabyte) par seconde 
-
-* [Débit (bitrate)](https://en.wikipedia.org/wiki/Bit_rate#Video){target="_blank"} 
-
-##### Calculer le poids (bitrate)
-* [calcul de grosseur de fichier](https://toolstud.io/video/filesize.php?imagewidth=1920&imageheight=1080&framerate=29.97&timeduration=60&timeunit=seconds){target="_blank"}
-* [calcul de bitrate](https://toolstud.io/video/bitrate.php?imagewidth=1&imageheight=1&colordepth=24&framerate=29.97){target="_blank"}
-
-
-#### Profondeur d'échantillonnage
-* Profondeur de l'échantillonnage couleur 
-	* [bit/canal](https://en.wikipedia.org/wiki/Color_depth){target="_blank"}  
-* [chroma subsampling](https://en.wikipedia.org/wiki/Chroma_subsampling#Sampling_systems_and_ratios){target="_blank"} 
-	* [4:4:4 vs 4:2:2 vs 4:2:0](https://upload.wikimedia.org/wikipedia/commons/0/06/Colorcomp.jpg){target="_blank"}
-	* [4:4:4 vs 4:4:4:4](https://en.wikipedia.org/wiki/Alpha_compositing){target="_blank"}
-
+```{r echo=F, fig.align="center", fig.cap ="Qualificatif de compression vidéo" }
+DiagrammeR::mermaid("
+        graph TB
+		A[Signal vidéo]-->B[Non compressé] 
+		A-->C[Compressé]
+		C-->D[Sans-perte]
+		C-->E[Destructivement]
+		D-->F[Intra Frame]
+		D-.->G[Inter Frame]
+		E-->F
+		E-->G
+        "
+)
+```
 
 ### Signal vidéo compressé vs non-compressé 
 
 #### Non compressé
 
-* Texture vidéo en mémoire
-* le codec animation 
+##### Propriétés du signal non Compressé
+
+* Sans perte
+* Rapide pour effectuer des opérations graphique 
+* Utilise beaucoup de mémoire
 
 $$
-data rate = color depth[a] * vertical resolution * horizontal resolution * refresh frequency
+data rate = color depth *  pixHorizontal * pixVertical * refresh frequency
 $$
 
-ou 
+Se traduit vers : 
 
 $$
-poids/sec = échantillonnage * résolutionVerticale * résolutionHorizontale * cadence
+Débit = profondeur(bits)  * résolutionHorizontale * résolutionVerticale * cadence
 $$
 
-Corresponds à : 
+Un signal **fullhd 60p** non compressé corresponds au calcul suivant : 
 
 $$
-24-bit, 1080p @ 60 fps: 24 × 1920×1080 × 60 = 2.98 Gbit/s.
+24 * 1920 * 1080 * 60 = 2.98 Gbit/s.
 $$
 
-##### Usages
+L'exemple ci-haut correspond à un échantillonnage de 24 bits, une résolution de 1920 pixels horizontaux par 1080 pixels verticaux et une cadence de 60 image progressive par secondes.
+
+##### Usages de la vidéo non-compressée
 * https://en.wikipedia.org/wiki/Uncompressed_video
 
 #### Compressé
@@ -62,6 +53,7 @@ $$
 Quand il y a compression, des instructions sont exécutées par le lecteur pour restituer l'image à temps.
 
 La configuration de la compression vidéo est déterminée par différents facteurs
+
 * L'usage 
 * La mémoire disponible
 * La bande passante disponible
@@ -140,7 +132,7 @@ Méthode de compressions applicables;
 	* [2](https://www.youtube.com/watch?v=rSmEOk5AiN0){target="_blank"} 
 	* [3](https://www.youtube.com/watch?v=dNa0-xrKi3Q){target="_blank"}
 
-##### Type de médias compressés destructivement
+##### Type de compression destructive
 
 * proRes, dnxHD, cineform [^1]
 * H.264&VP8
@@ -151,6 +143,45 @@ Méthode de compressions applicables;
 Ces codecs ont différentes moutures capables de combler différents besoins, du proxy (très compressé) vers le très peu compressé avec canal alpha (4:4:4:4).
 
 
+## Lexique de l'encodage {#lexique_encodage}
+
+
+### Vocabulaire 
+
+#### Débit
+
+Associé à la bande passante du signal, généralement exprimé en nombre de bits par seconde. 
+
+*  1 bit[b] = 1xbit
+
+* 1 octet[byte][B] = 8xbits
+
+
+* Mbit/s -> mégabit par seconde 
+* MBit/s -> mégaoctets (megabyte) par seconde 
+
+* [Débit (bitrate)](https://en.wikipedia.org/wiki/Bit_rate#Video){target="_blank"} 
+
+* http://what-when-how.com/introduction-to-video-and-image-processing/bits-bytes-and-binary-numbers-introduction-to-video-and-image-processing/
+
+
+##### Calculer le poids (bitrate)
+* [calcul de grosseur de fichier](https://toolstud.io/video/filesize.php?imagewidth=1920&imageheight=1080&framerate=29.97&timeduration=60&timeunit=seconds){target="_blank"}
+* [calcul de bitrate](https://toolstud.io/video/bitrate.php?imagewidth=1&imageheight=1&colordepth=24&framerate=29.97){target="_blank"}
+
+
+#### Canal alpha *Alpha channel*  
+
+Canal dédié à la transparence. 
+Sa présence permet de composer des images en préservant les attributs de transparence. 
+
+
+#### Profondeur d'échantillonnage
+* Profondeur de l'échantillonnage couleur 
+	* [bit/canal](https://en.wikipedia.org/wiki/Color_depth){target="_blank"}  
+* [chroma subsampling](https://en.wikipedia.org/wiki/Chroma_subsampling#Sampling_systems_and_ratios){target="_blank"} 
+	* [4:4:4 vs 4:2:2 vs 4:2:0](https://upload.wikimedia.org/wikipedia/commons/0/06/Colorcomp.jpg){target="_blank"}
+	* [4:4:4 vs 4:4:4:4](https://en.wikipedia.org/wiki/Alpha_compositing){target="_blank"}
 
 
 ## Encodage/décodage de fichiers {#lexique_fichiers}

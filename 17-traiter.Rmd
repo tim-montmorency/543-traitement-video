@@ -1,24 +1,74 @@
 # Traiter {#traiter}
 
-## Logiciels de traitement vidéo interactif en temps réel {#traiter_logiciels}
-### Libres et gratuits 
-* Open Broadcast Studio
-    * obs-ninja
-    * obs-websocket
-    * 
+## Fonctions du traitement vidéo temps réel  
 
-## Notions de traitement vidéo 
+Exploitation des fonctions des logiciels de traitement vidéo en temps réel 
 
-### Position
-### Rotation
-### Dimensions
-### Distorsion 
+
+### Rendu OpenGL 
+
+https://openframeworks.cc/ofBook/chapters/openGL.html
+
+https://www.tomdalling.com/blog/modern-opengl/08-even-more-lighting-directional-lights-spotlights-multiple-lights/
+
+#### Pixels
+
+#### Couleurs 
+
+* Couleurs et longueur d'onde
+    * http://what-when-how.com/display-interfaces/fundamentals-of-color-display-interfaces-part-1/
+* Perception de la chaleur d'une image
+    * http://what-when-how.com/display-interfaces/fundamentals-of-color-display-interfaces-part-2/
+
+* http://what-when-how.com/introduction-to-video-and-image-processing/color-images-introduction-to-video-and-image-processing-part-1/
+* http://what-when-how.com/introduction-to-video-and-image-processing/color-images-introduction-to-video-and-image-processing-part-2/
+* http://what-when-how.com/introduction-to-video-and-image-processing/color-images-introduction-to-video-and-image-processing-part-3/
+
+##### Gamma
+
+* http://what-when-how.com/introduction-to-video-and-image-processing/point-processing-introduction-to-video-and-image-processing-part-1/
+
+
+* https://thebookofshaders.com/06/?lan=fr
+
+#### Matrices
+
+https://thebookofshaders.com/08//?lan=fr
+
+##### Traitement matriciel 
+
+* http://what-when-how.com/introduction-to-video-and-image-processing/neighborhood-processing-introduction-to-video-and-image-processing-part-2/
+
+
+#### Texture 
+https://thebookofshaders.com/09/?lan=fr
+
+
+
+
+### Transformations géométriques 
+
+Affecte-le contenant la texture. Nommé *Vertex* dans le langage nuanciers *shaders* 
+
+* http://what-when-how.com/introduction-to-video-and-image-processing/geometric-transformations-introduction-to-video-and-image-processing-part-1/
+
+
+#### Position
+#### Rotation
+
+#### Dimensions
+#### Distorsion 
 #### Rogner
 #### Échelle
 
 
+### Altération des pixels 
 
-### Canal Alpha Alpha channel  
+Affecte le contenu de la texture. Nommé *Fragments* dans le langage nuanciers *shaders* 
+
+* http://what-when-how.com/introduction-to-video-and-image-processing/visual-effects-introduction-to-video-and-image-processing-part-1/
+
+
 ### Modification de couleurs 
 ### Niveau des couleurs 
 
@@ -27,28 +77,25 @@
 ### chromakey 
 
 
-### Délais
-### Rétroaction (feedback)
+### Utilisation de mémoire tampon 
 
+Traitement utilisant la mémoire pour mettre en tampon des images vidéo et effectuer des opérations temporelles sur celles-ci.
 
-### Pixels
-### Couleurs 
-https://thebookofshaders.com/06/?lan=fr
-
-### Texture 
-https://thebookofshaders.com/09/?lan=fr
-
-### Matrices
-https://thebookofshaders.com/08//?lan=fr
-
-### Mémoire tampon 
-### Alpha channel 
-### Rendu OpenGL
-
-https://openframeworks.cc/ofBook/chapters/openGL.html
-
-## Traitement visuel en temps réel à l’aide d’effets et de logiciels de programmation multimédia et nodale 
-## Exploitation des fonctions des logiciels de traitement vidéo en temps réel 
+#### Mémoire tampon 
+#### Délais
+#### Rétroaction (feedback)
 
 
 ## Utilisation de nuanciers (shaders) 
+
+## Logiciels de traitement vidéo interactif en temps réel {#traiter_logiciels}
+
+Traitement visuel en temps réel à l’aide d’effets et de logiciels de programmation multimédia. 
+
+### Programmation nodale  
+
+### Libres et gratuits 
+* Open Broadcast Studio
+    * obs-ninja
+    * obs-websocket
+    * 

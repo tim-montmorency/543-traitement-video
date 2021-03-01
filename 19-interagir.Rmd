@@ -24,7 +24,6 @@
 ### ArtNet {#protocole_artnet}
      
 
-## Programmation de la captation  {#interagir_video}
 
 * https://openframeworks.cc/ofBook/chapters/image_processing_computer_vision.html
 * http://szeliski.org/Book/
@@ -36,8 +35,38 @@
 
 ### Captation de mouvement et de présence
 
+#### Théorie et survol 
+
+* https://openframeworks.cc/ofBook/chapters/image_processing_computer_vision.html
+
+##### Filtrage binaire
+
+* http://what-when-how.com/introduction-to-video-and-image-processing/morphology-introduction-to-video-and-image-processing-part-1/
+* http://what-when-how.com/introduction-to-video-and-image-processing/morphology-introduction-to-video-and-image-processing-part-2/
+
+##### Blobs
+
+* http://what-when-how.com/introduction-to-video-and-image-processing/blob-analysis-introduction-to-video-and-image-processing-part-1/
+
+
+
 #### Mouvement {#interagir_mouvement}
-* https://www.tetoki.eu/vida/
+
+
+
+* Différence de mouvement 
+    * 
+
 
 #### Présence {#interagir_presence}
+
+
 * kinect
+
+* p5js
+    * https://www.tetoki.eu/vida/
+    * https://github.com/orgicus/p5.js-cv
+
+* Mediapipe (google)
+    * https://github.com/google/mediapipe
+    * https://github.com/cansik/mediapipe-osc

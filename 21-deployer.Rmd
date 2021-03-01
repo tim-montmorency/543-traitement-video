@@ -4,6 +4,8 @@
 
 étude de cas : 
 
+* http://what-when-how.com/introduction-to-video-and-image-processing/application-example-edutainment-game-introduction-to-video-and-image-processing/
+
 * https://openframeworks.cc/ofBook/chapters/project_eva.html
 
 * https://openframeworks.cc/ofBook/chapters/project_joel.html

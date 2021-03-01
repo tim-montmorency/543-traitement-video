@@ -3,6 +3,7 @@ title: "Traitement vidéo"
 author: "Guillaume Arseneault"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
+lang: fr
 output:
   bookdown::gitbook:
     lib_dir: assets
@@ -11,13 +12,15 @@ output:
       toolbar:
         position: static
       fontsettings:
-        theme: night
+        theme: white
         family: sans
         size: 2
   bookdown::pdf_book:
     keep_tex: yes
   bookdown::html_book:
     css: toc.css
+  bookdown::word_document:
+    toc: true
 documentclass: book
 bibliography: [book.bib, packages.bib, 582543-traitement-video.bib]
 biblio-style: apalike
@@ -44,9 +47,6 @@ Compilation via Bookdown [@xie_BookdownAuthoringBooks_2020]
   * [HTML](https://tim-montmorency.com/543-traitement-video/){target="_blank"}
   *	[PDF](https://tim-montmorency.com/543-traitement-video/traitement-video.pdf){target="_blank"}
   * [EPUB](https://tim-montmorency.com/543-traitement-video/traitement-video.epub){target="_blank"}
-* [Bibliographie Bibtex](https://github.com/tim-montmorency/543-traitement-video/blob/master/582543-traitement-video.bib) 
+* [Bibliographie Bibtex](https://github.com/tim-montmorency/543-traitement-video/blob/master/582543-traitement-video.bib){target="_blank"} 
 
 
-```{r, include=FALSE}
-options(tinytex.engine_args = '-shell-escape')
-```

@@ -3,6 +3,7 @@
 \PassOptionsToPackage{hyphens}{url}
 %
 \documentclass[
+  french,
 ]{book}
 \usepackage{amsmath,amssymb}
 \usepackage{lmodern}
@@ -38,6 +39,7 @@
 \hypersetup{
   pdftitle={Traitement vidéo},
   pdfauthor={Guillaume Arseneault},
+  pdflang={fr},
   hidelinks,
   pdfcreator={LaTeX via pandoc}}
 \urlstyle{same} % disable monospaced font for URLs
@@ -121,6 +123,16 @@
 \AppendGraphicsExtensions{.gif}
 
 \makeatother
+\ifxetex
+  % Load polyglossia as late as possible: uses bidi with RTL langages (e.g. Hebrew, Arabic)
+  \usepackage{polyglossia}
+  \setmainlanguage[]{french}
+\else
+  \usepackage[main=french]{babel}
+% get rid of language-specific shorthands (see #6817):
+\let\LanguageShortHands\languageshorthands
+\def\languageshorthands#1{}
+\fi
 \ifluatex
   \usepackage{selnolig}  % disable illegal ligatures
 \fi
@@ -129,7 +141,7 @@
 
 \title{Traitement vidéo}
 \author{Guillaume Arseneault}
-\date{2021-02-24}
+\date{2021-03-01}
 
 \begin{document}
 \maketitle
@@ -1496,7 +1508,7 @@ A Phantasy in Colors (1949)
 
 }
 
-\caption{Enregistrer et reproduire depuis un support magnétique}\label{fig:unnamed-chunk-3}
+\caption{Enregistrer et reproduire depuis un support magnétique}\label{fig:unnamed-chunk-2}
 \end{figure}
 
 \begin{itemize}
@@ -1522,7 +1534,7 @@ A Phantasy in Colors (1949)
 
 }
 
-\caption{Enregistrer et reproduire depuis un support magnétique}\label{fig:unnamed-chunk-4}
+\caption{Enregistrer et reproduire depuis un support magnétique}\label{fig:unnamed-chunk-3}
 \end{figure}
 
 \begin{itemize}
@@ -1986,94 +1998,14 @@ Autre liens
 \hypertarget{lexique_composantes}{%
 \section{Constituantes du signal vidéo}\label{lexique_composantes}}
 
-\hypertarget{analogue-vs-numuxe9rique}{%
-\subsection{Analogue vs numérique}\label{analogue-vs-numuxe9rique}}
-
-Est-ce que le signal est une variation de fluctuation électrique flottante (analogue) ou binaire (numérique)
-
-\begin{itemize}
-\tightlist
-\item
-  \href{https://en.wikipedia.org/wiki/Video\#Analog_video}{Signaux analogues/digitaux}
-\item
-  \href{https://en.wikipedia.org/wiki/Analog_television}{transmission télévisuelle analogue}
-\end{itemize}
-
-\hypertarget{protocole-de-transport}{%
-\subsubsection{Protocole de transport}\label{protocole-de-transport}}
-
-\url{https://en.wikipedia.org/wiki/Video}
-
-\hypertarget{analogues}{%
-\paragraph{Analogues}\label{analogues}}
-
-\begin{longtable}[]{@{}lllll@{}}
-\caption{Protocoles de transport pour signaux vidéos analogues (Amérique du Nord)}\tabularnewline
-\toprule
-Composite & S-Video & Component & VGA & TRRC \\
-\midrule
-\endfirsthead
-\toprule
-Composite & S-Video & Component & VGA & TRRC \\
-\midrule
-\endhead
-\includegraphics{medias/lexique/signaux/analogue/composite.jpg} & \includegraphics{medias/lexique/signaux/analogue/svideo.jpg} & \includegraphics{medias/lexique/signaux/analogue/component.jpg} & \includegraphics{medias/lexique/signaux/analogue/vga.jpg} & \includegraphics{medias/lexique/signaux/analogue/3_5mm.jpg} \\
-\bottomrule
-\end{longtable}
-
-\begin{itemize}
-\tightlist
-\item
-  Conversions passives
-
-  \begin{itemize}
-  \tightlist
-  \item
-    \textbf{S-Vidéo} peut être converti passivement vers \textbf{Composite} considérant une perte de qualité. (S-Vidéo \textgreater{} Composite)
-  \item
-    Composite et TRRC peuvent s'interchanger considérant la perte des canaux audio présents sur le TRRC
-  \end{itemize}
-\end{itemize}
-
-\hypertarget{numuxe9riques}{%
-\paragraph{Numériques}\label{numuxe9riques}}
-
-\begin{longtable}[]{@{}llll@{}}
-\caption{Protocoles de transport pour signaux vidéos numériques}\tabularnewline
-\toprule
-DVI & HDMI & Display Port & SDI \\
-\midrule
-\endfirsthead
-\toprule
-DVI & HDMI & Display Port & SDI \\
-\midrule
-\endhead
-\includegraphics{medias/lexique/signaux/numerique/dvi.jpg} & \includegraphics{medias/lexique/signaux/numerique/hdmi.jpg} & \includegraphics{medias/lexique/signaux/numerique/displayport.jpg} & \includegraphics{medias/lexique/signaux/numerique/sdi.jpg} \\
-\bottomrule
-\end{longtable}
-
-\begin{itemize}
-\tightlist
-\item
-  Conversions passives :
-
-  \begin{itemize}
-  \tightlist
-  \item
-    \textbf{Display Port } peut passer passivement vers HDMI ainsi que DVI. Le contraire n'est pas vrai. On ne peut pas passer de passivement de HDMI vers Display port.
-  \item
-    HDMI peut passer la vidéo vers DVI et vice versa, par contre le son est perdu dans cette conversion
-  \end{itemize}
-\end{itemize}
-
 \hypertarget{ruxe9solution}{%
 \subsection{Résolution}\label{ruxe9solution}}
 
 Associé au nombre de pixels horizontaux et verticaux composant une image.
-Généralement exprimé par le nombre de pixel horizontal X nombre de pixel vertical
+Généralement exprimé par le nombre de pixels horizontaux multiplié par le nombre de pixels verticaux
 
 \[
-résolution  = PixelH * PixelV 
+résolution  = Pix_H * Pix_V 
 \]
 
 \hypertarget{cadence}{%
@@ -2082,23 +2014,218 @@ résolution  = PixelH * PixelV
 Associé à la vitesse, généralement exprimé en images / secondes
 
 \[
-images / secondes
+cadence (img/s) = images / secondes
 \]
 
 \begin{itemize}
 \tightlist
 \item
-  \href{https://frames-per-second.appspot.com}{Cadence}
+  \href{https://frames-per-second.appspot.com}{Démonstration en ligne de la variation de la cadence}
 \end{itemize}
 
 \hypertarget{trame}{%
 \subsection{Trame}\label{trame}}
+
+\hypertarget{progressive}{%
+\subsubsection{Progressive}\label{progressive}}
+
+\begin{itemize}
+\tightlist
+\item
+  Image complète transmise à chaque rafraichissement
+\item
+  associée à la lettre \textbf{p}
+\end{itemize}
+
+\hypertarget{entrelacuxe9e}{%
+\subsubsection{Entrelacée}\label{entrelacuxe9e}}
+
+\begin{itemize}
+\tightlist
+\item
+  Image partielle transmise à chaque rafraichissement
+\item
+  Généralement alterné entre les champs verticaux pairs et impairs
+\item
+  Associée à la lettre \textbf{i} pour \emph{interlaced}
+\end{itemize}
+
+\hypertarget{diffuxe9rencier-la-trame.}{%
+\subsubsection{Différencier la trame.}\label{diffuxe9rencier-la-trame.}}
 
 \begin{itemize}
 \tightlist
 \item
   \href{https://web.archive.org/web/20140222010640/http://neuron2.net/LVG/interlacing.html}{Trame (progressif/entrelacé)}
 \end{itemize}
+
+\hypertarget{nature-du-signal}{%
+\section{Nature du signal}\label{nature-du-signal}}
+
+\hypertarget{analogue-vs-numuxe9rique}{%
+\subsection{Analogue vs numérique}\label{analogue-vs-numuxe9rique}}
+
+\hypertarget{interpruxe9tation-de-la-fluctuation-uxe9lectrique}{%
+\subsubsection{Interprétation de la fluctuation électrique}\label{interpruxe9tation-de-la-fluctuation-uxe9lectrique}}
+
+\hypertarget{analogue-virgule-flottante}{%
+\paragraph{Analogue : virgule flottante}\label{analogue-virgule-flottante}}
+
+Toutes les possibilités entre le minimum et le maximum de voltage
+
+\begin{figure}
+
+{\centering \includegraphics{traitement-video_files/figure-latex/unnamed-chunk-4-1} 
+
+}
+
+\caption{Fluctuation continue entre minimum et maximum}\label{fig:unnamed-chunk-4}
+\end{figure}
+
+\hypertarget{numuxe9rique-nombre-binaire}{%
+\paragraph{Numérique : nombre binaire}\label{numuxe9rique-nombre-binaire}}
+
+0 ou 1, toute donnée est un entier, les valeurs interstitielles sont arrondies
+
+\begin{figure}
+
+{\centering \includegraphics{traitement-video_files/figure-latex/unnamed-chunk-5-1} 
+
+}
+
+\caption{Binarisation des valeurs}\label{fig:unnamed-chunk-5}
+\end{figure}
+
+\hypertarget{usages}{%
+\subsubsection{Usages}\label{usages}}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://en.wikipedia.org/wiki/Video\#Analog_video}{Signaux analogues/digitaux}
+\item
+  \href{http://what-when-how.com/display-interfaces/basics-of-analog-and-digital-display-interfaces-part-1/}{Distinction}
+\item
+  \href{http://what-when-how.com/display-interfaces/basic-concepts-in-display-systems-part-1/}{principes d'affichage analogue}
+\item
+  \href{https://en.wikipedia.org/wiki/Analog_television}{transmission télévisuelle analogue}
+\end{itemize}
+
+\hypertarget{protocoles-de-transport}{%
+\section{Protocoles de transport}\label{protocoles-de-transport}}
+
+\url{https://en.wikipedia.org/wiki/Video}
+
+\hypertarget{analogues}{%
+\subsection{Analogues}\label{analogues}}
+
+\hypertarget{composite}{%
+\subsubsection{Composite}\label{composite}}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.5\textwidth,height=\textheight]{medias/lexique/signaux/analogue/composite.jpg}
+\caption{Connecteur RCA pour signal \emph{composite}}
+\end{figure}
+
+\hypertarget{s-video}{%
+\subsubsection{S-Video}\label{s-video}}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.5\textwidth,height=\textheight]{medias/lexique/signaux/analogue/svideo.jpg}
+\caption{Connecteur pour signal \emph{S-Video}}
+\end{figure}
+
+\begin{itemize}
+\tightlist
+\item
+  \emph{S-Vidéo} peut être converti passivement vers \emph{Composite} considérant une perte de qualité. (S-Vidéo \textgreater{} Composite)
+\end{itemize}
+
+\hypertarget{component}{%
+\subsubsection{Component}\label{component}}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.5\textwidth,height=\textheight]{medias/lexique/signaux/analogue/component.jpg}
+\caption{Connecteurs RCS pour signal \emph{Component}}
+\end{figure}
+
+\hypertarget{vga}{%
+\subsubsection{VGA}\label{vga}}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.5\textwidth,height=\textheight]{medias/lexique/signaux/analogue/vga.jpg}
+\caption{Connecteur DE-15 pour signal VGA}
+\end{figure}
+
+\hypertarget{trrc}{%
+\subsubsection{TRRC}\label{trrc}}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.5\textwidth,height=\textheight]{medias/lexique/signaux/analogue/3_5mm.jpg}
+\caption{Connecteur TRRS pour signal composite et audio}
+\end{figure}
+
+\begin{itemize}
+\tightlist
+\item
+  Composite et TRRC peuvent s'interchanger considérant la perte des canaux audio présents sur le TRRC
+\end{itemize}
+
+\hypertarget{numuxe9riques}{%
+\subsection{Numériques}\label{numuxe9riques}}
+
+\hypertarget{dvi}{%
+\subsubsection{DVI}\label{dvi}}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.5\textwidth,height=\textheight]{medias/lexique/signaux/numerique/dvi.jpg}
+\caption{Connecteur DVI}
+\end{figure}
+
+\hypertarget{hdmi}{%
+\subsubsection{HDMI}\label{hdmi}}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.5\textwidth,height=\textheight]{medias/lexique/signaux/numerique/hdmi.jpg}
+\caption{Connecteur HDMI}
+\end{figure}
+
+\begin{itemize}
+\tightlist
+\item
+  HDMI peut passer la vidéo vers DVI et vice versa, par contre le son est perdu dans cette conversion
+\end{itemize}
+
+\hypertarget{display-port}{%
+\subsubsection{Display Port}\label{display-port}}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.5\textwidth,height=\textheight]{medias/lexique/signaux/numerique/displayport.jpg}
+\caption{Connecteur Display Port}
+\end{figure}
+
+\begin{itemize}
+\tightlist
+\item
+  \emph{Display Port } peut passer passivement vers HDMI ainsi que DVI. Le contraire n'est pas vrai. On ne peut pas passer de passivement de \emph{HDMI} vers \emph{Display port}.
+\end{itemize}
+
+\hypertarget{sdi}{%
+\subsubsection{SDI}\label{sdi}}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.5\textwidth,height=\textheight]{medias/lexique/signaux/numerique/sdi.jpg}
+\caption{Connecteur BNC pour signal SDI}
+\end{figure}
 
 \hypertarget{acquerir}{%
 \chapter{Acquerir}\label{acquerir}}
@@ -2109,7 +2236,21 @@ images / secondes
 \begin{itemize}
 \tightlist
 \item
-  S'écrit « largeur »:« hauteur » on voit aussi souvent « largeur »/« hauteur »
+  S'écrit généralement en utilisant le deux point pour séparer la largeur de la hauteur.
+\end{itemize}
+
+\[
+largeur : hauteur 
+\]
+
+Parfois on utilise aussi le barre de division
+
+\[
+largeur / hauteur 
+\]
+
+\begin{itemize}
+\tightlist
 \item
   Généralement exprimé avec ratio entier
 \end{itemize}
@@ -2179,7 +2320,7 @@ images / secondes
 \begin{itemize}
 \tightlist
 \item
-  Cinemascope; \url{https://fr.wikipedia.org/wiki/CinemaScope}
+  CinemaScope; \url{https://fr.wikipedia.org/wiki/CinemaScope}
 
   \begin{itemize}
   \tightlist
@@ -2263,8 +2404,38 @@ images / secondes
   \href{https://en.wikipedia.org/wiki/Pixel_aspect_ratio}{ratios-pixels}
 \end{itemize}
 
+\hypertarget{physique-de-limagerie-numuxe9rique}{%
+\section{Physique de l'imagerie numérique}\label{physique-de-limagerie-numuxe9rique}}
+
+\hypertarget{le-systuxe8me-oculaire}{%
+\subsection{Le système oculaire}\label{le-systuxe8me-oculaire}}
+
+\begin{itemize}
+\tightlist
+\item
+  \url{http://what-when-how.com/display-i/nterfaces/the-human-visual-system-display-interfaces-part-1/}
+\end{itemize}
+
+\hypertarget{numuxe9riser-la-lumiuxe8re-ruxe9fluxe9chie}{%
+\subsection{Numériser la lumière réfléchie}\label{numuxe9riser-la-lumiuxe8re-ruxe9fluxe9chie}}
+
+\begin{itemize}
+\tightlist
+\item
+  \url{http://what-when-how.com/introduction-to-video-and-image-processing/image-acquisition-introduction-to-video-and-image-processing-part-1/}
+\end{itemize}
+
+\hypertarget{propriuxe9tuxe9s-de-limage-numuxe9rique}{%
+\subsection{Propriétés de l'image numérique}\label{propriuxe9tuxe9s-de-limage-numuxe9rique}}
+
+\begin{itemize}
+\tightlist
+\item
+  \url{http://what-when-how.com/introduction-to-video-and-image-processing/image-acquisition-introduction-to-video-and-image-processing-part-2/}
+\end{itemize}
+
 \hypertarget{acquerir_captation}{%
-\section{Acquisition vidéo en temps réel}\label{acquerir_captation}}
+\section{Acquisition vidéo numérique temps réel}\label{acquerir_captation}}
 
 \hypertarget{sources-viduxe9o-obs}{%
 \subsection{Sources vidéo OBS}\label{sources-viduxe9o-obs}}
@@ -2314,65 +2485,17 @@ images / secondes
 \hypertarget{echantillonner}{%
 \chapter{Échantillonner}\label{echantillonner}}
 
-\hypertarget{lexique_encodage}{%
-\section{L'encodage vidéo numérique}\label{lexique_encodage}}
+\hypertarget{compression-du-signal}{%
+\section{Compression du signal}\label{compression-du-signal}}
 
-\hypertarget{vocabulaire}{%
-\subsection{Vocabulaire}\label{vocabulaire}}
+\begin{figure}
 
-\hypertarget{duxe9bit}{%
-\subsubsection{Débit}\label{duxe9bit}}
+{\centering \includegraphics{traitement-video_files/figure-latex/unnamed-chunk-6-1} 
 
-Associé à la bande passante du signal, généralement exprimé en nombre de bits par seconde.
+}
 
-\begin{itemize}
-\item
-  1 bit{[}b{]} = 1xbit
-\item
-  1 octet{[}byte{]}{[}B{]} = 8xbits
-\item
-  Mbit/s -\textgreater{} mégabit par seconde
-\item
-  MBit/s -\textgreater{} mégaoctets (megabyte) par seconde
-\item
-  \href{https://en.wikipedia.org/wiki/Bit_rate\#Video}{Débit (bitrate)}
-\end{itemize}
-
-\hypertarget{calculer-le-poids-bitrate}{%
-\paragraph{Calculer le poids (bitrate)}\label{calculer-le-poids-bitrate}}
-
-\begin{itemize}
-\tightlist
-\item
-  \href{https://toolstud.io/video/filesize.php?imagewidth=1920\&imageheight=1080\&framerate=29.97\&timeduration=60\&timeunit=seconds}{calcul de grosseur de fichier}
-\item
-  \href{https://toolstud.io/video/bitrate.php?imagewidth=1\&imageheight=1\&colordepth=24\&framerate=29.97}{calcul de bitrate}
-\end{itemize}
-
-\hypertarget{profondeur-duxe9chantillonnage}{%
-\subsubsection{Profondeur d'échantillonnage}\label{profondeur-duxe9chantillonnage}}
-
-\begin{itemize}
-\tightlist
-\item
-  Profondeur de l'échantillonnage couleur
-
-  \begin{itemize}
-  \tightlist
-  \item
-    \href{https://en.wikipedia.org/wiki/Color_depth}{bit/canal}\\
-  \end{itemize}
-\item
-  \href{https://en.wikipedia.org/wiki/Chroma_subsampling\#Sampling_systems_and_ratios}{chroma subsampling}
-
-  \begin{itemize}
-  \tightlist
-  \item
-    \href{https://upload.wikimedia.org/wikipedia/commons/0/06/Colorcomp.jpg}{4:4:4 vs 4:2:2 vs 4:2:0}
-  \item
-    \href{https://en.wikipedia.org/wiki/Alpha_compositing}{4:4:4 vs 4:4:4:4}
-  \end{itemize}
-\end{itemize}
+\caption{Qualificatif de compression vidéo}\label{fig:unnamed-chunk-6}
+\end{figure}
 
 \hypertarget{signal-viduxe9o-compressuxe9-vs-non-compressuxe9}{%
 \subsection{Signal vidéo compressé vs non-compressé}\label{signal-viduxe9o-compressuxe9-vs-non-compressuxe9}}
@@ -2380,32 +2503,39 @@ Associé à la bande passante du signal, généralement exprimé en nombre de bi
 \hypertarget{non-compressuxe9}{%
 \subsubsection{Non compressé}\label{non-compressuxe9}}
 
+\hypertarget{propriuxe9tuxe9s-du-signal-non-compressuxe9}{%
+\paragraph{Propriétés du signal non Compressé}\label{propriuxe9tuxe9s-du-signal-non-compressuxe9}}
+
 \begin{itemize}
 \tightlist
 \item
-  Texture vidéo en mémoire
+  Sans perte
 \item
-  le codec animation
+  Rapide pour effectuer des opérations graphique
+\item
+  Utilise beaucoup de mémoire
 \end{itemize}
 
 \[
-data rate = color depth[a] * vertical resolution * horizontal resolution * refresh frequency
+data rate = color depth *  pixHorizontal * pixVertical * refresh frequency
 \]
 
-ou
+Se traduit vers :
 
 \[
-poids/sec = échantillonnage * résolutionVerticale * résolutionHorizontale * cadence
+Débit = profondeur(bits)  * résolutionHorizontale * résolutionVerticale * cadence
 \]
 
-Corresponds à :
+Un signal \textbf{fullhd 60p} non compressé corresponds au calcul suivant :
 
 \[
-24-bit, 1080p @ 60 fps: 24 × 1920×1080 × 60 = 2.98 Gbit/s.
+24 * 1920 * 1080 * 60 = 2.98 Gbit/s.
 \]
 
-\hypertarget{usages}{%
-\paragraph{Usages}\label{usages}}
+L'exemple ci-haut correspond à un échantillonnage de 24 bits, une résolution de 1920 pixels horizontaux par 1080 pixels verticaux et une cadence de 60 image progressive par secondes.
+
+\hypertarget{usages-de-la-viduxe9o-non-compressuxe9e}{%
+\paragraph{Usages de la vidéo non-compressée}\label{usages-de-la-viduxe9o-non-compressuxe9e}}
 
 \begin{itemize}
 \tightlist
@@ -2419,10 +2549,18 @@ Corresponds à :
 Quand il y a compression, des instructions sont exécutées par le lecteur pour restituer l'image à temps.
 
 La configuration de la compression vidéo est déterminée par différents facteurs
-* L'usage
-* La mémoire disponible
-* La bande passante disponible
-* La présence de circuit dédié (encodage/décodage matériel)
+
+\begin{itemize}
+\tightlist
+\item
+  L'usage
+\item
+  La mémoire disponible
+\item
+  La bande passante disponible
+\item
+  La présence de circuit dédié (encodage/décodage matériel)
+\end{itemize}
 
 \hypertarget{compression-sans-pertes-vs-destructive-losslesslossy}{%
 \subsection{Compression sans pertes vs destructive (lossless/lossy)}\label{compression-sans-pertes-vs-destructive-losslesslossy}}
@@ -2562,8 +2700,8 @@ Méthode de compressions applicables;
   \end{itemize}
 \end{itemize}
 
-\hypertarget{type-de-muxe9dias-compressuxe9s-destructivement}{%
-\paragraph{Type de médias compressés destructivement}\label{type-de-muxe9dias-compressuxe9s-destructivement}}
+\hypertarget{type-de-compression-destructive}{%
+\paragraph{Type de compression destructive}\label{type-de-compression-destructive}}
 
 \begin{itemize}
 \tightlist
@@ -2576,6 +2714,74 @@ Méthode de compressions applicables;
   HEVC\&VP9\\
 \item
   HAP \& HAPQ
+\end{itemize}
+
+\hypertarget{lexique_encodage}{%
+\section{Lexique de l'encodage}\label{lexique_encodage}}
+
+\hypertarget{vocabulaire}{%
+\subsection{Vocabulaire}\label{vocabulaire}}
+
+\hypertarget{duxe9bit}{%
+\subsubsection{Débit}\label{duxe9bit}}
+
+Associé à la bande passante du signal, généralement exprimé en nombre de bits par seconde.
+
+\begin{itemize}
+\item
+  1 bit{[}b{]} = 1xbit
+\item
+  1 octet{[}byte{]}{[}B{]} = 8xbits
+\item
+  Mbit/s -\textgreater{} mégabit par seconde
+\item
+  MBit/s -\textgreater{} mégaoctets (megabyte) par seconde
+\item
+  \href{https://en.wikipedia.org/wiki/Bit_rate\#Video}{Débit (bitrate)}
+\item
+  \url{http://what-when-how.com/introduction-to-video-and-image-processing/bits-bytes-and-binary-numbers-introduction-to-video-and-image-processing/}
+\end{itemize}
+
+\hypertarget{calculer-le-poids-bitrate}{%
+\paragraph{Calculer le poids (bitrate)}\label{calculer-le-poids-bitrate}}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://toolstud.io/video/filesize.php?imagewidth=1920\&imageheight=1080\&framerate=29.97\&timeduration=60\&timeunit=seconds}{calcul de grosseur de fichier}
+\item
+  \href{https://toolstud.io/video/bitrate.php?imagewidth=1\&imageheight=1\&colordepth=24\&framerate=29.97}{calcul de bitrate}
+\end{itemize}
+
+\hypertarget{canal-alpha-alpha-channel}{%
+\subsubsection{\texorpdfstring{Canal alpha \emph{Alpha channel}}{Canal alpha Alpha channel}}\label{canal-alpha-alpha-channel}}
+
+Canal dédié à la transparence.
+Sa présence permet de composer des images en préservant les attributs de transparence.
+
+\hypertarget{profondeur-duxe9chantillonnage}{%
+\subsubsection{Profondeur d'échantillonnage}\label{profondeur-duxe9chantillonnage}}
+
+\begin{itemize}
+\tightlist
+\item
+  Profondeur de l'échantillonnage couleur
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \href{https://en.wikipedia.org/wiki/Color_depth}{bit/canal}\\
+  \end{itemize}
+\item
+  \href{https://en.wikipedia.org/wiki/Chroma_subsampling\#Sampling_systems_and_ratios}{chroma subsampling}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \href{https://upload.wikimedia.org/wikipedia/commons/0/06/Colorcomp.jpg}{4:4:4 vs 4:2:2 vs 4:2:0}
+  \item
+    \href{https://en.wikipedia.org/wiki/Alpha_compositing}{4:4:4 vs 4:4:4:4}
+  \end{itemize}
 \end{itemize}
 
 \hypertarget{lexique_fichiers}{%
@@ -2654,8 +2860,158 @@ Theora & .ogv \\
 \hypertarget{traiter}{%
 \chapter{Traiter}\label{traiter}}
 
+\hypertarget{fonctions-du-traitement-viduxe9o-temps-ruxe9el}{%
+\section{Fonctions du traitement vidéo temps réel}\label{fonctions-du-traitement-viduxe9o-temps-ruxe9el}}
+
+Exploitation des fonctions des logiciels de traitement vidéo en temps réel
+
+\hypertarget{rendu-opengl}{%
+\subsection{Rendu OpenGL}\label{rendu-opengl}}
+
+\url{https://openframeworks.cc/ofBook/chapters/openGL.html}
+
+\url{https://www.tomdalling.com/blog/modern-opengl/08-even-more-lighting-directional-lights-spotlights-multiple-lights/}
+
+\hypertarget{pixels}{%
+\subsubsection{Pixels}\label{pixels}}
+
+\hypertarget{couleurs}{%
+\subsubsection{Couleurs}\label{couleurs}}
+
+\begin{itemize}
+\tightlist
+\item
+  Couleurs et longueur d'onde
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \url{http://what-when-how.com/display-interfaces/fundamentals-of-color-display-interfaces-part-1/}
+  \end{itemize}
+\item
+  Perception de la chaleur d'une image
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \url{http://what-when-how.com/display-interfaces/fundamentals-of-color-display-interfaces-part-2/}
+  \end{itemize}
+\item
+  \url{http://what-when-how.com/introduction-to-video-and-image-processing/color-images-introduction-to-video-and-image-processing-part-1/}
+\item
+  \url{http://what-when-how.com/introduction-to-video-and-image-processing/color-images-introduction-to-video-and-image-processing-part-2/}
+\item
+  \url{http://what-when-how.com/introduction-to-video-and-image-processing/color-images-introduction-to-video-and-image-processing-part-3/}
+\end{itemize}
+
+\hypertarget{gamma}{%
+\paragraph{Gamma}\label{gamma}}
+
+\begin{itemize}
+\item
+  \url{http://what-when-how.com/introduction-to-video-and-image-processing/point-processing-introduction-to-video-and-image-processing-part-1/}
+\item
+  \url{https://thebookofshaders.com/06/?lan=fr}
+\end{itemize}
+
+\hypertarget{matrices}{%
+\subsubsection{Matrices}\label{matrices}}
+
+\url{https://thebookofshaders.com/08//?lan=fr}
+
+\hypertarget{traitement-matriciel}{%
+\paragraph{Traitement matriciel}\label{traitement-matriciel}}
+
+\begin{itemize}
+\tightlist
+\item
+  \url{http://what-when-how.com/introduction-to-video-and-image-processing/neighborhood-processing-introduction-to-video-and-image-processing-part-2/}
+\end{itemize}
+
+\hypertarget{texture}{%
+\subsubsection{Texture}\label{texture}}
+
+\url{https://thebookofshaders.com/09/?lan=fr}
+
+\hypertarget{transformations-guxe9omuxe9triques}{%
+\subsection{Transformations géométriques}\label{transformations-guxe9omuxe9triques}}
+
+Affecte-le contenant la texture. Nommé \emph{Vertex} dans le langage nuanciers \emph{shaders}
+
+\begin{itemize}
+\tightlist
+\item
+  \url{http://what-when-how.com/introduction-to-video-and-image-processing/geometric-transformations-introduction-to-video-and-image-processing-part-1/}
+\end{itemize}
+
+\hypertarget{position}{%
+\subsubsection{Position}\label{position}}
+
+\hypertarget{rotation}{%
+\subsubsection{Rotation}\label{rotation}}
+
+\hypertarget{dimensions}{%
+\subsubsection{Dimensions}\label{dimensions}}
+
+\hypertarget{distorsion}{%
+\subsubsection{Distorsion}\label{distorsion}}
+
+\hypertarget{rogner}{%
+\subsubsection{Rogner}\label{rogner}}
+
+\hypertarget{uxe9chelle}{%
+\subsubsection{Échelle}\label{uxe9chelle}}
+
+\hypertarget{altuxe9ration-des-pixels}{%
+\subsection{Altération des pixels}\label{altuxe9ration-des-pixels}}
+
+Affecte le contenu de la texture. Nommé \emph{Fragments} dans le langage nuanciers \emph{shaders}
+
+\begin{itemize}
+\tightlist
+\item
+  \url{http://what-when-how.com/introduction-to-video-and-image-processing/visual-effects-introduction-to-video-and-image-processing-part-1/}
+\end{itemize}
+
+\hypertarget{modification-de-couleurs}{%
+\subsection{Modification de couleurs}\label{modification-de-couleurs}}
+
+\hypertarget{niveau-des-couleurs}{%
+\subsection{Niveau des couleurs}\label{niveau-des-couleurs}}
+
+\hypertarget{mixage-dimages}{%
+\subsection{Mixage d'images}\label{mixage-dimages}}
+
+\hypertarget{incrustation}{%
+\subsection{Incrustation}\label{incrustation}}
+
+\hypertarget{chromakey}{%
+\subsection{chromakey}\label{chromakey}}
+
+\hypertarget{utilisation-de-muxe9moire-tampon}{%
+\subsection{Utilisation de mémoire tampon}\label{utilisation-de-muxe9moire-tampon}}
+
+Traitement utilisant la mémoire pour mettre en tampon des images vidéo et effectuer des opérations temporelles sur celles-ci.
+
+\hypertarget{muxe9moire-tampon}{%
+\subsubsection{Mémoire tampon}\label{muxe9moire-tampon}}
+
+\hypertarget{duxe9lais}{%
+\subsubsection{Délais}\label{duxe9lais}}
+
+\hypertarget{ruxe9troaction-feedback}{%
+\subsubsection{Rétroaction (feedback)}\label{ruxe9troaction-feedback}}
+
+\hypertarget{utilisation-de-nuanciers-shaders}{%
+\section{Utilisation de nuanciers (shaders)}\label{utilisation-de-nuanciers-shaders}}
+
 \hypertarget{traiter_logiciels}{%
 \section{Logiciels de traitement vidéo interactif en temps réel}\label{traiter_logiciels}}
+
+Traitement visuel en temps réel à l'aide d'effets et de logiciels de programmation multimédia.
+
+\hypertarget{programmation-nodale}{%
+\subsection{Programmation nodale}\label{programmation-nodale}}
 
 \hypertarget{libres-et-gratuits}{%
 \subsection{Libres et gratuits}\label{libres-et-gratuits}}
@@ -2675,91 +3031,11 @@ Theora & .ogv \\
   \end{itemize}
 \end{itemize}
 
-\hypertarget{notions-de-traitement-viduxe9o}{%
-\section{Notions de traitement vidéo}\label{notions-de-traitement-viduxe9o}}
-
-\hypertarget{position}{%
-\subsection{Position}\label{position}}
-
-\hypertarget{rotation}{%
-\subsection{Rotation}\label{rotation}}
-
-\hypertarget{dimensions}{%
-\subsection{Dimensions}\label{dimensions}}
-
-\hypertarget{distorsion}{%
-\subsection{Distorsion}\label{distorsion}}
-
-\hypertarget{rogner}{%
-\subsubsection{Rogner}\label{rogner}}
-
-\hypertarget{uxe9chelle}{%
-\subsubsection{Échelle}\label{uxe9chelle}}
-
-\hypertarget{canal-alpha-alpha-channel}{%
-\subsection{Canal Alpha Alpha channel}\label{canal-alpha-alpha-channel}}
-
-\hypertarget{modification-de-couleurs}{%
-\subsection{Modification de couleurs}\label{modification-de-couleurs}}
-
-\hypertarget{niveau-des-couleurs}{%
-\subsection{Niveau des couleurs}\label{niveau-des-couleurs}}
-
-\hypertarget{mixage-dimages}{%
-\subsection{Mixage d'images}\label{mixage-dimages}}
-
-\hypertarget{incrustation}{%
-\subsection{Incrustation}\label{incrustation}}
-
-\hypertarget{chromakey}{%
-\subsection{chromakey}\label{chromakey}}
-
-\hypertarget{duxe9lais}{%
-\subsection{Délais}\label{duxe9lais}}
-
-\hypertarget{ruxe9troaction-feedback}{%
-\subsection{Rétroaction (feedback)}\label{ruxe9troaction-feedback}}
-
-\hypertarget{pixels}{%
-\subsection{Pixels}\label{pixels}}
-
-\hypertarget{couleurs}{%
-\subsection{Couleurs}\label{couleurs}}
-
-\url{https://thebookofshaders.com/06/?lan=fr}
-
-\hypertarget{texture}{%
-\subsection{Texture}\label{texture}}
-
-\url{https://thebookofshaders.com/09/?lan=fr}
-
-\hypertarget{matrices}{%
-\subsection{Matrices}\label{matrices}}
-
-\url{https://thebookofshaders.com/08//?lan=fr}
-
-\hypertarget{muxe9moire-tampon}{%
-\subsection{Mémoire tampon}\label{muxe9moire-tampon}}
-
-\hypertarget{alpha-channel}{%
-\subsection{Alpha channel}\label{alpha-channel}}
-
-\hypertarget{rendu-opengl}{%
-\subsection{Rendu OpenGL}\label{rendu-opengl}}
-
-\url{https://openframeworks.cc/ofBook/chapters/openGL.html}
-
-\hypertarget{traitement-visuel-en-temps-ruxe9el-uxe0-laide-deffets-et-de-logiciels-de-programmation-multimuxe9dia-et-nodale}{%
-\section{Traitement visuel en temps réel à l'aide d'effets et de logiciels de programmation multimédia et nodale}\label{traitement-visuel-en-temps-ruxe9el-uxe0-laide-deffets-et-de-logiciels-de-programmation-multimuxe9dia-et-nodale}}
-
-\hypertarget{exploitation-des-fonctions-des-logiciels-de-traitement-viduxe9o-en-temps-ruxe9el}{%
-\section{Exploitation des fonctions des logiciels de traitement vidéo en temps réel}\label{exploitation-des-fonctions-des-logiciels-de-traitement-viduxe9o-en-temps-ruxe9el}}
-
-\hypertarget{utilisation-de-nuanciers-shaders}{%
-\section{Utilisation de nuanciers (shaders)}\label{utilisation-de-nuanciers-shaders}}
-
 \hypertarget{programmer}{%
 \chapter{Programmer}\label{programmer}}
+
+\hypertarget{programmer_grab}{%
+\section{Programmation de la captation}\label{programmer_grab}}
 
 \hypertarget{programmer_logiciels}{%
 \section{Logiciels de programmation}\label{programmer_logiciels}}
@@ -2858,9 +3134,6 @@ Noise : \url{https://thebookofshaders.com/11/}
 \hypertarget{protocole_artnet}{%
 \subsection{ArtNet}\label{protocole_artnet}}
 
-\hypertarget{interagir_video}{%
-\section{Programmation de la captation}\label{interagir_video}}
-
 \begin{itemize}
 \tightlist
 \item
@@ -2875,22 +3148,75 @@ Noise : \url{https://thebookofshaders.com/11/}
 \hypertarget{captation-de-mouvement-et-de-pruxe9sence}{%
 \subsection{Captation de mouvement et de présence}\label{captation-de-mouvement-et-de-pruxe9sence}}
 
+\hypertarget{thuxe9orie-et-survol}{%
+\subsubsection{Théorie et survol}\label{thuxe9orie-et-survol}}
+
+\begin{itemize}
+\tightlist
+\item
+  \url{https://openframeworks.cc/ofBook/chapters/image_processing_computer_vision.html}
+\end{itemize}
+
+\hypertarget{filtrage-binaire}{%
+\paragraph{Filtrage binaire}\label{filtrage-binaire}}
+
+\begin{itemize}
+\tightlist
+\item
+  \url{http://what-when-how.com/introduction-to-video-and-image-processing/morphology-introduction-to-video-and-image-processing-part-1/}
+\item
+  \url{http://what-when-how.com/introduction-to-video-and-image-processing/morphology-introduction-to-video-and-image-processing-part-2/}
+\end{itemize}
+
+\hypertarget{blobs}{%
+\paragraph{Blobs}\label{blobs}}
+
+\begin{itemize}
+\tightlist
+\item
+  \url{http://what-when-how.com/introduction-to-video-and-image-processing/blob-analysis-introduction-to-video-and-image-processing-part-1/}
+\end{itemize}
+
 \hypertarget{interagir_mouvement}{%
 \subsubsection{Mouvement}\label{interagir_mouvement}}
 
 \begin{itemize}
 \tightlist
 \item
-  \url{https://www.tetoki.eu/vida/}
+  Différence de mouvement
+
+  \begin{itemize}
+  \tightlist
+  \item
+  \end{itemize}
 \end{itemize}
 
 \hypertarget{interagir_presence}{%
 \subsubsection{Présence}\label{interagir_presence}}
 
 \begin{itemize}
-\tightlist
 \item
   kinect
+\item
+  p5js
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \url{https://www.tetoki.eu/vida/}
+  \item
+    \url{https://github.com/orgicus/p5.js-cv}
+  \end{itemize}
+\item
+  Mediapipe (google)
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \url{https://github.com/google/mediapipe}
+  \item
+    \url{https://github.com/cansik/mediapipe-osc}
+  \end{itemize}
 \end{itemize}
 
 \hypertarget{deployer}{%
@@ -2902,6 +3228,8 @@ Noise : \url{https://thebookofshaders.com/11/}
 étude de cas :
 
 \begin{itemize}
+\item
+  \url{http://what-when-how.com/introduction-to-video-and-image-processing/application-example-edutainment-game-introduction-to-video-and-image-processing/}
 \item
   \url{https://openframeworks.cc/ofBook/chapters/project_eva.html}
 \item

@@ -24,7 +24,7 @@
 <meta name="author" content="Guillaume Arseneault" />
 
 
-<meta name="date" content="2021-02-24" />
+<meta name="date" content="2021-02-28" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -51,6 +51,14 @@
 
 
 
+<script src="assets/htmlwidgets-1.5.3/htmlwidgets.js"></script>
+<script src="assets/d3-3.3.8/d3.min.js"></script>
+<script src="assets/dagre-0.4.0/dagre-d3.min.js"></script>
+<link href="assets/mermaid-0.3.0/dist/mermaid.css" rel="stylesheet" />
+<script src="assets/mermaid-0.3.0/dist/mermaid.slim.min.js"></script>
+<link href="assets/DiagrammeR-styles-0.2/styles.css" rel="stylesheet" />
+<script src="assets/chromatography-0.1/chromatography.js"></script>
+<script src="assets/DiagrammeR-binding-1.0.6.9000/DiagrammeR.js"></script>
 
 
 <style type="text/css">
@@ -376,17 +384,20 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul></li>
 <li class="chapter" data-level="8" data-path="echantillonner.html"><a href="echantillonner.html"><i class="fa fa-check"></i><b>8</b> Échantillonner</a>
 <ul>
-<li class="chapter" data-level="8.1" data-path="lexique-encodage.html"><a href="lexique-encodage.html"><i class="fa fa-check"></i><b>8.1</b> L’encodage vidéo numérique</a>
+<li class="chapter" data-level="8.1" data-path="compression-du-signal.html"><a href="compression-du-signal.html"><i class="fa fa-check"></i><b>8.1</b> Compression du signal</a>
 <ul>
-<li class="chapter" data-level="8.1.1" data-path="lexique-encodage.html"><a href="lexique-encodage.html#vocabulaire"><i class="fa fa-check"></i><b>8.1.1</b> Vocabulaire</a></li>
-<li class="chapter" data-level="8.1.2" data-path="lexique-encodage.html"><a href="lexique-encodage.html#signal-vidéo-compressé-vs-non-compressé"><i class="fa fa-check"></i><b>8.1.2</b> Signal vidéo compressé vs non-compressé</a></li>
-<li class="chapter" data-level="8.1.3" data-path="lexique-encodage.html"><a href="lexique-encodage.html#compression-sans-pertes-vs-destructive-losslesslossy"><i class="fa fa-check"></i><b>8.1.3</b> Compression sans pertes vs destructive (lossless/lossy)</a></li>
+<li class="chapter" data-level="8.1.1" data-path="compression-du-signal.html"><a href="compression-du-signal.html#signal-vidéo-compressé-vs-non-compressé"><i class="fa fa-check"></i><b>8.1.1</b> Signal vidéo compressé vs non-compressé</a></li>
+<li class="chapter" data-level="8.1.2" data-path="compression-du-signal.html"><a href="compression-du-signal.html#compression-sans-pertes-vs-destructive-losslesslossy"><i class="fa fa-check"></i><b>8.1.2</b> Compression sans pertes vs destructive (lossless/lossy)</a></li>
 </ul></li>
-<li class="chapter" data-level="8.2" data-path="lexique-fichiers.html"><a href="lexique-fichiers.html"><i class="fa fa-check"></i><b>8.2</b> Encodage/décodage de fichiers</a>
+<li class="chapter" data-level="8.2" data-path="lexique-encodage.html"><a href="lexique-encodage.html"><i class="fa fa-check"></i><b>8.2</b> Lexique de l’encodage</a>
 <ul>
-<li class="chapter" data-level="8.2.1" data-path="lexique-fichiers.html"><a href="lexique-fichiers.html#format-dencodage-codecs"><i class="fa fa-check"></i><b>8.2.1</b> Format d’encodage (Codecs)</a></li>
-<li class="chapter" data-level="8.2.2" data-path="lexique-fichiers.html"><a href="lexique-fichiers.html#contenant-containers"><i class="fa fa-check"></i><b>8.2.2</b> Contenant (Containers)</a></li>
-<li class="chapter" data-level="8.2.3" data-path="lexique-fichiers.html"><a href="lexique-fichiers.html#formats-de-sauvegarde-et-archivage-des-médias"><i class="fa fa-check"></i><b>8.2.3</b> Formats de sauvegarde et archivage des médias</a></li>
+<li class="chapter" data-level="8.2.1" data-path="lexique-encodage.html"><a href="lexique-encodage.html#vocabulaire"><i class="fa fa-check"></i><b>8.2.1</b> Vocabulaire</a></li>
+</ul></li>
+<li class="chapter" data-level="8.3" data-path="lexique-fichiers.html"><a href="lexique-fichiers.html"><i class="fa fa-check"></i><b>8.3</b> Encodage/décodage de fichiers</a>
+<ul>
+<li class="chapter" data-level="8.3.1" data-path="lexique-fichiers.html"><a href="lexique-fichiers.html#format-dencodage-codecs"><i class="fa fa-check"></i><b>8.3.1</b> Format d’encodage (Codecs)</a></li>
+<li class="chapter" data-level="8.3.2" data-path="lexique-fichiers.html"><a href="lexique-fichiers.html#contenant-containers"><i class="fa fa-check"></i><b>8.3.2</b> Contenant (Containers)</a></li>
+<li class="chapter" data-level="8.3.3" data-path="lexique-fichiers.html"><a href="lexique-fichiers.html#formats-de-sauvegarde-et-archivage-des-médias"><i class="fa fa-check"></i><b>8.3.3</b> Formats de sauvegarde et archivage des médias</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="9" data-path="traiter.html"><a href="traiter.html"><i class="fa fa-check"></i><b>9</b> Traiter</a>

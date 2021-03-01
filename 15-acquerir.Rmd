@@ -3,7 +3,18 @@
 
 ## Rapport de cadre (Ratio)
 
-* S'écrit « largeur »:« hauteur » on voit aussi souvent « largeur »/« hauteur » 
+* S'écrit généralement en utilisant le deux point pour séparer la largeur de la hauteur. 
+
+$$
+largeur : hauteur 
+$$
+
+Parfois on utilise aussi le barre de division 
+
+$$
+largeur / hauteur 
+$$
+
 * Généralement exprimé avec ratio entier
 
 ### 16:9
@@ -36,7 +47,7 @@ https://en.wikipedia.org/wiki/Pixel_aspect_ratio#Analog-to-digital_conversion
 
 ### 2,39:1 
 
-* Cinemascope; https://fr.wikipedia.org/wiki/CinemaScope 
+* CinemaScope; https://fr.wikipedia.org/wiki/CinemaScope 
 	* Jadis, déformation optique au tournage ainsi qu'à la diffusion 
 
 ![Carré 1:1](medias/lexique/Cinemascope_2_39_1_2390x1000.png)
@@ -72,8 +83,25 @@ https://en.wikipedia.org/wiki/Pixel_aspect_ratio#Analog-to-digital_conversion
 * [ratios-pixels](https://en.wikipedia.org/wiki/Pixel_aspect_ratio){target="_blank"}
 
 
+## Physique de l'imagerie numérique
 
-## Acquisition vidéo en temps réel {#acquerir_captation}
+### Le système oculaire
+
+* http://what-when-how.com/display-i\nterfaces/the-human-visual-system-display-interfaces-part-1/
+
+
+### Numériser la lumière réfléchie
+
+* http://what-when-how.com/introduction-to-video-and-image-processing/image-acquisition-introduction-to-video-and-image-processing-part-1/
+
+### Propriétés de l'image numérique 
+
+* http://what-when-how.com/introduction-to-video-and-image-processing/image-acquisition-introduction-to-video-and-image-processing-part-2/
+
+
+
+
+## Acquisition vidéo numérique temps réel {#acquerir_captation}
 
 
 ### Sources vidéo OBS

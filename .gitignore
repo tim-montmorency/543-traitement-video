@@ -7,6 +7,9 @@ _bookdown_files/
 # don't push _dev folders
 _dev
 
+#local references
+/references
+
 # ignore all html files except:
 .travis.yml DESCRIPTION Dockerfile _build.sh _deploy.sh now.json .gitignore*/mathjax_header.html
 # rstuff

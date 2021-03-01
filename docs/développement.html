@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="" xml:lang="">
+<html lang="fr" xml:lang="fr">
 <head>
 
   <meta charset="utf-8" />
@@ -24,7 +24,7 @@
 <meta name="author" content="Guillaume Arseneault" />
 
 
-<meta name="date" content="2021-02-24" />
+<meta name="date" content="2021-03-01" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -51,6 +51,14 @@
 
 
 
+<script src="assets/htmlwidgets-1.5.3/htmlwidgets.js"></script>
+<script src="assets/d3-3.3.8/d3.min.js"></script>
+<script src="assets/dagre-0.4.0/dagre-d3.min.js"></script>
+<link href="assets/mermaid-0.3.0/dist/mermaid.css" rel="stylesheet" />
+<script src="assets/mermaid-0.3.0/dist/mermaid.slim.min.js"></script>
+<link href="assets/DiagrammeR-styles-0.2/styles.css" rel="stylesheet" />
+<script src="assets/chromatography-0.1/chromatography.js"></script>
+<script src="assets/DiagrammeR-binding-1.0.6.9000/DiagrammeR.js"></script>
 
 
 <style type="text/css">
@@ -350,10 +358,18 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <ul>
 <li class="chapter" data-level="6.1" data-path="lexique-composantes.html"><a href="lexique-composantes.html"><i class="fa fa-check"></i><b>6.1</b> Constituantes du signal vidéo</a>
 <ul>
-<li class="chapter" data-level="6.1.1" data-path="lexique-composantes.html"><a href="lexique-composantes.html#analogue-vs-numérique"><i class="fa fa-check"></i><b>6.1.1</b> Analogue vs numérique</a></li>
-<li class="chapter" data-level="6.1.2" data-path="lexique-composantes.html"><a href="lexique-composantes.html#résolution"><i class="fa fa-check"></i><b>6.1.2</b> Résolution</a></li>
-<li class="chapter" data-level="6.1.3" data-path="lexique-composantes.html"><a href="lexique-composantes.html#cadence"><i class="fa fa-check"></i><b>6.1.3</b> Cadence</a></li>
-<li class="chapter" data-level="6.1.4" data-path="lexique-composantes.html"><a href="lexique-composantes.html#trame"><i class="fa fa-check"></i><b>6.1.4</b> Trame</a></li>
+<li class="chapter" data-level="6.1.1" data-path="lexique-composantes.html"><a href="lexique-composantes.html#résolution"><i class="fa fa-check"></i><b>6.1.1</b> Résolution</a></li>
+<li class="chapter" data-level="6.1.2" data-path="lexique-composantes.html"><a href="lexique-composantes.html#cadence"><i class="fa fa-check"></i><b>6.1.2</b> Cadence</a></li>
+<li class="chapter" data-level="6.1.3" data-path="lexique-composantes.html"><a href="lexique-composantes.html#trame"><i class="fa fa-check"></i><b>6.1.3</b> Trame</a></li>
+</ul></li>
+<li class="chapter" data-level="6.2" data-path="nature-du-signal.html"><a href="nature-du-signal.html"><i class="fa fa-check"></i><b>6.2</b> Nature du signal</a>
+<ul>
+<li class="chapter" data-level="6.2.1" data-path="nature-du-signal.html"><a href="nature-du-signal.html#analogue-vs-numérique"><i class="fa fa-check"></i><b>6.2.1</b> Analogue vs numérique</a></li>
+</ul></li>
+<li class="chapter" data-level="6.3" data-path="protocoles-de-transport.html"><a href="protocoles-de-transport.html"><i class="fa fa-check"></i><b>6.3</b> Protocoles de transport</a>
+<ul>
+<li class="chapter" data-level="6.3.1" data-path="protocoles-de-transport.html"><a href="protocoles-de-transport.html#analogues"><i class="fa fa-check"></i><b>6.3.1</b> Analogues</a></li>
+<li class="chapter" data-level="6.3.2" data-path="protocoles-de-transport.html"><a href="protocoles-de-transport.html#numériques"><i class="fa fa-check"></i><b>6.3.2</b> Numériques</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="7" data-path="acquerir.html"><a href="acquerir.html"><i class="fa fa-check"></i><b>7</b> Acquerir</a>
@@ -368,67 +384,66 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="7.1.6" data-path="rapport-de-cadre-ratio.html"><a href="rapport-de-cadre-ratio.html#générateur-dimage-de-calibration"><i class="fa fa-check"></i><b>7.1.6</b> Générateur d’image de calibration</a></li>
 <li class="chapter" data-level="7.1.7" data-path="rapport-de-cadre-ratio.html"><a href="rapport-de-cadre-ratio.html#références"><i class="fa fa-check"></i><b>7.1.7</b> Références</a></li>
 </ul></li>
-<li class="chapter" data-level="7.2" data-path="acquerir-captation.html"><a href="acquerir-captation.html"><i class="fa fa-check"></i><b>7.2</b> Acquisition vidéo en temps réel</a>
+<li class="chapter" data-level="7.2" data-path="physique-de-limagerie-numérique.html"><a href="physique-de-limagerie-numérique.html"><i class="fa fa-check"></i><b>7.2</b> Physique de l’imagerie numérique</a>
 <ul>
-<li class="chapter" data-level="7.2.1" data-path="acquerir-captation.html"><a href="acquerir-captation.html#sources-vidéo-obs"><i class="fa fa-check"></i><b>7.2.1</b> Sources vidéo OBS</a></li>
-<li class="chapter" data-level="7.2.2" data-path="acquerir-captation.html"><a href="acquerir-captation.html#tutoriels-obs-francophone-démystifiant-linterface"><i class="fa fa-check"></i><b>7.2.2</b> Tutoriels OBS francophone démystifiant l’interface</a></li>
+<li class="chapter" data-level="7.2.1" data-path="physique-de-limagerie-numérique.html"><a href="physique-de-limagerie-numérique.html#le-système-oculaire"><i class="fa fa-check"></i><b>7.2.1</b> Le système oculaire</a></li>
+<li class="chapter" data-level="7.2.2" data-path="physique-de-limagerie-numérique.html"><a href="physique-de-limagerie-numérique.html#numériser-la-lumière-réfléchie"><i class="fa fa-check"></i><b>7.2.2</b> Numériser la lumière réfléchie</a></li>
+<li class="chapter" data-level="7.2.3" data-path="physique-de-limagerie-numérique.html"><a href="physique-de-limagerie-numérique.html#propriétés-de-limage-numérique"><i class="fa fa-check"></i><b>7.2.3</b> Propriétés de l’image numérique</a></li>
+</ul></li>
+<li class="chapter" data-level="7.3" data-path="acquerir-captation.html"><a href="acquerir-captation.html"><i class="fa fa-check"></i><b>7.3</b> Acquisition vidéo numérique temps réel</a>
+<ul>
+<li class="chapter" data-level="7.3.1" data-path="acquerir-captation.html"><a href="acquerir-captation.html#sources-vidéo-obs"><i class="fa fa-check"></i><b>7.3.1</b> Sources vidéo OBS</a></li>
+<li class="chapter" data-level="7.3.2" data-path="acquerir-captation.html"><a href="acquerir-captation.html#tutoriels-obs-francophone-démystifiant-linterface"><i class="fa fa-check"></i><b>7.3.2</b> Tutoriels OBS francophone démystifiant l’interface</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="8" data-path="echantillonner.html"><a href="echantillonner.html"><i class="fa fa-check"></i><b>8</b> Échantillonner</a>
 <ul>
-<li class="chapter" data-level="8.1" data-path="lexique-encodage.html"><a href="lexique-encodage.html"><i class="fa fa-check"></i><b>8.1</b> L’encodage vidéo numérique</a>
+<li class="chapter" data-level="8.1" data-path="compression-du-signal.html"><a href="compression-du-signal.html"><i class="fa fa-check"></i><b>8.1</b> Compression du signal</a>
 <ul>
-<li class="chapter" data-level="8.1.1" data-path="lexique-encodage.html"><a href="lexique-encodage.html#vocabulaire"><i class="fa fa-check"></i><b>8.1.1</b> Vocabulaire</a></li>
-<li class="chapter" data-level="8.1.2" data-path="lexique-encodage.html"><a href="lexique-encodage.html#signal-vidéo-compressé-vs-non-compressé"><i class="fa fa-check"></i><b>8.1.2</b> Signal vidéo compressé vs non-compressé</a></li>
-<li class="chapter" data-level="8.1.3" data-path="lexique-encodage.html"><a href="lexique-encodage.html#compression-sans-pertes-vs-destructive-losslesslossy"><i class="fa fa-check"></i><b>8.1.3</b> Compression sans pertes vs destructive (lossless/lossy)</a></li>
+<li class="chapter" data-level="8.1.1" data-path="compression-du-signal.html"><a href="compression-du-signal.html#signal-vidéo-compressé-vs-non-compressé"><i class="fa fa-check"></i><b>8.1.1</b> Signal vidéo compressé vs non-compressé</a></li>
+<li class="chapter" data-level="8.1.2" data-path="compression-du-signal.html"><a href="compression-du-signal.html#compression-sans-pertes-vs-destructive-losslesslossy"><i class="fa fa-check"></i><b>8.1.2</b> Compression sans pertes vs destructive (lossless/lossy)</a></li>
 </ul></li>
-<li class="chapter" data-level="8.2" data-path="lexique-fichiers.html"><a href="lexique-fichiers.html"><i class="fa fa-check"></i><b>8.2</b> Encodage/décodage de fichiers</a>
+<li class="chapter" data-level="8.2" data-path="lexique-encodage.html"><a href="lexique-encodage.html"><i class="fa fa-check"></i><b>8.2</b> Lexique de l’encodage</a>
 <ul>
-<li class="chapter" data-level="8.2.1" data-path="lexique-fichiers.html"><a href="lexique-fichiers.html#format-dencodage-codecs"><i class="fa fa-check"></i><b>8.2.1</b> Format d’encodage (Codecs)</a></li>
-<li class="chapter" data-level="8.2.2" data-path="lexique-fichiers.html"><a href="lexique-fichiers.html#contenant-containers"><i class="fa fa-check"></i><b>8.2.2</b> Contenant (Containers)</a></li>
-<li class="chapter" data-level="8.2.3" data-path="lexique-fichiers.html"><a href="lexique-fichiers.html#formats-de-sauvegarde-et-archivage-des-médias"><i class="fa fa-check"></i><b>8.2.3</b> Formats de sauvegarde et archivage des médias</a></li>
+<li class="chapter" data-level="8.2.1" data-path="lexique-encodage.html"><a href="lexique-encodage.html#vocabulaire"><i class="fa fa-check"></i><b>8.2.1</b> Vocabulaire</a></li>
+</ul></li>
+<li class="chapter" data-level="8.3" data-path="lexique-fichiers.html"><a href="lexique-fichiers.html"><i class="fa fa-check"></i><b>8.3</b> Encodage/décodage de fichiers</a>
+<ul>
+<li class="chapter" data-level="8.3.1" data-path="lexique-fichiers.html"><a href="lexique-fichiers.html#format-dencodage-codecs"><i class="fa fa-check"></i><b>8.3.1</b> Format d’encodage (Codecs)</a></li>
+<li class="chapter" data-level="8.3.2" data-path="lexique-fichiers.html"><a href="lexique-fichiers.html#contenant-containers"><i class="fa fa-check"></i><b>8.3.2</b> Contenant (Containers)</a></li>
+<li class="chapter" data-level="8.3.3" data-path="lexique-fichiers.html"><a href="lexique-fichiers.html#formats-de-sauvegarde-et-archivage-des-médias"><i class="fa fa-check"></i><b>8.3.3</b> Formats de sauvegarde et archivage des médias</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="9" data-path="traiter.html"><a href="traiter.html"><i class="fa fa-check"></i><b>9</b> Traiter</a>
 <ul>
-<li class="chapter" data-level="9.1" data-path="traiter-logiciels.html"><a href="traiter-logiciels.html"><i class="fa fa-check"></i><b>9.1</b> Logiciels de traitement vidéo interactif en temps réel</a>
+<li class="chapter" data-level="9.1" data-path="fonctions-du-traitement-vidéo-temps-réel.html"><a href="fonctions-du-traitement-vidéo-temps-réel.html"><i class="fa fa-check"></i><b>9.1</b> Fonctions du traitement vidéo temps réel</a>
 <ul>
-<li class="chapter" data-level="9.1.1" data-path="traiter-logiciels.html"><a href="traiter-logiciels.html#libres-et-gratuits"><i class="fa fa-check"></i><b>9.1.1</b> Libres et gratuits</a></li>
+<li class="chapter" data-level="9.1.1" data-path="fonctions-du-traitement-vidéo-temps-réel.html"><a href="fonctions-du-traitement-vidéo-temps-réel.html#rendu-opengl"><i class="fa fa-check"></i><b>9.1.1</b> Rendu OpenGL</a></li>
+<li class="chapter" data-level="9.1.2" data-path="fonctions-du-traitement-vidéo-temps-réel.html"><a href="fonctions-du-traitement-vidéo-temps-réel.html#transformations-géométriques"><i class="fa fa-check"></i><b>9.1.2</b> Transformations géométriques</a></li>
+<li class="chapter" data-level="9.1.3" data-path="fonctions-du-traitement-vidéo-temps-réel.html"><a href="fonctions-du-traitement-vidéo-temps-réel.html#altération-des-pixels"><i class="fa fa-check"></i><b>9.1.3</b> Altération des pixels</a></li>
+<li class="chapter" data-level="9.1.4" data-path="fonctions-du-traitement-vidéo-temps-réel.html"><a href="fonctions-du-traitement-vidéo-temps-réel.html#modification-de-couleurs"><i class="fa fa-check"></i><b>9.1.4</b> Modification de couleurs</a></li>
+<li class="chapter" data-level="9.1.5" data-path="fonctions-du-traitement-vidéo-temps-réel.html"><a href="fonctions-du-traitement-vidéo-temps-réel.html#niveau-des-couleurs"><i class="fa fa-check"></i><b>9.1.5</b> Niveau des couleurs</a></li>
+<li class="chapter" data-level="9.1.6" data-path="fonctions-du-traitement-vidéo-temps-réel.html"><a href="fonctions-du-traitement-vidéo-temps-réel.html#mixage-dimages"><i class="fa fa-check"></i><b>9.1.6</b> Mixage d’images</a></li>
+<li class="chapter" data-level="9.1.7" data-path="fonctions-du-traitement-vidéo-temps-réel.html"><a href="fonctions-du-traitement-vidéo-temps-réel.html#incrustation"><i class="fa fa-check"></i><b>9.1.7</b> Incrustation</a></li>
+<li class="chapter" data-level="9.1.8" data-path="fonctions-du-traitement-vidéo-temps-réel.html"><a href="fonctions-du-traitement-vidéo-temps-réel.html#chromakey"><i class="fa fa-check"></i><b>9.1.8</b> chromakey</a></li>
+<li class="chapter" data-level="9.1.9" data-path="fonctions-du-traitement-vidéo-temps-réel.html"><a href="fonctions-du-traitement-vidéo-temps-réel.html#utilisation-de-mémoire-tampon"><i class="fa fa-check"></i><b>9.1.9</b> Utilisation de mémoire tampon</a></li>
 </ul></li>
-<li class="chapter" data-level="9.2" data-path="notions-de-traitement-vidéo.html"><a href="notions-de-traitement-vidéo.html"><i class="fa fa-check"></i><b>9.2</b> Notions de traitement vidéo</a>
+<li class="chapter" data-level="9.2" data-path="utilisation-de-nuanciers-shaders.html"><a href="utilisation-de-nuanciers-shaders.html"><i class="fa fa-check"></i><b>9.2</b> Utilisation de nuanciers (shaders)</a></li>
+<li class="chapter" data-level="9.3" data-path="traiter-logiciels.html"><a href="traiter-logiciels.html"><i class="fa fa-check"></i><b>9.3</b> Logiciels de traitement vidéo interactif en temps réel</a>
 <ul>
-<li class="chapter" data-level="9.2.1" data-path="notions-de-traitement-vidéo.html"><a href="notions-de-traitement-vidéo.html#position"><i class="fa fa-check"></i><b>9.2.1</b> Position</a></li>
-<li class="chapter" data-level="9.2.2" data-path="notions-de-traitement-vidéo.html"><a href="notions-de-traitement-vidéo.html#rotation"><i class="fa fa-check"></i><b>9.2.2</b> Rotation</a></li>
-<li class="chapter" data-level="9.2.3" data-path="notions-de-traitement-vidéo.html"><a href="notions-de-traitement-vidéo.html#dimensions"><i class="fa fa-check"></i><b>9.2.3</b> Dimensions</a></li>
-<li class="chapter" data-level="9.2.4" data-path="notions-de-traitement-vidéo.html"><a href="notions-de-traitement-vidéo.html#distorsion"><i class="fa fa-check"></i><b>9.2.4</b> Distorsion</a></li>
-<li class="chapter" data-level="9.2.5" data-path="notions-de-traitement-vidéo.html"><a href="notions-de-traitement-vidéo.html#canal-alpha-alpha-channel"><i class="fa fa-check"></i><b>9.2.5</b> Canal Alpha Alpha channel</a></li>
-<li class="chapter" data-level="9.2.6" data-path="notions-de-traitement-vidéo.html"><a href="notions-de-traitement-vidéo.html#modification-de-couleurs"><i class="fa fa-check"></i><b>9.2.6</b> Modification de couleurs</a></li>
-<li class="chapter" data-level="9.2.7" data-path="notions-de-traitement-vidéo.html"><a href="notions-de-traitement-vidéo.html#niveau-des-couleurs"><i class="fa fa-check"></i><b>9.2.7</b> Niveau des couleurs</a></li>
-<li class="chapter" data-level="9.2.8" data-path="notions-de-traitement-vidéo.html"><a href="notions-de-traitement-vidéo.html#mixage-dimages"><i class="fa fa-check"></i><b>9.2.8</b> Mixage d’images</a></li>
-<li class="chapter" data-level="9.2.9" data-path="notions-de-traitement-vidéo.html"><a href="notions-de-traitement-vidéo.html#incrustation"><i class="fa fa-check"></i><b>9.2.9</b> Incrustation</a></li>
-<li class="chapter" data-level="9.2.10" data-path="notions-de-traitement-vidéo.html"><a href="notions-de-traitement-vidéo.html#chromakey"><i class="fa fa-check"></i><b>9.2.10</b> chromakey</a></li>
-<li class="chapter" data-level="9.2.11" data-path="notions-de-traitement-vidéo.html"><a href="notions-de-traitement-vidéo.html#délais"><i class="fa fa-check"></i><b>9.2.11</b> Délais</a></li>
-<li class="chapter" data-level="9.2.12" data-path="notions-de-traitement-vidéo.html"><a href="notions-de-traitement-vidéo.html#rétroaction-feedback"><i class="fa fa-check"></i><b>9.2.12</b> Rétroaction (feedback)</a></li>
-<li class="chapter" data-level="9.2.13" data-path="notions-de-traitement-vidéo.html"><a href="notions-de-traitement-vidéo.html#pixels"><i class="fa fa-check"></i><b>9.2.13</b> Pixels</a></li>
-<li class="chapter" data-level="9.2.14" data-path="notions-de-traitement-vidéo.html"><a href="notions-de-traitement-vidéo.html#couleurs"><i class="fa fa-check"></i><b>9.2.14</b> Couleurs</a></li>
-<li class="chapter" data-level="9.2.15" data-path="notions-de-traitement-vidéo.html"><a href="notions-de-traitement-vidéo.html#texture"><i class="fa fa-check"></i><b>9.2.15</b> Texture</a></li>
-<li class="chapter" data-level="9.2.16" data-path="notions-de-traitement-vidéo.html"><a href="notions-de-traitement-vidéo.html#matrices"><i class="fa fa-check"></i><b>9.2.16</b> Matrices</a></li>
-<li class="chapter" data-level="9.2.17" data-path="notions-de-traitement-vidéo.html"><a href="notions-de-traitement-vidéo.html#mémoire-tampon"><i class="fa fa-check"></i><b>9.2.17</b> Mémoire tampon</a></li>
-<li class="chapter" data-level="9.2.18" data-path="notions-de-traitement-vidéo.html"><a href="notions-de-traitement-vidéo.html#alpha-channel"><i class="fa fa-check"></i><b>9.2.18</b> Alpha channel</a></li>
-<li class="chapter" data-level="9.2.19" data-path="notions-de-traitement-vidéo.html"><a href="notions-de-traitement-vidéo.html#rendu-opengl"><i class="fa fa-check"></i><b>9.2.19</b> Rendu OpenGL</a></li>
+<li class="chapter" data-level="9.3.1" data-path="traiter-logiciels.html"><a href="traiter-logiciels.html#programmation-nodale"><i class="fa fa-check"></i><b>9.3.1</b> Programmation nodale</a></li>
+<li class="chapter" data-level="9.3.2" data-path="traiter-logiciels.html"><a href="traiter-logiciels.html#libres-et-gratuits"><i class="fa fa-check"></i><b>9.3.2</b> Libres et gratuits</a></li>
 </ul></li>
-<li class="chapter" data-level="9.3" data-path="traitement-visuel-en-temps-réel-à-laide-deffets-et-de-logiciels-de-programmation-multimédia-et-nodale.html"><a href="traitement-visuel-en-temps-réel-à-laide-deffets-et-de-logiciels-de-programmation-multimédia-et-nodale.html"><i class="fa fa-check"></i><b>9.3</b> Traitement visuel en temps réel à l’aide d’effets et de logiciels de programmation multimédia et nodale</a></li>
-<li class="chapter" data-level="9.4" data-path="exploitation-des-fonctions-des-logiciels-de-traitement-vidéo-en-temps-réel.html"><a href="exploitation-des-fonctions-des-logiciels-de-traitement-vidéo-en-temps-réel.html"><i class="fa fa-check"></i><b>9.4</b> Exploitation des fonctions des logiciels de traitement vidéo en temps réel</a></li>
-<li class="chapter" data-level="9.5" data-path="utilisation-de-nuanciers-shaders.html"><a href="utilisation-de-nuanciers-shaders.html"><i class="fa fa-check"></i><b>9.5</b> Utilisation de nuanciers (shaders)</a></li>
 </ul></li>
 <li class="chapter" data-level="10" data-path="programmer.html"><a href="programmer.html"><i class="fa fa-check"></i><b>10</b> Programmer</a>
 <ul>
-<li class="chapter" data-level="10.1" data-path="programmer-logiciels.html"><a href="programmer-logiciels.html"><i class="fa fa-check"></i><b>10.1</b> Logiciels de programmation</a></li>
-<li class="chapter" data-level="10.2" data-path="programmation-deffets-temps-réel.html"><a href="programmation-deffets-temps-réel.html"><i class="fa fa-check"></i><b>10.2</b> Programmation d’effets temps réel</a>
+<li class="chapter" data-level="10.1" data-path="programmer-grab.html"><a href="programmer-grab.html"><i class="fa fa-check"></i><b>10.1</b> Programmation de la captation</a></li>
+<li class="chapter" data-level="10.2" data-path="programmer-logiciels.html"><a href="programmer-logiciels.html"><i class="fa fa-check"></i><b>10.2</b> Logiciels de programmation</a></li>
+<li class="chapter" data-level="10.3" data-path="programmation-deffets-temps-réel.html"><a href="programmation-deffets-temps-réel.html"><i class="fa fa-check"></i><b>10.3</b> Programmation d’effets temps réel</a>
 <ul>
-<li class="chapter" data-level="10.2.1" data-path="programmation-deffets-temps-réel.html"><a href="programmation-deffets-temps-réel.html#nuanceurs-shaders"><i class="fa fa-check"></i><b>10.2.1</b> Nuanceurs (shaders) :</a></li>
+<li class="chapter" data-level="10.3.1" data-path="programmation-deffets-temps-réel.html"><a href="programmation-deffets-temps-réel.html#nuanceurs-shaders"><i class="fa fa-check"></i><b>10.3.1</b> Nuanceurs (shaders) :</a></li>
 </ul></li>
-<li class="chapter" data-level="10.3" data-path="programmation-de-compositions-visuelles-génératives.html"><a href="programmation-de-compositions-visuelles-génératives.html"><i class="fa fa-check"></i><b>10.3</b> Programmation de compositions visuelles génératives</a></li>
+<li class="chapter" data-level="10.4" data-path="programmation-de-compositions-visuelles-génératives.html"><a href="programmation-de-compositions-visuelles-génératives.html"><i class="fa fa-check"></i><b>10.4</b> Programmation de compositions visuelles génératives</a></li>
 </ul></li>
 <li class="chapter" data-level="11" data-path="interagir.html"><a href="interagir.html"><i class="fa fa-check"></i><b>11</b> Interagir</a>
 <ul>
@@ -452,10 +467,9 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="11.5.4" data-path="interagir-protocoles.html"><a href="interagir-protocoles.html#protocole_dmx"><i class="fa fa-check"></i><b>11.5.4</b> DMX</a></li>
 <li class="chapter" data-level="11.5.5" data-path="interagir-protocoles.html"><a href="interagir-protocoles.html#protocole_artnet"><i class="fa fa-check"></i><b>11.5.5</b> ArtNet</a></li>
 </ul></li>
-<li class="chapter" data-level="11.6" data-path="interagir-video.html"><a href="interagir-video.html"><i class="fa fa-check"></i><b>11.6</b> Programmation de la captation</a></li>
-<li class="chapter" data-level="11.7" data-path="usages-de-capture-vidéo-temps-réel.html"><a href="usages-de-capture-vidéo-temps-réel.html"><i class="fa fa-check"></i><b>11.7</b> Usages de capture vidéo temps réel</a>
+<li class="chapter" data-level="11.6" data-path="usages-de-capture-vidéo-temps-réel.html"><a href="usages-de-capture-vidéo-temps-réel.html"><i class="fa fa-check"></i><b>11.6</b> Usages de capture vidéo temps réel</a>
 <ul>
-<li class="chapter" data-level="11.7.1" data-path="usages-de-capture-vidéo-temps-réel.html"><a href="usages-de-capture-vidéo-temps-réel.html#captation-de-mouvement-et-de-présence"><i class="fa fa-check"></i><b>11.7.1</b> Captation de mouvement et de présence</a></li>
+<li class="chapter" data-level="11.6.1" data-path="usages-de-capture-vidéo-temps-réel.html"><a href="usages-de-capture-vidéo-temps-réel.html#captation-de-mouvement-et-de-présence"><i class="fa fa-check"></i><b>11.6.1</b> Captation de mouvement et de présence</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="12" data-path="deployer.html"><a href="deployer.html"><i class="fa fa-check"></i><b>12</b> Déployer</a>
@@ -574,7 +588,7 @@ gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({
 "sharing": null,
 "fontsettings": {
-"theme": "night",
+"theme": "white",
 "family": "sans",
 "size": 2
 },
