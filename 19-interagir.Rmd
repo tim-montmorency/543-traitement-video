@@ -16,6 +16,10 @@
 
 
 ## Communication via protocoles paramétriques temps réel {#interagir_protocoles} 
+
+https://github.com/sebpiq/cours-son-reseaux/blob/main/applications-audio.md
+
+
 ### Open sound control (OSC) {#protocole_osc}
 ### Websocket {#protocole_websocket}
 ### MIDI {#protocole_midi}
