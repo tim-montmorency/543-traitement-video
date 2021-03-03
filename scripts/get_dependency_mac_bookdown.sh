@@ -10,8 +10,13 @@ Rscript -e 'install.packages("kableExtra", repos="https://cloud.r-project.org")'
 Rscript -e 'install.packages("dplyr", repos="https://cloud.r-project.org")'
 Rscript -e 'install.packages("pander", repos="https://cloud.r-project.org")'
 Rscript -e 'install.packages("glue", repos="https://cloud.r-project.org")'
-Rscript -e 'install.packages("devtools", repos="https://cloud.r-project.org")'
-Rscript -r 'devtools::install_github("rich-iannone/DiagrammeR")'
+Rscript -e 'install.packages("DiagrammeR", repos="https://cloud.r-project.org")'
+
+#Rscript -e 'install.packages("devtools", repos="https://cloud.r-project.org")'
+#Rscript -e 'devtools::install_github("rich-iannone/DiagrammeR")'
+
+
+
 #Rscript -e 'install.packages("rgl", repos="http://R-Forge.R-project.org")'
 #Rscript -e 'install.packages("rglwidget", repos="http://R-Forge.R-project.org")'
 #Rscript -e 'install.packages("DiagrammeR", repos="http://R-Forge.R-project.org")'
