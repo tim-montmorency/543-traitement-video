@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  1 MAR 2021 12:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  3 MAR 2021 09:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -754,7 +754,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 \openout4 = `traitement-video.toc'.
 
 [6]
-<images/vectorscope.jpg, id=312, 3001.2125pt x 2789.42125pt>
+<images/vectorscope.jpg, id=316, 3001.2125pt x 2789.42125pt>
 File: images/vectorscope.jpg Graphic file (type jpg)
 <use images/vectorscope.jpg>
 Package pdftex.def Info: images/vectorscope.jpg  used on input line 159.
@@ -858,7 +858,7 @@ NATEUR \T1/lmr/m/n/10 23
 
 [23] [24]
 Chapitre 4.
-<medias/corpus/muybridge/Optic_Projection_fig_411.jpg, id=729, 105.18504pt x 12
+<medias/corpus/muybridge/Optic_Projection_fig_411.jpg, id=733, 105.18504pt x 12
 5.93584pt>
 File: medias/corpus/muybridge/Optic_Projection_fig_411.jpg Graphic file (type j
 pg)
@@ -879,7 +879,7 @@ ope_16485d.gif.gifpng:medias/corpus/muybridge/Zoopraxiscope_16485d-gif-converte
 d-to.png>
 (epstopdf)             \includegraphics on input line 1205.
 Package epstopdf Info: Output file is already uptodate.
-<medias/corpus/muybridge/Zoopraxiscope_16485d-gif-converted-to.png, id=730, 200
+<medias/corpus/muybridge/Zoopraxiscope_16485d-gif-converted-to.png, id=734, 200
 .75pt x 200.75pt>
 File: medias/corpus/muybridge/Zoopraxiscope_16485d-gif-converted-to.png Graphic
  file (type png)
@@ -899,7 +899,7 @@ f-converted-to.png>
 scope.gif.gifpng:medias/corpus/muybridge/Phenakistoscope-gif-converted-to.png>
 (epstopdf)             \includegraphics on input line 1211.
 Package epstopdf Info: Output file is already uptodate.
-<medias/corpus/muybridge/Phenakistoscope-gif-converted-to.png, id=732, 803.0pt 
+<medias/corpus/muybridge/Phenakistoscope-gif-converted-to.png, id=736, 803.0pt 
 x 803.0pt>
 File: medias/corpus/muybridge/Phenakistoscope-gif-converted-to.png Graphic file
  (type png)
@@ -907,7 +907,7 @@ File: medias/corpus/muybridge/Phenakistoscope-gif-converted-to.png Graphic file
 Package pdftex.def Info: medias/corpus/muybridge/Phenakistoscope-gif-converted-
 to.png  used on input line 1211.
 (pdftex.def)             Requested size: 172.4946pt x 172.4946pt.
-<medias/corpus/muybridge/3695958436_43ae8a57db_b.jpg, id=733, 1027.84pt x 791.9
+<medias/corpus/muybridge/3695958436_43ae8a57db_b.jpg, id=737, 1027.84pt x 791.9
 5876pt>
 File: medias/corpus/muybridge/3695958436_43ae8a57db_b.jpg Graphic file (type jp
 g)
@@ -921,7 +921,7 @@ sed on input line 1217.
 /muybridge/Zoopraxiscope_16485d-gif-converted-to.png> <./medias/corpus/muybridg
 e/Phenakistoscope-gif-converted-to.png>] [27 <./medias/corpus/muybridge/3695958
 436_43ae8a57db_b.jpg>]
-<medias/corpus/melies/George_Melies.jpg, id=761, 1995.455pt x 2810.5pt>
+<medias/corpus/melies/George_Melies.jpg, id=766, 1995.455pt x 2810.5pt>
 File: medias/corpus/melies/George_Melies.jpg Graphic file (type jpg)
 <use medias/corpus/melies/George_Melies.jpg>
 Package pdftex.def Info: medias/corpus/melies/George_Melies.jpg  used on input 
@@ -940,7 +940,7 @@ a_lune.gif.gifpng:medias/corpus/melies/voyage_dans_la_lune-gif-converted-to.png
 >
 (epstopdf)             \includegraphics on input line 1242.
 Package epstopdf Info: Output file is already uptodate.
-<medias/corpus/melies/voyage_dans_la_lune-gif-converted-to.png, id=762, 495.852
+<medias/corpus/melies/voyage_dans_la_lune-gif-converted-to.png, id=767, 495.852
 5pt x 387.4475pt>
 File: medias/corpus/melies/voyage_dans_la_lune-gif-converted-to.png Graphic fil
 e (type png)
@@ -959,7 +959,7 @@ rted-to.png>
 if.gifpng:medias/corpus/melies/sirene_1904-gif-converted-to.png>
 (epstopdf)             \includegraphics on input line 1248.
 Package epstopdf Info: Output file is already uptodate.
-<medias/corpus/melies/sirene_1904-gif-converted-to.png, id=763, 501.875pt x 385
+<medias/corpus/melies/sirene_1904-gif-converted-to.png, id=768, 501.875pt x 385
 .44pt>
 File: medias/corpus/melies/sirene_1904-gif-converted-to.png Graphic file (type 
 png)
@@ -978,19 +978,19 @@ png>
 g:medias/corpus/melies/b25-gif-converted-to.png>
 (epstopdf)             \includegraphics on input line 1254.
 Package epstopdf Info: Output file is already uptodate.
-<medias/corpus/melies/b25-gif-converted-to.png, id=764, 481.8pt x 347.2975pt>
+<medias/corpus/melies/b25-gif-converted-to.png, id=769, 481.8pt x 347.2975pt>
 File: medias/corpus/melies/b25-gif-converted-to.png Graphic file (type png)
 <use medias/corpus/melies/b25-gif-converted-to.png>
 Package pdftex.def Info: medias/corpus/melies/b25-gif-converted-to.png  used on
  input line 1254.
 (pdftex.def)             Requested size: 172.4995pt x 124.34338pt.
-<medias/corpus/vertov/Dziga-Vertov.jpg, id=767, 501.875pt x 402.50375pt>
+<medias/corpus/vertov/Dziga-Vertov.jpg, id=772, 501.875pt x 402.50375pt>
 File: medias/corpus/vertov/Dziga-Vertov.jpg Graphic file (type jpg)
 <use medias/corpus/vertov/Dziga-Vertov.jpg>
 Package pdftex.def Info: medias/corpus/vertov/Dziga-Vertov.jpg  used on input l
 ine 1271.
 (pdftex.def)             Requested size: 345.01523pt x 276.70221pt.
-<medias/corpus/vertov/ManWAMovieCamera_1929_DzigaVertov.jpg, id=768, 144.54pt x
+<medias/corpus/vertov/ManWAMovieCamera_1929_DzigaVertov.jpg, id=773, 144.54pt x
  154.8987pt>
 File: medias/corpus/vertov/ManWAMovieCamera_1929_DzigaVertov.jpg Graphic file (
 type jpg)
@@ -998,7 +998,7 @@ type jpg)
 Package pdftex.def Info: medias/corpus/vertov/ManWAMovieCamera_1929_DzigaVertov
 .jpg  used on input line 1277.
 (pdftex.def)             Requested size: 144.54623pt x 154.90538pt.
-<medias/corpus/vertov/bild.jpg, id=769, 481.8pt x 358.33875pt>
+<medias/corpus/vertov/bild.jpg, id=774, 481.8pt x 358.33875pt>
 File: medias/corpus/vertov/bild.jpg Graphic file (type jpg)
 <use medias/corpus/vertov/bild.jpg>
 Package pdftex.def Info: medias/corpus/vertov/bild.jpg  used on input line 1283
@@ -1006,7 +1006,7 @@ Package pdftex.def Info: medias/corpus/vertov/bild.jpg  used on input line 1283
 (pdftex.def)             Requested size: 345.00635pt x 256.59848pt.
 <medias/corpus/boccioni/Umberto_Boccioni,_1913,_Dynamism_of_a_Cyclist_(Dinamism
 o_di_un_ciclista),_oil_on_canvas,_70_x_95_cm,_Gianni_Mattioli_Collection,_on_lo
-ng-term_loan_to_the_Peggy_Guggenheim_Collection,_Venice.jpg, id=774, 3490.03876
+ng-term_loan_to_the_Peggy_Guggenheim_Collection,_Venice.jpg, id=779, 3490.03876
 pt x 2529.45pt>
 File: medias/corpus/boccioni/Umberto_Boccioni,_1913,_Dynamism_of_a_Cyclist_(Din
 amismo_di_un_ciclista),_oil_on_canvas,_70_x_95_cm,_Gianni_Mattioli_Collection,_
@@ -1020,14 +1020,14 @@ m_of_a_Cyclist_(Dinamismo_di_un_ciclista),_oil_on_canvas,_70_x_95_cm,_Gianni_Ma
 ttioli_Collection,_on_long-term_loan_to_the_Peggy_Guggenheim_Collection,_Venice
 .jpg  used on input line 1303.
 (pdftex.def)             Requested size: 344.97705pt x 250.0265pt.
-<medias/corpus/bragaglia/Bragaglia_a_giulio.jpg, id=777, 372.1905pt x 474.3321p
+<medias/corpus/bragaglia/Bragaglia_a_giulio.jpg, id=782, 372.1905pt x 474.3321p
 t>
 File: medias/corpus/bragaglia/Bragaglia_a_giulio.jpg Graphic file (type jpg)
 <use medias/corpus/bragaglia/Bragaglia_a_giulio.jpg>
 Package pdftex.def Info: medias/corpus/bragaglia/Bragaglia_a_giulio.jpg  used o
 n input line 1312.
 (pdftex.def)             Requested size: 172.49887pt x 219.83838pt.
-<medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-02.jpg, id=778, 70
+<medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-02.jpg, id=783, 70
 2.625pt x 532.99126pt>
 File: medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-02.jpg Graphi
 c file (type jpg)
@@ -1035,7 +1035,7 @@ c file (type jpg)
 Package pdftex.def Info: medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodin
 amica-02.jpg  used on input line 1318.
 (pdftex.def)             Requested size: 258.75568pt x 196.28467pt.
-<medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-04.jpg, id=779, 70
+<medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-04.jpg, id=784, 70
 2.625pt x 562.1pt>
 File: medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-04.jpg Graphi
 c file (type jpg)
@@ -1043,7 +1043,7 @@ c file (type jpg)
 Package pdftex.def Info: medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodin
 amica-04.jpg  used on input line 1324.
 (pdftex.def)             Requested size: 258.75568pt x 207.00455pt.
-<medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-05.jpg, id=780, 70
+<medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-05.jpg, id=785, 70
 2.625pt x 736.7525pt>
 File: medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-05.jpg Graphi
 c file (type jpg)
@@ -1051,7 +1051,7 @@ c file (type jpg)
 Package pdftex.def Info: medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodin
 amica-05.jpg  used on input line 1330.
 (pdftex.def)             Requested size: 258.75568pt x 271.32382pt.
-<medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-06.jpg, id=781, 70
+<medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-06.jpg, id=786, 70
 2.625pt x 751.80875pt>
 File: medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-06.jpg Graphi
 c file (type jpg)
@@ -1059,7 +1059,7 @@ c file (type jpg)
 Package pdftex.def Info: medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodin
 amica-06.jpg  used on input line 1336.
 (pdftex.def)             Requested size: 258.75568pt x 276.86858pt.
-<medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-07.jpg, id=782, 70
+<medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-07.jpg, id=787, 70
 2.625pt x 739.76375pt>
 File: medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-07.jpg Graphi
 c file (type jpg)
@@ -1067,7 +1067,7 @@ c file (type jpg)
 Package pdftex.def Info: medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodin
 amica-07.jpg  used on input line 1342.
 (pdftex.def)             Requested size: 258.75568pt x 272.43277pt.
-<medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-08.jpg, id=783, 70
+<medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-08.jpg, id=788, 70
 2.625pt x 533.995pt>
 File: medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-08.jpg Graphi
 c file (type jpg)
@@ -1075,7 +1075,7 @@ c file (type jpg)
 Package pdftex.def Info: medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodin
 amica-08.jpg  used on input line 1348.
 (pdftex.def)             Requested size: 258.75568pt x 196.65431pt.
-<medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-09.jpg, id=784, 70
+<medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-09.jpg, id=789, 70
 2.625pt x 516.93124pt>
 File: medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-09.jpg Graphi
 c file (type jpg)
@@ -1083,7 +1083,7 @@ c file (type jpg)
 Package pdftex.def Info: medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodin
 amica-09.jpg  used on input line 1354.
 (pdftex.def)             Requested size: 258.75568pt x 190.37025pt.
-<medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-11.jpg, id=785, 70
+<medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-11.jpg, id=790, 70
 2.625pt x 495.8525pt>
 File: medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-11.jpg Graphi
 c file (type jpg)
@@ -1091,7 +1091,7 @@ c file (type jpg)
 Package pdftex.def Info: medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodin
 amica-11.jpg  used on input line 1360.
 (pdftex.def)             Requested size: 258.75568pt x 182.60757pt.
-<medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-12.jpg, id=786, 70
+<medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-12.jpg, id=791, 70
 2.625pt x 466.74374pt>
 File: medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-12.jpg Graphi
 c file (type jpg)
@@ -1099,7 +1099,7 @@ c file (type jpg)
 Package pdftex.def Info: medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodin
 amica-12.jpg  used on input line 1366.
 (pdftex.def)             Requested size: 258.75568pt x 171.8877pt.
-<medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-13.jpg, id=787, 70
+<medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-13.jpg, id=792, 70
 2.625pt x 504.88625pt>
 File: medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-13.jpg Graphi
 c file (type jpg)
@@ -1126,7 +1126,7 @@ orpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-11.jpg>] [38 <./medias/corp
 us/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-12.jpg> <./medias/corpus/braga
 glia/Anton-Giulio-Bragaglia-fotodinamica-13.jpg>]
 <medias/corpus/duchamp/MarcelduchampEcologie_portrait_duchamp_20140916163736_20
-140916163758.jpg, id=866, 803.0pt x 519.9425pt>
+140916163758.jpg, id=870, 803.0pt x 519.9425pt>
 File: medias/corpus/duchamp/MarcelduchampEcologie_portrait_duchamp_201409161637
 36_20140916163758.jpg Graphic file (type jpg)
 <use medias/corpus/duchamp/MarcelduchampEcologie_portrait_duchamp_2014091616373
@@ -1135,7 +1135,7 @@ Package pdftex.def Info: medias/corpus/duchamp/MarcelduchampEcologie_portrait_d
 uchamp_20140916163736_20140916163758.jpg  used on input line 1389.
 (pdftex.def)             Requested size: 258.75415pt x 167.54332pt.
 <medias/corpus/duchamp/MarcelduchampEcologie_duchamp_rotoreliefs_1935_201409170
-95658_20140917095757.jpg, id=867, 481.8pt x 334.24875pt>
+95658_20140917095757.jpg, id=871, 481.8pt x 334.24875pt>
 File: medias/corpus/duchamp/MarcelduchampEcologie_duchamp_rotoreliefs_1935_2014
 0917095658_20140917095757.jpg Graphic file (type jpg)
 <use medias/corpus/duchamp/MarcelduchampEcologie_duchamp_rotoreliefs_1935_20140
@@ -1144,7 +1144,7 @@ Package pdftex.def Info: medias/corpus/duchamp/MarcelduchampEcologie_duchamp_ro
 toreliefs_1935_20140917095658_20140917095757.jpg  used on input line 1395.
 (pdftex.def)             Requested size: 345.00635pt x 239.34814pt.
 <medias/corpus/duchamp/MarcelduchampEcologie_ducha_rotative_plaque_verre_201409
-17224650_20140917225046.jpg, id=868, 481.8pt x 361.35pt>
+17224650_20140917225046.jpg, id=872, 481.8pt x 361.35pt>
 File: medias/corpus/duchamp/MarcelduchampEcologie_ducha_rotative_plaque_verre_2
 0140917224650_20140917225046.jpg Graphic file (type jpg)
 <use medias/corpus/duchamp/MarcelduchampEcologie_ducha_rotative_plaque_verre_20
@@ -1152,7 +1152,7 @@ File: medias/corpus/duchamp/MarcelduchampEcologie_ducha_rotative_plaque_verre_2
 Package pdftex.def Info: medias/corpus/duchamp/MarcelduchampEcologie_ducha_rota
 tive_plaque_verre_20140917224650_20140917225046.jpg  used on input line 1401.
 (pdftex.def)             Requested size: 345.00635pt x 258.75476pt.
-<medias/corpus/brakhage/Stan_Brakhage_(circa_1976).jpg, id=871, 1586.92876pt x 
+<medias/corpus/brakhage/Stan_Brakhage_(circa_1976).jpg, id=875, 1586.92876pt x 
 2124.93875pt>
 File: medias/corpus/brakhage/Stan_Brakhage_(circa_1976).jpg Graphic file (type 
 jpg)
@@ -1162,7 +1162,7 @@ Package pdftex.def Info: medias/corpus/brakhage/Stan_Brakhage_(circa_1976).jpg
 (pdftex.def)             Requested size: 172.48026pt x 230.95552pt.
 [39 <./medias/corpus/duchamp/MarcelduchampEcologie_portrait_duchamp_20140916163
 736_20140916163758.jpg>]
-<medias/corpus/mclaren/Norman_McLaren_drawing_on_film_-_1944.jpg, id=882, 762.8
+<medias/corpus/mclaren/Norman_McLaren_drawing_on_film_-_1944.jpg, id=886, 762.8
 5pt x 791.95876pt>
 File: medias/corpus/mclaren/Norman_McLaren_drawing_on_film_-_1944.jpg Graphic f
 ile (type jpg)
@@ -1170,7 +1170,7 @@ ile (type jpg)
 Package pdftex.def Info: medias/corpus/mclaren/Norman_McLaren_drawing_on_film_-
 _1944.jpg  used on input line 1472.
 (pdftex.def)             Requested size: 344.99043pt x 358.15454pt.
-<medias/corpus/1960/Charles_Bensinger_video_guide_2.jpg, id=886, 579.6054pt x 7
+<medias/corpus/1960/Charles_Bensinger_video_guide_2.jpg, id=890, 579.6054pt x 7
 69.6755pt>
 File: medias/corpus/1960/Charles_Bensinger_video_guide_2.jpg Graphic file (type
  jpg)
@@ -1178,7 +1178,7 @@ File: medias/corpus/1960/Charles_Bensinger_video_guide_2.jpg Graphic file (type
 Package pdftex.def Info: medias/corpus/1960/Charles_Bensinger_video_guide_2.jpg
   used on input line 1507.
 (pdftex.def)             Requested size: 169.0541pt x 224.49205pt.
-<medias/corpus/1960/Charles_Bensinger_video_guide_3.jpg, id=887, 585.387pt x 77
+<medias/corpus/1960/Charles_Bensinger_video_guide_3.jpg, id=891, 585.387pt x 77
 3.289pt>
 File: medias/corpus/1960/Charles_Bensinger_video_guide_3.jpg Graphic file (type
  jpg)
@@ -1191,14 +1191,14 @@ Package pdftex.def Info: medias/corpus/1960/Charles_Bensinger_video_guide_3.jpg
 ogie_ducha_rotative_plaque_verre_20140917224650_20140917225046.jpg> <./medias/c
 orpus/brakhage/Stan_Brakhage_(circa_1976).jpg>] [42 <./medias/corpus/mclaren/No
 rman_McLaren_drawing_on_film_-_1944.jpg>]
-<medias/corpus/paik/paik_10.jpg, id=910, 552.0625pt x 310.15875pt>
+<medias/corpus/paik/paik_10.jpg, id=914, 552.0625pt x 310.15875pt>
 File: medias/corpus/paik/paik_10.jpg Graphic file (type jpg)
 <use medias/corpus/paik/paik_10.jpg>
 Package pdftex.def Info: medias/corpus/paik/paik_10.jpg  used on input line 152
 7.
 (pdftex.def)             Requested size: 345.01294pt x 193.83453pt.
 <medias/corpus/paik/____NamJunepaik_0220452w_namjunepaikzenfortv1961975_vignett
-e_300_209_20150414152312_20150414153250.jpg, id=911, 103.88812pt x 157.33781pt>
+e_300_209_20150414152312_20150414153250.jpg, id=915, 103.88812pt x 157.33781pt>
 
 File: medias/corpus/paik/____NamJunepaik_0220452w_namjunepaikzenfortv1961975_vi
 gnette_300_209_20150414152312_20150414153250.jpg Graphic file (type jpg)
@@ -1209,7 +1209,7 @@ kzenfortv1961975_vignette_300_209_20150414152312_20150414153250.jpg  used on in
 put line 1533.
 (pdftex.def)             Requested size: 103.89261pt x 157.34462pt.
 <medias/corpus/paik/__NamJunepaik_22222_vignette_300_209_20150414121039_2015041
-4121316.jpg, id=912, 213.04594pt x 157.33781pt>
+4121316.jpg, id=916, 213.04594pt x 157.33781pt>
 File: medias/corpus/paik/__NamJunepaik_22222_vignette_300_209_20150414121039_20
 150414121316.jpg Graphic file (type jpg)
 <use medias/corpus/paik/__NamJunepaik_22222_vignette_300_209_20150414121039_201
@@ -1218,7 +1218,7 @@ Package pdftex.def Info: medias/corpus/paik/__NamJunepaik_22222_vignette_300_20
 9_20150414121039_20150414121316.jpg  used on input line 1533.
 (pdftex.def)             Requested size: 110.40417pt x 81.53523pt.
 <medias/corpus/paik/_NamJunepaik_paik_magnet_tv_20150506194428_20150506194457.j
-pg, id=913, 481.8pt x 361.35pt>
+pg, id=917, 481.8pt x 361.35pt>
 File: medias/corpus/paik/_NamJunepaik_paik_magnet_tv_20150506194428_20150506194
 457.jpg Graphic file (type jpg)
 <use medias/corpus/paik/_NamJunepaik_paik_magnet_tv_20150506194428_201505061944
@@ -1232,36 +1232,36 @@ pg> <./medias/corpus/paik/____NamJunepaik_0220452w_namjunepaikzenfortv1961975_v
 ignette_300_209_20150414152312_20150414153250.jpg> <./medias/corpus/paik/__NamJ
 unepaik_22222_vignette_300_209_20150414121039_20150414121316.jpg> <./medias/cor
 pus/paik/_NamJunepaik_paik_magnet_tv_20150506194428_20150506194457.jpg>]
-<medias/corpus/boyer/Portrait-e2288.jpg, id=946, 185.19188pt x 164.11313pt>
+<medias/corpus/boyer/Portrait-e2288.jpg, id=950, 185.19188pt x 164.11313pt>
 File: medias/corpus/boyer/Portrait-e2288.jpg Graphic file (type jpg)
 <use medias/corpus/boyer/Portrait-e2288.jpg>
 Package pdftex.def Info: medias/corpus/boyer/Portrait-e2288.jpg  used on input 
 line 1645.
 (pdftex.def)             Requested size: 172.50357pt x 152.86902pt.
-<medias/corpus/boyer/Chant-magnetique.jpg, id=947, 144.54pt x 110.814pt>
+<medias/corpus/boyer/Chant-magnetique.jpg, id=951, 144.54pt x 110.814pt>
 File: medias/corpus/boyer/Chant-magnetique.jpg Graphic file (type jpg)
 <use medias/corpus/boyer/Chant-magnetique.jpg>
 Package pdftex.def Info: medias/corpus/boyer/Chant-magnetique.jpg  used on inpu
 t line 1651.
 (pdftex.def)             Requested size: 144.53963pt x 110.8137pt.
-<medias/corpus/boyer/Eau.jpg, id=948, 144.54pt x 109.6095pt>
+<medias/corpus/boyer/Eau.jpg, id=952, 144.54pt x 109.6095pt>
 File: medias/corpus/boyer/Eau.jpg Graphic file (type jpg)
 <use medias/corpus/boyer/Eau.jpg>
 Package pdftex.def Info: medias/corpus/boyer/Eau.jpg  used on input line 1657.
 (pdftex.def)             Requested size: 144.54623pt x 109.61421pt.
-<medias/corpus/boyer/L-Amertube-2f5ae.jpg, id=949, 338.76563pt x 120.45pt>
+<medias/corpus/boyer/L-Amertube-2f5ae.jpg, id=953, 338.76563pt x 120.45pt>
 File: medias/corpus/boyer/L-Amertube-2f5ae.jpg Graphic file (type jpg)
 <use medias/corpus/boyer/L-Amertube-2f5ae.jpg>
 Package pdftex.def Info: medias/corpus/boyer/L-Amertube-2f5ae.jpg  used on inpu
 t line 1663.
 (pdftex.def)             Requested size: 338.77512pt x 120.45335pt.
-<medias/corpus/boyer/Phonoptic-33bd2.jpg, id=950, 338.76563pt x 120.45pt>
+<medias/corpus/boyer/Phonoptic-33bd2.jpg, id=954, 338.76563pt x 120.45pt>
 File: medias/corpus/boyer/Phonoptic-33bd2.jpg Graphic file (type jpg)
 <use medias/corpus/boyer/Phonoptic-33bd2.jpg>
 Package pdftex.def Info: medias/corpus/boyer/Phonoptic-33bd2.jpg  used on input
  line 1669.
 (pdftex.def)             Requested size: 338.77512pt x 120.45335pt.
-<medias/corpus/boyer/Video-Cortex-b8d37.jpg, id=951, 338.76563pt x 120.45pt>
+<medias/corpus/boyer/Video-Cortex-b8d37.jpg, id=955, 338.76563pt x 120.45pt>
 File: medias/corpus/boyer/Video-Cortex-b8d37.jpg Graphic file (type jpg)
 <use medias/corpus/boyer/Video-Cortex-b8d37.jpg>
 Package pdftex.def Info: medias/corpus/boyer/Video-Cortex-b8d37.jpg  used on in
@@ -1273,7 +1273,7 @@ Overfull \hbox (0.1389pt too wide) in paragraph at lines 1688--1689
  l o i s . o r g / h t m l / e / r e s e a r c h . p hp? z o o m = 3& F i l
  []
 
-<medias/corpus/rokeby/d00004229-wide.jpg, id=956, 144.54pt x 85.0377pt>
+<medias/corpus/rokeby/d00004229-wide.jpg, id=960, 144.54pt x 85.0377pt>
 File: medias/corpus/rokeby/d00004229-wide.jpg Graphic file (type jpg)
 <use medias/corpus/rokeby/d00004229-wide.jpg>
 Package pdftex.def Info: medias/corpus/rokeby/d00004229-wide.jpg  used on input
@@ -1307,7 +1307,7 @@ LaTeX Warning: Command \' invalid in math mode on input line 2008.
 [53
 
 ]
-<traitement-video_files/figure-latex/unnamed-chunk-4-1.pdf, id=1106, 436.63126p
+<traitement-video_files/figure-latex/unnamed-chunk-4-1.pdf, id=1109, 436.63126p
 t x 283.0575pt>
 File: traitement-video_files/figure-latex/unnamed-chunk-4-1.pdf Graphic file (t
 ype pdf)
@@ -1315,7 +1315,7 @@ ype pdf)
 Package pdftex.def Info: traitement-video_files/figure-latex/unnamed-chunk-4-1.
 pdf  used on input line 2078.
 (pdftex.def)             Requested size: 345.00154pt x 223.65614pt.
-<traitement-video_files/figure-latex/unnamed-chunk-5-1.pdf, id=1107, 393.47pt x
+<traitement-video_files/figure-latex/unnamed-chunk-5-1.pdf, id=1110, 393.47pt x
  236.885pt>
 File: traitement-video_files/figure-latex/unnamed-chunk-5-1.pdf Graphic file (t
 ype pdf)
@@ -1324,14 +1324,14 @@ Package pdftex.def Info: traitement-video_files/figure-latex/unnamed-chunk-5-1.
 pdf  used on input line 2092.
 (pdftex.def)             Requested size: 344.99985pt x 207.704pt.
 [54 <./traitement-video_files/figure-latex/unnamed-chunk-4-1.pdf>]
-<medias/lexique/signaux/analogue/composite.jpg, id=1140, 308.352pt x 219.82124p
+<medias/lexique/signaux/analogue/composite.jpg, id=1143, 308.352pt x 219.82124p
 t>
 File: medias/lexique/signaux/analogue/composite.jpg Graphic file (type jpg)
 <use medias/lexique/signaux/analogue/composite.jpg>
 Package pdftex.def Info: medias/lexique/signaux/analogue/composite.jpg  used on
  input line 2127.
 (pdftex.def)             Requested size: 172.50185pt x 122.97495pt.
-<medias/lexique/signaux/analogue/svideo.jpg, id=1141, 1027.84pt x 770.88pt>
+<medias/lexique/signaux/analogue/svideo.jpg, id=1144, 1027.84pt x 770.88pt>
 File: medias/lexique/signaux/analogue/svideo.jpg Graphic file (type jpg)
 <use medias/lexique/signaux/analogue/svideo.jpg>
 Package pdftex.def Info: medias/lexique/signaux/analogue/svideo.jpg  used on in
@@ -1339,139 +1339,146 @@ put line 2136.
 (pdftex.def)             Requested size: 172.48773pt x 129.3658pt.
 [55 <./traitement-video_files/figure-latex/unnamed-chunk-5-1.pdf> <./medias/lex
 ique/signaux/analogue/composite.jpg>]
-<medias/lexique/signaux/analogue/component.jpg, id=1163, 1026.83624pt x 798.985
+<medias/lexique/signaux/analogue/component.jpg, id=1166, 1026.83624pt x 798.985
 pt>
 File: medias/lexique/signaux/analogue/component.jpg Graphic file (type jpg)
 <use medias/lexique/signaux/analogue/component.jpg>
 Package pdftex.def Info: medias/lexique/signaux/analogue/component.jpg  used on
  input line 2151.
 (pdftex.def)             Requested size: 172.49164pt x 134.21637pt.
-<medias/lexique/signaux/analogue/vga.jpg, id=1164, 1027.84pt x 736.7525pt>
+<medias/lexique/signaux/analogue/vga.jpg, id=1167, 1027.84pt x 736.7525pt>
 File: medias/lexique/signaux/analogue/vga.jpg Graphic file (type jpg)
 <use medias/lexique/signaux/analogue/vga.jpg>
 Package pdftex.def Info: medias/lexique/signaux/analogue/vga.jpg  used on input
  line 2160.
 (pdftex.def)             Requested size: 172.48773pt x 123.63867pt.
-<medias/lexique/signaux/analogue/3_5mm.jpg, id=1165, 1027.84pt x 770.88pt>
+<medias/lexique/signaux/analogue/3_5mm.jpg, id=1168, 1027.84pt x 770.88pt>
 File: medias/lexique/signaux/analogue/3_5mm.jpg Graphic file (type jpg)
 <use medias/lexique/signaux/analogue/3_5mm.jpg>
 Package pdftex.def Info: medias/lexique/signaux/analogue/3_5mm.jpg  used on inp
 ut line 2169.
 (pdftex.def)             Requested size: 172.48773pt x 129.3658pt.
-<medias/lexique/signaux/numerique/dvi.jpg, id=1166, 246.6816pt x 197.2971pt>
+[56 <./medias/lexique/signaux/analogue/svideo.jpg> <./medias/lexique/signaux/an
+alogue/component.jpg>] [57 <./medias/lexique/signaux/analogue/vga.jpg> <./media
+s/lexique/signaux/analogue/3_5mm.jpg>]
+Overfull \hbox (0.10213pt too wide) in paragraph at lines 2192--2193
+[][]$\T1/lmr/m/n/10 (+20) h t t p s : / / g i t h u b . c o m / s e b p i q / c
+ o u r s -[] s o n -[] r e s e a u x / b l o b / m a i n / d a ta -[] e n c o d
+ a
+ []
+
+[58]
+Chapitre 7.
+<medias/lexique/signaux/numerique/dvi.jpg, id=1199, 246.6816pt x 197.2971pt>
 File: medias/lexique/signaux/numerique/dvi.jpg Graphic file (type jpg)
 <use medias/lexique/signaux/numerique/dvi.jpg>
 Package pdftex.def Info: medias/lexique/signaux/numerique/dvi.jpg  used on inpu
-t line 2187.
+t line 2212.
 (pdftex.def)             Requested size: 172.50278pt x 137.96854pt.
-<medias/lexique/signaux/numerique/hdmi.jpg, id=1167, 308.352pt x 231.264pt>
+<medias/lexique/signaux/numerique/hdmi.jpg, id=1200, 308.352pt x 231.264pt>
 File: medias/lexique/signaux/numerique/hdmi.jpg Graphic file (type jpg)
 <use medias/lexique/signaux/numerique/hdmi.jpg>
 Package pdftex.def Info: medias/lexique/signaux/numerique/hdmi.jpg  used on inp
-ut line 2196.
+ut line 2221.
 (pdftex.def)             Requested size: 172.50185pt x 129.37639pt.
-
-Underfull \vbox (badness 7291) has occurred while \output is active []
-
-[56 <./medias/lexique/signaux/analogue/svideo.jpg> <./medias/lexique/signaux/an
-alogue/component.jpg>] [57 <./medias/lexique/signaux/analogue/vga.jpg> <./media
-s/lexique/signaux/analogue/3_5mm.jpg> <./medias/lexique/signaux/numerique/dvi.j
-pg>]
-<medias/lexique/signaux/numerique/displayport.jpg, id=1189, 1284.8pt x 777.9062
+<medias/lexique/signaux/numerique/displayport.jpg, id=1201, 1284.8pt x 777.9062
 5pt>
 File: medias/lexique/signaux/numerique/displayport.jpg Graphic file (type jpg)
 <use medias/lexique/signaux/numerique/displayport.jpg>
 Package pdftex.def Info: medias/lexique/signaux/numerique/displayport.jpg  used
- on input line 2211.
+ on input line 2236.
 (pdftex.def)             Requested size: 172.4995pt x 104.44305pt.
-<medias/lexique/signaux/numerique/sdi.jpg, id=1190, 1027.84pt x 770.88pt>
+[59
+
+ <./medias/lexique/signaux/numerique/dvi.jpg>] [60 <./medias/lexique/signaux/nu
+merique/hdmi.jpg> <./medias/lexique/signaux/numerique/displayport.jpg>]
+<medias/lexique/signaux/numerique/sdi.jpg, id=1221, 1027.84pt x 770.88pt>
 File: medias/lexique/signaux/numerique/sdi.jpg Graphic file (type jpg)
 <use medias/lexique/signaux/numerique/sdi.jpg>
 Package pdftex.def Info: medias/lexique/signaux/numerique/sdi.jpg  used on inpu
-t line 2226.
+t line 2251.
 (pdftex.def)             Requested size: 172.48773pt x 129.3658pt.
-[58 <./medias/lexique/signaux/numerique/hdmi.jpg> <./medias/lexique/signaux/num
-erique/displayport.jpg>] [59 <./medias/lexique/signaux/numerique/sdi.jpg>] [60
+[61 <./medias/lexique/signaux/numerique/sdi.jpg>] [62
 
 ]
-Chapitre 7.
-<medias/lexique/fullHD_16_9_1920x1080.png, id=1215, 1927.2pt x 1084.05pt>
+Chapitre 8.
+<medias/lexique/fullHD_16_9_1920x1080.png, id=1235, 1927.2pt x 1084.05pt>
 File: medias/lexique/fullHD_16_9_1920x1080.png Graphic file (type png)
 <use medias/lexique/fullHD_16_9_1920x1080.png>
 Package pdftex.def Info: medias/lexique/fullHD_16_9_1920x1080.png  used on inpu
-t line 2269.
+t line 2294.
 (pdftex.def)             Requested size: 344.99901pt x 194.06194pt.
-<medias/lexique/barre_couleurs-1600x900.png, id=1216, 1606.0pt x 903.375pt>
+<medias/lexique/barre_couleurs-1600x900.png, id=1236, 1606.0pt x 903.375pt>
 File: medias/lexique/barre_couleurs-1600x900.png Graphic file (type png)
 <use medias/lexique/barre_couleurs-1600x900.png>
 Package pdftex.def Info: medias/lexique/barre_couleurs-1600x900.png  used on in
-put line 2275.
+put line 2300.
 (pdftex.def)             Requested size: 344.98921pt x 194.05643pt.
-<medias/lexique/NTSC_4_3_640x480.png, id=1217, 642.4pt x 481.8pt>
+<medias/lexique/NTSC_4_3_640x480.png, id=1237, 642.4pt x 481.8pt>
 File: medias/lexique/NTSC_4_3_640x480.png Graphic file (type png)
 <use medias/lexique/NTSC_4_3_640x480.png>
 Package pdftex.def Info: medias/lexique/NTSC_4_3_640x480.png  used on input lin
-e 2290.
+e 2315.
 (pdftex.def)             Requested size: 345.0088pt x 258.75659pt.
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 2306
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 2331
 .
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-<medias/lexique/Photo_3_2_2000x1333.png, id=1220, 2007.5pt x 1337.99875pt>
+<medias/lexique/Photo_3_2_2000x1333.png, id=1240, 2007.5pt x 1337.99875pt>
 File: medias/lexique/Photo_3_2_2000x1333.png Graphic file (type png)
 <use medias/lexique/Photo_3_2_2000x1333.png>
 Package pdftex.def Info: medias/lexique/Photo_3_2_2000x1333.png  used on input 
-line 2313.
+line 2338.
 (pdftex.def)             Requested size: 344.97696pt x 229.92714pt.
-[61] [62 <./medias/lexique/fullHD_16_9_1920x1080.png> <./medias/lexique/barre_c
-ouleurs-1600x900.png>] [63 <./medias/lexique/NTSC_4_3_640x480.png> <./medias/le
+[63] [64 <./medias/lexique/fullHD_16_9_1920x1080.png> <./medias/lexique/barre_c
+ouleurs-1600x900.png>] [65 <./medias/lexique/NTSC_4_3_640x480.png> <./medias/le
 xique/Photo_3_2_2000x1333.png>]
-<medias/lexique/Cinemascope_2_39_1_2390x1000.png, id=1254, 2398.9625pt x 1003.7
+<medias/lexique/Cinemascope_2_39_1_2390x1000.png, id=1272, 2398.9625pt x 1003.7
 5pt>
 File: medias/lexique/Cinemascope_2_39_1_2390x1000.png Graphic file (type png)
 <use medias/lexique/Cinemascope_2_39_1_2390x1000.png>
 Package pdftex.def Info: medias/lexique/Cinemascope_2_39_1_2390x1000.png  used 
-on input line 2334.
+on input line 2359.
 (pdftex.def)             Requested size: 344.96715pt x 144.3377pt.
-<medias/lexique/carre_1_1_1000x1000.png, id=1256, 1003.75pt x 1003.75pt>
+<medias/lexique/carre_1_1_1000x1000.png, id=1274, 1003.75pt x 1003.75pt>
 File: medias/lexique/carre_1_1_1000x1000.png Graphic file (type png)
 <use medias/lexique/carre_1_1_1000x1000.png>
 Package pdftex.def Info: medias/lexique/carre_1_1_1000x1000.png  used on input 
-line 2355.
+line 2380.
 (pdftex.def)             Requested size: 345.00758pt x 345.00758pt.
-<medias/lexique/CubeMap_4096x4096.png, id=1257, 2960.1792pt x 2960.1792pt>
+<medias/lexique/CubeMap_4096x4096.png, id=1275, 2960.1792pt x 2960.1792pt>
 File: medias/lexique/CubeMap_4096x4096.png Graphic file (type png)
 <use medias/lexique/CubeMap_4096x4096.png>
 Package pdftex.def Info: medias/lexique/CubeMap_4096x4096.png  used on input li
-ne 2361.
+ne 2386.
 (pdftex.def)             Requested size: 344.99806pt x 344.99806pt.
-[64 <./medias/lexique/Cinemascope_2_39_1_2390x1000.png>] [65 <./medias/lexique/
-carre_1_1_1000x1000.png>] [66 <./medias/lexique/CubeMap_4096x4096.png (PNG copy
-)>] [67] [68
+[66 <./medias/lexique/Cinemascope_2_39_1_2390x1000.png>] [67 <./medias/lexique/
+carre_1_1_1000x1000.png>] [68 <./medias/lexique/CubeMap_4096x4096.png (PNG copy
+)>] [69] [70
 
 ]
-Chapitre 8.
-<traitement-video_files/figure-latex/unnamed-chunk-6-1.pdf, id=1333, 355.3275pt
+Chapitre 9.
+<traitement-video_files/figure-latex/unnamed-chunk-6-1.pdf, id=1352, 355.3275pt
  x 289.08pt>
 File: traitement-video_files/figure-latex/unnamed-chunk-6-1.pdf Graphic file (t
 ype pdf)
 <use traitement-video_files/figure-latex/unnamed-chunk-6-1.pdf>
 Package pdftex.def Info: traitement-video_files/figure-latex/unnamed-chunk-6-1.
-pdf  used on input line 2493.
+pdf  used on input line 2518.
 (pdftex.def)             Requested size: 345.00882pt x 280.68515pt.
-[69 <./traitement-video_files/figure-latex/unnamed-chunk-6-1.pdf>]
+[71 <./traitement-video_files/figure-latex/unnamed-chunk-6-1.pdf>]
 
-LaTeX Warning: Command \' invalid in math mode on input line 2526.
-
-
-LaTeX Warning: Command \' invalid in math mode on input line 2526.
+LaTeX Warning: Command \' invalid in math mode on input line 2551.
 
 
-LaTeX Warning: Command \' invalid in math mode on input line 2526.
+LaTeX Warning: Command \' invalid in math mode on input line 2551.
 
 
-Overfull \hbox (5.86902pt too wide) detected at line 2527
+LaTeX Warning: Command \' invalid in math mode on input line 2551.
+
+
+Overfull \hbox (5.86902pt too wide) detected at line 2552
 \OML/lmm/m/it/10 D\OT1/lmr/m/n/10 é\OML/lmm/m/it/10 bit \OT1/lmr/m/n/10 = \OML/
 lmm/m/it/10 profondeur\OT1/lmr/m/n/10 (\OML/lmm/m/it/10 bits\OT1/lmr/m/n/10 ) \
 OMS/lmsy/m/n/10 ^^C \OML/lmm/m/it/10 r\OT1/lmr/m/n/10 é\OML/lmm/m/it/10 solutio
@@ -1480,81 +1487,75 @@ nHorizontale \OMS/lmsy/m/n/10 ^^C \OML/lmm/m/it/10 r\OT1/lmr/m/n/10 é\OML/lmm/m
  []
 
 
-Underfull \hbox (badness 3312) in paragraph at lines 2566--2566
+Underfull \hbox (badness 3312) in paragraph at lines 2591--2591
 []\T1/lmr/bx/n/12 Compression sans pertes vs des-truc-tive (loss-
  []
 
-[70]
-Underfull \hbox (badness 10000) in paragraph at lines 2658--2659
-
- []
-
-[71]
-Underfull \hbox (badness 10000) in paragraph at lines 2714--2716
-
- []
-
 [72]
-Underfull \hbox (badness 10000) in paragraph at lines 2773--2774
+Underfull \hbox (badness 10000) in paragraph at lines 2683--2684
+
+ []
+
+[73]
+Underfull \hbox (badness 10000) in paragraph at lines 2739--2741
+
+ []
+
+[74]
+Underfull \hbox (badness 10000) in paragraph at lines 2798--2799
 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[73] [74]
-Chapitre 9.
-[75
+[75] [76]
+Chapitre 10.
+[77
 
-] [76] [77] [78
+] [78] [79] [80
 
 ]
-Chapitre 10.
-[79] [80]
 Chapitre 11.
+[81] [82]
+Chapitre 12.
 
-Underfull \hbox (badness 1796) in paragraph at lines 3120--3120
+Underfull \hbox (badness 1796) in paragraph at lines 3145--3145
 []\T1/lmr/bx/n/14.4 Communication via pro-to-coles pa-ra-mé-
  []
 
+[83
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+] [84]
+Chapitre 13.
 
-[81
-
-]
-Overfull \vbox (85.55385pt too high) has occurred while \output is active []
-
-[82] [83] [84
-
-]
-Chapitre 12.
-
-Overfull \hbox (0.12271pt too wide) in paragraph at lines 3232--3234
+Overfull \hbox (0.12271pt too wide) in paragraph at lines 3259--3261
 \T1/lmr/m/n/10 (+17) n g / a p p l i c a t i on -[] e x a m p l e -[] e d u t a
  i n m e n t -[] g a me -[] i n t r o d u c t i on -[] to -[] v i d e o -[] a n
  d -[]
  []
 
-[85] [86]
-Chapitre 13.
+[85
+
+] [86]
+Chapitre 14.
 [87
 
 ] [88
 
 ]
-Chapitre 14.
+Chapitre 15.
 
-Overfull \hbox (127.49863pt too wide) in paragraph at lines 3299--3299
+Overfull \hbox (127.49863pt too wide) in paragraph at lines 3326--3326
 []\T1/lmtt/m/n/10 ffmpeg -i INPUT.mkv -c:v prores_ks -profile:v 3 -c:a pcm_s16l
 e -pix_fmt yuv420p OUTPUT.mov[] 
  []
 
 [89]
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 3343.
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 3370.
 LaTeX Font Info:    Font shape `TS1/lmtt/bx/n' in size <10> not available
-(Font)              Font shape `TS1/lmtt/b/n' tried instead on input line 3347.
+(Font)              Font shape `TS1/lmtt/b/n' tried instead on input line 3374.
 
 
 Underfull \vbox (badness 4132) has occurred while \output is active []
@@ -1562,21 +1563,21 @@ Underfull \vbox (badness 4132) has occurred while \output is active []
 [90] [91] [92
 
 ]
-Chapitre 15.
+Chapitre 16.
 
-Overfull \hbox (69.7488pt too wide) in paragraph at lines 3531--3531
+Overfull \hbox (69.7488pt too wide) in paragraph at lines 3558--3558
 []\T1/lmtt/m/n/10 // Adapted from https://www.iquilezles.org/www/articles/ibili
 near/ibilinear.htm[] 
  []
 
 
-Overfull \hbox (6.74898pt too wide) in paragraph at lines 3531--3531
+Overfull \hbox (6.74898pt too wide) in paragraph at lines 3558--3558
 []\T1/lmtt/m/n/10 // and this Shadertoy example https://www.shadertoy.com/view/
 lsBSDm[] 
  []
 
 [93]
-Overfull \hbox (11.99896pt too wide) in paragraph at lines 3531--3531
+Overfull \hbox (11.99896pt too wide) in paragraph at lines 3558--3558
 []    \T1/lmtt/m/n/10 float2 c = float2(1.0 - (_DRx / 1000.0), 1.0 - (_DRy / 10
 00.0));[] 
  []
@@ -1584,26 +1585,26 @@ Overfull \hbox (11.99896pt too wide) in paragraph at lines 3531--3531
 [94] [95] [96
 
 ]
-Chapitre 16.
+Chapitre 17.
 [97] [98
 
 ]
-Chapitre 17.
+Chapitre 18.
 (./traitement-video.bbl [99] [100
 
 ] [101])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3545.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3588.
 [102]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 3545.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 3588.
 (./traitement-video.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3545.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 3545.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3588.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 3588.
  ) 
 Here is how much of TeX's memory you used:
- 16696 strings out of 492616
- 258845 string characters out of 6129482
- 397786 words of memory out of 5000000
- 19367 multiletter control sequences out of 15000+600000
+ 16719 strings out of 492616
+ 259279 string characters out of 6129482
+ 400229 words of memory out of 5000000
+ 19376 multiletter control sequences out of 15000+600000
  98845 words of font info for 123 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  35i,6n,38p,986b,635s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1619,27 +1620,27 @@ pdfTeX warning (dest): name{aquerir_captation} has been referenced but does not
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local/t
 exlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2019/te
 xmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2019/texmf-dist/f
-onts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/d
-vips/lm/lm-rm.enc}</usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmb
+onts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips
+/lm/lm-mathit.enc}</usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmb
 x10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></
 usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmbx8.pfb></usr/local/t
 exlive/2019/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb></usr/local/texlive/20
 19/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2019/texmf-
 dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2019/texmf-dist/fonts
-/type1/public/lm/lmmi7.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/publ
-ic/lm/lmr10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr12
-.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/
-local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texliv
-e/2019/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2019/texmf
--dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2019/texmf-dist/font
-s/type1/public/lm/lmro10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/pu
-blic/lm/lmsy10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lm
-tk10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmtt10.pfb><
-/usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmtti10.pfb>
-Output written on traitement-video.pdf (102 pages, 10411005 bytes).
+/type1/public/lm/lmr10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/publ
+ic/lm/lmr12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr17
+.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/l
+ocal/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive
+/2019/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2019/texm
+f-dist/fonts/type1/public/lm/lmro10.pfb></usr/local/texlive/2019/texmf-dist/fon
+ts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/p
+ublic/lm/lmtk10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/l
+mtt10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmtti10.pfb
+>
+Output written on traitement-video.pdf (102 pages, 10409880 bytes).
 PDF statistics:
- 2410 PDF objects out of 2487 (max. 8388607)
- 2184 compressed objects within 22 object streams
- 809 named destinations out of 1000 (max. 500000)
- 19682 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 2438 PDF objects out of 2487 (max. 8388607)
+ 2212 compressed objects within 23 object streams
+ 823 named destinations out of 1000 (max. 500000)
+ 19698 words of extra memory for PDF output out of 20736 (max. 10000000)
 

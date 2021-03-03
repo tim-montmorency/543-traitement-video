@@ -163,6 +163,8 @@ s-video
 component
 vga
 trrc
+pour-aller-plus-loin
+encodage-binaire-avancé
 numériques
 dvi
 hdmi
@@ -218,7 +220,7 @@ format-dencodage-codecs
 contenant-containers
 formats-de-sauvegarde-et-archivage-des-médias
 présentations-des-codecs-tim
-pour-aller-plus-loin
+pour-aller-plus-loin-1
 traiter
 fonctions-du-traitement-vidéo-temps-réel
 rendu-opengl
@@ -316,4 +318,8 @@ source-html-shader-toy
 source-youtube-fullscreen
 exemple-de-shader-pour-faire-du-mapping-dans-obs
 pure-data
+intégration
+navigateur-1
+via-purr-data
+via-empd
 shaders

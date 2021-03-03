@@ -64,7 +64,7 @@ plot(sin, -pi, 2*pi  ,main = "Signal analogue")
 
 
 # Frequency table
-my_table <- c(0,-1,-2,-2, -1, 0, 1, 2, 2, 1, 0, -1, -2, -2, -1, 0, 1, 2, 2, 1, 0)
+my_table <- c(0,-1,-2,-2, -1, 0, 1, 2, 2, 1, 0, -1, -2, -2, -1, 0)
 barplot(my_table, main = "Échantillonnage numérique",
         col = 0)
 

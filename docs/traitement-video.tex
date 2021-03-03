@@ -141,7 +141,7 @@
 
 \title{Traitement vidéo}
 \author{Guillaume Arseneault}
-\date{2021-03-01}
+\date{2021-03-03}
 
 \begin{document}
 \maketitle
@@ -2005,7 +2005,7 @@ Associé au nombre de pixels horizontaux et verticaux composant une image.
 Généralement exprimé par le nombre de pixels horizontaux multiplié par le nombre de pixels verticaux
 
 \[
-résolution  = Pix_H * Pix_V 
+résolution  = PixelsH * PixelsV 
 \]
 
 \hypertarget{cadence}{%
@@ -2175,6 +2175,31 @@ Toutes les possibilités entre le minimum et le maximum de voltage
 \item
   Composite et TRRC peuvent s'interchanger considérant la perte des canaux audio présents sur le TRRC
 \end{itemize}
+
+\textless\textless\textless\textless\textless\textless\textless{} HEAD
+
+=======
+\textless\textless\textless\textless\textless\textless\textless{} HEAD
+
+\hypertarget{pour-aller-plus-loin}{%
+\subsubsection{Pour aller plus loin}\label{pour-aller-plus-loin}}
+
+\hypertarget{encodage-binaire-avancuxe9}{%
+\paragraph{Encodage binaire avancé}\label{encodage-binaire-avancuxe9}}
+
+\begin{itemize}
+\item
+  \url{https://github.com/sebpiq/cours-son-reseaux/blob/main/data-encodage.md}
+\item ~
+  \hypertarget{pour-des-usages-ruxe9guliers-voir}{%
+  \chapter{pour des usages réguliers voir :}\label{pour-des-usages-ruxe9guliers-voir}}
+
+  Associé à la vitesse, généralement exprimé en images / secondes
+\end{itemize}
+
+\[
+images / secondes
+\]
 
 \hypertarget{numuxe9riques}{%
 \subsection{Numériques}\label{numuxe9riques}}
@@ -2833,8 +2858,8 @@ Theora & .ogv \\
 
 \url{https://cmontmorency365.sharepoint.com/:p:/s/TIM-TTP/EZJO9E0y6idAql7kKqGyKFQB--xsTpIiWADt1-m3hnbBgg?e=UQXaWB}
 
-\hypertarget{pour-aller-plus-loin}{%
-\subsubsection{Pour aller plus loin}\label{pour-aller-plus-loin}}
+\hypertarget{pour-aller-plus-loin-1}{%
+\subsubsection{Pour aller plus loin}\label{pour-aller-plus-loin-1}}
 
 \begin{itemize}
 \item
@@ -3118,6 +3143,8 @@ Noise : \url{https://thebookofshaders.com/11/}
 
 \hypertarget{interagir_protocoles}{%
 \section{Communication via protocoles paramétriques temps réel}\label{interagir_protocoles}}
+
+\url{https://github.com/sebpiq/cours-son-reseaux/blob/main/applications-audio.md}
 
 \hypertarget{protocole_osc}{%
 \subsection{Open sound control (OSC)}\label{protocole_osc}}
@@ -3532,6 +3559,22 @@ float4 mainImage(VertData v_in) : TARGET
 
 \hypertarget{pure-data}{%
 \chapter{Pure Data}\label{pure-data}}
+
+\hypertarget{intuxe9gration}{%
+\section{Intégration}\label{intuxe9gration}}
+
+\hypertarget{navigateur-1}{%
+\subsection{Navigateur}\label{navigateur-1}}
+
+\hypertarget{via-purr-data}{%
+\subsubsection{via Purr-data}\label{via-purr-data}}
+
+\url{https://github.com/cuinjune/PdWebParty}
+
+\hypertarget{via-empd}{%
+\subsubsection{via empd}\label{via-empd}}
+
+\url{https://mathr.co.uk/empd/}
 
 \hypertarget{shaders}{%
 \chapter{Shaders}\label{shaders}}
