@@ -8,7 +8,7 @@ Associé au nombre de pixels horizontaux et verticaux composant une image.
 Généralement exprimé par le nombre de pixels horizontaux multiplié par le nombre de pixels verticaux
 
 $$
-résolution  = Pix_H * Pix_V 
+résolution  = PixelsH * PixelsV 
 $$
 
 ### Cadence
@@ -64,7 +64,7 @@ plot(sin, -pi, 2*pi  ,main = "Signal analogue")
 
 
 # Frequency table
-my_table <- c(0,-1,-2, -1, 0,1,2,1,0, -1, -2, -1, 0, 1, 2, 1, 0)
+my_table <- c(0,-1,-2,-2, -1, 0, 1, 2, 2, 1, 0, -1, -2, -2, -1, 0, 1, 2, 2, 1, 0)
 barplot(my_table, main = "Échantillonnage numérique",
         col = 0)
 
@@ -81,7 +81,7 @@ barplot(my_table, main = "Échantillonnage numérique",
 
 ## Protocoles de transport
 
-https://en.wikipedia.org/wiki/Video
+[https://en.wikipedia.org/wiki/Video](https://en.wikipedia.org/wiki/Video){target="_blank"}
 
 ### Analogues
 
@@ -131,8 +131,6 @@ Associé à la vitesse, généralement exprimé en images / secondes
 $$
 images / secondes
 $$
->>>>>>> d2ec939891dc36f1d637ffb7c38c43c829fdadf8
->>>>>>> ec6c148bbc511f07a6cdc79cde425427437471a2
 
 
 ### Numériques
