@@ -47,6 +47,7 @@
 * Sommatif (10%) 
 * Individuel
 
+<-- Ex :  Différencier la trame de cette image  !-->
 
 ### Consignes
 

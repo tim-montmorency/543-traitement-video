@@ -1,5 +1,154 @@
 # Traiter {#traiter}
 
+## Vocabulaire du traitement vidéo
+
+### Pixel
+
+Unité d'information encodée
+
+Peut contenir une couleur  
+dans certain cas de la transparence. 
+
+Souvent utilisé en matrices pour afficher un signal vidéo.
+
+Peut produire:
+
+* Couleurs sur écran
+* Projection vidéo
+* Lumière pour espace
+
+### Matrice
+
+Organisation multidimensionnelles de pixels. 
+
+
+https://thebookofshaders.com/08//?lan=fr
+
+![Matrice 3 dimensions RGB ](medias/traiter/figures/dia_matrice_RGB.png)
+
+![Matrice 4 dimensions RGBA ](medias/traiter/figures/dia_matrice_RGBA.png)
+
+
+
+#### Traitement matriciel 
+
+* http://what-when-how.com/introduction-to-video-and-image-processing/neighborhood-processing-introduction-to-video-and-image-processing-part-2/
+
+
+### Texture 
+https://thebookofshaders.com/09/?lan=fr
+
+
+## Transformations géométriques 
+
+Affecte-le contenant de la texture. Nommé *Vertex* dans le langage nuanciers *shaders* 
+
+* http://what-when-how.com/introduction-to-video-and-image-processing/geometric-transformations-introduction-to-video-and-image-processing-part-1/
+
+
+### Position
+
+![Transformation positionnel, translation](medias/traiter/figures/dia_transfogeo_position.png)
+
+### Rotation
+
+![Transformation positionnel, rotation](medias/traiter/figures/dia_transfogeo_rotation.png)
+
+### Échelle
+
+![Transformation positionnel, échelle](medias/traiter/figures/dia_transfogeo_echelle.png)
+
+
+### Dimensions
+
+![Transformation positionnel, dimensions](medias/traiter/figures/dia_transfogeo_dimensions.png)
+
+
+### Rogner
+
+![Transformation positionnel, dimensions](medias/traiter/figures/dia_transfogeo_rogner.png)
+
+
+### Distorsion 
+
+![Transformation positionnel, distortion](medias/traiter/figures/dia_transfogeo_distortion.png)
+
+
+## Altération des pixels 
+
+Affecte le contenu de la texture. Nommé *Fragments* dans le langage nuanciers *shaders* 
+
+* http://what-when-how.com/introduction-to-video-and-image-processing/visual-effects-introduction-to-video-and-image-processing-part-1/
+
+
+
+### Effets lié à la luminance
+
+#### Contraste
+
+
+
+
+#### Gamma
+
+* http://what-when-how.com/introduction-to-video-and-image-processing/point-processing-introduction-to-video-and-image-processing-part-1/
+
+
+
+### Couleurs
+
+* https://thebookofshaders.com/06/?lan=fr
+
+#### Sythèse de la couleurs 
+
+* http://bech.free.fr/docs/colorim.htm
+
+* https://fr.wikipedia.org/wiki/Synth%C3%A8se_additive
+
+##### Additive 
+à l'écran (RGB): additif
+
+##### Soustractive
+à l'impression (CMYK) : soustractif 
+
+En lumière (filtre) : soustractif
+
+
+#### Espace couleurs
+
+
+#### Couleurs et longueurs d'onde
+
+* http://what-when-how.com/display-interfaces/fundamentals-of-color-display-interfaces-part-1/
+* Perception de la chaleur d'une image
+    * http://what-when-how.com/display-interfaces/fundamentals-of-color-display-interfaces-part-2/
+
+* http://what-when-how.com/introduction-to-video-and-image-processing/color-images-introduction-to-video-and-image-processing-part-1/
+* http://what-when-how.com/introduction-to-video-and-image-processing/color-images-introduction-to-video-and-image-processing-part-2/
+* http://what-when-how.com/introduction-to-video-and-image-processing/color-images-introduction-to-video-and-image-processing-part-3/
+
+
+#### Nuance des couleurs
+
+#### Niveau des couleurs 
+
+
+### Incrustation d'image
+
+#### Lumakey 
+
+#### Chromakey 
+
+
+
+## Utilisation de mémoire tampon 
+
+Traitement utilisant la mémoire pour mettre en tampon des images vidéo et effectuer des opérations temporelles sur celles-ci.
+
+### Délais
+
+### Rétroaction (feedback)
+
 ## Fonctions du traitement vidéo temps réel  
 
 Exploitation des fonctions des logiciels de traitement vidéo en temps réel 
@@ -11,84 +160,12 @@ https://openframeworks.cc/ofBook/chapters/openGL.html
 
 https://www.tomdalling.com/blog/modern-opengl/08-even-more-lighting-directional-lights-spotlights-multiple-lights/
 
-#### Pixels
 
-#### Couleurs 
-
-* Couleurs et longueur d'onde
-    * http://what-when-how.com/display-interfaces/fundamentals-of-color-display-interfaces-part-1/
-* Perception de la chaleur d'une image
-    * http://what-when-how.com/display-interfaces/fundamentals-of-color-display-interfaces-part-2/
-
-* http://what-when-how.com/introduction-to-video-and-image-processing/color-images-introduction-to-video-and-image-processing-part-1/
-* http://what-when-how.com/introduction-to-video-and-image-processing/color-images-introduction-to-video-and-image-processing-part-2/
-* http://what-when-how.com/introduction-to-video-and-image-processing/color-images-introduction-to-video-and-image-processing-part-3/
-
-##### Gamma
-
-* http://what-when-how.com/introduction-to-video-and-image-processing/point-processing-introduction-to-video-and-image-processing-part-1/
-
-
-* https://thebookofshaders.com/06/?lan=fr
-
-#### Matrices
-
-https://thebookofshaders.com/08//?lan=fr
-
-##### Traitement matriciel 
-
-* http://what-when-how.com/introduction-to-video-and-image-processing/neighborhood-processing-introduction-to-video-and-image-processing-part-2/
-
-
-#### Texture 
-https://thebookofshaders.com/09/?lan=fr
-
-
-
-
-### Transformations géométriques 
-
-Affecte-le contenant la texture. Nommé *Vertex* dans le langage nuanciers *shaders* 
-
-* http://what-when-how.com/introduction-to-video-and-image-processing/geometric-transformations-introduction-to-video-and-image-processing-part-1/
-
-
-#### Position
-#### Rotation
-
-#### Dimensions
-#### Distorsion 
-#### Rogner
-#### Échelle
-
-
-### Altération des pixels 
-
-Affecte le contenu de la texture. Nommé *Fragments* dans le langage nuanciers *shaders* 
-
-* http://what-when-how.com/introduction-to-video-and-image-processing/visual-effects-introduction-to-video-and-image-processing-part-1/
-
-
-### Modification de couleurs 
-### Niveau des couleurs 
-
-### Mixage d’images 
-### Incrustation 
-### chromakey 
-
-
-### Utilisation de mémoire tampon 
-
-Traitement utilisant la mémoire pour mettre en tampon des images vidéo et effectuer des opérations temporelles sur celles-ci.
-
-#### Mémoire tampon 
-#### Délais
-#### Rétroaction (feedback)
 
 
 ## Utilisation de nuanciers (shaders) 
 
-## Logiciels de traitement vidéo interactif en temps réel {#traiter_logiciels}
+### Logiciels de traitement vidéo interactif en temps réel {#traiter_logiciels}
 
 Traitement visuel en temps réel à l’aide d’effets et de logiciels de programmation multimédia. 
 
