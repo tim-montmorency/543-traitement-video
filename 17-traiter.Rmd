@@ -76,7 +76,8 @@ Affecte-le contenant de la texture. Nommé *Vertex* dans le langage nuanciers *s
 
 ## Altération des pixels 
 
-Affecte le contenu de la texture. Nommé *Fragments* dans le langage nuanciers *shaders* 
+Affecte le contenu de la texture. 
+Affecte les *Fragments* , nuances, *shaders* 
 
 * http://what-when-how.com/introduction-to-video-and-image-processing/visual-effects-introduction-to-video-and-image-processing-part-1/
 
