@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.6.2)  10 MAR 2021 07:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.6.2)  10 MAR 2021 07:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1748,7 +1748,7 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 3691.
 Here is how much of TeX's memory you used:
  16939 strings out of 482056
  270603 string characters out of 5937676
- 556426 words of memory out of 5000000
+ 555426 words of memory out of 5000000
  31312 multiletter control sequences out of 15000+600000
  623236 words of font info for 125 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
@@ -1783,7 +1783,7 @@ c/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2020basic/tex
 mf-dist/fonts/type1/public/lm/lmtk10.pfb></usr/local/texlive/2020basic/texmf-di
 st/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2020basic/texmf-dist/fo
 nts/type1/public/lm/lmtti10.pfb>
-Output written on traitement-video.pdf (108 pages, 10465667 bytes).
+Output written on traitement-video.pdf (108 pages, 10465652 bytes).
 PDF statistics:
  2507 PDF objects out of 2984 (max. 8388607)
  2262 compressed objects within 23 object streams
