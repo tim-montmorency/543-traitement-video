@@ -1,0 +1,17 @@
+#N canvas 100 361 575 372 12;
+#X obj 139 96 dmx_receive 9000;
+#X obj 139 42 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 139 140 list split 256;
+#X obj 136 230 print;
+#X obj 285 208 pd~;
+#X msg 271 154 pd~ stop;
+#X obj 285 232 print;
+#X msg 284 180 pd~ start -nogui ws.pd;
+#X connect 0 0 2 0;
+#X connect 1 0 0 0;
+#X connect 2 0 3 0;
+#X connect 2 0 4 0;
+#X connect 4 0 6 0;
+#X connect 5 0 4 0;
+#X connect 7 0 4 0;

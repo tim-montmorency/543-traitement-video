@@ -1,6 +1,6 @@
 # Examples HTML
 
-```{r, eval=knitr::is_html_output(excludes = "epub"), results = 'asis', echo = F}
+```{r, fig.cap = 'exemple', eval=knitr::is_html_output(excludes = "epub"), results = 'asis', echo = F}
 cat(
 '<iframe width="560" height="315" 
   src="https://www.youtube.com/embed/9AI3BkKQhn0"
@@ -9,4 +9,17 @@ cat(
   </iframe>'
 )
 ```
+
+
+```{r, eval=knitr::is_html_output(excludes = "epub"), results = 'asis', echo = F}
+cat(
+'<iframe width="560" height="315" 
+  src="medias/interactif/html/vanille/draw_pixel/index.html"
+  frameborder="0" allow="accelerometer; autoplay; encrypted-media;
+  gyroscope; picture-in-picture; allowfullscreen" >
+  </iframe>'
+)
+```
+
+
 
