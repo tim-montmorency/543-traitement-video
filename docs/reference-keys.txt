@@ -249,13 +249,13 @@ chromakey
 utilisation-de-mémoire-tampon
 délais
 rétroaction-feedback
+programmer
 fonctions-du-traitement-vidéo-temps-réel
 rendu-opengl
 utilisation-de-nuanciers-shaders
 traiter_logiciels
 programmation-nodale
 libres-et-gratuits
-programmer
 programmer_grab
 programmer_logiciels
 programmation-deffets-temps-réel
@@ -305,6 +305,7 @@ ajustement-des-effets-visuels-en-fonction-des-tests
 protocole-de-débogage-via-console
 optimisation-des-performances-de-lapplication
 application-autonome
+médiathèque
 examples-html
 ffmpeg
 ffmpeg-1

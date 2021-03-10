@@ -1,0 +1,283 @@
+# Médiathèque 
+
+```{r, fig.cap = 'exemple', eval=knitr::is_html_output(excludes = "epub"), results = 'asis', echo = F}
+cat(
+'<iframe width="560" height="315" 
+  src="https://www.youtube.com/embed/f38sotYHqtA"
+  frameborder="0" allow="accelerometer; autoplay; encrypted-media;
+  gyroscope; picture-in-picture; allowfullscreen" >
+  </iframe>'
+)
+```
+
+```{r, fig.cap = 'exemple', eval=knitr::is_html_output(excludes = "epub"), results = 'asis', echo = F}
+cat(
+'<iframe width="560" height="315" 
+  src="https://www.youtube.com/embed/tzm2XjcyKDQ"
+  frameborder="0" allow="accelerometer; autoplay; encrypted-media;
+  gyroscope; picture-in-picture; allowfullscreen" >
+  </iframe>'
+)
+```
+
+```{r, fig.cap = 'exemple', eval=knitr::is_html_output(excludes = "epub"), results = 'asis', echo = F}
+cat(
+'<iframe width="560" height="315" 
+  src="https://www.youtube.com/embed/0D3buLqTHHY"
+  frameborder="0" allow="accelerometer; autoplay; encrypted-media;
+  gyroscope; picture-in-picture; allowfullscreen" >
+  </iframe>'
+)
+```
+
+```{r, fig.cap = 'exemple', eval=knitr::is_html_output(excludes = "epub"), results = 'asis', echo = F}
+cat(
+'<iframe width="560" height="315" 
+  src="https://www.youtube.com/embed/f1PCG5hXUmE"
+  frameborder="0" allow="accelerometer; autoplay; encrypted-media;
+  gyroscope; picture-in-picture; allowfullscreen" >
+  </iframe>'
+)
+```
+
+```{r, fig.cap = 'exemple', eval=knitr::is_html_output(excludes = "epub"), results = 'asis', echo = F}
+cat(
+'<iframe width="560" height="315" 
+  src="https://www.youtube.com/embed/UWeMWIoUWQA"
+  frameborder="0" allow="accelerometer; autoplay; encrypted-media;
+  gyroscope; picture-in-picture; allowfullscreen" >
+  </iframe>'
+)
+```
+
+```{r, fig.cap = 'exemple', eval=knitr::is_html_output(excludes = "epub"), results = 'asis', echo = F}
+cat(
+'<iframe width="560" height="315" 
+  src="https://www.youtube.com/embed/e_CbbAbf7gE"
+  frameborder="0" allow="accelerometer; autoplay; encrypted-media;
+  gyroscope; picture-in-picture; allowfullscreen" >
+  </iframe>'
+)
+```
+
+```{r, fig.cap = 'exemple', eval=knitr::is_html_output(excludes = "epub"), results = 'asis', echo = F}
+cat(
+'<iframe width="560" height="315" 
+  src="https://www.youtube.com/embed/W2xknX3k6FY"
+  frameborder="0" allow="accelerometer; autoplay; encrypted-media;
+  gyroscope; picture-in-picture; allowfullscreen" >
+  </iframe>'
+)
+```
+
+```{r, fig.cap = 'exemple', eval=knitr::is_html_output(excludes = "epub"), results = 'asis', echo = F}
+cat(
+'<iframe width="560" height="315" 
+  src="https://www.youtube.com/embed/6STSHbdXQWI"
+  frameborder="0" allow="accelerometer; autoplay; encrypted-media;
+  gyroscope; picture-in-picture; allowfullscreen" >
+  </iframe>'
+)
+```
+
+```{r, fig.cap = 'exemple', eval=knitr::is_html_output(excludes = "epub"), results = 'asis', echo = F}
+cat(
+'<iframe width="560" height="315" 
+  src="https://www.youtube.com/embed/H_o5h5SK_70"
+  frameborder="0" allow="accelerometer; autoplay; encrypted-media;
+  gyroscope; picture-in-picture; allowfullscreen" >
+  </iframe>'
+)
+```
+
+```{r, fig.cap = 'exemple', eval=knitr::is_html_output(excludes = "epub"), results = 'asis', echo = F}
+cat(
+'<iframe width="560" height="315" 
+  src="https://www.youtube.com/embed/x7F45E7jNXI"
+  frameborder="0" allow="accelerometer; autoplay; encrypted-media;
+  gyroscope; picture-in-picture; allowfullscreen" >
+  </iframe>'
+)
+```
+
+```{r, fig.cap = 'exemple', eval=knitr::is_html_output(excludes = "epub"), results = 'asis', echo = F}
+cat(
+'<iframe width="560" height="315" 
+  src="https://www.youtube.com/embed/MTn3Gr7m0cg"
+  frameborder="0" allow="accelerometer; autoplay; encrypted-media;
+  gyroscope; picture-in-picture; allowfullscreen" >
+  </iframe>'
+)
+```
+
+```{r, fig.cap = 'exemple', eval=knitr::is_html_output(excludes = "epub"), results = 'asis', echo = F}
+cat(
+'<iframe width="560" height="315" 
+  src="https://www.youtube.com/embed/xBjss7wiovg"
+  frameborder="0" allow="accelerometer; autoplay; encrypted-media;
+  gyroscope; picture-in-picture; allowfullscreen" >
+  </iframe>'
+)
+```
+
+
+```{r, fig.cap = 'exemple', eval=knitr::is_html_output(excludes = "epub"), results = 'asis', echo = F}
+cat(
+'<iframe width="560" height="315" 
+  src="https://www.youtube.com/embed/btgAUdbj85E"
+  frameborder="0" allow="accelerometer; autoplay; encrypted-media;
+  gyroscope; picture-in-picture; allowfullscreen" >
+  </iframe>'
+)
+```
+
+```{r, fig.cap = 'exemple', eval=knitr::is_html_output(excludes = "epub"), results = 'asis', echo = F}
+cat(
+'<iframe width="560" height="315" 
+  src="https://www.youtube.com/embed/SKFtw6DcvDs"
+  frameborder="0" allow="accelerometer; autoplay; encrypted-media;
+  gyroscope; picture-in-picture; allowfullscreen" >
+  </iframe>'
+)
+```
+
+
+```{r, fig.cap = 'exemple', eval=knitr::is_html_output(excludes = "epub"), results = 'asis', echo = F}
+cat(
+'<iframe width="560" height="315" 
+  src="https://www.youtube.com/embed/Wa_VZISu6fc"
+  frameborder="0" allow="accelerometer; autoplay; encrypted-media;
+  gyroscope; picture-in-picture; allowfullscreen" >
+  </iframe>'
+)
+```
+
+```{r, fig.cap = 'exemple', eval=knitr::is_html_output(excludes = "epub"), results = 'asis', echo = F}
+cat(
+'<iframe width="560" height="315" 
+  src="https://www.youtube.com/embed/uSuCJyZzyRE"
+  frameborder="0" allow="accelerometer; autoplay; encrypted-media;
+  gyroscope; picture-in-picture; allowfullscreen" >
+  </iframe>'
+)
+```
+
+```{r, fig.cap = 'exemple', eval=knitr::is_html_output(excludes = "epub"), results = 'asis', echo = F}
+cat(
+'<iframe width="560" height="315" 
+  src="https://www.youtube.com/embed/SKFtw6DcvDs"
+  frameborder="0" allow="accelerometer; autoplay; encrypted-media;
+  gyroscope; picture-in-picture; allowfullscreen" >
+  </iframe>'
+)
+```
+```{r, fig.cap = 'exemple', eval=knitr::is_html_output(excludes = "epub"), results = 'asis', echo = F}
+cat(
+'<iframe width="560" height="315" 
+  src="https://www.youtube.com/embed/_OvBUolFq3Y"
+  frameborder="0" allow="accelerometer; autoplay; encrypted-media;
+  gyroscope; picture-in-picture; allowfullscreen" >
+  </iframe>'
+)
+```
+```{r, fig.cap = 'exemple', eval=knitr::is_html_output(excludes = "epub"), results = 'asis', echo = F}
+cat(
+'<iframe width="560" height="315" 
+  src="https://www.youtube.com/embed/DR2dRWfr7m0"
+  frameborder="0" allow="accelerometer; autoplay; encrypted-media;
+  gyroscope; picture-in-picture; allowfullscreen" >
+  </iframe>'
+)
+```
+```{r, fig.cap = 'exemple', eval=knitr::is_html_output(excludes = "epub"), results = 'asis', echo = F}
+cat(
+'<iframe width="560" height="315" 
+  src="https://www.youtube.com/embed/f38sotYHqtA"
+  frameborder="0" allow="accelerometer; autoplay; encrypted-media;
+  gyroscope; picture-in-picture; allowfullscreen" >
+  </iframe>'
+)
+```
+```{r, fig.cap = 'exemple', eval=knitr::is_html_output(excludes = "epub"), results = 'asis', echo = F}
+cat(
+'<iframe width="560" height="315" 
+  src="https://www.youtube.com/embed/YCWZ_kWTB9w"
+  frameborder="0" allow="accelerometer; autoplay; encrypted-media;
+  gyroscope; picture-in-picture; allowfullscreen" >
+  </iframe>'
+)
+```
+```{r, fig.cap = 'exemple', eval=knitr::is_html_output(excludes = "epub"), results = 'asis', echo = F}
+cat(
+'<iframe width="560" height="315" 
+  src="https://www.youtube.com/embed/wthhc1s0Pig"
+  frameborder="0" allow="accelerometer; autoplay; encrypted-media;
+  gyroscope; picture-in-picture; allowfullscreen" >
+  </iframe>'
+)
+```
+```{r, fig.cap = 'exemple', eval=knitr::is_html_output(excludes = "epub"), results = 'asis', echo = F}
+cat(
+'<iframe width="560" height="315" 
+  src="https://www.youtube.com/embed/Jcgg7jq1W3o"
+  frameborder="0" allow="accelerometer; autoplay; encrypted-media;
+  gyroscope; picture-in-picture; allowfullscreen" >
+  </iframe>'
+)
+```
+```{r, fig.cap = 'exemple', eval=knitr::is_html_output(excludes = "epub"), results = 'asis', echo = F}
+cat(
+'<iframe width="560" height="315" 
+  src="https://www.youtube.com/embed/GhWki9a7s18"
+  frameborder="0" allow="accelerometer; autoplay; encrypted-media;
+  gyroscope; picture-in-picture; allowfullscreen" >
+  </iframe>'
+)
+```
+```{r, fig.cap = 'exemple', eval=knitr::is_html_output(excludes = "epub"), results = 'asis', echo = F}
+cat(
+'<iframe width="560" height="315" 
+  src="https://www.youtube.com/embed/Dnd28lQHquU"
+  frameborder="0" allow="accelerometer; autoplay; encrypted-media;
+  gyroscope; picture-in-picture; allowfullscreen" >
+  </iframe>'
+)
+```
+```{r, fig.cap = 'exemple', eval=knitr::is_html_output(excludes = "epub"), results = 'asis', echo = F}
+cat(
+'<iframe width="560" height="315" 
+  src="https://www.youtube.com/embed/hqi0114mwtY"
+  frameborder="0" allow="accelerometer; autoplay; encrypted-media;
+  gyroscope; picture-in-picture; allowfullscreen" >
+  </iframe>'
+)
+```
+```{r, fig.cap = 'exemple', eval=knitr::is_html_output(excludes = "epub"), results = 'asis', echo = F}
+cat(
+'<iframe width="560" height="315" 
+  src="https://www.youtube.com/embed/QyjyWUrHsFc"
+  frameborder="0" allow="accelerometer; autoplay; encrypted-media;
+  gyroscope; picture-in-picture; allowfullscreen" >
+  </iframe>'
+)
+```
+```{r, fig.cap = 'exemple', eval=knitr::is_html_output(excludes = "epub"), results = 'asis', echo = F}
+cat(
+'<iframe width="560" height="315" 
+  src="https://www.youtube.com/embed/rCUjvK-zbHw"
+  frameborder="0" allow="accelerometer; autoplay; encrypted-media;
+  gyroscope; picture-in-picture; allowfullscreen" >
+  </iframe>'
+)
+```
+
+
+```{r, fig.cap = 'exemple', eval=knitr::is_html_output(excludes = "epub"), results = 'asis', echo = F}
+cat(
+'<iframe width="560" height="315" 
+  src="https://www.youtube.com/embed/3JFt6t6ijLs"
+  frameborder="0" allow="accelerometer; autoplay; encrypted-media;
+  gyroscope; picture-in-picture; allowfullscreen" >
+  </iframe>'
+)
+```

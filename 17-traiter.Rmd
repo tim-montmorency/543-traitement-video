@@ -87,7 +87,7 @@ Affecte les *Fragments* , nuances, *shaders*
 
 #### Contraste
 
-
+* https://www.rochester.edu/newscenter/microscopic-eye-movements-affect-how-we-see-contrast-358802/
 
 
 #### Gamma
@@ -107,9 +107,11 @@ Affecte les *Fragments* , nuances, *shaders*
 * https://fr.wikipedia.org/wiki/Synth%C3%A8se_additive
 
 ##### Additive 
+
 à l'écran (RGB): additif
 
 ##### Soustractive
+
 à l'impression (CMYK) : soustractif 
 
 En lumière (filtre) : soustractif
@@ -131,16 +133,24 @@ En lumière (filtre) : soustractif
 
 #### Nuance des couleurs
 
+Rotation des couleurs 
+
+* https://i0.wp.com/thelandofcolor.com/wp-content/uploads/2010/03/HSL-Cone-Graphic.jpg?resize=550%2C546
+
+
 #### Niveau des couleurs 
 
+Intervention sur les niveau de rouge vert et bleu 
 
 ### Incrustation d'image
 
 #### Lumakey 
 
+Transparence via seuils de luminance
+
 #### Chromakey 
 
-
+Transparence via seuils de chrominance
 
 ## Utilisation de mémoire tampon 
 
@@ -148,32 +158,9 @@ Traitement utilisant la mémoire pour mettre en tampon des images vidéo et effe
 
 ### Délais
 
+Lecture à postériori d'une séquence ou d'un flux capté 
+
 ### Rétroaction (feedback)
 
-## Fonctions du traitement vidéo temps réel  
+Réinjection du signal diffusé dans le signal diffusé
 
-Exploitation des fonctions des logiciels de traitement vidéo en temps réel 
-
-
-### Rendu OpenGL 
-
-https://openframeworks.cc/ofBook/chapters/openGL.html
-
-https://www.tomdalling.com/blog/modern-opengl/08-even-more-lighting-directional-lights-spotlights-multiple-lights/
-
-
-
-
-## Utilisation de nuanciers (shaders) 
-
-### Logiciels de traitement vidéo interactif en temps réel {#traiter_logiciels}
-
-Traitement visuel en temps réel à l’aide d’effets et de logiciels de programmation multimédia. 
-
-### Programmation nodale  
-
-### Libres et gratuits 
-* Open Broadcast Studio
-    * obs-ninja
-    * obs-websocket
-    * 

@@ -1,5 +1,34 @@
 # Programmer {#programmer}
 
+## Fonctions du traitement vidéo temps réel  
+
+Exploitation des fonctions des logiciels de traitement vidéo en temps réel 
+
+
+### Rendu OpenGL 
+
+https://openframeworks.cc/ofBook/chapters/openGL.html
+
+https://www.tomdalling.com/blog/modern-opengl/08-even-more-lighting-directional-lights-spotlights-multiple-lights/
+
+
+
+
+## Utilisation de nuanciers (shaders) 
+
+### Logiciels de traitement vidéo interactif en temps réel {#traiter_logiciels}
+
+Traitement visuel en temps réel à l’aide d’effets et de logiciels de programmation multimédia. 
+
+### Programmation nodale  
+
+### Libres et gratuits 
+* Open Broadcast Studio
+    * obs-ninja
+    * obs-websocket
+    * 
+
+
 ## Programmation de la captation  {#programmer_grab}
 
 

@@ -1,89 +1,91 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  10 MAR 2021 06:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.6.2)  10 MAR 2021 07:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **traitement-video.tex
 (./traitement-video.tex
-LaTeX2e <2018-12-01>
-(/usr/local/texlive/2019/texmf-dist/tex/latex/base/book.cls
-Document Class: book 2018/09/03 v1.4i Standard LaTeX document class
-(/usr/local/texlive/2019/texmf-dist/tex/latex/base/bk10.clo
-File: bk10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-03-06> (/usr/local/texlive/2020basic/texmf-dist/tex/
+latex/base/book.cls
+Document Class: book 2019/12/20 v1.4l Standard LaTeX document class
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/base/bk10.clo
+File: bk10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 )
-\c@part=\count80
-\c@chapter=\count81
-\c@section=\count82
-\c@subsection=\count83
-\c@subsubsection=\count84
-\c@paragraph=\count85
-\c@subparagraph=\count86
-\c@figure=\count87
-\c@table=\count88
-\abovecaptionskip=\skip41
-\belowcaptionskip=\skip42
-\bibindent=\dimen102
-) (/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2018/12/01 v2.17b AMS math features
-\@mathmargin=\skip43
+\c@part=\count167
+\c@chapter=\count168
+\c@section=\count169
+\c@subsection=\count170
+\c@subsubsection=\count171
+\c@paragraph=\count172
+\c@subparagraph=\count173
+\c@figure=\count174
+\c@table=\count175
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+) (/usr/local/texlive/2020basic/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip49
 For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
-(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsgen.sty
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks14
-\ex@=\dimen103
-)) (/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsbsy.sty
+\@emptytoks=\toks15
+\ex@=\dimen135
+)) (/usr/local/texlive/2020basic/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen104
-) (/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsopn.sty
+\pmbraise@=\dimen136
+) (/usr/local/texlive/2020basic/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count89
-LaTeX Info: Redefining \frac on input line 223.
-\uproot@=\count90
-\leftroot@=\count91
-LaTeX Info: Redefining \overline on input line 385.
-\classnum@=\count92
-\DOTSCASE@=\count93
-LaTeX Info: Redefining \ldots on input line 482.
-LaTeX Info: Redefining \dots on input line 485.
-LaTeX Info: Redefining \cdots on input line 606.
-\Mathstrutbox@=\box27
-\strutbox@=\box28
-\big@size=\dimen105
-LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
-\macc@depth=\count94
-\c@MaxMatrixCols=\count95
-\dotsspace@=\muskip10
-\c@parentequation=\count96
-\dspbrk@lvl=\count97
-\tag@help=\toks15
-\row@=\count98
-\column@=\count99
-\maxfields@=\count100
-\andhelp@=\toks16
-\eqnshift@=\dimen106
-\alignsep@=\dimen107
-\tagshift@=\dimen108
-\tagwidth@=\dimen109
-\totwidth@=\dimen110
-\lineht@=\dimen111
-\@envbody=\toks17
-\multlinegap=\skip44
-\multlinetaggap=\skip45
-\mathdisplay@stack=\toks18
-LaTeX Info: Redefining \[ on input line 2844.
-LaTeX Info: Redefining \] on input line 2845.
-) (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/amssymb.sty
+\inf@bad=\count176
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count177
+\leftroot@=\count178
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count179
+\DOTSCASE@=\count180
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box45
+\strutbox@=\box46
+\big@size=\dimen137
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count181
+\c@MaxMatrixCols=\count182
+\dotsspace@=\muskip16
+\c@parentequation=\count183
+\dspbrk@lvl=\count184
+\tag@help=\toks16
+\row@=\count185
+\column@=\count186
+\maxfields@=\count187
+\andhelp@=\toks17
+\eqnshift@=\dimen138
+\alignsep@=\dimen139
+\tagshift@=\dimen140
+\tagwidth@=\dimen141
+\totwidth@=\dimen142
+\lineht@=\dimen143
+\@envbody=\toks18
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+) (/usr/local/texlive/2020basic/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
-(/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/lmodern.sty
+)) (/usr/local/texlive/2020basic/texmf-dist/tex/latex/lm/lmodern.sty
 Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
@@ -117,221 +119,69 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
-) (/usr/local/texlive/2019/texmf-dist/tex/generic/ifxetex/ifxetex.sty
-Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
-) (/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-) (/usr/local/texlive/2019/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
-(/usr/local/texlive/2019/texmf-dist/tex/latex/base/t1enc.def
-File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
-)) (/usr/local/texlive/2019/texmf-dist/tex/latex/base/inputenc.sty
+) (/usr/local/texlive/2020basic/texmf-dist/tex/generic/iftex/ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+(/usr/local/texlive/2020basic/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+)) (/usr/local/texlive/2020basic/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+) (/usr/local/texlive/2020basic/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 11
+2.
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)) (/usr/local/texlive/2020basic/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2018/08/11 v1.3c Input encoding file
-\inpenc@prehook=\toks19
-\inpenc@posthook=\toks20
-) (/usr/local/texlive/2019/texmf-dist/tex/latex/base/textcomp.sty
-Package: textcomp 2018/08/11 v2.0j Standard LaTeX package
-Package textcomp Info: Sub-encoding information:
-(textcomp)               5 = only ISO-Adobe without \textcurrency
-(textcomp)               4 = 5 + \texteuro
-(textcomp)               3 = 4 + \textohm
-(textcomp)               2 = 3 + \textestimated + \textcurrency
-(textcomp)               1 = TS1 - \textcircled - \t
-(textcomp)               0 = TS1 (full)
-(textcomp)             Font families with sub-encoding setting implement
-(textcomp)             only a restricted character set as indicated.
-(textcomp)             Family '?' is the default used for unknown fonts.
-(textcomp)             See the documentation for details.
-Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
-(/usr/local/texlive/2019/texmf-dist/tex/latex/base/ts1enc.def
-File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
-Now handling font encoding TS1 ...
-... processing UTF-8 mapping file for font encoding TS1
-(/usr/local/texlive/2019/texmf-dist/tex/latex/base/ts1enc.dfu
-File: ts1enc.dfu 2018/10/05 v1.2f UTF-8 support for inputenc
-   defining Unicode char U+00A2 (decimal 162)
-   defining Unicode char U+00A3 (decimal 163)
-   defining Unicode char U+00A4 (decimal 164)
-   defining Unicode char U+00A5 (decimal 165)
-   defining Unicode char U+00A6 (decimal 166)
-   defining Unicode char U+00A7 (decimal 167)
-   defining Unicode char U+00A8 (decimal 168)
-   defining Unicode char U+00A9 (decimal 169)
-   defining Unicode char U+00AA (decimal 170)
-   defining Unicode char U+00AC (decimal 172)
-   defining Unicode char U+00AE (decimal 174)
-   defining Unicode char U+00AF (decimal 175)
-   defining Unicode char U+00B0 (decimal 176)
-   defining Unicode char U+00B1 (decimal 177)
-   defining Unicode char U+00B2 (decimal 178)
-   defining Unicode char U+00B3 (decimal 179)
-   defining Unicode char U+00B4 (decimal 180)
-   defining Unicode char U+00B5 (decimal 181)
-   defining Unicode char U+00B6 (decimal 182)
-   defining Unicode char U+00B7 (decimal 183)
-   defining Unicode char U+00B9 (decimal 185)
-   defining Unicode char U+00BA (decimal 186)
-   defining Unicode char U+00BC (decimal 188)
-   defining Unicode char U+00BD (decimal 189)
-   defining Unicode char U+00BE (decimal 190)
-   defining Unicode char U+00D7 (decimal 215)
-   defining Unicode char U+00F7 (decimal 247)
-   defining Unicode char U+0192 (decimal 402)
-   defining Unicode char U+02C7 (decimal 711)
-   defining Unicode char U+02D8 (decimal 728)
-   defining Unicode char U+02DD (decimal 733)
-   defining Unicode char U+0E3F (decimal 3647)
-   defining Unicode char U+2016 (decimal 8214)
-   defining Unicode char U+2020 (decimal 8224)
-   defining Unicode char U+2021 (decimal 8225)
-   defining Unicode char U+2022 (decimal 8226)
-   defining Unicode char U+2030 (decimal 8240)
-   defining Unicode char U+2031 (decimal 8241)
-   defining Unicode char U+203B (decimal 8251)
-   defining Unicode char U+203D (decimal 8253)
-   defining Unicode char U+2044 (decimal 8260)
-   defining Unicode char U+204E (decimal 8270)
-   defining Unicode char U+2052 (decimal 8274)
-   defining Unicode char U+20A1 (decimal 8353)
-   defining Unicode char U+20A4 (decimal 8356)
-   defining Unicode char U+20A6 (decimal 8358)
-   defining Unicode char U+20A9 (decimal 8361)
-   defining Unicode char U+20AB (decimal 8363)
-   defining Unicode char U+20AC (decimal 8364)
-   defining Unicode char U+20B1 (decimal 8369)
-   defining Unicode char U+2103 (decimal 8451)
-   defining Unicode char U+2116 (decimal 8470)
-   defining Unicode char U+2117 (decimal 8471)
-   defining Unicode char U+211E (decimal 8478)
-   defining Unicode char U+2120 (decimal 8480)
-   defining Unicode char U+2122 (decimal 8482)
-   defining Unicode char U+2126 (decimal 8486)
-   defining Unicode char U+2127 (decimal 8487)
-   defining Unicode char U+212E (decimal 8494)
-   defining Unicode char U+2190 (decimal 8592)
-   defining Unicode char U+2191 (decimal 8593)
-   defining Unicode char U+2192 (decimal 8594)
-   defining Unicode char U+2193 (decimal 8595)
-   defining Unicode char U+2329 (decimal 9001)
-   defining Unicode char U+232A (decimal 9002)
-   defining Unicode char U+2422 (decimal 9250)
-   defining Unicode char U+25E6 (decimal 9702)
-   defining Unicode char U+25EF (decimal 9711)
-   defining Unicode char U+266A (decimal 9834)
-   defining Unicode char U+FEFF (decimal 65279)
-))
-LaTeX Info: Redefining \oldstylenums on input line 334.
-Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
-Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
-Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
-Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
-Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
-Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
-Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
-Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
-Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
-Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
-Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
-Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
-Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
-Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
-Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
-Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
-Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
-Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
-Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
-Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
-Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
-Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
-Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
-Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
-
-Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
-Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
-Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
-Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
-Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
-Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
-Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
-Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
-Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
-Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
-Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
-Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
-Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
-Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
-Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
-Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
-Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
-Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
-Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
-Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
-Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
-Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
-Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
-Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
-Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
-Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
-Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
-Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
-Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
-Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
-Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
-Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
-Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
-Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
-Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
-Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
-Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
-) (/usr/local/texlive/2019/texmf-dist/tex/latex/upquote/upquote.sty
+\inpenc@prehook=\toks20
+\inpenc@posthook=\toks21
+) (/usr/local/texlive/2020basic/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+) (/usr/local/texlive/2020basic/texmf-dist/tex/latex/upquote/upquote.sty
 Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
 tim
-) (/usr/local/texlive/2019/texmf-dist/tex/latex/microtype/microtype.sty
-Package: microtype 2019/02/28 v2.7b Micro-typographical refinements (RS)
-(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty
+) (/usr/local/texlive/2020basic/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2019/11/18 v2.7d Micro-typographical refinements (RS)
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks21
+\KV@toks@=\toks22
 )
-\MT@toks=\toks22
-\MT@count=\count101
+\MT@toks=\toks23
+\MT@count=\count188
 LaTeX Info: Redefining \textls on input line 790.
-\MT@outer@kern=\dimen112
-LaTeX Info: Redefining \textmicrotypecontext on input line 1336.
-\MT@listname@count=\count102
-(/usr/local/texlive/2019/texmf-dist/tex/latex/microtype/microtype-pdftex.def
-File: microtype-pdftex.def 2019/02/28 v2.7b Definitions specific to pdftex (RS)
+\MT@outer@kern=\dimen144
+LaTeX Info: Redefining \textmicrotypecontext on input line 1354.
+\MT@listname@count=\count189
+
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/microtype/microtype-pdftex.d
+ef
+File: microtype-pdftex.def 2019/11/18 v2.7d Definitions specific to pdftex (RS)
 
 LaTeX Info: Redefining \lsstyle on input line 914.
 LaTeX Info: Redefining \lslig on input line 914.
-\MT@outer@space=\skip46
+\MT@outer@space=\skip52
 )
 Package microtype Info: Loading configuration file microtype.cfg.
-(/usr/local/texlive/2019/texmf-dist/tex/latex/microtype/microtype.cfg
-File: microtype.cfg 2019/02/28 v2.7b microtype main configuration file (RS)
-)) (/usr/local/texlive/2019/texmf-dist/tex/latex/parskip/parskip.sty
-Package: parskip 2019-01-16 v2.0c non-zero parskip adjustments
-(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
-(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-) (/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-) (/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-))) (/usr/local/texlive/2019/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count103
-)) (/usr/local/texlive/2019/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2019/11/18 v2.7d microtype main configuration file (RS)
+)) (/usr/local/texlive/2020basic/texmf-dist/tex/latex/parskip/parskip.sty
+Package: parskip 2020-01-22 v2.0d non-zero parskip adjustments
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+(/usr/local/texlive/2020basic/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+) (/usr/local/texlive/2020basic/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)) (/usr/local/texlive/2020basic/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count190
+)) (/usr/local/texlive/2020basic/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
-(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-cfg/color.cfg
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
-(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-def/pdftex.def
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 )
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
@@ -343,236 +193,233 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
-) (/usr/local/texlive/2019/texmf-dist/tex/latex/xurl/xurl.sty
-Package: xurl 2018/12/23 v 0.07 modify URL breaks
-(/usr/local/texlive/2019/texmf-dist/tex/latex/url/url.sty
-\Urlmuskip=\muskip11
-Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-)) (/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/bookmark.sty
-Package: bookmark 2016/05/17 v1.26 PDF bookmarks (HO)
-(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/pdfescape.sty
-Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
-(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+) (/usr/local/texlive/2020basic/texmf-dist/tex/latex/bookmark/bookmark.sty
+Package: bookmark 2019/12/03 v1.28 PDF bookmarks (HO)
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
 )
-(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+(/usr/local/texlive/2020basic/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
-Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-)) (/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ifvtex.sty
-Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
-Package ifvtex Info: VTeX not detected.
-) (/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2018/11/30 v6.88e Hypertext links for LaTeX
-(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
-Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
-
-(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
-Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
-Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
-Package hobsub Info: Skipping package `infwarerr' (already loaded).
-Package hobsub Info: Skipping package `ltxcmds' (already loaded).
-Package hobsub Info: Skipping package `ifluatex' (already loaded).
-Package hobsub Info: Skipping package `ifvtex' (already loaded).
-Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
-Package hobsub Info: Skipping package `ifpdf' (already loaded).
-Package hobsub Info: Skipping package `etexcmds' (already loaded).
-Package hobsub Info: Skipping package `kvsetkeys' (already loaded).
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-Package hobsub Info: Skipping package `pdftexcmds' (already loaded).
-Package hobsub Info: Skipping package `pdfescape' (already loaded).
-Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
 )
-Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
-Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+(/usr/local/texlive/2020basic/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.
+sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (/usr/local/texlive/2020basic/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (/usr/local/texlive/2020basic/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (/usr/local/texlive/2020basic/texmf-dist/tex/latex/letltxmacro/letltxmacro.st
+y
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+) (/usr/local/texlive/2020basic/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
-Package hobsub Info: Skipping package `hobsub' (already loaded).
-Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
-Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
-Package: xcolor-patch 2016/05/16 xcolor patch
-Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
-Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
-Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
-Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
-) (/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/auxhook.sty
-Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
-)
-\@linkdim=\dimen113
-\Hy@linkcounter=\count104
-\Hy@pagecounter=\count105
-(/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
+\@linkdim=\dimen145
+\Hy@linkcounter=\count191
+\Hy@pagecounter=\count192
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
+) (/usr/local/texlive/2020basic/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+) (/usr/local/texlive/2020basic/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count106
-(/usr/local/texlive/2019/texmf-dist/tex/latex/latexconfig/hyperref.cfg
-File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
-)
-Package hyperref Info: Option `unicode' set `true' on input line 4393.
-(/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2018/11/30 v6.88e Hyperref: PDF Unicode definition (HO)
+\Hy@SavedSpaceFactor=\count193
+Package hyperref Info: Option `unicode' set `true' on input line 4421.
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2020/01/14 v7.00d Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Hyper figures OFF on input line 4519.
-Package hyperref Info: Link nesting OFF on input line 4524.
-Package hyperref Info: Hyper index ON on input line 4527.
-Package hyperref Info: Plain pages OFF on input line 4534.
-Package hyperref Info: Backreferencing OFF on input line 4539.
+Package hyperref Info: Hyper figures OFF on input line 4547.
+Package hyperref Info: Link nesting OFF on input line 4552.
+Package hyperref Info: Hyper index ON on input line 4555.
+Package hyperref Info: Plain pages OFF on input line 4562.
+Package hyperref Info: Backreferencing OFF on input line 4567.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4772.
-\c@Hy@tempcnt=\count107
-LaTeX Info: Redefining \url on input line 5125.
-\XeTeXLinkMargin=\dimen114
-\Fld@menulength=\count108
-\Field@Width=\dimen115
-\Fld@charsize=\dimen116
-Package hyperref Info: Hyper figures OFF on input line 6380.
-Package hyperref Info: Link nesting OFF on input line 6385.
-Package hyperref Info: Hyper index ON on input line 6388.
-Package hyperref Info: backreferencing OFF on input line 6395.
-Package hyperref Info: Link coloring OFF on input line 6400.
-Package hyperref Info: Link coloring with OCG OFF on input line 6405.
-Package hyperref Info: PDF/A mode OFF on input line 6410.
-LaTeX Info: Redefining \ref on input line 6450.
-LaTeX Info: Redefining \pageref on input line 6454.
-\Hy@abspage=\count109
-\c@Item=\count110
-\c@Hfootnote=\count111
+Package hyperref Info: Bookmarks ON on input line 4800.
+\c@Hy@tempcnt=\count194
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5159.
+\XeTeXLinkMargin=\dimen146
+(/usr/local/texlive/2020basic/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+(/usr/local/texlive/2020basic/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count195
+\Field@Width=\dimen147
+\Fld@charsize=\dimen148
+Package hyperref Info: Hyper figures OFF on input line 6430.
+Package hyperref Info: Link nesting OFF on input line 6435.
+Package hyperref Info: Hyper index ON on input line 6438.
+Package hyperref Info: backreferencing OFF on input line 6445.
+Package hyperref Info: Link coloring OFF on input line 6450.
+Package hyperref Info: Link coloring with OCG OFF on input line 6455.
+Package hyperref Info: PDF/A mode OFF on input line 6460.
+LaTeX Info: Redefining \ref on input line 6500.
+LaTeX Info: Redefining \pageref on input line 6504.
+(/usr/local/texlive/2020basic/texmf-dist/tex/generic/atbegshi/atbegshi.sty
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+)
+\Hy@abspage=\count196
+\c@Item=\count197
+\c@Hfootnote=\count198
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
-(/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2018/11/30 v6.88e Hyperref driver for pdfTeX
-\Fld@listcount=\count112
-\c@bookmark@seq@number=\count113
-(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
-Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-82.
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2020/01/14 v7.00d Hyperref driver for pdfTeX
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/atveryend/atveryend.sty
+Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
 )
-\Hy@SectionHShift=\skip47
-) (/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/bkm-pdftex.def
-File: bkm-pdftex.def 2016/05/17 v1.26 bookmark driver for pdfTeX (HO)
-\BKM@id=\count114
-)) (/usr/local/texlive/2019/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
-Package: fancyvrb 2019/01/15
-Style option: `fancyvrb' v3.2a <2019/01/15> (tvz)
-\FV@CodeLineNo=\count115
-\FV@InFile=\read1
-\FV@TabBox=\box29
-\c@FancyVerbLine=\count116
-\FV@StepNumber=\count117
+\Fld@listcount=\count199
+\c@bookmark@seq@number=\count266
+
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/rerunfilecheck/rerunfilechec
+k.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(/usr/local/texlive/2020basic/texmf-dist/tex/generic/uniquecounter/uniquecounte
+r.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip53
+) (/usr/local/texlive/2020basic/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
+File: bkm-pdftex.def 2019/12/03 v1.28 bookmark driver for pdfTeX (HO)
+\BKM@id=\count267
+)) (/usr/local/texlive/2020basic/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2020/01/13 v3.5 verbatim text (tvz,hv)
+\FV@CodeLineNo=\count268
+\FV@InFile=\read2
+\FV@TabBox=\box47
+\c@FancyVerbLine=\count269
+\FV@StepNumber=\count270
 \FV@OutFile=\write3
-) (/usr/local/texlive/2019/texmf-dist/tex/latex/framed/framed.sty
+) (/usr/local/texlive/2020basic/texmf-dist/tex/latex/framed/framed.sty
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
-\OuterFrameSep=\skip48
-\fb@frw=\dimen117
-\fb@frh=\dimen118
-\FrameRule=\dimen119
-\FrameSep=\dimen120
-) (/usr/local/texlive/2019/texmf-dist/tex/latex/tools/longtable.sty
-Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)+ FMi change
-\LTleft=\skip49
-\LTright=\skip50
-\LTpre=\skip51
-\LTpost=\skip52
-\LTchunksize=\count118
-\LTcapwidth=\dimen121
-\LT@head=\box30
-\LT@firsthead=\box31
-\LT@foot=\box32
-\LT@lastfoot=\box33
-\LT@cols=\count119
-\LT@rows=\count120
-\c@LT@tables=\count121
-\c@LT@chunks=\count122
-\LT@p@ftn=\toks23
-) (/usr/local/texlive/2019/texmf-dist/tex/latex/booktabs/booktabs.sty
-Package: booktabs 2016/04/27 v1.618033 publication quality tables
-\heavyrulewidth=\dimen122
-\lightrulewidth=\dimen123
-\cmidrulewidth=\dimen124
-\belowrulesep=\dimen125
-\belowbottomsep=\dimen126
-\aboverulesep=\dimen127
-\abovetopsep=\dimen128
-\cmidrulesep=\dimen129
-\cmidrulekern=\dimen130
-\defaultaddspace=\dimen131
-\@cmidla=\count123
-\@cmidlb=\count124
-\@aboverulesep=\dimen132
-\@belowrulesep=\dimen133
-\@thisruleclass=\count125
-\@lastruleclass=\count126
-\@thisrulewidth=\dimen134
-) (/usr/local/texlive/2019/texmf-dist/tex/latex/tools/array.sty
-Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
-\col@sep=\dimen135
-\ar@mcellbox=\box34
-\extrarowheight=\dimen136
-\NC@list=\toks24
-\extratabsurround=\skip53
-\backup@length=\skip54
-\ar@cellbox=\box35
-) (/usr/local/texlive/2019/texmf-dist/tex/latex/tools/calc.sty
+\OuterFrameSep=\skip54
+\fb@frw=\dimen149
+\fb@frh=\dimen150
+\FrameRule=\dimen151
+\FrameSep=\dimen152
+) (/usr/local/texlive/2020basic/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
+\LTleft=\skip55
+\LTright=\skip56
+\LTpre=\skip57
+\LTpost=\skip58
+\LTchunksize=\count271
+\LTcapwidth=\dimen153
+\LT@head=\box48
+\LT@firsthead=\box49
+\LT@foot=\box50
+\LT@lastfoot=\box51
+\LT@cols=\count272
+\LT@rows=\count273
+\c@LT@tables=\count274
+\c@LT@chunks=\count275
+\LT@p@ftn=\toks24
+) (/usr/local/texlive/2020basic/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen154
+\lightrulewidth=\dimen155
+\cmidrulewidth=\dimen156
+\belowrulesep=\dimen157
+\belowbottomsep=\dimen158
+\aboverulesep=\dimen159
+\abovetopsep=\dimen160
+\cmidrulesep=\dimen161
+\cmidrulekern=\dimen162
+\defaultaddspace=\dimen163
+\@cmidla=\count276
+\@cmidlb=\count277
+\@aboverulesep=\dimen164
+\@belowrulesep=\dimen165
+\@thisruleclass=\count278
+\@lastruleclass=\count279
+\@thisrulewidth=\dimen166
+) (/usr/local/texlive/2020basic/texmf-dist/tex/latex/tools/array.sty
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen167
+\ar@mcellbox=\box52
+\extrarowheight=\dimen168
+\NC@list=\toks25
+\extratabsurround=\skip59
+\backup@length=\skip60
+\ar@cellbox=\box53
+) (/usr/local/texlive/2020basic/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count127
-\calc@Bcount=\count128
-\calc@Adimen=\dimen137
-\calc@Bdimen=\dimen138
-\calc@Askip=\skip55
-\calc@Bskip=\skip56
+\calc@Acount=\count280
+\calc@Bcount=\count281
+\calc@Adimen=\dimen169
+\calc@Bdimen=\dimen170
+\calc@Askip=\skip61
+\calc@Bskip=\skip62
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count129
-\calc@Cskip=\skip57
-) (/usr/local/texlive/2019/texmf-dist/tex/latex/footnotehyper/footnotehyper.sty
-Package: footnotehyper 2018/01/23 v1.1 hyperref aware footnote.sty (JFB)
-\FNH@notes=\box36
-\FNH@width=\dimen139
-) (/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
-(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
-(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/trig.sty
+\calc@Ccount=\count282
+\calc@Cskip=\skip63
+)
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/footnotehyper/footnotehyper.
+sty
+Package: footnotehyper 2019/11/07 v1.1a hyperref aware footnote.sty (JFB)
+\FNH@notes=\box54
+\FNH@width=\dimen171
+) (/usr/local/texlive/2020basic/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-) (/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+) (/usr/local/texlive/2020basic/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 99.
+Package graphics Info: Driver file: pdftex.def on input line 105.
 )
-\Gin@req@height=\dimen140
-\Gin@req@width=\dimen141
-) (/usr/local/texlive/2019/texmf-dist/tex/latex/amscls/amsthm.sty
+\Gin@req@height=\dimen172
+\Gin@req@width=\dimen173
+) (/usr/local/texlive/2020basic/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2017/10/31 v2.20.4
-\thm@style=\toks25
-\thm@bodyfont=\toks26
-\thm@headfont=\toks27
-\thm@notefont=\toks28
-\thm@headpunct=\toks29
-\thm@preskip=\skip58
-\thm@postskip=\skip59
-\thm@headsep=\skip60
-\dth@everypar=\toks30
-) (/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf.sty
-Package: epstopdf 2016/05/15 v2.6 Conversion with epstopdf on the fly (HO)
-(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
-(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+\thm@style=\toks26
+\thm@bodyfont=\toks27
+\thm@headfont=\toks28
+\thm@notefont=\toks29
+\thm@headpunct=\toks30
+\thm@preskip=\skip64
+\thm@postskip=\skip65
+\thm@headsep=\skip66
+\dth@everypar=\toks31
+) (/usr/local/texlive/2020basic/texmf-dist/tex/latex/epstopdf-pkg/epstopdf.sty
+Package: epstopdf 2020-01-24 v2.11 Conversion with epstopdf on the fly (HO)
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
 )
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.s
+ty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-38.
+85.
 Package grfext Info: Graphics extension search list:
 (grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 456.
-(/usr/local/texlive/2019/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(grfext)             \AppendGraphicsExtensions on input line 504.
+
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 )))
@@ -580,80 +427,81 @@ Package grfext Info: Graphics extension search list:
 (grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps,.gif]
 (grfext)             \AppendGraphicsExtensions on input line 123.
-(/usr/local/texlive/2019/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2019/05/04 3.31 The Babel package
-(/usr/local/texlive/2019/texmf-dist/tex/generic/babel/switch.def
-File: switch.def 2019/05/04 3.31 Babel switching mechanism
-) (/usr/local/texlive/2019/texmf-dist/tex/generic/babel-french/french.ldf
-Language: french 2019/03/30 v3.5e French support from the babel system
-(/usr/local/texlive/2019/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2019/05/04 3.31 Babel common definitions
-\babel@savecnt=\count130
-\U@D=\dimen142
-(/usr/local/texlive/2019/texmf-dist/tex/generic/babel/txtbabel.def)
-\bbl@dirlevel=\count131
+(/usr/local/texlive/2020basic/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2020/03/22 3.42 The Babel package
+(/usr/local/texlive/2020basic/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2020/03/22 3.42 Babel switching mechanism
+) (/usr/local/texlive/2020basic/texmf-dist/tex/generic/babel-french/french.ldf
+Language: french 2020/01/30 v3.5g French support from the babel system
+(/usr/local/texlive/2020basic/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2020/03/22 3.42 Babel common definitions
+\babel@savecnt=\count283
+\U@D=\dimen174
+(/usr/local/texlive/2020basic/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read3
+\bbl@dirlevel=\count284
 )
-\l@acadian = a dialect from \language\l@french 
-\FB@nonchar=\count132
-Package babel Info: Making : an active character on input line 414.
-Package babel Info: Making ; an active character on input line 415.
-Package babel Info: Making ! an active character on input line 416.
-Package babel Info: Making ? an active character on input line 417.
-\FBguill@level=\count133
-\FBold@everypar=\toks31
-\FB@Mht=\dimen143
-\mc@charclass=\count134
-\mc@charfam=\count135
-\mc@charslot=\count136
-\std@mcc=\count137
-\dec@mcc=\count138
-\c@FBcaption@count=\count139
-\listindentFB=\dimen144
-\descindentFB=\dimen145
-\labelindentFB=\dimen146
-\labelwidthFB=\dimen147
-\leftmarginFB=\dimen148
-\parindentFFN=\dimen149
-\FBfnindent=\dimen150
-) (/usr/local/texlive/2019/texmf-dist/tex/generic/babel-french/french.ldf
-Language: french 2019/03/30 v3.5e French support from the babel system
-)) (/usr/local/texlive/2019/texmf-dist/tex/latex/carlisle/scalefnt.sty) (/usr/l
-ocal/texlive/2019/texmf-dist/tex/latex/natbib/natbib.sty
+Package babel Info: \l@acadian = using hyphenrules for french
+(babel)             (\language10) on input line 91.
+Package babel Info: \l@canadien = using hyphenrules for french
+(babel)             (\language10) on input line 92.
+\FB@nonchar=\count285
+Package babel Info: Making : an active character on input line 419.
+Package babel Info: Making ; an active character on input line 420.
+Package babel Info: Making ! an active character on input line 421.
+Package babel Info: Making ? an active character on input line 422.
+\FBguill@level=\count286
+\FBold@everypar=\toks32
+\FB@Mht=\dimen175
+\mc@charclass=\count287
+\mc@charfam=\count288
+\mc@charslot=\count289
+\std@mcc=\count290
+\dec@mcc=\count291
+\c@FBcaption@count=\count292
+\listindentFB=\dimen176
+\descindentFB=\dimen177
+\labelindentFB=\dimen178
+\labelwidthFB=\dimen179
+\leftmarginFB=\dimen180
+\parindentFFN=\dimen181
+\FBfnindent=\dimen182
+) (/usr/local/texlive/2020basic/texmf-dist/tex/generic/babel-french/french.ldf
+Language: french 2020/01/30 v3.5g French support from the babel system
+)) (/usr/local/texlive/2020basic/texmf-dist/tex/latex/carlisle/scalefnt.sty) (/
+usr/local/texlive/2020basic/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip61
-\bibsep=\skip62
+\bibhang=\skip67
+\bibsep=\skip68
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count140
+\c@NAT@ctr=\count293
+)
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.
+def
+File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count294
+\l__pdf_internal_box=\box55
 ) (./traitement-video.aux)
 \openout1 = `traitement-video.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 146.
 LaTeX Font Info:    ... okay on input line 146.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 146.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 146.
 LaTeX Font Info:    ... okay on input line 146.
 LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 146.
 LaTeX Font Info:    ... okay on input line 146.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 146.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 146.
 LaTeX Font Info:    ... okay on input line 146.
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 146.
 LaTeX Font Info:    ... okay on input line 146.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 146.
 LaTeX Font Info:    ... okay on input line 146.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 146.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 146.
-
-(/usr/local/texlive/2019/texmf-dist/tex/latex/base/ts1cmr.fd
-File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    ... okay on input line 146.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 146.
 LaTeX Font Info:    ... okay on input line 146.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 146.
 LaTeX Font Info:    ... okay on input line 146.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 146.
-(/usr/local/texlive/2019/texmf-dist/tex/latex/lm/t1lmr.fd
-File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
 LaTeX Info: Redefining \microtypecontext on input line 146.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
@@ -661,34 +509,39 @@ Package microtype Info: Using protrusion set `basicmath'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `basictext'.
+LaTeX Info: Redefining \showhyphens on input line 146.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
-(/usr/local/texlive/2019/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
-) (/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+) (/usr/local/texlive/2020basic/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count141
-\scratchdimen=\dimen151
-\scratchbox=\box37
-\nofMPsegments=\count142
-\nofMParguments=\count143
-\everyMPshowfont=\toks32
-\MPscratchCnt=\count144
-\MPscratchDim=\dimen152
-\MPnumerator=\count145
-\makeMPintoPDFobject=\count146
-\everyMPtoPDFconversion=\toks33
+\scratchcounter=\count295
+\scratchdimen=\dimen183
+\scratchbox=\box56
+\nofMPsegments=\count296
+\nofMParguments=\count297
+\everyMPshowfont=\toks33
+\MPscratchCnt=\count298
+\MPscratchDim=\dimen184
+\MPnumerator=\count299
+\makeMPintoPDFobject=\count300
+\everyMPtoPDFconversion=\toks34
 )
-\AtBeginShipoutBox=\box38
+\AtBeginShipoutBox=\box57
 Package hyperref Info: Link coloring OFF on input line 146.
-(/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
-(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
-Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
-\c@section@level=\count147
+(/usr/local/texlive/2020basic/texmf-dist/tex/generic/gettitlestring/gettitlestr
+ing.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count301
 )
 LaTeX Info: Redefining \ref on input line 146.
 LaTeX Info: Redefining \pageref on input line 146.
@@ -700,24 +553,24 @@ Package french.ldf Warning: Please load the "natbib" package
 (french.ldf)                BEFORE babel/french; reported on input line 146.
 
 LaTeX Info: Redefining \up on input line 146.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 148.
-
-(/usr/local/texlive/2019/texmf-dist/tex/latex/lm/ot1lmr.fd
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
+48.
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 148.
-
-(/usr/local/texlive/2019/texmf-dist/tex/latex/lm/omllmm.fd
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
+48.
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 148
-.
-(/usr/local/texlive/2019/texmf-dist/tex/latex/lm/omslmsy.fd
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+148.
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 148
-.
-(/usr/local/texlive/2019/texmf-dist/tex/latex/lm/omxlmex.fd
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+148.
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -726,21 +579,23 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 148.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 148.
-LaTeX Font Info:    Try loading font information for U+msa on input line 148.
-(/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
+LaTeX Font Info:    Trying to load font information for U+msa on input line 148
+.
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-) (/usr/local/texlive/2019/texmf-dist/tex/latex/microtype/mt-msa.cfg
+) (/usr/local/texlive/2020basic/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 148.
-(/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
+LaTeX Font Info:    Trying to load font information for U+msb on input line 148
+.
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (/usr/local/texlive/2019/texmf-dist/tex/latex/microtype/mt-msb.cfg
+) (/usr/local/texlive/2020basic/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 ) [1
 
 
-{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2
+{/usr/local/texlive/2020basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2
 
 ] (./traitement-video.toc
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -754,7 +609,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 \openout4 = `traitement-video.toc'.
 
 [6]
-<images/vectorscope.jpg, id=320, 3001.2125pt x 2789.42125pt>
+<images/vectorscope.jpg, id=322, 3001.2125pt x 2789.42125pt>
 File: images/vectorscope.jpg Graphic file (type jpg)
 <use images/vectorscope.jpg>
 Package pdftex.def Info: images/vectorscope.jpg  used on input line 159.
@@ -828,16 +683,19 @@ Overfull \hbox (3.21313pt too wide) in alignment at lines 553--650
  [] [] [] 
  []
 
-[15] [16] [17] [18] [19] [20]
-Chapitre 3.
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 937.
+[15] [16]
+Underfull \vbox (badness 1194) has occurred while \output is active []
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/lm/t1lmtt.fd
+[17] [18] [19] [20]
+Chapitre 3.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 9
+37.
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for TS1+lmtt on input line 938
-.
-(/usr/local/texlive/2019/texmf-dist/tex/latex/lm/ts1lmtt.fd
+LaTeX Font Info:    Trying to load font information for TS1+lmtt on input line 
+938.
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/lm/ts1lmtt.fd
 File: ts1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [21
 
@@ -851,6 +709,12 @@ Package hyperref Warning: Suppressing link with empty target on input line 1041
 .
 
 [22]
+Overfull \hbox (116.10423pt too wide) in paragraph at lines 1120--1121
+[][]$\T1/lmr/m/n/10 (-20) https : / / derapage . ca / ?fbclid = IwAR1VeYPaM7V9x
+1IoA0 _ eM9vtRQpD9VERCpwDl4oRTxOXK _
+ []
+
+
 Overfull \hbox (102.98495pt too wide) has occurred while \output is active
 \T1/lmr/m/sl/10 3.5.  PERFORMANCE AUDIOVISUELLE TEMPS RÉEL ET DOCUMENT ACCOMPAG
 NATEUR \T1/lmr/m/n/10 23
@@ -858,7 +722,7 @@ NATEUR \T1/lmr/m/n/10 23
 
 [23] [24]
 Chapitre 4.
-<medias/corpus/muybridge/Optic_Projection_fig_411.jpg, id=737, 105.18504pt x 12
+<medias/corpus/muybridge/Optic_Projection_fig_411.jpg, id=739, 105.18504pt x 12
 5.93584pt>
 File: medias/corpus/muybridge/Optic_Projection_fig_411.jpg Graphic file (type j
 pg)
@@ -868,18 +732,18 @@ used on input line 1201.
 (pdftex.def)             Requested size: 172.5206pt x 206.5553pt.
 Package epstopdf Info: Source file: <medias/corpus/muybridge/Zoopraxiscope_1648
 5d.gif>
-(epstopdf)                    date: 2021-02-22 11:22:58
+(epstopdf)                    date: 2021-03-03 10:12:58
 (epstopdf)                    size: 152044 bytes
 (epstopdf)             Output file: <medias/corpus/muybridge/Zoopraxiscope_1648
 5d-gif-converted-to.png>
-(epstopdf)                    date: 2021-02-22 11:22:58
+(epstopdf)                    date: 2021-03-03 10:12:58
 (epstopdf)                    size: 203489 bytes
 (epstopdf)             Command: <convert gif:medias/corpus/muybridge/Zoopraxisc
 ope_16485d.gif.gifpng:medias/corpus/muybridge/Zoopraxiscope_16485d-gif-converte
 d-to.png>
 (epstopdf)             \includegraphics on input line 1207.
 Package epstopdf Info: Output file is already uptodate.
-<medias/corpus/muybridge/Zoopraxiscope_16485d-gif-converted-to.png, id=738, 200
+<medias/corpus/muybridge/Zoopraxiscope_16485d-gif-converted-to.png, id=740, 200
 .75pt x 200.75pt>
 File: medias/corpus/muybridge/Zoopraxiscope_16485d-gif-converted-to.png Graphic
  file (type png)
@@ -889,17 +753,17 @@ rted-to.png  used on input line 1207.
 (pdftex.def)             Requested size: 172.51297pt x 172.51297pt.
 Package epstopdf Info: Source file: <medias/corpus/muybridge/Phenakistoscope.gi
 f>
-(epstopdf)                    date: 2021-02-22 11:22:58
+(epstopdf)                    date: 2021-03-03 10:12:58
 (epstopdf)                    size: 3054205 bytes
 (epstopdf)             Output file: <medias/corpus/muybridge/Phenakistoscope-gi
 f-converted-to.png>
-(epstopdf)                    date: 2021-02-22 11:22:58
+(epstopdf)                    date: 2021-03-03 10:12:58
 (epstopdf)                    size: 215391 bytes
 (epstopdf)             Command: <convert gif:medias/corpus/muybridge/Phenakisto
 scope.gif.gifpng:medias/corpus/muybridge/Phenakistoscope-gif-converted-to.png>
 (epstopdf)             \includegraphics on input line 1213.
 Package epstopdf Info: Output file is already uptodate.
-<medias/corpus/muybridge/Phenakistoscope-gif-converted-to.png, id=740, 803.0pt 
+<medias/corpus/muybridge/Phenakistoscope-gif-converted-to.png, id=742, 803.0pt 
 x 803.0pt>
 File: medias/corpus/muybridge/Phenakistoscope-gif-converted-to.png Graphic file
  (type png)
@@ -907,7 +771,7 @@ File: medias/corpus/muybridge/Phenakistoscope-gif-converted-to.png Graphic file
 Package pdftex.def Info: medias/corpus/muybridge/Phenakistoscope-gif-converted-
 to.png  used on input line 1213.
 (pdftex.def)             Requested size: 172.4946pt x 172.4946pt.
-<medias/corpus/muybridge/3695958436_43ae8a57db_b.jpg, id=741, 1027.84pt x 791.9
+<medias/corpus/muybridge/3695958436_43ae8a57db_b.jpg, id=743, 1027.84pt x 791.9
 5876pt>
 File: medias/corpus/muybridge/3695958436_43ae8a57db_b.jpg Graphic file (type jp
 g)
@@ -921,7 +785,7 @@ sed on input line 1219.
 /muybridge/Zoopraxiscope_16485d-gif-converted-to.png> <./medias/corpus/muybridg
 e/Phenakistoscope-gif-converted-to.png>] [27 <./medias/corpus/muybridge/3695958
 436_43ae8a57db_b.jpg>]
-<medias/corpus/melies/George_Melies.jpg, id=770, 1995.455pt x 2810.5pt>
+<medias/corpus/melies/George_Melies.jpg, id=772, 1995.455pt x 2810.5pt>
 File: medias/corpus/melies/George_Melies.jpg Graphic file (type jpg)
 <use medias/corpus/melies/George_Melies.jpg>
 Package pdftex.def Info: medias/corpus/melies/George_Melies.jpg  used on input 
@@ -929,18 +793,18 @@ line 1238.
 (pdftex.def)             Requested size: 172.48878pt x 242.94194pt.
 Package epstopdf Info: Source file: <medias/corpus/melies/voyage_dans_la_lune.g
 if>
-(epstopdf)                    date: 2021-02-22 11:22:58
+(epstopdf)                    date: 2021-03-03 10:12:58
 (epstopdf)                    size: 1383436 bytes
 (epstopdf)             Output file: <medias/corpus/melies/voyage_dans_la_lune-g
 if-converted-to.png>
-(epstopdf)                    date: 2021-02-22 11:22:58
+(epstopdf)                    date: 2021-03-03 10:12:58
 (epstopdf)                    size: 62172 bytes
 (epstopdf)             Command: <convert gif:medias/corpus/melies/voyage_dans_l
 a_lune.gif.gifpng:medias/corpus/melies/voyage_dans_la_lune-gif-converted-to.png
 >
 (epstopdf)             \includegraphics on input line 1244.
 Package epstopdf Info: Output file is already uptodate.
-<medias/corpus/melies/voyage_dans_la_lune-gif-converted-to.png, id=771, 495.852
+<medias/corpus/melies/voyage_dans_la_lune-gif-converted-to.png, id=773, 495.852
 5pt x 387.4475pt>
 File: medias/corpus/melies/voyage_dans_la_lune-gif-converted-to.png Graphic fil
 e (type png)
@@ -949,17 +813,17 @@ Package pdftex.def Info: medias/corpus/melies/voyage_dans_la_lune-gif-converted
 -to.png  used on input line 1244.
 (pdftex.def)             Requested size: 172.49928pt x 134.78688pt.
 Package epstopdf Info: Source file: <medias/corpus/melies/sirene_1904.gif>
-(epstopdf)                    date: 2021-02-22 11:22:58
+(epstopdf)                    date: 2021-03-03 10:12:58
 (epstopdf)                    size: 1020461 bytes
 (epstopdf)             Output file: <medias/corpus/melies/sirene_1904-gif-conve
 rted-to.png>
-(epstopdf)                    date: 2021-02-22 11:22:58
+(epstopdf)                    date: 2021-03-03 10:12:58
 (epstopdf)                    size: 78305 bytes
 (epstopdf)             Command: <convert gif:medias/corpus/melies/sirene_1904.g
 if.gifpng:medias/corpus/melies/sirene_1904-gif-converted-to.png>
 (epstopdf)             \includegraphics on input line 1250.
 Package epstopdf Info: Output file is already uptodate.
-<medias/corpus/melies/sirene_1904-gif-converted-to.png, id=772, 501.875pt x 385
+<medias/corpus/melies/sirene_1904-gif-converted-to.png, id=774, 501.875pt x 385
 .44pt>
 File: medias/corpus/melies/sirene_1904-gif-converted-to.png Graphic file (type 
 png)
@@ -968,29 +832,29 @@ Package pdftex.def Info: medias/corpus/melies/sirene_1904-gif-converted-to.png
  used on input line 1250.
 (pdftex.def)             Requested size: 172.50378pt x 132.48291pt.
 Package epstopdf Info: Source file: <medias/corpus/melies/b25.gif>
-(epstopdf)                    date: 2021-02-22 11:22:58
+(epstopdf)                    date: 2021-03-03 10:12:58
 (epstopdf)                    size: 1005007 bytes
 (epstopdf)             Output file: <medias/corpus/melies/b25-gif-converted-to.
 png>
-(epstopdf)                    date: 2021-02-22 11:22:58
+(epstopdf)                    date: 2021-03-03 10:12:58
 (epstopdf)                    size: 98523 bytes
 (epstopdf)             Command: <convert gif:medias/corpus/melies/b25.gif.gifpn
 g:medias/corpus/melies/b25-gif-converted-to.png>
 (epstopdf)             \includegraphics on input line 1256.
 Package epstopdf Info: Output file is already uptodate.
-<medias/corpus/melies/b25-gif-converted-to.png, id=773, 481.8pt x 347.2975pt>
+<medias/corpus/melies/b25-gif-converted-to.png, id=775, 481.8pt x 347.2975pt>
 File: medias/corpus/melies/b25-gif-converted-to.png Graphic file (type png)
 <use medias/corpus/melies/b25-gif-converted-to.png>
 Package pdftex.def Info: medias/corpus/melies/b25-gif-converted-to.png  used on
  input line 1256.
 (pdftex.def)             Requested size: 172.4995pt x 124.34338pt.
-<medias/corpus/vertov/Dziga-Vertov.jpg, id=776, 501.875pt x 402.50375pt>
+<medias/corpus/vertov/Dziga-Vertov.jpg, id=778, 501.875pt x 402.50375pt>
 File: medias/corpus/vertov/Dziga-Vertov.jpg Graphic file (type jpg)
 <use medias/corpus/vertov/Dziga-Vertov.jpg>
 Package pdftex.def Info: medias/corpus/vertov/Dziga-Vertov.jpg  used on input l
 ine 1273.
 (pdftex.def)             Requested size: 345.01523pt x 276.70221pt.
-<medias/corpus/vertov/ManWAMovieCamera_1929_DzigaVertov.jpg, id=777, 144.54pt x
+<medias/corpus/vertov/ManWAMovieCamera_1929_DzigaVertov.jpg, id=779, 144.54pt x
  154.8987pt>
 File: medias/corpus/vertov/ManWAMovieCamera_1929_DzigaVertov.jpg Graphic file (
 type jpg)
@@ -998,15 +862,21 @@ type jpg)
 Package pdftex.def Info: medias/corpus/vertov/ManWAMovieCamera_1929_DzigaVertov
 .jpg  used on input line 1279.
 (pdftex.def)             Requested size: 144.54623pt x 154.90538pt.
-<medias/corpus/vertov/bild.jpg, id=778, 481.8pt x 358.33875pt>
+<medias/corpus/vertov/bild.jpg, id=780, 481.8pt x 358.33875pt>
 File: medias/corpus/vertov/bild.jpg Graphic file (type jpg)
 <use medias/corpus/vertov/bild.jpg>
 Package pdftex.def Info: medias/corpus/vertov/bild.jpg  used on input line 1285
 .
 (pdftex.def)             Requested size: 345.00635pt x 256.59848pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1286--1286
+[]\T1/lmr/m/sc/10 (+20) Figure \T1/lmr/m/n/10 (+20) 4.11 ^^U [][]$http : / / ww
+w . medienkunstnetz . de / works / der -[] mann -[] mit -[]
+ []
+
 <medias/corpus/boccioni/Umberto_Boccioni,_1913,_Dynamism_of_a_Cyclist_(Dinamism
 o_di_un_ciclista),_oil_on_canvas,_70_x_95_cm,_Gianni_Mattioli_Collection,_on_lo
-ng-term_loan_to_the_Peggy_Guggenheim_Collection,_Venice.jpg, id=783, 3490.03876
+ng-term_loan_to_the_Peggy_Guggenheim_Collection,_Venice.jpg, id=785, 3490.03876
 pt x 2529.45pt>
 File: medias/corpus/boccioni/Umberto_Boccioni,_1913,_Dynamism_of_a_Cyclist_(Din
 amismo_di_un_ciclista),_oil_on_canvas,_70_x_95_cm,_Gianni_Mattioli_Collection,_
@@ -1020,14 +890,14 @@ m_of_a_Cyclist_(Dinamismo_di_un_ciclista),_oil_on_canvas,_70_x_95_cm,_Gianni_Ma
 ttioli_Collection,_on_long-term_loan_to_the_Peggy_Guggenheim_Collection,_Venice
 .jpg  used on input line 1305.
 (pdftex.def)             Requested size: 344.97705pt x 250.0265pt.
-<medias/corpus/bragaglia/Bragaglia_a_giulio.jpg, id=786, 372.1905pt x 474.3321p
+<medias/corpus/bragaglia/Bragaglia_a_giulio.jpg, id=788, 372.1905pt x 474.3321p
 t>
 File: medias/corpus/bragaglia/Bragaglia_a_giulio.jpg Graphic file (type jpg)
 <use medias/corpus/bragaglia/Bragaglia_a_giulio.jpg>
 Package pdftex.def Info: medias/corpus/bragaglia/Bragaglia_a_giulio.jpg  used o
 n input line 1314.
 (pdftex.def)             Requested size: 172.49887pt x 219.83838pt.
-<medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-02.jpg, id=787, 70
+<medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-02.jpg, id=789, 70
 2.625pt x 532.99126pt>
 File: medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-02.jpg Graphi
 c file (type jpg)
@@ -1035,7 +905,7 @@ c file (type jpg)
 Package pdftex.def Info: medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodin
 amica-02.jpg  used on input line 1320.
 (pdftex.def)             Requested size: 258.75568pt x 196.28467pt.
-<medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-04.jpg, id=788, 70
+<medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-04.jpg, id=790, 70
 2.625pt x 562.1pt>
 File: medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-04.jpg Graphi
 c file (type jpg)
@@ -1043,7 +913,7 @@ c file (type jpg)
 Package pdftex.def Info: medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodin
 amica-04.jpg  used on input line 1326.
 (pdftex.def)             Requested size: 258.75568pt x 207.00455pt.
-<medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-05.jpg, id=789, 70
+<medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-05.jpg, id=791, 70
 2.625pt x 736.7525pt>
 File: medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-05.jpg Graphi
 c file (type jpg)
@@ -1051,7 +921,7 @@ c file (type jpg)
 Package pdftex.def Info: medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodin
 amica-05.jpg  used on input line 1332.
 (pdftex.def)             Requested size: 258.75568pt x 271.32382pt.
-<medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-06.jpg, id=790, 70
+<medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-06.jpg, id=792, 70
 2.625pt x 751.80875pt>
 File: medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-06.jpg Graphi
 c file (type jpg)
@@ -1059,7 +929,7 @@ c file (type jpg)
 Package pdftex.def Info: medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodin
 amica-06.jpg  used on input line 1338.
 (pdftex.def)             Requested size: 258.75568pt x 276.86858pt.
-<medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-07.jpg, id=791, 70
+<medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-07.jpg, id=793, 70
 2.625pt x 739.76375pt>
 File: medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-07.jpg Graphi
 c file (type jpg)
@@ -1067,7 +937,7 @@ c file (type jpg)
 Package pdftex.def Info: medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodin
 amica-07.jpg  used on input line 1344.
 (pdftex.def)             Requested size: 258.75568pt x 272.43277pt.
-<medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-08.jpg, id=792, 70
+<medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-08.jpg, id=794, 70
 2.625pt x 533.995pt>
 File: medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-08.jpg Graphi
 c file (type jpg)
@@ -1075,7 +945,7 @@ c file (type jpg)
 Package pdftex.def Info: medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodin
 amica-08.jpg  used on input line 1350.
 (pdftex.def)             Requested size: 258.75568pt x 196.65431pt.
-<medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-09.jpg, id=793, 70
+<medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-09.jpg, id=795, 70
 2.625pt x 516.93124pt>
 File: medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-09.jpg Graphi
 c file (type jpg)
@@ -1083,7 +953,7 @@ c file (type jpg)
 Package pdftex.def Info: medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodin
 amica-09.jpg  used on input line 1356.
 (pdftex.def)             Requested size: 258.75568pt x 190.37025pt.
-<medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-11.jpg, id=794, 70
+<medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-11.jpg, id=796, 70
 2.625pt x 495.8525pt>
 File: medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-11.jpg Graphi
 c file (type jpg)
@@ -1091,7 +961,7 @@ c file (type jpg)
 Package pdftex.def Info: medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodin
 amica-11.jpg  used on input line 1362.
 (pdftex.def)             Requested size: 258.75568pt x 182.60757pt.
-<medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-12.jpg, id=795, 70
+<medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-12.jpg, id=797, 70
 2.625pt x 466.74374pt>
 File: medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-12.jpg Graphi
 c file (type jpg)
@@ -1099,7 +969,7 @@ c file (type jpg)
 Package pdftex.def Info: medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodin
 amica-12.jpg  used on input line 1368.
 (pdftex.def)             Requested size: 258.75568pt x 171.8877pt.
-<medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-13.jpg, id=796, 70
+<medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-13.jpg, id=798, 70
 2.625pt x 504.88625pt>
 File: medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-13.jpg Graphi
 c file (type jpg)
@@ -1107,6 +977,12 @@ c file (type jpg)
 Package pdftex.def Info: medias/corpus/bragaglia/Anton-Giulio-Bragaglia-fotodin
 amica-13.jpg  used on input line 1374.
 (pdftex.def)             Requested size: 258.75568pt x 185.93443pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1381--1383
+[][]$\T1/lmr/m/n/10 (+20) https : / / www . italianways . com / past -[] and -[
+] futurism -[] in -[] bragaglias -[]
+ []
+
 [28 <./medias/corpus/melies/George_Melies.jpg>] [29 <./medias/corpus/melies/voy
 age_dans_la_lune-gif-converted-to.png> <./medias/corpus/melies/sirene_1904-gif-
 converted-to.png> <./medias/corpus/melies/b25-gif-converted-to.png>] [30 <./med
@@ -1126,7 +1002,7 @@ orpus/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-11.jpg>] [38 <./medias/corp
 us/bragaglia/Anton-Giulio-Bragaglia-fotodinamica-12.jpg> <./medias/corpus/braga
 glia/Anton-Giulio-Bragaglia-fotodinamica-13.jpg>]
 <medias/corpus/duchamp/MarcelduchampEcologie_portrait_duchamp_20140916163736_20
-140916163758.jpg, id=874, 803.0pt x 519.9425pt>
+140916163758.jpg, id=876, 803.0pt x 519.9425pt>
 File: medias/corpus/duchamp/MarcelduchampEcologie_portrait_duchamp_201409161637
 36_20140916163758.jpg Graphic file (type jpg)
 <use medias/corpus/duchamp/MarcelduchampEcologie_portrait_duchamp_2014091616373
@@ -1135,7 +1011,7 @@ Package pdftex.def Info: medias/corpus/duchamp/MarcelduchampEcologie_portrait_d
 uchamp_20140916163736_20140916163758.jpg  used on input line 1391.
 (pdftex.def)             Requested size: 258.75415pt x 167.54332pt.
 <medias/corpus/duchamp/MarcelduchampEcologie_duchamp_rotoreliefs_1935_201409170
-95658_20140917095757.jpg, id=875, 481.8pt x 334.24875pt>
+95658_20140917095757.jpg, id=877, 481.8pt x 334.24875pt>
 File: medias/corpus/duchamp/MarcelduchampEcologie_duchamp_rotoreliefs_1935_2014
 0917095658_20140917095757.jpg Graphic file (type jpg)
 <use medias/corpus/duchamp/MarcelduchampEcologie_duchamp_rotoreliefs_1935_20140
@@ -1144,7 +1020,7 @@ Package pdftex.def Info: medias/corpus/duchamp/MarcelduchampEcologie_duchamp_ro
 toreliefs_1935_20140917095658_20140917095757.jpg  used on input line 1397.
 (pdftex.def)             Requested size: 345.00635pt x 239.34814pt.
 <medias/corpus/duchamp/MarcelduchampEcologie_ducha_rotative_plaque_verre_201409
-17224650_20140917225046.jpg, id=876, 481.8pt x 361.35pt>
+17224650_20140917225046.jpg, id=878, 481.8pt x 361.35pt>
 File: medias/corpus/duchamp/MarcelduchampEcologie_ducha_rotative_plaque_verre_2
 0140917224650_20140917225046.jpg Graphic file (type jpg)
 <use medias/corpus/duchamp/MarcelduchampEcologie_ducha_rotative_plaque_verre_20
@@ -1152,7 +1028,7 @@ File: medias/corpus/duchamp/MarcelduchampEcologie_ducha_rotative_plaque_verre_2
 Package pdftex.def Info: medias/corpus/duchamp/MarcelduchampEcologie_ducha_rota
 tive_plaque_verre_20140917224650_20140917225046.jpg  used on input line 1403.
 (pdftex.def)             Requested size: 345.00635pt x 258.75476pt.
-<medias/corpus/brakhage/Stan_Brakhage_(circa_1976).jpg, id=879, 1586.92876pt x 
+<medias/corpus/brakhage/Stan_Brakhage_(circa_1976).jpg, id=881, 1586.92876pt x 
 2124.93875pt>
 File: medias/corpus/brakhage/Stan_Brakhage_(circa_1976).jpg Graphic file (type 
 jpg)
@@ -1162,7 +1038,7 @@ Package pdftex.def Info: medias/corpus/brakhage/Stan_Brakhage_(circa_1976).jpg
 (pdftex.def)             Requested size: 172.48026pt x 230.95552pt.
 [39 <./medias/corpus/duchamp/MarcelduchampEcologie_portrait_duchamp_20140916163
 736_20140916163758.jpg>]
-<medias/corpus/mclaren/Norman_McLaren_drawing_on_film_-_1944.jpg, id=890, 762.8
+<medias/corpus/mclaren/Norman_McLaren_drawing_on_film_-_1944.jpg, id=892, 762.8
 5pt x 791.95876pt>
 File: medias/corpus/mclaren/Norman_McLaren_drawing_on_film_-_1944.jpg Graphic f
 ile (type jpg)
@@ -1170,7 +1046,7 @@ ile (type jpg)
 Package pdftex.def Info: medias/corpus/mclaren/Norman_McLaren_drawing_on_film_-
 _1944.jpg  used on input line 1474.
 (pdftex.def)             Requested size: 344.99043pt x 358.15454pt.
-<medias/corpus/1960/Charles_Bensinger_video_guide_2.jpg, id=894, 579.6054pt x 7
+<medias/corpus/1960/Charles_Bensinger_video_guide_2.jpg, id=896, 579.6054pt x 7
 69.6755pt>
 File: medias/corpus/1960/Charles_Bensinger_video_guide_2.jpg Graphic file (type
  jpg)
@@ -1178,7 +1054,7 @@ File: medias/corpus/1960/Charles_Bensinger_video_guide_2.jpg Graphic file (type
 Package pdftex.def Info: medias/corpus/1960/Charles_Bensinger_video_guide_2.jpg
   used on input line 1509.
 (pdftex.def)             Requested size: 169.0541pt x 224.49205pt.
-<medias/corpus/1960/Charles_Bensinger_video_guide_3.jpg, id=895, 585.387pt x 77
+<medias/corpus/1960/Charles_Bensinger_video_guide_3.jpg, id=897, 585.387pt x 77
 3.289pt>
 File: medias/corpus/1960/Charles_Bensinger_video_guide_3.jpg Graphic file (type
  jpg)
@@ -1191,14 +1067,14 @@ Package pdftex.def Info: medias/corpus/1960/Charles_Bensinger_video_guide_3.jpg
 ogie_ducha_rotative_plaque_verre_20140917224650_20140917225046.jpg> <./medias/c
 orpus/brakhage/Stan_Brakhage_(circa_1976).jpg>] [42 <./medias/corpus/mclaren/No
 rman_McLaren_drawing_on_film_-_1944.jpg>]
-<medias/corpus/paik/paik_10.jpg, id=918, 552.0625pt x 310.15875pt>
+<medias/corpus/paik/paik_10.jpg, id=920, 552.0625pt x 310.15875pt>
 File: medias/corpus/paik/paik_10.jpg Graphic file (type jpg)
 <use medias/corpus/paik/paik_10.jpg>
 Package pdftex.def Info: medias/corpus/paik/paik_10.jpg  used on input line 152
 9.
 (pdftex.def)             Requested size: 345.01294pt x 193.83453pt.
 <medias/corpus/paik/____NamJunepaik_0220452w_namjunepaikzenfortv1961975_vignett
-e_300_209_20150414152312_20150414153250.jpg, id=919, 103.88812pt x 157.33781pt>
+e_300_209_20150414152312_20150414153250.jpg, id=921, 103.88812pt x 157.33781pt>
 
 File: medias/corpus/paik/____NamJunepaik_0220452w_namjunepaikzenfortv1961975_vi
 gnette_300_209_20150414152312_20150414153250.jpg Graphic file (type jpg)
@@ -1209,7 +1085,7 @@ kzenfortv1961975_vignette_300_209_20150414152312_20150414153250.jpg  used on in
 put line 1535.
 (pdftex.def)             Requested size: 103.89261pt x 157.34462pt.
 <medias/corpus/paik/__NamJunepaik_22222_vignette_300_209_20150414121039_2015041
-4121316.jpg, id=920, 213.04594pt x 157.33781pt>
+4121316.jpg, id=922, 213.04594pt x 157.33781pt>
 File: medias/corpus/paik/__NamJunepaik_22222_vignette_300_209_20150414121039_20
 150414121316.jpg Graphic file (type jpg)
 <use medias/corpus/paik/__NamJunepaik_22222_vignette_300_209_20150414121039_201
@@ -1218,7 +1094,7 @@ Package pdftex.def Info: medias/corpus/paik/__NamJunepaik_22222_vignette_300_20
 9_20150414121039_20150414121316.jpg  used on input line 1535.
 (pdftex.def)             Requested size: 110.40417pt x 81.53523pt.
 <medias/corpus/paik/_NamJunepaik_paik_magnet_tv_20150506194428_20150506194457.j
-pg, id=921, 481.8pt x 361.35pt>
+pg, id=923, 481.8pt x 361.35pt>
 File: medias/corpus/paik/_NamJunepaik_paik_magnet_tv_20150506194428_20150506194
 457.jpg Graphic file (type jpg)
 <use medias/corpus/paik/_NamJunepaik_paik_magnet_tv_20150506194428_201505061944
@@ -1226,54 +1102,60 @@ File: medias/corpus/paik/_NamJunepaik_paik_magnet_tv_20150506194428_20150506194
 Package pdftex.def Info: medias/corpus/paik/_NamJunepaik_paik_magnet_tv_2015050
 6194428_20150506194457.jpg  used on input line 1535.
 (pdftex.def)             Requested size: 110.39996pt x 82.79997pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1558--1560
+[][]$\T1/lmr/m/n/10 (+20) http : / / www . sonore -[] visuel . fr / fr / evenem
+ent / au -[] commencement -[] etait -[] le -[]
+ []
+
 [43 <./medias/corpus/1960/Charles_Bensinger_video_guide_2.jpg> <./medias/corpus
 /1960/Charles_Bensinger_video_guide_3.jpg>] [44 <./medias/corpus/paik/paik_10.j
 pg> <./medias/corpus/paik/____NamJunepaik_0220452w_namjunepaikzenfortv1961975_v
 ignette_300_209_20150414152312_20150414153250.jpg> <./medias/corpus/paik/__NamJ
 unepaik_22222_vignette_300_209_20150414121039_20150414121316.jpg> <./medias/cor
 pus/paik/_NamJunepaik_paik_magnet_tv_20150506194428_20150506194457.jpg>]
-<medias/corpus/boyer/Portrait-e2288.jpg, id=954, 185.19188pt x 164.11313pt>
+<medias/corpus/boyer/Portrait-e2288.jpg, id=956, 185.19188pt x 164.11313pt>
 File: medias/corpus/boyer/Portrait-e2288.jpg Graphic file (type jpg)
 <use medias/corpus/boyer/Portrait-e2288.jpg>
 Package pdftex.def Info: medias/corpus/boyer/Portrait-e2288.jpg  used on input 
 line 1647.
 (pdftex.def)             Requested size: 172.50357pt x 152.86902pt.
-<medias/corpus/boyer/Chant-magnetique.jpg, id=955, 144.54pt x 110.814pt>
+<medias/corpus/boyer/Chant-magnetique.jpg, id=957, 144.54pt x 110.814pt>
 File: medias/corpus/boyer/Chant-magnetique.jpg Graphic file (type jpg)
 <use medias/corpus/boyer/Chant-magnetique.jpg>
 Package pdftex.def Info: medias/corpus/boyer/Chant-magnetique.jpg  used on inpu
 t line 1653.
 (pdftex.def)             Requested size: 144.53963pt x 110.8137pt.
-<medias/corpus/boyer/Eau.jpg, id=956, 144.54pt x 109.6095pt>
+<medias/corpus/boyer/Eau.jpg, id=958, 144.54pt x 109.6095pt>
 File: medias/corpus/boyer/Eau.jpg Graphic file (type jpg)
 <use medias/corpus/boyer/Eau.jpg>
 Package pdftex.def Info: medias/corpus/boyer/Eau.jpg  used on input line 1659.
 (pdftex.def)             Requested size: 144.54623pt x 109.61421pt.
-<medias/corpus/boyer/L-Amertube-2f5ae.jpg, id=957, 338.76563pt x 120.45pt>
+<medias/corpus/boyer/L-Amertube-2f5ae.jpg, id=959, 338.76563pt x 120.45pt>
 File: medias/corpus/boyer/L-Amertube-2f5ae.jpg Graphic file (type jpg)
 <use medias/corpus/boyer/L-Amertube-2f5ae.jpg>
 Package pdftex.def Info: medias/corpus/boyer/L-Amertube-2f5ae.jpg  used on inpu
 t line 1665.
 (pdftex.def)             Requested size: 338.77512pt x 120.45335pt.
-<medias/corpus/boyer/Phonoptic-33bd2.jpg, id=958, 338.76563pt x 120.45pt>
+<medias/corpus/boyer/Phonoptic-33bd2.jpg, id=960, 338.76563pt x 120.45pt>
 File: medias/corpus/boyer/Phonoptic-33bd2.jpg Graphic file (type jpg)
 <use medias/corpus/boyer/Phonoptic-33bd2.jpg>
 Package pdftex.def Info: medias/corpus/boyer/Phonoptic-33bd2.jpg  used on input
  line 1671.
 (pdftex.def)             Requested size: 338.77512pt x 120.45335pt.
-<medias/corpus/boyer/Video-Cortex-b8d37.jpg, id=959, 338.76563pt x 120.45pt>
+<medias/corpus/boyer/Video-Cortex-b8d37.jpg, id=961, 338.76563pt x 120.45pt>
 File: medias/corpus/boyer/Video-Cortex-b8d37.jpg Graphic file (type jpg)
 <use medias/corpus/boyer/Video-Cortex-b8d37.jpg>
 Package pdftex.def Info: medias/corpus/boyer/Video-Cortex-b8d37.jpg  used on in
 put line 1677.
 (pdftex.def)             Requested size: 338.77512pt x 120.45335pt.
 
-Overfull \hbox (0.1389pt too wide) in paragraph at lines 1690--1691
-[][]$\T1/lmr/m/n/10 (+15) h t t p s : / / w w w . f o n d a t i o n -[] l a n g
- l o i s . o r g / h t m l / e / r e s e a r c h . p hp? z o o m = 3& F i l
+Underfull \hbox (badness 10000) in paragraph at lines 1690--1691
+[][]$\T1/lmr/m/n/10 (+20) https : / / www . fondation -[] langlois . org / html
+ / e / research . php ? zoom = 3 &
  []
 
-<medias/corpus/rokeby/d00004229-wide.jpg, id=964, 144.54pt x 85.0377pt>
+<medias/corpus/rokeby/d00004229-wide.jpg, id=966, 144.54pt x 85.0377pt>
 File: medias/corpus/rokeby/d00004229-wide.jpg Graphic file (type jpg)
 <use medias/corpus/rokeby/d00004229-wide.jpg>
 Package pdftex.def Info: medias/corpus/rokeby/d00004229-wide.jpg  used on input
@@ -1284,19 +1166,42 @@ t-magnetique.jpg> <./medias/corpus/boyer/Eau.jpg>] [47 <./medias/corpus/boyer/L
 -Amertube-2f5ae.jpg> <./medias/corpus/boyer/Phonoptic-33bd2.jpg> <./medias/corp
 us/boyer/Video-Cortex-b8d37.jpg>] [48 <./medias/corpus/rokeby/d00004229-wide.jp
 g>]
-Overfull \hbox (0.151pt too wide) in paragraph at lines 1827--1828
-[][]$\T1/lmr/m/n/10 (+3) h t t p s : / / i s e a 2 0 2 0 . i s e a -[] i n t e 
-r n a t i o n a l . o r g / wp -[] c o n t e n t / u p l o a d s / 2 0 2 0 / 1 
-0 / I S
+Overfull \hbox (71.10423pt too wide) in paragraph at lines 1787--1788
+[][]$\T1/lmr/m/n/10 (-20) https : / / derapage . ca / ?fbclid = IwAR1VeYPaM7V9x
+1IoA0 _ eM9vtRQpD9VERCpwDl4oRTxOXK _
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1827--1828
+[][]$\T1/lmr/m/n/10 (+20) https : / / isea2020 . isea -[] international . org /
+ wp -[] content / uploads / 2020 / 10 /
  []
 
 [49] [50
 
 ]
 Chapitre 5.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1855--1856
+[][]$\T1/lmr/m/n/10 (+20) http : / / iasl . uni -[] muenchen . de / links / GCA
+ % 20IV % 20Video % 20Tools .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1881--1882
+[][]$\T1/lmr/m/n/10 (+20) https : / / arstechnica . com / gaming / 2020 / 02 / 
+the -[] mandalorian -[] was -[]
+ []
+
 [51]
 Underfull \hbox (badness 10000) in paragraph at lines 1977--1978
 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1994--1995
+[][]$\T1/lmr/m/n/10 (+20) https : / / demainlequotidien . up . coop / democrati
+sation -[] de -[] la -[] culture / la -[]
  []
 
 [52]
@@ -1307,115 +1212,114 @@ LaTeX Warning: Command \' invalid in math mode on input line 2010.
 [53
 
 ]
-<traitement-video_files/figure-latex/unnamed-chunk-4-1.pdf, id=1113, 436.63126p
-t x 283.0575pt>
+<traitement-video_files/figure-latex/unnamed-chunk-4-1.pdf, id=1115, 469.755pt 
+x 325.215pt>
 File: traitement-video_files/figure-latex/unnamed-chunk-4-1.pdf Graphic file (t
 ype pdf)
 <use traitement-video_files/figure-latex/unnamed-chunk-4-1.pdf>
 Package pdftex.def Info: traitement-video_files/figure-latex/unnamed-chunk-4-1.
 pdf  used on input line 2074.
-(pdftex.def)             Requested size: 345.00154pt x 223.65614pt.
-<traitement-video_files/figure-latex/unnamed-chunk-5-1.pdf, id=1114, 393.47pt x
- 236.885pt>
+(pdftex.def)             Requested size: 344.997pt x 238.84406pt.
+<traitement-video_files/figure-latex/unnamed-chunk-5-1.pdf, id=1116, 469.755pt 
+x 325.215pt>
 File: traitement-video_files/figure-latex/unnamed-chunk-5-1.pdf Graphic file (t
 ype pdf)
 <use traitement-video_files/figure-latex/unnamed-chunk-5-1.pdf>
 Package pdftex.def Info: traitement-video_files/figure-latex/unnamed-chunk-5-1.
 pdf  used on input line 2088.
-(pdftex.def)             Requested size: 344.99985pt x 207.704pt.
+(pdftex.def)             Requested size: 344.997pt x 238.84406pt.
 [54 <./traitement-video_files/figure-latex/unnamed-chunk-4-1.pdf>]
-<medias/lexique/signaux/analogue/composite.jpg, id=1147, 308.352pt x 219.82124p
+<medias/lexique/signaux/analogue/composite.jpg, id=1146, 308.352pt x 219.82124p
 t>
 File: medias/lexique/signaux/analogue/composite.jpg Graphic file (type jpg)
 <use medias/lexique/signaux/analogue/composite.jpg>
 Package pdftex.def Info: medias/lexique/signaux/analogue/composite.jpg  used on
  input line 2125.
 (pdftex.def)             Requested size: 172.50185pt x 122.97495pt.
-<medias/lexique/signaux/analogue/svideo.jpg, id=1148, 1027.84pt x 770.88pt>
+<medias/lexique/signaux/analogue/svideo.jpg, id=1147, 1027.84pt x 770.88pt>
 File: medias/lexique/signaux/analogue/svideo.jpg Graphic file (type jpg)
 <use medias/lexique/signaux/analogue/svideo.jpg>
 Package pdftex.def Info: medias/lexique/signaux/analogue/svideo.jpg  used on in
 put line 2134.
 (pdftex.def)             Requested size: 172.48773pt x 129.3658pt.
-<medias/lexique/signaux/analogue/component.jpg, id=1149, 1026.83624pt x 798.985
+<medias/lexique/signaux/analogue/component.jpg, id=1148, 1026.83624pt x 798.985
 pt>
 File: medias/lexique/signaux/analogue/component.jpg Graphic file (type jpg)
 <use medias/lexique/signaux/analogue/component.jpg>
 Package pdftex.def Info: medias/lexique/signaux/analogue/component.jpg  used on
  input line 2149.
 (pdftex.def)             Requested size: 172.49164pt x 134.21637pt.
-[55 <./traitement-video_files/figure-latex/unnamed-chunk-5-1.pdf> <./medias/lex
-ique/signaux/analogue/composite.jpg>]
-<medias/lexique/signaux/analogue/vga.jpg, id=1172, 1027.84pt x 736.7525pt>
+<medias/lexique/signaux/analogue/vga.jpg, id=1149, 1027.84pt x 736.7525pt>
 File: medias/lexique/signaux/analogue/vga.jpg Graphic file (type jpg)
 <use medias/lexique/signaux/analogue/vga.jpg>
 Package pdftex.def Info: medias/lexique/signaux/analogue/vga.jpg  used on input
  line 2158.
 (pdftex.def)             Requested size: 172.48773pt x 123.63867pt.
-<medias/lexique/signaux/analogue/3_5mm.jpg, id=1173, 1027.84pt x 770.88pt>
+<medias/lexique/signaux/analogue/3_5mm.jpg, id=1150, 1027.84pt x 770.88pt>
 File: medias/lexique/signaux/analogue/3_5mm.jpg Graphic file (type jpg)
 <use medias/lexique/signaux/analogue/3_5mm.jpg>
 Package pdftex.def Info: medias/lexique/signaux/analogue/3_5mm.jpg  used on inp
 ut line 2167.
 (pdftex.def)             Requested size: 172.48773pt x 129.3658pt.
-<medias/lexique/signaux/numerique/dvi.jpg, id=1174, 246.6816pt x 197.2971pt>
+<medias/lexique/signaux/numerique/dvi.jpg, id=1151, 246.6816pt x 197.2971pt>
 File: medias/lexique/signaux/numerique/dvi.jpg Graphic file (type jpg)
 <use medias/lexique/signaux/numerique/dvi.jpg>
 Package pdftex.def Info: medias/lexique/signaux/numerique/dvi.jpg  used on inpu
 t line 2185.
 (pdftex.def)             Requested size: 172.50278pt x 137.96854pt.
-<medias/lexique/signaux/numerique/hdmi.jpg, id=1175, 308.352pt x 231.264pt>
+[55 <./traitement-video_files/figure-latex/unnamed-chunk-5-1.pdf>] [56 <./media
+s/lexique/signaux/analogue/composite.jpg> <./medias/lexique/signaux/analogue/sv
+ideo.jpg> <./medias/lexique/signaux/analogue/component.jpg>] [57 <./medias/lexi
+que/signaux/analogue/vga.jpg> <./medias/lexique/signaux/analogue/3_5mm.jpg>]
+<medias/lexique/signaux/numerique/hdmi.jpg, id=1191, 308.352pt x 231.264pt>
 File: medias/lexique/signaux/numerique/hdmi.jpg Graphic file (type jpg)
 <use medias/lexique/signaux/numerique/hdmi.jpg>
 Package pdftex.def Info: medias/lexique/signaux/numerique/hdmi.jpg  used on inp
 ut line 2194.
 (pdftex.def)             Requested size: 172.50185pt x 129.37639pt.
-<medias/lexique/signaux/numerique/displayport.jpg, id=1176, 1284.8pt x 777.9062
+<medias/lexique/signaux/numerique/displayport.jpg, id=1192, 1284.8pt x 777.9062
 5pt>
 File: medias/lexique/signaux/numerique/displayport.jpg Graphic file (type jpg)
 <use medias/lexique/signaux/numerique/displayport.jpg>
 Package pdftex.def Info: medias/lexique/signaux/numerique/displayport.jpg  used
  on input line 2209.
 (pdftex.def)             Requested size: 172.4995pt x 104.44305pt.
-[56 <./medias/lexique/signaux/analogue/svideo.jpg> <./medias/lexique/signaux/an
-alogue/component.jpg>] [57 <./medias/lexique/signaux/analogue/vga.jpg> <./media
-s/lexique/signaux/analogue/3_5mm.jpg> <./medias/lexique/signaux/numerique/dvi.j
-pg>]
-<medias/lexique/signaux/numerique/sdi.jpg, id=1202, 1027.84pt x 770.88pt>
+<medias/lexique/signaux/numerique/sdi.jpg, id=1193, 1027.84pt x 770.88pt>
 File: medias/lexique/signaux/numerique/sdi.jpg Graphic file (type jpg)
 <use medias/lexique/signaux/numerique/sdi.jpg>
 Package pdftex.def Info: medias/lexique/signaux/numerique/sdi.jpg  used on inpu
 t line 2224.
 (pdftex.def)             Requested size: 172.48773pt x 129.3658pt.
-[58 <./medias/lexique/signaux/numerique/hdmi.jpg> <./medias/lexique/signaux/num
-erique/displayport.jpg>] [59 <./medias/lexique/signaux/numerique/sdi.jpg>] [60
+[58 <./medias/lexique/signaux/numerique/dvi.jpg> <./medias/lexique/signaux/nume
+rique/hdmi.jpg>] [59 <./medias/lexique/signaux/numerique/displayport.jpg> <./me
+dias/lexique/signaux/numerique/sdi.jpg>] [60
 
 ]
 Chapitre 7.
-<medias/lexique/fullHD_16_9_1920x1080.png, id=1221, 1927.2pt x 1084.05pt>
+<medias/lexique/fullHD_16_9_1920x1080.png, id=1219, 1927.2pt x 1084.05pt>
 File: medias/lexique/fullHD_16_9_1920x1080.png Graphic file (type png)
 <use medias/lexique/fullHD_16_9_1920x1080.png>
 Package pdftex.def Info: medias/lexique/fullHD_16_9_1920x1080.png  used on inpu
 t line 2267.
 (pdftex.def)             Requested size: 344.99901pt x 194.06194pt.
-<medias/lexique/barre_couleurs-1600x900.png, id=1222, 1606.0pt x 903.375pt>
+<medias/lexique/barre_couleurs-1600x900.png, id=1220, 1606.0pt x 903.375pt>
 File: medias/lexique/barre_couleurs-1600x900.png Graphic file (type png)
 <use medias/lexique/barre_couleurs-1600x900.png>
 Package pdftex.def Info: medias/lexique/barre_couleurs-1600x900.png  used on in
 put line 2273.
 (pdftex.def)             Requested size: 344.98921pt x 194.05643pt.
-<medias/lexique/NTSC_4_3_640x480.png, id=1223, 642.4pt x 481.8pt>
+<medias/lexique/NTSC_4_3_640x480.png, id=1221, 642.4pt x 481.8pt>
 File: medias/lexique/NTSC_4_3_640x480.png Graphic file (type png)
 <use medias/lexique/NTSC_4_3_640x480.png>
 Package pdftex.def Info: medias/lexique/NTSC_4_3_640x480.png  used on input lin
 e 2288.
 (pdftex.def)             Requested size: 345.0088pt x 258.75659pt.
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 2304
-.
-(/usr/local/texlive/2019/texmf-dist/tex/latex/lm/ts1lmr.fd
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 2
+304.
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-<medias/lexique/Photo_3_2_2000x1333.png, id=1226, 2007.5pt x 1337.99875pt>
+<medias/lexique/Photo_3_2_2000x1333.png, id=1224, 2007.5pt x 1337.99875pt>
 File: medias/lexique/Photo_3_2_2000x1333.png Graphic file (type png)
 <use medias/lexique/Photo_3_2_2000x1333.png>
 Package pdftex.def Info: medias/lexique/Photo_3_2_2000x1333.png  used on input 
@@ -1424,39 +1328,57 @@ line 2311.
 [61] [62 <./medias/lexique/fullHD_16_9_1920x1080.png> <./medias/lexique/barre_c
 ouleurs-1600x900.png>] [63 <./medias/lexique/NTSC_4_3_640x480.png> <./medias/le
 xique/Photo_3_2_2000x1333.png>]
-<medias/lexique/Cinemascope_2_39_1_2390x1000.png, id=1260, 2398.9625pt x 1003.7
+<medias/lexique/Cinemascope_2_39_1_2390x1000.png, id=1258, 2398.9625pt x 1003.7
 5pt>
 File: medias/lexique/Cinemascope_2_39_1_2390x1000.png Graphic file (type png)
 <use medias/lexique/Cinemascope_2_39_1_2390x1000.png>
 Package pdftex.def Info: medias/lexique/Cinemascope_2_39_1_2390x1000.png  used 
 on input line 2332.
 (pdftex.def)             Requested size: 344.96715pt x 144.3377pt.
-<medias/lexique/carre_1_1_1000x1000.png, id=1262, 1003.75pt x 1003.75pt>
+<medias/lexique/carre_1_1_1000x1000.png, id=1260, 1003.75pt x 1003.75pt>
 File: medias/lexique/carre_1_1_1000x1000.png Graphic file (type png)
 <use medias/lexique/carre_1_1_1000x1000.png>
 Package pdftex.def Info: medias/lexique/carre_1_1_1000x1000.png  used on input 
 line 2353.
 (pdftex.def)             Requested size: 345.00758pt x 345.00758pt.
-<medias/lexique/CubeMap_4096x4096.png, id=1263, 2960.1792pt x 2960.1792pt>
+<medias/lexique/CubeMap_4096x4096.png, id=1261, 2960.1792pt x 2960.1792pt>
 File: medias/lexique/CubeMap_4096x4096.png Graphic file (type png)
 <use medias/lexique/CubeMap_4096x4096.png>
 Package pdftex.def Info: medias/lexique/CubeMap_4096x4096.png  used on input li
 ne 2359.
 (pdftex.def)             Requested size: 344.99806pt x 344.99806pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2414--2415
+[][]$\T1/lmr/m/n/10 (+20) http : / / what -[] when -[] how . com / display -[] 
+i / nterfaces / the -[] human -[] visual -[]
+ []
+
+
+Overfull \hbox (0.21227pt too wide) in paragraph at lines 2423--2424
+[][]$\T1/lmr/m/n/10 (-20) http : / / what -[] when -[] how . com / introduction
+ -[] to -[] video -[] and -[] image -[] processing /
+ []
+
 [64 <./medias/lexique/Cinemascope_2_39_1_2390x1000.png>] [65 <./medias/lexique/
 carre_1_1_1000x1000.png>] [66 <./medias/lexique/CubeMap_4096x4096.png (PNG copy
-)>] [67] [68
+)>]
+Overfull \hbox (0.21227pt too wide) in paragraph at lines 2432--2433
+[][]$\T1/lmr/m/n/10 (-20) http : / / what -[] when -[] how . com / introduction
+ -[] to -[] video -[] and -[] image -[] processing /
+ []
+
+[67] [68
 
 ]
 Chapitre 8.
-<traitement-video_files/figure-latex/unnamed-chunk-6-1.pdf, id=1339, 355.3275pt
- x 289.08pt>
+<traitement-video_files/figure-latex/unnamed-chunk-6-1.pdf, id=1335, 1003.75pt 
+x 582.175pt>
 File: traitement-video_files/figure-latex/unnamed-chunk-6-1.pdf Graphic file (t
 ype pdf)
 <use traitement-video_files/figure-latex/unnamed-chunk-6-1.pdf>
 Package pdftex.def Info: traitement-video_files/figure-latex/unnamed-chunk-6-1.
 pdf  used on input line 2491.
-(pdftex.def)             Requested size: 345.00882pt x 280.68515pt.
+(pdftex.def)             Requested size: 345.00758pt x 200.1044pt.
 [69 <./traitement-video_files/figure-latex/unnamed-chunk-6-1.pdf>]
 
 LaTeX Warning: Command \' invalid in math mode on input line 2524.
@@ -1482,6 +1404,12 @@ Underfull \hbox (badness 3312) in paragraph at lines 2564--2564
  []
 
 [70]
+Underfull \hbox (badness 10000) in paragraph at lines 2637--2638
+[][]$\T1/lmr/m/n/10 (+20) https : / / ledgernote . com / blog / q -[] and -[] a
+ / how -[] does -[] mp3 -[] compression -[]
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 2656--2657
 
  []
@@ -1491,9 +1419,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 2712--2714
 
  []
 
-[72]
+
+Overfull \hbox (0.21227pt too wide) in paragraph at lines 2740--2741
+[][]$\T1/lmr/m/n/10 (-20) http : / / what -[] when -[] how . com / introduction
+ -[] to -[] video -[] and -[] image -[] processing /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2740--2741
+\T1/lmr/m/n/10 (+20) bits -[] bytes -[] and -[] binary -[] numbers -[] introduc
+tion -[] to -[] video -[] and -[] image -[]
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 2771--2772
 
+ []
+
+[72]
+Overfull \hbox (57.9826pt too wide) in paragraph at lines 2832--2833
+[][]$\T1/lmr/m/n/10 (-20) https : / / cmontmorency365 . sharepoint . com/ : p :
+ /s / TIM -[] TTP / EZJO9E0y6idAql7kKqGyKFQB -[]-[]
  []
 
 
@@ -1501,25 +1447,48 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [73] [74]
 Chapitre 9.
-<medias/traiter/figures/dia_matrice_RGB.png, id=1471, 440.64626pt x 363.3575pt>
+<medias/traiter/figures/dia_matrice_RGB.png, id=1465, 440.64626pt x 363.3575pt>
 
 File: medias/traiter/figures/dia_matrice_RGB.png Graphic file (type png)
 <use medias/traiter/figures/dia_matrice_RGB.png>
 Package pdftex.def Info: medias/traiter/figures/dia_matrice_RGB.png  used on in
 put line 2895.
 (pdftex.def)             Requested size: 345.01381pt x 284.49886pt.
-<medias/traiter/figures/dia_matrice_RGBA.png, id=1472, 439.6425pt x 362.35374pt
+<medias/traiter/figures/dia_matrice_RGBA.png, id=1466, 439.6425pt x 362.35374pt
 >
 File: medias/traiter/figures/dia_matrice_RGBA.png Graphic file (type png)
 <use medias/traiter/figures/dia_matrice_RGBA.png>
 Package pdftex.def Info: medias/traiter/figures/dia_matrice_RGBA.png  used on i
 nput line 2901.
 (pdftex.def)             Requested size: 345.01279pt x 284.35985pt.
+
+Overfull \hbox (0.21227pt too wide) in paragraph at lines 2911--2912
+[][]$\T1/lmr/m/n/10 (-20) http : / / what -[] when -[] how . com / introduction
+ -[] to -[] video -[] and -[] image -[] processing /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2911--2912
+\T1/lmr/m/n/10 (+20) neighborhood -[] processing -[] introduction -[] to -[] vi
+deo -[] and -[] image -[] processing -[]
+ []
+
 [75
 
 ] [76 <./medias/traiter/figures/dia_matrice_RGB.png>] [77 <./medias/traiter/fig
 ures/dia_matrice_RGBA.png>]
-<medias/traiter/figures/dia_transfogeo_position.png, id=1504, 583.17876pt x 412
+Overfull \hbox (0.21227pt too wide) in paragraph at lines 2927--2928
+[][]$\T1/lmr/m/n/10 (-20) http : / / what -[] when -[] how . com / introduction
+ -[] to -[] video -[] and -[] image -[] processing /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2927--2928
+\T1/lmr/m/n/10 (+8) geometric -[] transformations -[] introduction -[] to -[] v
+ideo -[] and -[] image -[] processing -[]
+ []
+
+<medias/traiter/figures/dia_transfogeo_position.png, id=1498, 583.17876pt x 412
 .54124pt>
 File: medias/traiter/figures/dia_transfogeo_position.png Graphic file (type png
 )
@@ -1527,7 +1496,7 @@ File: medias/traiter/figures/dia_transfogeo_position.png Graphic file (type png
 Package pdftex.def Info: medias/traiter/figures/dia_transfogeo_position.png  us
 ed on input line 2935.
 (pdftex.def)             Requested size: 345.00684pt x 244.05818pt.
-<medias/traiter/figures/dia_transfogeo_rotation.png, id=1505, 583.17876pt x 412
+<medias/traiter/figures/dia_transfogeo_rotation.png, id=1499, 583.17876pt x 412
 .54124pt>
 File: medias/traiter/figures/dia_transfogeo_rotation.png Graphic file (type png
 )
@@ -1535,7 +1504,7 @@ File: medias/traiter/figures/dia_transfogeo_rotation.png Graphic file (type png
 Package pdftex.def Info: medias/traiter/figures/dia_transfogeo_rotation.png  us
 ed on input line 2944.
 (pdftex.def)             Requested size: 345.00684pt x 244.05818pt.
-<medias/traiter/figures/dia_transfogeo_echelle.png, id=1506, 583.17876pt x 412.
+<medias/traiter/figures/dia_transfogeo_echelle.png, id=1500, 583.17876pt x 412.
 54124pt>
 File: medias/traiter/figures/dia_transfogeo_echelle.png Graphic file (type png)
 
@@ -1543,7 +1512,7 @@ File: medias/traiter/figures/dia_transfogeo_echelle.png Graphic file (type png)
 Package pdftex.def Info: medias/traiter/figures/dia_transfogeo_echelle.png  use
 d on input line 2953.
 (pdftex.def)             Requested size: 345.00684pt x 244.05818pt.
-<medias/traiter/figures/dia_transfogeo_dimensions.png, id=1507, 583.17876pt x 4
+<medias/traiter/figures/dia_transfogeo_dimensions.png, id=1501, 583.17876pt x 4
 12.54124pt>
 File: medias/traiter/figures/dia_transfogeo_dimensions.png Graphic file (type p
 ng)
@@ -1551,14 +1520,14 @@ ng)
 Package pdftex.def Info: medias/traiter/figures/dia_transfogeo_dimensions.png  
 used on input line 2962.
 (pdftex.def)             Requested size: 345.00684pt x 244.05818pt.
-<medias/traiter/figures/dia_transfogeo_rogner.png, id=1508, 583.17876pt x 412.5
+<medias/traiter/figures/dia_transfogeo_rogner.png, id=1502, 583.17876pt x 412.5
 4124pt>
 File: medias/traiter/figures/dia_transfogeo_rogner.png Graphic file (type png)
 <use medias/traiter/figures/dia_transfogeo_rogner.png>
 Package pdftex.def Info: medias/traiter/figures/dia_transfogeo_rogner.png  used
  on input line 2971.
 (pdftex.def)             Requested size: 345.00684pt x 244.05818pt.
-<medias/traiter/figures/dia_transfogeo_distortion.png, id=1509, 583.17876pt x 4
+<medias/traiter/figures/dia_transfogeo_distortion.png, id=1503, 583.17876pt x 4
 12.54124pt>
 File: medias/traiter/figures/dia_transfogeo_distortion.png Graphic file (type p
 ng)
@@ -1572,27 +1541,127 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [78 <./medias/traiter/figures/dia_transfogeo_position.png>] [79 <./medias/trait
 er/figures/dia_transfogeo_rotation.png> <./medias/traiter/figures/dia_transfoge
 o_echelle.png>] [80 <./medias/traiter/figures/dia_transfogeo_dimensions.png> <.
-/medias/traiter/figures/dia_transfogeo_rogner.png>] [81 <./medias/traiter/figur
-es/dia_transfogeo_distortion.png>] [82] [83] [84
+/medias/traiter/figures/dia_transfogeo_rogner.png>]
+Overfull \hbox (0.21227pt too wide) in paragraph at lines 2993--2994
+[][]$\T1/lmr/m/n/10 (-20) http : / / what -[] when -[] how . com / introduction
+ -[] to -[] video -[] and -[] image -[] processing /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3005--3006
+[][]$\T1/lmr/m/n/10 (+20) https : / / www . rochester . edu / newscenter / micr
+oscopic -[] eye -[] movements -[]
+ []
+
+
+Overfull \hbox (0.21227pt too wide) in paragraph at lines 3014--3015
+[][]$\T1/lmr/m/n/10 (-20) http : / / what -[] when -[] how . com / introduction
+ -[] to -[] video -[] and -[] image -[] processing /
+ []
+
+[81 <./medias/traiter/figures/dia_transfogeo_distortion.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 3057--3059
+[][]$\T1/lmr/m/n/10 (+20) http : / / what -[] when -[] how . com / display -[] 
+interfaces / fundamentals -[] of -[] color -[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3064--3065
+[][]$\T1/lmr/m/n/10 (+20) http : / / what -[] when -[] how . com / display -[] 
+interfaces / fundamentals -[] of -[]
+ []
+
+
+Overfull \hbox (0.21227pt too wide) in paragraph at lines 3067--3069
+[][]$\T1/lmr/m/n/10 (-20) http : / / what -[] when -[] how . com / introduction
+ -[] to -[] video -[] and -[] image -[] processing /
+ []
+
+
+Overfull \hbox (0.21227pt too wide) in paragraph at lines 3069--3071
+[][]$\T1/lmr/m/n/10 (-20) http : / / what -[] when -[] how . com / introduction
+ -[] to -[] video -[] and -[] image -[] processing /
+ []
+
+
+Overfull \hbox (0.21227pt too wide) in paragraph at lines 3071--3072
+[][]$\T1/lmr/m/n/10 (-20) http : / / what -[] when -[] how . com / introduction
+ -[] to -[] video -[] and -[] image -[] processing /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3082--3083
+[][]$\T1/lmr/m/n/10 (+20) https : / / i0 . wp . com / thelandofcolor . com / wp
+ -[] content / uploads / 2010 / 03 /
+ []
+
+[82] [83] [84
 
 ]
 Chapitre 10.
+
+Underfull \hbox (badness 10000) in paragraph at lines 3131--3132
+[][]$\T1/lmr/m/n/10 (+20) https : / / www . tomdalling . com / blog / modern -[
+] opengl / 08 -[] even -[] more -[] lighting -[]
+ []
+
 [85] [86]
 Chapitre 11.
 
-Underfull \hbox (badness 1796) in paragraph at lines 3221--3221
+Underfull \hbox (badness 1796) in paragraph at lines 3245--3245
 []\T1/lmr/bx/n/14.4 Communication via pro-to-coles pa-ra-mé-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3247--3248
+[][]$\T1/lmr/m/n/10 (+20) https : / / github . com / sebpiq / cours -[] son -[]
+ reseaux / blob / main / applications -[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3267--3269
+[][]$\T1/lmr/m/n/10 (+20) https : / / openframeworks . cc / ofBook / chapters /
+ image _ processing _
  []
 
 [87
 
-] [88]
+]
+Underfull \hbox (badness 10000) in paragraph at lines 3284--3285
+[][]$\T1/lmr/m/n/10 (+20) https : / / openframeworks . cc / ofBook / chapters /
+ image _ processing _
+ []
+
+
+Overfull \hbox (0.21227pt too wide) in paragraph at lines 3293--3295
+[][]$\T1/lmr/m/n/10 (-20) http : / / what -[] when -[] how . com / introduction
+ -[] to -[] video -[] and -[] image -[] processing /
+ []
+
+
+Overfull \hbox (0.21227pt too wide) in paragraph at lines 3295--3296
+[][]$\T1/lmr/m/n/10 (-20) http : / / what -[] when -[] how . com / introduction
+ -[] to -[] video -[] and -[] image -[] processing /
+ []
+
+
+Overfull \hbox (0.21227pt too wide) in paragraph at lines 3304--3305
+[][]$\T1/lmr/m/n/10 (-20) http : / / what -[] when -[] how . com / introduction
+ -[] to -[] video -[] and -[] image -[] processing /
+ []
+
+[88]
 Chapitre 12.
 
-Overfull \hbox (0.12271pt too wide) in paragraph at lines 3335--3337
-\T1/lmr/m/n/10 (+17) n g / a p p l i c a t i on -[] e x a m p l e -[] e d u t a
- i n m e n t -[] g a me -[] i n t r o d u c t i on -[] to -[] v i d e o -[] a n
- d -[]
+Overfull \hbox (0.21227pt too wide) in paragraph at lines 3359--3361
+[][]$\T1/lmr/m/n/10 (-20) http : / / what -[] when -[] how . com / introduction
+ -[] to -[] video -[] and -[] image -[] processing /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3359--3361
+\T1/lmr/m/n/10 (+20) application -[] example -[] edutainment -[] game -[] intro
+duction -[] to -[] video -[] and -[]
  []
 
 [89
@@ -1605,102 +1674,119 @@ Chapitre 13.
 
 ]
 Chapitre 14.
-
-Overfull \hbox (127.49863pt too wide) in paragraph at lines 3402--3402
-[]\T1/lmtt/m/n/10 ffmpeg -i INPUT.mkv -c:v prores_ks -profile:v 3 -c:a pcm_s16l
-e -pix_fmt yuv420p OUTPUT.mov[] 
- []
-
-[93]
-LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 3446.
-LaTeX Font Info:    Font shape `TS1/lmtt/bx/n' in size <10> not available
-(Font)              Font shape `TS1/lmtt/b/n' tried instead on input line 3450.
-
-
-Underfull \vbox (badness 4132) has occurred while \output is active []
-
-[94] [95] [96
+[93] [94
 
 ]
 Chapitre 15.
 
-Overfull \hbox (69.7488pt too wide) in paragraph at lines 3634--3634
+Underfull \hbox (badness 10000) in paragraph at lines 3422--3423
+[][]$\T1/lmr/m/n/10 (+20) https : / / www . bogotobogo . com / FFMpeg / ^^[mpeg
+ _ video _ test _ patterns _ src .
+ []
+
+
+Overfull \hbox (127.49863pt too wide) in paragraph at lines 3429--3429
+[]\T1/lmtt/m/n/10 ffmpeg -i INPUT.mkv -c:v prores_ks -profile:v 3 -c:a pcm_s16l
+e -pix_fmt yuv420p OUTPUT.mov[] 
+ []
+
+[95]
+LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10> not available
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 3473.
+LaTeX Font Info:    Font shape `TS1/lmtt/bx/n' in size <10> not available
+(Font)              Font shape `TS1/lmtt/b/n' tried instead on input line 3477.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3504--3505
+[][]$\T1/lmr/m/n/10 (+11) https : / / medium . com / @jud . dagnall / dynamic -
+[] range -[] compression -[] for -[]
+ []
+
+
+Underfull \vbox (badness 4132) has occurred while \output is active []
+
+[96] [97] [98
+
+]
+Chapitre 16.
+
+Overfull \hbox (69.7488pt too wide) in paragraph at lines 3661--3661
 []\T1/lmtt/m/n/10 // Adapted from https://www.iquilezles.org/www/articles/ibili
 near/ibilinear.htm[] 
  []
 
 
-Overfull \hbox (6.74898pt too wide) in paragraph at lines 3634--3634
+Overfull \hbox (6.74898pt too wide) in paragraph at lines 3661--3661
 []\T1/lmtt/m/n/10 // and this Shadertoy example https://www.shadertoy.com/view/
 lsBSDm[] 
  []
 
-[97]
-Overfull \hbox (11.99896pt too wide) in paragraph at lines 3634--3634
+[99]
+Overfull \hbox (11.99896pt too wide) in paragraph at lines 3661--3661
 []    \T1/lmtt/m/n/10 float2 c = float2(1.0 - (_DRx / 1000.0), 1.0 - (_DRy / 10
 00.0));[] 
  []
 
-[98] [99] [100
-
-]
-Chapitre 16.
-[101] [102
+[100] [101] [102
 
 ]
 Chapitre 17.
-(./traitement-video.bbl [103] [104
+[103] [104
 
-] [105])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3664.
-[106]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 3664.
+]
+Chapitre 18.
+(./traitement-video.bbl [105] [106
+
+] [107])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3691.
+[108]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 3691.
 (./traitement-video.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3664.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 3664.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3691.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 3691.
  ) 
 Here is how much of TeX's memory you used:
- 16785 strings out of 492616
- 261392 string characters out of 6129482
- 400254 words of memory out of 5000000
- 19417 multiletter control sequences out of 15000+600000
- 98715 words of font info for 122 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 35i,6n,38p,987b,635s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{SEMAINE_12} has been referenced but does not exis
+ 16939 strings out of 482056
+ 270603 string characters out of 5937676
+ 556426 words of memory out of 5000000
+ 31312 multiletter control sequences out of 15000+600000
+ 623236 words of font info for 125 fonts, out of 8000000 for 9000
+ 319 hyphenation exceptions out of 8191
+ 41i,6n,42p,987b,639s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{SEMAINE_10} has been referenced but does not exis
 t, replaced by a fixed one
 
-pdfTeX warning (dest): name{SEMAINE_3} has been referenced but does not exist, 
+pdfTeX warning (dest): name{SEMAINE_2} has been referenced but does not exist, 
 replaced by a fixed one
 
 pdfTeX warning (dest): name{aquerir_captation} has been referenced but does not
  exist, replaced by a fixed one
 
-{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local/t
-exlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2019/te
-xmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2019/texmf-dist/f
-onts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips
-/lm/lm-mathit.enc}</usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmb
-x10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></
-usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmbx8.pfb></usr/local/t
-exlive/2019/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb></usr/local/texlive/20
-19/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2019/texmf-
-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2019/texmf-dist/fonts
-/type1/public/lm/lmr10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/publ
-ic/lm/lmr12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr17
-.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/l
-ocal/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive
-/2019/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2019/texm
-f-dist/fonts/type1/public/lm/lmro10.pfb></usr/local/texlive/2019/texmf-dist/fon
-ts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/p
-ublic/lm/lmtk10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/l
-mtt10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmtti10.pfb
->
-Output written on traitement-video.pdf (106 pages, 10469215 bytes).
+{/usr/local/texlive/2020basic/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/lo
+cal/texlive/2020basic/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texli
+ve/2020basic/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/20
+20basic/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2020basic/t
+exmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}</usr/local/texlive/2020basic/texmf-
+dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2020basic/texmf-dist/
+fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2020basic/texmf-dist/fonts
+/type1/public/lm/lmbx8.pfb></usr/local/texlive/2020basic/texmf-dist/fonts/type1
+/public/lm/lmbxi10.pfb></usr/local/texlive/2020basic/texmf-dist/fonts/type1/pub
+lic/lm/lmcsc10.pfb></usr/local/texlive/2020basic/texmf-dist/fonts/type1/public/
+lm/lmmi10.pfb></usr/local/texlive/2020basic/texmf-dist/fonts/type1/public/lm/lm
+r10.pfb></usr/local/texlive/2020basic/texmf-dist/fonts/type1/public/lm/lmr12.pf
+b></usr/local/texlive/2020basic/texmf-dist/fonts/type1/public/lm/lmr17.pfb></us
+r/local/texlive/2020basic/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local
+/texlive/2020basic/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texliv
+e/2020basic/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/202
+0basic/texmf-dist/fonts/type1/public/lm/lmro10.pfb></usr/local/texlive/2020basi
+c/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2020basic/tex
+mf-dist/fonts/type1/public/lm/lmtk10.pfb></usr/local/texlive/2020basic/texmf-di
+st/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2020basic/texmf-dist/fo
+nts/type1/public/lm/lmtti10.pfb>
+Output written on traitement-video.pdf (108 pages, 10465667 bytes).
 PDF statistics:
- 2499 PDF objects out of 2984 (max. 8388607)
- 2253 compressed objects within 23 object streams
- 841 named destinations out of 1000 (max. 500000)
- 19754 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 2507 PDF objects out of 2984 (max. 8388607)
+ 2262 compressed objects within 23 object streams
+ 845 named destinations out of 1000 (max. 500000)
+ 19762 words of extra memory for PDF output out of 20736 (max. 10000000)
 
