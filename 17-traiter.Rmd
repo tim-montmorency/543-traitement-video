@@ -97,11 +97,6 @@ knitr::include_graphics("medias/traiter/fx_obs/cc-contrast/06_1.png")
 knitr::include_graphics("medias/traiter/fx_obs/cc-contrast/07_2.png")
 ```
 
-```{r, fig.cap = 'exemple', eval=knitr::is_html_output(excludes = "epub"), results = 'asis', echo = F}
-cat(
-![img]()
-)
-```
 
 * https://www.rochester.edu/newscenter/microscopic-eye-movements-affect-how-we-see-contrast-358802/
 
@@ -118,6 +113,19 @@ knitr::include_graphics("medias/traiter/fx_obs/cc-gamma/06_2.png")
 knitr::include_graphics("medias/traiter/fx_obs/cc-gamma/07_3.png")
 ```
 
+#### Luminosité
+
+*Brightness*
+
+```{r echo=FALSE,out.width="14%", fig.subcap=c('-1.00', '-0.50', '-0.25', '0.00', '0.25', '0.50', '1.00'), fig.cap="Influence du paramètre **Luminosité** sur grille de calibration couleur",fig.show='hold',fig.align='center'}
+knitr::include_graphics("medias/traiter/fx_obs/cc-brightness/01.png")
+knitr::include_graphics("medias/traiter/fx_obs/cc-brightness/02.png")
+knitr::include_graphics("medias/traiter/fx_obs/cc-brightness/03.png")
+knitr::include_graphics("medias/traiter/fx_obs/cc-brightness/04.png")
+knitr::include_graphics("medias/traiter/fx_obs/cc-brightness/05.png")
+knitr::include_graphics("medias/traiter/fx_obs/cc-brightness/06.png")
+knitr::include_graphics("medias/traiter/fx_obs/cc-brightness/07.png")
+```
 
 * http://what-when-how.com/introduction-to-video-and-image-processing/point-processing-introduction-to-video-and-image-processing-part-1/
 
@@ -125,16 +133,44 @@ knitr::include_graphics("medias/traiter/fx_obs/cc-gamma/07_3.png")
 
 ### Couleurs
 
+#### Saturation
+
+```{r echo=FALSE,out.width="14%", fig.subcap=c('-1.00', '-0.50', '-0.25', '0.00', '1', '3', '5'), fig.cap="Plage d'influence du paramètre **saturation** sur grille de calibration couleur",fig.show='hold',fig.align='center'}
+knitr::include_graphics("medias/traiter/fx_obs/cc-saturation/01.png")
+knitr::include_graphics("medias/traiter/fx_obs/cc-saturation/02.png")
+knitr::include_graphics("medias/traiter/fx_obs/cc-saturation/03.png")
+knitr::include_graphics("medias/traiter/fx_obs/cc-saturation/04.png")
+knitr::include_graphics("medias/traiter/fx_obs/cc-saturation/05.png")
+knitr::include_graphics("medias/traiter/fx_obs/cc-saturation/06.png")
+knitr::include_graphics("medias/traiter/fx_obs/cc-saturation/07.png")
+```
+
+
+#### Décalage de teinte 
+
+*Hue*
+```{r echo=FALSE,out.width="14%", fig.subcap=c('-180', '-120', '-60', '0', '60', '120', '180'), fig.cap="Décalage de la teinte par incrément de 60 degrés",fig.show='hold',fig.align='center'}
+knitr::include_graphics("medias/traiter/fx_obs/cc-hue/01.png")
+knitr::include_graphics("medias/traiter/fx_obs/cc-hue/02.png")
+knitr::include_graphics("medias/traiter/fx_obs/cc-hue/03.png")
+knitr::include_graphics("medias/traiter/fx_obs/cc-hue/04.png")
+knitr::include_graphics("medias/traiter/fx_obs/cc-hue/05.png")
+knitr::include_graphics("medias/traiter/fx_obs/cc-hue/06.png")
+knitr::include_graphics("medias/traiter/fx_obs/cc-hue/07.png")
+```
+
 #### Nuance des couleurs
 
-Décalage de teinte
+LUT  
+
+* https://github.com/Pomax/LUT-builder
+
 
 * https://i0.wp.com/thelandofcolor.com/wp-content/uploads/2010/03/HSL-Cone-Graphic.jpg?resize=550%2C546
 
 
 #### Niveau des couleurs 
 
-Intervention sur les niveau de rouge vert et bleu 
 
 
 #### Représentation numérique de la couleur
@@ -175,9 +211,50 @@ En lumière (filtre) : soustractif
 
 ### Incrustation d'image
 
+#### Opacité 
+
+
+```{r echo=FALSE,out.width="16%", fig.subcap=c('1.00', '0.75', '0.50', '0.25', '0.0'), fig.cap="Dimminution de opacité",fig.show='hold',fig.align='center'}
+knitr::include_graphics("medias/traiter/fx_obs/cc-opacity/01.png")
+knitr::include_graphics("medias/traiter/fx_obs/cc-opacity/02.png")
+knitr::include_graphics("medias/traiter/fx_obs/cc-opacity/03.png")
+knitr::include_graphics("medias/traiter/fx_obs/cc-opacity/04.png")
+knitr::include_graphics("medias/traiter/fx_obs/cc-opacity/05.png")
+```
+
+
+
 #### Lumakey 
 
-Transparence via seuils de luminance
+##### Seuil Maximum
+
+
+Si la luminance du pixel est plus grande que le seuil maximum le pixel est transparent.
+
+```{r echo=FALSE,out.width="16%", fig.subcap=c('Nul', '1.00', '0.75', '0.50', '0.25', '0.0'), fig.cap="Incrustation en luminance via seuil maximum",fig.show='hold',fig.align='center'}
+knitr::include_graphics("medias/traiter/fx_obs/luma-max/01.png")
+knitr::include_graphics("medias/traiter/fx_obs/luma-max/02.png")
+knitr::include_graphics("medias/traiter/fx_obs/luma-max/03.png")
+knitr::include_graphics("medias/traiter/fx_obs/luma-max/04.png")
+knitr::include_graphics("medias/traiter/fx_obs/luma-max/05.png")
+knitr::include_graphics("medias/traiter/fx_obs/luma-max/06.png")
+```
+
+
+##### Seuil Minimum
+
+Si la luminance du pixel est plus petite que le seuil minimum le pixel est transparent
+
+```{r echo=FALSE,out.width="16%", fig.subcap=c('Nul', '0.00', '0.25', '0.50', '0.75', '1.00'), fig.cap="Incrustation en luminance via seuil minimum",fig.show='hold',fig.align='center'}
+knitr::include_graphics("medias/traiter/fx_obs/luma-min/01.png")
+knitr::include_graphics("medias/traiter/fx_obs/luma-min/02.png")
+knitr::include_graphics("medias/traiter/fx_obs/luma-min/03.png")
+knitr::include_graphics("medias/traiter/fx_obs/luma-min/04.png")
+knitr::include_graphics("medias/traiter/fx_obs/luma-min/05.png")
+knitr::include_graphics("medias/traiter/fx_obs/luma-min/06.png")
+```
+
+
 
 #### Chromakey 
 

@@ -5,7 +5,13 @@ fig:unnamed-chunk-4
 fig:unnamed-chunk-5
 fig:unnamed-chunk-6
 fig:unnamed-chunk-7
+fig:unnamed-chunk-8
 fig:unnamed-chunk-9
+fig:unnamed-chunk-10
+fig:unnamed-chunk-11
+fig:unnamed-chunk-12
+fig:unnamed-chunk-13
+fig:unnamed-chunk-14
 mo-traitement-vidéo
 description-du-cours
 objectifs
@@ -238,7 +244,10 @@ altération-des-pixels
 luminance
 contraste
 gamma
+luminosité
 couleurs
+saturation
+décalage-de-teinte
 nuance-des-couleurs
 niveau-des-couleurs
 représentation-numérique-de-la-couleur
@@ -248,7 +257,10 @@ soustractive
 espace-couleurs
 couleurs-et-longueurs-donde
 incrustation-dimage
+opacité
 lumakey
+seuil-maximum
+seuil-minimum
 chromakey
 utilisation-de-mémoire-tampon
 délais

@@ -24,7 +24,7 @@
 <meta name="author" content="Guillaume Arseneault" />
 
 
-<meta name="date" content="2021-03-15" />
+<meta name="date" content="2021-03-16" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -33,7 +33,7 @@
   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
 <link rel="prev" href="transformations-géométriques.html"/>
 <link rel="next" href="utilisation-de-mémoire-tampon.html"/>
-<script src="assets/header-attrs-2.6/header-attrs.js"></script>
+<script src="assets/header-attrs-2.6.4/header-attrs.js"></script>
 <script src="assets/jquery-2.2.3/jquery.min.js"></script>
 <link href="assets/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="assets/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -65,7 +65,6 @@
 pre > code.sourceCode { white-space: pre; position: relative; }
 pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
 pre.sourceCode { margin: 0; }
 @media screen {
@@ -434,7 +433,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul></li>
 <li class="chapter" data-level="9.3" data-path="altération-des-pixels.html"><a href="altération-des-pixels.html"><i class="fa fa-check"></i><b>9.3</b> Altération des pixels</a>
 <ul>
-<li class="chapter" data-level="9.3.1" data-path="altération-des-pixels.html"><a href="altération-des-pixels.html#effets-lié-à-la-luminance"><i class="fa fa-check"></i><b>9.3.1</b> Effets lié à la luminance</a></li>
+<li class="chapter" data-level="9.3.1" data-path="altération-des-pixels.html"><a href="altération-des-pixels.html#luminance"><i class="fa fa-check"></i><b>9.3.1</b> Luminance</a></li>
 <li class="chapter" data-level="9.3.2" data-path="altération-des-pixels.html"><a href="altération-des-pixels.html#couleurs"><i class="fa fa-check"></i><b>9.3.2</b> Couleurs</a></li>
 <li class="chapter" data-level="9.3.3" data-path="altération-des-pixels.html"><a href="altération-des-pixels.html#incrustation-dimage"><i class="fa fa-check"></i><b>9.3.3</b> Incrustation d’image</a></li>
 </ul></li>
@@ -520,9 +519,10 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <ul>
 <li class="chapter" data-level="15.1" data-path="ffmpeg-1.html"><a href="ffmpeg-1.html"><i class="fa fa-check"></i><b>15.1</b> FFmpeg</a>
 <ul>
-<li class="chapter" data-level="15.1.1" data-path="ffmpeg-1.html"><a href="ffmpeg-1.html#signaux-de-calibration"><i class="fa fa-check"></i><b>15.1.1</b> Signaux de calibration</a></li>
-<li class="chapter" data-level="15.1.2" data-path="ffmpeg-1.html"><a href="ffmpeg-1.html#ex-transcoder-un-fichier-video-vers-un-fichier-prores-compatible-avec-quicktime"><i class="fa fa-check"></i><b>15.1.2</b> ex: Transcoder un fichier video vers un fichier prores compatible avec quicktime</a></li>
-<li class="chapter" data-level="15.1.3" data-path="ffmpeg-1.html"><a href="ffmpeg-1.html#compresseur-sur-la-piste-audio-compand-sans-recompresser-la-vidéo-ffmpeg-fastaudiocompand"><i class="fa fa-check"></i><b>15.1.3</b> Compresseur sur la piste audio (compand) sans recompresser la vidéo {ffmpeg-fastaudiocompand}</a></li>
+<li class="chapter" data-level="15.1.1" data-path="ffmpeg-1.html"><a href="ffmpeg-1.html#gif"><i class="fa fa-check"></i><b>15.1.1</b> gif</a></li>
+<li class="chapter" data-level="15.1.2" data-path="ffmpeg-1.html"><a href="ffmpeg-1.html#signaux-de-calibration"><i class="fa fa-check"></i><b>15.1.2</b> Signaux de calibration</a></li>
+<li class="chapter" data-level="15.1.3" data-path="ffmpeg-1.html"><a href="ffmpeg-1.html#ex-transcoder-un-fichier-video-vers-un-fichier-prores-compatible-avec-quicktime"><i class="fa fa-check"></i><b>15.1.3</b> ex: Transcoder un fichier video vers un fichier prores compatible avec quicktime</a></li>
+<li class="chapter" data-level="15.1.4" data-path="ffmpeg-1.html"><a href="ffmpeg-1.html#compresseur-sur-la-piste-audio-compand-sans-recompresser-la-vidéo-ffmpeg-fastaudiocompand"><i class="fa fa-check"></i><b>15.1.4</b> Compresseur sur la piste audio (compand) sans recompresser la vidéo {ffmpeg-fastaudiocompand}</a></li>
 </ul></li>
 <li class="chapter" data-level="15.2" data-path="ffplay.html"><a href="ffplay.html"><i class="fa fa-check"></i><b>15.2</b> FFplay</a>
 <ul>
@@ -577,20 +577,36 @@ Affecte les <em>Fragments</em> , nuances, <em>shaders</em></p>
 <ul>
 <li><a href="http://what-when-how.com/introduction-to-video-and-image-processing/visual-effects-introduction-to-video-and-image-processing-part-1/" class="uri">http://what-when-how.com/introduction-to-video-and-image-processing/visual-effects-introduction-to-video-and-image-processing-part-1/</a></li>
 </ul>
-<div id="effets-lié-à-la-luminance" class="section level3" number="9.3.1">
-<h3><span class="header-section-number">9.3.1</span> Effets lié à la luminance</h3>
+<div id="luminance" class="section level3" number="9.3.1">
+<h3><span class="header-section-number">9.3.1</span> Luminance</h3>
 <div id="contraste" class="section level4" number="9.3.1.1">
 <h4><span class="header-section-number">9.3.1.1</span> Contraste</h4>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-7"></span>
+<img src="medias/traiter/fx_obs/cc-contrast/01_-2.png" alt="Plage d'influence du paramètre **contraste** sur grille de calibration couleur" width="14%" /><img src="medias/traiter/fx_obs/cc-contrast/02_-1.png" alt="Plage d'influence du paramètre **contraste** sur grille de calibration couleur" width="14%" /><img src="medias/traiter/fx_obs/cc-contrast/03_-05.png" alt="Plage d'influence du paramètre **contraste** sur grille de calibration couleur" width="14%" /><img src="medias/traiter/fx_obs/cc-contrast/04_0.png" alt="Plage d'influence du paramètre **contraste** sur grille de calibration couleur" width="14%" /><img src="medias/traiter/fx_obs/cc-contrast/05_05.png" alt="Plage d'influence du paramètre **contraste** sur grille de calibration couleur" width="14%" /><img src="medias/traiter/fx_obs/cc-contrast/06_1.png" alt="Plage d'influence du paramètre **contraste** sur grille de calibration couleur" width="14%" /><img src="medias/traiter/fx_obs/cc-contrast/07_2.png" alt="Plage d'influence du paramètre **contraste** sur grille de calibration couleur" width="14%" />
+<p class="caption">
+Figure 9.1: Plage d’influence du paramètre <strong>contraste</strong> sur grille de calibration couleur
+</p>
+</div>
 <ul>
 <li><a href="https://www.rochester.edu/newscenter/microscopic-eye-movements-affect-how-we-see-contrast-358802/" class="uri">https://www.rochester.edu/newscenter/microscopic-eye-movements-affect-how-we-see-contrast-358802/</a></li>
 </ul>
 </div>
 <div id="gamma" class="section level4" number="9.3.1.2">
 <h4><span class="header-section-number">9.3.1.2</span> Gamma</h4>
-<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-7"></span>
-<img src="medias/traiter/fx_obs/cc-gamma/fx_gamma_moins3.png" alt="Transformation de l'image de calibration via l'ajustement du paramètre Gamma filtre dans le filtre de correction couleurs " width="14%" /><img src="medias/traiter/fx_obs/cc-gamma/fx_gamma_moins2.png" alt="Transformation de l'image de calibration via l'ajustement du paramètre Gamma filtre dans le filtre de correction couleurs " width="14%" /><img src="medias/traiter/fx_obs/cc-gamma/fx_gamma_moins1.png" alt="Transformation de l'image de calibration via l'ajustement du paramètre Gamma filtre dans le filtre de correction couleurs " width="14%" /><img src="medias/traiter/fx_obs/cc-gamma/fx_gamma_0.png" alt="Transformation de l'image de calibration via l'ajustement du paramètre Gamma filtre dans le filtre de correction couleurs " width="14%" /><img src="medias/traiter/fx_obs/cc-gamma/fx_gamma_1.png" alt="Transformation de l'image de calibration via l'ajustement du paramètre Gamma filtre dans le filtre de correction couleurs " width="14%" /><img src="medias/traiter/fx_obs/cc-gamma/fx_gamma_2.png" alt="Transformation de l'image de calibration via l'ajustement du paramètre Gamma filtre dans le filtre de correction couleurs " width="14%" /><img src="medias/traiter/fx_obs/cc-gamma/fx_gamma_3.png" alt="Transformation de l'image de calibration via l'ajustement du paramètre Gamma filtre dans le filtre de correction couleurs " width="14%" />
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-8"></span>
+<img src="medias/traiter/fx_obs/cc-gamma/01_-3.png" alt="Plage d'influence du paramètre **gamma** sur grille de calibration couleur" width="14%" /><img src="medias/traiter/fx_obs/cc-gamma/02_-2.png" alt="Plage d'influence du paramètre **gamma** sur grille de calibration couleur" width="14%" /><img src="medias/traiter/fx_obs/cc-gamma/03_-1.png" alt="Plage d'influence du paramètre **gamma** sur grille de calibration couleur" width="14%" /><img src="medias/traiter/fx_obs/cc-gamma/04_0.png" alt="Plage d'influence du paramètre **gamma** sur grille de calibration couleur" width="14%" /><img src="medias/traiter/fx_obs/cc-gamma/05_1.png" alt="Plage d'influence du paramètre **gamma** sur grille de calibration couleur" width="14%" /><img src="medias/traiter/fx_obs/cc-gamma/06_2.png" alt="Plage d'influence du paramètre **gamma** sur grille de calibration couleur" width="14%" /><img src="medias/traiter/fx_obs/cc-gamma/07_3.png" alt="Plage d'influence du paramètre **gamma** sur grille de calibration couleur" width="14%" />
 <p class="caption">
-Figure 9.1: Transformation de l’image de calibration via l’ajustement du paramètre Gamma filtre dans le filtre de correction couleurs
+Figure 9.2: Plage d’influence du paramètre <strong>gamma</strong> sur grille de calibration couleur
+</p>
+</div>
+</div>
+<div id="luminosité" class="section level4" number="9.3.1.3">
+<h4><span class="header-section-number">9.3.1.3</span> Luminosité</h4>
+<p><em>Brightness</em></p>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-9"></span>
+<img src="medias/traiter/fx_obs/cc-brightness/01.png" alt="Influence du paramètre **Luminosité** sur grille de calibration couleur" width="14%" /><img src="medias/traiter/fx_obs/cc-brightness/02.png" alt="Influence du paramètre **Luminosité** sur grille de calibration couleur" width="14%" /><img src="medias/traiter/fx_obs/cc-brightness/03.png" alt="Influence du paramètre **Luminosité** sur grille de calibration couleur" width="14%" /><img src="medias/traiter/fx_obs/cc-brightness/04.png" alt="Influence du paramètre **Luminosité** sur grille de calibration couleur" width="14%" /><img src="medias/traiter/fx_obs/cc-brightness/05.png" alt="Influence du paramètre **Luminosité** sur grille de calibration couleur" width="14%" /><img src="medias/traiter/fx_obs/cc-brightness/06.png" alt="Influence du paramètre **Luminosité** sur grille de calibration couleur" width="14%" /><img src="medias/traiter/fx_obs/cc-brightness/07.png" alt="Influence du paramètre **Luminosité** sur grille de calibration couleur" width="14%" />
+<p class="caption">
+Figure 9.3: Influence du paramètre <strong>Luminosité</strong> sur grille de calibration couleur
 </p>
 </div>
 <ul>
@@ -600,30 +616,63 @@ Figure 9.1: Transformation de l’image de calibration via l’ajustement du par
 </div>
 <div id="couleurs" class="section level3" number="9.3.2">
 <h3><span class="header-section-number">9.3.2</span> Couleurs</h3>
+<div id="saturation" class="section level4" number="9.3.2.1">
+<h4><span class="header-section-number">9.3.2.1</span> Saturation</h4>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-10"></span>
+<img src="medias/traiter/fx_obs/cc-saturation/01.png" alt="Plage d'influence du paramètre **saturation** sur grille de calibration couleur" width="14%" /><img src="medias/traiter/fx_obs/cc-saturation/02.png" alt="Plage d'influence du paramètre **saturation** sur grille de calibration couleur" width="14%" /><img src="medias/traiter/fx_obs/cc-saturation/03.png" alt="Plage d'influence du paramètre **saturation** sur grille de calibration couleur" width="14%" /><img src="medias/traiter/fx_obs/cc-saturation/04.png" alt="Plage d'influence du paramètre **saturation** sur grille de calibration couleur" width="14%" /><img src="medias/traiter/fx_obs/cc-saturation/05.png" alt="Plage d'influence du paramètre **saturation** sur grille de calibration couleur" width="14%" /><img src="medias/traiter/fx_obs/cc-saturation/06.png" alt="Plage d'influence du paramètre **saturation** sur grille de calibration couleur" width="14%" /><img src="medias/traiter/fx_obs/cc-saturation/07.png" alt="Plage d'influence du paramètre **saturation** sur grille de calibration couleur" width="14%" />
+<p class="caption">
+Figure 9.4: Plage d’influence du paramètre <strong>saturation</strong> sur grille de calibration couleur
+</p>
+</div>
+</div>
+<div id="décalage-de-teinte" class="section level4" number="9.3.2.2">
+<h4><span class="header-section-number">9.3.2.2</span> Décalage de teinte</h4>
+<em>Hue</em>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-11"></span>
+<img src="medias/traiter/fx_obs/cc-hue/01.png" alt="Décalage de la teinte par incrément de 60 degrés" width="14%" /><img src="medias/traiter/fx_obs/cc-hue/02.png" alt="Décalage de la teinte par incrément de 60 degrés" width="14%" /><img src="medias/traiter/fx_obs/cc-hue/03.png" alt="Décalage de la teinte par incrément de 60 degrés" width="14%" /><img src="medias/traiter/fx_obs/cc-hue/04.png" alt="Décalage de la teinte par incrément de 60 degrés" width="14%" /><img src="medias/traiter/fx_obs/cc-hue/05.png" alt="Décalage de la teinte par incrément de 60 degrés" width="14%" /><img src="medias/traiter/fx_obs/cc-hue/06.png" alt="Décalage de la teinte par incrément de 60 degrés" width="14%" /><img src="medias/traiter/fx_obs/cc-hue/07.png" alt="Décalage de la teinte par incrément de 60 degrés" width="14%" />
+<p class="caption">
+Figure 9.5: Décalage de la teinte par incrément de 60 degrés
+</p>
+</div>
+</div>
+<div id="nuance-des-couleurs" class="section level4" number="9.3.2.3">
+<h4><span class="header-section-number">9.3.2.3</span> Nuance des couleurs</h4>
+<p>LUT</p>
+<ul>
+<li><p><a href="https://github.com/Pomax/LUT-builder" class="uri">https://github.com/Pomax/LUT-builder</a></p></li>
+<li><p><a href="https://i0.wp.com/thelandofcolor.com/wp-content/uploads/2010/03/HSL-Cone-Graphic.jpg?resize=550%2C546" class="uri">https://i0.wp.com/thelandofcolor.com/wp-content/uploads/2010/03/HSL-Cone-Graphic.jpg?resize=550%2C546</a></p></li>
+</ul>
+</div>
+<div id="niveau-des-couleurs" class="section level4" number="9.3.2.4">
+<h4><span class="header-section-number">9.3.2.4</span> Niveau des couleurs</h4>
+</div>
+<div id="représentation-numérique-de-la-couleur" class="section level4" number="9.3.2.5">
+<h4><span class="header-section-number">9.3.2.5</span> Représentation numérique de la couleur</h4>
 <ul>
 <li><a href="https://thebookofshaders.com/06/?lan=fr" class="uri">https://thebookofshaders.com/06/?lan=fr</a></li>
 </ul>
-<div id="sythèse-de-la-couleurs" class="section level4" number="9.3.2.1">
-<h4><span class="header-section-number">9.3.2.1</span> Sythèse de la couleurs</h4>
+</div>
+<div id="sythèse-de-la-couleurs" class="section level4" number="9.3.2.6">
+<h4><span class="header-section-number">9.3.2.6</span> Sythèse de la couleurs</h4>
 <ul>
 <li><p><a href="http://bech.free.fr/docs/colorim.htm" class="uri">http://bech.free.fr/docs/colorim.htm</a></p></li>
 <li><p><a href="https://fr.wikipedia.org/wiki/Synth%C3%A8se_additive" class="uri">https://fr.wikipedia.org/wiki/Synth%C3%A8se_additive</a></p></li>
 </ul>
-<div id="additive" class="section level5" number="9.3.2.1.1">
-<h5><span class="header-section-number">9.3.2.1.1</span> Additive</h5>
+<div id="additive" class="section level5" number="9.3.2.6.1">
+<h5><span class="header-section-number">9.3.2.6.1</span> Additive</h5>
 <p>à l’écran (RGB): additif</p>
 </div>
-<div id="soustractive" class="section level5" number="9.3.2.1.2">
-<h5><span class="header-section-number">9.3.2.1.2</span> Soustractive</h5>
+<div id="soustractive" class="section level5" number="9.3.2.6.2">
+<h5><span class="header-section-number">9.3.2.6.2</span> Soustractive</h5>
 <p>à l’impression (CMYK) : soustractif</p>
 <p>En lumière (filtre) : soustractif</p>
 </div>
 </div>
-<div id="espace-couleurs" class="section level4" number="9.3.2.2">
-<h4><span class="header-section-number">9.3.2.2</span> Espace couleurs</h4>
+<div id="espace-couleurs" class="section level4" number="9.3.2.7">
+<h4><span class="header-section-number">9.3.2.7</span> Espace couleurs</h4>
 </div>
-<div id="couleurs-et-longueurs-donde" class="section level4" number="9.3.2.3">
-<h4><span class="header-section-number">9.3.2.3</span> Couleurs et longueurs d’onde</h4>
+<div id="couleurs-et-longueurs-donde" class="section level4" number="9.3.2.8">
+<h4><span class="header-section-number">9.3.2.8</span> Couleurs et longueurs d’onde</h4>
 <ul>
 <li><a href="http://what-when-how.com/display-interfaces/fundamentals-of-color-display-interfaces-part-1/" class="uri">http://what-when-how.com/display-interfaces/fundamentals-of-color-display-interfaces-part-1/</a></li>
 <li>Perception de la chaleur d’une image
@@ -635,26 +684,43 @@ Figure 9.1: Transformation de l’image de calibration via l’ajustement du par
 <li><a href="http://what-when-how.com/introduction-to-video-and-image-processing/color-images-introduction-to-video-and-image-processing-part-3/" class="uri">http://what-when-how.com/introduction-to-video-and-image-processing/color-images-introduction-to-video-and-image-processing-part-3/</a></li>
 </ul>
 </div>
-<div id="nuance-des-couleurs" class="section level4" number="9.3.2.4">
-<h4><span class="header-section-number">9.3.2.4</span> Nuance des couleurs</h4>
-<p>Rotation des couleurs</p>
-<ul>
-<li><a href="https://i0.wp.com/thelandofcolor.com/wp-content/uploads/2010/03/HSL-Cone-Graphic.jpg?resize=550%2C546" class="uri">https://i0.wp.com/thelandofcolor.com/wp-content/uploads/2010/03/HSL-Cone-Graphic.jpg?resize=550%2C546</a></li>
-</ul>
-</div>
-<div id="niveau-des-couleurs" class="section level4" number="9.3.2.5">
-<h4><span class="header-section-number">9.3.2.5</span> Niveau des couleurs</h4>
-<p>Intervention sur les niveau de rouge vert et bleu</p>
-</div>
 </div>
 <div id="incrustation-dimage" class="section level3" number="9.3.3">
 <h3><span class="header-section-number">9.3.3</span> Incrustation d’image</h3>
-<div id="lumakey" class="section level4" number="9.3.3.1">
-<h4><span class="header-section-number">9.3.3.1</span> Lumakey</h4>
-<p>Transparence via seuils de luminance</p>
+<div id="opacité" class="section level4" number="9.3.3.1">
+<h4><span class="header-section-number">9.3.3.1</span> Opacité</h4>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-12"></span>
+<img src="medias/traiter/fx_obs/cc-opacity/01.png" alt="Dimminution de opacité" width="16%" /><img src="medias/traiter/fx_obs/cc-opacity/02.png" alt="Dimminution de opacité" width="16%" /><img src="medias/traiter/fx_obs/cc-opacity/03.png" alt="Dimminution de opacité" width="16%" /><img src="medias/traiter/fx_obs/cc-opacity/04.png" alt="Dimminution de opacité" width="16%" /><img src="medias/traiter/fx_obs/cc-opacity/05.png" alt="Dimminution de opacité" width="16%" />
+<p class="caption">
+Figure 9.6: Dimminution de opacité
+</p>
 </div>
-<div id="chromakey" class="section level4" number="9.3.3.2">
-<h4><span class="header-section-number">9.3.3.2</span> Chromakey</h4>
+</div>
+<div id="lumakey" class="section level4" number="9.3.3.2">
+<h4><span class="header-section-number">9.3.3.2</span> Lumakey</h4>
+<div id="seuil-maximum" class="section level5" number="9.3.3.2.1">
+<h5><span class="header-section-number">9.3.3.2.1</span> Seuil Maximum</h5>
+<p>Si la luminance du pixel est plus grande que le seuil maximum le pixel est transparent.</p>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-13"></span>
+<img src="medias/traiter/fx_obs/luma-max/01.png" alt="Incrustation en luminance via seuil maximum" width="16%" /><img src="medias/traiter/fx_obs/luma-max/02.png" alt="Incrustation en luminance via seuil maximum" width="16%" /><img src="medias/traiter/fx_obs/luma-max/03.png" alt="Incrustation en luminance via seuil maximum" width="16%" /><img src="medias/traiter/fx_obs/luma-max/04.png" alt="Incrustation en luminance via seuil maximum" width="16%" /><img src="medias/traiter/fx_obs/luma-max/05.png" alt="Incrustation en luminance via seuil maximum" width="16%" /><img src="medias/traiter/fx_obs/luma-max/06.png" alt="Incrustation en luminance via seuil maximum" width="16%" />
+<p class="caption">
+Figure 9.7: Incrustation en luminance via seuil maximum
+</p>
+</div>
+</div>
+<div id="seuil-minimum" class="section level5" number="9.3.3.2.2">
+<h5><span class="header-section-number">9.3.3.2.2</span> Seuil Minimum</h5>
+<p>Si la luminance du pixel est plus petite que le seuil minimum le pixel est transparent</p>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-14"></span>
+<img src="medias/traiter/fx_obs/luma-min/01.png" alt="Incrustation en luminance via seuil minimum" width="16%" /><img src="medias/traiter/fx_obs/luma-min/02.png" alt="Incrustation en luminance via seuil minimum" width="16%" /><img src="medias/traiter/fx_obs/luma-min/03.png" alt="Incrustation en luminance via seuil minimum" width="16%" /><img src="medias/traiter/fx_obs/luma-min/04.png" alt="Incrustation en luminance via seuil minimum" width="16%" /><img src="medias/traiter/fx_obs/luma-min/05.png" alt="Incrustation en luminance via seuil minimum" width="16%" /><img src="medias/traiter/fx_obs/luma-min/06.png" alt="Incrustation en luminance via seuil minimum" width="16%" />
+<p class="caption">
+Figure 9.8: Incrustation en luminance via seuil minimum
+</p>
+</div>
+</div>
+</div>
+<div id="chromakey" class="section level4" number="9.3.3.3">
+<h4><span class="header-section-number">9.3.3.3</span> Chromakey</h4>
 <p>Transparence via seuils de chrominance</p>
 </div>
 </div>
