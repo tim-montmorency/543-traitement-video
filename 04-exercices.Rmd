@@ -47,7 +47,15 @@
 * Sommatif (10%) 
 * Individuel
 
-<-- Ex :  Différencier la trame de cette image  !-->
+<!-- Ex :  Associer la trame à cette image -->
+### Ex. question sur le traitement, 
+q: Quel type de traitement d'incrustation d'image 
+x:
+b:
+c:
+d:
+
+
 
 ### Consignes
 

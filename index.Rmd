@@ -21,6 +21,8 @@ output:
     css: toc.css
   bookdown::word_document:
     toc: true
+header-includes:
+   - \usepackage{subfig}
 documentclass: book
 bibliography: [book.bib, packages.bib, 582543-traitement-video.bib]
 biblio-style: apalike

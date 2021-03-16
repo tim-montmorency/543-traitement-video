@@ -83,20 +83,61 @@ Affecte les *Fragments* , nuances, *shaders*
 
 
 
-### Effets lié à la luminance
+### Luminance
 
 #### Contraste
+
+```{r echo=FALSE,out.width="14%", fig.subcap=c('-2.00', '-1.00', '-0.50', '0', '1.00', '2.00', '3.00'), fig.cap="Plage d'influence du paramètre **contraste** sur grille de calibration couleur",fig.show='hold',fig.align='center'}
+knitr::include_graphics("medias/traiter/fx_obs/cc-contrast/01_-2.png")
+knitr::include_graphics("medias/traiter/fx_obs/cc-contrast/02_-1.png")
+knitr::include_graphics("medias/traiter/fx_obs/cc-contrast/03_-05.png")
+knitr::include_graphics("medias/traiter/fx_obs/cc-contrast/04_0.png")
+knitr::include_graphics("medias/traiter/fx_obs/cc-contrast/05_05.png")
+knitr::include_graphics("medias/traiter/fx_obs/cc-contrast/06_1.png")
+knitr::include_graphics("medias/traiter/fx_obs/cc-contrast/07_2.png")
+```
+
+```{r, fig.cap = 'exemple', eval=knitr::is_html_output(excludes = "epub"), results = 'asis', echo = F}
+cat(
+![img]()
+)
+```
 
 * https://www.rochester.edu/newscenter/microscopic-eye-movements-affect-how-we-see-contrast-358802/
 
 
 #### Gamma
 
+```{r echo=FALSE,out.width="14%", fig.subcap=c('-3', '-2', '-1', '0', '1', '2', '3'), fig.cap="Plage d'influence du paramètre **gamma** sur grille de calibration couleur",fig.show='hold',fig.align='center'}
+knitr::include_graphics("medias/traiter/fx_obs/cc-gamma/01_-3.png")
+knitr::include_graphics("medias/traiter/fx_obs/cc-gamma/02_-2.png")
+knitr::include_graphics("medias/traiter/fx_obs/cc-gamma/03_-1.png")
+knitr::include_graphics("medias/traiter/fx_obs/cc-gamma/04_0.png")
+knitr::include_graphics("medias/traiter/fx_obs/cc-gamma/05_1.png")
+knitr::include_graphics("medias/traiter/fx_obs/cc-gamma/06_2.png")
+knitr::include_graphics("medias/traiter/fx_obs/cc-gamma/07_3.png")
+```
+
+
 * http://what-when-how.com/introduction-to-video-and-image-processing/point-processing-introduction-to-video-and-image-processing-part-1/
 
 
 
 ### Couleurs
+
+#### Nuance des couleurs
+
+Décalage de teinte
+
+* https://i0.wp.com/thelandofcolor.com/wp-content/uploads/2010/03/HSL-Cone-Graphic.jpg?resize=550%2C546
+
+
+#### Niveau des couleurs 
+
+Intervention sur les niveau de rouge vert et bleu 
+
+
+#### Représentation numérique de la couleur
 
 * https://thebookofshaders.com/06/?lan=fr
 
@@ -131,16 +172,6 @@ En lumière (filtre) : soustractif
 * http://what-when-how.com/introduction-to-video-and-image-processing/color-images-introduction-to-video-and-image-processing-part-3/
 
 
-#### Nuance des couleurs
-
-Rotation des couleurs 
-
-* https://i0.wp.com/thelandofcolor.com/wp-content/uploads/2010/03/HSL-Cone-Graphic.jpg?resize=550%2C546
-
-
-#### Niveau des couleurs 
-
-Intervention sur les niveau de rouge vert et bleu 
 
 ### Incrustation d'image
 

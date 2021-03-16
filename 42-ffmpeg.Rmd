@@ -2,6 +2,50 @@
 
 ## FFmpeg
 
+### gif
+https://itectec.com/superuser/how-to-convert-a-video-to-gif-using-ffmpeg-with-reasonable-quality/
+http://blog.pkh.me/p/21-high-quality-gif-with-ffmpeg.html
+
+
+```bash
+ffmpeg  \
+-i %*.png \
+-vf "scale=320:-1:flags=lanczos,\
+split[s0][s1];[s0]palettegen[p];[s1][p]paletteuse" \
+-loop 0 \
+output2.gif
+```
+
+#### Créer un gif depuis une sequence d'image
+
+* https://engineering.giphy.com/how-to-make-gifs-with-ffmpeg/
+
+```bash
+ffmpeg \
+-i %*.png \
+-filter_complex "[0:v] \
+fps=5,scale=w=720:h=-1,split [a][b];[a] \
+palettegen=stats_mode=single [p];[b][p] \
+paletteuse=new=1" \
+out.gif
+```
+
+
+#### Palindrome
+
+https://stackoverflow.com/questions/42257354/concat-a-video-with-itself-but-in-reverse-using-ffmpeg
+
+```bash 
+ffmpeg \
+-i %*.png \
+-filter_complex "[0:v]\
+reverse,fifo[r];[0:v][r] \
+concat=n=2:v=1 [v]" \
+-map "[v]" \
+output.gif
+```
+
+
 ### Signaux de calibration
 
 https://www.bogotobogo.com/FFMpeg/ffmpeg_video_test_patterns_src.php

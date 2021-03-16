@@ -119,10 +119,12 @@
 }
 \usepackage{graphicx}
 \usepackage{epstopdf}
+\usepackage{subfig}
 \epstopdfDeclareGraphicsRule{.gif}{png}{.png}{convert gif:\SourceFile.\SourceExt png:\OutputFile}
 \AppendGraphicsExtensions{.gif}
 
 \makeatother
+\usepackage{subfig}
 \ifxetex
   % Load polyglossia as late as possible: uses bidi with RTL langages (e.g. Hebrew, Arabic)
   \usepackage{polyglossia}
@@ -141,7 +143,7 @@
 
 \title{Traitement vidéo}
 \author{Guillaume Arseneault}
-\date{2021-03-10}
+\date{2021-03-15}
 
 \begin{document}
 \maketitle
@@ -1024,7 +1026,14 @@ Remise du document accompagnateur \protect\hyperlink{sommatif_5}{performance aud
   Individuel
 \end{itemize}
 
-\textless-- Ex : Différencier la trame de cette image !--\textgreater{}
+\hypertarget{ex.-question-sur-le-traitement}{%
+\subsection{Ex. question sur le traitement,}\label{ex.-question-sur-le-traitement}}
+
+q: Quel type de traitement d'incrustation d'image
+x:
+b:
+c:
+d:
 
 \hypertarget{consignes-1}{%
 \subsection{Consignes}\label{consignes-1}}
@@ -2993,11 +3002,20 @@ Affecte les \emph{Fragments} , nuances, \emph{shaders}
   \url{http://what-when-how.com/introduction-to-video-and-image-processing/visual-effects-introduction-to-video-and-image-processing-part-1/}
 \end{itemize}
 
-\hypertarget{effets-liuxe9-uxe0-la-luminance}{%
-\subsection{Effets lié à la luminance}\label{effets-liuxe9-uxe0-la-luminance}}
+\hypertarget{luminance}{%
+\subsection{Luminance}\label{luminance}}
 
 \hypertarget{contraste}{%
 \subsubsection{Contraste}\label{contraste}}
+
+\begin{figure}
+
+{\centering \subfloat[-2.00\label{fig:unnamed-chunk-7-1}]{\includegraphics[width=0.14\linewidth]{medias/traiter/fx_obs/cc-contrast/01_-2} }\subfloat[-1.00\label{fig:unnamed-chunk-7-2}]{\includegraphics[width=0.14\linewidth]{medias/traiter/fx_obs/cc-contrast/02_-1} }\subfloat[-0.50\label{fig:unnamed-chunk-7-3}]{\includegraphics[width=0.14\linewidth]{medias/traiter/fx_obs/cc-contrast/03_-05} }\subfloat[0\label{fig:unnamed-chunk-7-4}]{\includegraphics[width=0.14\linewidth]{medias/traiter/fx_obs/cc-contrast/04_0} }\subfloat[1.00\label{fig:unnamed-chunk-7-5}]{\includegraphics[width=0.14\linewidth]{medias/traiter/fx_obs/cc-contrast/05_05} }\subfloat[2.00\label{fig:unnamed-chunk-7-6}]{\includegraphics[width=0.14\linewidth]{medias/traiter/fx_obs/cc-contrast/06_1} }\subfloat[3.00\label{fig:unnamed-chunk-7-7}]{\includegraphics[width=0.14\linewidth]{medias/traiter/fx_obs/cc-contrast/07_2} }
+
+}
+
+\caption{Plage d'influence du paramètre **contraste** sur grille de calibration couleur}\label{fig:unnamed-chunk-7}
+\end{figure}
 
 \begin{itemize}
 \tightlist
@@ -3008,6 +3026,15 @@ Affecte les \emph{Fragments} , nuances, \emph{shaders}
 \hypertarget{gamma}{%
 \subsubsection{Gamma}\label{gamma}}
 
+\begin{figure}
+
+{\centering \subfloat[-3\label{fig:unnamed-chunk-9-1}]{\includegraphics[width=0.14\linewidth]{medias/traiter/fx_obs/cc-gamma/01_-3} }\subfloat[-2\label{fig:unnamed-chunk-9-2}]{\includegraphics[width=0.14\linewidth]{medias/traiter/fx_obs/cc-gamma/02_-2} }\subfloat[-1\label{fig:unnamed-chunk-9-3}]{\includegraphics[width=0.14\linewidth]{medias/traiter/fx_obs/cc-gamma/03_-1} }\subfloat[0\label{fig:unnamed-chunk-9-4}]{\includegraphics[width=0.14\linewidth]{medias/traiter/fx_obs/cc-gamma/04_0} }\subfloat[1\label{fig:unnamed-chunk-9-5}]{\includegraphics[width=0.14\linewidth]{medias/traiter/fx_obs/cc-gamma/05_1} }\subfloat[2\label{fig:unnamed-chunk-9-6}]{\includegraphics[width=0.14\linewidth]{medias/traiter/fx_obs/cc-gamma/06_2} }\subfloat[3\label{fig:unnamed-chunk-9-7}]{\includegraphics[width=0.14\linewidth]{medias/traiter/fx_obs/cc-gamma/07_3} }
+
+}
+
+\caption{Plage d'influence du paramètre **gamma** sur grille de calibration couleur}\label{fig:unnamed-chunk-9}
+\end{figure}
+
 \begin{itemize}
 \tightlist
 \item
@@ -3016,6 +3043,25 @@ Affecte les \emph{Fragments} , nuances, \emph{shaders}
 
 \hypertarget{couleurs}{%
 \subsection{Couleurs}\label{couleurs}}
+
+\hypertarget{nuance-des-couleurs}{%
+\subsubsection{Nuance des couleurs}\label{nuance-des-couleurs}}
+
+Décalage de teinte
+
+\begin{itemize}
+\tightlist
+\item
+  \url{https://i0.wp.com/thelandofcolor.com/wp-content/uploads/2010/03/HSL-Cone-Graphic.jpg?resize=550\%2C546}
+\end{itemize}
+
+\hypertarget{niveau-des-couleurs}{%
+\subsubsection{Niveau des couleurs}\label{niveau-des-couleurs}}
+
+Intervention sur les niveau de rouge vert et bleu
+
+\hypertarget{repruxe9sentation-numuxe9rique-de-la-couleur}{%
+\subsubsection{Représentation numérique de la couleur}\label{repruxe9sentation-numuxe9rique-de-la-couleur}}
 
 \begin{itemize}
 \tightlist
@@ -3070,22 +3116,6 @@ En lumière (filtre) : soustractif
 \item
   \url{http://what-when-how.com/introduction-to-video-and-image-processing/color-images-introduction-to-video-and-image-processing-part-3/}
 \end{itemize}
-
-\hypertarget{nuance-des-couleurs}{%
-\subsubsection{Nuance des couleurs}\label{nuance-des-couleurs}}
-
-Rotation des couleurs
-
-\begin{itemize}
-\tightlist
-\item
-  \url{https://i0.wp.com/thelandofcolor.com/wp-content/uploads/2010/03/HSL-Cone-Graphic.jpg?resize=550\%2C546}
-\end{itemize}
-
-\hypertarget{niveau-des-couleurs}{%
-\subsubsection{Niveau des couleurs}\label{niveau-des-couleurs}}
-
-Intervention sur les niveau de rouge vert et bleu
 
 \hypertarget{incrustation-dimage}{%
 \subsection{Incrustation d'image}\label{incrustation-dimage}}
@@ -3415,6 +3445,61 @@ Noise : \url{https://thebookofshaders.com/11/}
 
 \hypertarget{ffmpeg-1}{%
 \section{FFmpeg}\label{ffmpeg-1}}
+
+\hypertarget{gif}{%
+\subsection{gif}\label{gif}}
+
+\url{https://itectec.com/superuser/how-to-convert-a-video-to-gif-using-ffmpeg-with-reasonable-quality/}
+\url{http://blog.pkh.me/p/21-high-quality-gif-with-ffmpeg.html}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\ExtensionTok{ffmpeg}  \DataTypeTok{\textbackslash{}}
+\NormalTok{{-}i \%}\PreprocessorTok{*}\NormalTok{.png }\DataTypeTok{\textbackslash{}}
+\NormalTok{{-}vf }\StringTok{"scale=320:{-}1:flags=lanczos,}\DataTypeTok{\textbackslash{}}
+\StringTok{split[s0][s1];[s0]palettegen[p];[s1][p]paletteuse"} \DataTypeTok{\textbackslash{}}
+\NormalTok{{-}loop 0 }\DataTypeTok{\textbackslash{}}
+\NormalTok{output2.gif}
+\end{Highlighting}
+\end{Shaded}
+
+\hypertarget{cruxe9er-un-gif-depuis-une-sequence-dimage}{%
+\subsubsection{Créer un gif depuis une sequence d'image}\label{cruxe9er-un-gif-depuis-une-sequence-dimage}}
+
+\begin{itemize}
+\tightlist
+\item
+  \url{https://engineering.giphy.com/how-to-make-gifs-with-ffmpeg/}
+\end{itemize}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\ExtensionTok{ffmpeg} \DataTypeTok{\textbackslash{}}
+\NormalTok{{-}i \%}\PreprocessorTok{*}\NormalTok{.png }\DataTypeTok{\textbackslash{}}
+\NormalTok{{-}filter\_complex }\StringTok{"[0:v] }\DataTypeTok{\textbackslash{}}
+\StringTok{fps=5,scale=w=720:h={-}1,split [a][b];[a] }\DataTypeTok{\textbackslash{}}
+\StringTok{palettegen=stats\_mode=single [p];[b][p] }\DataTypeTok{\textbackslash{}}
+\StringTok{paletteuse=new=1"} \DataTypeTok{\textbackslash{}}
+\NormalTok{out.gif}
+\end{Highlighting}
+\end{Shaded}
+
+\hypertarget{palindrome}{%
+\subsubsection{Palindrome}\label{palindrome}}
+
+\url{https://stackoverflow.com/questions/42257354/concat-a-video-with-itself-but-in-reverse-using-ffmpeg}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\ExtensionTok{ffmpeg} \DataTypeTok{\textbackslash{}}
+\NormalTok{{-}i \%}\PreprocessorTok{*}\NormalTok{.png }\DataTypeTok{\textbackslash{}}
+\NormalTok{{-}filter\_complex }\StringTok{"[0:v]}\DataTypeTok{\textbackslash{}}
+\StringTok{reverse,fifo[r];[0:v][r] }\DataTypeTok{\textbackslash{}}
+\StringTok{concat=n=2:v=1 [v]"} \DataTypeTok{\textbackslash{}}
+\NormalTok{{-}map }\StringTok{"[v]"} \DataTypeTok{\textbackslash{}}
+\NormalTok{output.gif}
+\end{Highlighting}
+\end{Shaded}
 
 \hypertarget{signaux-de-calibration}{%
 \subsection{Signaux de calibration}\label{signaux-de-calibration}}
