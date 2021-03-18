@@ -22,4 +22,10 @@ cat(
 ```
 
 
+* HTML CSS Animation
+
+https://www.experts-exchange.com/articles/14861/Build-a-Pure-CSS3-Slideshow-no-javascript-here.html
+
+https://webkit.org/blog-files/3d-transforms/poster-circle.html
+
 
