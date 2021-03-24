@@ -23,7 +23,8 @@ window.onload = function() {
                 var red = ((x+offset) % 256) ^ ((y+offset) % 256);
                 var green = ((2*x+offset) % 256) ^ ((2*y+offset) % 256);
                 var blue = 50 + Math.floor(Math.random()*100);
- 
+                var alpha = ((x+offset) % 256) ^ ((2*y+offset) % 256);
+
                 // Rotate the colors
                 blue = (blue + offset) % 256;
  
@@ -31,7 +32,7 @@ window.onload = function() {
                 imagedata.data[pixelindex] = red;     // Red
                 imagedata.data[pixelindex+1] = green; // Green
                 imagedata.data[pixelindex+2] = blue;  // Blue
-                imagedata.data[pixelindex+3] = 255;   // Alpha
+                imagedata.data[pixelindex+3] = alpha;   // Alpha
             }
         }
     }
