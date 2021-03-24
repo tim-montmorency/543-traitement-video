@@ -1,27 +1,109 @@
 # Open Broadcast Studio {#obs} 
 
-## Sources 
+https://obsproject.com/
+
+## Profil
+
+Gestion des paramètres de transmissions (sorties) ainsi que de la résolution. 
+
+
+## Collection de scène
+
+Gestion des scène sauvegardé par ensemble
+
+## Scène 
+
+Regroupement de sources organisées.
+
+Peut inclure des scènes
+
+Les transformations lié au positionnement et au rognage sont spécifique à la scène.
+
+
+## Sources vidéos
+
+
+### Périphérique de capture vidéo 
+* Webcam
+* Carte de capture HDMI
+
+### Navigateur
+
+Permet d'afficher du html local ou distant via une instance chromium 
+
+
+Favoriser le plein écran, 
+
+Interaction possible touch input 
+X-Y sur signal vidéo
+
+Possibilitée de passer des messages CSS 
+
+
+
+### Capture d'écran
+
+Capture un écran en entier
+
+### Capture de fenêtre 
+
+Isole une fenêtre
+
+### Capture de contexte GL 
+
+Technologies associées à la capture de jeu (Game capture)
+
+### Partage via publication locale de texture vidéo   
+
+Associés au(Spout, Syphon)
+
 
 ## Caméra virtuelle
 
-## source html shader toy?
+Permet d'injecter la sortie d'OBS dans d'autre logiciels. 
+Native depuis la versions 26.0
 
-https://www.shadertoy.com/embed/WtfyDj?gui=true&t=10&paused=false
+## Tutoriels OBS francophone démystifiant l'interface
+
+* https://www.leterminal.fr/manuel-obs-studio/
+* https://maniacgeek.net/informatique/obs/utiliser-obs-guide/
+* https://sospc.name/obs-studio-tutoriel-mia/
 
 
-https://www.shadertoy.com/view/ttBcWm
+## Plugiciel 
+
+https://obsproject.com/forum/resources/categories/obs-studio-plugins.6/
 
 
-https://www.shadertoy.com/view/Wt2BR1
+### Obs-websocket
+
+https://obsproject.com/forum/resources/obs-websocket-remote-control-obs-studio-from-websockets.466/
 
 
-## source youtube fullscreen
+### OBS-NDI
 
-```
+https://obsproject.com/forum/resources/obs-ndi-newtek-ndi%E2%84%A2-integration-into-obs-studio.528/
 
-```
 
-### exemple de Shader pour faire du mapping dans OBS 
+### OBS-MIDI
+
+https://obsproject.com/forum/resources/obs-midi.1023/
+
+
+### Move 
+
+https://obsproject.com/forum/resources/move-transition.913/
+
+### OSC for OBS 
+
+https://obsproject.com/forum/resources/osc-for-obs-app.1222/
+
+### streamfx
+
+https://obsproject.com/forum/resources/streamfx-for-obs-studio.578/
+
+
+#### exemple de Shader pour faire du mapping dans OBS 
 
 ```
 // Corner Pin shader by rmanky

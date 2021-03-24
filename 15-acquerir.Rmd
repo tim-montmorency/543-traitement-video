@@ -89,48 +89,6 @@ https://en.wikipedia.org/wiki/Pixel_aspect_ratio#Analog-to-digital_conversion
 ## Acquisition vidéo numérique temps réel {#acquerir_captation}
 
 
-### Sources vidéos
-
-#### Périphérique de capture vidéo 
-* Webcam
-* Carte de capture HDMI
-
-#### Navigateur
-Permet d'afficher du html local ou distant via une instance chromium 
-
-
-Favoriser le plein écran, 
-
-Interaction possible touch input 
-X-Y sur signal vidéo
-
-Possibilitée de passer des messages CSS 
-
-
-
-#### Capture d'écran
-
-#### Capture de fenêtre 
-
-#### Capture de contexte GL 
-
-Technologies associées à la capture de jeu (Game capture)
-
-#### Partage via publication locale de texture vidéo   
-
-Associés au(Spout, Syphon)
-
-
-#### Caméra virtuelle 
-
-
-
-### Tutoriels OBS francophone démystifiant l'interface
-
-* https://www.leterminal.fr/manuel-obs-studio/
-* https://maniacgeek.net/informatique/obs/utiliser-obs-guide/
-* https://sospc.name/obs-studio-tutoriel-mia/
-
 
 
 ### Le système oculaire
