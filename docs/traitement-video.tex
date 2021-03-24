@@ -5,14 +5,13 @@
 \documentclass[
   french,
 ]{book}
+\usepackage{amsmath,amssymb}
 \usepackage{lmodern}
-\usepackage{amsmath}
 \usepackage{ifxetex,ifluatex}
 \ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
   \usepackage{textcomp} % provide euro and other symbols
-  \usepackage{amssymb}
 \else % if luatex or xetex
   \usepackage{unicode-math}
   \defaultfontfeatures{Scale=MatchLowercase}
@@ -84,7 +83,7 @@
 \newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
 \newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
 \newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\usepackage{longtable,booktabs}
+\usepackage{longtable,booktabs,array}
 \usepackage{calc} % for calculating minipage widths
 % Correct order of tables after \paragraph or \subparagraph
 \usepackage{etoolbox}
@@ -131,7 +130,10 @@
   \usepackage{polyglossia}
   \setmainlanguage[]{french}
 \else
-  \usepackage[shorthands=off,main=french]{babel}
+  \usepackage[main=french]{babel}
+% get rid of language-specific shorthands (see #6817):
+\let\LanguageShortHands\languageshorthands
+\def\languageshorthands#1{}
 \fi
 \ifluatex
   \usepackage{selnolig}  % disable illegal ligatures
@@ -141,7 +143,7 @@
 
 \title{Traitement vidéo}
 \author{Guillaume Arseneault}
-\date{2021-03-16}
+\date{2021-03-24}
 
 \begin{document}
 \maketitle
@@ -543,220 +545,109 @@ L'approche pédagogique de ce cours emprunte à celle employée dans les sémina
 
 \href{https://www.cmontmorency.qc.ca/wp-content/uploads/images/college/administration/CALENDRIER-SCOLAIRE-2020-2021.pdf}{Calendrier Collège Montmorency 2020-2021}
 
-\begin{longtable}[]{@{}lll@{}}
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.19}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.41}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.41}}@{}}
 \toprule
-\begin{minipage}[b]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
-Séance\strut
-\end{minipage} & \begin{minipage}[b]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-OBJECTIFS ABORDÉS EN CLASSE\strut
-\end{minipage} & \begin{minipage}[b]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-ACTIVITÉS AUTONOMES\strut
-\end{minipage}\tabularnewline
+Séance & OBJECTIFS ABORDÉS EN CLASSE & ACTIVITÉS AUTONOMES \\ \addlinespace
 \midrule
 \endhead
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
 \protect\hyperlink{semaine_1}{1;
 3
-février}\strut
-\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-Plan de cour;
+février} & Plan de cour;
 Survol \protect\hyperlink{corpus}{corpus artistique};
 Consignes \protect\hyperlink{sommatif_1}{Présentation corpus
-vidéo};\strut
-\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-Recherche d'un sujet \protect\hyperlink{sommatif_1}{Présentation corpus
-vidéo}\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
+vidéo}; & Recherche d'un sujet \protect\hyperlink{sommatif_1}{Présentation corpus
+vidéo} \\ \addlinespace
 \protect\hyperlink{semaine_2}{2;
 10
-février}\strut
-\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-\protect\hyperlink{evolution_historique}{Historique du traitement
+février} & \protect\hyperlink{evolution_historique}{Historique du traitement
 vidéo};
 Formatif Préapprobation \protect\hyperlink{sommatif_1}{Présentation corpus
-Vidéo}\strut
-\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-Préparation \protect\hyperlink{sommatif_1}{Présentation corpus
-vidéo}\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
+Vidéo} & Préparation \protect\hyperlink{sommatif_1}{Présentation corpus
+vidéo} \\ \addlinespace
 \protect\hyperlink{semaine_3}{3;
 17
-février}\strut
-\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-Sommatif \protect\hyperlink{sommatif_1}{Présentation corpus
-Vidéo}\strut
-\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
+février} & Sommatif \protect\hyperlink{sommatif_1}{Présentation corpus
+Vidéo} & \\ \addlinespace
 \protect\hyperlink{semaine_4}{4;
 24
-février}\strut
-\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-\protect\hyperlink{lexique}{Composantes du signal vidéo};
+février} & \protect\hyperlink{lexique}{Composantes du signal vidéo};
 \protect\hyperlink{acquerir}{Acquérir l'image en mouvement};
 \protect\hyperlink{echantillonner}{Échantillonner l'image en
 mouvement};
 Consignes \protect\hyperlink{sommatif_2}{Question traitement
-vidéo}\strut
-\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-Préparation \protect\hyperlink{sommatif_2}{Question traitement
-vidéo}\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
+vidéo} & Préparation \protect\hyperlink{sommatif_2}{Question traitement
+vidéo} \\ \addlinespace
 \protect\hyperlink{semaine_5}{X;
 3
-mars}\strut
-\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-Journées de rattrapage (Pas de cours)\strut
-\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
+mars} & Journées de rattrapage (Pas de cours) & \\ \addlinespace
 \protect\hyperlink{semaine_6}{5;
 10
-mars}\strut
-\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-\protect\hyperlink{traiter}{Traiter l'image en mouvement};
+mars} & \protect\hyperlink{traiter}{Traiter l'image en mouvement};
 Formatif Préapprobation \protect\hyperlink{sommatif_2}{Question traitement
-vidéo}\strut
-\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-Soumettre \protect\hyperlink{sommatif_2}{Question traitement
-vidéo}\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
+vidéo} & Soumettre \protect\hyperlink{sommatif_2}{Question traitement
+vidéo} \\ \addlinespace
 \protect\hyperlink{semaine_7}{6;
 17
-mars}\strut
-\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-Consignes \protect\hyperlink{sommatif_4}{Palette vidéo
+mars} & Consignes \protect\hyperlink{sommatif_4}{Palette vidéo
 interactive};
-Sommatif \protect\hyperlink{sommatif_3}{Quiz traitement vidéo}\strut
-\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-Préparation \protect\hyperlink{sommatif_4}{Palette vidéo
-interactive}\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
+Sommatif \protect\hyperlink{sommatif_3}{Quiz traitement vidéo} & Préparation \protect\hyperlink{sommatif_4}{Palette vidéo
+interactive} \\ \addlinespace
 \protect\hyperlink{semaine_8}{7;
 24
-mars}\strut
-\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-\protect\hyperlink{programmer}{Programmer des sources visuelles}\strut
-\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-Préparation \protect\hyperlink{sommatif_4}{Palette vidéo
-interactive}\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
+mars} & \protect\hyperlink{programmer}{Programmer des sources visuelles} & Préparation \protect\hyperlink{sommatif_4}{Palette vidéo
+interactive} \\ \addlinespace
 \protect\hyperlink{semaine_9}{8;
 31
-mars}\strut
-\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-\protect\hyperlink{interagir}{Interagir avec des sources vidéo}\strut
-\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-Préparation \protect\hyperlink{sommatif_4}{Palette vidéo
-interactive}\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
+mars} & \protect\hyperlink{interagir}{Interagir avec des sources vidéo} & Préparation \protect\hyperlink{sommatif_4}{Palette vidéo
+interactive} \\ \addlinespace
 \protect\hyperlink{semaine_10}{X;
 7
-avril}\strut
-\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-Congé (Pas de cours)\strut
-\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
+avril} & Congé (Pas de cours) & \\ \addlinespace
 \protect\hyperlink{semaine_11}{9;
 14
-avril}\strut
-\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-Suite \protect\hyperlink{programmer}{Programmer des sources
+avril} & Suite \protect\hyperlink{programmer}{Programmer des sources
 visuelles};
 et \protect\hyperlink{interagir}{Interagir avec des sources
-vidéo}\strut
-\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-Préparation \protect\hyperlink{sommatif_4}{Palette vidéo
-interactive}\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
+vidéo} & Préparation \protect\hyperlink{sommatif_4}{Palette vidéo
+interactive} \\ \addlinespace
 \protect\hyperlink{semaine_12}{10;
 21
-avril}\strut
-\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-Sommatif \protect\hyperlink{sommatif_4}{Palette vidéo
-interactive}\strut
-\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
+avril} & Sommatif \protect\hyperlink{sommatif_4}{Palette vidéo
+interactive} & \\ \addlinespace
 \protect\hyperlink{semaine_13}{11;
 28
-avril}\strut
-\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-\protect\hyperlink{deployer}{Déployer un projet vidéo temps
+avril} & \protect\hyperlink{deployer}{Déployer un projet vidéo temps
 réel};
 Consignes \protect\hyperlink{sommatif_5}{performance audiovisuelle temps
-réel}\strut
-\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-Préparation \protect\hyperlink{sommatif_5}{performance audiovisuelle temps
-réel}\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
+réel} & Préparation \protect\hyperlink{sommatif_5}{performance audiovisuelle temps
+réel} \\ \addlinespace
 \protect\hyperlink{semaine_14}{12;
 5
-mai}\strut
-\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-Suite \protect\hyperlink{deployer}{Déployer un projet vidéo temps
-réel}\strut
-\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-Préparation \protect\hyperlink{sommatif_5}{performance audiovisuelle temps
-réel}\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
+mai} & Suite \protect\hyperlink{deployer}{Déployer un projet vidéo temps
+réel} & Préparation \protect\hyperlink{sommatif_5}{performance audiovisuelle temps
+réel} \\ \addlinespace
 \protect\hyperlink{semaine_15}{13;
 12
-mai}\strut
-\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-Préparation \protect\hyperlink{sommatif_5}{performance audiovisuelle temps
-réel}\strut
-\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-Préparation \protect\hyperlink{sommatif_5}{performance audiovisuelle temps
-réel}\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
+mai} & Préparation \protect\hyperlink{sommatif_5}{performance audiovisuelle temps
+réel} & Préparation \protect\hyperlink{sommatif_5}{performance audiovisuelle temps
+réel} \\ \addlinespace
 \protect\hyperlink{semaine_16}{14;
 18
-mai}\strut
-\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-Exceptionnellement un mardi,
+mai} & Exceptionnellement un mardi,
 \protect\hyperlink{sommatif_5}{performance audiovisuelle temps
-réel};\strut
-\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-Rédaction du document accompagnateur
-\protect\hyperlink{sommatif_5}{performance audiovisuelle temps réel}\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
+réel}; & Rédaction du document accompagnateur
+\protect\hyperlink{sommatif_5}{performance audiovisuelle temps réel} \\ \addlinespace
 \protect\hyperlink{semaine_17}{X;
 19
-mai}\strut
-\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-Épreuve uniforme de français (Pas de cours)\strut
-\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-Rédaction document \protect\hyperlink{sommatif_5}{performance audiovisuelle
-temps réel}\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.19}}\raggedright
+mai} & Épreuve uniforme de français (Pas de cours) & Rédaction document \protect\hyperlink{sommatif_5}{performance audiovisuelle
+temps réel} \\ \addlinespace
 \protect\hyperlink{semaine_18}{15;
 25
-mai}\strut
-\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-Remise du document accompagnateur \protect\hyperlink{sommatif_5}{performance
-audiovisuelle temps réel}\strut
-\end{minipage} & \begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.41}}\raggedright
-\strut
-\end{minipage}\tabularnewline
+mai} & Remise du document accompagnateur \protect\hyperlink{sommatif_5}{performance
+audiovisuelle temps réel} & \\ \addlinespace
 \bottomrule
 \end{longtable}
 
@@ -1420,7 +1311,7 @@ d:
 
 \begin{figure}
 \centering
-\includegraphics{medias/corpus/boccioni/Umberto_Boccioni,_1913,_Dynamism_of_a_Cyclist_(Dinamismo_di_un_ciclista),_oil_on_canvas,_70_x_95_cm,_Gianni_Mattioli_Collection,_on_long-term_loan_to_the_Peggy_Guggenheim_Collection,_Venice.jpg}
+\includegraphics{medias/corpus/boccioni/Umberto_Boccioni_1913Dinamismo_di_un_ciclista.jpg}
 \caption{Par Umberto Boccioni --- Peggy Guggenheim Collection, Domaine public, \url{https://commons.wikimedia.org/w/index.php?curid=38418936}}
 \end{figure}
 
@@ -1506,19 +1397,19 @@ d:
 
 \begin{figure}
 \centering
-\includegraphics[width=0.75\textwidth,height=\textheight]{medias/corpus/duchamp/MarcelduchampEcologie_portrait_duchamp_20140916163736_20140916163758.jpg}
+\includegraphics[width=0.75\textwidth,height=\textheight]{medias/corpus/duchamp/MarcelduchampEcologie_portrait_duchamp.jpg}
 \caption{Marcel Duchamp, 1887-1968}
 \end{figure}
 
 \begin{figure}
 \centering
-\includegraphics{medias/corpus/duchamp/MarcelduchampEcologie_duchamp_rotoreliefs_1935_20140917095658_20140917095757.jpg}
+\includegraphics{medias/corpus/duchamp/MarcelduchampEcologie_duchamp_rotoreliefs.jpg}
 \caption{Rotoreliefs, 1926}
 \end{figure}
 
 \begin{figure}
 \centering
-\includegraphics{medias/corpus/duchamp/MarcelduchampEcologie_ducha_rotative_plaque_verre_20140917224650_20140917225046.jpg}
+\includegraphics{medias/corpus/duchamp/MarcelduchampEcologie_ducha_rotative_plaque_verre.jpg}
 \caption{Plaque rotative sur verre, \textasciitilde1920-1923}
 \end{figure}
 
@@ -2346,6 +2237,9 @@ Toutes les possibilités entre le minimum et le maximum de voltage
 \hypertarget{acquerir}{%
 \chapter{Acquerir}\label{acquerir}}
 
+\hypertarget{physique-de-limagerie-numuxe9rique}{%
+\section{Physique de l'imagerie numérique}\label{physique-de-limagerie-numuxe9rique}}
+
 \hypertarget{rapport-de-cadre-ratio}{%
 \section{Rapport de cadre (Ratio)}\label{rapport-de-cadre-ratio}}
 
@@ -2520,8 +2414,8 @@ largeur / hauteur
   \href{https://en.wikipedia.org/wiki/Pixel_aspect_ratio}{ratios-pixels}
 \end{itemize}
 
-\hypertarget{physique-de-limagerie-numuxe9rique}{%
-\section{Physique de l'imagerie numérique}\label{physique-de-limagerie-numuxe9rique}}
+\hypertarget{acquerir_captation}{%
+\section{Acquisition vidéo numérique temps réel}\label{acquerir_captation}}
 
 \hypertarget{le-systuxe8me-oculaire}{%
 \subsection{Le système oculaire}\label{le-systuxe8me-oculaire}}
@@ -2550,52 +2444,38 @@ largeur / hauteur
   \url{http://what-when-how.com/introduction-to-video-and-image-processing/image-acquisition-introduction-to-video-and-image-processing-part-2/}
 \end{itemize}
 
-\hypertarget{acquerir_captation}{%
-\section{Acquisition vidéo numérique temps réel}\label{acquerir_captation}}
+\hypertarget{percevoir-limagerie-numuxe9rique}{%
+\section{Percevoir l'imagerie numérique}\label{percevoir-limagerie-numuxe9rique}}
 
-\hypertarget{sources-viduxe9o-obs}{%
-\subsection{Sources vidéo OBS}\label{sources-viduxe9o-obs}}
-
-\hypertarget{puxe9riphuxe9rique-de-capture-viduxe9o}{%
-\subsubsection{Périphérique de capture vidéo}\label{puxe9riphuxe9rique-de-capture-viduxe9o}}
+\hypertarget{le-systuxe8me-oculaire-1}{%
+\subsection{Le système oculaire}\label{le-systuxe8me-oculaire-1}}
 
 \begin{itemize}
 \tightlist
 \item
-  Webcam
-\item
-  Carte de capture HDMI
+  \url{http://what-when-how.com/display-i/nterfaces/the-human-visual-system-display-interfaces-part-1/}
 \end{itemize}
 
-\hypertarget{capture-duxe9cran}{%
-\subsubsection{Capture d'écran}\label{capture-duxe9cran}}
-
-\hypertarget{capture-de-fenuxeatre}{%
-\subsubsection{Capture de fenêtre}\label{capture-de-fenuxeatre}}
-
-\hypertarget{capture-de-contexte-gl-game-capture}{%
-\subsubsection{Capture de contexte GL (Game capture)}\label{capture-de-contexte-gl-game-capture}}
-
-\hypertarget{partage-de-texture-viduxe9o-spout-syphon}{%
-\subsubsection{Partage de texture vidéo (Spout, Syphon)}\label{partage-de-texture-viduxe9o-spout-syphon}}
-
-\hypertarget{camuxe9ra-virtuelle}{%
-\subsubsection{Caméra virtuelle}\label{camuxe9ra-virtuelle}}
-
-\hypertarget{navigateur}{%
-\subsubsection{Navigateur}\label{navigateur}}
-
-\hypertarget{tutoriels-obs-francophone-duxe9mystifiant-linterface}{%
-\subsection{Tutoriels OBS francophone démystifiant l'interface}\label{tutoriels-obs-francophone-duxe9mystifiant-linterface}}
+\hypertarget{numuxe9riser-la-lumiuxe8re-ruxe9fluxe9chie-1}{%
+\subsection{Numériser la lumière réfléchie}\label{numuxe9riser-la-lumiuxe8re-ruxe9fluxe9chie-1}}
 
 \begin{itemize}
 \tightlist
 \item
-  \url{https://www.leterminal.fr/manuel-obs-studio/}
+  \url{http://what-when-how.com/introduction-to-video-and-image-processing/image-acquisition-introduction-to-video-and-image-processing-part-1/}
+\end{itemize}
+
+\hypertarget{pixelation-numuxe9rique-des-capteurs}{%
+\subsection{Pixelation numérique des, capteurs}\label{pixelation-numuxe9rique-des-capteurs}}
+
+notament les limites des senseurs CCD,
+implémenter des algorytme pour sensibiliseaur les seuil maximum et minimum
+Permet de préserver de la couleur
+
+\begin{itemize}
+\tightlist
 \item
-  \url{https://maniacgeek.net/informatique/obs/utiliser-obs-guide/}
-\item
-  \url{https://sospc.name/obs-studio-tutoriel-mia/}
+  \url{http://what-when-how.com/introduction-to-video-and-image-processing/image-acquisition-introduction-to-video-and-image-processing-part-2/}
 \end{itemize}
 
 \hypertarget{echantillonner}{%
@@ -2911,14 +2791,14 @@ L'encodage est déterminé par la configuration d'un codec dans un conteneur.
 
 \begin{longtable}[]{@{}lll@{}}
 \toprule
-Codec & compression & usage\tabularnewline
+Codec & compression & usage \\ \addlinespace
 \midrule
 \endhead
-H.264\&VP8 & intra \& inter & lecture\textless1080p\tabularnewline
-HEVC\&VP9 & intra \& inter & lecture\textless4k\tabularnewline
-proRes & intra & montage\tabularnewline
-dnxHD & intra & montage\tabularnewline
-HAP & intra & GPU\&SSD\tabularnewline
+H.264\&VP8 & intra \& inter & lecture\textless1080p \\ \addlinespace
+HEVC\&VP9 & intra \& inter & lecture\textless4k \\ \addlinespace
+proRes & intra & montage \\ \addlinespace
+dnxHD & intra & montage \\ \addlinespace
+HAP & intra & GPU\&SSD \\ \addlinespace
 \bottomrule
 \end{longtable}
 
@@ -2927,15 +2807,15 @@ HAP & intra & GPU\&SSD\tabularnewline
 
 \begin{longtable}[]{@{}ll@{}}
 \toprule
-nom & extension\tabularnewline
+nom & extension \\ \addlinespace
 \midrule
 \endhead
-QuickTime & .mov\tabularnewline
-Matroska & .mkv\tabularnewline
-Mpeg4 & .mp4\tabularnewline
-Windows Media Video & .wmv\tabularnewline
-Audio Video Interleaved & .avi\tabularnewline
-Theora & .ogv\tabularnewline
+QuickTime & .mov \\ \addlinespace
+Matroska & .mkv \\ \addlinespace
+Mpeg4 & .mp4 \\ \addlinespace
+Windows Media Video & .wmv \\ \addlinespace
+Audio Video Interleaved & .avi \\ \addlinespace
+Theora & .ogv \\ \addlinespace
 \bottomrule
 \end{longtable}
 
@@ -3626,6 +3506,16 @@ Noise : \url{https://thebookofshaders.com/11/}
 \hypertarget{examples-html}{%
 \chapter{Examples HTML}\label{examples-html}}
 
+\begin{itemize}
+\tightlist
+\item
+  HTML CSS Animation
+\end{itemize}
+
+\url{https://www.experts-exchange.com/articles/14861/Build-a-Pure-CSS3-Slideshow-no-javascript-here.html}
+
+\url{https://webkit.org/blog-files/3d-transforms/poster-circle.html}
+
 \hypertarget{ffmpeg}{%
 \chapter{FFmpeg}\label{ffmpeg}}
 
@@ -3825,29 +3715,129 @@ Le fichier sortant sera précédé de \texttt{comp\_}
 \hypertarget{obs}{%
 \chapter{Open Broadcast Studio}\label{obs}}
 
-\hypertarget{sources-1}{%
-\section{Sources}\label{sources-1}}
+\url{https://obsproject.com/}
 
-\hypertarget{camuxe9ra-virtuelle-1}{%
-\section{Caméra virtuelle}\label{camuxe9ra-virtuelle-1}}
+\hypertarget{profil}{%
+\section{Profil}\label{profil}}
 
-\hypertarget{source-html-shader-toy}{%
-\section{source html shader toy?}\label{source-html-shader-toy}}
+Gestion des paramètres de transmissions (sorties) ainsi que de la résolution.
 
-\url{https://www.shadertoy.com/embed/WtfyDj?gui=true\&t=10\&paused=false}
+\hypertarget{collection-de-scuxe8ne}{%
+\section{Collection de scène}\label{collection-de-scuxe8ne}}
 
-\url{https://www.shadertoy.com/view/ttBcWm}
+Gestion des scène sauvegardé par ensemble
 
-\url{https://www.shadertoy.com/view/Wt2BR1}
+\hypertarget{scuxe8ne}{%
+\section{Scène}\label{scuxe8ne}}
 
-\hypertarget{source-youtube-fullscreen}{%
-\section{source youtube fullscreen}\label{source-youtube-fullscreen}}
+Regroupement de sources organisées.
 
-\begin{verbatim}
-\end{verbatim}
+Peut inclure des scènes
+
+Les transformations lié au positionnement et au rognage sont spécifique à la scène.
+
+\hypertarget{sources-viduxe9os}{%
+\section{Sources vidéos}\label{sources-viduxe9os}}
+
+\hypertarget{puxe9riphuxe9rique-de-capture-viduxe9o}{%
+\subsection{Périphérique de capture vidéo}\label{puxe9riphuxe9rique-de-capture-viduxe9o}}
+
+\begin{itemize}
+\tightlist
+\item
+  Webcam
+\item
+  Carte de capture HDMI
+\end{itemize}
+
+\hypertarget{navigateur}{%
+\subsection{Navigateur}\label{navigateur}}
+
+Permet d'afficher du html local ou distant via une instance chromium
+
+Favoriser le plein écran,
+
+Interaction possible touch input
+X-Y sur signal vidéo
+
+Possibilitée de passer des messages CSS
+
+\hypertarget{capture-duxe9cran}{%
+\subsection{Capture d'écran}\label{capture-duxe9cran}}
+
+Capture un écran en entier
+
+\hypertarget{capture-de-fenuxeatre}{%
+\subsection{Capture de fenêtre}\label{capture-de-fenuxeatre}}
+
+Isole une fenêtre
+
+\hypertarget{capture-de-contexte-gl}{%
+\subsection{Capture de contexte GL}\label{capture-de-contexte-gl}}
+
+Technologies associées à la capture de jeu (Game capture)
+
+\hypertarget{partage-via-publication-locale-de-texture-viduxe9o}{%
+\subsection{Partage via publication locale de texture vidéo}\label{partage-via-publication-locale-de-texture-viduxe9o}}
+
+Associés au(Spout, Syphon)
+
+\hypertarget{camuxe9ra-virtuelle}{%
+\section{Caméra virtuelle}\label{camuxe9ra-virtuelle}}
+
+Permet d'injecter la sortie d'OBS dans d'autre logiciels.
+Native depuis la versions 26.0
+
+\hypertarget{tutoriels-obs-francophone-duxe9mystifiant-linterface}{%
+\section{Tutoriels OBS francophone démystifiant l'interface}\label{tutoriels-obs-francophone-duxe9mystifiant-linterface}}
+
+\begin{itemize}
+\tightlist
+\item
+  \url{https://www.leterminal.fr/manuel-obs-studio/}
+\item
+  \url{https://maniacgeek.net/informatique/obs/utiliser-obs-guide/}
+\item
+  \url{https://sospc.name/obs-studio-tutoriel-mia/}
+\end{itemize}
+
+\hypertarget{plugiciel}{%
+\section{Plugiciel}\label{plugiciel}}
+
+\url{https://obsproject.com/forum/resources/categories/obs-studio-plugins.6/}
+
+\hypertarget{obs-websocket}{%
+\subsection{Obs-websocket}\label{obs-websocket}}
+
+\url{https://obsproject.com/forum/resources/obs-websocket-remote-control-obs-studio-from-websockets.466/}
+
+\hypertarget{obs-ndi}{%
+\subsection{OBS-NDI}\label{obs-ndi}}
+
+\url{https://obsproject.com/forum/resources/obs-ndi-newtek-ndi\%E2\%84\%A2-integration-into-obs-studio.528/}
+
+\hypertarget{obs-midi}{%
+\subsection{OBS-MIDI}\label{obs-midi}}
+
+\url{https://obsproject.com/forum/resources/obs-midi.1023/}
+
+\hypertarget{move}{%
+\subsection{Move}\label{move}}
+
+\url{https://obsproject.com/forum/resources/move-transition.913/}
+
+\hypertarget{osc-for-obs}{%
+\subsection{OSC for OBS}\label{osc-for-obs}}
+
+\url{https://obsproject.com/forum/resources/osc-for-obs-app.1222/}
+
+\hypertarget{streamfx}{%
+\subsection{streamfx}\label{streamfx}}
+
+\url{https://obsproject.com/forum/resources/streamfx-for-obs-studio.578/}
 
 \hypertarget{exemple-de-shader-pour-faire-du-mapping-dans-obs}{%
-\subsection{exemple de Shader pour faire du mapping dans OBS}\label{exemple-de-shader-pour-faire-du-mapping-dans-obs}}
+\subsubsection{exemple de Shader pour faire du mapping dans OBS}\label{exemple-de-shader-pour-faire-du-mapping-dans-obs}}
 
 \begin{verbatim}
 // Corner Pin shader by rmanky
@@ -3956,6 +3946,18 @@ float4 mainImage(VertData v_in) : TARGET
 Compilation via Bookdown \citep{xie2015}
 
 \url{https://thebookofshaders.com/01/?lan=fr}
+
+\hypertarget{materiel}{%
+\chapter{Materiel}\label{materiel}}
+
+\hypertarget{section-6}{%
+\section{}\label{section-6}}
+
+\hypertarget{comprendre-le-nom-du-moduxe8le-de-carte-graphique}{%
+\subsection{Comprendre le nom du modèle de carte graphique}\label{comprendre-le-nom-du-moduxe8le-de-carte-graphique}}
+
+\hypertarget{nvidia}{%
+\subsubsection{Nvidia}\label{nvidia}}
 
   \bibliography{book.bib,packages.bib,582543-traitement-video.bib}
 

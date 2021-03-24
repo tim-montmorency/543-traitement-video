@@ -95,13 +95,13 @@
 
 ## Marcel Duchamp
 <center>
-![Marcel Duchamp, 1887-1968](medias/corpus/duchamp/MarcelduchampEcologie_portrait_duchamp_20140916163736_20140916163758.jpg){width=75%}
+![Marcel Duchamp, 1887-1968](medias/corpus/duchamp/MarcelduchampEcologie_portrait_duchamp.jpg){width=75%}
 
 
-![Rotoreliefs, 1926](medias/corpus/duchamp/MarcelduchampEcologie_duchamp_rotoreliefs_1935_20140917095658_20140917095757.jpg)
+![Rotoreliefs, 1926](medias/corpus/duchamp/MarcelduchampEcologie_duchamp_rotoreliefs.jpg)
 
 
-![Plaque rotative sur verre, ~1920-1923](medias/corpus/duchamp/MarcelduchampEcologie_ducha_rotative_plaque_verre_20140917224650_20140917225046.jpg)
+![Plaque rotative sur verre, ~1920-1923](medias/corpus/duchamp/MarcelduchampEcologie_ducha_rotative_plaque_verre.jpg)
 
 
 <iframe width="100%" height="480px"  src="https://www.youtube.com/embed/dXINTf8kXCc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
