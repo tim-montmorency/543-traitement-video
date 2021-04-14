@@ -1,0 +1,40 @@
+#N canvas 273 52 1265 793 12;
+#X text 288 20 ajouter un commentaire;
+#X obj 23 178 netsend -u -b;
+#X obj 24 95 oscformat /go;
+#X obj 24 77 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X msg 34 152 disconnect \, connect 127.0.0.1 3333;
+#X obj 24 54 metro 1000;
+#X obj 24 33 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0 1
+;
+#X obj 34 127 loadbang;
+#X floatatom 91 26 5 0 0 0 - - -;
+#N canvas 1060 164 450 300 documentation-obswebsocket 0;
+#X obj 37 85 pdcontrol;
+#X msg 37 61 browse https://github.com/jshea2/OSC-for-OBS;
+#X connect 1 0 0 0;
+#X restore 185 77 pd documentation-obswebsocket;
+#X msg 169 219 /[source_name]/[color_correction_filter_name]/opacity
+[0 thru 100];
+#X floatatom 61 253 5 0 100 0 - - -;
+#X obj 74 317 oscformat /src-colorshift/cc/gamma;
+#X floatatom 75 297 5 -3 3 0 - - -;
+#X obj 62 277 oscformat /src-colorshift/cc/opacity;
+#X obj 60 226 line;
+#X msg 99 205 100 1000;
+#X msg 100 229 0 1000;
+#X connect 2 0 1 0;
+#X connect 3 0 2 0;
+#X connect 4 0 1 0;
+#X connect 5 0 3 0;
+#X connect 6 0 5 0;
+#X connect 7 0 4 0;
+#X connect 8 0 5 1;
+#X connect 11 0 14 0;
+#X connect 12 0 1 0;
+#X connect 13 0 12 0;
+#X connect 14 0 1 0;
+#X connect 15 0 11 0;
+#X connect 16 0 15 0;
+#X connect 17 0 15 0;
