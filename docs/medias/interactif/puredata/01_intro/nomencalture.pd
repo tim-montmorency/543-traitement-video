@@ -1,0 +1,17 @@
+#N canvas 953 32 683 636 12;
+#X obj 18 30;
+#X text 80 28 Programmer?;
+#X msg 61 88;
+#X text 114 88 message;
+#X text 182 27 ctrl ou option et 1;
+#X text 183 90 ctrl ou option et 2;
+#N canvas 132 409 569 396 un_nom_dAbstraction 0;
+#X obj 55 42 inlet;
+#X obj 56 122 outlet;
+#X text 125 47 entrée;
+#X text 127 121 sortie;
+#X text 14 2 Abstraction;
+#X text 111 86 traitement;
+#X obj 72 87 expr;
+#X connect 0 0 1 0;
+#X restore 12 143 pd un_nom_dAbstraction;
